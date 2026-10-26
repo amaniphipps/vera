@@ -46,13 +46,23 @@ Use the cheapest honest source first, escalate only as needed:
 Respect every rate limit. Batch nothing aggressive. A study is a guest visit,
 not a load test.
 
-### 3. Write the ontology entry
-Create or update `knowledge/graph/entities/systems/<slug>.yaml`:
-- purpose, owner (if known), auth model class, base endpoints (references,
-  not secrets), core objects with field shapes, known limitations, and links
-  to the evidence you gathered. Every claim carries its evidence — follow the
-  evidence-trail format. Facts come from verified reads only, never from chat
-  assertions alone.
+### 3. Write the tactical map (ontology entry)
+Create or update `knowledge/graph/entities/systems/<slug>.yaml`. The entry is
+a tactical map of the system, not just a spec sheet:
+- **Purpose and owner** — what it's for in one sentence; who owns it (if known).
+- **Who uses it** — the kinds of people and teams observed or documented
+  ("used by ops people who live in it daily" vs "execs read dashboards").
+- **Use cases** — what people actually do in it, in their terms.
+- **Conventions** — naming patterns, stage/status vocabularies, required-field
+  habits, the way THIS instance is configured (custom objects, custom fields,
+  naming quirks). Generic product docs never cover these; they are the part
+  worth studying.
+- **Instance structure** — core objects with field shapes, base endpoints
+  (references, not secrets), auth model class, known limitations.
+Every claim carries its evidence — follow the evidence-trail format. Facts
+come from verified reads only, never from chat assertions alone. When you
+report back, regurgitate the map in plain language: "here's who uses this,
+here's what for, here's how your instance is put together."
 
 ### 4. Draft the skill
 Write a draft integration skill into `skills-live/<system-slug>/`:

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q3 ARR Roll-Forward — Northwind (mock)</title>
+<style>
+  :root {
+    --paper: #FBFAF7; --card: #FFFFFF; --ink: #1D1F27; --muted: #6E7382;
+    --accent: #6C5CE7; --accent-soft: #EFECFC;
+    --good: #0E8A72; --good-soft: #E4F4F0;
+    --risk: #BE4B3B; --risk-soft: #FAEAE7;
+    --line: #E8E5DE;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--font); line-height: 1.55; }
+  .report-page { max-width: 1080px; margin: 0 auto; padding: 48px 32px 64px; }
+  .vera-mark { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
+  .vera-dot { width: 14px; height: 14px; border-radius: 4px; background: var(--accent); }
+  .vera-name { font-weight: 700; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+  .vera-tag { font-size: 12px; color: var(--muted); }
+  h1 { font-size: 30px; letter-spacing: -0.02em; margin-bottom: 6px; }
+  .period { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  .so-what { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 22px 26px; margin-bottom: 36px; }
+  .so-what .label { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+  .so-what p { font-size: 17px; }
+  section { margin-bottom: 40px; }
+  h2 { font-size: 19px; margin-bottom: 4px; }
+  h2 .num { color: var(--accent); margin-right: 8px; }
+  .takeaway { font-size: 15px; margin-bottom: 18px; }
+  .takeaway strong { color: var(--accent); }
+
+  /* Waterfall */
+  .waterfall { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 28px 24px 12px; overflow-x: auto; }
+  .wf-chart { display: flex; align-items: flex-end; gap: 4%; height: 300px; min-width: 640px; border-bottom: 2px solid var(--ink); position: relative; padding: 0 2%; }
+  .wf-col { flex: 1; position: relative; height: 100%; }
+  .wf-bar { position: absolute; left: 8%; right: 8%; border-radius: 6px 6px 0 0; transition: filter 0.15s; }
+  .wf-bar:hover { filter: brightness(1.1); }
+  .wf-bar.total { background: var(--accent); }
+  .wf-bar.up { background: var(--good); }
+  .wf-bar.down { background: var(--risk); border-radius: 0 0 6px 6px; }
+  .wf-val { position: absolute; left: 0; right: 0; text-align: center; font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .wf-connector { position: absolute; height: 0; border-top: 1px dashed #B9BDC9; }
+  .wf-labels { display: flex; gap: 4%; min-width: 640px; padding: 8px 2% 12px; }
+  .wf-labels span { flex: 1; text-align: center; font-size: 12px; color: var(--muted); }
+  .wf-legend { display: flex; gap: 18px; padding: 6px 2% 10px; font-size: 12px; color: var(--muted); }
+  .wf-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; }
+
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; font-size: 14px; }
+  th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); padding: 12px 16px; border-bottom: 1px solid var(--line); background: #FDFCFA; }
+  td { padding: 11px 16px; border-bottom: 1px solid var(--line); }
+  tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--accent-soft); }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .neg { color: var(--risk); }
+  .pos { color: var(--good); }
+  .table-wrap { overflow-x: auto; border-radius: 10px; }
+
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 12px; color: var(--muted); }
+  .confidence { font-weight: 600; color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="report-page">
+
+  <div class="vera-mark">
+    <div class="vera-dot"></div>
+    <span class="vera-name">Vera</span>
+    <span class="vera-tag">RevOps teammate · mock output, fake data</span>
+  </div>
+
+  <h1>Q3 ARR roll-forward</h1>
+  <div class="period">Northwind · Q3 2026 · pulled Oct 2, 7:00am ET</div>
+
+  <div class="so-what">
+    <div class="label">The so-what</div>
+    <p>ARR grew <strong>$2.1M to $14.6M (+16.8%)</strong>. Expansion carried the quarter while new logos slowed and got smaller. Churn stayed healthy — the story is acquisition, not retention.</p>
+  </div>
+
+  <section>
+    <h2><span class="num">1</span>The waterfall</h2>
+    <p class="takeaway">Every dollar of movement, named. The $2.1M net is <strong>$2.5M of gains minus $445k of losses</strong> — and 65% of the gains came from customers we already had.</p>
+    <div class="waterfall">
+      <div class="wf-chart">
+        <div class="wf-col"><div class="wf-bar total" style="bottom:0; height:80.6%"></div><div class="wf-val" style="bottom:82%">$12.5M</div></div>
+        <div class="wf-col"><div class="wf-bar up" style="bottom:80.6%; height:5.4%"></div><div class="wf-val" style="bottom:87.3%">+840k</div><div class="wf-connector" style="left:-4%; right:92%; top:19.4%"></div></div>
+        <div class="wf-col"><div class="wf-bar up" style="bottom:86.1%; height:10.4%"></div><div class="wf-val" style="bottom:97.8%; color:var(--good)">+1.61M</div><div class="wf-connector" style="left:-4%; right:92%; top:13.9%"></div></div>
+        <div class="wf-col"><div class="wf-bar up" style="bottom:96.5%; height:0.6%"></div><div class="wf-val" style="bottom:98.4%; font-size:11px">+95k</div><div class="wf-connector" style="left:-4%; right:92%; top:3.5%"></div></div>
+        <div class="wf-col"><div class="wf-bar down" style="bottom:95.7%; height:1.4%"></div><div class="wf-val" style="bottom:98.4%; font-size:11px; color:var(--risk)">−210k</div><div class="wf-connector" style="left:-4%; right:92%; top:2.9%"></div></div>
+        <div class="wf-col"><div class="wf-bar down" style="bottom:94.2%; height:1.5%"></div><div class="wf-val" style="bottom:96.9%; font-size:11px; color:var(--risk)">−235k</div><div class="wf-connector" style="left:-4%; right:92%; top:4.3%"></div></div>
+        <div class="wf-col"><div class="wf-bar total" style="bottom:0; height:94.2%"></div><div class="wf-val" style="bottom:95.6%"><strong>$14.6M</strong></div><div class="wf-connector" style="left:-4%; right:92%; top:5.8%"></div></div>
+      </div>
+      <div class="wf-labels">
+        <span>Start</span><span>New</span><span>Expansion</span><span>Reactivation</span><span>Contraction</span><span>Churn</span><span>End</span>
+      </div>
+      <div class="wf-legend">
+        <span><i style="background:var(--accent)"></i>Total</span>
+        <span><i style="background:var(--good)"></i>Gains</span>
+        <span><i style="background:var(--risk)"></i>Losses</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>The roll-forward, reconciled</h2>
+    <p class="takeaway">The movement table ties to the billing system exactly. <strong>No unexplained residual</strong> — if it didn't reconcile, this report wouldn't ship.</p>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th>Movement</th><th class="num">ARR ($k)</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Starting ARR (Jul 1)</td><td class="num">12,500</td><td>148 customers</td></tr>
+        <tr><td>New</td><td class="num pos">+840</td><td>19 logos, $44k avg (down from $52k)</td></tr>
+        <tr><td>Expansion</td><td class="num pos">+1,610</td><td>41 upgrades; two to Enterprise</td></tr>
+        <tr><td>Reactivation</td><td class="num pos">+95</td><td>3 returned</td></tr>
+        <tr><td>Contraction</td><td class="num neg">−210</td><td>9 downgrades</td></tr>
+        <tr><td>Churn</td><td class="num neg">−235</td><td>6 logos, 1.9% of start</td></tr>
+        <tr><td><strong>Ending ARR (Sep 30)</strong></td><td class="num"><strong>14,600</strong></td><td>161 customers · reconciles to zero</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>What to take from it</h2>
+    <p class="takeaway"><strong>NRR is 109.6%</strong> — healthy, but three quarters down from 118%. New-logo ARR per deal is shrinking ($52k → $48k → $44k). Churn is concentrated in sub-$30k monthly-plan accounts; annual-plan churn was effectively zero. The Q4 lever is acquisition quality, not retention spend.</p>
+  </section>
+
+  <footer>
+    <span class="confidence">Confidence: meaningful. Ties to billing; movement categories reviewed deal-by-deal.</span>
+    <span>Built by Vera · one file, opens anywhere</span>
+  </footer>
+
+</div>
+</body>
+</html>
