@@ -14,7 +14,7 @@ She runs on [Hermes Agent](https://github.com/NousResearch/hermes-agent) (open s
 - **Delivers finished work.** Reports, docs, diagrams, and visuals that are ready to forward as-is.
 - **Keeps herself tidy.** Everything Vera learns lands in a quarantined `skills-live/` folder, gets vetted nightly, and only graduates into the shipped skill set through review.
 
-## Quickstart (target experience)
+## Quickstart
 
 ```bash
 git clone https://github.com/amaniphipps/vera.git
@@ -22,7 +22,7 @@ cd vera
 ./setup/setup.sh
 ```
 
-Setup ends when Vera says hello in your channel — not before.
+Setup ends when Vera says hello — not before. Afterward, `./setup/doctor.sh` tells you the honest state of the install.
 
 ## Guardrails are a feature
 
