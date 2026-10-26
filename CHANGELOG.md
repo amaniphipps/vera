@@ -20,7 +20,9 @@ First public shape. Everything is new.
 - delivery: vera-reporting, documents, visuals, brand-design, enablement,
   intro-messages
 - engineering: thinking, code-review
-- self-maintenance: skill-vetter (boot lint + weekly review + promotion PRs)
+- self-maintenance: skill-vetter (boot lint + weekly review + promotion PRs),
+  analysis-validator (18-check two-gate QA: data correctness + output quality
+  + significance awareness; mandatory before any numbered output ships)
 - skills/schema/skill.schema.yaml; every manifest validates
 
 ### Policy
