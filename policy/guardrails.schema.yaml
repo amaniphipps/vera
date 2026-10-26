@@ -28,6 +28,7 @@ properties:
     properties:
       default: {type: string, enum: [read-only, write-slack, write-external]}
       allowed_surfaces: {type: array, items: {type: string}}
+      confirm_before_write: {type: string, enum: [always, standing]}
   sql:
     type: object
     properties:

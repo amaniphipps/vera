@@ -18,6 +18,7 @@ content_rules:
 writes:
   default: read-only        # ships read-only; widen deliberately
   allowed_surfaces: []      # e.g. [slack] — the ONLY writable systems
+  confirm_before_write: always  # always = ask per action even with keys; standing = explicit grants below
 
 sql:
   allowed_statements: [SELECT, SHOW, DESCRIBE, EXPLAIN]

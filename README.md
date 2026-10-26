@@ -1,6 +1,6 @@
 # Vera
 
-Vera is an ops agent that learns how you work.
+Vera is a RevOps teammate that grows with you.
 
 She runs on [Hermes Agent](https://github.com/NousResearch/hermes-agent) (open source) and meets you where you already talk — Slack, WhatsApp, SMS, GroupMe, or Teams. Connect your tools and she studies how they work, drafts her own skills for them, and gets better every week.
 
