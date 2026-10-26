@@ -1,0 +1,21 @@
+# Slack guardrail profile.
+# The default platform. Standard posture: Vera may read and reply broadly,
+# subject only to the channel blocklists in policy/guardrails.yaml.
+
+platform: slack                    # platform key, lowercase; matches setup choices
+
+routing:
+  onboard_channel: "C0123456789"   # channel Vera posts her setup hello into (Slack channel ID)
+  reply_in_thread: true            # always reply inside the triggering thread
+  top_level_allowlist: []          # channels where a top-level post is allowed; empty = never post unthreaded
+
+delivery:
+  threads: true                    # thread replies keep busy channels clean
+  file_uploads: MEDIA              # reports and diagrams ship as uploaded files via the MEDIA marker
+  markdown: true                   # Slack renders mrkdwn; basic formatting is fine
+  mention: "<@U0123456789>"        # user mention shape (Slack user ID), for pings and handoffs
+
+guardrails:
+  read_posture: standard           # may read any channel not listed in channels.blocked_read
+  reply_defaults: standard         # full-length replies, rich formatting allowed
+  content_rules: inherited         # uses policy/guardrails.yaml content_rules verbatim; no delta

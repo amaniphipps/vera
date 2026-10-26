@@ -1,0 +1,37 @@
+# Vera decision-layer contract.
+# Data, not code. Describes the interface any model router must implement
+# to drive Vera's model picks. Vera does not execute this file; you wire a
+# router to it.
+
+version: "0.1.0"
+
+# ── Inputs ─────────────────────────────────────────────────────
+# What Vera sends to the router for each task.
+inputs:
+  task_type: enum        # analysis | delivery | capability | engineering | self-maintenance
+  priority: enum         # cost | quality | speed — the operator's one knob
+  budget_hint: float     # optional max spend in USD; 0 = no cap
+
+# ── Outputs ────────────────────────────────────────────────────
+# What the router must return. Shape is fixed; contents are the router's.
+outputs:
+  recommended_model: string   # model slug, provider-native format
+  provider: string            # openrouter | anthropic | openai | gemini | other
+  rationale: string           # one line on why this model won
+  alternatives:               # list, so a different priority is visible
+    - model: string
+      provider: string
+      why: string             # one line: what this alternative picks instead
+
+# ── Routing shape ──────────────────────────────────────────────
+# The internal flow any conforming router follows: route, score, recommend.
+routing:
+  route:                # map the task to a candidate pool
+    by: task_type
+    pool: candidate_models
+  score:                # rank candidates against priority and sources
+    by: priority
+    inputs: [benchmark_sources, budget_hint]
+  recommend:            # pick the top scorer, list the rest
+    top: 1
+    alternatives: 2

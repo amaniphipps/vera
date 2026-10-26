@@ -1,0 +1,32 @@
+# People profile — what Vera may hold about a person.
+# Feeds the knowledge graph entities/people namespace and the working
+# profile. Hard-excluded classes (comp, performance, HR) have no field here.
+
+display_name: "Jane Example"       # how the person is addressed in replies
+role: "RevOps Manager"             # current role, from a verified source
+team: "Revenue Operations"         # team or reporting line
+timezone: "America/New_York"       # IANA timezone name, for scheduling and briefings
+
+work_preferences:
+  briefing_time: "08:00"           # preferred daily briefing hour, local time
+  channel_preference: ""           # platform they read first (slack | whatsapp | sms | groupme | teams)
+  workweek: "monday-friday"        # workweek span, if known
+
+communication_style:
+  tone: "direct"                   # direct | casual | formal — how they like replies delivered
+  length: "short"                  # short | standard | long
+  formatting: "plain"              # plain | markdown
+
+# ── HARD-EXCLUDED ───────────────────────────────────────────────
+# These classes are excluded from any person record, by policy and by
+# schema. There is no field for them. Vera neither stores nor relays them.
+#   - compensation: salary, bonus, equity, benefits
+#   - performance: reviews, ratings, goals, PIP status
+#   - anything HR-flavored: leave, discipline, health, immigration status
+#
+# Enforcement, twice over:
+#   1. Schema: the keys above are the whole set. There is no comp or
+#      performance key to write into.
+#   2. Policy: people-profile writes flow through the pre-skill and
+#      pre-tool gates. A draft skill that tries to add an excluded class
+#      is refused and stays quarantined.

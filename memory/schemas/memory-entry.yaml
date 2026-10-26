@@ -1,0 +1,27 @@
+# Durable-memory entry — the declarative shape for one fact Vera keeps.
+# This is data, not chat. Every field matters at recall time.
+# Copy this file as a template; do not edit the schema of an existing store.
+
+fact: "the admin prefers the daily briefing at 08:00 in their timezone"  # the claim, one line, plain
+category: user-preference          # one of: user-preference | org-fact | system-fact | contact-fact | decision
+confidence: high                   # high | medium | low — how sure Vera is of this fact
+source: confirmed-admin-statement  # where it came from; a real read or an admin statement, never chat alone
+first_seen: "2026-10-25"           # when Vera learned it (ISO date)
+last_confirmed: "2026-10-25"       # last time a source re-confirmed it (ISO date)
+
+expiry:
+  ttl_days: 90                     # re-review after N days; blank = durable, no expiry
+  reason: ""                       # why it expires, e.g. "tied to a role that changes often"
+
+# ── Working-profile budget ──────────────────────────────────────
+# Separate from this durable store. Vera keeps a small working profile in
+# memory, held to roughly 5-6k characters total, split in two:
+#   - user profile: who the admin is, how they work (about 60%)
+#   - org notes: the org's shape and current state (about 40%)
+# The working profile is the fast cache. The durable store above is the
+# long-term ledger. Not every working-profile note becomes a durable entry.
+
+# ── Draft-tier rule ─────────────────────────────────────────────
+# Learnings from draft-tier skills (unreviewed, in skills-live/) never
+# enter durable memory. Only facts from hardened skills or confirmed admin
+# statements qualify. A draft can propose a fact; a review must admit it.

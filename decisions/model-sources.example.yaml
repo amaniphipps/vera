@@ -1,0 +1,33 @@
+# Model benchmark sources.
+# Copy to model-sources.yaml and point each slot at a public leaderboard
+# you trust. The decision layer reads these to score candidate models.
+# Each slot is a URL plus a refresh cadence and a trust note.
+
+# refresh_cadence: hourly | daily | weekly | manual
+# format: json | csv | html — what the page returns
+# trust: what to watch out for with this source
+
+sources:
+  - name: "generic-llm-leaderboard-a"
+    url: "https://example.com/leaderboards/llm"     # replace with a public leaderboard URL
+    format: "json"
+    refresh_cadence: "weekly"
+    trust: "crowd-sourced; skews toward chat-style scores"
+
+  - name: "coding-eval-board"
+    url: "https://example.com/benchmarks/code"      # replace with a code-focused eval page
+    format: "json"
+    refresh_cadence: "weekly"
+    trust: "code tasks only; ignore for briefing and writing tasks"
+
+  - name: "latency-cost-table"
+    url: "https://example.com/benchmarks/latency"   # replace with a cost and latency table
+    format: "csv"
+    refresh_cadence: "daily"                        # cost and latency move fast
+    trust: "provider-reported; verify against your own measurements"
+
+  - name: "quality-arena"
+    url: "https://example.com/leaderboards/quality" # replace with a quality arena page
+    format: "html"
+    refresh_cadence: "weekly"
+    trust: "broad quality signal; not a replacement for your own evals"

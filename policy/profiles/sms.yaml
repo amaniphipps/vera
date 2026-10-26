@@ -1,0 +1,22 @@
+# SMS guardrail profile.
+# The most constrained surface. Read-mostly, short-reply, strict PII.
+# SMS segments are tiny and cleartext; Vera stays terse and never echoes secrets.
+
+platform: sms                       # platform key, lowercase; matches setup choices
+
+routing:
+  onboard_number: "+15550123456"    # E.164 number Vera onboards on
+  reply_target: sender               # reply to whoever messaged; no broadcasts
+
+delivery:
+  segment_cap: 160                   # chars per SMS segment (GSM-7); a message may span segments
+  concatenation: true                # carriers split long messages; stay under 3 segments
+  hard_length_cap: 480               # 3 segments max; shorter is always better here
+  markdown: false                    # no markdown; SMS is plain text only
+  rich_files: false                  # no files, no media, no links that wrap and break
+
+guardrails:
+  read_posture: read-mostly          # reads only messages sent to her line
+  reply_defaults: short-reply        # terse, single-answer replies only
+  pii: strict                        # never echo numbers, addresses, tokens, or report values over SMS
+  content_rules: strict              # secret_redaction at strict; redact any identifier-looking string

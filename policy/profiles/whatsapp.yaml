@@ -1,0 +1,21 @@
+# WhatsApp guardrail profile.
+# Read-mostly, short-reply. WhatsApp is a fast personal channel; Vera keeps
+# replies to a few lines and ships no rich files.
+
+platform: whatsapp                 # platform key, lowercase; matches setup choices
+
+routing:
+  onboard_number: "+15550123456"   # E.164 number Vera onboards on
+  reply_target: sender              # reply to whoever messaged; no pro-active outreach
+  group_scope: allowlist            # groups only: Vera acts in allowlisted groups, never joins on her own
+
+delivery:
+  short_replies: true               # keep answers to a few lines; no prose dumps
+  rich_files: false                 # no file uploads; summarize results as text instead
+  markdown: false                   # plain text only; WhatsApp does not render markdown
+  length_cap: 1000                  # chars; long blocks get truncated and misread
+
+guardrails:
+  read_posture: read-mostly         # reads what is sent to her; no channel scanning
+  reply_defaults: short-reply       # one answer, few lines, no preamble
+  content_rules: strict             # stricter secret_redaction than default; treat phone numbers as sensitive

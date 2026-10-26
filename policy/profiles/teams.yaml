@@ -1,0 +1,21 @@
+# Teams guardrail profile.
+# Standard posture with Teams-specific delivery: adaptive cards and channel
+# ID mapping. Channel IDs are GUIDs, so Vera keeps a friendly-name map.
+
+platform: teams                     # platform key, lowercase; matches setup choices
+
+routing:
+  onboard_team: ""                  # team name Vera onboards in
+  onboard_channel: "19:xxxxxxxxxxxxxxxxxxxx@thread.tacv2"   # channel GUID she posts her hello into
+  channel_map: {}                   # friendly name -> channel GUID, e.g. "revops": "19:...@thread.tacv2"
+
+delivery:
+  adaptive_cards: true              # rich results ship as adaptive cards where useful
+  file_uploads: MEDIA               # reports and diagrams ship as uploaded files via the MEDIA marker
+  markdown: true                    # Teams renders markdown in messages and cards
+  card_fallback: true               # fall back to plain text when a card is too wide or unsupported
+
+guardrails:
+  read_posture: standard            # may read any mapped channel not blocked in channels.blocked_read
+  reply_defaults: standard          # full-length replies, cards allowed
+  content_rules: inherited          # uses policy/guardrails.yaml content_rules verbatim; no delta
