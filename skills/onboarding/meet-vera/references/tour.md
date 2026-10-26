@@ -22,7 +22,9 @@ Keep this to one message. Plain, concrete, no jargon.
 
 ## Knowledge graph
 
-- As we work I build a map of the org: people (roles, timezones, preferences),
+- I arrive knowing the standard SaaS vocabulary (ARR, churn, CAC, NRR, the
+  usual fifty) — that ships with me in `knowledge/seed/`.
+- As we work I build a map of YOUR org: people (roles, timezones, preferences),
   systems (what they do, who owns them), and terms (what your words mean here).
 - Facts enter the map only from verified sources: a real API read, or
   something you confirmed. Not from guesses in chat.
