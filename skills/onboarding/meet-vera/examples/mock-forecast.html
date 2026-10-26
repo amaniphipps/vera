@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q4 Forecast — Northwind (mock)</title>
+<style>
+  :root {
+    --paper: #FBFAF7;
+    --card: #FFFFFF;
+    --ink: #1D1F27;
+    --muted: #6E7382;
+    --accent: #6C5CE7;
+    --accent-soft: #EFECFC;
+    --good: #0E8A72;
+    --good-soft: #E4F4F0;
+    --warn: #B07917;
+    --warn-soft: #FBF3E1;
+    --risk: #BE4B3B;
+    --risk-soft: #FAEAE7;
+    --line: #E8E5DE;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--font); line-height: 1.55; }
+  .report-page { max-width: 1080px; margin: 0 auto; padding: 48px 32px 64px; }
+
+  .vera-mark { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
+  .vera-dot { width: 14px; height: 14px; border-radius: 4px; background: var(--accent); }
+  .vera-name { font-weight: 700; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+  .vera-tag { font-size: 12px; color: var(--muted); }
+
+  h1 { font-size: 30px; letter-spacing: -0.02em; margin-bottom: 6px; }
+  .period { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+  .so-what { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 22px 26px; margin-bottom: 36px; }
+  .so-what .label { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+  .so-what p { font-size: 17px; }
+
+  section { margin-bottom: 40px; }
+  h2 { font-size: 19px; margin-bottom: 4px; }
+  h2 .num { color: var(--accent); margin-right: 8px; }
+  .takeaway { color: var(--ink); font-size: 15px; margin-bottom: 18px; }
+  .takeaway strong { color: var(--accent); }
+
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; }
+  .kpi .k-label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .kpi .k-value { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; margin: 2px 0; }
+  .kpi .k-note { font-size: 12px; color: var(--muted); }
+  .kpi.good .k-value { color: var(--good); }
+  .kpi.warn .k-value { color: var(--warn); }
+
+  .bars { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; }
+  .bar-row { display: grid; grid-template-columns: 150px 1fr 90px; align-items: center; gap: 12px; padding: 7px 0; }
+  .bar-row .b-label { font-size: 13px; color: var(--muted); text-align: right; }
+  .bar-track { background: var(--accent-soft); border-radius: 6px; height: 22px; position: relative; }
+  .bar-fill { background: var(--accent); border-radius: 6px; height: 22px; transition: filter 0.15s; }
+  .bar-row:hover .bar-fill { filter: brightness(1.12); }
+  .bar-row:hover .b-value { color: var(--ink); }
+  .bar-fill.target { background: repeating-linear-gradient(45deg, var(--accent), var(--accent) 6px, #8573EB 6px, #8573EB 12px); }
+  .b-value { font-size: 13px; font-variant-numeric: tabular-nums; color: var(--muted); }
+
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; font-size: 14px; }
+  th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); padding: 12px 16px; border-bottom: 1px solid var(--line); background: #FDFCFA; }
+  td { padding: 11px 16px; border-bottom: 1px solid var(--line); }
+  tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--accent-soft); }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .pill { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 10px; border-radius: 999px; }
+  .pill.good { background: var(--good-soft); color: var(--good); }
+  .pill.warn { background: var(--warn-soft); color: var(--warn); }
+  .pill.risk { background: var(--risk-soft); color: var(--risk); }
+
+  .table-wrap { overflow-x: auto; border-radius: 10px; }
+
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 12px; color: var(--muted); }
+  .confidence { font-weight: 600; color: var(--ink); }
+
+  @media (max-width: 760px) {
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+    .report-page { padding: 28px 16px 48px; }
+  }
+</style>
+</head>
+<body>
+<div class="report-page">
+
+  <div class="vera-mark">
+    <div class="vera-dot"></div>
+    <span class="vera-name">Vera</span>
+    <span class="vera-tag">RevOps teammate · mock output, fake data</span>
+  </div>
+
+  <h1>Q4 forecast: where we land</h1>
+  <div class="period">Northwind · Q4 2026 · pulled Nov 4, 7:00am ET</div>
+
+  <div class="so-what">
+    <div class="label">The so-what</div>
+    <p>We land at <strong>$1.61M against a $1.65M target</strong> — 98%. The quarter is winnable, but only if the two slipped enterprise deals close on their new December dates. Mid-market is overperforming and carrying the number.</p>
+  </div>
+
+  <section>
+    <h2><span class="num">1</span>The number, three ways</h2>
+    <p class="takeaway">Commit is honest at $1.42M. Best case reaches $1.61M. Stage-weighted math says $1.58M — the three agree within 4%, so the call is <strong>directionally solid</strong>.</p>
+    <div class="kpis">
+      <div class="kpi">
+        <div class="k-label">Target</div>
+        <div class="k-value">$1.65M</div>
+        <div class="k-note">Board plan, Q4</div>
+      </div>
+      <div class="kpi">
+        <div class="k-label">Commit</div>
+        <div class="k-value">$1.42M</div>
+        <div class="k-note">86% of target</div>
+      </div>
+      <div class="kpi warn">
+        <div class="k-label">Best case</div>
+        <div class="k-value">$1.61M</div>
+        <div class="k-note">98% of target</div>
+      </div>
+      <div class="kpi good">
+        <div class="k-label">Coverage</div>
+        <div class="k-value">3.1×</div>
+        <div class="k-note">$4.4M open pipeline</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>Where the quarter stands</h2>
+    <p class="takeaway">Closed + commit covers 86% of target. Every dollar past that needs the two December enterprise closes — there is no third path.</p>
+    <div class="bars">
+      <div class="bar-row">
+        <div class="b-label">Closed-won</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 34%"></div></div>
+        <div class="b-value">$562k</div>
+      </div>
+      <div class="bar-row">
+        <div class="b-label">Commit</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 52%"></div></div>
+        <div class="b-value">$858k</div>
+      </div>
+      <div class="bar-row">
+        <div class="b-label">Best case</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 12%"></div></div>
+        <div class="b-value">$190k</div>
+      </div>
+      <div class="bar-row">
+        <div class="b-label">Target</div>
+        <div class="bar-track"><div class="bar-fill target" style="width: 100%"></div></div>
+        <div class="b-value">$1.65M</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>The deals that decide it</h2>
+    <p class="takeaway">Two slips moved $240k into December. Both are procurement-timing, not competitive — but a second slip on either ends the quarter conversation.</p>
+    <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Deal</th><th class="num">Value</th><th>Stage</th><th>Close date</th><th>Risk</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Ferndale Logistics</td><td class="num">$130k</td><td>Procurement</td><td>Dec 12 (was Nov 20)</td><td><span class="pill warn">Watch</span></td></tr>
+        <tr><td>Osprey Financial</td><td class="num">$110k</td><td>Legal review</td><td>Dec 18 (was Nov 25)</td><td><span class="pill warn">Watch</span></td></tr>
+        <tr><td>Halewood Manufacturing</td><td class="num">$95k</td><td>Negotiation</td><td>Nov 14</td><td><span class="pill risk">At risk</span></td></tr>
+        <tr><td>Bloomfield Co.</td><td class="num">$72k</td><td>Commit</td><td>Nov 21</td><td><span class="pill good">On track</span></td></tr>
+        <tr><td>Mid-market bundle (11)</td><td class="num">$451k</td><td>Various</td><td>Nov–Dec</td><td><span class="pill good">On track</span></td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <footer>
+    <span class="confidence">Confidence: directional. Commit math is solid; the two December dates are judgment calls, not data.</span>
+    <span>Built by Vera · one file, opens anywhere</span>
+  </footer>
+
+</div>
+</body>
+</html>
