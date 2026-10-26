@@ -1,0 +1,15 @@
+# meet-vera org slots — copy to org.yaml and fill in.
+
+# The person running setup; Vera addresses them by name.
+admin_name: ""              # e.g. "Amani"
+admin_contact: ""           # e.g. "@you" — where onboarding happens
+
+# The org, in one line, used in the hello message.
+org_name: ""                # e.g. "Acme Corp"
+
+# Platform Vera is onboarding on (slack | whatsapp | sms | groupme | teams).
+platform: "slack"
+
+# Steps already completed, so a restarted series resumes instead of repeating.
+# Setup stamps these; you can also edit by hand.
+completed_steps: []

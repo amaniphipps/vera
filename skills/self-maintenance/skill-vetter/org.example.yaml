@@ -1,0 +1,17 @@
+# skill-vetter org slots — copy to org.yaml and fill in.
+
+# Who receives the weekly digest and promotion proposals (Slack handle or email).
+admin_contact: ""           # e.g. "@you"
+
+# Where skills-live lives in this deployment (usually the default).
+skills_live_path: "skills-live/"
+
+# Promotion gate settings.
+promotion:
+  min_clean_runs: 5         # consecutive successful runs before candidacy
+  drift_flag_threshold: 3   # runtime env patches before a skill is flagged stale
+
+# Digest cadence and delivery.
+digest:
+  cadence: weekly           # weekly | off
+  day: monday
