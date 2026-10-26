@@ -1,0 +1,11 @@
+# analyze-an-app org slots. Copy to org.yaml and fill in.
+
+# Default absolute target paths, keyed by a short label.
+default_targets:
+  example_app: "/absolute/path/to/app"     # ASAR or extracted JavaScript/Electron tree
+
+# Analysis detail. Summary first, expand only on open questions.
+detail: summary                            # summary | complete
+
+# Where analysis output (reports, saved evidence) is written.
+output_dir: "knowledge/graph/evidence/"

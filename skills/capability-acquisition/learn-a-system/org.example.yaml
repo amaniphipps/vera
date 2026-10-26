@@ -1,0 +1,15 @@
+# learn-a-system org slots — copy to org.yaml and fill in.
+
+# Where ontology entries and evidence live (usually the defaults).
+knowledge_graph_path: "knowledge/graph/entities/systems/"
+evidence_path: "knowledge/graph/evidence/"
+skills_live_path: "skills-live/"
+
+# Study behavior.
+study:
+  max_live_reads: 20        # cap on live API reads per study; a study is a guest visit
+  use_rea: true             # false = docs-and-reads only, no runtime observation
+  require_approval: true    # keep true; the permission question is not optional
+
+# Systems already studied (slugs), so Vera offers to refresh rather than redo.
+studied_systems: []
