@@ -1,0 +1,8 @@
+# OpenRouter (recommended default) — one key, many models.
+provider: openrouter
+env_var: OPENROUTER_API_KEY        # get one at openrouter.ai/keys
+default_model: anthropic/claude-sonnet-4.5
+notes:
+  - Any model id on OpenRouter works as model.default in config.yaml.
+  - Cheap chatter + strong reasoning mix: set a cheap default, escalate per task.
+  - Spend visibility: openrouter.ai/activity

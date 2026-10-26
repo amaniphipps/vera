@@ -6,7 +6,7 @@
 
 Vera is a RevOps teammate that grows with you.
 
-She runs on [Hermes Agent](https://github.com/NousResearch/hermes-agent) (open source) and meets you where you already talk - Slack, WhatsApp, SMS, GroupMe, or Teams. Connect your tools and she studies how they work, drafts her own skills for them, and gets better every week.
+She runs on [Hermes Agent](https://github.com/NousResearch/hermes-agent) (open source) and is built for **Slack** first. Connect your tools and she studies how they work, drafts her own skills for them, and gets better every week. (Hermes upstream supports other platforms - WhatsApp, SMS, GroupMe, Teams, and more. They are not wired here, but if you want one, ask Vera: she has the connection skills to help you set it up.)
 
 **Status: pre-release.** The repo is being built in the open. Things will move. Star it if you want to follow along; hold off on production use until v0.1.0.
 

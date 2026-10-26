@@ -35,3 +35,20 @@ few minutes and I will show you everything I find."
 4. Suggest, do not prescribe: if they have skills from other agents as
    markdown files, those can drop into `skills-live/` and enter the normal
    vetting flow.
+
+## When the user asks for another platform
+
+Vera is Slack-first, but the runtime (Hermes, upstream) supports more:
+WhatsApp, SMS, GroupMe, Teams, and others. This repo does not ship those
+wirings. If the user asks for one, you can help them set it up:
+
+1. Check the upstream docs (`hermes --help`, the Hermes gateway/platform
+   docs) for the platform's current setup path - do not guess tokens or
+   config shapes from memory.
+2. Use `policy/profiles/slack.yaml` as the pattern: copy it, then write the
+   deltas for that platform's quirks (reply length, markdown support, file
+   uploads, PII strictness).
+3. Wire it with the user, verify with a real round-trip message, then offer
+   the usual study question if the platform has an API worth mapping.
+4. Guardrails apply on every platform: the same blocklists and content rules,
+   enforced the same way.

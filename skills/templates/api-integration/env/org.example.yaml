@@ -1,0 +1,24 @@
+# org slots for the api-integration template.
+# Copy this template, rename it, fill these in, and the skill works.
+
+skill_name: ""              # slug, e.g. "crm-pipeline-report"
+trigger_phrase: ""        # when Vera should reach for this, e.g. "asked about pipeline"
+one_line_what_it_does: "" # verb-first one-liner
+
+system_name: ""           # e.g. "Your CRM"
+system_slug: ""           # e.g. "crm"
+access_method: ""         # "MCP" or "helper script"
+mcp_name: ""              # if MCP: server name from hermes mcp list
+helper_path: ""           # if helper: scripts/<system>.py
+
+# The procedure specifics — endpoints, objects, quirks of YOUR instance.
+step_1: ""
+step_2: ""
+step_3: ""
+pitfall_1: ""
+pitfall_1_fix: ""
+
+input_1: ""
+input_1_example: ""
+input_2_optional: ""
+output_shape: ""          # e.g. "a markdown table + one-paragraph so-what"

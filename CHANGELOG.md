@@ -24,8 +24,9 @@ First public shape. Everything is new.
 - skills/schema/skill.schema.yaml; every manifest validates
 
 ### Policy
-- guardrails schema + safe-default example; five platform profiles
-  (Slack, WhatsApp, SMS, GroupMe, Teams); enforcement doc
+- guardrails schema + safe-default example; Slack platform profile
+  (Slack-first; other platforms are upstream Hermes, wired on request);
+  enforcement doc
 - writes ladder: read-only default, confirm_before_write (always|standing)
 
 ### Memory & knowledge

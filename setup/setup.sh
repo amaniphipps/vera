@@ -173,6 +173,17 @@ else
   ok "guardrails.yaml exists - untouched"
 fi
 
+# Runtime-local dirs: created empty on purpose. Vera fills these as she works.
+# They are never shipped with content in the repo.
+mkdir -p \
+  "$HERMES_HOME/skills-live" \
+  "$HERMES_HOME/knowledge/graph/entities/business" \
+  "$HERMES_HOME/knowledge/graph/entities/glossary" \
+  "$HERMES_HOME/knowledge/graph/entities/people" \
+  "$HERMES_HOME/knowledge/graph/entities/systems" \
+  "$HERMES_HOME/knowledge/graph/evidence"
+ok "runtime dirs created (skills-live, knowledge/graph)"
+
 # ── 5. Platform ──────────────────────────────────────────────────────
 say "5/6  Platform: $PLATFORM"
 case "$PLATFORM" in
@@ -186,7 +197,7 @@ case "$PLATFORM" in
       [ -n "${SLACK_APP_TOKEN:-}" ] && printf 'SLACK_APP_TOKEN=%s\n' "$SLACK_APP_TOKEN" >> "$ENVF"
     fi
     ok "tokens in .env - start the gateway and DM Vera; she onboards in-channel" ;;
-  *) die "unknown platform: $PLATFORM (cli|slack for now; others: policy/profiles/)" ;;
+  *) die "unknown platform: $PLATFORM (cli|slack; other platforms are upstream Hermes - see docs/DEPLOYMENT.md)" ;;
 esac
 ask VERA_SERVE_ONLY_DOMAIN "  Restrict Vera to one email domain? (blank = everyone)" ""
 [ -n "${VERA_SERVE_ONLY_DOMAIN:-}" ] && printf 'VERA_SERVE_ONLY_DOMAIN=%s\n' "$VERA_SERVE_ONLY_DOMAIN" >> "$ENVF"

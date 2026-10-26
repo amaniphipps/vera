@@ -5,8 +5,8 @@ to know where a rule fires, not just what the rule says.
 
 ## Policy is data, not prompt text
 
-Every limit lives in `policy/guardrails.yaml` and the per-platform
-profiles under `policy/profiles/`. Vera reads them as structured data.
+Every limit lives in `policy/guardrails.yaml` and the platform profile
+under `policy/profiles/`. Vera reads them as structured data.
 
 They are not instructions written into a prompt. A prompt can be talked
 around. Data is checked by code at a fixed point in the loop, every time.
@@ -55,16 +55,17 @@ Runs before a skill's declared capability is trusted.
 - This is the promotion gate. A draft stays a draft until the skill-vetter
   pass and a human review move it into `skills/`.
 
-### 4. Per-platform profiles
+### 4. Platform profile
 
 Runs alongside pre-send, scoped to the channel the message goes out on.
 
-- Each platform has a profile under `policy/profiles/` (slack, whatsapp,
-  sms, groupme, teams).
-- The profile sets read posture, reply defaults, length caps, markdown,
-  and file-upload behavior for that platform.
-- A slot like `sms.pii: strict` means the send path treats identifiers as
-  secrets on SMS even where the global posture would not.
+- Vera is Slack-first: the shipped profile is `policy/profiles/slack.yaml`.
+- The profile sets read posture, reply defaults, thread behavior, markdown,
+  and file-upload mechanics for the platform.
+- Other platforms (WhatsApp, SMS, GroupMe, Teams) are supported by Hermes
+  upstream. This repo does not ship profiles for them; if you wire one,
+  copy the Slack profile as the pattern and write the deltas for that
+  platform's quirks (length caps, markdown support, PII strictness).
 
 ## The writes ladder
 

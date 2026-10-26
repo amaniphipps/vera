@@ -1,0 +1,7 @@
+# OpenAI direct.
+provider: openai
+env_var: OPENAI_API_KEY            # platform.openai.com/api-keys
+default_model: gpt-4.1
+notes:
+  - Use OpenAI model ids directly.
+  - Reasoning models (o-series) work; set reasoning effort in config if needed.

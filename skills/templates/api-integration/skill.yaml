@@ -1,0 +1,12 @@
+name: api-integration-template   # rename to your skill slug
+version: 0.1.0
+tier: draft                      # starts in quarantine; promotion via skill-vetter
+scope: read-only                 # widen only through review
+requires:
+  - mcp: your-system             # or: helper: scripts/your_system.py
+secret_policy: helper-mediated
+env_layer: env/org.yaml
+provenance:
+  origin: template
+  runs_clean: 0
+  last_drift: null

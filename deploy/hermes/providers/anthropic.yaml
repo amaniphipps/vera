@@ -1,0 +1,7 @@
+# Anthropic direct.
+provider: anthropic
+env_var: ANTHROPIC_API_KEY         # console.anthropic.com
+default_model: claude-sonnet-4-5
+notes:
+  - Use the provider's own model ids (no openrouter-style prefix).
+  - OAuth/Max subscriptions: see Hermes docs for the subscription-auth path.
