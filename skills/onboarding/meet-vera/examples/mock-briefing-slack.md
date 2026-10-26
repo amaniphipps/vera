@@ -16,3 +16,4 @@ Pipeline's up *$412k*. Two whales slipped. Quarter still makeable - it now runs 
 • 2 of 7 onboarding customers behind on activation. CS on it, no ask.
 
 _Live from CRM, 7:00am ET. Thread me if anything looks off._
+:white_check_mark: Validated by Vera · Nov 2 · arithmetic + claims checked

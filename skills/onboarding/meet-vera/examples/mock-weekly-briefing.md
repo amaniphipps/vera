@@ -21,4 +21,5 @@
 - 7 customers hit onboarding day 14 this week; 2 are behind on activation. CS is on it, no ask of you.
 
 ---
+*Validated by Vera · Nov 2, 2026 · arithmetic checked, claims matched to sources · mock output*
 *Pulled from your CRM at 7:00am ET. Numbers are live as of then. Anything look off? Say so and I'll dig.*

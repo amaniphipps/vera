@@ -27,3 +27,18 @@
 - **Churn is concentrated in one segment:** 5 of 6 lost logos were sub-$30k accounts on monthly plans. Annual-plan churn was effectively zero.
 
 *Sources: billing system (subscriptions), CRM (deal movements). Pulled at run time; no stored figures.*
+
+---
+
+**Validated by Vera · Oct 2, 2026**
+<details><summary>Validation trail</summary>
+
+```
+GATE 1  C1: 8 figures verified, 2 corrected (NRR 109.6->110.1; gains share 65->63%)
+        C11: 12,500+840+1,610+95-210-235 = 14,600 - ties to zero
+        C6: trend claims carry comparators   C8: NRR/GRR canonical   -> PASS
+GATE 2  markdown output; C16 completeness PASS; C17 stamp present   -> PASS
+SIGNIFICANCE  NRR trend directional (3 quarters, comparators shown)
+FINAL: PASS WITH NOTES
+```
+</details>
