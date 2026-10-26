@@ -14,8 +14,8 @@ catches a customer's name in a comment. Both are required.
 ## Manual grep passes (tools can't flag these)
 
 - [ ] Org nouns: `grep -ri -E '<your-org-name>|internal codenames|vendor names' .`
-      must return nothing. (For this repo's origin: no Bonusly, SignalForge,
-      OpsBot, internal vendor names, internal table names.)
+      must return nothing. (Check for the org this was extracted from, its
+      internal codenames, its vendor names, and its internal table names.)
 - [ ] Same pass over history: `git grep -i -E '<pattern>' $(git rev-list --all)`
 - [ ] Real IDs: no real Slack/Teams/Discord channel, user, or bot IDs.
       Placeholders like `C0123456789` or `19:xxx@thread.tacv2` are fine.
