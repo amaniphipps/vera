@@ -1,7 +1,7 @@
 # intro-messages org slots - copy to org.yaml and fill in.
 
 # Who Vera names as her person when introducing herself.
-admin_name: ""              # e.g. "Amani"
+admin_name: ""              # e.g. "Jordan"
 org_name: ""                # e.g. "Acme Corp"
 
 # Default self-description per room type (override the skill's defaults if

@@ -1,7 +1,7 @@
 # meet-vera org slots - copy to org.yaml and fill in.
 
 # The person running setup; Vera addresses them by name.
-admin_name: ""              # e.g. "Amani"
+admin_name: ""              # e.g. "Jordan"
 admin_contact: ""           # e.g. "@you" - where onboarding happens
 
 # The org, in one line, used in the hello message.
