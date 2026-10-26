@@ -1,0 +1,47 @@
+# Skill manifest schema — every skills/*/*/skill.yaml validates against this.
+# Checked by skill-vetter (boot lint) and doctor.sh.
+type: object
+required: [name, version, tier, scope, secret_policy, env_layer, provenance]
+additionalProperties: false
+properties:
+  name:
+    type: string
+    pattern: '^[a-z0-9-]+$'        # slug, unique across all skills
+  version:
+    type: string
+    pattern: '^\d+\.\d+\.\d+$'     # semver
+  tier:
+    type: string
+    enum: [draft, candidate, hardened]
+  scope:
+    type: string
+    enum: [read-only, write-slack, write-external]
+  requires:
+    type: array                    # tools/MCPs/helpers the skill needs
+    items:
+      type: object
+      additionalProperties: false
+      properties:
+        mcp: {type: string}
+        helper: {type: string}
+        cli: {type: string}
+      minProperties: 1
+      maxProperties: 1
+  secret_policy:
+    type: string
+    enum: [never-touch, helper-mediated, explicit-gated]
+  env_layer:
+    type: string                   # path to the runtime-patched env file, e.g. org.yaml
+  provenance:
+    type: object
+    required: [origin, runs_clean]
+    additionalProperties: false
+    properties:
+      origin:
+        type: string
+        enum: [authored, live-learning, template, rea-analysis]
+      runs_clean:
+        type: integer              # consecutive successful runs since last change
+        minimum: 0
+      last_drift:
+        type: [string, "null"]     # ISO date of last env-layer self-patch, or null
