@@ -1,0 +1,63 @@
+# analysis-validator org slots — copy to org.yaml and fill in.
+# This is where YOUR org's canon lives. The checks are generic; the canon is yours.
+
+# C2 — canonical filter patterns per system. The known traps of YOUR stack:
+# soft-delete flags, sample-data flags, status enums, scoping rules.
+canonical_filters:
+  # example-system:
+  #   soft_delete: "deleted_at = 'false'"        # TEXT field - IS NULL silently breaks
+  #   sample_data: "sample_data IS NULL OR sample_data = FALSE"
+  #   status_enum: "status IN ('active', 'non_renewing')"   # lowercase; uppercase returns 0 rows
+  {}
+
+# C4 — approved source per data class. Anything else = HOLD.
+sources_of_record:
+  # arr: your-billing-system
+  # pipeline: your-crm-api            # not the stale warehouse copy
+  # product-usage: your-warehouse
+  {}
+
+# C7 — the populations that must never be silently mixed.
+segments:
+  # - name: self-serve
+  #   filter: "acquisition_channel = 'self-serve'"
+  # - name: sales-led
+  #   filter: "acquisition_channel = 'sales-led'"
+  []
+
+# C8 — org terminology: wrong term -> canonical term. Industry-standard terms
+# (ARR, NRR, churn...) are already canonical via knowledge/seed/saas-terms.md;
+# this map is for YOUR org's words.
+terminology:
+  # "churn rate": "say GDR or NDR, never bare 'churn rate'"
+  # "the old name for a metric": "the canonical name"
+  {}
+
+# C10 — population anchors: EXPECTED RANGES ONLY, re-verified live each
+# session. Never used as denominators.
+population_anchors:
+  # customers: {expect: "300-400", source: "your-crm, live count"}
+  # users: {expect: "40000-50000", source: "your-warehouse, live count"}
+  {}
+
+# C11 — reconciliation rules.
+reconciliation:
+  tolerance_pct: 1.0                # over this = HOLD
+  category_doctrine:
+    # reactivations: fold-into-expansion    # or: separate-line
+    {}
+
+# Awareness — minimum raw N per entity type (overrides coverage % on tiny counts)
+min_n:
+  companies: 10
+  users: 100
+  conversations: 15
+  deals: 8
+  tickets: 12
+
+# C17 — the stamp readers see.
+stamp: "Validated by Vera"
+
+# Escalation contact for HOLD conditions that need a human (e.g. financial
+# reconciliation failures).
+escalate_to: ""                   # e.g. "the finance channel" or a person's name

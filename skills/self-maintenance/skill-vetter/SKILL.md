@@ -33,6 +33,11 @@ A vetting pass is a checklist, not an audit.
    - No hardcoded org values (names, endpoints, IDs live in `org.yaml`, not in
      the procedure).
    - No capability beyond its declared scope.
+   - **Quantitative drafts pass the analysis-validator.** Anything that
+     computes, aggregates, or makes claims with numbers gets its canonical
+     example run through the validator's checks. A "canonically correct" way
+     of doing something that fails validation is not canonical - send it back
+     as a draft note, not a candidate.
 5. **Promotion.** For each candidate, draft a promotion proposal: the skill
    folder as it would appear under `skills/<bucket>/`, plus a one-paragraph
    case (what it does, run evidence, why it is safe). Promotions land only

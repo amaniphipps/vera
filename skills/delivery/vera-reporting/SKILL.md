@@ -21,6 +21,7 @@ Make a report when the reader needs to act on numbers, not just see them.
 3. **Every takeaway cites data that is on the page.** A claim that quotes a number not in the chart next to it is wrong.
 4. **Stay self-contained.** All CSS and JS are inline in the one file. No external stylesheet, no assets folder.
 5. **State confidence in the footer.** Say whether the finding is meaningful, directional, or insufficient. A directional finding is more useful than a confidently wrong one.
+6. **Validate before shipping.** Any report containing numbers goes through the analysis-validator first. The footer then carries the `Validated by Vera` stamp and a collapsible validation trail (the report is the product; the trail is the receipt).
 
 ## The one-file rule
 
