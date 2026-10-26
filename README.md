@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/vera-mark.png" alt="Vera" width="140">
+</p>
+
 # Vera
 
 Vera is a RevOps teammate that grows with you.
