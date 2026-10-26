@@ -1,0 +1,21 @@
+# Secrets — never commit
+.env
+*.key
+*.pem
+*.p8
+
+# Runtime output — each deployment builds its own
+skills-live/*
+!skills-live/.gitkeep
+knowledge/graph/entities/*/*
+!knowledge/graph/entities/*/.gitkeep
+knowledge/graph/evidence/*
+!knowledge/graph/evidence/.gitkeep
+**/env/org.yaml
+**/env/drift.log
+
+# Python / Node / OS
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store

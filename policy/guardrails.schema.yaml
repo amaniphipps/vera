@@ -1,0 +1,38 @@
+# Schema for policy/guardrails.yaml (validated by setup/doctor.sh)
+type: object
+required: [identity, writes]
+properties:
+  identity:
+    type: object
+    required: [name]
+    properties:
+      name: {type: string}
+      persona_file: {type: string}
+  domains:
+    type: object
+    properties:
+      serve_only: {type: array, items: {type: string}}
+  channels:
+    type: object
+    properties:
+      blocked_send: {type: array}
+      blocked_read: {type: array}
+  content_rules:
+    type: object
+    properties:
+      forbidden_topics: {type: array, items: {type: string}}
+      secret_redaction: {type: string, enum: [off, standard, strict]}
+  writes:
+    type: object
+    required: [default]
+    properties:
+      default: {type: string, enum: [read-only, write-slack, write-external]}
+      allowed_surfaces: {type: array, items: {type: string}}
+  sql:
+    type: object
+    properties:
+      allowed_statements: {type: array, items: {type: string}}
+  approvals:
+    type: object
+    properties:
+      require_for: {type: array, items: {type: string}}
