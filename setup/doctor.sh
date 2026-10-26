@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Vera doctor — is this install honest?
+# Vera doctor - is this install honest?
 # Prints a pass/warn/fail table. Exit 0 = healthy, 1 = something needs you.
 set -uo pipefail
 
@@ -69,7 +69,7 @@ for b in bad: print("BAD " + b)
 PYEOF
 )
 if printf '%s' "$manifest_report" | grep -q '^noyaml'; then
-  warn "pyyaml not available — manifest check skipped"
+  warn "pyyaml not available - manifest check skipped"
 elif printf '%s' "$manifest_report" | grep -q '^BAD'; then
   fail "skill manifests invalid:"; printf '%s\n' "$manifest_report" | grep '^BAD' | sed 's/^/       /'
 else
@@ -83,9 +83,9 @@ if [ -f "$HERMES_HOME/policy/guardrails.yaml" ]; then
   pass "guardrails.yaml present"
   grep -q 'default: read-only' "$HERMES_HOME/policy/guardrails.yaml" \
     && pass "write posture: read-only (safe default)" \
-    || warn "write posture widened — confirm that was a deliberate owner decision"
+    || warn "write posture widened - confirm that was a deliberate owner decision"
 else
-  warn "guardrails.yaml missing — seed: cp $REPO_ROOT/policy/guardrails.example.yaml $HERMES_HOME/policy/guardrails.yaml"
+  warn "guardrails.yaml missing - seed: cp $REPO_ROOT/policy/guardrails.example.yaml $HERMES_HOME/policy/guardrails.yaml"
 fi
 
 say_section "Secret hygiene"
@@ -95,9 +95,9 @@ hits=$(grep -rlE '(xox[baprs]-[A-Za-z0-9-]{10,}|sk-[A-Za-z0-9_-]{20,}|-----BEGIN
 
 say_section "Summary"
 if [ "$FAILS" -gt 0 ]; then
-  printf '  %d FAIL, %d WARN — fix the FAILs and re-run.\n' "$FAILS" "$WARNS"; exit 1
+  printf '  %d FAIL, %d WARN - fix the FAILs and re-run.\n' "$FAILS" "$WARNS"; exit 1
 elif [ "$WARNS" -gt 0 ]; then
-  printf '  0 FAIL, %d WARN — usable; review warnings when convenient.\n' "$WARNS"; exit 0
+  printf '  0 FAIL, %d WARN - usable; review warnings when convenient.\n' "$WARNS"; exit 0
 else
   printf '  All checks pass.\n'; exit 0
 fi

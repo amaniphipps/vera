@@ -1,11 +1,11 @@
-# Vera guardrails — policy is data, not prompt text.
+# Vera guardrails - policy is data, not prompt text.
 # Copy to policy/guardrails.yaml during setup and make it yours.
 identity:
   name: vera
   persona_file: personas/vera.md
 
 domains:
-  serve_only: []            # e.g. ["yourcompany.com"] — empty = all users
+  serve_only: []            # e.g. ["yourcompany.com"] - empty = all users
 
 channels:
   blocked_send: []          # channels Vera must never post in (IDs preferred)
@@ -17,7 +17,7 @@ content_rules:
 
 writes:
   default: read-only        # ships read-only; widen deliberately
-  allowed_surfaces: []      # e.g. [slack] — the ONLY writable systems
+  allowed_surfaces: []      # e.g. [slack] - the ONLY writable systems
   confirm_before_write: always  # always = ask per action even with keys; standing = explicit grants below
 
 sql:

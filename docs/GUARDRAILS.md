@@ -90,9 +90,9 @@ steps, never a global toggle.
 `approvals.require_for` lists the action classes that always pause for a
 human yes, regardless of the writes posture. The shipped set:
 
-- `write-external` — any write to a system outside the allowed surfaces.
-- `secret-adjacent-command` — any command that might touch secret material.
-- `rea-analysis` — reverse-engineering analysis of a connected system.
+- `write-external` - any write to a system outside the allowed surfaces.
+- `secret-adjacent-command` - any command that might touch secret material.
+- `rea-analysis` - reverse-engineering analysis of a connected system.
 
 ## Widening posture deliberately
 
@@ -100,7 +100,7 @@ Widening is an edit, and it should be a small one.
 
 1. Read the current posture first. Know what is already allowed.
 2. Add the narrowest entry that unblocks the task. A single surface, a
-   single statement, a single channel — not a blank change.
+   single statement, a single channel - not a blank change.
 3. Re-check the approvals list. Some actions stay gated no matter what.
 4. Inspect the change. Every entry is commented so the reason is not lost.
 

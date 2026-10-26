@@ -1,4 +1,4 @@
-# People profile — what Vera may hold about a person.
+# People profile - what Vera may hold about a person.
 # Feeds the knowledge graph entities/people namespace and the working
 # profile. Hard-excluded classes (comp, performance, HR) have no field here.
 
@@ -13,7 +13,7 @@ work_preferences:
   workweek: "monday-friday"        # workweek span, if known
 
 communication_style:
-  tone: "direct"                   # direct | casual | formal — how they like replies delivered
+  tone: "direct"                   # direct | casual | formal - how they like replies delivered
   length: "short"                  # short | standard | long
   formatting: "plain"              # plain | markdown
 

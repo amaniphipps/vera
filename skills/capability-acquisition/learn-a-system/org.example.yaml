@@ -1,4 +1,4 @@
-# learn-a-system org slots — copy to org.yaml and fill in.
+# learn-a-system org slots - copy to org.yaml and fill in.
 
 # Where ontology entries and evidence live (usually the defaults).
 knowledge_graph_path: "knowledge/graph/entities/systems/"

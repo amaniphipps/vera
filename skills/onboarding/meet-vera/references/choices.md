@@ -3,7 +3,7 @@
 ## Memory (step 4)
 
 Present the options plainly. There is no wrong answer, and they can switch
-later — the working profile survives any switch.
+later - the working profile survives any switch.
 
 | Option | What it is | Good for |
 |---|---|---|
@@ -22,9 +22,9 @@ Explain the decision layer in one breath: Vera reads a configurable list of
 public model benchmarks plus the user's priority, and recommends models for
 each kind of work. Ask the priority:
 
-- **Cost** — good-enough models, cheapest that holds quality.
-- **Quality** — best available, cost secondary.
-- **Speed** — fast responses for chatty work.
+- **Cost** - good-enough models, cheapest that holds quality.
+- **Quality** - best available, cost secondary.
+- **Speed** - fast responses for chatty work.
 
 Provider options: OpenRouter (default, one key for many models), or direct
 Anthropic, OpenAI, or Gemini keys. Connection shells for each live in

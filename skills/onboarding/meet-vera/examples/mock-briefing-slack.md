@@ -1,11 +1,11 @@
-*Monday briefing — Northwind, week of Nov 2* _(mock)_
+*Monday briefing - Northwind, week of Nov 2* _(mock)_
 
-Pipeline's up *$412k*. Two whales slipped. Quarter still makeable — it now runs through mid-market velocity.
+Pipeline's up *$412k*. Two whales slipped. Quarter still makeable - it now runs through mid-market velocity.
 
 *What moved*
-• *+$412k* new pipeline (14 deals). Biggest: Acme Health $86k. Inbound at 41% — webinars pulling.
+• *+$412k* new pipeline (14 deals). Biggest: Acme Health $86k. Inbound at 41% - webinars pulling.
 • *$187k* closed-won, all mid-market. Cycle time 24 days, 4 faster than Q3 median.
-• *2 slips, $240k* — procurement timing, not competition. New dates Dec 12 + Dec 18. :eyes:
+• *2 slips, $240k* - procurement timing, not competition. New dates Dec 12 + Dec 18. :eyes:
 
 *Needs you*
 • *Halewood $95k* quiet 9 days. Direct note from you > sequences. :warning:

@@ -1,4 +1,4 @@
-# ARR roll-forward — Northwind, Q3 2026
+# ARR roll-forward - Northwind, Q3 2026
 
 *Mock output. Fake data, real format. The method: every dollar of movement named, the identity reconciled to zero.*
 
@@ -11,7 +11,7 @@
 | Movement | ARR ($k) | Note |
 |---|---:|---|
 | Starting ARR (Jul 1) | 12,500 | 148 customers |
-| + New | 840 | 19 new logos, $44k avg — down from $52k in Q2 |
+| + New | 840 | 19 new logos, $44k avg - down from $52k in Q2 |
 | + Expansion | 1,610 | 41 upgrades; two moved to Enterprise tier |
 | + Reactivation | 95 | 3 former customers returned |
 | − Contraction | (210) | 9 downgrades, mostly seat reductions |
@@ -22,7 +22,7 @@
 
 ## What to take from it
 
-- **Net revenue retention: 109.6%.** The base grows without new sales — but the trend is three quarters down from 118%. Expansion is masking slower acquisition.
+- **Net revenue retention: 109.6%.** The base grows without new sales - but the trend is three quarters down from 118%. Expansion is masking slower acquisition.
 - **New-logo ARR per deal is shrinking** ($52k → $48k → $44k). Mix is drifting down-market; check whether that's deliberate.
 - **Churn is concentrated in one segment:** 5 of 6 lost logos were sub-$30k accounts on monthly plans. Annual-plan churn was effectively zero.
 

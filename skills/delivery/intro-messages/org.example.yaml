@@ -1,4 +1,4 @@
-# intro-messages org slots — copy to org.yaml and fill in.
+# intro-messages org slots - copy to org.yaml and fill in.
 
 # Who Vera names as her person when introducing herself.
 admin_name: ""              # e.g. "Amani"
@@ -6,4 +6,4 @@ org_name: ""                # e.g. "Acme Corp"
 
 # Default self-description per room type (override the skill's defaults if
 # the org has house language).
-self_description: ""        # e.g. "RevOps teammate" — blank = skill default
+self_description: ""        # e.g. "RevOps teammate" - blank = skill default

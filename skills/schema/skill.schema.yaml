@@ -1,4 +1,4 @@
-# Skill manifest schema — every skills/*/*/skill.yaml validates against this.
+# Skill manifest schema - every skills/*/*/skill.yaml validates against this.
 # Checked by skill-vetter (boot lint) and doctor.sh.
 type: object
 required: [name, version, tier, scope, secret_policy, env_layer, provenance]

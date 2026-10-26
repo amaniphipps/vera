@@ -13,10 +13,10 @@ The example brand used throughout is a neutral placeholder called **Northwind**.
 
 A brand system is four parts, each in its own slot:
 
-1. **Tokens** — colors, fonts, and logo paths. The only place these live is `org.example.yaml`. Nothing else defines them.
-2. **Voice rules** — how copy sounds. Adjectives plus a ban list.
-3. **Do / don't** — concrete choices that make output look and read like the org.
-4. **Application** — a checklist run against every artifact before it ships.
+1. **Tokens** - colors, fonts, and logo paths. The only place these live is `org.example.yaml`. Nothing else defines them.
+2. **Voice rules** - how copy sounds. Adjectives plus a ban list.
+3. **Do / don't** - concrete choices that make output look and read like the org.
+4. **Application** - a checklist run against every artifact before it ships.
 
 ## Tokens
 

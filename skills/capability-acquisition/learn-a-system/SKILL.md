@@ -26,7 +26,7 @@ Consent is per system. A yes for the CRM is not a yes for the billing tool.
 ### 1. Frame the questions
 Before touching anything, write down what the study must answer:
 - What is this system for, in one sentence?
-- How does auth work (type only: OAuth, API key, session, other — never the
+- How does auth work (type only: OAuth, API key, session, other - never the
   secret values)?
 - What are the core objects and their shapes?
 - What are the read paths a skill would use most?
@@ -39,7 +39,7 @@ Use the cheapest honest source first, escalate only as needed:
    one object). Read-only always.
 3. Runtime observation with the REA MCP when the surface is a web app with no
    usable docs: browser scenario capture and network-capture inspection. REA
-   output is evidence, not truth — record its stated limitations.
+   output is evidence, not truth - record its stated limitations.
 4. Static analysis (the analyze-an-app skill) only when the target is a
    JS/Electron app with no documented API.
 
@@ -49,28 +49,28 @@ not a load test.
 ### 3. Write the tactical map (ontology entry)
 Create or update `knowledge/graph/entities/systems/<slug>.yaml`. The entry is
 a tactical map of the system, not just a spec sheet:
-- **Purpose and owner** — what it's for in one sentence; who owns it (if known).
-- **Who uses it** — the kinds of people and teams observed or documented
+- **Purpose and owner** - what it's for in one sentence; who owns it (if known).
+- **Who uses it** - the kinds of people and teams observed or documented
   ("used by ops people who live in it daily" vs "execs read dashboards").
-- **Use cases** — what people actually do in it, in their terms.
-- **Conventions** — naming patterns, stage/status vocabularies, required-field
+- **Use cases** - what people actually do in it, in their terms.
+- **Conventions** - naming patterns, stage/status vocabularies, required-field
   habits, the way THIS instance is configured (custom objects, custom fields,
   naming quirks). Generic product docs never cover these; they are the part
   worth studying.
-- **Instance structure** — core objects with field shapes, base endpoints
+- **Instance structure** - core objects with field shapes, base endpoints
   (references, not secrets), auth model class, known limitations.
-Every claim carries its evidence — follow the evidence-trail format. Facts
+Every claim carries its evidence - follow the evidence-trail format. Facts
 come from verified reads only, never from chat assertions alone. When you
 report back, regurgitate the map in plain language: "here's who uses this,
 here's what for, here's how your instance is put together."
 
 ### 4. Draft the skill
 Write a draft integration skill into `skills-live/<system-slug>/`:
-- `SKILL.md` — the procedure as observed: how to answer the common questions
+- `SKILL.md` - the procedure as observed: how to answer the common questions
   with this system, with the pitfalls you actually hit.
-- `org.example.yaml` — every org-specific value (endpoints, object names,
+- `org.example.yaml` - every org-specific value (endpoints, object names,
   field quirks) as a documented slot.
-- `skill.yaml` — manifest with `tier: draft`, `scope: read-only`,
+- `skill.yaml` - manifest with `tier: draft`, `scope: read-only`,
   `secret_policy: helper-mediated` if credentials are involved, and
   provenance: `origin: rea-analysis` or `live-learning`, with evidence paths.
 - Mark `status: unreviewed` in the frontmatter.

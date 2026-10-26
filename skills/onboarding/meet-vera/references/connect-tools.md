@@ -1,12 +1,12 @@
-# Connecting tools — the walkthrough
+# Connecting tools - the walkthrough
 
 ## Presenting the options
 
 Two kinds of connections:
 
-1. **MCP servers** — packaged tool connectors. The user picks from what their
+1. **MCP servers** - packaged tool connectors. The user picks from what their
    runtime supports; each one is a few lines of config plus an auth step.
-2. **Plain REST APIs** — anything with an HTTP API. These get a small helper
+2. **Plain REST APIs** - anything with an HTTP API. These get a small helper
    script (the api-integration template) so credentials stay out of the
    conversation.
 

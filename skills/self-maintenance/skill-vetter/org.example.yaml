@@ -1,4 +1,4 @@
-# skill-vetter org slots — copy to org.yaml and fill in.
+# skill-vetter org slots - copy to org.yaml and fill in.
 
 # Who receives the weekly digest and promotion proposals (Slack handle or email).
 admin_contact: ""           # e.g. "@you"

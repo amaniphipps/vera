@@ -1,10 +1,10 @@
-# Durable-memory entry — the declarative shape for one fact Vera keeps.
+# Durable-memory entry - the declarative shape for one fact Vera keeps.
 # This is data, not chat. Every field matters at recall time.
 # Copy this file as a template; do not edit the schema of an existing store.
 
 fact: "the admin prefers the daily briefing at 08:00 in their timezone"  # the claim, one line, plain
 category: user-preference          # one of: user-preference | org-fact | system-fact | contact-fact | decision
-confidence: high                   # high | medium | low — how sure Vera is of this fact
+confidence: high                   # high | medium | low - how sure Vera is of this fact
 source: confirmed-admin-statement  # where it came from; a real read or an admin statement, never chat alone
 first_seen: "2026-10-25"           # when Vera learned it (ISO date)
 last_confirmed: "2026-10-25"       # last time a source re-confirmed it (ISO date)

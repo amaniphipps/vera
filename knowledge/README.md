@@ -2,14 +2,14 @@
 
 Two layers of what Vera knows:
 
-## `seed/` — ships with the repo
+## `seed/` - ships with the repo
 
 Canonical, generic knowledge every deployment gets on day one.
 
-- `seed/saas-terms.md` — the shared SaaS glossary (ARR, churn, CAC, PLG, the
+- `seed/saas-terms.md` - the shared SaaS glossary (ARR, churn, CAC, PLG, the
   50 standard terms plus a few RevOps additions).
 
-## `graph/` — built per deployment
+## `graph/` - built per deployment
 
 The org's own knowledge graph, constructed by Vera as she works. Ships empty
 on purpose; your org's facts never come from us.

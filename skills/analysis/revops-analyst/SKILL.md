@@ -52,4 +52,4 @@ call-recording tool".
 Terminology: the shared SaaS glossary lives at
 `knowledge/seed/saas-terms.md` (ARR, churn, CAC, NRR, funnel and growth
 terms). Use those definitions. When the org uses a term differently, the org
-meaning wins — record it in `knowledge/graph/entities/glossary/`.
+meaning wins - record it in `knowledge/graph/entities/glossary/`.

@@ -9,7 +9,7 @@ version: "0.1.0"
 # What Vera sends to the router for each task.
 inputs:
   task_type: enum        # analysis | delivery | capability | engineering | self-maintenance
-  priority: enum         # cost | quality | speed — the operator's one knob
+  priority: enum         # cost | quality | speed - the operator's one knob
   budget_hint: float     # optional max spend in USD; 0 = no cap
 
 # ── Outputs ────────────────────────────────────────────────────

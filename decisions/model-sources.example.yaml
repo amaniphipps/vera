@@ -4,7 +4,7 @@
 # Each slot is a URL plus a refresh cadence and a trust note.
 
 # refresh_cadence: hourly | daily | weekly | manual
-# format: json | csv | html — what the page returns
+# format: json | csv | html - what the page returns
 # trust: what to watch out for with this source
 
 sources:

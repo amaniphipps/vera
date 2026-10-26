@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Nightly skill-vetter — Vera reviews her own learnings while you sleep.
+# Nightly skill-vetter - Vera reviews her own learnings while you sleep.
 # Runs every night at 02:00 local; delivers a digest only when something changed.
 #
 # Create it:

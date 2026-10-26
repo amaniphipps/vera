@@ -7,9 +7,9 @@ implemented router. You connect your own model router to it.
 
 Vera routes each task to a model by reading two things:
 
-1. **Benchmark sources** — a configurable list of public leaderboards and
+1. **Benchmark sources** - a configurable list of public leaderboards and
    evaluation pages (see `model-sources.example.yaml`).
-2. **Your priority** — cost, quality, or speed. Set once; it is the knob
+2. **Your priority** - cost, quality, or speed. Set once; it is the knob
    the whole layer turns.
 
 The layer scores candidate models against those inputs and recommends one.

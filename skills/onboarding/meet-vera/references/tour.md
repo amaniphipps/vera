@@ -1,12 +1,12 @@
-# The "how I work" tour — talking points
+# The "how I work" tour - talking points
 
 Keep this to one message. Plain, concrete, no jargon.
 
 ## Skills
 
-- `skills/` — what I shipped with. Reviewed, versioned, safe. Think of it as
+- `skills/` - what I shipped with. Reviewed, versioned, safe. Think of it as
   my training.
-- `skills-live/` — what I learn on the job. When I figure out a better way to
+- `skills-live/` - what I learn on the job. When I figure out a better way to
   do something, I write it here. Nothing in this folder can write to your
   external systems or touch secrets until a human vets it.
 - Every night I review what I learned. Duplicates get marked and left alone.
@@ -23,7 +23,7 @@ Keep this to one message. Plain, concrete, no jargon.
 ## Knowledge graph
 
 - I arrive knowing the standard SaaS vocabulary (ARR, churn, CAC, NRR, the
-  usual fifty) — that ships with me in `knowledge/seed/`.
+  usual fifty) - that ships with me in `knowledge/seed/`.
 - As we work I build a map of YOUR org: people (roles, timezones, preferences),
   systems (what they do, who owns them), and terms (what your words mean here).
 - Facts enter the map only from verified sources: a real API read, or

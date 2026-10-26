@@ -1,4 +1,4 @@
-# Cron — Vera's habits
+# Cron - Vera's habits
 
 Vera is most useful when she acts without being asked. These are the three
 canonical jobs. Each `.sh` file here is documentation: it contains the exact

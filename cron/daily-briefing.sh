@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Daily briefing — the habit that makes a team keep Vera.
+# Daily briefing - the habit that makes a team keep Vera.
 # Runs every weekday at 08:00 local; delivers into your platform channel.
 #
 # Create it:

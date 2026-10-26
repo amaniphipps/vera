@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Vera — one-command setup.
+# Vera - one-command setup.
 # git clone <repo> && cd vera && ./setup/setup.sh
 #
 # What this does, in plain terms:
@@ -46,7 +46,7 @@ ok()   { printf '  [ok] %s\n' "$*"; }
 warn() { printf '  [warn] %s\n' "$*"; }
 die()  { printf '  [fail] %s\n' "$*" >&2; exit 1; }
 
-ask() { # ask <var> <prompt> [default] — never echoes secrets back
+ask() { # ask <var> <prompt> [default] - never echoes secrets back
   local var="$1" prompt="$2" default="${3:-}"
   if [ "$NONINTERACTIVE" = 1 ]; then
     eval "val=\"\${$var:-$default}\""
@@ -60,7 +60,7 @@ ask() { # ask <var> <prompt> [default] — never echoes secrets back
 }
 
 say ""
-say "Vera setup — a RevOps teammate that grows with you."
+say "Vera setup - a RevOps teammate that grows with you."
 say "Repo: $REPO_ROOT"
 say "Hermes home: $HERMES_HOME"
 say ""
@@ -72,11 +72,11 @@ command -v curl    >/dev/null || die "curl missing"
 command -v python3 >/dev/null || die "python3 missing (install 3.11+)"
 ok "python3: $(python3 -c 'import sys; print("%d.%d" % sys.version_info[:2])')"
 if [ "$WITH_REA" = 1 ]; then
-  command -v node >/dev/null || die "node missing — required for --with-rea (or drop the flag)"
+  command -v node >/dev/null || die "node missing - required for --with-rea (or drop the flag)"
   ok "node: $(node --version)"
 fi
 if [ "$PROFILE" = "docker" ]; then
-  command -v docker >/dev/null || die "docker missing — install Docker Desktop or use --profile local"
+  command -v docker >/dev/null || die "docker missing - install Docker Desktop or use --profile local"
   ok "docker present"
 fi
 
@@ -92,11 +92,11 @@ else
     printf '  Hermes not found. Install it now (official installer)? [Y/n]: ' >&2
     read -r yn </dev/tty || yn="y"
     case "$yn" in
-      n|N) die "Hermes is required — install from https://hermes-agent.nousresearch.com/docs then re-run" ;;
+      n|N) die "Hermes is required - install from https://hermes-agent.nousresearch.com/docs then re-run" ;;
       *) curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash || die "Hermes install failed" ;;
     esac
   fi
-  command -v hermes >/dev/null || die "hermes installed but not on PATH — open a new shell and re-run"
+  command -v hermes >/dev/null || die "hermes installed but not on PATH - open a new shell and re-run"
   ok "hermes installed"
 fi
 mkdir -p "$HERMES_HOME"
@@ -105,7 +105,7 @@ mkdir -p "$HERMES_HOME"
 say "3/6  Model provider"
 VERA_PROVIDER="${VERA_PROVIDER:-}"
 if [ -z "$VERA_PROVIDER" ] && [ "$NONINTERACTIVE" = 0 ]; then
-  say "  1) openrouter  (recommended — one key, many models)"
+  say "  1) openrouter  (recommended - one key, many models)"
   say "  2) anthropic   3) openai   4) gemini"
   ask VERA_PROVIDER "  Choose" "openrouter"
 fi
@@ -128,7 +128,7 @@ fi
 if [ -f "$CONFIG" ]; then
   cp "$CONFIG" "$CONFIG.bak-$(date +%Y%m%d%H%M%S)"
   if grep -q '^  default:' "$CONFIG"; then
-    ok "config.yaml exists — model left as-is (edit $CONFIG to change)"
+    ok "config.yaml exists - model left as-is (edit $CONFIG to change)"
   else
     printf 'model:\n  default: %s\n' "$VERA_MODEL" >> "$CONFIG"
     ok "config.yaml: added model.default"
@@ -149,7 +149,7 @@ fi
 
 # ── 4. Vera layer: skills, persona, policy, knowledge ────────────────
 say "4/6  Vera layer"
-copy_dir() { # copy_dir <src> <dest> — idempotent
+copy_dir() { # copy_dir <src> <dest> - idempotent
   local src="$1" dest="$2"
   if [ -d "$dest" ] && [ "$UPDATE" = 0 ]; then
     ok "$(basename "$dest") already present (use --update to refresh)"
@@ -168,16 +168,16 @@ copy_dir "$REPO_ROOT/knowledge" "$HERMES_HOME/knowledge"
 mkdir -p "$HERMES_HOME/policy"
 if [ ! -f "$HERMES_HOME/policy/guardrails.yaml" ]; then
   cp "$REPO_ROOT/policy/guardrails.example.yaml" "$HERMES_HOME/policy/guardrails.yaml"
-  ok "guardrails.yaml seeded (read-only, confirm-before-write — the safe default)"
+  ok "guardrails.yaml seeded (read-only, confirm-before-write - the safe default)"
 else
-  ok "guardrails.yaml exists — untouched"
+  ok "guardrails.yaml exists - untouched"
 fi
 
 # ── 5. Platform ──────────────────────────────────────────────────────
 say "5/6  Platform: $PLATFORM"
 case "$PLATFORM" in
   cli)
-    ok "local CLI only — add platforms later (docs/CONNECTING-TOOLS.md)" ;;
+    ok "local CLI only - add platforms later (docs/CONNECTING-TOOLS.md)" ;;
   slack)
     if ! grep -q '^SLACK_BOT_TOKEN=xoxb-.\+' "$ENVF" 2>/dev/null; then
       ask SLACK_BOT_TOKEN "  Slack bot token (xoxb-…)" ""
@@ -185,14 +185,14 @@ case "$PLATFORM" in
       [ -n "${SLACK_BOT_TOKEN:-}" ] && printf 'SLACK_BOT_TOKEN=%s\n' "$SLACK_BOT_TOKEN" >> "$ENVF"
       [ -n "${SLACK_APP_TOKEN:-}" ] && printf 'SLACK_APP_TOKEN=%s\n' "$SLACK_APP_TOKEN" >> "$ENVF"
     fi
-    ok "tokens in .env — start the gateway and DM Vera; she onboards in-channel" ;;
+    ok "tokens in .env - start the gateway and DM Vera; she onboards in-channel" ;;
   *) die "unknown platform: $PLATFORM (cli|slack for now; others: policy/profiles/)" ;;
 esac
 ask VERA_SERVE_ONLY_DOMAIN "  Restrict Vera to one email domain? (blank = everyone)" ""
 [ -n "${VERA_SERVE_ONLY_DOMAIN:-}" ] && printf 'VERA_SERVE_ONLY_DOMAIN=%s\n' "$VERA_SERVE_ONLY_DOMAIN" >> "$ENVF"
 
 # ── 6. Visible success ───────────────────────────────────────────────
-say "6/6  First run — Vera says hello"
+say "6/6  First run - Vera says hello"
 if [ "$NONINTERACTIVE" = 1 ] || [ "${VERA_SKIP_HELLO:-0}" = 1 ]; then
   warn "non-interactive: skipping hello. Run it yourself:"
   say "       hermes chat -q 'Setup just finished. Run your meet-vera onboarding.'"
@@ -205,7 +205,7 @@ else
       ( cd "$HERMES_HOME" && hermes chat --oneshot -q \
         "Setup just finished installing you in a new workspace. Load the meet-vera skill and deliver your step 1 hello message exactly as the skill directs." ) \
         && ok "Vera is live." \
-        || warn "hello didn't complete — run ./setup/doctor.sh to see why"
+        || warn "hello didn't complete - run ./setup/doctor.sh to see why"
       ;;
   esac
 fi
