@@ -1,0 +1,91 @@
+# Briefings - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Time and working hours ---
+time:
+  # Default timezone when the calendar source is unavailable.
+  # Found in: your company's operating timezone.
+  default_timezone: "America/New_York"
+  # The authoritative timezone source, usually the user's calendar settings.
+  # Found in: the calendar system's primary-calendar settings.
+  timezone_source: "calendar"
+  # Business hours used to judge "overnight" and "business days".
+  # Found in: your HR / employee handbook.
+  working_hours: {start: "09:00", end: "17:00"}
+  # The overnight cutoff for morning mode ("since 5pm yesterday").
+  # Found in: your team's convention, defaults to end of working hours.
+  overnight_cutoff: "17:00"
+  # Days treated as non-working beyond the weekend.
+  holidays:
+    - {month: 1, day: 1, name: "New Year's Day"}
+
+# --- Role routing ---
+# How to map a person to a brief template. Team/title signals on the left map
+# to a template key on the right. Extend when you add a new role.
+# Found in: your HRIS / people directory and title conventions.
+role_routing:
+  - {signal: "Account Executive", template: "ae"}
+  - {signal: "Sales Development", template: "adr"}
+  - {signal: "Customer Success", template: "csm"}
+  - {signal: "default", template: "general"}
+
+# --- Data sources per role ---
+# Systems each role relies on for its brief. Leave null where a role has none.
+# Found in: your tooling stack per team.
+data_sources:
+  ae:
+    crm: "your-crm"
+    calendar: "your-calendar"
+    email: "your-email"
+    call_recording: "your-call-recording-tool"
+    meeting_notes: "your-meeting-notes-tool"
+    enrichment: "your-enrichment-tool"
+  adr:
+    crm: "your-crm"
+    calendar: "your-calendar"
+    email: "your-email"
+    messaging: "your-messaging-tool"
+  csm:
+    crm: "your-crm"
+    customer_health: "your-customer-health-tool"
+    support: "your-support-tool"
+    calendar: "your-calendar"
+    email: "your-email"
+    meeting_notes: "your-meeting-notes-tool"
+    messaging: "your-messaging-tool"
+  general:
+    email: "your-email"
+    messaging: "your-messaging-tool"
+    tasks: "your-task-tool"
+    calendar: "your-calendar"
+    meeting_notes: "your-meeting-notes-tool"
+
+# --- The working views and queues a role sweeps daily ---
+# Each role has a small number of saved views or queues that organize its day.
+# Name them and, if you store filter definitions, note where they live.
+# Found in: your CRM's saved views, or your team's queue definitions.
+working_views:
+  ae:
+    - {name: "new accounts", kind: "company", note: "recently assigned accounts"}
+    - {name: "target accounts", kind: "company", note: "committed or best-case this quarter"}
+    - {name: "risk", kind: "deal", note: "new deals going cold and single-threaded"}
+    - {name: "nurture", kind: "deal", note: "late-stage deals aging in stage"}
+  adr:
+    - {name: "ended trials", kind: "queue", note: "trial ended without converting, time-sensitive"}
+    - {name: "quiet deals", kind: "queue", note: "deals untouched beyond the aging threshold"}
+    - {name: "single-threaded", kind: "queue", note: "deals with fewer than two contacts"}
+    - {name: "stuck deals", kind: "queue", note: "deals stalled in a late stage"}
+    - {name: "small deals", kind: "queue", note: "self-serve or small-value deals"}
+
+# --- Recipient preferences ---
+# Per-person overrides beat all defaults. The brief reads these first.
+# Found in: ask each recipient once, then record here.
+recipients:
+  # example:
+  # "alex@example.com":
+  #   timezone: "America/Los_Angeles"
+  #   delivery: "email"
+  #   volume: "compressed"   # full | compressed
+  #   style: "terse"         # terse | verbose
+  {}

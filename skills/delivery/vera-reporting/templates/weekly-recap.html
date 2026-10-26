@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weekly recap</title>
+<style>
+:root{
+  --accent:#3559D6; --accent-soft:#ECF0FC; --accent-2:#0F8A75;
+  --ink:#1B1F27; --ink-muted:#414652; --ink-subtle:#6C7280;
+  --paper:#F4F5F7; --surface:#FFFFFF; --line:#DDE1E6; --line-muted:#ECEFF2;
+  --good:#1F9D55; --warn:#B7791F; --risk:#C53030;
+  --font-display:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-ui:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+  --r-sm:4px; --r-md:8px; --r-lg:12px; --r-xl:16px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-ui);background:var(--paper);color:var(--ink);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.page{max-width:1320px;margin:0 auto;padding:24px 32px 48px}
+a{color:var(--accent)}
+/* header */
+.rpt-header{border-radius:var(--r-xl) var(--r-xl) 0 0;padding:24px 32px 22px;background:var(--surface);border:1px solid var(--line);border-bottom:none}
+.rpt-header .lockup{font:600 13px/1 var(--font-ui);color:var(--ink-subtle);display:flex;align-items:center;gap:8px;margin-bottom:18px}
+.rpt-header .lockup .dot{width:10px;height:10px;border-radius:2px;background:var(--accent)}
+.rpt-header .row1{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.rpt-eyebrow{font:600 10px/1 var(--font-ui);text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:6px}
+.rpt-h1{font-family:var(--font-display);font-weight:800;font-size:28px;line-height:1.1;letter-spacing:-.02em;color:var(--ink);max-width:780px;margin-bottom:6px}
+.rpt-sub{font-size:13px;line-height:1.5;color:var(--ink-subtle);max-width:680px}
+.rpt-meta{font:500 11px/1.7 var(--font-mono);color:var(--ink-subtle);text-align:right;min-width:130px}
+.rpt-meta strong{color:var(--ink);font-weight:500}
+/* kpi strip */
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);background:var(--surface);border:1px solid var(--line)}
+.kpi .cell{padding:16px 20px;border-right:1px solid var(--line-muted)}
+.kpi .cell:last-child{border-right:none}
+.kpi .lbl{font:600 10px/1 var(--font-ui);color:var(--ink-subtle);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.kpi .v{font-family:var(--font-display);font-weight:800;font-size:26px;line-height:1.1;letter-spacing:-.02em;color:var(--ink);font-variant-numeric:tabular-nums}
+.kpi .v.good{color:var(--good)}
+.kpi .v.warn{color:var(--warn)}
+.kpi .v.risk{color:var(--risk)}
+.kpi .sub{margin-top:4px;font:400 11px/1.4 var(--font-ui);color:var(--ink-subtle)}
+/* body */
+.rpt-body{background:var(--surface);border:1px solid var(--line);border-top:none;border-radius:0 0 var(--r-xl) var(--r-xl);padding:24px 28px 28px}
+.sec{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}
+.sec:first-of-type{border-top:none;margin-top:0;padding-top:0}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--accent);flex-wrap:wrap}
+.sec-head .num{font:800 14px/1 var(--font-display);color:var(--accent);font-variant-numeric:tabular-nums;padding:4px 9px;background:var(--accent-soft);border-radius:var(--r-sm)}
+.sec-head .title{font-family:var(--font-display);font-weight:700;font-size:17px;letter-spacing:-.01em;color:var(--ink);flex:1}
+.sec-head .meta{font:500 11px/1 var(--font-mono);color:var(--ink-subtle);text-transform:uppercase;letter-spacing:.06em}
+/* bars */
+.bars{--bar-max:100;--label-w:180px}
+.bar-row{display:grid;grid-template-columns:var(--label-w) minmax(0,1fr) 84px;gap:12px;align-items:center;padding:7px 0}
+.bar-row .lbl{font-size:13px;color:var(--ink);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-row .track{height:22px;background:var(--line-muted);border-radius:5px;overflow:hidden}
+.bar-row .fill{height:100%;border-radius:5px;background:var(--accent);width:calc(var(--v,0)/var(--bar-max,100)*95%);min-width:8px;transition:width 400ms cubic-bezier(.25,1,.5,1)}
+.bar-row .fill.alt{background:var(--accent-2)}
+.bar-row .fill.good{background:var(--good)}
+.bar-row .fill.risk{background:var(--risk)}
+.bar-row .v{font:600 12px/1 var(--font-mono);text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+/* table */
+.tblwrap{overflow-x:auto}
+.tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tbl thead th{padding:10px 14px;text-align:left;font:600 10.5px/1 var(--font-ui);text-transform:uppercase;letter-spacing:.06em;color:var(--ink-subtle);border-bottom:1px solid var(--line);background:var(--paper);white-space:nowrap}
+.tbl thead th.r{text-align:right}
+.tbl tbody tr{border-bottom:1px solid var(--line-muted)}
+.tbl tbody tr:hover{background:var(--paper)}
+.tbl tbody td{padding:10px 14px;color:var(--ink)}
+.tbl tbody td.r{text-align:right}
+.tbl tbody td.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-weight:500;color:var(--ink-muted)}
+.tbl tbody td.num.good{color:var(--good);font-weight:600}
+.tbl tbody td.num.risk{color:var(--risk);font-weight:600}
+.tbl tbody td.num.warn{color:var(--warn);font-weight:600}
+/* insight */
+.insight{display:flex;gap:12px;background:var(--accent-soft);border:1px solid #C7CDF8;border-radius:var(--r-md);padding:12px 14px;margin-top:12px}
+.insight .lbl{font:700 10px/1 var(--font-ui);text-transform:uppercase;letter-spacing:.08em;flex-shrink:0;padding:5px 8px;border-radius:var(--r-sm);background:rgba(53,89,214,.12);height:fit-content;color:var(--accent)}
+.insight .body{font:400 12.5px/1.55 var(--font-ui);color:var(--ink)}
+.insight .body strong{font-weight:600;color:var(--ink)}
+/* footer */
+.footer{margin-top:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-start}
+.footer .src{font:500 11px/1.7 var(--font-mono);color:var(--ink-subtle)}
+.footer .pill{font:600 11px/1 var(--font-ui);color:#fff;background:linear-gradient(135deg,var(--accent) 0%,var(--accent-2) 100%);padding:7px 12px;border-radius:999px;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="rpt-header">
+    <div class="lockup"><span class="dot"></span>Weekly recap</div>
+    <div class="row1">
+      <div>
+        <div class="rpt-eyebrow">Week of Oct 20, 2026</div>
+        <h1 class="rpt-h1">Volume held. The lift came from one program.</h1>
+        <p class="rpt-sub">Three numbers move the week. The rest is steady state.</p>
+      </div>
+      <div class="rpt-meta">
+        Source · <strong>events table</strong><br>
+        Window · <strong>Oct 20-26, 2026</strong><br>
+        Generated · <strong>Oct 27, 2026</strong>
+      </div>
+    </div>
+  </header>
+
+  <div class="kpi">
+    <div class="cell"><div class="lbl">Weekly volume</div><div class="v">1,238</div><div class="sub">+4% vs prior week</div></div>
+    <div class="cell"><div class="lbl">Active users</div><div class="v">312</div><div class="sub">58% of seats</div></div>
+    <div class="cell"><div class="lbl">Largest program</div><div class="v good">+18%</div><div class="sub">Launch campaign</div></div>
+    <div class="cell"><div class="lbl">Pending approvals</div><div class="v warn">27</div><div class="sub">3 days old avg</div></div>
+  </div>
+
+  <div class="rpt-body">
+
+    <section class="sec">
+      <div class="sec-head"><span class="num">1</span><span class="title">Volume by team</span><span class="meta">bars</span></div>
+      <div class="bars" style="--bar-max:340">
+        <div class="bar-row"><span class="lbl">Sales</span><div class="track"><div class="fill" style="--v:340"></div></div><span class="v">340</span></div>
+        <div class="bar-row"><span class="lbl">Engineering</span><div class="track"><div class="fill alt" style="--v:286"></div></div><span class="v">286</span></div>
+        <div class="bar-row"><span class="lbl">Support</span><div class="track"><div class="fill" style="--v:241"></div></div><span class="v">241</span></div>
+        <div class="bar-row"><span class="lbl">Marketing</span><div class="track"><div class="fill alt" style="--v:198"></div></div><span class="v">198</span></div>
+        <div class="bar-row"><span class="lbl">Operations</span><div class="track"><div class="fill" style="--v:173"></div></div><span class="v">173</span></div>
+      </div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">Sales led at <strong>340</strong>, but Engineering grew fastest, up <strong>18%</strong> week over week after the launch campaign.</span></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-head"><span class="num">2</span><span class="title">Most active employees</span><span class="meta">table</span></div>
+      <div class="tblwrap">
+        <table class="tbl">
+          <thead><tr><th>Name</th><th>Team</th><th class="r">Contributions</th><th class="r">Change</th></tr></thead>
+          <tbody>
+            <tr><td>Dana Whitfield</td><td>Sales</td><td class="num r">64</td><td class="num r good">+12</td></tr>
+            <tr><td>Jake Mason</td><td>Engineering</td><td class="num r">58</td><td class="num r good">+9</td></tr>
+            <tr><td>Priya Nair</td><td>Support</td><td class="num r">51</td><td class="num r warn">-3</td></tr>
+            <tr><td>Tom Okafor</td><td>Marketing</td><td class="num r">47</td><td class="num r good">+6</td></tr>
+            <tr><td>Elena Ruiz</td><td>Operations</td><td class="num r">39</td><td class="num r risk">-11</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">Two support-side names dropped this week. Check for a process change before calling it noise.</span></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-head"><span class="num">3</span><span class="title">What to watch next week</span><span class="meta">memo</span></div>
+      <p style="font-size:13px;color:var(--ink-muted);max-width:72ch">Approve the 27 pending items before Friday so the Monday recap is not inflated. Ask Operations about Elena Ruiz's drop. Otherwise the week is steady state.</p>
+    </section>
+
+  </div>
+
+  <footer class="footer">
+    <div class="src">src: events table (weekly aggregate) · caveat: partial data for Sunday · confidence: meaningful</div>
+    <div class="pill">Produced by Vera Reporting · Oct 27, 2026</div>
+  </footer>
+
+</div>
+</body>
+</html>

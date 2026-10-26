@@ -1,0 +1,20 @@
+# Enablement: org-specific slots. Fill in per deployment.
+
+# --- Products ---
+products:
+  primary: ""      # main product name, used in headlines and kit titles
+  secondary: []    # other product or feature names worth recognizing in requests
+  currency_word: "" # the org's word for its in-app currency, if any (used in customer copy)
+
+# --- Audience roles ---
+audiences:
+  exec: ""       # how to refer to the leadership audience (for depth tuning)
+  practitioner: "" # how to refer to the day-to-day operator audience
+  customer: ""   # how to refer to the end customer audience
+
+# --- House style ---
+style:
+  sentence_case_headings: true  # true: sentence-case headings; false: title case
+  em_dash: false                # true: em dashes allowed; false: replace with commas/colons
+  short_sentences: true         # keep copy under ~20 words per sentence
+  brand_skill: brand-design    # which skill supplies tokens and voice rules
