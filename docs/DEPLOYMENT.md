@@ -1,15 +1,19 @@
 # Deploying Vera
 
-Four supported ways to run her. All of them end at the same place: a Hermes
+Vera runs on Hermes Agent. Every path below ends at the same place: a Hermes
 runtime with the Vera layer (skills, persona, policy, knowledge) installed
 into `HERMES_HOME`.
 
+**Start local.** The CLI path is the tested, golden path - Docker and Railway
+are optional extras for an always-on team Slack. You do not need them to use
+Vera.
+
 | Path | Best for | Starts with |
 |---|---|---|
-| Local CLI | Trying Vera on your own machine | `./setup/setup.sh` |
+| Local CLI | Trying Vera on your own machine. **Start here.** | `./setup/setup.sh` |
 | Local Slack gateway | A team Slack, hosted on your machine | `./setup/setup.sh --platform slack` |
-| Docker | A server or NAS you own | `docker build -f deploy/docker/Dockerfile -t vera .` |
-| Railway | Always-on, no server to mind | `railway up` |
+| Docker (optional) | Always-on, a server or NAS you own | `docker build -f deploy/docker/Dockerfile -t vera .` |
+| Railway (optional) | Always-on, no server to mind | `railway up` |
 
 Something else (an IDE, a different agent host)? See
 [Other harnesses](#other-harnesses).
@@ -94,20 +98,25 @@ Pushing to the repo changes nothing in prod; deploys are `railway up`.
 
 ## Other harnesses
 
-Vera is content, not a fork. Anything that runs Hermes Agent can host her:
+Vera works with Hermes today. That is the supported runtime - setup.sh,
+doctor.sh, the guardrails model, and the skills-live vetting loop are all
+built on it.
 
-- **Hermes desktop app** - run `./setup/setup.sh` against the same
-  `HERMES_HOME` the app uses (default `~/.hermes`), then pick Vera's persona
-  and skills up in the app. The setup only adds files and backs up any config
-  it touches.
-- **An existing Hermes install** - same thing: setup detects `hermes` on PATH
-  and layers Vera in without reinstalling. `--update` refreshes just the
-  skills later.
-- **Other platforms** - WhatsApp, SMS, GroupMe, Teams and more are upstream
-  Hermes features, not wired here. The Slack path in `policy/profiles/` is
-  the pattern to copy; Vera herself can walk you through it (ask her).
+She is not welded to it. Everything that makes her Vera is plain files -
+markdown skills, a persona file, a YAML policy, a knowledge seed - so porting
+her to another agent host is a content job, not a code fork. If you want her
+running somewhere else, that is a job you can do *with Vera*: point her at
+the target host's skill/persona conventions and she will help you map her
+skills, translate her guardrails into the host's policy shape, and flag what
+has no equivalent.
 
-The contract any harness must honor: Vera's files land in `HERMES_HOME`
-(`skills/`, `personas/`, `policy/`, `knowledge/`), her rules stay in
-`policy/guardrails.yaml`, and `skills-live/` stays quarantined until a human
-promotes from it.
+Two things any host must honor, however it is implemented:
+
+1. Her rules stay data (`policy/guardrails.yaml`), read-only by default,
+   widened only by deliberate owner action.
+2. `skills-live/` stays quarantined. Nothing she drafts becomes a shipped
+   skill without a vetting pass and a human yes.
+
+Other platforms within Hermes (WhatsApp, SMS, GroupMe, Teams) are upstream
+features, not wired here - the Slack path in `policy/profiles/` is the
+pattern to copy, and Vera can walk you through it.

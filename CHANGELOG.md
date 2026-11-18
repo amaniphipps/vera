@@ -26,6 +26,15 @@ First public shape. Everything is new.
 - templates/api-integration (the helper-script pattern for plain REST APIs);
   skills/schema/skill.schema.yaml; every manifest validates
 
+### Positioning
+- README rewritten for clarity: requirements, one-command quickstart, what
+  she does, where she runs. Hermes stated plainly as the supported runtime.
+- Docker/Railway demoted to optional always-on recipes - the local CLI is the
+  tested golden path and the docs say so.
+- Other-harnesses story: Hermes-only today; porting Vera elsewhere is framed
+  as a job you do with Vera (her skills, persona, and policy are plain
+  files), with the two invariants any host must honor.
+
 ### Deployment
 - Docker: `deploy/docker/Dockerfile` on the official `nousresearch/hermes-agent`
   base; entrypoint seeds the Vera layer into the `/opt/data` volume on first

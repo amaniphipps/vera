@@ -4,21 +4,13 @@
 
 # Vera
 
-Vera is a RevOps teammate that grows with you.
+A RevOps teammate that grows with you. She runs on [Hermes Agent](https://github.com/NousResearch/hermes-agent) and lives in your terminal or in Slack.
 
-She runs on [Hermes Agent](https://github.com/NousResearch/hermes-agent) (open source) and is built for **Slack** first. Connect your tools and she studies how they work, drafts her own skills for them, and gets better every week. (Hermes upstream supports other platforms - WhatsApp, SMS, GroupMe, Teams, and more. They are not wired here, but if you want one, ask Vera: she has the connection skills to help you set it up.)
+**Status: pre-release.** Built in the open. Things will move.
 
-**Status: pre-release.** The repo is being built in the open. Things will move. Star it if you want to follow along; hold off on production use until v0.1.0.
+## Get started
 
-## What she does
-
-- **Onboards herself.** One setup command, then Vera introduces herself in your channel and walks you through connecting tools, memory, and models.
-- **Learns your systems.** Point her at a connected app and - with your approval - she maps its endpoints, auth, and data shapes, then drafts a working skill for it.
-- **Runs the analyses.** ARR roll-forwards, forecasts, pipeline and funnel reads, cited company profiles, daily recaps.
-- **Delivers finished work.** Reports, docs, diagrams, and visuals that are ready to forward as-is.
-- **Keeps herself tidy.** Everything Vera learns lands in a quarantined `skills-live/` folder, gets vetted nightly, and only graduates into the shipped skill set through review.
-
-## Quickstart
+You need: macOS or Linux (WSL2 on Windows), and one LLM API key. [OpenRouter](https://openrouter.ai/keys) is the easy default - one key, every model.
 
 ```bash
 git clone https://github.com/amaniphipps/vera.git
@@ -26,21 +18,37 @@ cd vera
 ./setup/setup.sh
 ```
 
-Setup ends when Vera says hello - not before. Afterward, `./setup/doctor.sh` tells you the honest state of the install.
+Setup installs Hermes if you don't have it, asks for your model provider and key, installs Vera's skills and rules, and finishes by having Vera introduce herself. **Setup isn't done until she says hello.** If anything is off, `./setup/doctor.sh` tells you what.
 
-## Run her your way
+Then talk to her:
 
-- **Local CLI** - the quickstart above; talk to her with `hermes`.
-- **Local Slack gateway** - `./setup/setup.sh --platform slack`, then `hermes gateway run`.
-- **Docker** - one image, volume-seeded on first boot: `docker build -f deploy/docker/Dockerfile -t vera .`
-- **Railway** - always-on from the same Dockerfile: `railway up` (see `deploy/railway/`).
-- **Another harness** - Vera is content, not a fork; anything that runs Hermes can host her.
+```bash
+hermes
+```
 
-Full details: [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Connecting tools: [docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md).
+## What she does
 
-## Guardrails are a feature
+- **Onboards herself.** She says hello, then walks you through connecting tools, memory, and models - in order, at your pace.
+- **Works from day 1.** 17 preset skills: briefings, ARR roll-forwards, forecasts, pipeline reads, cited company profiles, documents, reports, code review.
+- **Learns your systems.** Point her at a connected app and - with your approval - she maps its endpoints, auth, and data shapes, then drafts a skill for it. Drafts sit in `skills-live/` quarantine until you promote them.
+- **Keeps herself tidy.** A nightly vetting pass reviews what she learned. Nothing graduates into her shipped skills without your yes.
 
-Vera's rules live in `policy/guardrails.yaml` - data, not prompt text. What she can read, where she can write, what she never touches. Ships read-only; you widen it deliberately.
+## The rules are data
+
+Her guardrails live in `policy/guardrails.yaml` - what she can read, where she can write, what she never touches. Ships read-only; you widen it deliberately.
+
+## Where she runs
+
+- **Your terminal** - the quickstart above. Start here.
+- **Slack** - `./setup/setup.sh --platform slack`, then `hermes gateway run`. She onboards in-channel.
+- **Always-on (optional)** - Docker and Railway recipes in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for a team Slack that never sleeps. You do not need these to use Vera.
+- **Other harnesses** - Hermes only, today. Her skills are plain markdown; if you want her running somewhere else, ask her - porting herself to a new host is exactly the kind of job she does with you.
+
+## Docs
+
+- [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) - every way to run her
+- [docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md) - MCP servers and plain REST APIs
+- [docs/GUARDRAILS.md](docs/GUARDRAILS.md) - the policy model
 
 ## License
 
