@@ -42,7 +42,7 @@ fi
 
 say_section "Skills"
 count=$(find "$HERMES_HOME/skills" -mindepth 3 -maxdepth 3 -name SKILL.md 2>/dev/null | wc -l | tr -d ' ')
-[ "${count:-0}" -ge 5 ] && pass "$count skills installed" || warn "only $count skills found (expected 5)"
+[ "${count:-0}" -ge 10 ] && pass "$count skills installed" || warn "only $count skills found (expected 16)"
 manifest_report=$(python3 - "$HERMES_HOME" <<'PYEOF'
 import glob, os, sys
 try:

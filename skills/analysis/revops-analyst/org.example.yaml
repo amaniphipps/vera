@@ -1,0 +1,116 @@
+# RevOps Analyst - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- CRM object model ---
+crm:
+  # The deal/opportunity object name in your CRM. Most CRMs call this "deal".
+  # Found in: your CRM's object schema or admin settings.
+  deal_object: "deal"
+  # The company/account object name.
+  # Found in: your CRM's object schema or admin settings.
+  company_object: "company"
+  # The contact object name.
+  # Found in: your CRM's object schema.
+  contact_object: "contact"
+  # The primary sales pipeline name or ID.
+  # Found in: your CRM's pipeline/deal-stage settings.
+  pipeline: "default"
+  # Stage names, from first touch to closed. Replace with your real stages.
+  # Found in: your CRM's pipeline editor (deal stages). The order matters.
+  stages:
+    - discovery
+    - demo
+    - evaluation
+    - vendor_of_choice
+    - procure
+    - closed_won
+    - closed_lost
+  # The field that holds the rep-entered forecast category, if you use one.
+  # Found in: the deal properties a rep can edit in your CRM.
+  forecast_category_field: "manual_forecast_category"
+  # Allowed forecast category values.
+  # Found in: your sales process doc or your CRM's picklist for the field above.
+  forecast_categories: ["commit", "best_case", "pipeline", "omit"]
+
+# --- ARR / revenue metric definitions ---
+arr:
+  # How one dollar of annual recurring revenue is defined at your org.
+  # Found in: your finance or RevOps metric definitions doc. Write the formula
+  # in words so the analyst can map it to fields (for example: "unit price
+  # times quantity, annualized; monthly plans multiplied by 12").
+  definition: "Unit price times quantity, annualized to a yearly figure. Monthly billing multiplied by 12; yearly billing used as-is."
+  # The units your billing system stores money in (dollars or cents). Different
+  # systems often disagree; state the norm here.
+  # Found in: your billing system's schema docs or by checking a known record.
+  currency_units: "dollars"
+  # What counts as NEW vs EXPANSION vs REACTIVATION at your org.
+  # Found in: your finance/RevOps reporting doctrine. This matters because
+  # upgrades logged twice (as both new and expansion) are the most common
+  # roll-forward error.
+  new: "A brand-new paying account started in the period."
+  expansion: "An existing account increased its recurring value in the period."
+  contraction: "An existing account decreased its recurring value in the period."
+  churn: "An account that cancelled or lapsed in the period."
+  reactivation: "A previously cancelled account returned to paying in the period."
+  # The internal/test/demo account exclusion rule.
+  # Found in: your data team's standard exclusion filter, often by email domain
+  # or account name patterns.
+  excluded_accounts_rule: "Email domain of your own company, plus demo/test/bot/sandbox markers."
+
+# --- Fiscal calendar ---
+fiscal:
+  # Your fiscal year start. "calendar" means Jan 1. Otherwise give the month/day.
+  # Found in: your finance calendar or the board deck header.
+  fiscal_year_start: "calendar"
+  # Months per quarter if non-standard (default 3-month quarters).
+  # Found in: your finance calendar.
+  months_per_quarter: 3
+
+# --- Forecast ---
+forecast:
+  # The weight applied to a COMMIT deal and a BEST_CASE deal in the weighted
+  # forecast. These are judgment numbers; the point of the three-layer forecast
+  # is that they are explicit and tunable.
+  # Found in: the sales forecast methodology you want standardized.
+  commit_weight: 0.95
+  best_case_weight: 0.35
+  # How a forecast target/plan is sourced (workbook, doc, or ask the user).
+  # Found in: where your sales leadership records the quarter target.
+  target_source: "The current-quarter row of the bookings forecast workbook, or the most recent leadership pipeline update."
+
+# --- Deal desk ---
+deal_desk:
+  # Your approved rate card location.
+  # Found in: the pricing/rate card doc your sales team quotes from.
+  rate_card_location: "Internal pricing doc or rate card in your shared drive."
+  # The discount floor below which a deal needs approval.
+  # Found in: your discount approval policy.
+  discount_floor_percent: 20
+  # Standard payment terms and the escalation ceiling.
+  # Found in: your billing/collections policy.
+  payment_terms_standard: "Net 30"
+  payment_terms_ceiling: "Net 60"
+  # The minimum annual value below which you skip redlines or heavy work.
+  # Found in: your deal desk playbook.
+  redline_minimum_threshold: 5000
+  # Names or roles that approve exceptions (commercial, legal, security).
+  # Found in: your approval matrix doc.
+  approvers:
+    commercial: "Sales or finance leadership"
+    legal: "Legal owner"
+    security: "Security owner"
+
+# --- Data sources ---
+data_sources:
+  # Where each type of data lives. List the system name and how to reach it
+  # (API, CLI, warehouse schema). Point at the system, never hardcode a table
+  # or SQL into the skill.
+  crm: "Your CRM (deal, company, contact objects)."
+  warehouse: "Your data warehouse for point-in-time and historical records."
+  billing: "Your billing/subscription system for recurring value and events."
+  customer_health: "Your customer-health tool for current status and churn flags."
+  call_recording: "Your call-recording tool for transcripts."
+  meeting_notes: "Your meeting-notes tool for the rep's in-meeting notes."
+  enrichment: "Your enrichment tool for firmographic and contact data."
+  marketing_attribution: "Your web/marketing analytics for channel and campaign data."

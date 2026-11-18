@@ -22,11 +22,11 @@ of the evidence trail.
 
 Where the system has a browser, web, or Electron surface, use REA's runtime
 tools to watch behavior: page traffic, endpoints called, data shapes that move.
-Where it is a static artifact, use REA's static-analysis tools.
+Where it is a static artifact, use the analyze-an-app skill or the matching REA
+tool.
 
 Capture evidence as you go. Every observation gets a tool, target, timestamp or
-ID, a confidence level, and a search boundary - the evidence standard the
-learn-a-system skill defines.
+ID, and a confidence level. Follow the evidence-trail standard.
 
 ## 3. Write the ontology
 

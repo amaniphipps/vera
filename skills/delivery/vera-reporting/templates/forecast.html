@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forecast</title>
+<style>
+:root{
+  --accent:#6C5CE7; --accent-soft:#EFECFC; --accent-2:#0E8A72;
+  --ink:#1D1F27; --ink-muted:#414652; --ink-subtle:#6E7382;
+  --paper:#FBFAF7; --surface:#FFFFFF; --line:#E8E5DE; --line-muted:#F0EDE6;
+  --good:#1F9D55; --warn:#B7791F; --risk:#C53030;
+  --font-display:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-ui:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+  --r-sm:4px; --r-md:8px; --r-lg:12px; --r-xl:16px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-ui);background:var(--paper);color:var(--ink);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.page{max-width:1320px;margin:0 auto;padding:24px 32px 48px}
+/* dark header */
+.rpt-header{border-radius:var(--r-xl) var(--r-xl) 0 0;padding:24px 32px 22px;background:linear-gradient(180deg,#1d2547 0%,#14182e 100%);color:#fff}
+.rpt-header .lockup{font:600 13px/1 var(--font-ui);color:rgba(255,255,255,.6);display:flex;align-items:center;gap:8px;margin-bottom:18px}
+.rpt-header .lockup .dot{width:10px;height:10px;border-radius:2px;background:var(--accent-2)}
+.rpt-header .row1{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.rpt-eyebrow{font:600 10px/1 var(--font-ui);text-transform:uppercase;letter-spacing:.12em;color:#9fd4c9;margin-bottom:6px}
+.rpt-h1{font-family:var(--font-display);font-weight:800;font-size:28px;line-height:1.1;letter-spacing:-.02em;color:#fff;max-width:780px;margin-bottom:6px}
+.rpt-sub{font-size:13px;line-height:1.5;color:rgba(255,255,255,.6);max-width:680px}
+.rpt-meta{font:500 11px/1.7 var(--font-mono);color:rgba(255,255,255,.5);text-align:right;min-width:130px}
+.rpt-meta strong{color:rgba(255,255,255,.85);font-weight:500}
+/* kpi strip */
+.kpi{display:grid;grid-template-columns:repeat(3,1fr);background:var(--surface);border:1px solid var(--line)}
+.kpi .cell{padding:16px 20px;border-right:1px solid var(--line-muted)}
+.kpi .cell:last-child{border-right:none}
+.kpi .lbl{font:600 10px/1 var(--font-ui);color:var(--ink-subtle);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.kpi .v{font-family:var(--font-display);font-weight:800;font-size:26px;line-height:1.1;letter-spacing:-.02em;color:var(--ink);font-variant-numeric:tabular-nums}
+.kpi .v.good{color:var(--good)}
+.kpi .v.warn{color:var(--warn)}
+.kpi .v.risk{color:var(--risk)}
+.kpi .sub{margin-top:4px;font:400 11px/1.4 var(--font-ui);color:var(--ink-subtle)}
+/* body */
+.rpt-body{background:var(--surface);border:1px solid var(--line);border-top:none;border-radius:0 0 var(--r-xl) var(--r-xl);padding:24px 28px 28px}
+.sec{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}
+.sec:first-of-type{border-top:none;margin-top:0;padding-top:0}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--accent);flex-wrap:wrap}
+.sec-head .num{font:800 14px/1 var(--font-display);color:var(--accent);font-variant-numeric:tabular-nums;padding:4px 9px;background:var(--accent-soft);border-radius:var(--r-sm)}
+.sec-head .title{font-family:var(--font-display);font-weight:700;font-size:17px;letter-spacing:-.01em;color:var(--ink);flex:1}
+.sec-head .meta{font:500 11px/1 var(--font-mono);color:var(--ink-subtle);text-transform:uppercase;letter-spacing:.06em}
+/* confidence bands (line-like) */
+.bands{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.bands .band{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 16px}
+.bands .band .wk{font:600 10px/1 var(--font-ui);text-transform:uppercase;letter-spacing:.08em;color:var(--ink-subtle);margin-bottom:10px}
+.bands .band .range{font:700 15px/1.2 var(--font-mono);color:var(--ink);font-variant-numeric:tabular-nums}
+.bands .band .bar{height:8px;background:var(--line-muted);border-radius:4px;margin-top:12px;position:relative;overflow:hidden}
+.bands .band .bar .fill{position:absolute;top:0;bottom:0;background:var(--accent);border-radius:4px}
+.bands .band .bar .fill.centre{background:var(--accent-2)}
+.bands .band .note{font:400 11px/1.4 var(--font-ui);color:var(--ink-subtle);margin-top:10px}
+.bands .band.best .bar .fill{background:var(--good)}
+.bands .band.likely .bar .fill{background:var(--accent-2)}
+/* table */
+.tblwrap{overflow-x:auto}
+.tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tbl thead th{padding:10px 14px;text-align:left;font:600 10.5px/1 var(--font-ui);text-transform:uppercase;letter-spacing:.06em;color:var(--ink-subtle);border-bottom:1px solid var(--line);background:var(--paper);white-space:nowrap}
+.tbl thead th.r{text-align:right}
+.tbl tbody tr{border-bottom:1px solid var(--line-muted)}
+.tbl tbody tr:hover{background:var(--paper)}
+.tbl tbody td{padding:10px 14px;color:var(--ink)}
+.tbl tbody td.r{text-align:right}
+.tbl tbody td.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-weight:500;color:var(--ink-muted)}
+.tbl tbody td.num.good{color:var(--good);font-weight:600}
+.tbl tbody td.num.risk{color:var(--risk);font-weight:600}
+.tbl tbody td.num.warn{color:var(--warn);font-weight:600}
+/* insight */
+.insight{display:flex;gap:12px;background:var(--accent-soft);border:1px solid #C7CDF8;border-radius:var(--r-md);padding:12px 14px;margin-top:12px}
+.insight .lbl{font:700 10px/1 var(--font-ui);text-transform:uppercase;letter-spacing:.08em;flex-shrink:0;padding:5px 8px;border-radius:var(--r-sm);background:rgba(53,89,214,.12);height:fit-content;color:var(--accent)}
+.insight .body{font:400 12.5px/1.55 var(--font-ui);color:var(--ink)}
+.insight .body strong{font-weight:600;color:var(--ink)}
+/* footer */
+.footer{margin-top:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-start}
+.footer .src{font:500 11px/1.7 var(--font-mono);color:var(--ink-subtle)}
+.footer .pill{font:600 11px/1 var(--font-ui);color:#fff;background:linear-gradient(135deg,var(--accent) 0%,var(--accent-2) 100%);padding:7px 12px;border-radius:999px;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="rpt-header">
+    <div class="lockup"><span class="dot"></span>Forecast</div>
+    <div class="row1">
+      <div>
+        <div class="rpt-eyebrow">Quarterly commit</div>
+        <h1 class="rpt-h1">We land between $2.1M and $2.4M, toward the low end.</h1>
+        <p class="rpt-sub">Committed deals cover the base. The gap sits in three late-stage accounts.</p>
+      </div>
+      <div class="rpt-meta">
+        Source · <strong>pipeline table</strong><br>
+        Window · <strong>Q4 2026</strong><br>
+        Generated · <strong>Oct 27, 2026</strong>
+      </div>
+    </div>
+  </header>
+
+  <div class="kpi">
+    <div class="cell"><div class="lbl">Best case</div><div class="v">$2.40M</div><div class="sub">all commits close</div></div>
+    <div class="cell"><div class="lbl">Most likely</div><div class="v warn">$2.19M</div><div class="sub">weighted probability</div></div>
+    <div class="cell"><div class="lbl">Commit</div><div class="v good">$2.10M</div><div class="sub">signed or in procurement</div></div>
+  </div>
+
+  <div class="rpt-body">
+
+    <section class="sec">
+      <div class="sec-head"><span class="num">1</span><span class="title">Landing position by week</span><span class="meta">confidence bands</span></div>
+      <div class="bands">
+        <div class="band"><div class="wk">Wk 2</div><div class="range">$0.6M</div><div class="bar"><div class="fill" style="width:30%"></div></div><div class="note">early commits</div></div>
+        <div class="band likely"><div class="wk">Wk 3</div><div class="range">$1.1M</div><div class="bar"><div class="fill" style="width:52%"></div></div><div class="note">procurement batch</div></div>
+        <div class="band likely"><div class="wk">Wk 4</div><div class="range">$1.6M</div><div class="bar"><div class="fill" style="width:76%"></div></div><div class="note">late-stage accounts</div></div>
+        <div class="band"><div class="wk">Wk 5</div><div class="range">$2.0M</div><div class="bar"><div class="fill centre" style="width:92%"></div></div><div class="note">commit reached</div></div>
+        <div class="band"><div class="wk">Wk 6</div><div class="range">$2.2M</div><div class="bar"><div class="fill centre" style="width:96%"></div></div><div class="note">most likely</div></div>
+        <div class="band best"><div class="wk">Wk 7</div><div class="range">$2.4M</div><div class="bar"><div class="fill" style="width:100%"></div></div><div class="note">best case</div></div>
+      </div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">The commit is reached by <strong>week 5</strong>. Everything after is upside, concentrated in <strong>three accounts</strong>.</span></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-head"><span class="num">2</span><span class="title">The three accounts that decide the range</span><span class="meta">table</span></div>
+      <div class="tblwrap">
+        <table class="tbl">
+          <thead><tr><th>Account</th><th>Stage</th><th class="r">Value</th><th class="r">Probability</th></tr></thead>
+          <tbody>
+            <tr><td>Northwind Trading</td><td>Procurement</td><td class="num r">$120K</td><td class="num r good">75%</td></tr>
+            <tr><td>Acme Logistics</td><td>Legal review</td><td class="num r">$95K</td><td class="num r warn">50%</td></tr>
+            <tr><td>Blue Harbor Co</td><td>Security review</td><td class="num r">$80K</td><td class="num r risk">30%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body"><strong>Northwind Trading</strong> is the swing. If it closes we land near <strong>$2.3M</strong>; if it slips, near commit.</span></div>
+    </section>
+
+  </div>
+
+  <footer class="footer">
+    <div class="src">src: pipeline table (snapshot Oct 27) · caveat: probabilities are rep-entered · confidence: directional</div>
+    <div class="pill">Produced by Vera Reporting · Oct 27, 2026</div>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+# Brand design: the real slots an org fills to give Vera its voice and look.
+# Every value below is a documented slot. Fill them in per deployment.
+
+brand:
+  name: "Northwind"        # company or product name used in all output
+  tagline: ""              # optional one-line brand statement
+
+# --- Colors ---
+colors:
+  primary: "#3559D6"       # main accent: headers, actions, highlights
+  secondary: "#0F8A75"     # supporting accent: secondary series, positive detail
+  ink: "#1B1F27"           # body and headline text
+  paper: "#F4F5F7"         # light background
+  dark: "#14182e"          # dark surface: heroes, inverse sections
+
+# --- Fonts ---
+fonts:
+  display: "system-ui, sans-serif"   # headings and large numbers
+  body: "system-ui, sans-serif"      # body text and labels
+  mono: "ui-monospace, monospace"    # data, code, meta
+
+# --- Logo paths ---
+logos:
+  on_light: ""   # logo file for light backgrounds
+  on_dark: ""    # logo file for dark backgrounds
+  mark: ""       # icon-only mark
+  # Never reconstruct or approximate the logo. Pull from these files only.
+
+# --- Voice ---
+voice:
+  adjectives: ["plain", "direct", "specific"]   # three words that describe the house voice
+  banned_words: []                               # words to never write

@@ -1,0 +1,10 @@
+# evidence-trail org slots. Copy to org.yaml and fill in.
+
+# Where evidence bundles and finding ledgers are written.
+evidence_dir: "knowledge/graph/evidence/"   # used for ledgers and saved evidence
+
+# How long evidence is kept before it may be pruned.
+retention_days: 90                          # 0 = keep indefinitely
+
+# Ledger file naming: one ledger per system slug, stored under evidence_dir.
+ledger_pattern: "<slug>.ledger.md"

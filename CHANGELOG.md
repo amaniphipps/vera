@@ -11,17 +11,15 @@ First public shape. Everything is new.
   platform choice, visible-success hello. Idempotent, non-interactive mode.
 - `setup/doctor.sh` health table: runtime, config, manifests, policy, secrets.
 
-### Skills (5, deliberately small)
-Ships a handful of skills that carry the whole loop - onboarding, learning,
-daily work, and self-maintenance. Everything else Vera drafts herself into
-`skills-live/` as she learns your systems.
+### Skills (17, preset so Vera is useful on day 1)
 - onboarding: meet-vera (hello, tour, connect-tools, memory + model choices,
   guardrails review, examples offer)
-- capability-acquisition: learn-a-system (map a connected app's endpoints,
-  auth, data shapes; draft a skill into quarantine; REA as optional MCP
-  evidence source; the evidence standard inlined: claim, source, confidence,
-  search boundary, open unknowns)
-- analysis: briefings
+- capability-acquisition: learn-a-system, analyze-an-app, evidence-trail
+  (REA as optional MCP plugin; analysis enters at draft tier behind approval)
+- analysis: revops-analyst (7 method guides), customer-intel, briefings
+- delivery: vera-reporting, documents, visuals, brand-design, enablement,
+  intro-messages
+- engineering: thinking, code-review
 - self-maintenance: skill-vetter (boot lint + weekly review + promotion PRs),
   analysis-validator (18-check two-gate QA: data correctness + output quality
   + significance awareness; mandatory before any numbered output ships)

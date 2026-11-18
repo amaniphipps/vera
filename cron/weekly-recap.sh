@@ -5,9 +5,10 @@
 # Create it:
 #   hermes cron create '0 16 * * 5' \
 #     --name weekly-recap \
+#     --skill vera-reporting \
 #     --skill briefings \
 #     --deliver slack:C0123456789 \
-#     'Build the weekly recap: this week'"'"'s numbers from the connected systems, compiled into one self-contained HTML file. Deliver the file plus a three-line summary in-channel.'
+#     'Build the weekly recap report with your vera-reporting skill using this week'"'"'s numbers from the connected systems. Deliver the HTML file plus a three-line summary in-channel.'
 #
 # Notes:
 # - The HTML ships as a file upload in Slack - forward-as-is ready.
