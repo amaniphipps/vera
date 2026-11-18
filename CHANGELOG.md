@@ -11,19 +11,36 @@ First public shape. Everything is new.
   platform choice, visible-success hello. Idempotent, non-interactive mode.
 - `setup/doctor.sh` health table: runtime, config, manifests, policy, secrets.
 
-### Skills (16)
+### Skills (5, deliberately small)
+Ships a handful of skills that carry the whole loop - onboarding, learning,
+daily work, and self-maintenance. Everything else Vera drafts herself into
+`skills-live/` as she learns your systems.
 - onboarding: meet-vera (hello, tour, connect-tools, memory + model choices,
   guardrails review, examples offer)
-- capability-acquisition: learn-a-system, analyze-an-app, evidence-trail
-  (REA as optional MCP plugin; analysis enters at draft tier behind approval)
-- analysis: revops-analyst (7 method guides), customer-intel, briefings
-- delivery: vera-reporting, documents, visuals, brand-design, enablement,
-  intro-messages
-- engineering: thinking, code-review
+- capability-acquisition: learn-a-system (map a connected app's endpoints,
+  auth, data shapes; draft a skill into quarantine; REA as optional MCP
+  evidence source; the evidence standard inlined: claim, source, confidence,
+  search boundary, open unknowns)
+- analysis: briefings
 - self-maintenance: skill-vetter (boot lint + weekly review + promotion PRs),
   analysis-validator (18-check two-gate QA: data correctness + output quality
   + significance awareness; mandatory before any numbered output ships)
-- skills/schema/skill.schema.yaml; every manifest validates
+- templates/api-integration (the helper-script pattern for plain REST APIs);
+  skills/schema/skill.schema.yaml; every manifest validates
+
+### Deployment
+- Docker: `deploy/docker/Dockerfile` on the official `nousresearch/hermes-agent`
+  base; entrypoint seeds the Vera layer into the `/opt/data` volume on first
+  boot, then hands off to `hermes`
+- Railway: `deploy/railway/railway.toml` builds the same Dockerfile; volume +
+  variables documented in-file and in docs/DEPLOYMENT.md
+- docs/DEPLOYMENT.md (local CLI, local Slack gateway, Docker, Railway, other
+  harnesses) and docs/CONNECTING-TOOLS.md - both referenced by setup.sh from
+  the start, now actually present
+- setup.sh honors `VERA_PROFILE`/`VERA_PLATFORM` env vars (documented in
+  .env.example, previously unread) and prints Docker next steps under
+  `--profile docker`; `templates` bucket now installed alongside the others
+- .env.example default model aligned with setup.sh (anthropic/claude-sonnet-4.5)
 
 ### Policy
 - guardrails schema + safe-default example; Slack platform profile

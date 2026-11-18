@@ -3,8 +3,9 @@
 Optional module. Vera works fully without it.
 
 This module adds REA (Reverse Engineer Anything) as an MCP plugin. It lets Vera
-analyze apps and connected systems she cannot read the source of. Three
-capability-acquisition skills and one workflow ride on top of it.
+observe apps and connected systems she cannot read the source of. The
+`learn-a-system` skill orchestrates the work; REA is one of its evidence
+sources.
 
 ## What it is
 
@@ -24,25 +25,16 @@ its MCP tools by name and credits it.
 Static JavaScript analysis needs no native engine. Native targets need Ghidra,
 Hopper, or IDA separately, which this module does not install.
 
-## The capability-acquisition procedures
+## The procedure
 
-Under `skills/capability-acquisition/`:
-
-- **analyze-an-app**. Static JavaScript/Electron analysis. When to use it, the
-  summary-first flow, the CLI fallback, and how to report with evidence and
-  limitations. Native binaries, Android, and firmware are out of scope.
-- **evidence-trail**. The house standard for "how does this system work"
-  answers. Every claim carries evidence, confidence, a search boundary, and open
-  unknowns in a reusable finding ledger.
-- **learn-a-system**. The orchestrator. With approval, it maps a connected app's
-  endpoints, auth, and data shapes, writes the system into the knowledge graph,
-  and drafts a skill into `skills-live/`. It calls the two skills above.
-
-Under `capability/workflows/`:
-
-- **analyze-connector**. The end-to-end procedure for studying a newly connected
-  system: approval first, runtime observation, an ontology write, and a draft
-  skill handed to the vetter.
+- **learn-a-system** (`skills/capability-acquisition/`). With approval, it maps
+  a connected app's endpoints, auth, and data shapes, writes the system into
+  the knowledge graph, and drafts a skill into `skills-live/`. It uses REA for
+  runtime observation and static analysis when docs and live reads are not
+  enough. Without REA it degrades to docs-and-reads only.
+- **analyze-connector** (`capability/workflows/`). The same procedure written
+  as the concrete step sequence: approval first, observation, an ontology
+  write, and a draft skill handed to the vetter.
 
 ## Safety posture
 

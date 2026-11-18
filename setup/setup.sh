@@ -19,8 +19,8 @@
 set -euo pipefail
 
 # ── Args ─────────────────────────────────────────────────────────────
-PROFILE="local"
-PLATFORM="cli"
+PROFILE="${VERA_PROFILE:-local}"
+PLATFORM="${VERA_PLATFORM:-cli}"
 NONINTERACTIVE=0
 UPDATE=0
 WITH_REA=0
@@ -160,7 +160,7 @@ copy_dir() { # copy_dir <src> <dest> - idempotent
   fi
 }
 mkdir -p "$HERMES_HOME/skills"
-for bucket in onboarding capability-acquisition analysis delivery engineering self-maintenance; do
+for bucket in onboarding capability-acquisition analysis self-maintenance templates; do
   copy_dir "$REPO_ROOT/skills/$bucket" "$HERMES_HOME/skills/$bucket"
 done
 copy_dir "$REPO_ROOT/personas"  "$HERMES_HOME/personas"
@@ -227,3 +227,10 @@ say "  • Chat:        hermes"
 say "  • Health:      $REPO_ROOT/setup/doctor.sh"
 say "  • Add tools:   docs/CONNECTING-TOOLS.md"
 say "  • Your rules:  $HERMES_HOME/policy/guardrails.yaml"
+if [ "$PROFILE" = "docker" ]; then
+  say ""
+  say "Docker profile - run Vera in a container instead:"
+  say "  • Build:  docker build -f deploy/docker/Dockerfile -t vera ."
+  say "  • Run:    docker run -d --env-file $ENVF -v vera-data:/opt/data vera"
+  say "  • Detail: docs/DEPLOYMENT.md (Docker + Railway)"
+fi

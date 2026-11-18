@@ -1,0 +1,15 @@
+# Railway deployment for Vera.
+# Deploy from the repo root: railway up
+#
+# Two things the platform config cannot express - do them once in the dashboard:
+#   1. Attach a volume mounted at /opt/data (Vera's home: config, memory, skills-live).
+#   2. Set variables from .env.example (at minimum OPENROUTER_API_KEY; add
+#      SLACK_BOT_TOKEN + SLACK_APP_TOKEN + VERA_PLATFORM=slack for Slack).
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "deploy/docker/Dockerfile"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 5

@@ -1,8 +1,0 @@
-name: thinking
-version: 0.1.0
-tier: hardened
-scope: read-only
-requires: []
-secret_policy: never-touch
-env_layer: org.yaml
-provenance: {origin: authored, runs_clean: 0, last_drift: null}

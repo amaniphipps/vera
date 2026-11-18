@@ -31,5 +31,5 @@ Write rules that keep the graph honest:
    admin statement. Never from chat assertions alone.
 2. People-sensitive classes (comp, performance, anything HR-flavored) are
    excluded by schema and policy. No exceptions.
-3. Every claim can point at evidence. The evidence-trail skill sets the
-   format.
+3. Every claim can point at evidence. The learn-a-system skill defines the
+   format: claim, source, confidence, search boundary, open unknowns.

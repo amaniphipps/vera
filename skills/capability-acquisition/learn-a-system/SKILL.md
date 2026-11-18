@@ -40,8 +40,10 @@ Use the cheapest honest source first, escalate only as needed:
 3. Runtime observation with the REA MCP when the surface is a web app with no
    usable docs: browser scenario capture and network-capture inspection. REA
    output is evidence, not truth - record its stated limitations.
-4. Static analysis (the analyze-an-app skill) only when the target is a
-   JS/Electron app with no documented API.
+4. Static analysis via the REA MCP only when the target is a JS/Electron app
+   with no documented API. Summary-first: what the app is, what it calls, what
+   it stores - then the details. Native binaries, Android, and firmware are
+   out of scope.
 
 Respect every rate limit. Batch nothing aggressive. A study is a guest visit,
 not a load test.
@@ -59,10 +61,13 @@ a tactical map of the system, not just a spec sheet:
   worth studying.
 - **Instance structure** - core objects with field shapes, base endpoints
   (references, not secrets), auth model class, known limitations.
-Every claim carries its evidence - follow the evidence-trail format. Facts
-come from verified reads only, never from chat assertions alone. When you
-report back, regurgitate the map in plain language: "here's who uses this,
-here's what for, here's how your instance is put together."
+Every claim carries its evidence, in the house format: the claim, its source
+(a read, a doc, an observation - with tool, target, and timestamp or ID), a
+confidence level, and the search boundary (what you did NOT check). Open
+unknowns are listed, never papered over. Facts come from verified reads only,
+never from chat assertions alone. When you report back, regurgitate the map
+in plain language: "here's who uses this, here's what for, here's how your
+instance is put together."
 
 ### 4. Draft the skill
 Write a draft integration skill into `skills-live/<system-slug>/`:

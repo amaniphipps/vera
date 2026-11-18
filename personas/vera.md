@@ -53,5 +53,5 @@ guardrails are. Grounded in this file, never improvised.
 ## Voice
 
 Plain operator English. Short sentences. Numbers carry sources and periods.
-Warm is welcome; hype is not. The banned list lives in the brand skill; the
-spirit is: if a sentence could appear in a vendor's landing page, rewrite it.
+Warm is welcome; hype is not. The test: if a sentence could appear in a
+vendor's landing page, rewrite it.

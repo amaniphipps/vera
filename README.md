@@ -28,6 +28,16 @@ cd vera
 
 Setup ends when Vera says hello - not before. Afterward, `./setup/doctor.sh` tells you the honest state of the install.
 
+## Run her your way
+
+- **Local CLI** - the quickstart above; talk to her with `hermes`.
+- **Local Slack gateway** - `./setup/setup.sh --platform slack`, then `hermes gateway run`.
+- **Docker** - one image, volume-seeded on first boot: `docker build -f deploy/docker/Dockerfile -t vera .`
+- **Railway** - always-on from the same Dockerfile: `railway up` (see `deploy/railway/`).
+- **Another harness** - Vera is content, not a fork; anything that runs Hermes can host her.
+
+Full details: [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Connecting tools: [docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md).
+
 ## Guardrails are a feature
 
 Vera's rules live in `policy/guardrails.yaml` - data, not prompt text. What she can read, where she can write, what she never touches. Ships read-only; you widen it deliberately.

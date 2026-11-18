@@ -1,7 +1,0 @@
-# Documents skill: org-specific slots. Fill in per deployment.
-
-# --- Templates and style ---
-templates_dir: ""     # directory holding house .docx/.xlsx templates
-house_font: Arial     # default font for documents and spreadsheets
-heading_style: ""     # named heading style in house Word templates
-page_size: US-Letter  # US-Letter | A4
