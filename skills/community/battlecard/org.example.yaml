@@ -1,0 +1,17 @@
+# battlecard — org configuration
+# Competitor list and where competitive knowledge lives.
+
+# competitors: the named competitors to build/refresh cards for.
+# Admin source: your competitive-intel doc / win-loss notes.
+competitors:
+  - "Competitor A"
+  - "Competitor B"
+
+# competitive_knowledge_slot: where battlecards and competitor notes are
+# stored, so runs can read prior notes and save the result.
+# Admin source: the org memory slot / knowledge base holding positioning.
+competitive_knowledge_slot: "competitive"
+
+# value_prop: your one-line value prop, used to frame win conditions and
+# objection responses. Admin source: positioning/messaging doc.
+value_prop: "One-line value proposition here"

@@ -1,0 +1,43 @@
+# champion-move-detection — org configuration
+# Watchlist, scoring, and routing parameters. Work through once before enabling.
+
+# watchlist_max: max watched people per account. Default 5; raise only for
+# very large buying committees.
+watchlist_max: 5
+
+# refresh_window_days: rebuild an account's watchlist after this many days.
+# Default 90.
+refresh_window_days: 90
+
+# usage_window_days: lookback for a "materially active" heavy user. Default 90.
+usage_window_days: 90
+
+# self_serve_threshold: below this size AND funding, a move is future pipeline,
+# not an MQL (an FYI, never a sales motion). Default <50 employees AND <=$10M.
+# Admin source: sales leadership / ICP definition.
+self_serve_threshold:
+  max_employees: 50
+  max_raised_usd: 10000000
+
+# tier_floor: minimum tier a confirmed champion move scores (default one tier
+# above your standard mid-tier). Never overrides the scoring skill's hard gates.
+tier_floor: "high"
+
+# competitors: direct competitors — moves into these are logged, never scored.
+# Admin source: competitive-intel doc.
+competitors: []
+
+# mql_owner: the person/queue that owns champion-move MQL tasks and alerts.
+mql_owner: "Growth team"
+
+# digest_channel: where the monthly digest posts.
+digest_channel: "revops"
+
+# never_prospect: standing exclusions the scoring gates check (advisors,
+# partners, government, VC/PE). Admin source: sales ops.
+never_prospect: ["advisors", "partners", "government", "vc/pe"]
+
+# linkedin_lookup: the live LinkedIn profile lookup that returns the full
+# experience section (the verification rules depend on it). Configure the
+# tool/actor to use here. Admin source: your data-enrichment tooling.
+linkedin_lookup: "configure-live-profile-search-actor"

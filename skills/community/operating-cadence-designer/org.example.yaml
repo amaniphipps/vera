@@ -1,0 +1,54 @@
+# Operating Cadence Designer - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Meeting ownership (for the ritual calendar) ---
+roles:
+  # Named roles that own each ritual. The cadence is designed around roles,
+  # not names, so it survives personnel change.
+  # Found in: your org chart / leadership team.
+  cro: ""
+  ceo: ""
+  cmo: ""
+  vp_sales: ""
+  head_of_cs: ""
+  revops_lead: ""
+
+# --- Ritual timings (override the defaults if your org differs) ---
+rituals:
+  # Weekly / monthly / quarterly durations in minutes. Defaults below follow
+  # the standard cadence (weeklies 30-75 min, monthly 60-90, quarterly 180).
+  # Found in: your current meeting calendar or leadership preferences.
+  weekly_revenue_dashboard_min: 75
+  weekly_demand_loop_min: 45
+  weekly_pipeline_loop_min: 45
+  weekly_cs_loop_min: 45
+  weekly_coaching_loop_min: 45
+  weekly_breach_huddle_min: 30
+  biweekly_demo_retro_min: 60
+  monthly_strategy_review_min: 90
+  monthly_data_spine_review_min: 60
+  quarterly_reset_min: 180
+
+# --- Signal-based decision rules (8-12 signals, tuned to your data) ---
+signals:
+  # Thresholds that, when crossed, route a trigger to a ritual. Override the
+  # defaults with your own historical data (6 months minimum).
+  # Found in: your forecasting/reporting tools and historical performance.
+  pipeline_coverage_floor: 2.5
+  pipeline_coverage_weeks_below: 3
+  win_rate_drop_points: 5
+  decision_latency_days: 14
+
+# --- Cadence health KPI targets ---
+kpis:
+  # Targets for the cadence-health dashboard. Defaults are practice-based.
+  # Found in: leadership's agreed operating standards.
+  decision_latency_days_target: 7
+  cancel_rate_min_percent: 5
+  cancel_rate_max_percent: 15
+  slo_hit_rate_percent: 80
+  freshness_attainment_percent: 95
+  forecast_accuracy_percent: 70
+  kill_rate_percent_per_quarter: 20
+  coaching_uptake_percent: 80

@@ -1,0 +1,28 @@
+# Demand Lifecycle - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Budget ---
+# Monthly paid-media budget and currency. Found in: your marketing budget /
+# finance model.
+budget:
+  monthly_usd: 30000
+  currency: "USD"
+
+# --- Stage allocation ---
+# How the budget is split across the five demand stages, plus the motion.
+# Found in: your demand-gen plan or media plan.
+stage_allocation:
+  motion: ""          # "product-led" | "sales-led"
+  create: 0.0         # fraction of budget
+  capture: 0.0
+  accelerate_or_activate: 0.0
+  revive: 0.0
+  expand: 0.0
+
+# --- KPI targets ---
+# The numbers each stage is held to. Found in: your marketing/RevOps goals.
+kpi_targets:
+  cost_per_opportunity_usd: 0     # set 0 to use your pipeline-cost goal
+  pipeline_velocity_days: 0        # sales-cycle length target
+  expansion_sqo_target: 0          # influenced SQOs from existing customers

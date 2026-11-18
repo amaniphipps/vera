@@ -1,0 +1,8 @@
+name: pipeline-review
+version: 0.1.0
+tier: draft
+scope: read-only
+requires: []
+secret_policy: never-touch
+env_layer: org.yaml
+provenance: {origin: community-import, runs_clean: 0, last_drift: null, source_repo: "github.com/swan-gtm/gtm-skills", source_author: "Ido Goldberg", source_license: "MIT"}

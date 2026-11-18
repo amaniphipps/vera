@@ -1,0 +1,56 @@
+# signal-sourcer — org configuration
+# ICP, signal weights/thresholds, owners, and detection coverage.
+
+# icp_definition: the target account/contact profile signals are qualified
+# against. Admin source: your ICP / ideal-customer-profile doc.
+icp_definition:
+  company_size: "50-500 employees"
+  industries: ["SaaS", "fintech"]
+
+# signal_weights: per-signal point values. Start from the framework defaults,
+# adjust after 30 days of conversion data. Admin source: closed-won attribution.
+signal_weights:
+  demo_request: 100
+  three_pricing_visits: 80
+  champion_job_change: 75
+  multiple_stakeholders: 70
+  trial_signup: 65
+  g2_comparison: 60
+  five_visits_2weeks: 50
+  series_funding: 45
+  relevant_job_posting: 40
+  intent_surge: 40
+
+# recency_multipliers: staleness decay applied to signal scores.
+recency_multipliers:
+  h24: 1.5
+  d7: 1.2
+  d14: 1.0
+  d30: 0.7
+  d30_plus: 0.3
+
+# action_thresholds: heat-band breakpoints (150/100/50/20 defaults).
+action_thresholds:
+  red_hot: 150
+  hot: 100
+  warm: 50
+  cool: 20
+
+# response_owners: who owns each heat band's action.
+# Admin source: sales/SDR leadership.
+response_owners:
+  red_hot: "AE"
+  hot: "SDR"
+  warm: "SDR + Marketing"
+  cool: "Marketing"
+
+# tool_coverage: geography/compliance constraints for signal detection.
+# "US" enables person-level visitor ID; "global" means company-level (GDPR-safe).
+# Admin source: legal/compliance.
+tool_coverage:
+  geography: "global"
+  gdpr: true
+
+# competitors: competitor names for competitor-signal plays (bad reviews,
+# cross-shopping). Admin source: competitive-intel doc.
+competitors: []

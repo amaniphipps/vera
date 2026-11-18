@@ -39,9 +39,14 @@ properties:
     properties:
       origin:
         type: string
-        enum: [authored, live-learning, template, rea-analysis]
+        enum: [authored, live-learning, template, rea-analysis, community-import]
       runs_clean:
         type: integer              # consecutive successful runs since last change
         minimum: 0
       last_drift:
         type: [string, "null"]     # ISO date of last env-layer self-patch, or null
+      # community-import only: where the skill came from. Required when
+      # origin is community-import; omit otherwise.
+      source_repo: {type: string}      # e.g. "github.com/swan-gtm/gtm-skills"
+      source_author: {type: string}    # the credited author
+      source_license: {type: string}   # e.g. "MIT"

@@ -1,0 +1,26 @@
+# pipeline-review — org configuration
+# Funnel stage map, per-stage SLAs, and review cadence used before running.
+
+# stage_slas_days: normal dwell time per funnel stage. Used to avoid false
+# "stalled" flags on stages where 21+ days without activity is normal.
+# Admin source: sales ops / pipeline-management doc.
+stage_slas_days:
+  discovery: 30
+  demo: 21
+  proposal: 14
+
+# crm_stage_mapping: your CRM stage names mapped to the funnel stages above.
+# Admin source: CRM admin / pipeline config.
+crm_stage_mapping:
+  "01 - New": "discovery"
+  "02 - Demo": "demo"
+  "03 - Proposal": "proposal"
+
+# review_cadence / review_channel: how often the review runs and where the
+# report posts. Admin source: sales leadership.
+review_cadence: "weekly"
+review_channel: "sales-team-channel"
+
+# default_horizon_days: default close-date window for the review scope,
+# plus any deal aging longer than this regardless of close date.
+default_horizon_days: 90

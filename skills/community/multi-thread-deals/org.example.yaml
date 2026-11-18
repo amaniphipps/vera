@@ -1,0 +1,21 @@
+# multi-thread-deals — org configuration
+# Buying-committee model and funnel context used to find under-threaded deals.
+
+# buying_committee_roles: the persona model used to decide which roles are
+# missing on a deal. Map each role to a title/persona definition.
+# Admin source: your ICP/persona framework or sales-methodology doc.
+buying_committee_roles:
+  economic_buyer: "C-level budget owner, e.g. CFO, VP Finance"
+  technical_evaluator: "owns technical sign-off, e.g. CTO, Eng lead"
+  end_user: "day-to-day user of the product"
+  champion: "internal advocate driving the deal"
+
+# crm_pipeline_stages: CRM stage names that count as "open mid-to-late
+# stage" (the deals to thread). Admin source: CRM admin / pipeline config.
+crm_pipeline_stages:
+  - "Demo"
+  - "Proposal"
+
+# engagement_window_days: lookback for counting a contact as "active"
+# (drives the thin/thin/OK thresholds). Admin source: sales ops.
+engagement_window_days: 30

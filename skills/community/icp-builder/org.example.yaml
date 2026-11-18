@@ -1,0 +1,62 @@
+# ICP Builder - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Existing ICP, if any (drives Mode 1 vs Mode 2) ---
+# Your current ICP definition, exactly as it exists today, or null if none.
+# Any of: a document, a one-paragraph description, or note that it is missing.
+# Found in: your sales/marketing enablement docs or RevOps playbook.
+current_icp:
+  definition: null      # text or path to the ICP doc
+  source: null          # who wrote it, when — for the validation read
+
+# --- Motion type (selects the customer-count threshold) ---
+# Which reality you sell through. Drives the "real ICP vs Early Customer
+# Profile" threshold (e.g. no-touch ~160, medium-touch ~40, named ~20).
+# Found in: how your team actually sells today, not the org chart.
+motion_type: "medium-touch"   # no-touch | low-touch | medium-touch | high-touch | named
+
+# --- Fit scoring model weights (tunable, per segment) ---
+# The 0-100 model's weighted attributes, grouped under the three pillars.
+# Defaults below are hypotheses; tune quarterly via cycle-time validation.
+# Found in: the output of the first pattern-analysis pass over your top 20%.
+fit_scoring:
+  firmographic_industry: 25
+  firmographic_employees: 15
+  firmographic_revenue: 10
+  firmographic_geography: 5
+  technographic_stack: 15
+  technographic_website: 5
+  signal_hiring: 10
+  signal_funding: 5
+  signal_change: 10
+
+# --- Tier bands ---
+# Score bands mapped to tiers. Adjust only if your model's win-rate data says
+# the boundaries are wrong; keep them stable so tiers stay comparable.
+# Found in: quarterly cycle-time validation results.
+tier_bands:
+  t1_min: 80
+  t2_min: 50
+
+# --- Buyer personas for the buying committee ---
+# The role-level profiles (goals, pains, decision criteria) the ICP work should
+# produce. Populate the first passing version here so re-runs inherit it.
+# Found in: your sales playbook or persona doc.
+buyer_personas: []
+
+# --- CRM fit-score field (for operationalization) ---
+# The field that stores the 0-100 score, next to the icp_tier field.
+# Found in: your CRM's lead/account scoring configuration.
+crm_fit_score_field: "fit_score"
+
+# --- Goldilocks thresholds (tunable) ---
+# Minimums the ICP size must clear. Recalibrate to your price point.
+# Found in: your ACV, sales cycle, and cost-to-serve data.
+goldilocks:
+  min_acv_medium_touch: 20000
+  min_acv_high_touch: 50000
+  max_sales_cycle_months: 4
+  min_reference_customers: 5
+  max_cost_to_serve_pct: 30
+  min_addressable_targets: 100

@@ -1,0 +1,49 @@
+# Build List - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Saved ICP segments (the check for Step 0 push-back) ---
+# The segments the org actually sells to. A brief that contradicts every entry
+# here should be pushed back on, not silently obeyed.
+# Found in: your ICP definition doc or RevOps segment list.
+icp_segments:
+  - null   # e.g. "B2B SaaS, 50-500 employees, US/EU, engineering teams"
+
+# --- Sourcing tier order (cheap-before-expensive) ---
+# The order the skill tries sources, defaulting to native preview -> CRM
+# historical -> specialty. Reorder to match what you actually license.
+# Found in: your data-provider contracts and RevOps tooling list.
+sourcing_order:
+  - "native-business-preview"
+  - "crm-closed-lost-and-dormant"
+  - "specialty-provider"
+
+# --- Free-elimination thresholds ---
+# Hard constraints the free pass re-applies after preview returns. Preview
+# bands are soft; these are what "in the brief" actually means.
+# Found in: the brief's hard vs soft constraints, or your sales ops defaults.
+hard_filters:
+  min_employees: null
+  max_employees: null
+  geographies: []   # exact cities/regions, not states when a city is asked
+
+# --- Tier routing defaults ---
+# What happens to each tier after the list is saved. Tune to your sequence
+# tooling and follow-up cadence.
+# Found in: your activation/sequence defaults.
+tier_routing:
+  A: "priority-outreach"
+  B: "standard-nurture"
+  C: "low-touch-content"
+
+# --- Contact caps per play type ---
+# Contacts per company by motion. Higher caps = more credit spend.
+# Found in: your ABM vs outbound playbooks.
+contact_caps:
+  cold_blast: 1
+  abm_multithread: 5
+
+# --- Email validation policy ---
+# Whether catch_all addresses may ship. Set false = drop them.
+# Found in: your deliverability policy.
+allow_catch_all: false

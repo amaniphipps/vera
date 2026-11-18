@@ -1,0 +1,32 @@
+# signal-interpreter — org configuration
+# Domain vocabulary and persona map that power the relevance gate and output.
+
+# company_name: your company, used in the relevance-gate test question.
+company_name: "Acme Inc"
+
+# icp_domain: the operational world your product lives in — activities, asset
+# types, workflows, and regulatory contexts where a prospect's signal becomes
+# relevant. Define as a concrete list, not a category label (powers the
+# relevance gate and every strength/confidence judgment).
+# Admin source: your ICP / positioning doc. Example (digital-asset custody):
+icp_domain:
+  - "digital assets"
+  - "stablecoins"
+  - "treasury flows"
+  - "custody"
+  - "compliance"
+
+# icp_vocabulary: the operational-complexity vocabulary used to phrase
+# business implications. Admin source: same ICP/positioning doc.
+icp_vocabulary:
+  - "wallet governance"
+  - "treasury movement"
+  - "key management"
+
+# personas_by_signal_domain: for each signal domain, the titles that own the
+# pain the signal reveals. Used downstream by contact-finding, not here.
+# Admin source: your persona / buying-committee map.
+personas_by_signal_domain:
+  regulatory_compliance: ["CCO", "MLRO", "CRO", "Head of Compliance", "General Counsel"]
+  payments_stablecoin: ["Head of Payments", "VP Treasury", "Treasurer", "CFO"]
+  infrastructure_custody: ["CTO", "VP Engineering", "Head of Infrastructure", "Head of Custody"]

@@ -1,0 +1,47 @@
+# Pricing and Monetization Operations - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Contract types in use ---
+# Which of the six rating structures your billing system must support.
+# Found in: your pricing page and the contract repository.
+contract_types:
+  - pure_usage
+  - tiered
+  - hybrid_seats_usage
+  # - minimum_commit
+  # - outcome_based
+  # - credits
+
+# --- Billing cadence (days of the month) ---
+# The close/rating/invoicing/recognition schedule. Found in: your finance
+# runbook or billing-system config.
+billing_cadence:
+  period_close_utc: "23:59"
+  metering_reconcile_by_day: 3
+  rating_by_day: 4
+  invoice_sent_by_day: 7
+  revenue_recognized_by_day: 25
+
+# --- Data-quality thresholds ---
+# Targets that override the SKILL.md defaults if your org is stricter.
+# Found in: your RevOps/Finance data-quality SLOs.
+quality_targets:
+  event_dedup_max_pct: 0.5
+  customer_mapping_min_pct: 99.9
+  rounding_variance_max_usd: 100
+  payment_method_min_pct: 98
+
+# --- Migration plan ---
+# If you are running a seat→usage migration, the active approach and dates.
+# Found in: the pricing committee's migration program plan.
+migration:
+  approach: ""               # "parallel" | "scheduled_grandfather" | "coupon_education"
+  grandfather_floor_note: "" # e.g. "floor = prior-year seat spend"
+
+# --- Escalation / dunning ---
+# Retry days and churn threshold for failed charges.
+# Found in: your billing system's dunning configuration.
+dunning:
+  retry_days: [3, 8, 15]
+  churn_after_failures: 3

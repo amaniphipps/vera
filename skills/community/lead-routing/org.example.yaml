@@ -1,0 +1,38 @@
+# Lead Routing - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- SLA tiers ---
+# First-touch response targets and escalation thresholds, by lead tier.
+# Found in: your sales leadership's speed-to-lead goals, or set here from the
+# SKILL.md defaults (T1 5m / T2 1h / T3 24h).
+routing_slas:
+  tier_1_minutes: 5      # high ICP fit + demo/pricing request
+  tier_1_escalate_minutes: 15   # alert manager at this mark
+  tier_1_reassign_minutes: 30   # reassign at this mark
+  tier_2_minutes: 60
+  tier_3_minutes: 1440   # 24h
+
+# --- ICP / qualification threshold ---
+# The score or property cutoff that separates "route to sales" from "nurture".
+# Found in: your scoring tool's lead-score documentation.
+icp_threshold: 50        # leads below this route to nurture
+
+# --- Territories ---
+# Territory definitions keyed by segment. Hybrid = territory first, then
+# round-robin inside. Found in: your territory planning spreadsheet.
+territories: []
+  # - segment: mid-market
+  #   model: geographic
+  #   definition: "North America"
+
+# --- Round-robin weights ---
+# Per-rep weighting for weighted round-robin (senior/ramping).
+# Found in: rep tenure, ramp status, current quota attainment.
+round_robin_weights: {}
+  # rep_email: 3           # senior rep, 3× share
+
+# --- Escalation contacts ---
+# Who gets alerted on SLA breach, per tier. Found in: your sales org chart.
+escalation_contacts: {}
+  # manager_handle: "manager@example.com"

@@ -1,0 +1,28 @@
+# AI Pricing Model Picker - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# This skill's core framework (the four-model map and anchor benchmarks) needs
+# no org config. The slots below personalize anchors to your situation when
+# you have them; leave at null to use the public defaults in the SKILL body.
+
+# --- Displaced-budget context ---
+# The budget line your agent raids, and its size, if you know it. The skill's
+# anchor examples (SDR comp ~$70-90k/yr, BPO ~$877/employee/yr) are cited
+# defaults; override with your own customer's unit economics when available.
+# Found in: your own pricing research or a named customer's budget context.
+displaced_budget:
+  line: null          # headcount | bpo | tools | performance
+  unit_value: null    # e.g. fully-loaded cost of the role being replaced
+
+# --- Pricing constraints ---
+# Hard constraints: a target gross-margin floor, a compliance/list-price cap.
+# Found in: your finance function's margin targets and pricing governance.
+constraints:
+  min_gross_margin_pct: null
+
+# --- Champion discretionary budget ---
+# The spend a champion can approve without re-budgeting. The entry tier must
+# land inside it. Estimate from your typical deal's approver level.
+# Found in: your deal-desk or sales team's observations.
+champion_discretionary_budget: null

@@ -1,0 +1,31 @@
+# Research - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# This skill is target-driven and works with no org config. The slots below
+# sharpen its output — fill them when you have the inputs; leave at defaults
+# otherwise. Found in: your ICP doc, persona doc, and competitive landscape.
+
+# --- ICP segments for fit qualification ---
+# The segments the org sells to. Needed by CompetitorMentions and any facet
+# that asks "is this an ICP fit?" Empty = fit can't be ranked.
+# Found in: your ICP definition doc.
+icp_segments: []
+
+# --- Buyer personas for committee mapping ---
+# Roles that make up a buying committee (champion, influencer, economic buyer).
+# Used by AccountTeam to size 3-5 persona slots. Empty = ask the user once.
+# Found in: your sales playbook or persona doc.
+buyer_personas: []
+
+# --- Competitive landscape ---
+# Named competitors and their aliases (parent + product, rebrands, abbreviations).
+# Found in: your competitive-intel notes or battlecards.
+competitors:
+  - name: null
+    aliases: []
+
+# --- News look-back window (days) ---
+# Default freshness window for the News facet. Override per-ask.
+# Found in: how far back your team reads for outreach relevance.
+news_window_days: 30

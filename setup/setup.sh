@@ -160,7 +160,7 @@ copy_dir() { # copy_dir <src> <dest> - idempotent
   fi
 }
 mkdir -p "$HERMES_HOME/skills"
-for bucket in onboarding capability-acquisition analysis delivery engineering self-maintenance templates; do
+for bucket in onboarding capability-acquisition analysis delivery engineering self-maintenance templates community; do
   copy_dir "$REPO_ROOT/skills/$bucket" "$HERMES_HOME/skills/$bucket"
 done
 copy_dir "$REPO_ROOT/personas"  "$HERMES_HOME/personas"

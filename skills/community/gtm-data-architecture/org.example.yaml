@@ -1,0 +1,42 @@
+# GTM Data Architecture - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Source systems ---
+# What feeds the warehouse. Found in: your tooling stack / vendor list.
+source_systems:
+  crm: ""            # e.g. your CRM instance
+  product_analytics: ""
+  billing: ""
+  support: ""
+  call_recording: ""
+
+# --- Warehouse & tooling ---
+# The warehouse, ELT connector, and transformation layer the org has chosen.
+# Found in: your data platform / data-engineering team's stack.
+stack:
+  warehouse: ""       # e.g. your cloud warehouse
+  elt_connector: ""   # managed or open-source ELT
+  transformation: ""  # the versioned-SQL layer (managed or core)
+
+# --- Reverse ETL destinations ---
+# Where warehouse-computed scores get activated.
+# Found in: your RevOps routing/score configuration.
+reverse_etl:
+  destinations: []    # e.g. ["crm", "slack", "email"]
+  sync_schedule: "hourly"
+  reconciliation_day: 1   # day-of-month for the drift audit
+
+# --- Identity resolution & health-score thresholds ---
+# Match confidence cutoffs and the signals feeding the health score.
+# Found in: your CDP / identity-resolution configuration.
+identity:
+  deterministic_fields: ["email", "phone"]
+  probabilistic_min_confidence: 90   # only merge at/above this score
+
+# --- Data residency / compliance ---
+# Warehouse region and any deletion-SLA the org commits to.
+# Found in: your DPA / privacy policy / security policy.
+compliance:
+  data_region: ""     # e.g. "eu" | "us"
+  deletion_sla_days: 30

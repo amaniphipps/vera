@@ -1,0 +1,38 @@
+# Revenue Performance Metrics - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Funnel stages ---
+funnel:
+  # The stages your org actually tracks, in order, from first touch to
+  # expansion. Not every company tracks all 12; the minimum viable funnel is
+  # Leads -> MQLs -> SQLs -> Opportunities -> Closed Won -> Retained -> Expanded.
+  # Found in: your CRM's lifecycle-stage or funnel settings, or the RevOps
+  # funnel definitions doc.
+  stages: ["visitors", "leads", "mqls", "sals", "sqls", "opportunities", "proposals", "closed_won", "onboarded", "retained", "expanded"]
+
+# --- Segment definitions ---
+segments:
+  # How you split SMB / Mid-Market / Enterprise. Benchmarks differ sharply by
+  # segment (e.g. Opportunity -> Win is 15-20% enterprise, 25-35% SMB).
+  # Found in: your ICP definition doc or the CRM's segment field picklist.
+  smb: "ACV under $15K"
+  mid_market: "ACV $15K to $80K"
+  enterprise: "ACV over $80K"
+
+# --- Retention metric baseline ---
+retention:
+  # Your current ARR level, used to pick the right benchmark band (growth
+  # rate, burn multiple, and composition benchmarks all key off stage).
+  # Found in: the current-quarter ARR figure in your finance system.
+  current_arr: 0
+  # Gross margin %, for LTV and payback math.
+  # Found in: your finance P&L or CFO's operating metrics.
+  gross_margin_percent: 80
+
+# --- Motion types in play ---
+motions:
+  # Which motions your org runs, so benchmarks are filtered to comparable
+  # companies. Options include: inbound, outbound, PLG, partner, hybrid.
+  # Found in: your GTM strategy doc or how pipeline is sourced in the CRM.
+  active: ["inbound", "outbound"]

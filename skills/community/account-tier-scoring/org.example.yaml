@@ -1,0 +1,65 @@
+# Account Tier Scoring - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it. All numeric defaults are
+# tunable — recalibrate to your price point, then leave them stable so tiers
+# stay comparable over time.
+
+# --- Routing owners and channels ---
+# Who receives Gold/Diamond work, and where alerts post.
+# Found in: your sales ops routing rules and Slack/alert channel list.
+routing:
+  sales_owner: null          # rep/founder whose queue Gold/Diamond feeds
+  partnerships_owner: null   # person to flag agency/partner/investor signals
+  alerts_channel: null        # MQL channel — one channel, one format
+  active_deals_channel: null  # optional; upgrades on accounts already worked
+  social_seller: null         # optional; LinkedIn profile whose views/engagement count
+
+# --- Self-serve gate (runs first, no exceptions) ---
+# Accounts at or below this profile route to self-serve instead of being scored.
+# Found in: your self-serve vs sales-assisted split.
+self_serve_threshold:
+  max_employees: 50
+  max_funding: 10000000       # $10M
+
+# --- Enterprise persona gate ---
+# Employee count at which the single-non-buyer-signal Silver cap applies.
+# Found in: the size at which your deals become multi-stakeholder.
+enterprise_threshold_employees: 1000
+
+# --- Buyer persona list (buying authority) ---
+# Titles that count as a real buyer. Weak-persona signals cap at Silver.
+# Found in: your sales playbook / persona doc.
+buyer_persona_list:
+  - "CRO"
+  - "VP Sales"
+  - "VP Marketing"
+  - "CMO"
+  - "CEO"
+  - "Co-founder"
+  - "RevOps Lead"
+  - "GTM Engineer"
+  - "Growth Lead"
+  - "Agency Owner"
+
+# --- Disqualified markets (optional) ---
+# Segments you structurally cannot serve. Empty = delete Step 0b.
+# Found in: compliance/legal guidance on blocked verticals.
+disqualified_markets: []
+
+# --- Hard caps and floors (tuned defaults) ---
+# The <3-seller cap plus its overrides; the fresh-trial and inactivity windows.
+# Found in: your sales-touch economics and product activation data.
+caps:
+  min_buying_team_size: 3
+  founder_signup_revenue_override: 5000000   # $5M est revenue
+  funding_override: 10000000                 # $10M raised
+  fresh_trial_days: 14
+  inactivity_days: 30
+
+# --- ACV funding bands ---
+# Funding signals show scaled budget. Recalibrate to your price point.
+# Found in: your pricing and average deal size.
+acv_funding_bands:
+  validated_budget: 10000000     # $10M
+  high_potential_min: 30000000   # $30M
+  enterprise_scale: 100000000    # $100M

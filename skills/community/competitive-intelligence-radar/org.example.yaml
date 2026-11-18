@@ -1,0 +1,36 @@
+# competitive-intelligence-radar — org configuration
+# Watchlist, tracked keywords, and publishing settings for the weekly radar.
+
+# competitors: the tracked competitors. Capped at 8 per run.
+# Admin source: competitive-intel doc / sales leadership.
+competitors:
+  - "Competitor A"
+  - "Competitor B"
+
+# tracked_keywords: SERP keywords tracked across competitors.
+# Admin source: your SEO/keyword strategy.
+tracked_keywords:
+  - "example keyword one"
+  - "example keyword two"
+
+# domain: your domain, used for SERP/brand context.
+domain: "example.com"
+
+# geo: region for SERP and news queries.
+geo: "US"
+
+# scout_depth: opt-in deep sources per competitor. Off by default for a lean
+# (cheaper) run. Admin source: leadership's cost/coverage tradeoff.
+scout_depth:
+  social_sentiment: false
+  financials: false
+  hiring: false
+
+# publishing: where each run's briefing, dossier, and dashboard are written.
+publishing:
+  local_folder: "outputs/"
+  knowledge_base: true   # upsert competitor rows + a briefing page per run
+
+# council_token_gate: the war room always asks before spending tokens.
+# Keep true unless leadership explicitly opts into auto-running the council.
+council_token_gate: true

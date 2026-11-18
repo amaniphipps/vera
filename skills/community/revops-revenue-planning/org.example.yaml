@@ -1,0 +1,49 @@
+# Revenue Planning - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Fiscal calendar ---
+fiscal:
+  # Your fiscal year start and end months (for calendar-year planning,
+  # start=1 end=12). Drives whether the 12-week planning cycle shifts.
+  # Found in: your finance calendar or the board deck header.
+  fiscal_year_start_month: 1
+  fiscal_year_end_month: 12
+  # Board approval date for the annual plan (locked, then work backwards).
+  # Found in: the board meeting schedule.
+  board_approval_month: 10
+
+# --- Capacity model inputs (bottoms-up) ---
+capacity:
+  # AE quota and headcount by tenure, for the capacity model
+  # (Annual Bookings = FTE x ramp factor x quota).
+  # Found in: your comp plan (quota) and HRIS (headcount/start dates).
+  ae_annual_quota: 0
+  ae_tenured_count: 0
+  ae_ramping_count: 0
+  ramping_factor: 0.8
+  # Expected pipeline contribution from expansion and inbound/self-sourced.
+  # Found in: your historical pipeline mix in the CRM.
+  expansion_incremental_percent: 0.18
+  inbound_pipeline_percent: 0.25
+
+# --- Segment revenue baseline ---
+segments:
+  # Current ARR by revenue type (New/Expansion/Renewal) and growth assumptions.
+  # Found in: your finance's current ARR roll-forward and retention data.
+  new_business_arr: 0
+  expansion_arr: 0
+  renewal_arr: 0
+  expansion_growth_percent: 0.12
+  renewal_grr_percent: 0.97
+
+# --- Reforecast triggers (override defaults if your leadership set others) ---
+triggers:
+  # Pipeline coverage floor below which a reforecast fires.
+  # Found in: your forecasting policy doc.
+  coverage_floor: 2.5
+  # NRR floor, CAC payback ceiling (months), variance threshold.
+  # Found in: your finance's planning guardrails.
+  nrr_floor_percent: 105
+  cac_payback_ceiling_months: 14
+  variance_threshold_percent: 15

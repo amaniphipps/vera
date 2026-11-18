@@ -39,6 +39,19 @@ First public shape. Everything is new.
   uses the runtime's native memory-write or skill-create tools - they skip
   the review trail.
 
+### Community skills (28, new bucket)
+- `skills/community/`: 28 skills adapted from swan-gtm/gtm-skills (MIT),
+  selected by real skills.sh install rank, deduplicated against Vera's
+  authored skills, and reshaped to her format: Vera frontmatter, skill.yaml
+  manifests, org.example.yaml slots, vendor-neutral language, and her Output
+  contract (self-contained files, analysis-validator before numbers ship,
+  plain voice). Judgment preserved: rubrics, thresholds, cited benchmarks.
+- Provenance: schema gains `origin: community-import` plus machine-readable
+  `source_repo`/`source_author`/`source_license`; human credit in
+  `skills/community/ATTRIBUTION.md`. All ship at tier: draft.
+- setup.sh installs the community bucket; skill.schema.yaml extended;
+  doctor verifies all 46 manifests.
+
 ### Positioning
 - README rewritten for clarity: requirements, one-command quickstart, what
   she does, where she runs. Hermes stated plainly as the supported runtime.

@@ -1,0 +1,52 @@
+# Pipeline Visibility - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Pipeline stages ---
+pipeline:
+  # Stage names, in order, and each stage's probability. Replace the defaults
+  # with your own historical stage-to-close conversion rates (measure actual
+  # close rate per stage from deals closed in the past 12 months).
+  # Found in: your CRM's pipeline editor (deal stages). The order matters.
+  stages:
+    - {name: "discovery", probability: 0.10}
+    - {name: "qualification", probability: 0.20}
+    - {name: "solution_design", probability: 0.40}
+    - {name: "proposal", probability: 0.60}
+    - {name: "negotiation", probability: 0.75}
+    - {name: "closed_won", probability: 1.0}
+    - {name: "closed_lost", probability: 0.0}
+
+# --- Coverage thresholds ---
+coverage:
+  # Pipeline coverage RAG thresholds (open pipeline / remaining target).
+  # Default is Clari's 3.2x benchmark banded; override with your own win-rate-
+  # derived requirement (required coverage = quota / win rate).
+  # Found in: your forecasting doc or leadership's coverage target.
+  green: 3.5
+  amber: 2.5
+  red: 2.5  # below this is red
+
+# --- Hygiene thresholds ---
+hygiene:
+  # Stale-after days per stage (no logged activity). Calibrate to your sales
+  # cycle: 30-day cycles tighten, 120+ day cycles extend.
+  # Found in: your current sales cycle length and pipeline review cadence.
+  stale_after_days:
+    discovery: 7
+    qualification: 10
+    solution_design: 14
+    proposal: 7
+    negotiation: 5
+  # Big-deal alert thresholds by segment.
+  # Found in: your ACV distribution / deal-size tiers.
+  big_deal_threshold_per_segment:
+    mid_market: 50000
+    enterprise: 200000
+
+# --- Forecast ---
+forecast:
+  # Forecast categories used in snapshots, and the weight of each in the
+  # weighted forecast.
+  # Found in: your sales process doc or the CRM picklist for forecast category.
+  categories: ["commit", "best_case", "pipeline", "omit"]

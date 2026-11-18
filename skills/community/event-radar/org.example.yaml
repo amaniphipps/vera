@@ -1,0 +1,29 @@
+# Event Radar - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Monitored event sources ---
+# Which event platforms feed attendee lists, and which industry/competitor
+# events get post-event public-list scraping.
+# Found in: your event-marketing calendar and which platforms you run.
+event_sources:
+  owned: []          # webinars/conferences/dinners you host (platform names)
+  exhibited: []      # conferences where you run a booth
+  competitor: []     # competitor events to scrape attendee lists from
+  partner: []        # partner/adjacent vendor events
+
+# --- ICP fit floor for attendee lists ---
+# Minimum fit needed to qualify before any reach-out. Raise it when a given
+# event yields too much non-ICP tail.
+# Found in: your ICP scoring model output.
+icp_fit_floor: null
+
+# --- Follow-up sequence ---
+# The 2-3 touch sequence the event follow-up hands into.
+# Found in: your sequence tooling templates.
+follow_up_sequence: null
+
+# --- Success metric ---
+# What event-radar is measured on (e.g. reply rate, meeting rate).
+# Found in: your outbound success metrics.
+success_metric: "reply-rate"

@@ -1,0 +1,32 @@
+# Closed-Won Replication Play - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Lookalike volume ---
+# Lookalike companies to find per closed-won deal. Lower = faster review.
+# Found in: how much outreach a rep can review in one sitting.
+lookalike_count: 5
+
+# --- Review surface ---
+# Where the single batch review task is created (e.g. your task/desk queue).
+# Found in: your team's task-management tooling.
+review_surface: null
+
+# --- Win-reference policy ---
+# Anonymized win references are the default. Set naming_allowed true only if
+# your customer contracts permit it — some logos require written consent for
+# ANY reference, including anonymized. Have legal bless the template phrasing.
+# Found in: your customer contract terms / legal guidance.
+anonymize_win_reference: true
+naming_allowed: false
+
+# --- Suppression source ---
+# The opt-out/suppression list checked before drafting (Exit Conditions).
+# Found in: your deliverability/compliance tooling.
+suppression_source: null
+
+# --- Trigger guard ---
+# A deal flapping out of and back into Closed Won must not run the play twice.
+# The play checks for the closed-won-replication tag or a prior review task.
+# Found in: your CRM stage-change workflow configuration.
+dedupe_tag: "closed-won-replication"

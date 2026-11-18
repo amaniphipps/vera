@@ -1,0 +1,45 @@
+# Expansion Revenue Architect - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- NRR / GRR ---
+retention:
+  # Your current ARR, used to pick the right benchmark band (NRR/GRR
+  # benchmarks key off stage and ACV).
+  # Found in: the current-quarter ARR figure in your finance system.
+  current_arr: 0
+  # Target NRR and GRR your leadership has committed to.
+  # Found in: the board deck or finance's annual plan.
+  target_nrr_percent: 110
+  target_grr_percent: 90
+
+# --- Expansion ownership thresholds ---
+expansion:
+  # The ACV share boundaries for the ownership model (CS-owned vs. Sales-owned).
+  # Defaults: <10% seat growth auto, <20% CS, 20-50% CS-sourced/Sales-closed,
+  # >50% Sales-led. Adjust to your ACV tiers.
+  # Found in: your CS-Sales handoff playbook or comp plan territory rules.
+  cs_auto_max_percent: 10
+  cs_close_max_percent: 20
+  sales_led_min_percent: 50
+
+# --- Expansion Readiness Score weights ---
+scoring:
+  # Weights for the 0-100 Expansion Readiness Score. Defaults are usage 30%,
+  # stakeholder 25%, feature 20%, health 15%, contract 10%. Tune to what
+  # predicts expansion at your org (you can derive from past expansions).
+  # Found in: your CS analytics or the scorecard your CS team already uses.
+  weights:
+    usage_growth: 0.30
+    stakeholder_breadth: 0.25
+    feature_depth: 0.20
+    health_trajectory: 0.15
+    contract_headroom: 0.10
+
+# --- Segments ---
+segments:
+  # ARR bands used to filter GRR benchmarks (enterprise >$100K, mid-market
+  # $25-100K, SMB $5-25K).
+  # Found in: your ICP definition or CRM segment picklist.
+  enterprise_min_acv: 100000
+  mid_market_min_acv: 25000

@@ -1,0 +1,43 @@
+# GTM Planning & Revenue Org Design - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Plan targets ---
+# The revenue target and growth assumption the capacity model works back from.
+# Found in: the board-approved annual operating plan.
+plan_targets:
+  revenue_target_new_arr_usd: 20000000   # e.g. $20M new ARR
+  growth_rate_pct: 40
+  fiscal_year_start: "2026-01-01"
+
+# --- Segments and motions ---
+# Which segments you serve and the touch model each resolves to.
+# Found in: your segmentation model / TAM analysis.
+segments:
+  smb: {acv_range: [0, 10000], motion: "low-touch"}
+  mid_market: {acv_range: [10000, 50000], motion: "medium-touch"}
+  enterprise: {acv_range: [50000, 250000], motion: "high-touch"}
+
+# --- Quota bands and ramp ---
+# Fully-ramped quota by role and the ramp curve; overrides SKILL.md defaults.
+# Found in: your comp plan and ramp documentation.
+quota_bands:
+  ae_smb_usd: 400000
+  ae_mid_market_usd: 1000000
+  ae_enterprise_usd: 2000000
+ramp_months_full: 6        # mid-market months to full productivity
+attrition_buffer_pct: 10   # hire to 110% of need
+
+# --- Team ratios ---
+# Override the SKILL.md SDR:AE / AE:SE / AE:CSM / manager:rep ratios.
+# Found in: your current org chart and span-of-control norms.
+team_ratios:
+  sdr_to_ae: "1:2"
+  manager_to_rep_smb: "1:6"
+
+# --- Cost-to-serve / GRR targets ---
+# Efficiency and retention goals per motion, for the factory-sustainability check.
+# Found in: your finance model and CS retention targets.
+efficiency_targets:
+  gtm_efficiency_ratio_max: 1.5
+  grr_floor_by_motion: {self_serve: 75, inside_sales: 85, mid_market: 90, enterprise: 95, strategic: 98}

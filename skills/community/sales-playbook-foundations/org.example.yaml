@@ -1,0 +1,27 @@
+# Sales Playbook Foundations - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it. This skill needs little
+# config — the playbook is built from real rep/manager interviews, not org
+# presets — but the slots below name the things an admin should pre-fill.
+
+# --- Playbook owner & cadence ---
+# Who owns the playbook and how often it is reviewed. Found in: your sales
+# leadership's operating rhythm.
+owner:
+  name: ""
+  review_cadence: ""     # e.g. "quarterly"
+
+# --- Quota math defaults ---
+# The numbers used to show the rep how their target is derived. Found in:
+# your comp plan and rep quota letters.
+quota_math:
+  avg_deal_size_usd: 10000      # example used in the SKILL.md worked example
+  close_rate_pct: 25
+  target_per_quarter_usd: 100000
+
+# --- Promotion / termination criteria ---
+# The two lists the People section must state on day one. Found in: your HR
+# or sales-leadership performance-review definitions.
+criteria:
+  promotion: []      # e.g. ["hits quota 3 consecutive quarters"]
+  termination: []   # e.g. ["misses ramp targets by month 6"]

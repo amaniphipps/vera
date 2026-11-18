@@ -1,0 +1,48 @@
+# RevOps Diagnostic - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Current state (needed before a diagnostic) ---
+current_state:
+  # Current ARR and growth rate, to anchor the diagnostic.
+  # Found in: the current-quarter ARR figure in your finance system.
+  curr_arr: 0
+  growth_rate_percent: 0
+  # Current NRR / GRR / CAC payback months.
+  # Found in: your finance or RevOps metric definitions.
+  nrr_percent: 0
+  grr_percent: 0
+  cac_payback_months: 0
+
+# --- Org structure ---
+org:
+  # Headcount by function. Used for the ~80-100 employee enablement threshold
+  # check and for diagnosing capacity vs. productivity.
+  # Found in: your HRIS or org chart.
+  sales_headcount: 0
+  marketing_headcount: 0
+  cs_headcount: 0
+  revops_headcount: 0
+
+# --- Strategic goal under audit ---
+goal:
+  # The single exec goal to run the structural alignment audit against
+  # (e.g. "NRR from 98% to 110%"). Every function's metric/visibility/comp is
+  # checked against this.
+  # Found in: the current company OKRs or the board deck's top priority.
+  statement: "NRR from 98% to 110%"
+  # The metric + target that proves the goal.
+  # Found in: the OKR's key result line.
+  metric: "net_revenue_retention"
+  target: 110
+
+# --- Maturity baselines (for the four-capability scoring) ---
+capabilities:
+  # Current 1-4 scores for the four capabilities, if already known. Otherwise
+  # leave 1 and score during the diagnostic.
+  # Evidence for each score: found in your RevOps maturity assessment or prior
+  # diagnostic reports.
+  customer_value_from_insights: 1
+  revenue_generation_efficiency: 1
+  enablement: 1
+  governance_and_execution: 1

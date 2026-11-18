@@ -1,0 +1,51 @@
+# Customer Success Operations - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Health score ---
+health:
+  # Weights for the 5-dimension composite health score. Defaults: usage 35%,
+  # relationship 25%, support 18%, commercial 17%, outcomes 5%. Tune to what
+  # predicts renewal/churn at your org (derive from past churn if possible).
+  # Found in: your CS analytics or the scorecard your CS team already uses.
+  weights:
+    product_usage: 0.35
+    relationship: 0.25
+    support: 0.18
+    commercial: 0.17
+    outcomes: 0.05
+  # Traffic-light thresholds. Green expand, yellow intervene, red save mode.
+  # Found in: your CS playbook or reporting definitions.
+  green_min: 80
+  yellow_min: 40
+  # How many health dimensions breaking at once counts as "red". Default 3.
+  # Found in: your CS escalation policy.
+  red_dimensions_threshold: 3
+
+# --- Coverage / segmentation tiers ---
+coverage:
+  # ARR band boundaries for the three coverage tiers (high-touch / mid-touch /
+  # tech-touch). Defaults: >$50K strategic, $10-50K scaled, <$10K digital.
+  # Found in: your CS segmentation model or CSM capacity plan.
+  high_touch_min_acv: 50000
+  mid_touch_min_acv: 10000
+  # CSM account ratios per tier, if your org has set them.
+  # Found in: your CSM capacity model.
+  high_touch_csm_ratio_max: 50
+  mid_touch_csm_ratio: 150
+  tech_touch_csm_ratio: 750
+
+# --- Renewal timing ---
+renewal:
+  # Days before contract end when renewal prep starts (default 120).
+  # Found in: your CS renewal policy or contract terms cadence.
+  prep_start_t_minus_days: 120
+
+# --- Segments for GRR/benchmark filtering ---
+segments:
+  # ARR bands for benchmark filtering (enterprise >$100K, mid-market $25-100K,
+  # SMB $5-25K).
+  # Found in: your ICP definition or CRM segment picklist.
+  enterprise_min_acv: 100000
+  mid_market_min_acv: 25000
+  smb_min_acv: 5000

@@ -1,0 +1,23 @@
+# Category-of-One Positioning - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- ICP (if already known) ---
+# The named buyer type + sweet spot. If unknown, leave null and the skill will
+# ask the user directly instead of guessing. Found in: your sales/positioning
+# docs or founder's prior answers.
+icp:
+  buyer_type: ""      # e.g. "founder-led agencies, 2-10 staff"
+  sweet_spot: ""      # e.g. "industry / stage / revenue band"
+
+# --- Known banned language ---
+# Any shared phrases already identified as "we all say this". The skill adds to
+# this during the interchangeability diagnosis. Found in: prior positioning work.
+banned_shared_phrases: []
+  # - "we help X do Y with Z"
+
+# --- Confirmed proof points ---
+# Real, founder-confirmed results that can attach to IP steps. Never fabricate.
+# Found in: case studies, client testimonials, win records.
+proof_points: []
+  # - {step: 1, result: "...", source: "client case study"}
