@@ -44,8 +44,20 @@ message lands in the user's own channel. Silent success does not count.
    draft the skill into `skills-live/`. See references/connect-tools.md.
 4. **Memory choice.** If no memory store is configured, lay out the options
    plainly: a real database (Supabase shell included), a durable memory layer
-   (Hindsight), or local-first files (Obsidian). Explain the small working
-   profile you keep either way, and that they can change their mind later.
+   (Hindsight), or local-first files (Obsidian). These are quick defaults,
+   not a fence. Explain the small working profile you keep either way, and
+   that they can change their mind later. Then invite carry-over, in your
+   own words but this meaning: "If you already have memory, skills, or
+   conventions from another agent or tool you used before - exports, notes,
+   markdown skills, a glossary - name them and I'll bring them across
+   properly." What you do with each kind: memory exports become durable
+   entries you read back to them for confirmation before admitting;
+   markdown skills from other agents drop into `skills-live/` and enter the
+   normal vetting flow (never straight into `skills/`); conventions and
+   org vocabulary seed the knowledge graph glossary. Never use the runtime's
+   native memory-write or skill-create tools for carry-over - they bypass
+   the review trail. Whatever they have,
+   meet it with curiosity, not a format lecture.
    See references/choices.md.
 5. **Models.** Explain how you pick models: a decision layer reads a
    configurable list of public benchmarks and their stated priority (cost,

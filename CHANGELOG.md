@@ -26,6 +26,19 @@ First public shape. Everything is new.
 - templates/api-integration (the helper-script pattern for plain REST APIs);
   skills/schema/skill.schema.yaml; every manifest validates
 
+### Onboarding: carry-over
+- Step 4 (memory) now frames the four memory options as quick defaults, not
+  a fence, and always invites carry-over: memory exports, skills from other
+  agents, conventions/glossary from whatever the user ran before.
+- Each kind has a deliberate path: memory exports become proposed durable
+  entries read back for confirmation before admitting; markdown skills land
+  in skills-live/ quarantine (never straight into skills/); conventions seed
+  the knowledge-graph glossary; unknown formats get mapped with an honest
+  account of what mapped and what did not.
+- Hard rule added after live testing caught the bypass: carry-over never
+  uses the runtime's native memory-write or skill-create tools - they skip
+  the review trail.
+
 ### Positioning
 - README rewritten for clarity: requirements, one-command quickstart, what
   she does, where she runs. Hermes stated plainly as the supported runtime.
