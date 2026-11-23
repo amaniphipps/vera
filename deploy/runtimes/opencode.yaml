@@ -1,0 +1,52 @@
+# OpenCode runtime profile — validated in the 2026-11-22 pilot session.
+runtime: opencode
+
+detect:
+  binary: opencode
+  config-markers:
+    - opencode.json
+    - opencode.jsonc
+    - .opencode/
+
+# Vera's repo directory itself is the runtime root on OpenCode.
+# The string <repo> is expanded by the reader to the repo checkout path.
+runtime-root: <repo>
+
+skill-discovery:
+  mechanism: config-array          # "skills": [...] in project opencode.jsonc
+  config: opencode.jsonc
+  buckets: [onboarding, capability-acquisition, analysis, delivery,
+            engineering, self-maintenance, community]
+  exclude: [templates, schema]     # template placeholders / YAML schema, not live skills
+
+# Instruction files that map Vera's runtime paths and persona into OpenCode.
+path-mapping-doc: OPENCODE.md
+persona: personas/vera.md
+
+scheduler: none                    # nightly vetting runs on demand; optional launchd recipe
+
+memory: [working-profile, local-files]
+
+mcp:
+  config: opencode.jsonc
+  key: mcp.servers
+  cli: opencode mcp add
+
+env-file: <repo>/.env
+
+capabilities:
+  skills-bundled: config           # setup writes the opencode.jsonc skills array
+  skills-quarantine: native        # <repo>/skills-live/
+  knowledge-graph: native          # <repo>/knowledge/graph/
+  policy-guardrails: native        # <repo>/policy/guardrails.yaml
+  working-profile: native          # <repo>/memory/
+  model-provider: native           # provider key via env or OpenCode auth
+  tool-connections: native         # opencode mcp add, or helper scripts
+  nightly-vetting: degraded        # on-demand; launchd recipe optional
+  slack-gateway: unavailable       # Hermes-only
+  rea-observation: optional        # REA MCP can be configured via opencode mcp add
+  model-router: unavailable        # no router hook; single configured model
+  usage-bar: unavailable           # Hermes-specific skill
+
+notes: Tested against OpenCode V2 (2026-11). Nightly vetting is on-demand here;
+  Slack and usage-bar are declared unavailable, not silently skipped.

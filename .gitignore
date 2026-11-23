@@ -4,6 +4,14 @@
 *.pem
 *.p8
 
+# Deployment-specific policy — only the example ships
+policy/guardrails.yaml
+
+# Local Python environments (dirs and venv symlinks)
+.venv
+.venv/
+.test-venv/
+
 # Runtime output — each deployment builds its own
 skills-live/*
 !skills-live/.gitkeep
@@ -19,3 +27,7 @@ __pycache__/
 *.pyc
 node_modules/
 .DS_Store
+
+# Project-local Hermes runtime and secrets
+.hermes/
+.local-home/

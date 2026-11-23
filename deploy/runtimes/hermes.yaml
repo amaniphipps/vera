@@ -1,0 +1,43 @@
+# Hermes runtime profile — the reference implementation, full capability set.
+runtime: hermes
+
+detect:
+  binary: hermes
+  config-markers:
+    - $HERMES_HOME/config.yaml
+
+# Runtime root: where skills-live/, knowledge/, policy/, memory/ live.
+# The string $HERMES_HOME is expanded by the reader (setup/doctor/onboarding).
+runtime-root: $HERMES_HOME
+
+skill-discovery:
+  mechanism: directory-scan        # $HERMES_HOME/skills/<bucket>/<skill>/SKILL.md
+  buckets: [onboarding, capability-acquisition, analysis, delivery,
+            engineering, self-maintenance, community]
+  exclude: [templates, schema]
+
+scheduler: hermes-cron             # cron/*.sh recipes run natively via hermes cron
+
+memory: [working-profile, supabase, hindsight, obsidian, local-files]
+
+mcp:
+  config: $HERMES_HOME/config.yaml
+  key: mcp
+
+env-file: $HERMES_HOME/.env
+
+capabilities:
+  skills-bundled: native
+  skills-quarantine: native
+  knowledge-graph: native
+  policy-guardrails: native
+  working-profile: native
+  model-provider: native
+  tool-connections: native
+  nightly-vetting: native          # hermes cron
+  slack-gateway: native            # hermes gateway run
+  rea-observation: optional        # capability/mcp.rea.json
+  model-router: optional           # decisions/interface.yaml must be wired by operator
+  usage-bar: optional              # needs OpenRouter key
+
+notes: Full capability set. Tested against Hermes Agent (NousResearch) local profile.

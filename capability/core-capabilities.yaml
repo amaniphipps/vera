@@ -1,0 +1,90 @@
+# Core capabilities contract — single source of truth for "fully capable Vera".
+# Read by onboarding (meet-vera step 0), setup.sh, and doctor.sh.
+# tier: core     -> must verify before onboarding completes
+# tier: enhanced -> offered, never required; unavailability prints INFO, not FAIL
+version: "0.1.0"
+
+capabilities:
+  - id: skills-bundled
+    tier: core
+    summary: Bundled skills are discoverable by the runtime.
+    needs: [skill-discovery]
+    verify: Count SKILL.md under skills/ buckets >= 40 (excluding templates/, schema/).
+    degraded: "Bundled skills are not wired into the runtime; nothing works until this is fixed."
+
+  - id: skills-quarantine
+    tier: core
+    summary: skills-live/ exists and is writable for learned drafts.
+    needs: [writable-runtime-root]
+    verify: skills-live/ directory exists under the runtime root.
+    degraded: "No quarantine directory; learning is disabled until created."
+
+  - id: knowledge-graph
+    tier: core
+    summary: Knowledge graph directories exist for systems, people, glossary, business, evidence.
+    needs: [writable-runtime-root]
+    verify: knowledge/graph/entities/{business,glossary,people,systems}/ and knowledge/graph/evidence/ exist.
+    degraded: "No knowledge graph; Vera cannot record what she learns about your org."
+
+  - id: policy-guardrails
+    tier: core
+    summary: guardrails.yaml exists and parses.
+    needs: [writable-runtime-root]
+    verify: policy/guardrails.yaml exists under the runtime root.
+    degraded: "No guardrails file; seed from policy/guardrails.example.yaml before real use."
+
+  - id: working-profile
+    tier: core
+    summary: memory/ directory is writable for the working profile.
+    needs: [writable-runtime-root]
+    verify: memory/ directory exists under the runtime root.
+    degraded: "No working profile directory; onboarding choices cannot be recorded."
+
+  - id: model-provider
+    tier: core
+    summary: At least one LLM provider key is present (existence only, never values).
+    needs: [one-llm-key]
+    verify: OPENROUTER_API_KEY, ANTHROPIC_API_KEY, OPENAI_API_KEY, or GEMINI_API_KEY set in env or runtime .env.
+    degraded: "No model key; Vera cannot respond until one provider key is configured."
+
+  - id: tool-connections
+    tier: core
+    summary: At least one tool connected, or the user explicitly deferred.
+    needs: [mcp-or-rest]
+    verify: MCP servers configured, helper scripts present, or deferral recorded in working profile.
+    degraded: "No tools connected; Vera works from files and chat only until one is added."
+
+  - id: nightly-vetting
+    tier: enhanced
+    summary: skill-vetter runs on a schedule.
+    needs: [scheduler]
+    verify: hermes cron entry, launchd job, or cron line for nightly-skill-vetter.
+    degraded: "No scheduler; vetting runs on demand ('what have you learned lately?')."
+
+  - id: slack-gateway
+    tier: enhanced
+    summary: Vera is reachable in Slack.
+    needs: [hermes-gateway]
+    verify: gateway running with SLACK_BOT_TOKEN and SLACK_APP_TOKEN set (Hermes only).
+    degraded: "Slack requires Hermes; unavailable on this runtime."
+
+  - id: rea-observation
+    tier: enhanced
+    summary: REA MCP available for runtime observation and static analysis.
+    needs: [mcp:rea]
+    verify: rea MCP server configured.
+    degraded: "No REA; system studies degrade to docs-and-reads only."
+
+  - id: model-router
+    tier: enhanced
+    summary: A router implementing decisions/interface.yaml picks models per task.
+    needs: [router-wired]
+    verify: router configured against decisions/interface.yaml.
+    degraded: "No router; Vera uses the single configured default model."
+
+  - id: usage-bar
+    tier: enhanced
+    summary: vera-bar can read OpenRouter usage/spend.
+    needs: [openrouter]
+    verify: OPENROUTER_API_KEY present and vera-bar skill installed (Hermes only).
+    degraded: "Usage bar unavailable on this runtime."

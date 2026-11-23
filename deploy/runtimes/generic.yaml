@@ -1,0 +1,39 @@
+# Generic runtime profile — bring-your-own harness, supported minimum.
+# Never auto-detected; selected explicitly by the user.
+runtime: generic
+
+detect: {}
+
+runtime-root: <repo>
+
+skill-discovery:
+  mechanism: manual                # user wires skill loading; setup prints the bucket list
+  buckets: [onboarding, capability-acquisition, analysis, delivery,
+            engineering, self-maintenance, community]
+  exclude: [templates, schema]
+
+scheduler: none
+
+memory: [working-profile, local-files]
+
+mcp:
+  config: null                     # harness-specific; helper scripts are the fallback
+
+env-file: <repo>/.env
+
+capabilities:
+  skills-bundled: manual           # setup prints the wiring checklist
+  skills-quarantine: native
+  knowledge-graph: native
+  policy-guardrails: native
+  working-profile: native
+  model-provider: native
+  tool-connections: manual         # REST helpers; MCP if the harness supports it
+  nightly-vetting: degraded        # on-demand
+  slack-gateway: unavailable
+  rea-observation: unavailable
+  model-router: unavailable
+  usage-bar: unavailable
+
+notes: Honest minimum. Enhanced capabilities are listed as unavailable with reasons;
+  nothing is faked. Skills are plain markdown and portable by design.
