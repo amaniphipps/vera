@@ -1,0 +1,19 @@
+# diagnosing-bugs - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# This skill is target-driven and works with no org config. The slots below
+# sharpen its output - fill them when you have the inputs; leave at defaults
+# otherwise.
+
+# --- Default test runner ---
+# The command shape the skill should prefer when building a failing-test
+# feedback loop (Phase 1). Empty = infer from the repo.
+# Found in: the repo's README / CI config.
+test_runner: null
+
+# --- Error tracker ---
+# Where production errors are captured (Sentry, Datadog, etc.). Used when a
+# redacted captured artifact is needed and the user has one on file.
+# Found in: your observability stack.
+error_tracker: null

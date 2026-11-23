@@ -1,0 +1,19 @@
+# teach - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# This skill works with no org config. The slots below sharpen its output -
+# fill them when you have the inputs; leave at defaults otherwise.
+
+# --- Workspace root ---
+# Where teaching workspaces (MISSION.md, lessons/, learning-records/) get
+# built when the user doesn't name one. Default: the current directory.
+# Found in: wherever your org keeps durable learning material.
+workspace_root: null
+
+# --- Communities opt-out ---
+# The skill recommends high-reputation communities (forums, subreddits,
+# local groups) as part of acquiring wisdom. Set true if the user has
+# opted out so future sessions stop proposing them.
+# Found in: learner preference, recorded after they decline once.
+communities_opt_out: false

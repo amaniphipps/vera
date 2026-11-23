@@ -1,0 +1,14 @@
+# ask-matt - org configuration
+# Copy this file to org.yaml and fill in your org's values. Every slot has a
+# comment: what it is and where an admin finds it.
+
+# --- Catalog repo ---
+# The upstream Matt Pocock skills repo this router reads from.
+# Change only if your org forks the catalog.
+catalog_repo: "github.com/mattpocock/skills"
+
+# --- Auto-install ---
+# When the right route needs a skill that isn't installed: true = fetch and
+# import it without asking; false = propose it and wait for the user's go.
+# Found in: how much autonomy your org grants the agent for new skills.
+auto_install: false

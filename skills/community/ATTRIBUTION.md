@@ -10,6 +10,7 @@ rubrics, thresholds, and benchmarks - with tool references generalized.
 |---|---|---|---|
 | `account-tier-scoring` | Amos Bar-Joseph | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `ai-pricing-model-picker` | Manny Medina | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
+| `ask-matt` | Matt Pocock | [github.com/mattpocock/skills](https://github.com/mattpocock/skills) | MIT |
 | `battlecard` | Ido Goldberg | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `build-list` | Ido Goldberg | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `category-of-one-positioning` | Luke Shalom | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
@@ -18,6 +19,7 @@ rubrics, thresholds, and benchmarks - with tool references generalized.
 | `competitive-intelligence-radar` | Sabahudin Murtić | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `cs-operations` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `demand-lifecycle` | Ivan Falco | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
+| `diagnosing-bugs` | Matt Pocock | [github.com/mattpocock/skills](https://github.com/mattpocock/skills) | MIT |
 | `docx` | Anthropic | [github.com/anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 |
 | `event-radar` | Ido Goldberg | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `expansion-revenue-architect` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
@@ -39,9 +41,11 @@ rubrics, thresholds, and benchmarks - with tool references generalized.
 | `sales-playbook-foundations` | Kevin "KD" Dorsey | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `signal-interpreter` | Din Arbel | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `signal-sourcer` | Alex Vacca | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
+| `teach` | Matt Pocock | [github.com/mattpocock/skills](https://github.com/mattpocock/skills) | MIT |
 | `xlsx` | Anthropic | [github.com/anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 |
 
 Source repositories:
 - [swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) (MIT)
 - [anthropics/skills](https://github.com/anthropics/skills) (Apache-2.0)
+- [mattpocock/skills](https://github.com/mattpocock/skills) (MIT)
 If you are an author and want a skill adjusted or removed, open an issue.

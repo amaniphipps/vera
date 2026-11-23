@@ -13,6 +13,12 @@ community-import in their manifests, and promoted through the normal tiers
   signals, planning), deduplicated against her authored skills, converted to
   vendor-neutral language, and given Vera output contracts. Full per-skill
   credit: [ATTRIBUTION.md](ATTRIBUTION.md).
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** (MIT) -
+  Matt Pocock's engineering and productivity skills. `ask-matt` routes any
+  coding intent to the right skill or flow in his catalog (and installs
+  missing ones on demand); `diagnosing-bugs` is his feedback-loop-first bug
+  discipline; `teach` is a stateful multi-session learning workspace.
+  Full per-skill credit: [ATTRIBUTION.md](ATTRIBUTION.md).
 - **[anthropics/skills](https://github.com/anthropics/skills)** (Apache-2.0) -
   production document creation and editing skills for Word (`docx`), Excel (`xlsx`),
   PDF (`pdf`), and PowerPoint (`pptx`) with schema validators and recalc engines.
