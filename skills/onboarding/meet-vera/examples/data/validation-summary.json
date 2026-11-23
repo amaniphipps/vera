@@ -1,0 +1,904 @@
+{
+  "status": "PASS",
+  "checks_passed": 172,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "name": "source hash activation-users.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash arr-rollforward.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash crm-accounts.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash crm-activities.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash crm-contacts.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash crm-opportunities.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash crm-stage-history.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash mock-pipeline.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash pdf-invoice.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash pdf-quarterly-sales.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source hash quota-targets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-arr-waterfall.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-briefing-email.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-forecast.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-slides.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-activation-funnel.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-weekly-recap.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists tour/mock-revenue-dashboard.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists tour/pipeline-motion.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists tour/campaign-one-pager.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists tour/win-loss-brief.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists tour/pipeline-analysis.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists tour/quota-commission.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists tour/project-plan.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-arr-rollforward.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-arr-rollforward.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-pipeline.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-weekly-briefing.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-briefing-slack.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists mock-briefing-text.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists voice-examples.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists onboarding-conversation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists pdf-examples.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists data/data-dictionary.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists data/office-validation.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists documents/mock-revenue-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists documents/mock-pipeline-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists documents/mock-campaign-one-pager.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists documents/mock-project-plan.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists presentations/mock-revenue-review.pptx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exists tour/index.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label mock-arr-waterfall.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution mock-arr-waterfall.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport mock-arr-waterfall.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders mock-arr-waterfall.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash mock-arr-waterfall.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts mock-arr-waterfall.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image mock-arr-waterfall.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label mock-briefing-email.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution mock-briefing-email.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport mock-briefing-email.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders mock-briefing-email.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash mock-briefing-email.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts mock-briefing-email.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image mock-briefing-email.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label mock-forecast.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution mock-forecast.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport mock-forecast.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders mock-forecast.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash mock-forecast.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts mock-forecast.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image mock-forecast.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label mock-slides.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution mock-slides.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport mock-slides.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders mock-slides.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash mock-slides.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts mock-slides.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image mock-slides.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label mock-activation-funnel.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution mock-activation-funnel.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport mock-activation-funnel.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders mock-activation-funnel.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash mock-activation-funnel.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts mock-activation-funnel.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image mock-activation-funnel.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label mock-weekly-recap.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution mock-weekly-recap.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport mock-weekly-recap.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders mock-weekly-recap.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash mock-weekly-recap.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts mock-weekly-recap.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image mock-weekly-recap.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label tour/mock-revenue-dashboard.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution tour/mock-revenue-dashboard.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport tour/mock-revenue-dashboard.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders tour/mock-revenue-dashboard.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash tour/mock-revenue-dashboard.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts tour/mock-revenue-dashboard.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image tour/mock-revenue-dashboard.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label tour/pipeline-motion.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution tour/pipeline-motion.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport tour/pipeline-motion.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders tour/pipeline-motion.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash tour/pipeline-motion.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts tour/pipeline-motion.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image tour/pipeline-motion.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label tour/campaign-one-pager.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution tour/campaign-one-pager.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport tour/campaign-one-pager.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders tour/campaign-one-pager.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash tour/campaign-one-pager.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts tour/campaign-one-pager.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image tour/campaign-one-pager.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label tour/win-loss-brief.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution tour/win-loss-brief.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport tour/win-loss-brief.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders tour/win-loss-brief.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash tour/win-loss-brief.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts tour/win-loss-brief.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image tour/win-loss-brief.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label tour/pipeline-analysis.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution tour/pipeline-analysis.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport tour/pipeline-analysis.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders tour/pipeline-analysis.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash tour/pipeline-analysis.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts tour/pipeline-analysis.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image tour/pipeline-analysis.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label tour/quota-commission.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution tour/quota-commission.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport tour/quota-commission.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders tour/quota-commission.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash tour/quota-commission.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts tour/quota-commission.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image tour/quota-commission.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic label tour/project-plan.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "attribution tour/project-plan.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive viewport tour/project-plan.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy placeholders tour/project-plan.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no em dash tour/project-plan.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external scripts tour/project-plan.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote image tour/project-plan.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no new skill manifests",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "backwards pipeline has 200 rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "xlsx valid zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "xlsx required sheets",
+      "pass": true,
+      "detail": "['README', 'ARR Summary', 'ARR Rollforward', 'Open Pipeline', 'Closed Opportunities', 'Accounts', 'Activation', 'Quota Commission', 'Pipeline Summary', 'Validation']"
+    },
+    {
+      "name": "xlsx has all ARR rows",
+      "pass": true,
+      "detail": "1054"
+    },
+    {
+      "name": "xlsx has all open rows",
+      "pass": true,
+      "detail": "204"
+    },
+    {
+      "name": "xlsx has all closed rows",
+      "pass": true,
+      "detail": "404"
+    },
+    {
+      "name": "xlsx contains formulas",
+      "pass": true,
+      "detail": "284"
+    },
+    {
+      "name": "xlsx avoids unsupported formulas",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "xlsx recalculates on load",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office valid zip documents/mock-revenue-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office package content documents/mock-revenue-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office synthetic label documents/mock-revenue-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office attribution documents/mock-revenue-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office valid zip documents/mock-pipeline-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office package content documents/mock-pipeline-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office synthetic label documents/mock-pipeline-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office attribution documents/mock-pipeline-review.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office valid zip documents/mock-campaign-one-pager.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office package content documents/mock-campaign-one-pager.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office synthetic label documents/mock-campaign-one-pager.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office attribution documents/mock-campaign-one-pager.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office valid zip documents/mock-project-plan.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office package content documents/mock-project-plan.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office synthetic label documents/mock-project-plan.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office attribution documents/mock-project-plan.docx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office valid zip presentations/mock-revenue-review.pptx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office package content presentations/mock-revenue-review.pptx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office synthetic label presentations/mock-revenue-review.pptx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "office attribution presentations/mock-revenue-review.pptx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Office recalc/render limits disclosed",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "office_formula_recalculation": "not inspected - LibreOffice unavailable",
+  "office_visual_rendering": "not inspected - LibreOffice unavailable",
+  "source_manifest_sha256": "bc2ce43f26cfe38294a68445dcc2e5d2b8c2706f9c9d821d143816f69a007304",
+  "outputs": {
+    "index.html": "e225a6bd2c1506cc2cc832b1e1ff2063a2a7e1395cf825c3b0e56262b2c29226",
+    "mock-arr-waterfall.html": "9c6496b2699e9182880ccb2b8af013af0c9babd449bcc31b1c3b4cfcb6812a2c",
+    "mock-briefing-email.html": "3e1a6c337bd5f7e777679df4f551d2c3a442c1a36169dd7920bc8e67041c74a0",
+    "mock-forecast.html": "f42cf65bf49833d295f3945755a8b2c141864a00d0498a7f82a91ab89b191622",
+    "mock-slides.html": "98f6fd256ea8dccb255885bf012a9a86806a479392f7c7eb10e6fa51b5eaac74",
+    "mock-activation-funnel.html": "6852786ecc2fc2fcd30849405355503f6b43b2b35d91ae3c63cf102e218dec33",
+    "mock-weekly-recap.html": "009b7c1c89556e45a6a2c261dd6538550486eda4605f336f87eafbdb4b8e58c9",
+    "tour/mock-revenue-dashboard.html": "4411875d18ee1cee0babde9f716a85c78819b75f706f852709f1b00ecb3af6c6",
+    "tour/pipeline-motion.html": "03b43b87f3d617bb308997b3614372560fcfa15483e0a9b0e3243721a9dd0814",
+    "tour/campaign-one-pager.html": "28a4dfb67bd1f11061ba8ad1bd80a375608d2862385e9053235d2b3f033ceda9",
+    "tour/win-loss-brief.html": "66d6707ee8a906b63fb0de26ae9e6c7306e312b4a77497679524676cbcc55204",
+    "tour/pipeline-analysis.html": "29531e8ec860ec830cfa98c4447be82c952904b738fb859def581ffde792ed4a",
+    "tour/quota-commission.html": "003208a39b0fd79c91512904b1b334d4219c8abc0453422390ab23a6b5aad5f4",
+    "tour/project-plan.html": "b89a32c520b42b601146e018c6f941a45c782128cc1bef894aade12d3b10a8c2",
+    "README.md": "c38929af5a90ff2420e15bf1d6ef8d78451dc9d886926be4ffa40a6a57ef95f0",
+    "mock-arr-rollforward.md": "6c3035bd481376779367307aab9c515aa8a58149bd917b43fc2cb6a43a8a7f87",
+    "mock-arr-rollforward.xlsx": "3d9c51ba061fb99c9512730e0e1a62cb229aa3593915084c2346688b70b82c9d",
+    "mock-pipeline.csv": "de0e5a0781271f0950a0d08e990748c3f9dfaf8b575968ad5ebd1a6243c56e4b",
+    "mock-weekly-briefing.md": "bc21f96f7c06ea2a1b15973e7c19552c825b734d944e380f2cd0ba44e10a4b5d",
+    "mock-briefing-slack.md": "cf0bce754b178501d506a01080229d9829b2cb5bfeb6cfa0a50d1ef859125a58",
+    "mock-briefing-text.txt": "56b5f9e4617497da2b3e6c9f54fc3c24bdcbae39e934f3bee9d408ea3f856381",
+    "voice-examples.md": "cc270b95028c831c7c7435098ed291d3c44cfe2c0002a15c759f0bf7b944de18",
+    "onboarding-conversation.md": "251c2b6e6ab7a4fac40b498b89e8dfe2fdd10156a65022b01af70569e1fb776a",
+    "pdf-examples.md": "21503ec8820d8a8d1b1517301a1b8f3c33338451ef23a32285e371ff390e8902",
+    "data/data-dictionary.md": "2c8e9c8712f6be3780ec64594ccbd55c9c1662a4b22ee16698a1108d059b0ae3",
+    "data/office-validation.json": "3793b559731006ca32389dd98ee4fd4d132dceb51e3a6dfacfb4fb8501fddef4",
+    "documents/mock-revenue-review.docx": "f728cecda3aaecf7a71c53a577b492ddc63d6d1c36043d4a0ae4d067b89e61f9",
+    "documents/mock-pipeline-review.docx": "beaba0f5cd3761022efe39c8e6128771c106743a1319998623b5d0925817af43",
+    "documents/mock-campaign-one-pager.docx": "2968cb8da6976aec3c81dff869dfc5f23a75df89bf983672543a39690d952006",
+    "documents/mock-project-plan.docx": "1a746ed967f52023471ff425df3af7ad9e8727e6aaa52c1bd7cc14a5067400bc",
+    "presentations/mock-revenue-review.pptx": "c39a1e90e24c2d88a79d38ef8725bfad4f6dcf0d8748c1fb42dd1af33df2ab18",
+    "tour/index.md": "0fc27c4188709e35402042c855eb64a36139931561b2acb565906433edd5926b"
+  }
+}

@@ -1,0 +1,3 @@
+invoice_id,item,quantity,unit_price_usd,line_total_usd
+12345,Widget,2,50,100
+12345,Gadget,1,75,75

@@ -1,0 +1,1160 @@
+{
+  "analysis_validator": {
+    "final": "PASS WITH NOTES \u2014 recalculation and visual Office rendering not inspected",
+    "gate_1_data_correctness": {
+      "C10_population": "PASS \u2014 1,050 ARR/accounts, 600 opportunities, 2,400 activation rows",
+      "C11_reconciliation": "PASS \u2014 row-level and aggregate ARR identities plus scenario/commission identities",
+      "C12_evidence_coverage": "PASS \u2014 claims limited to pulled CSV fields",
+      "C1_arithmetic": "PASS \u2014 source-derived rates and ratios recomputed",
+      "C2_filters": "PASS \u2014 open=nonblank forecast_category; closed=blank; Q4 Closed Won scoped by period/stage",
+      "C3_temporal_currency": "PASS \u2014 static generated_on and periods from manifest; no rolling live claim",
+      "C4_source_integrity": "PASS \u2014 all manifest-listed source hashes match",
+      "C5_chart_provenance": "PASS \u2014 native PPTX chart series use the same Python source model",
+      "C6_claim_language": "PASS \u2014 comparisons labeled; no causal or live-source claims",
+      "C7_segmentation": "PASS \u2014 ARR/CRM/activation populations and periods disclosed",
+      "C8_terminology": "PASS \u2014 ARR, NRR, GRR, activation and retention definitions included",
+      "C9_currency": "PASS \u2014 USD-only source aggregation",
+      "status": "PASS"
+    },
+    "gate_2_output_quality": {
+      "C13_contrast": "Design-token check passed; actual visual contrast not inspected",
+      "C14_responsiveness": "Not applicable to fixed Office page/slide formats; geometry checked",
+      "C15_typography": "Arial applied; explicit PPT text >=10pt; Office visual metrics not inspected",
+      "C16_completeness": "PASS \u2014 required sections and no placeholder patterns",
+      "C17_attribution": "PASS \u2014 Built by Vera 2026-11-23 and synthetic labels",
+      "C18_id_resolution": "PASS \u2014 visible report examples use aliases; raw IDs remain only in detail sheets",
+      "status": "PASS_WITH_NOTES"
+    },
+    "significance_awareness": "Full synthetic census of supplied CSVs; sampling coverage/significance not applicable. No external population inference."
+  },
+  "anonymized": true,
+  "artifact_notes": {
+    "formula_recalculation": "not inspected",
+    "mitigation": "Workbook fullCalcOnLoad/forceFullCalc/auto calc mode are set; formula logic independently verified in Python; OOXML packages reopened and parsed.",
+    "reason": "LibreOffice/soffice/pdftoppm are not installed; no PDF or screenshot substitutes were created.",
+    "visual_office_rendering": "not inspected"
+  },
+  "checks": [
+    {
+      "actual": "11/11 matched",
+      "check": "source_sha256",
+      "expected": "all manifest-listed source hashes match",
+      "pass": true
+    },
+    {
+      "actual": "6/6 passed",
+      "check": "office_zip_packages",
+      "expected": "6 valid packages, XML parsed, Vera mark embedded",
+      "pass": true
+    },
+    {
+      "actual": "6/6 identical",
+      "check": "deterministic_rebuild",
+      "expected": "identical SHA-256 for all 6 Office artifacts across two complete in-process rebuilds",
+      "pass": true
+    },
+    {
+      "actual": [
+        "README",
+        "ARR Summary",
+        "ARR Rollforward",
+        "Open Pipeline",
+        "Closed Opportunities",
+        "Accounts",
+        "Activation",
+        "Quota Commission",
+        "Pipeline Summary",
+        "Validation"
+      ],
+      "check": "workbook_sheet_order",
+      "expected": [
+        "README",
+        "ARR Summary",
+        "ARR Rollforward",
+        "Open Pipeline",
+        "Closed Opportunities",
+        "Accounts",
+        "Activation",
+        "Quota Commission",
+        "Pipeline Summary",
+        "Validation"
+      ],
+      "pass": true
+    },
+    {
+      "actual": {
+        "ARR Rollforward": 1050,
+        "Accounts": 1050,
+        "Activation": 2400,
+        "Closed Opportunities": 400,
+        "Open Pipeline": 200,
+        "Quota Commission": 8
+      },
+      "check": "workbook_detail_rows",
+      "expected": {
+        "ARR Rollforward": 1050,
+        "Accounts": 1050,
+        "Activation": 2400,
+        "Closed Opportunities": 400,
+        "Open Pipeline": 200,
+        "Quota Commission": 8
+      },
+      "pass": true
+    },
+    {
+      "actual": {
+        "broken": 0,
+        "unsupported": 0
+      },
+      "check": "workbook_formula_reference_scan",
+      "expected": "zero broken refs and zero unsupported functions",
+      "pass": true
+    },
+    {
+      "actual": 284,
+      "check": "workbook_formula_count",
+      "expected": ">= 100 formulas",
+      "pass": true
+    },
+    {
+      "actual": {
+        "calcMode": "auto",
+        "forceFullCalc": true,
+        "fullCalcOnLoad": true
+      },
+      "check": "workbook_recalc_on_load",
+      "expected": {
+        "calcMode": "auto",
+        "forceFullCalc": true,
+        "fullCalcOnLoad": true
+      },
+      "pass": true
+    },
+    {
+      "actual": 6,
+      "check": "workbook_tables",
+      "expected": "six detail tables present",
+      "pass": true
+    },
+    {
+      "actual": "formula recalculation not inspected",
+      "check": "workbook_formula_cache_note",
+      "expected": "openpyxl writes formulas without cached results",
+      "notes": "No data_only values are represented as recalculated results.",
+      "pass": true
+    },
+    {
+      "actual": "38/38 passed",
+      "check": "independent_formula_logic",
+      "expected": "all source and identity checks pass",
+      "pass": true
+    },
+    {
+      "actual": {
+        "mock-campaign-one-pager.docx": true,
+        "mock-pipeline-review.docx": true,
+        "mock-project-plan.docx": true,
+        "mock-revenue-review.docx": true
+      },
+      "check": "docx_reopen_content",
+      "expected": "4 docs reopen; required content/stamp/notes present; no placeholders",
+      "pass": true
+    },
+    {
+      "actual": {
+        "aspect_ratio": "16:9",
+        "dimensions_inches": [
+          13.333332239720034,
+          7.5
+        ],
+        "minimum_explicit_text_size_pt": 10.0,
+        "native_charts": 7,
+        "native_tables": 1,
+        "out_of_bounds_shapes": [],
+        "pass": true,
+        "pictures": 9,
+        "placeholder_hits": [],
+        "required_content_missing": [],
+        "slides": 9,
+        "text_fit_heuristic": {
+          "flags": [],
+          "method": "Conservative character-width estimate for text boxes; not visual rendering",
+          "pass": true
+        }
+      },
+      "check": "pptx_reopen_content_geometry",
+      "expected": "9 slides, >=6 native charts, no missing content/placeholders/out-of-bounds shapes/text-fit heuristic flags, text >=10pt",
+      "pass": true
+    },
+    {
+      "actual": {
+        "activation_rate": {
+          "display": "55.0%",
+          "pptx": true,
+          "revenue_doc": true,
+          "value": 0.55
+        },
+        "best_case_view": {
+          "display": "$12.85M",
+          "pipeline_doc": true,
+          "pptx": true,
+          "value": 12846600
+        },
+        "commit_view": {
+          "display": "$7.01M",
+          "pipeline_doc": true,
+          "pptx": true,
+          "revenue_doc": true,
+          "value": 7014500
+        },
+        "ending_arr": {
+          "display": "$92.26M",
+          "pptx": true,
+          "revenue_doc": true,
+          "value": 92264600
+        },
+        "full_pipeline_view": {
+          "display": "$20.24M",
+          "pipeline_doc": true,
+          "pptx": true,
+          "value": 20241600
+        },
+        "nrr": {
+          "display": "96.4%",
+          "pptx": true,
+          "revenue_doc": true,
+          "value": 0.96395
+        }
+      },
+      "check": "cross_artifact_headline_consistency",
+      "expected": "same source-derived headlines in DOCX/PPTX; workbook formulas point to same raw ranges",
+      "pass": true
+    }
+  ],
+  "cross_artifact_headlines": {
+    "activation_rate": {
+      "display": "55.0%",
+      "pptx": true,
+      "revenue_doc": true,
+      "value": 0.55
+    },
+    "best_case_view": {
+      "display": "$12.85M",
+      "pipeline_doc": true,
+      "pptx": true,
+      "value": 12846600
+    },
+    "commit_view": {
+      "display": "$7.01M",
+      "pipeline_doc": true,
+      "pptx": true,
+      "revenue_doc": true,
+      "value": 7014500
+    },
+    "ending_arr": {
+      "display": "$92.26M",
+      "pptx": true,
+      "revenue_doc": true,
+      "value": 92264600
+    },
+    "full_pipeline_view": {
+      "display": "$20.24M",
+      "pipeline_doc": true,
+      "pptx": true,
+      "value": 20241600
+    },
+    "nrr": {
+      "display": "96.4%",
+      "pptx": true,
+      "revenue_doc": true,
+      "value": 0.96395
+    }
+  },
+  "deterministic_rebuild": {
+    "first_sha256": {
+      "documents/mock-campaign-one-pager.docx": "2968cb8da6976aec3c81dff869dfc5f23a75df89bf983672543a39690d952006",
+      "documents/mock-pipeline-review.docx": "beaba0f5cd3761022efe39c8e6128771c106743a1319998623b5d0925817af43",
+      "documents/mock-project-plan.docx": "1a746ed967f52023471ff425df3af7ad9e8727e6aaa52c1bd7cc14a5067400bc",
+      "documents/mock-revenue-review.docx": "f728cecda3aaecf7a71c53a577b492ddc63d6d1c36043d4a0ae4d067b89e61f9",
+      "mock-arr-rollforward.xlsx": "3d9c51ba061fb99c9512730e0e1a62cb229aa3593915084c2346688b70b82c9d",
+      "presentations/mock-revenue-review.pptx": "c39a1e90e24c2d88a79d38ef8725bfad4f6dcf0d8748c1fb42dd1af33df2ab18"
+    },
+    "method": "Two consecutive complete in-process builds; SHA-256 compared for all six Office artifacts",
+    "pass": true,
+    "second_sha256": {
+      "documents/mock-campaign-one-pager.docx": "2968cb8da6976aec3c81dff869dfc5f23a75df89bf983672543a39690d952006",
+      "documents/mock-pipeline-review.docx": "beaba0f5cd3761022efe39c8e6128771c106743a1319998623b5d0925817af43",
+      "documents/mock-project-plan.docx": "1a746ed967f52023471ff425df3af7ad9e8727e6aaa52c1bd7cc14a5067400bc",
+      "documents/mock-revenue-review.docx": "f728cecda3aaecf7a71c53a577b492ddc63d6d1c36043d4a0ae4d067b89e61f9",
+      "mock-arr-rollforward.xlsx": "3d9c51ba061fb99c9512730e0e1a62cb229aa3593915084c2346688b70b82c9d",
+      "presentations/mock-revenue-review.pptx": "c39a1e90e24c2d88a79d38ef8725bfad4f6dcf0d8748c1fb42dd1af33df2ab18"
+    }
+  },
+  "documents": {
+    "mock-campaign-one-pager.docx": {
+      "artifact_note_present": true,
+      "inline_images": 0,
+      "paragraphs": 12,
+      "pass": true,
+      "placeholder_hits": [],
+      "required_content_missing": [],
+      "tables": 3
+    },
+    "mock-pipeline-review.docx": {
+      "artifact_note_present": true,
+      "inline_images": 0,
+      "paragraphs": 26,
+      "pass": true,
+      "placeholder_hits": [],
+      "required_content_missing": [],
+      "tables": 9
+    },
+    "mock-project-plan.docx": {
+      "artifact_note_present": true,
+      "inline_images": 0,
+      "paragraphs": 18,
+      "pass": true,
+      "placeholder_hits": [],
+      "required_content_missing": [],
+      "tables": 6
+    },
+    "mock-revenue-review.docx": {
+      "artifact_note_present": true,
+      "inline_images": 0,
+      "paragraphs": 28,
+      "pass": true,
+      "placeholder_hits": [],
+      "required_content_missing": [],
+      "tables": 8
+    }
+  },
+  "generated_on": "2026-11-23",
+  "independent_python_formula_logic": [
+    {
+      "actual": 87964800,
+      "check": "arr.starting_arr",
+      "expected": 87964800,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 7470900,
+      "check": "arr.new_arr",
+      "expected": 7470900,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 2944900,
+      "check": "arr.expansion_arr",
+      "expected": 2944900,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 1620500,
+      "check": "arr.contraction_arr",
+      "expected": 1620500,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 4495500,
+      "check": "arr.churn_arr",
+      "expected": 4495500,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 92264600,
+      "check": "arr.ending_arr",
+      "expected": 92264600,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 4299800,
+      "check": "arr.net_arr_added",
+      "expected": 4299800,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 970,
+      "check": "arr.starting_active_customers",
+      "expected": 970,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 1000,
+      "check": "arr.ending_active_customers",
+      "expected": 1000,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0.930472,
+      "check": "arr.grr",
+      "expected": 0.930472,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0.96395,
+      "check": "arr.nrr",
+      "expected": 0.96395,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0,
+      "check": "arr.aggregate_residual",
+      "expected": 0,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0,
+      "check": "arr.row_identities",
+      "expected": 0,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 200,
+      "check": "pipeline.open_deals",
+      "expected": 200,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 400,
+      "check": "pipeline.closed_deals",
+      "expected": 400,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 17715800,
+      "check": "pipeline.open_expected_arr_total",
+      "expected": 17715800,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 2525800,
+      "check": "pipeline.q4_closed_won_arr",
+      "expected": 2525800,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 7014500,
+      "check": "pipeline.commit_view",
+      "expected": 7014500,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 12846600,
+      "check": "pipeline.best_case_view",
+      "expected": 12846600,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 20241600,
+      "check": "pipeline.full_pipeline_view",
+      "expected": 20241600,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 260,
+      "check": "pipeline.closed_won",
+      "expected": 260,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 140,
+      "check": "pipeline.closed_lost",
+      "expected": 140,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0.65,
+      "check": "pipeline.closed_win_rate",
+      "expected": 0.65,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0,
+      "check": "pipeline.scenario_commit_identity",
+      "expected": 0,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0,
+      "check": "pipeline.scenario_best_case_identity",
+      "expected": 0,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0,
+      "check": "pipeline.scenario_full_identity",
+      "expected": 0,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 2400,
+      "check": "activation.signups",
+      "expected": 2400,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 1320,
+      "check": "activation.activated",
+      "expected": 1320,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 792,
+      "check": "activation.retained_w2",
+      "expected": 792,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0.55,
+      "check": "activation.activation_rate",
+      "expected": 0.55,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0.6,
+      "check": "activation.retention_of_activated",
+      "expected": 0.6,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0.33,
+      "check": "activation.overall_retention",
+      "expected": 0.33,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 0.0,
+      "check": "commission.tier_residual",
+      "expected": 0,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 2525800,
+      "check": "commission.q4_won_total",
+      "expected": 2525800,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 1050,
+      "check": "counts.arr_rows",
+      "expected": 1050,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 1050,
+      "check": "counts.accounts",
+      "expected": 1050,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 2400,
+      "check": "counts.activation",
+      "expected": 2400,
+      "pass": true,
+      "tolerance": 0
+    },
+    {
+      "actual": 600,
+      "check": "counts.opportunities",
+      "expected": 600,
+      "pass": true,
+      "tolerance": 0
+    }
+  ],
+  "packages": {
+    "documents/mock-campaign-one-pager.docx": {
+      "actual_vera_mark_embedded": true,
+      "bytes": 59826,
+      "formula_elements_in_package": null,
+      "pass": true,
+      "required_parts_missing": [],
+      "sha256": "2968cb8da6976aec3c81dff869dfc5f23a75df89bf983672543a39690d952006",
+      "xml_errors": [],
+      "xml_parts_parse": "PASS",
+      "zip_crc": "PASS"
+    },
+    "documents/mock-pipeline-review.docx": {
+      "actual_vera_mark_embedded": true,
+      "bytes": 62614,
+      "formula_elements_in_package": null,
+      "pass": true,
+      "required_parts_missing": [],
+      "sha256": "beaba0f5cd3761022efe39c8e6128771c106743a1319998623b5d0925817af43",
+      "xml_errors": [],
+      "xml_parts_parse": "PASS",
+      "zip_crc": "PASS"
+    },
+    "documents/mock-project-plan.docx": {
+      "actual_vera_mark_embedded": true,
+      "bytes": 62029,
+      "formula_elements_in_package": null,
+      "pass": true,
+      "required_parts_missing": [],
+      "sha256": "1a746ed967f52023471ff425df3af7ad9e8727e6aaa52c1bd7cc14a5067400bc",
+      "xml_errors": [],
+      "xml_parts_parse": "PASS",
+      "zip_crc": "PASS"
+    },
+    "documents/mock-revenue-review.docx": {
+      "actual_vera_mark_embedded": true,
+      "bytes": 62340,
+      "formula_elements_in_package": null,
+      "pass": true,
+      "required_parts_missing": [],
+      "sha256": "f728cecda3aaecf7a71c53a577b492ddc63d6d1c36043d4a0ae4d067b89e61f9",
+      "xml_errors": [],
+      "xml_parts_parse": "PASS",
+      "zip_crc": "PASS"
+    },
+    "mock-arr-rollforward.xlsx": {
+      "actual_vera_mark_embedded": true,
+      "bytes": 423513,
+      "formula_elements_in_package": 284,
+      "pass": true,
+      "required_parts_missing": [],
+      "sha256": "3d9c51ba061fb99c9512730e0e1a62cb229aa3593915084c2346688b70b82c9d",
+      "xml_errors": [],
+      "xml_parts_parse": "PASS",
+      "zip_crc": "PASS"
+    },
+    "presentations/mock-revenue-review.pptx": {
+      "actual_vera_mark_embedded": true,
+      "bytes": 112746,
+      "formula_elements_in_package": null,
+      "pass": true,
+      "required_parts_missing": [],
+      "sha256": "c39a1e90e24c2d88a79d38ef8725bfad4f6dcf0d8748c1fb42dd1af33df2ab18",
+      "xml_errors": [],
+      "xml_parts_parse": "PASS",
+      "zip_crc": "PASS"
+    }
+  },
+  "presentation": {
+    "aspect_ratio": "16:9",
+    "dimensions_inches": [
+      13.333332239720034,
+      7.5
+    ],
+    "minimum_explicit_text_size_pt": 10.0,
+    "native_charts": 7,
+    "native_tables": 1,
+    "out_of_bounds_shapes": [],
+    "pass": true,
+    "pictures": 9,
+    "placeholder_hits": [],
+    "required_content_missing": [],
+    "slides": 9,
+    "text_fit_heuristic": {
+      "flags": [],
+      "method": "Conservative character-width estimate for text boxes; not visual rendering",
+      "pass": true
+    }
+  },
+  "scope": "Office examples only; no live sources",
+  "source_hashes": {
+    "activation-users.csv": {
+      "actual": "4d89e0c2e38c1b504d3f99d0fd898352bdf49834fff833031450041023d9ca46",
+      "expected": "4d89e0c2e38c1b504d3f99d0fd898352bdf49834fff833031450041023d9ca46",
+      "pass": true
+    },
+    "arr-rollforward.csv": {
+      "actual": "39ea1932e7e202b8e4ae8a267bdfd90e0690bae917dbc0e6b905a4f198966c5d",
+      "expected": "39ea1932e7e202b8e4ae8a267bdfd90e0690bae917dbc0e6b905a4f198966c5d",
+      "pass": true
+    },
+    "crm-accounts.csv": {
+      "actual": "f503ba2b39e908af86e30ecaf0748e8a07a47dcf78e861997e0a1a2476ff1924",
+      "expected": "f503ba2b39e908af86e30ecaf0748e8a07a47dcf78e861997e0a1a2476ff1924",
+      "pass": true
+    },
+    "crm-activities.csv": {
+      "actual": "d268589f61c5ba45bdc9e7ae357d7890979da7749050e39a608ad7ee2d645ed3",
+      "expected": "d268589f61c5ba45bdc9e7ae357d7890979da7749050e39a608ad7ee2d645ed3",
+      "pass": true
+    },
+    "crm-contacts.csv": {
+      "actual": "591f71193b53a6a9e2e94283ae097568f87a5e5718e77a5534fff78863802f7e",
+      "expected": "591f71193b53a6a9e2e94283ae097568f87a5e5718e77a5534fff78863802f7e",
+      "pass": true
+    },
+    "crm-opportunities.csv": {
+      "actual": "5f92fe6dbb48aa589b9493ab6b8d128b93afc2a6c6de69c00d6044fec4d8638f",
+      "expected": "5f92fe6dbb48aa589b9493ab6b8d128b93afc2a6c6de69c00d6044fec4d8638f",
+      "pass": true
+    },
+    "crm-stage-history.csv": {
+      "actual": "26ffdedcfeece41bd4ab0a8526731a0ca6413676607e41410fa3f7f35d5297c5",
+      "expected": "26ffdedcfeece41bd4ab0a8526731a0ca6413676607e41410fa3f7f35d5297c5",
+      "pass": true
+    },
+    "mock-pipeline.csv": {
+      "actual": "de0e5a0781271f0950a0d08e990748c3f9dfaf8b575968ad5ebd1a6243c56e4b",
+      "expected": "de0e5a0781271f0950a0d08e990748c3f9dfaf8b575968ad5ebd1a6243c56e4b",
+      "pass": true
+    },
+    "pdf-invoice.csv": {
+      "actual": "8aa38173ff57cdf37b2cf459e99789b4abb50e86bd98d96691897a5ec1e23898",
+      "expected": "8aa38173ff57cdf37b2cf459e99789b4abb50e86bd98d96691897a5ec1e23898",
+      "pass": true
+    },
+    "pdf-quarterly-sales.csv": {
+      "actual": "76fddd220ec0db8b42dfb9b2f3ef733c81395d66d622ab727b5d03a4491ae2ed",
+      "expected": "76fddd220ec0db8b42dfb9b2f3ef733c81395d66d622ab727b5d03a4491ae2ed",
+      "pass": true
+    },
+    "quota-targets.csv": {
+      "actual": "87be2aff3c722b23fa5f690a89f0d73f5e5038a958f330e50ab978e085af4342",
+      "expected": "87be2aff3c722b23fa5f690a89f0d73f5e5038a958f330e50ab978e085af4342",
+      "pass": true
+    }
+  },
+  "status": "PASS_WITH_NOTES",
+  "summary": {
+    "checks_failed": 0,
+    "checks_passed": 14,
+    "checks_total": 14,
+    "failed_checks": [],
+    "formula_recalculation": "not inspected",
+    "visual_office_rendering": "not inspected"
+  },
+  "synthetic": true,
+  "workbook": {
+    "artifact_notes": {
+      "formula_recalculation": "not inspected",
+      "mitigation": "Workbook fullCalcOnLoad/forceFullCalc/auto calc mode are set; formula logic independently verified in Python; OOXML packages reopened and parsed.",
+      "reason": "LibreOffice/soffice/pdftoppm are not installed; no PDF or screenshot substitutes were created.",
+      "visual_office_rendering": "not inspected"
+    },
+    "calculation": {
+      "calcMode": "auto",
+      "forceFullCalc": true,
+      "fullCalcOnLoad": true
+    },
+    "detail_rows": {
+      "ARR Rollforward": 1050,
+      "Accounts": 1050,
+      "Activation": 2400,
+      "Closed Opportunities": 400,
+      "Open Pipeline": 200,
+      "Quota Commission": 8
+    },
+    "formula_scan": {
+      "broken_formula_references": [],
+      "formula_cells": {
+        "ARR Summary": {
+          "cells": [
+            "B6",
+            "C6",
+            "G6",
+            "H6",
+            "B7",
+            "C7",
+            "G7",
+            "H7",
+            "B8",
+            "C8",
+            "G8",
+            "H8",
+            "B9",
+            "C9",
+            "G9",
+            "H9",
+            "B10",
+            "C10",
+            "G10",
+            "H10",
+            "B11",
+            "C11",
+            "B12",
+            "C12",
+            "B15",
+            "B16",
+            "B17",
+            "B18",
+            "B19",
+            "B20"
+          ],
+          "count": 30
+        },
+        "Activation": {
+          "cells": [
+            "L4",
+            "M4",
+            "N4",
+            "L5",
+            "M5",
+            "N5",
+            "L6",
+            "M6",
+            "N6",
+            "L7",
+            "M7",
+            "N7",
+            "L11",
+            "L12",
+            "M12",
+            "L13",
+            "M13",
+            "L17",
+            "M17",
+            "N17",
+            "L18",
+            "M18",
+            "N18",
+            "L19",
+            "M19",
+            "N19",
+            "L20",
+            "M20",
+            "N20",
+            "L21",
+            "M21",
+            "N21"
+          ],
+          "count": 32
+        },
+        "Pipeline Summary": {
+          "cells": [
+            "B6",
+            "C6",
+            "F6",
+            "B7",
+            "C7",
+            "D7",
+            "F7",
+            "B8",
+            "C8",
+            "D8",
+            "E8",
+            "F8",
+            "B12",
+            "C12",
+            "D12",
+            "E12",
+            "B13",
+            "C13",
+            "D13",
+            "E13",
+            "B14",
+            "C14",
+            "D14",
+            "E14",
+            "B15",
+            "C15",
+            "D15",
+            "E15",
+            "B19",
+            "C19",
+            "D19",
+            "B20",
+            "C20",
+            "D20",
+            "B21",
+            "C21",
+            "D21",
+            "B22",
+            "C22",
+            "D22",
+            "B26",
+            "C26",
+            "D26",
+            "E26",
+            "B27",
+            "C27",
+            "D27",
+            "E27",
+            "B28",
+            "C28",
+            "D28",
+            "E28",
+            "B32",
+            "C32",
+            "D32",
+            "B33",
+            "C33",
+            "B34",
+            "C34"
+          ],
+          "count": 59
+        },
+        "Quota Commission": {
+          "cells": [
+            "K5",
+            "L5",
+            "M5",
+            "N5",
+            "O5",
+            "P5",
+            "Q5",
+            "R5",
+            "K6",
+            "L6",
+            "M6",
+            "N6",
+            "O6",
+            "P6",
+            "Q6",
+            "R6",
+            "K7",
+            "L7",
+            "M7",
+            "N7",
+            "O7",
+            "P7",
+            "Q7",
+            "R7",
+            "K8",
+            "L8",
+            "M8",
+            "N8",
+            "O8",
+            "P8",
+            "Q8",
+            "R8",
+            "K9",
+            "L9",
+            "M9",
+            "N9",
+            "O9",
+            "P9",
+            "Q9",
+            "R9",
+            "K10",
+            "L10",
+            "M10",
+            "N10",
+            "O10",
+            "P10",
+            "Q10",
+            "R10",
+            "K11",
+            "L11",
+            "M11",
+            "N11",
+            "O11",
+            "P11",
+            "Q11",
+            "R11",
+            "K12",
+            "L12",
+            "M12",
+            "N12",
+            "O12",
+            "P12",
+            "Q12",
+            "R12",
+            "D14",
+            "K14",
+            "P14",
+            "Q14",
+            "R14"
+          ],
+          "count": 69
+        },
+        "Validation": {
+          "cells": [
+            "B5",
+            "D5",
+            "B6",
+            "D6",
+            "B7",
+            "D7",
+            "B8",
+            "D8",
+            "B9",
+            "D9",
+            "B10",
+            "D10",
+            "B11",
+            "D11",
+            "B12",
+            "D12",
+            "B13",
+            "D13",
+            "B14",
+            "D14",
+            "B15",
+            "D15",
+            "B16",
+            "D16",
+            "B17",
+            "D17",
+            "B18",
+            "D18",
+            "B19",
+            "D19",
+            "B20",
+            "D20",
+            "B21",
+            "D21",
+            "B22",
+            "D22",
+            "B23",
+            "D23",
+            "B24",
+            "D24",
+            "B25",
+            "D25",
+            "B26",
+            "D26",
+            "B27",
+            "D27",
+            "B28",
+            "D28",
+            "B29",
+            "D29",
+            "B30",
+            "D30",
+            "B31",
+            "D31",
+            "B32",
+            "D32",
+            "B33",
+            "D33",
+            "B34",
+            "D34",
+            "B35",
+            "D35",
+            "B36",
+            "D36",
+            "B37",
+            "D37",
+            "B38",
+            "D38",
+            "B39",
+            "D39",
+            "B40",
+            "D40",
+            "B41",
+            "D41",
+            "B42",
+            "D42",
+            "B43",
+            "D43",
+            "B44",
+            "D44",
+            "B45",
+            "D45",
+            "B46",
+            "D46",
+            "B47",
+            "D47",
+            "B48",
+            "D48",
+            "B49",
+            "D49",
+            "B50",
+            "D50",
+            "B51",
+            "D51"
+          ],
+          "count": 94
+        }
+      },
+      "formula_cells_by_sheet": {
+        "ARR Summary": 30,
+        "Activation": 32,
+        "Pipeline Summary": 59,
+        "Quota Commission": 69,
+        "Validation": 94
+      },
+      "formula_count": 284,
+      "functions_used": {
+        "COUNTA": 9,
+        "COUNTIF": 56,
+        "COUNTIFS": 21,
+        "IF": 47,
+        "IFERROR": 22,
+        "MAX": 16,
+        "MIN": 16,
+        "ROUND": 6,
+        "SUM": 44,
+        "SUMIF": 38,
+        "SUMIFS": 23,
+        "SUMPRODUCT": 3
+      },
+      "pass": true,
+      "unsupported_functions": []
+    },
+    "freeze_panes": {
+      "ARR Rollforward": "D5",
+      "ARR Summary": "A5",
+      "Accounts": "C5",
+      "Activation": "D5",
+      "Closed Opportunities": "D5",
+      "Open Pipeline": "D5",
+      "Pipeline Summary": "A5",
+      "Quota Commission": "D5",
+      "README": "A5",
+      "Validation": "A5"
+    },
+    "sheet_order": [
+      "README",
+      "ARR Summary",
+      "ARR Rollforward",
+      "Open Pipeline",
+      "Closed Opportunities",
+      "Accounts",
+      "Activation",
+      "Quota Commission",
+      "Pipeline Summary",
+      "Validation"
+    ],
+    "tables": {
+      "ARR Rollforward": {
+        "tblARRRollforward": "A4:L1054"
+      },
+      "Accounts": {
+        "tblAccounts": "A4:R1054"
+      },
+      "Activation": {
+        "tblActivation": "A4:I2404"
+      },
+      "Closed Opportunities": {
+        "tblClosedOpportunities": "A4:W404"
+      },
+      "Open Pipeline": {
+        "tblOpenPipeline": "A4:W204"
+      },
+      "Quota Commission": {
+        "tblQuotaCommission": "A4:R12"
+      }
+    }
+  }
+}

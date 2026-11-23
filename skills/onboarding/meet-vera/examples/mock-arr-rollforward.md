@@ -1,44 +1,53 @@
 # ARR roll-forward - Northwind, Q3 2026
 
-*Mock output. Fake data, real format. The method: every dollar of movement named, the identity reconciled to zero.*
+*Synthetic / anonymized output. Generated from `data/arr-rollforward.csv` and `data/crm-accounts.csv`. No live billing or CRM system was queried.*
 
 ## The answer
 
-**ARR grew $2.1M to $14.6M (+16.8%) in Q3.** Growth is real but the mix shifted: expansion carried the quarter while new logos slowed. Churn stayed inside the healthy band.
+**ARR grew $4.30M to $92.26M (+4.9%) in Q3.** New customers added $7.47M and lifted the book to 1,000 ending active customers. The existing book contracted: NRR was 96.4% because $6.12M of contraction and churn exceeded $2.94M of expansion.
 
-## The roll-forward
+## Customer-level roll-forward
 
-| Movement | ARR ($k) | Note |
-|---|---:|---|
-| Starting ARR (Jul 1) | 12,500 | 148 customers |
-| + New | 840 | 19 new logos, $44k avg - down from $52k in Q2 |
-| + Expansion | 1,610 | 41 upgrades; two moved to Enterprise tier |
-| + Reactivation | 95 | 3 former customers returned |
-| − Contraction | (210) | 9 downgrades, mostly seat reductions |
-| − Churn | (235) | 6 logos lost; 1.9% of starting ARR |
-| **Ending ARR (Sep 30)** | **14,600** | 161 customers |
+| Movement | ARR | Customers | What it means |
+|---|---:|---:|---|
+| Starting ARR (Jul 1) | $87.96M | 970 | Active at the start of Q3 |
+| + New | $7.47M | 80 | First recurring revenue in Q3 |
+| + Expansion | $2.94M | 150 | Upgrades and additional products |
+| - Contraction | ($1.62M) | 100 | Downgrades that remained active |
+| - Churn | ($4.50M) | 50 | Ending ARR reduced to zero |
+| - Flat | - | 670 | No ARR movement |
+| **Ending ARR (Sep 30)** | **$92.26M** | **1,000 ending active** | **1,050 customer rows including churn** |
 
-**Reconciliation:** 12,500 + 840 + 1,610 + 95 − 210 − 235 = 14,600. Ties to the billing system exactly. No unexplained residual.
+**Reconciliation:** 87,964,800 + 7,470,900 + 2,944,900 - 1,620,500 - 4,495,500 = 92,264,600. Every one of the 1,050 rows also reconciles independently.
+
+## Segment movement
+
+| Segment | Start | New | Expansion | Contraction + churn | End | Net |
+|---|---:|---:|---:|---:|---:|---:|
+| SMB | $13.15M | $1.04M | $0.52M | ($0.90M) | $13.82M | $0.67M |
+| Mid-Market | $30.20M | $2.38M | $0.91M | ($2.54M) | $30.95M | $0.76M |
+| Enterprise | $44.62M | $4.04M | $1.51M | ($2.68M) | $47.50M | $2.88M |
 
 ## What to take from it
 
-- **Net revenue retention: 110.1%.** The base grows without new sales - but the trend is three quarters down from 118%. Expansion is masking slower acquisition.
-- **New-logo ARR per deal is shrinking** ($52k → $48k → $44k). Mix is drifting down-market; check whether that's deliberate.
-- **Churn is concentrated in one segment:** 5 of 6 lost logos were sub-$30k accounts on monthly plans. Annual-plan churn was effectively zero.
+- **New logos funded growth:** $7.47M from 80 new customers exceeded the $4.30M net increase. Acquisition masked a 96.4% NRR book.
+- **Churn is the largest loss bucket:** 50 customers removed $4.50M; 100 contractions removed another $1.62M. Gross ARR retention was 93.0%.
+- **Expansion did not cover losses:** 150 expansions added $2.94M, covering 48.2% of contraction and churn.
+- **Use the workbook for the full list:** `mock-arr-rollforward.xlsx` contains all 1,050 customer rows, account detail, formulas, and validation checks.
 
-*Sources: billing system (subscriptions), CRM (deal movements). Pulled at run time; no stored figures.*
+*Sources: `data/arr-rollforward.csv`, `data/crm-accounts.csv`, and reconciling Q3 closed-won rows in `data/crm-opportunities.csv`. Source hashes are in `data/manifest.json`.*
 
 ---
 
-**Validated by Vera · Oct 2, 2026**
+**Validated by Vera · Nov 23, 2026**
 <details><summary>Validation trail</summary>
 
-```
-GATE 1  C1: 8 figures verified, 2 corrected (NRR 109.6->110.1; gains share 65->63%)
-        C11: 12,500+840+1,610+95-210-235 = 14,600 - ties to zero
-        C6: trend claims carry comparators   C8: NRR/GRR canonical   -> PASS
-GATE 2  markdown output; C16 completeness PASS; C17 stamp present   -> PASS
-SIGNIFICANCE  NRR trend directional (3 quarters, comparators shown)
-FINAL: PASS WITH NOTES
+```text
+GATE 1  1,050/1,050 rows reconcile; Q3 closed-won expected ARR matches new + expansion by account
+        Starting active 970 + new 80 - churn 50 = ending active 1,000
+        Aggregate movement and segment sums reconcile to zero residual
+GATE 2  Synthetic label, source paths, complete movement table, and attribution present
+SIGNIFICANCE  Deterministic synthetic census, not a sampled estimate
+FINAL: PASS - source-dependent live-system checks not applicable
 ```
 </details>

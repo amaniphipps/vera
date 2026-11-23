@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Weekly recap</title>
+<title>{{REPORT_TITLE}}</title>
 <style>
 :root{
-  --accent:#6C5CE7; --accent-soft:#EFECFC; --accent-2:#0E8A72;
-  --ink:#1D1F27; --ink-muted:#414652; --ink-subtle:#6E7382;
-  --paper:#FBFAF7; --surface:#FFFFFF; --line:#E8E5DE; --line-muted:#F0EDE6;
+  --accent:#3559D6; --accent-soft:#E9EEFD; --accent-2:#0F8A75;
+  --ink:#1B1F27; --ink-muted:#414652; --ink-subtle:#6E7382;
+  --paper:#F4F5F7; --surface:#FFFFFF; --line:#DDE1E6; --line-muted:var(--line);
   --good:#1F9D55; --warn:#B7791F; --risk:#C53030;
   --font-display:system-ui,-apple-system,'Segoe UI',sans-serif;
   --font-ui:system-ui,-apple-system,'Segoe UI',sans-serif;
@@ -85,69 +85,69 @@ a{color:var(--accent)}
 <div class="page">
 
   <header class="rpt-header">
-    <div class="lockup"><span class="dot"></span>Weekly recap</div>
+    <div class="lockup"><span class="dot"></span>{{REPORT_TYPE}}</div>
     <div class="row1">
       <div>
-        <div class="rpt-eyebrow">Week of Oct 20, 2026</div>
-        <h1 class="rpt-h1">Volume held. The lift came from one program.</h1>
-        <p class="rpt-sub">Three numbers move the week. The rest is steady state.</p>
+        <div class="rpt-eyebrow">{{REPORT_EYEBROW}}</div>
+        <h1 class="rpt-h1">{{HEADLINE}}</h1>
+        <p class="rpt-sub">{{SUBHEADLINE}}</p>
       </div>
       <div class="rpt-meta">
-        Source · <strong>events table</strong><br>
-        Window · <strong>Oct 20-26, 2026</strong><br>
-        Generated · <strong>Oct 27, 2026</strong>
+        Source · <strong>{{SOURCE_NAME}}</strong><br>
+        Window · <strong>{{REPORTING_WINDOW}}</strong><br>
+        Generated · <strong>{{GENERATED_AT}}</strong>
       </div>
     </div>
   </header>
 
   <div class="kpi">
-    <div class="cell"><div class="lbl">Weekly volume</div><div class="v">1,238</div><div class="sub">+4% vs prior week</div></div>
-    <div class="cell"><div class="lbl">Active users</div><div class="v">312</div><div class="sub">58% of seats</div></div>
-    <div class="cell"><div class="lbl">Largest program</div><div class="v good">+18%</div><div class="sub">Launch campaign</div></div>
-    <div class="cell"><div class="lbl">Pending approvals</div><div class="v warn">27</div><div class="sub">3 days old avg</div></div>
+    <div class="cell"><div class="lbl">{{KPI_1_LABEL}}</div><div class="v {{KPI_1_CLASS}}">{{KPI_1_VALUE}}</div><div class="sub">{{KPI_1_NOTE}}</div></div>
+    <div class="cell"><div class="lbl">{{KPI_2_LABEL}}</div><div class="v {{KPI_2_CLASS}}">{{KPI_2_VALUE}}</div><div class="sub">{{KPI_2_NOTE}}</div></div>
+    <div class="cell"><div class="lbl">{{KPI_3_LABEL}}</div><div class="v {{KPI_3_CLASS}}">{{KPI_3_VALUE}}</div><div class="sub">{{KPI_3_NOTE}}</div></div>
+    <div class="cell"><div class="lbl">{{KPI_4_LABEL}}</div><div class="v {{KPI_4_CLASS}}">{{KPI_4_VALUE}}</div><div class="sub">{{KPI_4_NOTE}}</div></div>
   </div>
 
   <div class="rpt-body">
 
     <section class="sec">
-      <div class="sec-head"><span class="num">1</span><span class="title">Volume by team</span><span class="meta">bars</span></div>
-      <div class="bars" style="--bar-max:340">
-        <div class="bar-row"><span class="lbl">Sales</span><div class="track"><div class="fill" style="--v:340"></div></div><span class="v">340</span></div>
-        <div class="bar-row"><span class="lbl">Engineering</span><div class="track"><div class="fill alt" style="--v:286"></div></div><span class="v">286</span></div>
-        <div class="bar-row"><span class="lbl">Support</span><div class="track"><div class="fill" style="--v:241"></div></div><span class="v">241</span></div>
-        <div class="bar-row"><span class="lbl">Marketing</span><div class="track"><div class="fill alt" style="--v:198"></div></div><span class="v">198</span></div>
-        <div class="bar-row"><span class="lbl">Operations</span><div class="track"><div class="fill" style="--v:173"></div></div><span class="v">173</span></div>
+      <div class="sec-head"><span class="num">1</span><span class="title">{{SECTION_1_TITLE}}</span><span class="meta">{{SECTION_1_META}}</span></div>
+      <div class="bars" style="--bar-max:{{BAR_MAX}}">
+        <div class="bar-row"><span class="lbl">{{BAR_1_LABEL}}</span><div class="track"><div class="fill {{BAR_1_CLASS}}" style="--v:{{BAR_1_NUMERIC_VALUE}}"></div></div><span class="v">{{BAR_1_DISPLAY_VALUE}}</span></div>
+        <div class="bar-row"><span class="lbl">{{BAR_2_LABEL}}</span><div class="track"><div class="fill {{BAR_2_CLASS}}" style="--v:{{BAR_2_NUMERIC_VALUE}}"></div></div><span class="v">{{BAR_2_DISPLAY_VALUE}}</span></div>
+        <div class="bar-row"><span class="lbl">{{BAR_3_LABEL}}</span><div class="track"><div class="fill {{BAR_3_CLASS}}" style="--v:{{BAR_3_NUMERIC_VALUE}}"></div></div><span class="v">{{BAR_3_DISPLAY_VALUE}}</span></div>
+        <div class="bar-row"><span class="lbl">{{BAR_4_LABEL}}</span><div class="track"><div class="fill {{BAR_4_CLASS}}" style="--v:{{BAR_4_NUMERIC_VALUE}}"></div></div><span class="v">{{BAR_4_DISPLAY_VALUE}}</span></div>
+        <div class="bar-row"><span class="lbl">{{BAR_5_LABEL}}</span><div class="track"><div class="fill {{BAR_5_CLASS}}" style="--v:{{BAR_5_NUMERIC_VALUE}}"></div></div><span class="v">{{BAR_5_DISPLAY_VALUE}}</span></div>
       </div>
-      <div class="insight"><span class="lbl">Takeaway</span><span class="body">Sales led at <strong>340</strong>, but Engineering grew fastest, up <strong>18%</strong> week over week after the launch campaign.</span></div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">{{TAKEAWAY_1}}</span></div>
     </section>
 
     <section class="sec">
-      <div class="sec-head"><span class="num">2</span><span class="title">Most active employees</span><span class="meta">table</span></div>
+      <div class="sec-head"><span class="num">2</span><span class="title">{{SECTION_2_TITLE}}</span><span class="meta">{{SECTION_2_META}}</span></div>
       <div class="tblwrap">
         <table class="tbl">
-          <thead><tr><th>Name</th><th>Team</th><th class="r">Contributions</th><th class="r">Change</th></tr></thead>
+          <thead><tr><th>{{NAME_COLUMN_LABEL}}</th><th>{{GROUP_COLUMN_LABEL}}</th><th class="r">{{METRIC_COLUMN_LABEL}}</th><th class="r">{{CHANGE_COLUMN_LABEL}}</th></tr></thead>
           <tbody>
-            <tr><td>Dana Whitfield</td><td>Sales</td><td class="num r">64</td><td class="num r good">+12</td></tr>
-            <tr><td>Jake Mason</td><td>Engineering</td><td class="num r">58</td><td class="num r good">+9</td></tr>
-            <tr><td>Priya Nair</td><td>Support</td><td class="num r">51</td><td class="num r warn">-3</td></tr>
-            <tr><td>Tom Okafor</td><td>Marketing</td><td class="num r">47</td><td class="num r good">+6</td></tr>
-            <tr><td>Elena Ruiz</td><td>Operations</td><td class="num r">39</td><td class="num r risk">-11</td></tr>
+            <tr><td>{{ROW_1_NAME}}</td><td>{{ROW_1_GROUP}}</td><td class="num r">{{ROW_1_METRIC}}</td><td class="num r {{ROW_1_CHANGE_CLASS}}">{{ROW_1_CHANGE}}</td></tr>
+            <tr><td>{{ROW_2_NAME}}</td><td>{{ROW_2_GROUP}}</td><td class="num r">{{ROW_2_METRIC}}</td><td class="num r {{ROW_2_CHANGE_CLASS}}">{{ROW_2_CHANGE}}</td></tr>
+            <tr><td>{{ROW_3_NAME}}</td><td>{{ROW_3_GROUP}}</td><td class="num r">{{ROW_3_METRIC}}</td><td class="num r {{ROW_3_CHANGE_CLASS}}">{{ROW_3_CHANGE}}</td></tr>
+            <tr><td>{{ROW_4_NAME}}</td><td>{{ROW_4_GROUP}}</td><td class="num r">{{ROW_4_METRIC}}</td><td class="num r {{ROW_4_CHANGE_CLASS}}">{{ROW_4_CHANGE}}</td></tr>
+            <tr><td>{{ROW_5_NAME}}</td><td>{{ROW_5_GROUP}}</td><td class="num r">{{ROW_5_METRIC}}</td><td class="num r {{ROW_5_CHANGE_CLASS}}">{{ROW_5_CHANGE}}</td></tr>
           </tbody>
         </table>
       </div>
-      <div class="insight"><span class="lbl">Takeaway</span><span class="body">Two support-side names dropped this week. Check for a process change before calling it noise.</span></div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">{{TAKEAWAY_2}}</span></div>
     </section>
 
     <section class="sec">
-      <div class="sec-head"><span class="num">3</span><span class="title">What to watch next week</span><span class="meta">memo</span></div>
-      <p style="font-size:13px;color:var(--ink-muted);max-width:72ch">Approve the 27 pending items before Friday so the Monday recap is not inflated. Ask Operations about Elena Ruiz's drop. Otherwise the week is steady state.</p>
+      <div class="sec-head"><span class="num">3</span><span class="title">{{SECTION_3_TITLE}}</span><span class="meta">{{SECTION_3_META}}</span></div>
+      <p style="font-size:13px;color:var(--ink-muted);max-width:72ch">{{NEXT_STEPS}}</p>
     </section>
 
   </div>
 
   <footer class="footer">
-    <div class="src">src: events table (weekly aggregate) · caveat: partial data for Sunday · confidence: meaningful</div>
-    <div class="pill">Produced by Vera Reporting · Oct 27, 2026</div>
+    <div class="src">src: {{SOURCE_AND_SNAPSHOT}} · caveat: {{CAVEAT}} · confidence: {{CONFIDENCE}}</div>
+    <div class="pill">{{ATTRIBUTION_LABEL}} · {{GENERATED_AT}}</div>
   </footer>
 
 </div>

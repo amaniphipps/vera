@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Forecast</title>
+<title>{{REPORT_TITLE}}</title>
 <style>
 :root{
-  --accent:#6C5CE7; --accent-soft:#EFECFC; --accent-2:#0E8A72;
-  --ink:#1D1F27; --ink-muted:#414652; --ink-subtle:#6E7382;
-  --paper:#FBFAF7; --surface:#FFFFFF; --line:#E8E5DE; --line-muted:#F0EDE6;
+  --accent:#3559D6; --accent-soft:#E9EEFD; --accent-2:#0F8A75;
+  --ink:#1B1F27; --ink-muted:#414652; --ink-subtle:#6E7382;
+  --paper:#F4F5F7; --surface:#FFFFFF; --line:#DDE1E6; --line-muted:var(--line);
   --good:#1F9D55; --warn:#B7791F; --risk:#C53030;
   --font-display:system-ui,-apple-system,'Segoe UI',sans-serif;
   --font-ui:system-ui,-apple-system,'Segoe UI',sans-serif;
@@ -85,62 +85,62 @@ body{font-family:var(--font-ui);background:var(--paper);color:var(--ink);font-si
 <div class="page">
 
   <header class="rpt-header">
-    <div class="lockup"><span class="dot"></span>Forecast</div>
+    <div class="lockup"><span class="dot"></span>{{REPORT_TYPE}}</div>
     <div class="row1">
       <div>
-        <div class="rpt-eyebrow">Quarterly commit</div>
-        <h1 class="rpt-h1">We land between $2.1M and $2.4M, toward the low end.</h1>
-        <p class="rpt-sub">Committed deals cover the base. The gap sits in three late-stage accounts.</p>
+        <div class="rpt-eyebrow">{{REPORT_EYEBROW}}</div>
+        <h1 class="rpt-h1">{{HEADLINE}}</h1>
+        <p class="rpt-sub">{{SUBHEADLINE}}</p>
       </div>
       <div class="rpt-meta">
-        Source · <strong>pipeline table</strong><br>
-        Window · <strong>Q4 2026</strong><br>
-        Generated · <strong>Oct 27, 2026</strong>
+        Source · <strong>{{SOURCE_NAME}}</strong><br>
+        Window · <strong>{{REPORTING_WINDOW}}</strong><br>
+        Generated · <strong>{{GENERATED_AT}}</strong>
       </div>
     </div>
   </header>
 
   <div class="kpi">
-    <div class="cell"><div class="lbl">Best case</div><div class="v">$2.40M</div><div class="sub">all commits close</div></div>
-    <div class="cell"><div class="lbl">Most likely</div><div class="v warn">$2.19M</div><div class="sub">weighted probability</div></div>
-    <div class="cell"><div class="lbl">Commit</div><div class="v good">$2.10M</div><div class="sub">signed or in procurement</div></div>
+    <div class="cell"><div class="lbl">{{KPI_1_LABEL}}</div><div class="v {{KPI_1_CLASS}}">{{KPI_1_VALUE}}</div><div class="sub">{{KPI_1_NOTE}}</div></div>
+    <div class="cell"><div class="lbl">{{KPI_2_LABEL}}</div><div class="v {{KPI_2_CLASS}}">{{KPI_2_VALUE}}</div><div class="sub">{{KPI_2_NOTE}}</div></div>
+    <div class="cell"><div class="lbl">{{KPI_3_LABEL}}</div><div class="v {{KPI_3_CLASS}}">{{KPI_3_VALUE}}</div><div class="sub">{{KPI_3_NOTE}}</div></div>
   </div>
 
   <div class="rpt-body">
 
     <section class="sec">
-      <div class="sec-head"><span class="num">1</span><span class="title">Landing position by week</span><span class="meta">confidence bands</span></div>
+      <div class="sec-head"><span class="num">1</span><span class="title">{{SECTION_1_TITLE}}</span><span class="meta">{{SECTION_1_META}}</span></div>
       <div class="bands">
-        <div class="band"><div class="wk">Wk 2</div><div class="range">$0.6M</div><div class="bar"><div class="fill" style="width:30%"></div></div><div class="note">early commits</div></div>
-        <div class="band likely"><div class="wk">Wk 3</div><div class="range">$1.1M</div><div class="bar"><div class="fill" style="width:52%"></div></div><div class="note">procurement batch</div></div>
-        <div class="band likely"><div class="wk">Wk 4</div><div class="range">$1.6M</div><div class="bar"><div class="fill" style="width:76%"></div></div><div class="note">late-stage accounts</div></div>
-        <div class="band"><div class="wk">Wk 5</div><div class="range">$2.0M</div><div class="bar"><div class="fill centre" style="width:92%"></div></div><div class="note">commit reached</div></div>
-        <div class="band"><div class="wk">Wk 6</div><div class="range">$2.2M</div><div class="bar"><div class="fill centre" style="width:96%"></div></div><div class="note">most likely</div></div>
-        <div class="band best"><div class="wk">Wk 7</div><div class="range">$2.4M</div><div class="bar"><div class="fill" style="width:100%"></div></div><div class="note">best case</div></div>
+        <div class="band {{BAND_1_CLASS}}"><div class="wk">{{BAND_1_LABEL}}</div><div class="range">{{BAND_1_VALUE}}</div><div class="bar"><div class="fill {{BAND_1_FILL_CLASS}}" style="width:{{BAND_1_WIDTH_PERCENT}}%"></div></div><div class="note">{{BAND_1_NOTE}}</div></div>
+        <div class="band {{BAND_2_CLASS}}"><div class="wk">{{BAND_2_LABEL}}</div><div class="range">{{BAND_2_VALUE}}</div><div class="bar"><div class="fill {{BAND_2_FILL_CLASS}}" style="width:{{BAND_2_WIDTH_PERCENT}}%"></div></div><div class="note">{{BAND_2_NOTE}}</div></div>
+        <div class="band {{BAND_3_CLASS}}"><div class="wk">{{BAND_3_LABEL}}</div><div class="range">{{BAND_3_VALUE}}</div><div class="bar"><div class="fill {{BAND_3_FILL_CLASS}}" style="width:{{BAND_3_WIDTH_PERCENT}}%"></div></div><div class="note">{{BAND_3_NOTE}}</div></div>
+        <div class="band {{BAND_4_CLASS}}"><div class="wk">{{BAND_4_LABEL}}</div><div class="range">{{BAND_4_VALUE}}</div><div class="bar"><div class="fill {{BAND_4_FILL_CLASS}}" style="width:{{BAND_4_WIDTH_PERCENT}}%"></div></div><div class="note">{{BAND_4_NOTE}}</div></div>
+        <div class="band {{BAND_5_CLASS}}"><div class="wk">{{BAND_5_LABEL}}</div><div class="range">{{BAND_5_VALUE}}</div><div class="bar"><div class="fill {{BAND_5_FILL_CLASS}}" style="width:{{BAND_5_WIDTH_PERCENT}}%"></div></div><div class="note">{{BAND_5_NOTE}}</div></div>
+        <div class="band {{BAND_6_CLASS}}"><div class="wk">{{BAND_6_LABEL}}</div><div class="range">{{BAND_6_VALUE}}</div><div class="bar"><div class="fill {{BAND_6_FILL_CLASS}}" style="width:{{BAND_6_WIDTH_PERCENT}}%"></div></div><div class="note">{{BAND_6_NOTE}}</div></div>
       </div>
-      <div class="insight"><span class="lbl">Takeaway</span><span class="body">The commit is reached by <strong>week 5</strong>. Everything after is upside, concentrated in <strong>three accounts</strong>.</span></div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">{{TAKEAWAY_1}}</span></div>
     </section>
 
     <section class="sec">
-      <div class="sec-head"><span class="num">2</span><span class="title">The three accounts that decide the range</span><span class="meta">table</span></div>
+      <div class="sec-head"><span class="num">2</span><span class="title">{{SECTION_2_TITLE}}</span><span class="meta">{{SECTION_2_META}}</span></div>
       <div class="tblwrap">
         <table class="tbl">
-          <thead><tr><th>Account</th><th>Stage</th><th class="r">Value</th><th class="r">Probability</th></tr></thead>
+          <thead><tr><th>{{ACCOUNT_COLUMN_LABEL}}</th><th>{{STAGE_COLUMN_LABEL}}</th><th class="r">{{VALUE_COLUMN_LABEL}}</th><th class="r">{{PROBABILITY_COLUMN_LABEL}}</th></tr></thead>
           <tbody>
-            <tr><td>Northwind Trading</td><td>Procurement</td><td class="num r">$120K</td><td class="num r good">75%</td></tr>
-            <tr><td>Acme Logistics</td><td>Legal review</td><td class="num r">$95K</td><td class="num r warn">50%</td></tr>
-            <tr><td>Blue Harbor Co</td><td>Security review</td><td class="num r">$80K</td><td class="num r risk">30%</td></tr>
+            <tr><td>{{ACCOUNT_1_NAME}}</td><td>{{ACCOUNT_1_STAGE}}</td><td class="num r">{{ACCOUNT_1_VALUE}}</td><td class="num r {{ACCOUNT_1_PROBABILITY_CLASS}}">{{ACCOUNT_1_PROBABILITY}}</td></tr>
+            <tr><td>{{ACCOUNT_2_NAME}}</td><td>{{ACCOUNT_2_STAGE}}</td><td class="num r">{{ACCOUNT_2_VALUE}}</td><td class="num r {{ACCOUNT_2_PROBABILITY_CLASS}}">{{ACCOUNT_2_PROBABILITY}}</td></tr>
+            <tr><td>{{ACCOUNT_3_NAME}}</td><td>{{ACCOUNT_3_STAGE}}</td><td class="num r">{{ACCOUNT_3_VALUE}}</td><td class="num r {{ACCOUNT_3_PROBABILITY_CLASS}}">{{ACCOUNT_3_PROBABILITY}}</td></tr>
           </tbody>
         </table>
       </div>
-      <div class="insight"><span class="lbl">Takeaway</span><span class="body"><strong>Northwind Trading</strong> is the swing. If it closes we land near <strong>$2.3M</strong>; if it slips, near commit.</span></div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">{{TAKEAWAY_2}}</span></div>
     </section>
 
   </div>
 
   <footer class="footer">
-    <div class="src">src: pipeline table (snapshot Oct 27) · caveat: probabilities are rep-entered · confidence: directional</div>
-    <div class="pill">Produced by Vera Reporting · Oct 27, 2026</div>
+    <div class="src">src: {{SOURCE_AND_SNAPSHOT}} · caveat: {{CAVEAT}} · confidence: {{CONFIDENCE}}</div>
+    <div class="pill">{{ATTRIBUTION_LABEL}} · {{GENERATED_AT}}</div>
   </footer>
 
 </div>

@@ -1,0 +1,601 @@
+opportunity_id,account_id,opportunity_alias,owner_id,owner_alias,stage,forecast_category,amount_usd,expected_arr_usd,probability,created_date,close_date,last_activity_date,next_step_date,acquisition_source,product_family,opportunity_type,risk_status,next_step,win_reason,loss_reason,competitor_alias,period
+opp_0001,acct_0006,Opportunity 0001,owner_02,Owner 02,Closed Won,,8100,8100,100,2026-08-02,2026-09-26,2026-09-21,,Partner,Analytics,New Product,Closed,,Product fit,,,2026-Q3
+opp_0002,acct_0018,Opportunity 0002,owner_07,Owner 07,Closed Won,,54000,18000,100,2026-07-15,2026-09-17,2026-09-07,,Outbound,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0003,acct_0025,Opportunity 0003,owner_06,Owner 06,Closed Won,,234000,78000,100,2026-08-21,2026-09-22,2026-09-21,,Inbound,Core Platform,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0004,acct_0037,Opportunity 0004,owner_07,Owner 07,Closed Won,,10500,10500,100,2026-07-15,2026-08-31,2026-08-28,,Outbound,Automation,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0005,acct_0038,Opportunity 0005,owner_05,Owner 05,Closed Won,,24400,12200,100,2026-03-29,2026-07-12,2026-06-11,,Referral,Automation,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0006,acct_0040,Opportunity 0006,owner_02,Owner 02,Closed Won,,27900,27900,100,2026-08-23,2026-09-14,2026-09-07,,Outbound,Analytics,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0007,acct_0044,Opportunity 0007,owner_05,Owner 05,Closed Won,,88800,44400,100,2026-05-24,2026-07-27,2026-06-25,,Referral,Automation,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0008,acct_0046,Opportunity 0008,owner_03,Owner 03,Closed Won,,69000,23000,100,2026-06-22,2026-08-18,2026-08-08,,Outbound,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0009,acct_0047,Opportunity 0009,owner_04,Owner 04,Closed Won,,19200,9600,100,2026-05-26,2026-09-06,2026-09-04,,Referral,Automation,New Product,Closed,,ROI case,,,2026-Q3
+opp_0010,acct_0048,Opportunity 0010,owner_07,Owner 07,Closed Won,,7000,7000,100,2026-06-12,2026-08-26,2026-08-26,,Outbound,Core Platform,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0011,acct_0050,Opportunity 0011,owner_06,Owner 06,Closed Won,,82800,27600,100,2026-06-18,2026-07-18,2026-07-17,,Inbound,Core Platform,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0012,acct_0051,Opportunity 0012,owner_07,Owner 07,Closed Won,,33200,33200,100,2026-05-18,2026-07-12,2026-07-03,,Referral,Analytics,New Product,Closed,,Product fit,,,2026-Q3
+opp_0013,acct_0052,Opportunity 0013,owner_06,Owner 06,Closed Won,,238200,79400,100,2026-08-12,2026-09-23,2026-09-20,,Inbound,Analytics,New Product,Closed,,Product fit,,,2026-Q3
+opp_0014,acct_0054,Opportunity 0014,owner_01,Owner 01,Closed Won,,53000,26500,100,2026-07-01,2026-09-30,2026-09-10,,Event,Collaboration,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0015,acct_0055,Opportunity 0015,owner_01,Owner 01,Closed Won,,3000,1500,100,2026-07-03,2026-08-01,2026-08-01,,Event,Automation,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0016,acct_0056,Opportunity 0016,owner_01,Owner 01,Closed Won,,40800,13600,100,2026-07-19,2026-09-02,2026-08-28,,Inbound,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0017,acct_0059,Opportunity 0017,owner_05,Owner 05,Closed Won,,52800,52800,100,2026-04-04,2026-07-02,,,Event,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0018,acct_0061,Opportunity 0018,owner_07,Owner 07,Closed Won,,31900,31900,100,2026-05-04,2026-08-12,2026-07-25,,Partner,Automation,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0019,acct_0063,Opportunity 0019,owner_03,Owner 03,Closed Won,,10200,3400,100,2026-06-27,2026-09-12,2026-08-30,,Referral,Core Platform,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0020,acct_0065,Opportunity 0020,owner_05,Owner 05,Closed Won,,16300,16300,100,2026-07-11,2026-09-28,2026-09-19,,Inbound,Analytics,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0021,acct_0069,Opportunity 0021,owner_02,Owner 02,Closed Won,,81300,27100,100,2026-06-03,2026-09-02,2026-07-19,,Event,Core Platform,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0022,acct_0095,Opportunity 0022,owner_07,Owner 07,Closed Won,,13000,13000,100,2026-07-21,2026-09-13,,,Outbound,Core Platform,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0023,acct_0096,Opportunity 0023,owner_02,Owner 02,Closed Won,,33600,11200,100,2026-06-17,2026-09-29,2026-07-13,,Inbound,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0024,acct_0097,Opportunity 0024,owner_06,Owner 06,Closed Won,,24900,24900,100,2026-05-08,2026-08-17,2026-08-12,,Outbound,Core Platform,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0025,acct_0098,Opportunity 0025,owner_05,Owner 05,Closed Won,,271700,271700,100,2026-07-31,2026-09-22,2026-09-12,,Event,Collaboration,New Product,Closed,,Product fit,,,2026-Q3
+opp_0026,acct_0115,Opportunity 0026,owner_03,Owner 03,Closed Won,,7600,3800,100,2026-06-21,2026-07-24,,,Outbound,Analytics,New Product,Closed,,Product fit,,,2026-Q3
+opp_0027,acct_0118,Opportunity 0027,owner_04,Owner 04,Closed Won,,141000,47000,100,2026-06-04,2026-07-09,2026-07-07,,Event,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0028,acct_0119,Opportunity 0028,owner_08,Owner 08,Closed Won,,76000,38000,100,2026-05-17,2026-07-17,2026-07-15,,Event,Collaboration,New Product,Closed,,ROI case,,,2026-Q3
+opp_0029,acct_0120,Opportunity 0029,owner_07,Owner 07,Closed Won,,7200,2400,100,2026-05-02,2026-08-13,,,Referral,Automation,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0030,acct_0121,Opportunity 0030,owner_01,Owner 01,Closed Won,,62600,31300,100,2026-07-04,2026-09-22,2026-08-03,,Inbound,Automation,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0031,acct_0123,Opportunity 0031,owner_06,Owner 06,Closed Won,,7800,7800,100,2026-05-06,2026-07-26,2026-07-14,,Referral,Automation,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0032,acct_0125,Opportunity 0032,owner_01,Owner 01,Closed Won,,1950000,650000,100,2026-06-05,2026-09-08,2026-08-28,,Referral,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0033,acct_0131,Opportunity 0033,owner_03,Owner 03,Closed Won,,13400,6700,100,2026-06-09,2026-08-29,2026-08-07,,Event,Analytics,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0034,acct_0132,Opportunity 0034,owner_01,Owner 01,Closed Won,,138300,46100,100,2026-07-20,2026-08-24,2026-08-24,,Referral,Core Platform,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0035,acct_0140,Opportunity 0035,owner_02,Owner 02,Closed Won,,91500,30500,100,2026-06-01,2026-07-29,2026-07-29,,Referral,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0036,acct_0145,Opportunity 0036,owner_01,Owner 01,Closed Won,,18600,6200,100,2026-05-10,2026-07-31,2026-07-29,,Event,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0037,acct_0150,Opportunity 0037,owner_03,Owner 03,Closed Won,,9900,3300,100,2026-06-15,2026-09-04,2026-08-05,,Inbound,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0038,acct_0156,Opportunity 0038,owner_03,Owner 03,Closed Won,,115000,57500,100,2026-05-21,2026-07-07,2026-07-01,,Outbound,Automation,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0039,acct_0157,Opportunity 0039,owner_06,Owner 06,Closed Won,,46400,46400,100,2026-07-06,2026-09-17,2026-08-15,,Partner,Analytics,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0040,acct_0158,Opportunity 0040,owner_06,Owner 06,Closed Won,,152500,152500,100,2026-06-06,2026-07-16,2026-07-16,,Referral,Collaboration,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0041,acct_0162,Opportunity 0041,owner_06,Owner 06,Closed Won,,19200,9600,100,2026-05-16,2026-08-19,2026-06-27,,Partner,Core Platform,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0042,acct_0163,Opportunity 0042,owner_04,Owner 04,Closed Won,,135000,45000,100,2026-06-21,2026-08-27,2026-08-27,,Event,Core Platform,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0043,acct_0164,Opportunity 0043,owner_04,Owner 04,Closed Won,,8000,4000,100,2026-05-16,2026-08-15,2026-07-31,,Event,Core Platform,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0044,acct_0168,Opportunity 0044,owner_05,Owner 05,Closed Won,,46000,23000,100,2026-07-12,2026-09-17,2026-08-16,,Referral,Collaboration,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0045,acct_0170,Opportunity 0045,owner_05,Owner 05,Closed Won,,195600,97800,100,2026-06-10,2026-08-06,2026-07-29,,Event,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0046,acct_0187,Opportunity 0046,owner_07,Owner 07,Closed Won,,251100,251100,100,2026-06-14,2026-09-05,2026-07-05,,Partner,Core Platform,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0047,acct_0192,Opportunity 0047,owner_03,Owner 03,Closed Won,,6800,6800,100,2026-06-08,2026-09-13,2026-09-09,,Inbound,Automation,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0048,acct_0199,Opportunity 0048,owner_03,Owner 03,Closed Won,,49500,49500,100,2026-08-31,2026-09-30,2026-09-28,,Event,Analytics,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0049,acct_0205,Opportunity 0049,owner_02,Owner 02,Closed Won,,9600,4800,100,2026-06-17,2026-07-29,2026-07-20,,Partner,Collaboration,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0050,acct_0208,Opportunity 0050,owner_01,Owner 01,Closed Won,,22800,7600,100,2026-06-02,2026-07-29,2026-07-20,,Event,Automation,New Product,Closed,,Product fit,,,2026-Q3
+opp_0051,acct_0215,Opportunity 0051,owner_06,Owner 06,Closed Won,,63200,31600,100,2026-05-22,2026-07-05,2026-07-01,,Outbound,Analytics,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0052,acct_0217,Opportunity 0052,owner_07,Owner 07,Closed Won,,90500,90500,100,2026-06-06,2026-08-16,2026-08-10,,Event,Analytics,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0053,acct_0219,Opportunity 0053,owner_08,Owner 08,Closed Won,,18200,9100,100,2026-05-30,2026-07-05,2026-06-19,,Referral,Analytics,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0054,acct_0224,Opportunity 0054,owner_03,Owner 03,Closed Won,,22800,7600,100,2026-05-27,2026-07-07,2026-06-26,,Inbound,Core Platform,New Product,Closed,,Product fit,,,2026-Q3
+opp_0055,acct_0229,Opportunity 0055,owner_06,Owner 06,Closed Won,,883000,441500,100,2026-05-15,2026-07-22,2026-07-07,,Outbound,Analytics,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0056,acct_0231,Opportunity 0056,owner_01,Owner 01,Closed Won,,144000,48000,100,2026-08-13,2026-09-10,2026-09-08,,Event,Automation,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0057,acct_0236,Opportunity 0057,owner_02,Owner 02,Closed Won,,150900,50300,100,2026-06-13,2026-09-21,2026-09-15,,Outbound,Automation,New Product,Closed,,ROI case,,,2026-Q3
+opp_0058,acct_0239,Opportunity 0058,owner_05,Owner 05,Closed Won,,4900,4900,100,2026-06-11,2026-09-21,2026-08-26,,Event,Core Platform,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0059,acct_0241,Opportunity 0059,owner_04,Owner 04,Closed Won,,9600,4800,100,2026-05-25,2026-07-28,2026-07-25,,Referral,Core Platform,New Product,Closed,,ROI case,,,2026-Q3
+opp_0060,acct_0253,Opportunity 0060,owner_06,Owner 06,Closed Won,,52200,17400,100,2026-06-30,2026-08-12,2026-07-19,,Referral,Core Platform,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0061,acct_0254,Opportunity 0061,owner_07,Owner 07,Closed Won,,120000,60000,100,2026-05-01,2026-07-22,2026-07-11,,Event,Collaboration,New Product,Closed,,Product fit,,,2026-Q3
+opp_0062,acct_0255,Opportunity 0062,owner_06,Owner 06,Closed Won,,5400,5400,100,2026-07-20,2026-09-21,2026-09-20,,Outbound,Collaboration,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0063,acct_0261,Opportunity 0063,owner_01,Owner 01,Closed Won,,201400,100700,100,2026-07-23,2026-08-21,2026-08-21,,Event,Core Platform,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0064,acct_0264,Opportunity 0064,owner_08,Owner 08,Closed Won,,106400,106400,100,2026-07-26,2026-09-06,2026-09-03,,Partner,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0065,acct_0268,Opportunity 0065,owner_04,Owner 04,Closed Won,,11000,5500,100,2026-07-24,2026-09-27,2026-09-26,,Outbound,Automation,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0066,acct_0271,Opportunity 0066,owner_06,Owner 06,Closed Won,,10400,5200,100,2026-06-28,2026-07-30,2026-07-28,,Outbound,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0067,acct_0278,Opportunity 0067,owner_03,Owner 03,Closed Won,,24600,12300,100,2026-08-14,2026-09-07,2026-08-22,,Outbound,Core Platform,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0068,acct_0286,Opportunity 0068,owner_03,Owner 03,Closed Won,,12100,12100,100,2026-07-31,2026-09-19,2026-09-02,,Outbound,Automation,New Product,Closed,,ROI case,,,2026-Q3
+opp_0069,acct_0288,Opportunity 0069,owner_01,Owner 01,Closed Won,,46400,23200,100,2026-06-26,2026-09-10,2026-08-25,,Outbound,Analytics,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0070,acct_0297,Opportunity 0070,owner_05,Owner 05,Closed Won,,4700,4700,100,2026-05-16,2026-08-01,2026-06-12,,Outbound,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0071,acct_0300,Opportunity 0071,owner_05,Owner 05,Closed Won,,17000,17000,100,2026-06-01,2026-08-08,2026-07-31,,Event,Core Platform,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0072,acct_0301,Opportunity 0072,owner_08,Owner 08,Closed Won,,2200,2200,100,2026-06-04,2026-08-27,2026-08-03,,Outbound,Automation,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0073,acct_0302,Opportunity 0073,owner_03,Owner 03,Closed Won,,410200,205100,100,2026-07-10,2026-09-10,2026-09-01,,Event,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0074,acct_0305,Opportunity 0074,owner_02,Owner 02,Closed Won,,203400,67800,100,2026-05-22,2026-07-30,2026-07-09,,Inbound,Core Platform,New Product,Closed,,Product fit,,,2026-Q3
+opp_0075,acct_0307,Opportunity 0075,owner_03,Owner 03,Closed Won,,21000,7000,100,2026-06-14,2026-08-02,2026-07-19,,Partner,Analytics,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0076,acct_0322,Opportunity 0076,owner_01,Owner 01,Closed Won,,60000,30000,100,2026-06-03,2026-08-24,2026-08-22,,Referral,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0077,acct_0324,Opportunity 0077,owner_03,Owner 03,Closed Won,,693000,231000,100,2026-05-29,2026-08-25,2026-08-08,,Referral,Collaboration,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0078,acct_0325,Opportunity 0078,owner_05,Owner 05,Closed Won,,48600,48600,100,2026-08-07,2026-09-26,2026-09-19,,Outbound,Analytics,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0079,acct_0329,Opportunity 0079,owner_07,Owner 07,Closed Won,,28800,28800,100,2026-03-30,2026-07-08,2026-06-22,,Inbound,Analytics,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0080,acct_0346,Opportunity 0080,owner_08,Owner 08,Closed Won,,50800,25400,100,2026-05-14,2026-07-13,2026-05-26,,Partner,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0081,acct_0357,Opportunity 0081,owner_03,Owner 03,Closed Won,,9900,9900,100,2026-06-19,2026-08-09,2026-08-05,,Referral,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0082,acct_0362,Opportunity 0082,owner_07,Owner 07,Closed Won,,270400,135200,100,2026-04-30,2026-07-04,2026-06-26,,Inbound,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0083,acct_0364,Opportunity 0083,owner_08,Owner 08,Closed Won,,25200,8400,100,2026-06-16,2026-07-10,2026-07-04,,Outbound,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0084,acct_0365,Opportunity 0084,owner_03,Owner 03,Closed Won,,99200,49600,100,2026-07-11,2026-09-07,2026-08-29,,Outbound,Analytics,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0085,acct_0373,Opportunity 0085,owner_04,Owner 04,Closed Won,,25500,25500,100,2026-08-23,2026-09-14,2026-08-31,,Referral,Automation,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0086,acct_0377,Opportunity 0086,owner_01,Owner 01,Closed Won,,6400,3200,100,2026-08-18,2026-09-18,2026-09-02,,Outbound,Core Platform,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0087,acct_0387,Opportunity 0087,owner_01,Owner 01,Closed Won,,41400,13800,100,2026-05-06,2026-08-09,2026-07-09,,Referral,Analytics,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0088,acct_0389,Opportunity 0088,owner_08,Owner 08,Closed Won,,123400,123400,100,2026-06-23,2026-08-11,2026-07-30,,Referral,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0089,acct_0397,Opportunity 0089,owner_01,Owner 01,Closed Won,,54100,54100,100,2026-07-23,2026-09-21,2026-09-05,,Outbound,Core Platform,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0090,acct_0398,Opportunity 0090,owner_03,Owner 03,Closed Won,,1544400,514800,100,2026-05-23,2026-07-29,2026-07-25,,Inbound,Core Platform,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0091,acct_0405,Opportunity 0091,owner_03,Owner 03,Closed Won,,22200,7400,100,2026-07-16,2026-08-12,2026-08-12,,Partner,Collaboration,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0092,acct_0408,Opportunity 0092,owner_06,Owner 06,Closed Won,,33800,16900,100,2026-05-24,2026-08-07,2026-07-09,,Partner,Analytics,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0093,acct_0411,Opportunity 0093,owner_05,Owner 05,Closed Won,,97200,32400,100,2026-05-21,2026-08-15,2026-07-29,,Partner,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0094,acct_0413,Opportunity 0094,owner_03,Owner 03,Closed Won,,6800,6800,100,2026-06-27,2026-09-26,2026-09-19,,Referral,Automation,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0095,acct_0417,Opportunity 0095,owner_03,Owner 03,Closed Won,,681300,227100,100,2026-05-25,2026-08-29,2026-07-13,,Inbound,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0096,acct_0419,Opportunity 0096,owner_04,Owner 04,Closed Won,,41200,20600,100,2026-06-15,2026-09-10,2026-09-02,,Event,Automation,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0097,acct_0420,Opportunity 0097,owner_04,Owner 04,Closed Won,,220800,73600,100,2026-06-14,2026-08-23,2026-07-30,,Inbound,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0098,acct_0424,Opportunity 0098,owner_01,Owner 01,Closed Won,,22600,22600,100,2026-07-04,2026-08-19,2026-08-16,,Inbound,Analytics,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0099,acct_0425,Opportunity 0099,owner_02,Owner 02,Closed Won,,70000,35000,100,2026-08-26,2026-09-29,2026-09-17,,Partner,Automation,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0100,acct_0431,Opportunity 0100,owner_05,Owner 05,Closed Won,,5300,5300,100,2026-05-09,2026-07-15,2026-06-11,,Inbound,Analytics,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0101,acct_0439,Opportunity 0101,owner_07,Owner 07,Closed Won,,132600,44200,100,2026-06-22,2026-07-29,2026-07-23,,Outbound,Collaboration,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0102,acct_0443,Opportunity 0102,owner_02,Owner 02,Closed Won,,61600,30800,100,2026-08-05,2026-09-24,2026-09-20,,Event,Automation,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0103,acct_0455,Opportunity 0103,owner_06,Owner 06,Closed Won,,22100,22100,100,2026-07-28,2026-08-17,2026-08-15,,Partner,Core Platform,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0104,acct_0460,Opportunity 0104,owner_07,Owner 07,Closed Won,,11700,3900,100,2026-08-08,2026-09-23,2026-09-12,,Inbound,Automation,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0105,acct_0461,Opportunity 0105,owner_05,Owner 05,Closed Won,,22600,11300,100,2026-08-10,2026-09-23,2026-09-23,,Partner,Core Platform,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0106,acct_0464,Opportunity 0106,owner_05,Owner 05,Closed Won,,104600,52300,100,2026-06-23,2026-09-21,2026-08-03,,Inbound,Analytics,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0107,acct_0483,Opportunity 0107,owner_03,Owner 03,Closed Won,,3000,1500,100,2026-06-18,2026-07-27,2026-07-20,,Event,Core Platform,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0108,acct_0486,Opportunity 0108,owner_07,Owner 07,Closed Won,,12000,6000,100,2026-06-20,2026-07-27,2026-07-21,,Referral,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0109,acct_0488,Opportunity 0109,owner_04,Owner 04,Closed Won,,79700,79700,100,2026-08-10,2026-09-01,2026-08-24,,Partner,Collaboration,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0110,acct_0490,Opportunity 0110,owner_04,Owner 04,Closed Won,,36800,36800,100,2026-05-01,2026-07-26,2026-07-11,,Partner,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0111,acct_0495,Opportunity 0111,owner_04,Owner 04,Closed Won,,25400,12700,100,2026-08-05,2026-09-12,2026-09-03,,Partner,Analytics,New Product,Closed,,ROI case,,,2026-Q3
+opp_0112,acct_0497,Opportunity 0112,owner_04,Owner 04,Closed Won,,12800,6400,100,2026-06-04,2026-08-12,2026-08-09,,Event,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0113,acct_0498,Opportunity 0113,owner_02,Owner 02,Closed Won,,75300,25100,100,2026-08-09,2026-09-04,2026-08-19,,Referral,Automation,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0114,acct_0500,Opportunity 0114,owner_03,Owner 03,Closed Won,,29000,14500,100,2026-07-02,2026-08-22,2026-08-01,,Partner,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0115,acct_0501,Opportunity 0115,owner_03,Owner 03,Closed Won,,31200,15600,100,2026-06-16,2026-07-13,2026-07-03,,Outbound,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0116,acct_0503,Opportunity 0116,owner_04,Owner 04,Closed Won,,69600,34800,100,2026-07-04,2026-09-16,2026-09-02,,Inbound,Collaboration,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0117,acct_0506,Opportunity 0117,owner_08,Owner 08,Closed Won,,87200,43600,100,2026-08-29,2026-09-28,2026-09-27,,Referral,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0118,acct_0507,Opportunity 0118,owner_06,Owner 06,Closed Won,,45000,22500,100,2026-04-22,2026-07-13,2026-06-14,,Event,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0119,acct_0510,Opportunity 0119,owner_01,Owner 01,Closed Won,,8800,8800,100,2026-04-14,2026-07-27,2026-05-25,,Event,Collaboration,New Product,Closed,,Product fit,,,2026-Q3
+opp_0120,acct_0512,Opportunity 0120,owner_06,Owner 06,Closed Won,,20900,20900,100,2026-05-25,2026-08-04,2026-07-31,,Outbound,Analytics,New Product,Closed,,ROI case,,,2026-Q3
+opp_0121,acct_0519,Opportunity 0121,owner_01,Owner 01,Closed Won,,8900,8900,100,2026-08-05,2026-09-20,2026-09-17,,Partner,Automation,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0122,acct_0525,Opportunity 0122,owner_05,Owner 05,Closed Won,,54300,18100,100,2026-05-11,2026-07-07,2026-06-03,,Partner,Collaboration,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0123,acct_0529,Opportunity 0123,owner_05,Owner 05,Closed Won,,79400,39700,100,2026-06-06,2026-08-12,2026-08-08,,Event,Analytics,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0124,acct_0532,Opportunity 0124,owner_06,Owner 06,Closed Won,,64600,32300,100,2026-07-03,2026-09-27,2026-08-28,,Event,Collaboration,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0125,acct_0534,Opportunity 0125,owner_01,Owner 01,Closed Won,,20700,6900,100,2026-05-11,2026-08-13,2026-08-04,,Partner,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0126,acct_0536,Opportunity 0126,owner_01,Owner 01,Closed Won,,68900,68900,100,2026-06-13,2026-08-03,2026-07-30,,Inbound,Analytics,New Product,Closed,,ROI case,,,2026-Q3
+opp_0127,acct_0538,Opportunity 0127,owner_04,Owner 04,Closed Won,,95200,47600,100,2026-06-13,2026-08-13,2026-07-02,,Referral,Collaboration,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0128,acct_0549,Opportunity 0128,owner_06,Owner 06,Closed Won,,60800,30400,100,2026-05-11,2026-07-13,2026-06-29,,Referral,Analytics,New Product,Closed,,Product fit,,,2026-Q3
+opp_0129,acct_0562,Opportunity 0129,owner_08,Owner 08,Closed Won,,22000,11000,100,2026-07-10,2026-09-23,2026-07-17,,Outbound,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0130,acct_0565,Opportunity 0130,owner_06,Owner 06,Closed Won,,16900,16900,100,2026-07-11,2026-08-02,2026-08-02,,Partner,Collaboration,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0131,acct_0570,Opportunity 0131,owner_01,Owner 01,Closed Won,,12200,12200,100,2026-07-07,2026-07-30,2026-07-28,,Outbound,Collaboration,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0132,acct_0572,Opportunity 0132,owner_04,Owner 04,Closed Won,,81200,81200,100,2026-05-09,2026-07-21,2026-06-25,,Event,Analytics,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0133,acct_0577,Opportunity 0133,owner_03,Owner 03,Closed Won,,175500,58500,100,2026-05-17,2026-07-28,2026-06-06,,Event,Analytics,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0134,acct_0583,Opportunity 0134,owner_04,Owner 04,Closed Won,,33600,11200,100,2026-05-13,2026-08-17,2026-07-24,,Referral,Automation,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0135,acct_0584,Opportunity 0135,owner_08,Owner 08,Closed Won,,93000,93000,100,2026-07-19,2026-09-08,2026-09-03,,Referral,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0136,acct_0585,Opportunity 0136,owner_04,Owner 04,Closed Won,,440800,220400,100,2026-07-16,2026-08-06,2026-07-29,,Referral,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0137,acct_0595,Opportunity 0137,owner_03,Owner 03,Closed Won,,10800,10800,100,2026-07-12,2026-08-15,2026-07-28,,Event,Automation,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0138,acct_0598,Opportunity 0138,owner_03,Owner 03,Closed Won,,9800,4900,100,2026-09-02,2026-09-25,2026-09-11,,Referral,Collaboration,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0139,acct_0602,Opportunity 0139,owner_06,Owner 06,Closed Won,,56200,28100,100,2026-06-24,2026-09-11,2026-09-09,,Partner,Automation,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0140,acct_0603,Opportunity 0140,owner_04,Owner 04,Closed Won,,91100,91100,100,2026-07-03,2026-09-23,2026-09-16,,Outbound,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0141,acct_0604,Opportunity 0141,owner_03,Owner 03,Closed Won,,84200,42100,100,2026-05-23,2026-08-04,2026-08-01,,Partner,Analytics,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0142,acct_0606,Opportunity 0142,owner_01,Owner 01,Closed Won,,15600,5200,100,2026-07-12,2026-09-21,2026-09-20,,Event,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0143,acct_0609,Opportunity 0143,owner_02,Owner 02,Closed Won,,32100,10700,100,2026-07-20,2026-08-09,2026-08-08,,Inbound,Core Platform,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0144,acct_0614,Opportunity 0144,owner_04,Owner 04,Closed Won,,9200,4600,100,2026-03-29,2026-07-12,2026-07-03,,Outbound,Core Platform,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0145,acct_0617,Opportunity 0145,owner_08,Owner 08,Closed Won,,75900,25300,100,2026-05-07,2026-07-14,2026-07-06,,Partner,Collaboration,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0146,acct_0622,Opportunity 0146,owner_05,Owner 05,Closed Won,,28200,28200,100,2026-04-12,2026-07-03,2026-06-29,,Referral,Core Platform,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0147,acct_0625,Opportunity 0147,owner_02,Owner 02,Closed Won,,88400,44200,100,2026-08-08,2026-09-05,2026-08-21,,Partner,Core Platform,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0148,acct_0626,Opportunity 0148,owner_08,Owner 08,Closed Won,,10600,5300,100,2026-04-25,2026-08-02,2026-07-16,,Event,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0149,acct_0632,Opportunity 0149,owner_02,Owner 02,Closed Won,,39600,19800,100,2026-07-22,2026-08-18,2026-08-16,,Event,Core Platform,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0150,acct_0639,Opportunity 0150,owner_08,Owner 08,Closed Won,,343800,114600,100,2026-07-08,2026-09-29,2026-09-11,,Partner,Collaboration,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0151,acct_0641,Opportunity 0151,owner_02,Owner 02,Closed Won,,193500,64500,100,2026-07-22,2026-09-20,2026-09-17,,Outbound,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0152,acct_0645,Opportunity 0152,owner_05,Owner 05,Closed Won,,45200,45200,100,2026-05-29,2026-09-09,,,Inbound,Core Platform,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0153,acct_0660,Opportunity 0153,owner_01,Owner 01,Closed Won,,5500,5500,100,2026-06-03,2026-09-03,2026-06-11,,Partner,Analytics,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0154,acct_0664,Opportunity 0154,owner_01,Owner 01,Closed Won,,207000,207000,100,2026-07-12,2026-08-20,2026-08-20,,Event,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0155,acct_0669,Opportunity 0155,owner_01,Owner 01,Closed Won,,92800,46400,100,2026-05-23,2026-08-23,2026-08-06,,Inbound,Analytics,New Product,Closed,,ROI case,,,2026-Q3
+opp_0156,acct_0679,Opportunity 0156,owner_03,Owner 03,Closed Won,,50400,50400,100,2026-05-06,2026-07-28,2026-07-03,,Outbound,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0157,acct_0688,Opportunity 0157,owner_04,Owner 04,Closed Won,,4700,4700,100,2026-05-09,2026-08-06,2026-07-27,,Outbound,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0158,acct_0695,Opportunity 0158,owner_02,Owner 02,Closed Won,,3000,3000,100,2026-07-14,2026-08-06,2026-07-28,,Inbound,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0159,acct_0711,Opportunity 0159,owner_04,Owner 04,Closed Won,,21900,7300,100,2026-06-19,2026-09-16,2026-09-07,,Event,Automation,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0160,acct_0717,Opportunity 0160,owner_01,Owner 01,Closed Won,,24300,24300,100,2026-07-04,2026-08-15,2026-08-15,,Referral,Collaboration,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0161,acct_0722,Opportunity 0161,owner_07,Owner 07,Closed Won,,30600,10200,100,2026-05-15,2026-07-21,,,Referral,Collaboration,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0162,acct_0723,Opportunity 0162,owner_06,Owner 06,Closed Won,,124500,41500,100,2026-04-25,2026-07-28,2026-07-14,,Event,Analytics,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0163,acct_0726,Opportunity 0163,owner_02,Owner 02,Closed Won,,9000,4500,100,2026-08-02,2026-09-22,2026-09-07,,Partner,Automation,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0164,acct_0727,Opportunity 0164,owner_01,Owner 01,Closed Won,,27000,13500,100,2026-05-10,2026-08-15,2026-08-11,,Event,Collaboration,New Product,Closed,,Product fit,,,2026-Q3
+opp_0165,acct_0729,Opportunity 0165,owner_05,Owner 05,Closed Won,,15400,7700,100,2026-08-26,2026-09-26,2026-09-24,,Partner,Core Platform,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0166,acct_0735,Opportunity 0166,owner_08,Owner 08,Closed Won,,17200,8600,100,2026-05-01,2026-07-01,2026-06-14,,Partner,Analytics,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0167,acct_0743,Opportunity 0167,owner_02,Owner 02,Closed Won,,67200,33600,100,2026-06-13,2026-07-13,2026-07-13,,Outbound,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0168,acct_0745,Opportunity 0168,owner_02,Owner 02,Closed Won,,2200,2200,100,2026-06-01,2026-09-03,2026-07-27,,Outbound,Analytics,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0169,acct_0751,Opportunity 0169,owner_07,Owner 07,Closed Won,,139800,69900,100,2026-05-04,2026-08-12,2026-07-28,,Partner,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0170,acct_0755,Opportunity 0170,owner_01,Owner 01,Closed Won,,100800,100800,100,2026-05-23,2026-08-24,2026-07-28,,Inbound,Analytics,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0171,acct_0756,Opportunity 0171,owner_03,Owner 03,Closed Won,,24000,12000,100,2026-06-22,2026-08-05,2026-07-25,,Partner,Collaboration,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0172,acct_0768,Opportunity 0172,owner_07,Owner 07,Closed Won,,165600,82800,100,2026-05-03,2026-08-07,2026-05-12,,Outbound,Automation,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0173,acct_0774,Opportunity 0173,owner_06,Owner 06,Closed Won,,49500,16500,100,2026-06-18,2026-07-10,2026-07-09,,Inbound,Automation,Renewal,Closed,,Expansion success,,,2026-Q3
+opp_0174,acct_0776,Opportunity 0174,owner_02,Owner 02,Closed Won,,25800,12900,100,2026-08-15,2026-09-15,2026-09-13,,Inbound,Core Platform,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0175,acct_0777,Opportunity 0175,owner_01,Owner 01,Closed Won,,277400,277400,100,2026-03-21,2026-07-04,2026-06-18,,Partner,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0176,acct_0778,Opportunity 0176,owner_01,Owner 01,Closed Won,,9600,4800,100,2026-08-13,2026-09-21,,,Referral,Analytics,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0177,acct_0780,Opportunity 0177,owner_05,Owner 05,Closed Won,,28200,9400,100,2026-07-14,2026-09-08,2026-08-20,,Referral,Automation,New Product,Closed,,ROI case,,,2026-Q3
+opp_0178,acct_0781,Opportunity 0178,owner_04,Owner 04,Closed Won,,253200,84400,100,2026-07-28,2026-08-18,2026-08-18,,Inbound,Collaboration,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0179,acct_0782,Opportunity 0179,owner_04,Owner 04,Closed Won,,16200,16200,100,2026-06-02,2026-08-17,2026-07-31,,Inbound,Core Platform,New Product,Closed,,Product fit,,,2026-Q3
+opp_0180,acct_0789,Opportunity 0180,owner_06,Owner 06,Closed Won,,105600,105600,100,2026-06-09,2026-07-15,2026-07-04,,Partner,Core Platform,New Product,Closed,,Product fit,,,2026-Q3
+opp_0181,acct_0798,Opportunity 0181,owner_01,Owner 01,Closed Won,,97800,48900,100,2026-07-30,2026-09-18,2026-08-23,,Inbound,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0182,acct_0804,Opportunity 0182,owner_05,Owner 05,Closed Won,,54000,18000,100,2026-06-09,2026-08-31,2026-08-23,,Outbound,Automation,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0183,acct_0811,Opportunity 0183,owner_02,Owner 02,Closed Won,,37200,12400,100,2026-05-12,2026-08-12,2026-07-29,,Event,Automation,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0184,acct_0818,Opportunity 0184,owner_03,Owner 03,Closed Won,,864900,288300,100,2026-06-05,2026-07-07,2026-06-30,,Inbound,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0185,acct_0820,Opportunity 0185,owner_02,Owner 02,Closed Won,,32200,16100,100,2026-05-17,2026-07-12,2026-06-14,,Referral,Collaboration,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0186,acct_0831,Opportunity 0186,owner_05,Owner 05,Closed Won,,4700,4700,100,2026-07-19,2026-08-10,2026-08-08,,Outbound,Core Platform,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0187,acct_0840,Opportunity 0187,owner_08,Owner 08,Closed Won,,26800,13400,100,2026-08-06,2026-09-06,2026-09-05,,Referral,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0188,acct_0844,Opportunity 0188,owner_05,Owner 05,Closed Won,,37300,37300,100,2026-07-05,2026-07-28,2026-07-18,,Outbound,Analytics,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0189,acct_0845,Opportunity 0189,owner_03,Owner 03,Closed Won,,22200,11100,100,2026-06-24,2026-07-17,2026-07-16,,Partner,Core Platform,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0190,acct_0851,Opportunity 0190,owner_05,Owner 05,Closed Won,,143400,47800,100,2026-06-08,2026-08-14,2026-07-20,,Outbound,Automation,New Product,Closed,,Product fit,,,2026-Q3
+opp_0191,acct_0852,Opportunity 0191,owner_04,Owner 04,Closed Won,,11400,3800,100,2026-07-07,2026-09-05,2026-09-01,,Partner,Collaboration,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0192,acct_0859,Opportunity 0192,owner_08,Owner 08,Closed Won,,29400,14700,100,2026-09-03,2026-09-29,2026-09-25,,Inbound,Collaboration,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0193,acct_0862,Opportunity 0193,owner_08,Owner 08,Closed Won,,258300,86100,100,2026-05-04,2026-08-09,2026-07-23,,Event,Collaboration,New Product,Closed,,Product fit,,,2026-Q3
+opp_0194,acct_0871,Opportunity 0194,owner_04,Owner 04,Closed Won,,314400,104800,100,2026-06-22,2026-08-19,2026-08-14,,Partner,Analytics,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0195,acct_0876,Opportunity 0195,owner_07,Owner 07,Closed Won,,22200,7400,100,2026-05-24,2026-07-04,2026-05-27,,Event,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0196,acct_0878,Opportunity 0196,owner_03,Owner 03,Closed Won,,42800,42800,100,2026-04-01,2026-07-11,,,Event,Collaboration,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0197,acct_0880,Opportunity 0197,owner_01,Owner 01,Closed Won,,30500,30500,100,2026-07-21,2026-08-29,2026-08-16,,Referral,Analytics,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0198,acct_0894,Opportunity 0198,owner_07,Owner 07,Closed Won,,28800,14400,100,2026-04-27,2026-07-01,2026-06-15,,Outbound,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0199,acct_0905,Opportunity 0199,owner_07,Owner 07,Closed Won,,9300,9300,100,2026-06-09,2026-07-03,2026-06-29,,Event,Core Platform,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0200,acct_0910,Opportunity 0200,owner_05,Owner 05,Closed Won,,6000,2000,100,2026-06-29,2026-08-15,2026-08-02,,Outbound,Core Platform,New Product,Closed,,Product fit,,,2026-Q3
+opp_0201,acct_0913,Opportunity 0201,owner_08,Owner 08,Closed Won,,66600,33300,100,2026-05-23,2026-07-07,2026-07-06,,Event,Core Platform,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0202,acct_0916,Opportunity 0202,owner_04,Owner 04,Closed Won,,185400,92700,100,2026-06-04,2026-09-03,2026-07-30,,Referral,Analytics,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0203,acct_0933,Opportunity 0203,owner_05,Owner 05,Closed Won,,53700,17900,100,2026-04-19,2026-07-20,2026-05-13,,Referral,Automation,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0204,acct_0940,Opportunity 0204,owner_07,Owner 07,Closed Won,,93000,31000,100,2026-06-30,2026-08-15,2026-08-02,,Event,Collaboration,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0205,acct_0945,Opportunity 0205,owner_02,Owner 02,Closed Won,,220800,73600,100,2026-05-26,2026-08-08,2026-07-19,,Outbound,Automation,New Product,Closed,,Product fit,,,2026-Q3
+opp_0206,acct_0946,Opportunity 0206,owner_05,Owner 05,Closed Won,,4800,1600,100,2026-05-09,2026-08-02,2026-07-31,,Event,Automation,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0207,acct_0947,Opportunity 0207,owner_03,Owner 03,Closed Won,,8200,4100,100,2026-05-19,2026-07-10,2026-07-04,,Outbound,Collaboration,New Product,Closed,,Product fit,,,2026-Q3
+opp_0208,acct_0953,Opportunity 0208,owner_01,Owner 01,Closed Won,,34400,17200,100,2026-07-26,2026-09-20,2026-09-19,,Referral,Core Platform,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0209,acct_0955,Opportunity 0209,owner_06,Owner 06,Closed Won,,260400,86800,100,2026-06-20,2026-08-22,2026-07-18,,Partner,Core Platform,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0210,acct_0958,Opportunity 0210,owner_04,Owner 04,Closed Won,,90000,30000,100,2026-06-02,2026-07-17,2026-07-03,,Inbound,Automation,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0211,acct_0960,Opportunity 0211,owner_04,Owner 04,Closed Won,,36600,18300,100,2026-05-03,2026-07-27,2026-06-22,,Outbound,Automation,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0212,acct_0966,Opportunity 0212,owner_02,Owner 02,Closed Won,,64500,21500,100,2026-07-16,2026-08-14,2026-08-13,,Inbound,Core Platform,Expansion,Closed,,Product fit,,,2026-Q3
+opp_0213,acct_0967,Opportunity 0213,owner_01,Owner 01,Closed Won,,44700,14900,100,2026-06-15,2026-07-16,2026-07-16,,Outbound,Collaboration,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0214,acct_0972,Opportunity 0214,owner_01,Owner 01,Closed Won,,12600,6300,100,2026-04-23,2026-07-29,2026-06-21,,Inbound,Analytics,Expansion,Closed,,ROI case,,,2026-Q3
+opp_0215,acct_0976,Opportunity 0215,owner_06,Owner 06,Closed Won,,18000,9000,100,2026-09-07,2026-09-27,2026-09-11,,Event,Collaboration,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0216,acct_0978,Opportunity 0216,owner_05,Owner 05,Closed Won,,9300,3100,100,2026-07-01,2026-08-25,2026-08-14,,Event,Collaboration,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0217,acct_0980,Opportunity 0217,owner_02,Owner 02,Closed Won,,7400,7400,100,2026-07-16,2026-08-24,2026-08-05,,Partner,Collaboration,Renewal,Closed,,ROI case,,,2026-Q3
+opp_0218,acct_0987,Opportunity 0218,owner_02,Owner 02,Closed Won,,328900,328900,100,2026-07-16,2026-08-05,2026-07-23,,Outbound,Analytics,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0219,acct_0991,Opportunity 0219,owner_06,Owner 06,Closed Won,,21300,21300,100,2026-05-18,2026-08-20,2026-08-18,,Event,Core Platform,Renewal,Closed,,Team adoption,,,2026-Q3
+opp_0220,acct_0992,Opportunity 0220,owner_01,Owner 01,Closed Won,,4200,1400,100,2026-05-22,2026-08-13,2026-07-20,,Event,Collaboration,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0221,acct_0993,Opportunity 0221,owner_04,Owner 04,Closed Won,,3800,3800,100,2026-07-27,2026-08-23,2026-08-19,,Referral,Collaboration,New Product,Closed,,ROI case,,,2026-Q3
+opp_0222,acct_0996,Opportunity 0222,owner_05,Owner 05,Closed Won,,7800,7800,100,2026-06-07,2026-08-17,2026-08-04,,Inbound,Automation,Renewal,Closed,,Product fit,,,2026-Q3
+opp_0223,acct_1009,Opportunity 0223,owner_02,Owner 02,Closed Won,,6600,2200,100,2026-06-15,2026-07-11,2026-07-11,,Inbound,Automation,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0224,acct_1020,Opportunity 0224,owner_01,Owner 01,Closed Won,,24600,8200,100,2026-07-18,2026-09-03,2026-08-16,,Referral,Analytics,New Product,Closed,,Expansion success,,,2026-Q3
+opp_0225,acct_1023,Opportunity 0225,owner_04,Owner 04,Closed Won,,16300,16300,100,2026-07-28,2026-09-03,2026-08-31,,Referral,Collaboration,Expansion,Closed,,Expansion success,,,2026-Q3
+opp_0226,acct_1025,Opportunity 0226,owner_02,Owner 02,Closed Won,,24700,24700,100,2026-06-04,2026-07-25,2026-07-10,,Partner,Automation,Expansion,Closed,,Team adoption,,,2026-Q3
+opp_0227,acct_1035,Opportunity 0227,owner_01,Owner 01,Closed Won,,32800,16400,100,2026-08-20,2026-09-29,2026-09-21,,Inbound,Collaboration,New Product,Closed,,Product fit,,,2026-Q3
+opp_0228,acct_1045,Opportunity 0228,owner_01,Owner 01,Closed Won,,21600,21600,100,2026-05-19,2026-08-14,2026-08-08,,Referral,Automation,New Product,Closed,,Product fit,,,2026-Q3
+opp_0229,acct_1046,Opportunity 0229,owner_05,Owner 05,Closed Won,,1500,1500,100,2026-05-26,2026-07-15,2026-07-15,,Referral,Analytics,New Product,Closed,,ROI case,,,2026-Q3
+opp_0230,acct_1050,Opportunity 0230,owner_04,Owner 04,Closed Won,,59200,29600,100,2026-05-30,2026-07-06,2026-07-01,,Partner,Analytics,New Product,Closed,,Team adoption,,,2026-Q3
+opp_0231,acct_0648,Opportunity 0231,owner_01,Owner 01,Closed Lost,,18400,18400,0,2026-05-07,2026-07-26,2026-07-07,,Outbound,Collaboration,Expansion,Closed,,,Budget,Competitor A,2026-Q3
+opp_0232,acct_0649,Opportunity 0232,owner_03,Owner 03,Closed Lost,,40000,40000,0,2026-05-27,2026-09-04,2026-08-28,,Event,Core Platform,New Product,Closed,,,Budget,Competitor B,2026-Q3
+opp_0233,acct_0120,Opportunity 0233,owner_07,Owner 07,Closed Lost,,58800,19600,0,2026-05-01,2026-07-10,2026-06-28,,Referral,Automation,Renewal,Closed,,,Security review,Competitor B,2026-Q3
+opp_0234,acct_0180,Opportunity 0234,owner_07,Owner 07,Closed Lost,,201000,67000,0,2026-04-06,2026-07-18,2026-07-13,,Outbound,Analytics,Renewal,Closed,,,Security review,Competitor C,2026-Q3
+opp_0235,acct_0707,Opportunity 0235,owner_04,Owner 04,Closed Lost,,244900,244900,0,2026-07-12,2026-09-19,2026-08-24,,Inbound,Collaboration,Expansion,Closed,,,Budget,Competitor B,2026-Q3
+opp_0236,acct_0300,Opportunity 0236,owner_05,Owner 05,Closed Lost,,76000,38000,0,2026-07-01,2026-08-30,2026-08-28,,Event,Collaboration,Renewal,Closed,,,No decision,Competitor B,2026-Q3
+opp_0237,acct_0970,Opportunity 0237,owner_08,Owner 08,Closed Lost,,62400,31200,0,2026-07-19,2026-09-10,2026-09-09,,Outbound,Analytics,New Product,Closed,,,Security review,Competitor B,2026-Q3
+opp_0238,acct_1033,Opportunity 0238,owner_06,Owner 06,Closed Lost,,36800,36800,0,2026-05-26,2026-08-18,2026-08-17,,Event,Automation,New Product,Closed,,,Timing,Competitor A,2026-Q3
+opp_0239,acct_0600,Opportunity 0239,owner_04,Owner 04,Closed Lost,,222300,74100,0,2026-07-18,2026-08-18,2026-08-16,,Outbound,Analytics,New Product,Closed,,,Budget,Competitor C,2026-Q3
+opp_0240,acct_1010,Opportunity 0240,owner_05,Owner 05,Closed Lost,,38800,38800,0,2026-07-15,2026-08-22,2026-08-16,,Event,Analytics,Renewal,Closed,,,Budget,Competitor A,2026-Q3
+opp_0241,acct_0227,Opportunity 0241,owner_07,Owner 07,Closed Lost,,214200,107100,0,2026-03-25,2026-07-08,2026-06-01,,Referral,Analytics,New Product,Closed,,,Budget,Competitor A,2026-Q3
+opp_0242,acct_1011,Opportunity 0242,owner_02,Owner 02,Closed Lost,,81800,40900,0,2026-05-11,2026-07-07,2026-06-27,,Event,Automation,New Product,Closed,,,Security review,Competitor A,2026-Q3
+opp_0243,acct_0974,Opportunity 0243,owner_01,Owner 01,Closed Lost,,306700,306700,0,2026-07-03,2026-09-16,2026-08-21,,Event,Core Platform,Renewal,Closed,,,Competitor,Competitor B,2026-Q3
+opp_0244,acct_0513,Opportunity 0244,owner_05,Owner 05,Closed Lost,,135300,45100,0,2026-07-02,2026-08-14,2026-08-05,,Partner,Core Platform,Renewal,Closed,,,Budget,Competitor B,2026-Q3
+opp_0245,acct_0780,Opportunity 0245,owner_05,Owner 05,Closed Lost,,52600,26300,0,2026-06-27,2026-09-06,2026-08-21,,Referral,Collaboration,Expansion,Closed,,,Security review,Competitor A,2026-Q3
+opp_0246,acct_0114,Opportunity 0246,owner_07,Owner 07,Closed Lost,,269700,269700,0,2026-04-29,2026-07-02,2026-06-29,,Event,Collaboration,New Product,Closed,,,Security review,Competitor B,2026-Q3
+opp_0247,acct_0574,Opportunity 0247,owner_01,Owner 01,Closed Lost,,161100,161100,0,2026-05-06,2026-07-05,2026-06-30,,Referral,Core Platform,Renewal,Closed,,,Budget,Competitor C,2026-Q3
+opp_0248,acct_0274,Opportunity 0248,owner_06,Owner 06,Closed Lost,,47800,23900,0,2026-06-14,2026-07-15,2026-07-12,,Partner,Automation,Expansion,Closed,,,Timing,Competitor C,2026-Q3
+opp_0249,acct_0603,Opportunity 0249,owner_04,Owner 04,Closed Lost,,345300,115100,0,2026-06-16,2026-07-18,2026-07-15,,Outbound,Core Platform,Renewal,Closed,,,Timing,Competitor A,2026-Q3
+opp_0250,acct_0338,Opportunity 0250,owner_02,Owner 02,Closed Lost,,22700,22700,0,2026-06-21,2026-09-19,2026-08-18,,Outbound,Core Platform,New Product,Closed,,,Budget,Competitor C,2026-Q3
+opp_0251,acct_0421,Opportunity 0251,owner_05,Owner 05,Closed Lost,,607000,303500,0,2026-07-05,2026-08-31,2026-08-14,,Referral,Analytics,Renewal,Closed,,,Budget,Competitor B,2026-Q3
+opp_0252,acct_0896,Opportunity 0252,owner_05,Owner 05,Closed Lost,,363800,181900,0,2026-08-09,2026-08-29,2026-08-22,,Inbound,Core Platform,New Product,Closed,,,Security review,Competitor C,2026-Q3
+opp_0253,acct_0185,Opportunity 0253,owner_06,Owner 06,Closed Lost,,91800,91800,0,2026-05-27,2026-09-03,2026-07-18,,Partner,Analytics,New Product,Closed,,,Competitor,Competitor B,2026-Q3
+opp_0254,acct_0534,Opportunity 0254,owner_01,Owner 01,Closed Lost,,27800,27800,0,2026-08-20,2026-09-16,2026-09-16,,Partner,Automation,Renewal,Closed,,,Budget,Competitor A,2026-Q3
+opp_0255,acct_0347,Opportunity 0255,owner_02,Owner 02,Closed Lost,,35300,35300,0,2026-07-01,2026-09-06,2026-08-29,,Partner,Collaboration,New Product,Closed,,,Timing,Competitor C,2026-Q3
+opp_0256,acct_0652,Opportunity 0256,owner_07,Owner 07,Closed Lost,,16400,16400,0,2026-06-06,2026-07-27,2026-06-23,,Referral,Core Platform,Renewal,Closed,,,Timing,Competitor B,2026-Q3
+opp_0257,acct_0375,Opportunity 0257,owner_04,Owner 04,Closed Lost,,170100,56700,0,2026-05-15,2026-08-26,2026-08-24,,Referral,Core Platform,Expansion,Closed,,,Budget,Competitor B,2026-Q3
+opp_0258,acct_0985,Opportunity 0258,owner_06,Owner 06,Closed Lost,,55400,27700,0,2026-04-05,2026-07-14,2026-06-05,,Event,Automation,Renewal,Closed,,,Security review,Competitor A,2026-Q3
+opp_0259,acct_0933,Opportunity 0259,owner_05,Owner 05,Closed Lost,,29400,29400,0,2026-06-13,2026-08-08,2026-08-08,,Referral,Core Platform,New Product,Closed,,,Competitor,Competitor B,2026-Q3
+opp_0260,acct_0847,Opportunity 0260,owner_02,Owner 02,Closed Lost,,47700,15900,0,2026-06-12,2026-08-09,2026-08-01,,Partner,Collaboration,Renewal,Closed,,,Timing,Competitor A,2026-Q3
+opp_0261,acct_0035,Opportunity 0261,owner_08,Owner 08,Closed Lost,,81600,40800,0,2026-09-05,2026-09-30,2026-09-28,,Referral,Collaboration,Renewal,Closed,,,No decision,Competitor A,2026-Q3
+opp_0262,acct_1042,Opportunity 0262,owner_08,Owner 08,Closed Lost,,63000,63000,0,2026-07-05,2026-09-07,2026-09-06,,Inbound,Automation,Renewal,Closed,,,Security review,Competitor B,2026-Q3
+opp_0263,acct_0383,Opportunity 0263,owner_08,Owner 08,Closed Lost,,91900,91900,0,2026-07-13,2026-09-03,2026-08-31,,Partner,Automation,Expansion,Closed,,,Timing,Competitor A,2026-Q3
+opp_0264,acct_0013,Opportunity 0264,owner_02,Owner 02,Closed Lost,,43900,43900,0,2026-04-08,2026-07-21,2026-06-14,,Partner,Collaboration,New Product,Closed,,,Security review,Competitor B,2026-Q3
+opp_0265,acct_0428,Opportunity 0265,owner_03,Owner 03,Closed Lost,,29400,14700,0,2026-09-09,2026-09-30,2026-09-30,,Outbound,Core Platform,New Product,Closed,,,Timing,Competitor B,2026-Q3
+opp_0266,acct_0413,Opportunity 0266,owner_03,Owner 03,Closed Lost,,111000,37000,0,2026-06-03,2026-09-10,2026-09-04,,Referral,Automation,Renewal,Closed,,,Timing,Competitor B,2026-Q3
+opp_0267,acct_0537,Opportunity 0267,owner_04,Owner 04,Closed Lost,,36400,36400,0,2026-05-09,2026-07-06,2026-07-04,,Outbound,Automation,Renewal,Closed,,,Security review,Competitor A,2026-Q3
+opp_0268,acct_0981,Opportunity 0268,owner_08,Owner 08,Closed Lost,,480400,240200,0,2026-07-29,2026-09-14,2026-08-16,,Partner,Automation,New Product,Closed,,,Competitor,Competitor C,2026-Q3
+opp_0269,acct_0461,Opportunity 0269,owner_05,Owner 05,Closed Lost,,166600,83300,0,2026-07-28,2026-09-04,2026-08-31,,Partner,Automation,Expansion,Closed,,,Competitor,Competitor C,2026-Q3
+opp_0270,acct_0418,Opportunity 0270,owner_08,Owner 08,Closed Lost,,72000,36000,0,2026-07-11,2026-09-02,2026-08-27,,Partner,Analytics,New Product,Closed,,,No decision,Competitor B,2026-Q3
+opp_0271,acct_0078,Opportunity 0271,owner_07,Owner 07,Closed Lost,,36100,36100,0,2026-08-21,2026-09-30,2026-09-26,,Inbound,Analytics,New Product,Closed,,,Timing,Competitor C,2026-Q3
+opp_0272,acct_0642,Opportunity 0272,owner_08,Owner 08,Closed Lost,,1109700,369900,0,2026-07-03,2026-09-15,2026-08-27,,Event,Analytics,Renewal,Closed,,,Security review,Competitor B,2026-Q3
+opp_0273,acct_0169,Opportunity 0273,owner_03,Owner 03,Closed Lost,,137400,45800,0,2026-05-20,2026-07-01,2026-06-26,,Referral,Analytics,New Product,Closed,,,Budget,Competitor B,2026-Q3
+opp_0274,acct_0235,Opportunity 0274,owner_06,Owner 06,Closed Lost,,308700,102900,0,2026-05-16,2026-08-08,2026-08-07,,Partner,Collaboration,New Product,Closed,,,Budget,Competitor A,2026-Q3
+opp_0275,acct_0589,Opportunity 0275,owner_01,Owner 01,Closed Lost,,149700,149700,0,2026-06-19,2026-08-26,2026-08-19,,Event,Collaboration,Expansion,Closed,,,Budget,Competitor A,2026-Q3
+opp_0276,acct_0237,Opportunity 0276,owner_05,Owner 05,Closed Lost,,282600,94200,0,2026-04-11,2026-07-14,2026-06-15,,Event,Automation,New Product,Closed,,,No decision,Competitor C,2026-Q3
+opp_0277,acct_1005,Opportunity 0277,owner_06,Owner 06,Closed Lost,,426600,142200,0,2026-07-24,2026-09-29,2026-09-27,,Inbound,Analytics,Renewal,Closed,,,Timing,Competitor B,2026-Q3
+opp_0278,acct_0593,Opportunity 0278,owner_05,Owner 05,Closed Lost,,195600,65200,0,2026-07-07,2026-09-28,2026-09-27,,Event,Collaboration,Renewal,Closed,,,Competitor,Competitor A,2026-Q3
+opp_0279,acct_0502,Opportunity 0279,owner_01,Owner 01,Closed Lost,,126600,42200,0,2026-06-20,2026-09-08,2026-09-02,,Event,Core Platform,New Product,Closed,,,Competitor,Competitor B,2026-Q3
+opp_0280,acct_0979,Opportunity 0280,owner_06,Owner 06,Closed Lost,,220200,110100,0,2026-07-04,2026-08-06,2026-08-02,,Event,Analytics,New Product,Closed,,,Timing,Competitor B,2026-Q3
+opp_0281,acct_0066,Opportunity 0281,owner_02,Owner 02,Closed Lost,,577800,192600,0,2026-05-08,2026-08-05,2026-06-22,,Inbound,Core Platform,Expansion,Closed,,,No decision,Competitor B,2026-Q3
+opp_0282,acct_0822,Opportunity 0282,owner_06,Owner 06,Closed Lost,,90900,30300,0,2026-05-26,2026-07-13,2026-07-13,,Inbound,Analytics,Expansion,Closed,,,Timing,Competitor A,2026-Q3
+opp_0283,acct_0349,Opportunity 0283,owner_06,Owner 06,Closed Lost,,111000,55500,0,2026-06-23,2026-07-18,2026-07-15,,Outbound,Collaboration,Renewal,Closed,,,Security review,Competitor C,2026-Q3
+opp_0284,acct_0215,Opportunity 0284,owner_06,Owner 06,Closed Lost,,114400,57200,0,2026-08-04,2026-09-09,2026-08-24,,Outbound,Automation,New Product,Closed,,,Budget,Competitor B,2026-Q3
+opp_0285,acct_0341,Opportunity 0285,owner_06,Owner 06,Closed Lost,,139800,46600,0,2026-04-16,2026-07-09,,,Event,Automation,Expansion,Closed,,,Timing,Competitor C,2026-Q3
+opp_0286,acct_0155,Opportunity 0286,owner_05,Owner 05,Closed Lost,,35000,35000,0,2026-06-08,2026-09-07,2026-08-09,,Inbound,Automation,Renewal,Closed,,,Security review,Competitor A,2026-Q3
+opp_0287,acct_0426,Opportunity 0287,owner_07,Owner 07,Closed Lost,,94800,31600,0,2026-06-16,2026-08-17,2026-07-24,,Event,Core Platform,New Product,Closed,,,Budget,Competitor C,2026-Q3
+opp_0288,acct_0461,Opportunity 0288,owner_05,Owner 05,Closed Lost,,209700,69900,0,2026-06-03,2026-08-13,2026-07-20,,Partner,Automation,Expansion,Closed,,,Competitor,Competitor B,2026-Q3
+opp_0289,acct_0827,Opportunity 0289,owner_07,Owner 07,Closed Lost,,183400,183400,0,2026-08-02,2026-09-06,2026-08-29,,Event,Automation,New Product,Closed,,,No decision,Competitor B,2026-Q3
+opp_0290,acct_0211,Opportunity 0290,owner_02,Owner 02,Closed Lost,,201600,100800,0,2026-06-16,2026-08-20,2026-07-22,,Event,Analytics,Expansion,Closed,,,Competitor,Competitor B,2026-Q3
+opp_0291,acct_0995,Opportunity 0291,owner_01,Owner 01,Closed Lost,,65700,65700,0,2026-05-21,2026-07-19,2026-07-17,,Partner,Analytics,Renewal,Closed,,,Security review,Competitor C,2026-Q3
+opp_0292,acct_0429,Opportunity 0292,owner_01,Owner 01,Closed Lost,,1063200,354400,0,2026-06-03,2026-07-08,2026-06-29,,Outbound,Analytics,Renewal,Closed,,,No decision,Competitor B,2026-Q3
+opp_0293,acct_0145,Opportunity 0293,owner_01,Owner 01,Closed Lost,,59200,29600,0,2026-06-01,2026-07-24,2026-07-14,,Event,Collaboration,Expansion,Closed,,,Security review,Competitor B,2026-Q3
+opp_0294,acct_0194,Opportunity 0294,owner_04,Owner 04,Closed Lost,,46300,46300,0,2026-06-05,2026-07-11,2026-07-03,,Inbound,Core Platform,Renewal,Closed,,,Competitor,Competitor C,2026-Q3
+opp_0295,acct_0766,Opportunity 0295,owner_07,Owner 07,Closed Lost,,34000,17000,0,2026-07-02,2026-08-08,2026-07-23,,Event,Collaboration,Renewal,Closed,,,Security review,Competitor B,2026-Q3
+opp_0296,acct_0010,Opportunity 0296,owner_06,Owner 06,Closed Lost,,90200,45100,0,2026-06-22,2026-09-17,2026-09-09,,Referral,Automation,New Product,Closed,,,No decision,Competitor C,2026-Q3
+opp_0297,acct_0890,Opportunity 0297,owner_04,Owner 04,Closed Lost,,56200,28100,0,2026-06-16,2026-09-13,2026-08-10,,Inbound,Core Platform,Renewal,Closed,,,No decision,Competitor B,2026-Q3
+opp_0298,acct_0440,Opportunity 0298,owner_06,Owner 06,Closed Lost,,64000,64000,0,2026-07-23,2026-09-26,2026-09-22,,Referral,Collaboration,Expansion,Closed,,,Timing,Competitor B,2026-Q3
+opp_0299,acct_0014,Opportunity 0299,owner_06,Owner 06,Closed Lost,,83100,27700,0,2026-04-22,2026-07-25,2026-06-27,,Inbound,Core Platform,Expansion,Closed,,,No decision,Competitor C,2026-Q3
+opp_0300,acct_0652,Opportunity 0300,owner_07,Owner 07,Closed Lost,,22600,11300,0,2026-06-13,2026-08-26,2026-08-24,,Referral,Analytics,Renewal,Closed,,,Timing,Competitor B,2026-Q3
+opp_0301,acct_0322,Opportunity 0301,owner_01,Owner 01,Closed Lost,,267000,89000,0,2026-06-26,2026-08-22,2026-08-20,,Referral,Automation,Expansion,Closed,,,Budget,Competitor A,2026-Q3
+opp_0302,acct_0170,Opportunity 0302,owner_05,Owner 05,Closed Lost,,56700,56700,0,2026-05-19,2026-07-25,2026-07-25,,Event,Analytics,Expansion,Closed,,,Budget,Competitor A,2026-Q3
+opp_0303,acct_0821,Opportunity 0303,owner_02,Owner 02,Closed Lost,,160600,80300,0,2026-05-26,2026-08-09,2026-07-19,,Inbound,Analytics,New Product,Closed,,,Timing,Competitor B,2026-Q3
+opp_0304,acct_0851,Opportunity 0304,owner_05,Owner 05,Closed Lost,,99700,99700,0,2026-07-03,2026-09-08,2026-09-01,,Outbound,Analytics,Expansion,Closed,,,No decision,Competitor B,2026-Q3
+opp_0305,acct_0147,Opportunity 0305,owner_08,Owner 08,Closed Lost,,150000,75000,0,2026-04-23,2026-07-19,2026-06-12,,Outbound,Analytics,Renewal,Closed,,,Security review,Competitor C,2026-Q3
+opp_0306,acct_0972,Opportunity 0306,owner_01,Owner 01,Closed Lost,,150000,75000,0,2026-05-31,2026-07-14,2026-07-03,,Inbound,Analytics,Expansion,Closed,,,Timing,Competitor B,2026-Q3
+opp_0307,acct_0181,Opportunity 0307,owner_02,Owner 02,Closed Lost,,145500,145500,0,2026-04-06,2026-07-01,2026-06-14,,Outbound,Core Platform,Expansion,Closed,,,Security review,Competitor C,2026-Q3
+opp_0308,acct_0445,Opportunity 0308,owner_02,Owner 02,Closed Lost,,162000,54000,0,2026-05-25,2026-08-27,2026-06-19,,Partner,Collaboration,New Product,Closed,,,Competitor,Competitor B,2026-Q3
+opp_0309,acct_0301,Opportunity 0309,owner_08,Owner 08,Closed Lost,,209100,69700,0,2026-05-12,2026-07-30,2026-07-26,,Outbound,Collaboration,New Product,Closed,,,Security review,Competitor C,2026-Q3
+opp_0310,acct_0679,Opportunity 0310,owner_03,Owner 03,Closed Lost,,39000,13000,0,2026-07-25,2026-09-17,2026-09-17,,Outbound,Collaboration,Expansion,Closed,,,Budget,Competitor A,2026-Q3
+opp_0311,acct_0399,Opportunity 0311,owner_04,Owner 04,Closed Won,,25700,25700,100,2026-08-19,2026-11-14,2026-10-24,,Outbound,Analytics,New Product,Closed,,Product fit,,,2026-Q4
+opp_0312,acct_0986,Opportunity 0312,owner_06,Owner 06,Closed Won,,359300,359300,100,2026-09-25,2026-11-20,2026-10-18,,Referral,Core Platform,Expansion,Closed,,Expansion success,,,2026-Q4
+opp_0313,acct_0855,Opportunity 0313,owner_04,Owner 04,Closed Won,,160400,80200,100,2026-09-14,2026-10-18,2026-10-14,,Event,Automation,Renewal,Closed,,Product fit,,,2026-Q4
+opp_0314,acct_0594,Opportunity 0314,owner_05,Owner 05,Closed Won,,32500,32500,100,2026-07-18,2026-10-01,2026-09-19,,Partner,Automation,Expansion,Closed,,ROI case,,,2026-Q4
+opp_0315,acct_0683,Opportunity 0315,owner_04,Owner 04,Closed Won,,186300,62100,100,2026-07-31,2026-10-19,2026-10-18,,Partner,Collaboration,New Product,Closed,,Product fit,,,2026-Q4
+opp_0316,acct_0304,Opportunity 0316,owner_05,Owner 05,Closed Won,,92300,92300,100,2026-07-30,2026-11-05,2026-10-25,,Outbound,Collaboration,Renewal,Closed,,Product fit,,,2026-Q4
+opp_0317,acct_0793,Opportunity 0317,owner_04,Owner 04,Closed Won,,114500,114500,100,2026-08-24,2026-11-15,2026-09-29,,Outbound,Analytics,Renewal,Closed,,Expansion success,,,2026-Q4
+opp_0318,acct_0907,Opportunity 0318,owner_08,Owner 08,Closed Won,,32100,32100,100,2026-08-30,2026-11-04,2026-10-14,,Outbound,Collaboration,New Product,Closed,,Expansion success,,,2026-Q4
+opp_0319,acct_0509,Opportunity 0319,owner_06,Owner 06,Closed Won,,150000,75000,100,2026-10-16,2026-11-15,2026-11-06,,Event,Core Platform,Renewal,Closed,,Expansion success,,,2026-Q4
+opp_0320,acct_0252,Opportunity 0320,owner_01,Owner 01,Closed Won,,215700,71900,100,2026-09-26,2026-11-20,2026-11-13,,Partner,Analytics,New Product,Closed,,ROI case,,,2026-Q4
+opp_0321,acct_0511,Opportunity 0321,owner_02,Owner 02,Closed Won,,28000,28000,100,2026-08-04,2026-10-17,,,Partner,Automation,Renewal,Closed,,Team adoption,,,2026-Q4
+opp_0322,acct_0609,Opportunity 0322,owner_02,Owner 02,Closed Won,,101700,101700,100,2026-07-04,2026-10-03,2026-08-19,,Inbound,Analytics,Renewal,Closed,,Expansion success,,,2026-Q4
+opp_0323,acct_0009,Opportunity 0323,owner_01,Owner 01,Closed Won,,13200,13200,100,2026-07-23,2026-10-11,2026-09-17,,Outbound,Automation,Expansion,Closed,,Product fit,,,2026-Q4
+opp_0324,acct_0371,Opportunity 0324,owner_07,Owner 07,Closed Won,,41200,20600,100,2026-08-02,2026-10-17,2026-10-12,,Partner,Automation,New Product,Closed,,ROI case,,,2026-Q4
+opp_0325,acct_0480,Opportunity 0325,owner_04,Owner 04,Closed Won,,289800,144900,100,2026-09-20,2026-11-16,2026-11-12,,Event,Core Platform,Expansion,Closed,,ROI case,,,2026-Q4
+opp_0326,acct_0358,Opportunity 0326,owner_06,Owner 06,Closed Won,,319400,159700,100,2026-10-21,2026-11-12,2026-11-02,,Referral,Automation,Renewal,Closed,,ROI case,,,2026-Q4
+opp_0327,acct_0504,Opportunity 0327,owner_07,Owner 07,Closed Won,,352600,176300,100,2026-08-22,2026-11-12,2026-10-05,,Outbound,Core Platform,New Product,Closed,,Product fit,,,2026-Q4
+opp_0328,acct_0700,Opportunity 0328,owner_02,Owner 02,Closed Won,,216000,108000,100,2026-09-01,2026-10-15,2026-09-06,,Referral,Analytics,Expansion,Closed,,Product fit,,,2026-Q4
+opp_0329,acct_0937,Opportunity 0329,owner_05,Owner 05,Closed Won,,13400,13400,100,2026-08-29,2026-10-27,2026-10-16,,Inbound,Analytics,New Product,Closed,,ROI case,,,2026-Q4
+opp_0330,acct_0534,Opportunity 0330,owner_01,Owner 01,Closed Won,,109500,36500,100,2026-08-21,2026-11-20,2026-10-27,,Partner,Core Platform,Renewal,Closed,,Product fit,,,2026-Q4
+opp_0331,acct_0686,Opportunity 0331,owner_05,Owner 05,Closed Won,,135600,45200,100,2026-07-20,2026-10-30,2026-10-22,,Outbound,Automation,Renewal,Closed,,Product fit,,,2026-Q4
+opp_0332,acct_0011,Opportunity 0332,owner_02,Owner 02,Closed Won,,123200,61600,100,2026-08-22,2026-11-03,2026-10-18,,Outbound,Automation,New Product,Closed,,Team adoption,,,2026-Q4
+opp_0333,acct_0404,Opportunity 0333,owner_05,Owner 05,Closed Won,,35900,35900,100,2026-08-09,2026-10-27,2026-10-23,,Event,Analytics,Expansion,Closed,,Team adoption,,,2026-Q4
+opp_0334,acct_0786,Opportunity 0334,owner_06,Owner 06,Closed Won,,243600,81200,100,2026-07-06,2026-10-02,2026-09-05,,Outbound,Automation,Expansion,Closed,,ROI case,,,2026-Q4
+opp_0335,acct_0981,Opportunity 0335,owner_08,Owner 08,Closed Won,,1014300,338100,100,2026-09-02,2026-10-03,2026-09-30,,Partner,Collaboration,Expansion,Closed,,Product fit,,,2026-Q4
+opp_0336,acct_0745,Opportunity 0336,owner_02,Owner 02,Closed Won,,25700,25700,100,2026-09-02,2026-10-31,2026-10-17,,Outbound,Core Platform,Renewal,Closed,,ROI case,,,2026-Q4
+opp_0337,acct_0725,Opportunity 0337,owner_04,Owner 04,Closed Won,,171900,57300,100,2026-07-04,2026-10-02,2026-09-15,,Referral,Collaboration,Renewal,Closed,,ROI case,,,2026-Q4
+opp_0338,acct_0948,Opportunity 0338,owner_01,Owner 01,Closed Won,,90000,30000,100,2026-08-06,2026-10-07,2026-10-02,,Outbound,Core Platform,New Product,Closed,,Expansion success,,,2026-Q4
+opp_0339,acct_0096,Opportunity 0339,owner_02,Owner 02,Closed Won,,49200,16400,100,2026-08-09,2026-11-02,2026-10-06,,Inbound,Collaboration,Renewal,Closed,,ROI case,,,2026-Q4
+opp_0340,acct_0350,Opportunity 0340,owner_05,Owner 05,Closed Won,,259500,86500,100,2026-08-14,2026-11-01,2026-10-29,,Event,Automation,New Product,Closed,,Product fit,,,2026-Q4
+opp_0341,acct_1042,Opportunity 0341,owner_08,Owner 08,Closed Lost,,289500,96500,0,2026-08-17,2026-11-03,2026-10-21,,Inbound,Core Platform,Expansion,Closed,,,Competitor,Competitor A,2026-Q4
+opp_0342,acct_0855,Opportunity 0342,owner_04,Owner 04,Closed Lost,,93600,46800,0,2026-06-26,2026-10-08,2026-08-04,,Event,Collaboration,New Product,Closed,,,No decision,Competitor C,2026-Q4
+opp_0343,acct_0753,Opportunity 0343,owner_08,Owner 08,Closed Lost,,276900,92300,0,2026-08-15,2026-10-11,2026-10-03,,Outbound,Automation,Expansion,Closed,,,Security review,Competitor C,2026-Q4
+opp_0344,acct_0258,Opportunity 0344,owner_07,Owner 07,Closed Lost,,98400,32800,0,2026-09-25,2026-11-10,2026-10-10,,Partner,Core Platform,New Product,Closed,,,Timing,Competitor C,2026-Q4
+opp_0345,acct_0278,Opportunity 0345,owner_03,Owner 03,Closed Lost,,98400,32800,0,2026-08-06,2026-11-11,2026-11-11,,Outbound,Analytics,Renewal,Closed,,,Timing,Competitor C,2026-Q4
+opp_0346,acct_0378,Opportunity 0346,owner_03,Owner 03,Closed Lost,,52900,52900,0,2026-07-26,2026-10-12,2026-09-23,,Referral,Collaboration,Renewal,Closed,,,No decision,Competitor C,2026-Q4
+opp_0347,acct_0764,Opportunity 0347,owner_06,Owner 06,Closed Lost,,68800,34400,0,2026-07-12,2026-10-22,2026-10-02,,Partner,Automation,New Product,Closed,,,Timing,Competitor C,2026-Q4
+opp_0348,acct_0511,Opportunity 0348,owner_02,Owner 02,Closed Lost,,25900,25900,0,2026-09-16,2026-11-08,2026-11-02,,Partner,Collaboration,New Product,Closed,,,Timing,Competitor B,2026-Q4
+opp_0349,acct_0604,Opportunity 0349,owner_03,Owner 03,Closed Lost,,32000,32000,0,2026-10-11,2026-11-06,2026-11-05,,Partner,Core Platform,New Product,Closed,,,No decision,Competitor C,2026-Q4
+opp_0350,acct_0772,Opportunity 0350,owner_08,Owner 08,Closed Lost,,42600,21300,0,2026-08-07,2026-10-17,2026-08-21,,Event,Analytics,Renewal,Closed,,,No decision,Competitor A,2026-Q4
+opp_0351,acct_0253,Opportunity 0351,owner_06,Owner 06,Closed Lost,,108000,54000,0,2026-08-31,2026-10-09,2026-09-06,,Referral,Core Platform,Expansion,Closed,,,Competitor,Competitor C,2026-Q4
+opp_0352,acct_0446,Opportunity 0352,owner_08,Owner 08,Closed Lost,,125400,62700,0,2026-10-04,2026-11-04,2026-10-27,,Inbound,Analytics,Renewal,Closed,,,Competitor,Competitor A,2026-Q4
+opp_0353,acct_0129,Opportunity 0353,owner_05,Owner 05,Closed Lost,,87000,29000,0,2026-08-20,2026-10-16,2026-10-13,,Partner,Core Platform,Expansion,Closed,,,Security review,Competitor B,2026-Q4
+opp_0354,acct_0145,Opportunity 0354,owner_01,Owner 01,Closed Lost,,56400,28200,0,2026-07-22,2026-10-28,2026-10-13,,Event,Analytics,Renewal,Closed,,,Budget,Competitor B,2026-Q4
+opp_0355,acct_0465,Opportunity 0355,owner_06,Owner 06,Closed Lost,,102600,34200,0,2026-09-10,2026-11-19,2026-11-18,,Partner,Analytics,Renewal,Closed,,,Budget,Competitor A,2026-Q4
+opp_0356,acct_0355,Opportunity 0356,owner_04,Owner 04,Closed Lost,,36600,36600,0,2026-07-18,2026-10-31,2026-09-27,,Event,Core Platform,Renewal,Closed,,,Budget,Competitor C,2026-Q4
+opp_0357,acct_0880,Opportunity 0357,owner_01,Owner 01,Closed Lost,,79200,26400,0,2026-07-20,2026-10-25,2026-09-11,,Referral,Analytics,Renewal,Closed,,,Security review,Competitor C,2026-Q4
+opp_0358,acct_0692,Opportunity 0358,owner_04,Owner 04,Closed Lost,,110700,36900,0,2026-08-05,2026-10-03,2026-09-21,,Inbound,Collaboration,Expansion,Closed,,,No decision,Competitor C,2026-Q4
+opp_0359,acct_0080,Opportunity 0359,owner_08,Owner 08,Closed Lost,,129000,129000,0,2026-10-17,2026-11-11,2026-11-08,,Event,Collaboration,Expansion,Closed,,,Timing,Competitor C,2026-Q4
+opp_0360,acct_0238,Opportunity 0360,owner_02,Owner 02,Closed Lost,,75900,75900,0,2026-09-28,2026-11-06,2026-11-01,,Partner,Collaboration,New Product,Closed,,,Competitor,Competitor A,2026-Q4
+opp_0361,acct_0357,Opportunity 0361,owner_03,Owner 03,Closed Lost,,65600,32800,0,2026-09-01,2026-11-03,2026-10-12,,Referral,Collaboration,Renewal,Closed,,,Security review,Competitor C,2026-Q4
+opp_0362,acct_0161,Opportunity 0362,owner_01,Owner 01,Closed Lost,,103800,34600,0,2026-08-07,2026-11-09,2026-09-25,,Partner,Core Platform,Renewal,Closed,,,Timing,Competitor A,2026-Q4
+opp_0363,acct_0225,Opportunity 0363,owner_04,Owner 04,Closed Lost,,390200,390200,0,2026-09-26,2026-10-30,2026-10-28,,Referral,Analytics,Renewal,Closed,,,No decision,Competitor C,2026-Q4
+opp_0364,acct_0781,Opportunity 0364,owner_04,Owner 04,Closed Lost,,165600,82800,0,2026-08-20,2026-10-24,2026-09-27,,Inbound,Core Platform,New Product,Closed,,,Budget,Competitor A,2026-Q4
+opp_0365,acct_0773,Opportunity 0365,owner_06,Owner 06,Closed Lost,,34100,34100,0,2026-08-25,2026-11-13,2026-11-01,,Partner,Collaboration,Expansion,Closed,,,Competitor,Competitor C,2026-Q4
+opp_0366,acct_0541,Opportunity 0366,owner_01,Owner 01,Closed Lost,,985200,328400,0,2026-09-07,2026-10-08,2026-09-24,,Referral,Collaboration,Expansion,Closed,,,Security review,Competitor C,2026-Q4
+opp_0367,acct_0523,Opportunity 0367,owner_02,Owner 02,Closed Lost,,55400,55400,0,2026-09-15,2026-11-05,2026-10-20,,Event,Collaboration,New Product,Closed,,,Competitor,Competitor B,2026-Q4
+opp_0368,acct_0792,Opportunity 0368,owner_03,Owner 03,Closed Lost,,32600,16300,0,2026-10-21,2026-11-13,2026-11-06,,Event,Collaboration,Renewal,Closed,,,Competitor,Competitor C,2026-Q4
+opp_0369,acct_0287,Opportunity 0369,owner_03,Owner 03,Closed Lost,,20000,20000,0,2026-08-15,2026-11-03,2026-10-15,,Partner,Automation,Expansion,Closed,,,Security review,Competitor B,2026-Q4
+opp_0370,acct_0470,Opportunity 0370,owner_02,Owner 02,Closed Lost,,255600,127800,0,2026-09-22,2026-11-16,,,Partner,Analytics,New Product,Closed,,,Timing,Competitor B,2026-Q4
+opp_0371,acct_0304,Opportunity 0371,owner_05,Owner 05,Closed Lost,,323600,161800,0,2026-09-24,2026-11-02,2026-10-25,,Outbound,Automation,Renewal,Closed,,,Competitor,Competitor A,2026-Q4
+opp_0372,acct_0175,Opportunity 0372,owner_03,Owner 03,Closed Lost,,70800,23600,0,2026-10-07,2026-10-31,2026-10-25,,Inbound,Analytics,New Product,Closed,,,Budget,Competitor C,2026-Q4
+opp_0373,acct_0662,Opportunity 0373,owner_03,Owner 03,Closed Lost,,68000,34000,0,2026-10-12,2026-11-08,2026-11-06,,Partner,Collaboration,Expansion,Closed,,,Competitor,Competitor C,2026-Q4
+opp_0374,acct_0463,Opportunity 0374,owner_08,Owner 08,Closed Lost,,120000,120000,0,2026-09-26,2026-11-04,2026-11-03,,Event,Automation,Renewal,Closed,,,Competitor,Competitor C,2026-Q4
+opp_0375,acct_0206,Opportunity 0375,owner_03,Owner 03,Closed Lost,,67800,67800,0,2026-07-29,2026-11-11,2026-10-31,,Event,Automation,New Product,Closed,,,Timing,Competitor A,2026-Q4
+opp_0376,acct_0385,Opportunity 0376,owner_07,Owner 07,Closed Lost,,116100,38700,0,2026-07-30,2026-10-24,2026-09-07,,Outbound,Collaboration,Expansion,Closed,,,Competitor,Competitor C,2026-Q4
+opp_0377,acct_0782,Opportunity 0377,owner_04,Owner 04,Closed Lost,,83200,41600,0,2026-09-14,2026-11-12,2026-11-04,,Inbound,Core Platform,Renewal,Closed,,,Security review,Competitor A,2026-Q4
+opp_0378,acct_0359,Opportunity 0378,owner_03,Owner 03,Closed Lost,,44000,22000,0,2026-09-05,2026-10-24,2026-09-13,,Inbound,Collaboration,Expansion,Closed,,,No decision,Competitor C,2026-Q4
+opp_0379,acct_0653,Opportunity 0379,owner_07,Owner 07,Closed Lost,,77100,25700,0,2026-07-16,2026-10-08,2026-10-07,,Outbound,Analytics,Expansion,Closed,,,Budget,Competitor A,2026-Q4
+opp_0380,acct_0705,Opportunity 0380,owner_04,Owner 04,Closed Lost,,30000,30000,0,2026-08-19,2026-11-06,2026-10-26,,Partner,Core Platform,Renewal,Closed,,,No decision,Competitor B,2026-Q4
+opp_0381,acct_0052,Opportunity 0381,owner_06,Owner 06,Closed Lost,,60300,60300,0,2026-09-05,2026-10-11,2026-10-04,,Inbound,Collaboration,Expansion,Closed,,,Competitor,Competitor B,2026-Q4
+opp_0382,acct_0351,Opportunity 0382,owner_07,Owner 07,Closed Lost,,63700,63700,0,2026-10-26,2026-11-17,2026-11-11,,Partner,Automation,Expansion,Closed,,,Timing,Competitor A,2026-Q4
+opp_0383,acct_0349,Opportunity 0383,owner_06,Owner 06,Closed Lost,,491100,163700,0,2026-07-13,2026-10-02,2026-09-21,,Outbound,Core Platform,Renewal,Closed,,,Timing,Competitor C,2026-Q4
+opp_0384,acct_0099,Opportunity 0384,owner_06,Owner 06,Closed Lost,,46000,46000,0,2026-07-27,2026-11-09,2026-10-10,,Referral,Core Platform,Expansion,Closed,,,Budget,Competitor A,2026-Q4
+opp_0385,acct_0578,Opportunity 0385,owner_07,Owner 07,Closed Lost,,579600,289800,0,2026-07-04,2026-10-10,2026-09-16,,Event,Automation,Expansion,Closed,,,Timing,Competitor C,2026-Q4
+opp_0386,acct_0107,Opportunity 0386,owner_08,Owner 08,Closed Lost,,62800,31400,0,2026-08-17,2026-10-20,2026-09-19,,Event,Collaboration,Expansion,Closed,,,Security review,Competitor A,2026-Q4
+opp_0387,acct_0573,Opportunity 0387,owner_05,Owner 05,Closed Lost,,33700,33700,0,2026-08-21,2026-10-20,2026-10-18,,Partner,Analytics,New Product,Closed,,,Security review,Competitor A,2026-Q4
+opp_0388,acct_0954,Opportunity 0388,owner_05,Owner 05,Closed Lost,,37800,12600,0,2026-08-10,2026-11-01,2026-10-28,,Outbound,Core Platform,Renewal,Closed,,,Competitor,Competitor B,2026-Q4
+opp_0389,acct_0111,Opportunity 0389,owner_02,Owner 02,Closed Lost,,213900,71300,0,2026-08-08,2026-10-05,2026-10-03,,Outbound,Automation,Expansion,Closed,,,Timing,Competitor C,2026-Q4
+opp_0390,acct_0332,Opportunity 0390,owner_01,Owner 01,Closed Lost,,274800,91600,0,2026-08-23,2026-10-14,2026-09-26,,Inbound,Core Platform,New Product,Closed,,,Competitor,Competitor C,2026-Q4
+opp_0391,acct_0758,Opportunity 0391,owner_03,Owner 03,Closed Lost,,48800,24400,0,2026-10-14,2026-11-07,2026-11-05,,Referral,Core Platform,Expansion,Closed,,,Timing,Competitor A,2026-Q4
+opp_0392,acct_0998,Opportunity 0392,owner_01,Owner 01,Closed Lost,,76200,25400,0,2026-09-07,2026-10-28,2026-10-10,,Inbound,Automation,New Product,Closed,,,Budget,Competitor B,2026-Q4
+opp_0393,acct_1038,Opportunity 0393,owner_01,Owner 01,Closed Lost,,239400,119700,0,2026-07-28,2026-10-26,,,Event,Core Platform,New Product,Closed,,,No decision,Competitor C,2026-Q4
+opp_0394,acct_0220,Opportunity 0394,owner_05,Owner 05,Closed Lost,,159600,53200,0,2026-08-18,2026-10-21,2026-10-13,,Partner,Core Platform,Expansion,Closed,,,No decision,Competitor B,2026-Q4
+opp_0395,acct_0500,Opportunity 0395,owner_03,Owner 03,Closed Lost,,149100,49700,0,2026-08-03,2026-10-14,2026-08-10,,Partner,Collaboration,New Product,Closed,,,Budget,Competitor B,2026-Q4
+opp_0396,acct_0880,Opportunity 0396,owner_01,Owner 01,Closed Lost,,35600,17800,0,2026-07-23,2026-10-16,2026-10-16,,Referral,Analytics,New Product,Closed,,,Timing,Competitor B,2026-Q4
+opp_0397,acct_0516,Opportunity 0397,owner_08,Owner 08,Closed Lost,,95100,31700,0,2026-09-11,2026-10-29,2026-09-23,,Referral,Analytics,Expansion,Closed,,,Security review,Competitor C,2026-Q4
+opp_0398,acct_0756,Opportunity 0398,owner_03,Owner 03,Closed Lost,,144300,48100,0,2026-08-27,2026-11-14,2026-11-02,,Partner,Core Platform,Renewal,Closed,,,Competitor,Competitor C,2026-Q4
+opp_0399,acct_0378,Opportunity 0399,owner_03,Owner 03,Closed Lost,,18600,9300,0,2026-07-27,2026-11-02,2026-10-24,,Referral,Analytics,Expansion,Closed,,,Security review,Competitor C,2026-Q4
+opp_0400,acct_0278,Opportunity 0400,owner_03,Owner 03,Closed Lost,,225000,75000,0,2026-08-14,2026-11-15,2026-10-24,,Outbound,Automation,Renewal,Closed,,,Security review,Competitor B,2026-Q4
+opp_0401,acct_0987,Opportunity 0401,owner_02,Owner 02,Negotiation,Best Case,1134800,567400,75,2026-11-10,2026-12-17,2026-11-18,2026-12-10,Outbound,Collaboration,Expansion,On track,Review opp_0401 next action,,,,2026-Q4
+opp_0402,acct_0496,Opportunity 0402,owner_01,Owner 01,Validation,Pipeline,46800,15600,30,2026-10-07,2026-12-09,2026-10-29,2026-12-02,Referral,Automation,Expansion,Watch,Review opp_0402 next action,,,,2026-Q4
+opp_0403,acct_0790,Opportunity 0403,owner_01,Owner 01,Proposal,Best Case,153300,51100,60,2026-11-13,2026-12-27,2026-11-23,2026-12-20,Inbound,Collaboration,Expansion,On track,Review opp_0403 next action,,,,2026-Q4
+opp_0404,acct_0416,Opportunity 0404,owner_08,Owner 08,Validation,Pipeline,52600,26300,25,2026-09-22,2026-12-30,2026-11-17,2026-12-23,Outbound,Automation,Renewal,Watch,Review opp_0404 next action,,,,2026-Q4
+opp_0405,acct_0194,Opportunity 0405,owner_04,Owner 04,Negotiation,Commit,32300,32300,75,2026-11-06,2026-12-15,2026-11-23,2026-12-08,Inbound,Core Platform,New Product,On track,Review opp_0405 next action,,,,2026-Q4
+opp_0406,acct_0212,Opportunity 0406,owner_08,Owner 08,Negotiation,Commit,30800,30800,70,2026-10-11,2026-12-12,2026-11-19,2026-12-05,Inbound,Collaboration,New Product,On track,Review opp_0406 next action,,,,2026-Q4
+opp_0407,acct_0280,Opportunity 0407,owner_02,Owner 02,Validation,Pipeline,314600,314600,25,2026-09-09,2026-12-04,2026-10-23,2026-11-27,Event,Automation,New Product,On track,Review opp_0407 next action,,,,2026-Q4
+opp_0408,acct_0536,Opportunity 0408,owner_01,Owner 01,Negotiation,Commit,127100,127100,80,2026-11-02,2026-12-23,2026-11-22,2026-12-16,Inbound,Collaboration,Expansion,On track,Review opp_0408 next action,,,,2026-Q4
+opp_0409,acct_0206,Opportunity 0409,owner_03,Owner 03,Proposal,Commit,68100,68100,55,2026-10-28,2026-11-25,2026-11-10,2026-11-18,Event,Collaboration,Renewal,On track,Review opp_0409 next action,,,,2026-Q4
+opp_0410,acct_0378,Opportunity 0410,owner_03,Owner 03,Proposal,Best Case,35700,35700,55,2026-09-14,2026-12-19,2026-11-07,2026-12-12,Referral,Analytics,Renewal,On track,Review opp_0410 next action,,,,2026-Q4
+opp_0411,acct_0758,Opportunity 0411,owner_03,Owner 03,Proposal,Pipeline,75000,75000,50,2026-09-08,2026-12-12,2026-11-16,2026-12-05,Referral,Analytics,Renewal,On track,Review opp_0411 next action,,,,2026-Q4
+opp_0412,acct_0508,Opportunity 0412,owner_07,Owner 07,Proposal,Commit,133200,44400,50,2026-11-21,2026-12-16,2026-11-23,2026-12-09,Inbound,Automation,Renewal,On track,Review opp_0412 next action,,,,2026-Q4
+opp_0413,acct_0662,Opportunity 0413,owner_03,Owner 03,Negotiation,Best Case,254400,84800,75,2026-10-20,2026-12-24,2026-11-23,2026-12-17,Partner,Analytics,New Product,On track,Review opp_0413 next action,,,,2026-Q4
+opp_0414,acct_0837,Opportunity 0414,owner_04,Owner 04,Negotiation,Commit,286800,95600,80,2026-10-19,2026-12-01,2026-11-09,2026-11-24,Inbound,Collaboration,New Product,On track,Review opp_0414 next action,,,,2026-Q4
+opp_0415,acct_0920,Opportunity 0415,owner_04,Owner 04,Negotiation,Commit,63900,63900,70,2026-09-26,2026-12-18,2026-10-31,2026-12-11,Outbound,Collaboration,Renewal,Watch,Review opp_0415 next action,,,,2026-Q4
+opp_0416,acct_0354,Opportunity 0416,owner_05,Owner 05,Discovery,Pipeline,123800,61900,10,2026-11-15,2026-12-19,2026-11-20,2026-12-12,Event,Automation,Expansion,On track,Review opp_0416 next action,,,,2026-Q4
+opp_0417,acct_0027,Opportunity 0417,owner_05,Owner 05,Negotiation,Commit,78600,26200,70,2026-11-22,2026-12-26,2026-11-23,2026-12-19,Outbound,Core Platform,Expansion,Watch,Review opp_0417 next action,,,,2026-Q4
+opp_0418,acct_0833,Opportunity 0418,owner_08,Owner 08,Proposal,Best Case,116700,116700,55,2026-08-26,2026-11-25,2026-11-21,2026-11-18,Outbound,Core Platform,Expansion,On track,Review opp_0418 next action,,,,2026-Q4
+opp_0419,acct_0574,Opportunity 0419,owner_01,Owner 01,Negotiation,Best Case,400400,400400,70,2026-11-04,2026-12-07,2026-11-23,2026-11-30,Referral,Analytics,Expansion,On track,Review opp_0419 next action,,,,2026-Q4
+opp_0420,acct_0392,Opportunity 0420,owner_06,Owner 06,Proposal,Pipeline,22300,22300,55,2026-10-08,2026-12-30,2026-11-09,2026-12-23,Inbound,Collaboration,Renewal,Watch,Review opp_0420 next action,,,,2026-Q4
+opp_0421,acct_0085,Opportunity 0421,owner_07,Owner 07,Negotiation,Best Case,34200,34200,70,2026-09-13,2026-11-30,2026-10-14,2026-11-23,Outbound,Automation,New Product,Watch,Review opp_0421 next action,,,,2026-Q4
+opp_0422,acct_0283,Opportunity 0422,owner_01,Owner 01,Validation,Pipeline,74100,24700,25,2026-10-20,2026-12-31,2026-11-23,2026-12-24,Partner,Collaboration,Renewal,On track,Review opp_0422 next action,,,,2026-Q4
+opp_0423,acct_0871,Opportunity 0423,owner_04,Owner 04,Negotiation,Best Case,122400,61200,75,2026-10-09,2026-12-29,2026-11-06,2026-12-22,Partner,Collaboration,Renewal,On track,Review opp_0423 next action,,,,2026-Q4
+opp_0424,acct_0725,Opportunity 0424,owner_04,Owner 04,Negotiation,Commit,23400,23400,80,2026-10-30,2026-12-06,,2026-11-29,Referral,Core Platform,Renewal,On track,Review opp_0424 next action,,,,2026-Q4
+opp_0425,acct_0474,Opportunity 0425,owner_06,Owner 06,Negotiation,Best Case,284600,142300,75,2026-10-02,2026-11-25,2026-11-21,2026-11-18,Event,Automation,Expansion,Watch,Review opp_0425 next action,,,,2026-Q4
+opp_0426,acct_0461,Opportunity 0426,owner_05,Owner 05,Proposal,Pipeline,302200,151100,50,2026-10-19,2026-11-27,2026-11-10,2026-11-20,Partner,Core Platform,New Product,At risk,Review opp_0426 next action,,,,2026-Q4
+opp_0427,acct_0625,Opportunity 0427,owner_02,Owner 02,Validation,Pipeline,410400,136800,35,2026-09-24,2026-12-30,2026-11-02,2026-12-23,Partner,Collaboration,Renewal,On track,Review opp_0427 next action,,,,2026-Q4
+opp_0428,acct_0814,Opportunity 0428,owner_08,Owner 08,Proposal,Best Case,272200,136100,50,2026-10-18,2026-12-19,2026-11-23,2026-12-12,Outbound,Analytics,New Product,On track,Review opp_0428 next action,,,,2026-Q4
+opp_0429,acct_0609,Opportunity 0429,owner_02,Owner 02,Validation,Pipeline,201100,201100,25,2026-09-15,2026-11-26,2026-11-16,2026-11-19,Inbound,Automation,Expansion,On track,Review opp_0429 next action,,,,2026-Q4
+opp_0430,acct_0489,Opportunity 0430,owner_08,Owner 08,Validation,Pipeline,43800,21900,30,2026-11-10,2026-12-14,2026-11-21,2026-12-07,Inbound,Automation,New Product,Watch,Review opp_0430 next action,,,,2026-Q4
+opp_0431,acct_0785,Opportunity 0431,owner_08,Owner 08,Negotiation,Commit,23400,11700,80,2026-11-02,2026-11-26,2026-11-15,2026-11-19,Event,Analytics,Expansion,On track,Review opp_0431 next action,,,,2026-Q4
+opp_0432,acct_0242,Opportunity 0432,owner_08,Owner 08,Proposal,Commit,159300,53100,60,2026-10-31,2026-12-29,2026-11-02,2026-12-22,Partner,Analytics,New Product,Watch,Review opp_0432 next action,,,,2026-Q4
+opp_0433,acct_0581,Opportunity 0433,owner_05,Owner 05,Negotiation,Commit,60900,60900,70,2026-10-22,2026-12-18,2026-11-12,2026-12-11,Partner,Automation,Expansion,On track,Review opp_0433 next action,,,,2026-Q4
+opp_0434,acct_0057,Opportunity 0434,owner_07,Owner 07,Negotiation,Commit,24600,24600,70,2026-09-11,2026-11-27,2026-11-05,2026-11-20,Partner,Collaboration,Expansion,Watch,Review opp_0434 next action,,,,2026-Q4
+opp_0435,acct_0055,Opportunity 0435,owner_01,Owner 01,Negotiation,Best Case,88500,29500,70,2026-09-25,2026-12-24,2026-11-21,2026-12-17,Event,Core Platform,Renewal,On track,Review opp_0435 next action,,,,2026-Q4
+opp_0436,acct_0100,Opportunity 0436,owner_02,Owner 02,Discovery,Pipeline,161400,53800,20,2026-10-02,2026-12-02,2026-11-15,2026-11-25,Referral,Collaboration,Renewal,On track,Review opp_0436 next action,,,,2026-Q4
+opp_0437,acct_0500,Opportunity 0437,owner_03,Owner 03,Negotiation,Best Case,143000,71500,80,2026-10-16,2026-12-28,2026-11-22,2026-12-21,Partner,Analytics,Renewal,On track,Review opp_0437 next action,,,,2026-Q4
+opp_0438,acct_0478,Opportunity 0438,owner_07,Owner 07,Negotiation,Best Case,108500,108500,70,2026-10-14,2026-11-26,2026-11-15,2026-11-19,Outbound,Automation,Renewal,On track,Review opp_0438 next action,,,,2026-Q4
+opp_0439,acct_1006,Opportunity 0439,owner_07,Owner 07,Validation,Pipeline,41100,13700,25,2026-09-24,2026-11-28,2026-11-13,2026-11-21,Outbound,Analytics,Renewal,Watch,Review opp_0439 next action,,,,2026-Q4
+opp_0440,acct_0199,Opportunity 0440,owner_03,Owner 03,Negotiation,Commit,425800,212900,70,2026-10-29,2026-12-12,2026-11-21,2026-12-05,Event,Collaboration,Expansion,At risk,Review opp_0440 next action,,,,2026-Q4
+opp_0441,acct_0324,Opportunity 0441,owner_03,Owner 03,Discovery,Pipeline,187200,93600,15,2026-10-08,2026-12-23,2026-11-09,2026-12-16,Referral,Core Platform,Renewal,At risk,Review opp_0441 next action,,,,2026-Q4
+opp_0442,acct_0472,Opportunity 0442,owner_06,Owner 06,Proposal,Pipeline,144800,72400,60,2026-11-18,2026-12-20,2026-11-23,2026-12-13,Referral,Automation,New Product,Watch,Review opp_0442 next action,,,,2026-Q4
+opp_0443,acct_0816,Opportunity 0443,owner_07,Owner 07,Proposal,Best Case,225000,75000,55,2026-09-01,2026-11-27,2026-10-22,2026-11-20,Outbound,Analytics,New Product,At risk,Review opp_0443 next action,,,,2026-Q4
+opp_0444,acct_0524,Opportunity 0444,owner_01,Owner 01,Negotiation,Commit,163200,54400,70,2026-09-20,2026-12-24,2026-09-26,2026-12-17,Partner,Analytics,Expansion,On track,Review opp_0444 next action,,,,2026-Q4
+opp_0445,acct_0047,Opportunity 0445,owner_04,Owner 04,Validation,Pipeline,26400,13200,30,2026-09-04,2026-12-18,2026-10-19,2026-12-11,Referral,Core Platform,Expansion,On track,Review opp_0445 next action,,,,2026-Q4
+opp_0446,acct_0502,Opportunity 0446,owner_01,Owner 01,Proposal,Pipeline,63100,63100,55,2026-09-11,2026-12-23,2026-11-22,2026-12-16,Event,Automation,Renewal,Watch,Review opp_0446 next action,,,,2026-Q4
+opp_0447,acct_0319,Opportunity 0447,owner_05,Owner 05,Negotiation,Commit,33700,33700,75,2026-09-18,2026-12-04,2026-11-09,2026-11-27,Event,Automation,Renewal,On track,Review opp_0447 next action,,,,2026-Q4
+opp_0448,acct_0127,Opportunity 0448,owner_01,Owner 01,Discovery,Pipeline,63100,63100,15,2026-10-04,2026-11-28,2026-11-10,2026-11-21,Partner,Core Platform,Expansion,Watch,Review opp_0448 next action,,,,2026-Q4
+opp_0449,acct_0719,Opportunity 0449,owner_08,Owner 08,Negotiation,Commit,31100,31100,75,2026-11-05,2026-11-27,2026-11-22,2026-11-20,Inbound,Analytics,New Product,On track,Review opp_0449 next action,,,,2026-Q4
+opp_0450,acct_0790,Opportunity 0450,owner_01,Owner 01,Negotiation,Best Case,54600,54600,75,2026-10-31,2026-11-27,,2026-11-20,Inbound,Analytics,Expansion,On track,Review opp_0450 next action,,,,2026-Q4
+opp_0451,acct_0957,Opportunity 0451,owner_05,Owner 05,Negotiation,Commit,29100,29100,70,2026-09-24,2026-12-08,2026-11-12,2026-12-01,Event,Core Platform,Renewal,At risk,Review opp_0451 next action,,,,2026-Q4
+opp_0452,acct_0804,Opportunity 0452,owner_05,Owner 05,Discovery,Pipeline,132300,44100,20,2026-10-19,2026-12-28,2026-11-14,2026-12-21,Outbound,Collaboration,Renewal,On track,Review opp_0452 next action,,,,2026-Q4
+opp_0453,acct_0690,Opportunity 0453,owner_05,Owner 05,Proposal,Best Case,40800,40800,50,2026-11-13,2026-12-29,2026-11-22,2026-12-22,Referral,Core Platform,New Product,On track,Review opp_0453 next action,,,,2026-Q4
+opp_0454,acct_0718,Opportunity 0454,owner_07,Owner 07,Proposal,Pipeline,38500,38500,55,2026-09-30,2026-12-25,2026-11-11,2026-12-18,Event,Analytics,Expansion,Watch,Review opp_0454 next action,,,,2026-Q4
+opp_0455,acct_0192,Opportunity 0455,owner_03,Owner 03,Proposal,Commit,81900,27300,50,2026-10-04,2026-12-01,2026-10-13,2026-11-24,Inbound,Collaboration,Renewal,On track,Review opp_0455 next action,,,,2026-Q4
+opp_0456,acct_0844,Opportunity 0456,owner_05,Owner 05,Proposal,Best Case,284800,142400,50,2026-11-07,2026-12-17,2026-11-21,2026-12-10,Outbound,Analytics,New Product,On track,Review opp_0456 next action,,,,2026-Q4
+opp_0457,acct_0482,Opportunity 0457,owner_03,Owner 03,Negotiation,Commit,67000,33500,75,2026-11-03,2026-12-19,2026-11-21,2026-12-12,Inbound,Analytics,Expansion,Watch,Review opp_0457 next action,,,,2026-Q4
+opp_0458,acct_0043,Opportunity 0458,owner_07,Owner 07,Negotiation,Best Case,36600,18300,70,2026-08-21,2026-12-01,2026-11-01,2026-11-24,Referral,Core Platform,Expansion,On track,Review opp_0458 next action,,,,2026-Q4
+opp_0459,acct_0105,Opportunity 0459,owner_06,Owner 06,Proposal,Best Case,134200,67100,55,2026-10-31,2026-12-19,2026-11-17,2026-12-12,Outbound,Analytics,Expansion,At risk,Review opp_0459 next action,,,,2026-Q4
+opp_0460,acct_0904,Opportunity 0460,owner_07,Owner 07,Discovery,Pipeline,34000,17000,15,2026-09-01,2026-11-30,2026-10-04,2026-11-23,Inbound,Core Platform,Renewal,At risk,Review opp_0460 next action,,,,2026-Q4
+opp_0461,acct_0859,Opportunity 0461,owner_08,Owner 08,Negotiation,Commit,27500,27500,80,2026-11-05,2026-11-29,2026-11-21,2026-11-22,Inbound,Automation,Expansion,On track,Review opp_0461 next action,,,,2026-Q4
+opp_0462,acct_0909,Opportunity 0462,owner_05,Owner 05,Negotiation,Commit,70800,35400,70,2026-11-23,2026-12-24,2026-11-23,2026-12-17,Partner,Collaboration,Renewal,On track,Review opp_0462 next action,,,,2026-Q4
+opp_0463,acct_0483,Opportunity 0463,owner_03,Owner 03,Proposal,Commit,75600,37800,50,2026-08-31,2026-11-27,2026-11-22,2026-11-20,Event,Automation,New Product,At risk,Review opp_0463 next action,,,,2026-Q4
+opp_0464,acct_0939,Opportunity 0464,owner_08,Owner 08,Proposal,Pipeline,850800,283600,50,2026-11-05,2026-12-27,2026-11-21,2026-12-20,Outbound,Collaboration,New Product,On track,Review opp_0464 next action,,,,2026-Q4
+opp_0465,acct_0564,Opportunity 0465,owner_04,Owner 04,Negotiation,Commit,192600,64200,80,2026-09-13,2026-11-24,2026-11-12,2026-11-17,Inbound,Core Platform,Renewal,On track,Review opp_0465 next action,,,,2026-Q4
+opp_0466,acct_0889,Opportunity 0466,owner_04,Owner 04,Discovery,Pipeline,240000,80000,15,2026-10-03,2026-12-05,2026-11-07,2026-11-28,Event,Collaboration,New Product,Watch,Review opp_0466 next action,,,,2026-Q4
+opp_0467,acct_0613,Opportunity 0467,owner_06,Owner 06,Validation,Pipeline,397200,132400,35,2026-11-10,2026-12-24,2026-11-22,2026-12-17,Event,Core Platform,Expansion,Watch,Review opp_0467 next action,,,,2026-Q4
+opp_0468,acct_0686,Opportunity 0468,owner_05,Owner 05,Proposal,Commit,118800,39600,60,2026-09-22,2026-12-25,2026-11-17,2026-12-18,Outbound,Analytics,Renewal,At risk,Review opp_0468 next action,,,,2026-Q4
+opp_0469,acct_0884,Opportunity 0469,owner_07,Owner 07,Negotiation,Commit,19300,19300,80,2026-09-15,2026-12-01,2026-10-05,2026-11-24,Outbound,Automation,New Product,On track,Review opp_0469 next action,,,,2026-Q4
+opp_0470,acct_0916,Opportunity 0470,owner_04,Owner 04,Validation,Pipeline,339000,113000,30,2026-09-04,2026-12-10,2026-11-17,2026-12-03,Referral,Core Platform,Expansion,Watch,Review opp_0470 next action,,,,2026-Q4
+opp_0471,acct_0884,Opportunity 0471,owner_07,Owner 07,Negotiation,Commit,26100,26100,70,2026-09-20,2026-12-23,2026-11-21,2026-12-16,Outbound,Collaboration,Expansion,On track,Review opp_0471 next action,,,,2026-Q4
+opp_0472,acct_0691,Opportunity 0472,owner_06,Owner 06,Negotiation,Best Case,21600,21600,70,2026-10-30,2026-12-30,2026-11-19,2026-12-23,Outbound,Core Platform,New Product,On track,Review opp_0472 next action,,,,2026-Q4
+opp_0473,acct_0401,Opportunity 0473,owner_04,Owner 04,Proposal,Best Case,93300,31100,55,2026-10-10,2026-12-20,2026-11-21,2026-12-13,Partner,Automation,Expansion,On track,Review opp_0473 next action,,,,2026-Q4
+opp_0474,acct_0558,Opportunity 0474,owner_05,Owner 05,Negotiation,Commit,241400,120700,70,2026-10-24,2026-12-28,2026-11-20,2026-12-21,Referral,Analytics,Renewal,On track,Review opp_0474 next action,,,,2026-Q4
+opp_0475,acct_0223,Opportunity 0475,owner_06,Owner 06,Proposal,Best Case,150400,150400,50,2026-09-16,2026-12-30,2026-11-21,2026-12-23,Outbound,Analytics,Expansion,At risk,Review opp_0475 next action,,,,2026-Q4
+opp_0476,acct_0823,Opportunity 0476,owner_07,Owner 07,Proposal,Commit,58000,58000,60,2026-10-19,2026-12-24,2026-11-11,2026-12-17,Referral,Collaboration,Expansion,On track,Review opp_0476 next action,,,,2026-Q4
+opp_0477,acct_0617,Opportunity 0477,owner_08,Owner 08,Discovery,Pipeline,30000,30000,20,2026-11-01,2026-11-26,2026-11-22,2026-11-19,Partner,Core Platform,Renewal,At risk,Review opp_0477 next action,,,,2026-Q4
+opp_0478,acct_0524,Opportunity 0478,owner_01,Owner 01,Validation,Pipeline,35900,35900,25,2026-10-30,2026-12-09,2026-11-17,2026-12-02,Partner,Collaboration,Expansion,On track,Review opp_0478 next action,,,,2026-Q4
+opp_0479,acct_0520,Opportunity 0479,owner_03,Owner 03,Negotiation,Commit,147600,49200,70,2026-10-15,2026-11-25,2026-11-21,2026-11-18,Event,Analytics,Renewal,Watch,Review opp_0479 next action,,,,2026-Q4
+opp_0480,acct_0875,Opportunity 0480,owner_05,Owner 05,Validation,Pipeline,49100,49100,35,2026-09-19,2026-11-28,2026-10-30,2026-11-21,Event,Analytics,Expansion,Watch,Review opp_0480 next action,,,,2026-Q4
+opp_0481,acct_0324,Opportunity 0481,owner_03,Owner 03,Proposal,Best Case,521400,260700,50,2026-10-27,2026-12-24,2026-11-11,2026-12-17,Referral,Analytics,Expansion,On track,Review opp_0481 next action,,,,2026-Q4
+opp_0482,acct_0006,Opportunity 0482,owner_02,Owner 02,Proposal,Best Case,120600,120600,60,2026-09-14,2026-12-25,2026-11-05,2026-12-18,Partner,Analytics,Expansion,Watch,Review opp_0482 next action,,,,2026-Q4
+opp_0483,acct_0185,Opportunity 0483,owner_06,Owner 06,Discovery,Pipeline,52900,52900,15,2026-10-04,2026-11-29,2026-11-10,2026-11-22,Partner,Analytics,Expansion,At risk,Review opp_0483 next action,,,,2026-Q4
+opp_0484,acct_0561,Opportunity 0484,owner_08,Owner 08,Negotiation,Commit,60900,20300,80,2026-10-15,2026-12-04,2026-11-09,2026-11-27,Outbound,Core Platform,Expansion,On track,Review opp_0484 next action,,,,2026-Q4
+opp_0485,acct_0181,Opportunity 0485,owner_02,Owner 02,Validation,Pipeline,480800,240400,35,2026-10-20,2026-12-24,2026-11-03,2026-12-17,Outbound,Analytics,Renewal,Watch,Review opp_0485 next action,,,,2026-Q4
+opp_0486,acct_0412,Opportunity 0486,owner_05,Owner 05,Negotiation,Commit,118100,118100,70,2026-09-13,2026-12-25,2026-10-26,2026-12-18,Referral,Analytics,New Product,On track,Review opp_0486 next action,,,,2026-Q4
+opp_0487,acct_0791,Opportunity 0487,owner_03,Owner 03,Discovery,Pipeline,88600,88600,15,2026-09-01,2026-12-06,2026-10-17,2026-11-29,Partner,Core Platform,Expansion,At risk,Review opp_0487 next action,,,,2026-Q4
+opp_0488,acct_0756,Opportunity 0488,owner_03,Owner 03,Proposal,Commit,38100,12700,50,2026-11-04,2026-11-28,2026-11-18,2026-11-21,Partner,Automation,New Product,On track,Review opp_0488 next action,,,,2026-Q4
+opp_0489,acct_0387,Opportunity 0489,owner_01,Owner 01,Negotiation,Commit,132800,66400,75,2026-10-27,2026-12-04,2026-11-21,2026-11-27,Referral,Automation,Renewal,On track,Review opp_0489 next action,,,,2026-Q4
+opp_0490,acct_0065,Opportunity 0490,owner_05,Owner 05,Proposal,Best Case,33000,33000,60,2026-11-02,2026-12-30,2026-11-21,2026-12-23,Inbound,Automation,Renewal,Watch,Review opp_0490 next action,,,,2026-Q4
+opp_0491,acct_0095,Opportunity 0491,owner_07,Owner 07,Negotiation,Commit,22100,22100,80,2026-09-03,2026-12-02,2026-11-15,2026-11-25,Outbound,Automation,New Product,At risk,Review opp_0491 next action,,,,2026-Q4
+opp_0492,acct_1039,Opportunity 0492,owner_04,Owner 04,Discovery,Pipeline,9800,9800,15,2026-11-02,2026-12-15,2026-11-19,2026-12-08,Outbound,Collaboration,Renewal,On track,Review opp_0492 next action,,,,2026-Q4
+opp_0493,acct_0167,Opportunity 0493,owner_06,Owner 06,Validation,Pipeline,228600,76200,30,2026-10-21,2026-12-06,2026-11-17,2026-11-29,Event,Analytics,Expansion,At risk,Review opp_0493 next action,,,,2026-Q4
+opp_0494,acct_0858,Opportunity 0494,owner_02,Owner 02,Negotiation,Best Case,37800,12600,70,2026-10-07,2026-12-07,2026-11-21,2026-11-30,Partner,Collaboration,New Product,Watch,Review opp_0494 next action,,,,2026-Q4
+opp_0495,acct_0057,Opportunity 0495,owner_07,Owner 07,Proposal,Best Case,121200,40400,50,2026-08-29,2026-11-28,2026-11-18,2026-11-21,Partner,Core Platform,New Product,On track,Review opp_0495 next action,,,,2026-Q4
+opp_0496,acct_1019,Opportunity 0496,owner_04,Owner 04,Proposal,Pipeline,289200,144600,60,2026-09-28,2026-12-13,2026-11-17,2026-12-06,Partner,Core Platform,New Product,On track,Review opp_0496 next action,,,,2026-Q4
+opp_0497,acct_0264,Opportunity 0497,owner_08,Owner 08,Proposal,Pipeline,131400,65700,60,2026-09-19,2026-12-05,2026-11-22,2026-11-28,Partner,Core Platform,New Product,At risk,Review opp_0497 next action,,,,2026-Q4
+opp_0498,acct_0423,Opportunity 0498,owner_01,Owner 01,Negotiation,Commit,469700,469700,70,2026-10-18,2026-11-28,2026-11-23,2026-11-21,Event,Collaboration,Expansion,On track,Review opp_0498 next action,,,,2026-Q4
+opp_0499,acct_0619,Opportunity 0499,owner_08,Owner 08,Validation,Pipeline,49200,49200,25,2026-10-04,2026-12-01,2026-11-14,2026-11-24,Partner,Core Platform,New Product,On track,Review opp_0499 next action,,,,2026-Q4
+opp_0500,acct_0622,Opportunity 0500,owner_05,Owner 05,Validation,Pipeline,28600,28600,25,2026-11-03,2026-11-28,2026-11-08,2026-11-21,Referral,Collaboration,Renewal,On track,Review opp_0500 next action,,,,2026-Q4
+opp_0501,acct_1049,Opportunity 0501,owner_04,Owner 04,Discovery,Pipeline,86400,43200,15,2026-09-19,2026-12-20,2026-11-19,2026-12-13,Partner,Automation,Expansion,On track,Review opp_0501 next action,,,,2026-Q4
+opp_0502,acct_0317,Opportunity 0502,owner_03,Owner 03,Negotiation,Commit,560100,186700,80,2026-10-26,2026-11-24,2026-11-18,2026-11-17,Inbound,Automation,Expansion,At risk,Review opp_0502 next action,,,,2026-Q4
+opp_0503,acct_0251,Opportunity 0503,owner_04,Owner 04,Validation,Pipeline,198300,66100,35,2026-09-23,2026-12-15,2026-11-23,2026-12-08,Inbound,Analytics,New Product,At risk,Review opp_0503 next action,,,,2026-Q4
+opp_0504,acct_0948,Opportunity 0504,owner_01,Owner 01,Validation,Pipeline,154400,77200,35,2026-10-09,2026-11-30,2026-10-30,2026-11-23,Outbound,Core Platform,New Product,Watch,Review opp_0504 next action,,,,2026-Q4
+opp_0505,acct_0312,Opportunity 0505,owner_06,Owner 06,Validation,Pipeline,53900,53900,25,2026-10-15,2026-12-17,2026-11-21,2026-12-10,Outbound,Core Platform,Renewal,On track,Review opp_0505 next action,,,,2026-Q4
+opp_0506,acct_0978,Opportunity 0506,owner_05,Owner 05,Proposal,Best Case,31500,31500,60,2026-10-14,2026-11-28,2026-11-22,2026-11-21,Event,Analytics,Renewal,On track,Review opp_0506 next action,,,,2026-Q4
+opp_0507,acct_0410,Opportunity 0507,owner_03,Owner 03,Proposal,Best Case,30400,30400,55,2026-11-23,2026-12-19,2026-11-23,2026-12-12,Outbound,Automation,Expansion,Watch,Review opp_0507 next action,,,,2026-Q4
+opp_0508,acct_1047,Opportunity 0508,owner_08,Owner 08,Proposal,Best Case,52500,52500,55,2026-10-10,2026-12-07,2026-11-02,2026-11-30,Outbound,Automation,Renewal,Watch,Review opp_0508 next action,,,,2026-Q4
+opp_0509,acct_0486,Opportunity 0509,owner_07,Owner 07,Validation,Pipeline,35900,35900,35,2026-09-30,2026-12-26,2026-11-14,2026-12-19,Referral,Analytics,New Product,At risk,Review opp_0509 next action,,,,2026-Q4
+opp_0510,acct_0140,Opportunity 0510,owner_02,Owner 02,Proposal,Commit,161400,53800,60,2026-10-23,2026-11-26,2026-11-23,2026-11-19,Referral,Core Platform,Expansion,At risk,Review opp_0510 next action,,,,2026-Q4
+opp_0511,acct_0911,Opportunity 0511,owner_08,Owner 08,Negotiation,Commit,56800,56800,75,2026-09-02,2026-12-07,2026-11-11,2026-11-30,Event,Collaboration,Expansion,On track,Review opp_0511 next action,,,,2026-Q4
+opp_0512,acct_0723,Opportunity 0512,owner_06,Owner 06,Proposal,Best Case,141600,47200,50,2026-11-14,2026-12-25,2026-11-22,2026-12-18,Event,Automation,Renewal,On track,Review opp_0512 next action,,,,2026-Q4
+opp_0513,acct_1017,Opportunity 0513,owner_04,Owner 04,Proposal,Pipeline,136600,68300,50,2026-09-03,2026-11-28,,2026-11-21,Inbound,Automation,Renewal,Watch,Review opp_0513 next action,,,,2026-Q4
+opp_0514,acct_0596,Opportunity 0514,owner_07,Owner 07,Negotiation,Best Case,59700,19900,75,2026-10-06,2026-12-25,2026-11-14,2026-12-18,Outbound,Collaboration,Renewal,At risk,Review opp_0514 next action,,,,2026-Q4
+opp_0515,acct_0574,Opportunity 0515,owner_01,Owner 01,Proposal,Commit,113600,113600,55,2026-11-08,2026-12-24,2026-11-15,2026-12-17,Referral,Core Platform,Expansion,On track,Review opp_0515 next action,,,,2026-Q4
+opp_0516,acct_1020,Opportunity 0516,owner_01,Owner 01,Negotiation,Best Case,20600,10300,75,2026-09-04,2026-12-05,,2026-11-28,Referral,Core Platform,Renewal,On track,Review opp_0516 next action,,,,2026-Q4
+opp_0517,acct_0005,Opportunity 0517,owner_07,Owner 07,Validation,Pipeline,50100,50100,30,2026-08-28,2026-11-29,,2026-11-22,Referral,Collaboration,Expansion,At risk,Review opp_0517 next action,,,,2026-Q4
+opp_0518,acct_0738,Opportunity 0518,owner_01,Owner 01,Negotiation,Commit,48000,48000,70,2026-09-12,2026-12-03,2026-11-12,2026-11-26,Partner,Analytics,Expansion,Watch,Review opp_0518 next action,,,,2026-Q4
+opp_0519,acct_0080,Opportunity 0519,owner_08,Owner 08,Proposal,Pipeline,614400,204800,55,2026-09-15,2026-12-01,2026-10-04,2026-11-24,Event,Core Platform,Expansion,On track,Review opp_0519 next action,,,,2026-Q4
+opp_0520,acct_0617,Opportunity 0520,owner_08,Owner 08,Proposal,Commit,112200,56100,55,2026-08-28,2026-12-06,2026-11-15,2026-11-29,Partner,Analytics,New Product,On track,Review opp_0520 next action,,,,2026-Q4
+opp_0521,acct_0973,Opportunity 0521,owner_02,Owner 02,Proposal,Commit,240000,240000,55,2026-10-26,2026-12-24,2026-11-22,2026-12-17,Referral,Core Platform,Expansion,At risk,Review opp_0521 next action,,,,2026-Q4
+opp_0522,acct_0815,Opportunity 0522,owner_06,Owner 06,Validation,Pipeline,94000,47000,35,2026-09-07,2026-12-21,2026-11-16,2026-12-14,Referral,Collaboration,New Product,Watch,Review opp_0522 next action,,,,2026-Q4
+opp_0523,acct_0440,Opportunity 0523,owner_06,Owner 06,Proposal,Best Case,119800,119800,60,2026-10-03,2026-12-22,2026-11-23,2026-12-15,Referral,Automation,New Product,Watch,Review opp_0523 next action,,,,2026-Q4
+opp_0524,acct_0405,Opportunity 0524,owner_03,Owner 03,Proposal,Commit,42600,21300,60,2026-10-31,2026-12-16,2026-11-16,2026-12-09,Partner,Collaboration,New Product,At risk,Review opp_0524 next action,,,,2026-Q4
+opp_0525,acct_0776,Opportunity 0525,owner_02,Owner 02,Proposal,Best Case,62700,20900,50,2026-08-26,2026-11-30,2026-11-10,2026-11-23,Inbound,Core Platform,Renewal,Watch,Review opp_0525 next action,,,,2026-Q4
+opp_0526,acct_0137,Opportunity 0526,owner_03,Owner 03,Negotiation,Commit,219400,219400,75,2026-08-27,2026-12-04,2026-11-17,2026-11-27,Partner,Automation,New Product,At risk,Review opp_0526 next action,,,,2026-Q4
+opp_0527,acct_0822,Opportunity 0527,owner_06,Owner 06,Validation,Pipeline,93400,46700,30,2026-08-27,2026-11-30,2026-09-13,2026-11-23,Inbound,Automation,Expansion,At risk,Review opp_0527 next action,,,,2026-Q4
+opp_0528,acct_0648,Opportunity 0528,owner_01,Owner 01,Negotiation,Best Case,21500,21500,75,2026-11-03,2026-12-18,2026-11-12,2026-12-11,Outbound,Analytics,Renewal,At risk,Review opp_0528 next action,,,,2026-Q4
+opp_0529,acct_0607,Opportunity 0529,owner_02,Owner 02,Discovery,Pipeline,25300,25300,20,2026-09-01,2026-12-15,2026-11-19,2026-12-08,Partner,Collaboration,New Product,On track,Review opp_0529 next action,,,,2026-Q4
+opp_0530,acct_0818,Opportunity 0530,owner_03,Owner 03,Proposal,Best Case,193300,193300,50,2026-10-19,2026-12-31,2026-11-12,2026-12-24,Inbound,Core Platform,New Product,At risk,Review opp_0530 next action,,,,2026-Q4
+opp_0531,acct_0855,Opportunity 0531,owner_04,Owner 04,Negotiation,Best Case,253200,84400,80,2026-09-07,2026-12-01,2026-10-26,2026-11-24,Event,Analytics,Expansion,On track,Review opp_0531 next action,,,,2026-Q4
+opp_0532,acct_0698,Opportunity 0532,owner_04,Owner 04,Discovery,Pipeline,123900,41300,20,2026-10-24,2026-12-17,2026-11-15,2026-12-10,Outbound,Core Platform,New Product,On track,Review opp_0532 next action,,,,2026-Q4
+opp_0533,acct_1015,Opportunity 0533,owner_06,Owner 06,Negotiation,Best Case,106400,53200,80,2026-10-10,2026-12-10,2026-11-17,2026-12-03,Outbound,Automation,Expansion,On track,Review opp_0533 next action,,,,2026-Q4
+opp_0534,acct_0050,Opportunity 0534,owner_06,Owner 06,Validation,Pipeline,50700,16900,30,2026-10-01,2026-12-16,2026-11-08,2026-12-09,Inbound,Collaboration,Renewal,On track,Review opp_0534 next action,,,,2026-Q4
+opp_0535,acct_0170,Opportunity 0535,owner_05,Owner 05,Discovery,Pipeline,40100,40100,20,2026-08-26,2026-12-04,2026-11-18,2026-11-27,Event,Analytics,New Product,On track,Review opp_0535 next action,,,,2026-Q4
+opp_0536,acct_0236,Opportunity 0536,owner_02,Owner 02,Validation,Pipeline,212000,106000,25,2026-08-27,2026-11-29,2026-09-09,2026-11-22,Outbound,Analytics,Expansion,Watch,Review opp_0536 next action,,,,2026-Q4
+opp_0537,acct_0546,Opportunity 0537,owner_03,Owner 03,Validation,Pipeline,530200,265100,35,2026-09-06,2026-12-02,2026-11-08,2026-11-25,Outbound,Analytics,Expansion,At risk,Review opp_0537 next action,,,,2026-Q4
+opp_0538,acct_0546,Opportunity 0538,owner_03,Owner 03,Proposal,Best Case,268800,268800,60,2026-09-10,2026-12-05,2026-11-22,2026-11-28,Outbound,Core Platform,New Product,On track,Review opp_0538 next action,,,,2026-Q4
+opp_0539,acct_0053,Opportunity 0539,owner_08,Owner 08,Validation,Pipeline,252900,84300,30,2026-11-02,2026-12-27,2026-11-09,2026-12-20,Inbound,Core Platform,Expansion,Watch,Review opp_0539 next action,,,,2026-Q4
+opp_0540,acct_0646,Opportunity 0540,owner_01,Owner 01,Proposal,Best Case,141000,70500,60,2026-09-22,2026-11-29,2026-11-17,2026-11-22,Inbound,Collaboration,New Product,Watch,Review opp_0540 next action,,,,2026-Q4
+opp_0541,acct_0044,Opportunity 0541,owner_05,Owner 05,Proposal,Pipeline,1214700,404900,50,2026-10-16,2026-12-31,2026-10-25,2026-12-24,Referral,Core Platform,New Product,On track,Review opp_0541 next action,,,,2026-Q4
+opp_0542,acct_0323,Opportunity 0542,owner_07,Owner 07,Validation,Pipeline,668100,222700,30,2026-09-05,2026-12-13,2026-11-17,2026-12-06,Inbound,Core Platform,Renewal,On track,Review opp_0542 next action,,,,2026-Q4
+opp_0543,acct_0488,Opportunity 0543,owner_04,Owner 04,Discovery,Pipeline,223800,223800,15,2026-10-30,2026-12-27,2026-11-11,2026-12-20,Partner,Analytics,Expansion,On track,Review opp_0543 next action,,,,2026-Q4
+opp_0544,acct_0699,Opportunity 0544,owner_03,Owner 03,Proposal,Best Case,60500,60500,55,2026-11-18,2026-12-27,2026-11-22,2026-12-20,Outbound,Core Platform,Expansion,Watch,Review opp_0544 next action,,,,2026-Q4
+opp_0545,acct_0702,Opportunity 0545,owner_04,Owner 04,Discovery,Pipeline,141300,47100,20,2026-09-10,2026-12-06,2026-11-06,2026-11-29,Outbound,Analytics,Expansion,On track,Review opp_0545 next action,,,,2026-Q4
+opp_0546,acct_0234,Opportunity 0546,owner_02,Owner 02,Negotiation,Commit,27600,27600,80,2026-10-01,2026-12-30,2026-11-17,2026-12-23,Outbound,Analytics,New Product,Watch,Review opp_0546 next action,,,,2026-Q4
+opp_0547,acct_1036,Opportunity 0547,owner_05,Owner 05,Proposal,Best Case,214500,71500,60,2026-08-27,2026-12-07,2026-11-04,2026-11-30,Partner,Collaboration,Renewal,On track,Review opp_0547 next action,,,,2026-Q4
+opp_0548,acct_0557,Opportunity 0548,owner_07,Owner 07,Proposal,Commit,54000,18000,60,2026-10-27,2026-12-24,2026-11-17,2026-12-17,Outbound,Collaboration,Renewal,Watch,Review opp_0548 next action,,,,2026-Q4
+opp_0549,acct_0310,Opportunity 0549,owner_01,Owner 01,Negotiation,Commit,67800,22600,80,2026-09-12,2026-12-21,2026-11-22,2026-12-14,Outbound,Collaboration,Renewal,On track,Review opp_0549 next action,,,,2026-Q4
+opp_0550,acct_0068,Opportunity 0550,owner_06,Owner 06,Negotiation,Commit,85500,28500,75,2026-09-15,2026-12-17,2026-11-10,2026-12-10,Referral,Automation,New Product,On track,Review opp_0550 next action,,,,2026-Q4
+opp_0551,acct_0833,Opportunity 0551,owner_08,Owner 08,Negotiation,Best Case,261600,87200,75,2026-10-14,2026-12-09,2026-10-25,2026-12-02,Outbound,Core Platform,Renewal,At risk,Review opp_0551 next action,,,,2026-Q4
+opp_0552,acct_0056,Opportunity 0552,owner_01,Owner 01,Validation,Pipeline,27100,27100,25,2026-10-24,2026-12-10,2026-11-21,2026-12-03,Inbound,Core Platform,New Product,On track,Review opp_0552 next action,,,,2026-Q4
+opp_0553,acct_0448,Opportunity 0553,owner_02,Owner 02,Proposal,Pipeline,150600,150600,55,2026-10-27,2026-12-08,2026-11-22,2026-12-01,Event,Automation,Expansion,Watch,Review opp_0553 next action,,,,2026-Q4
+opp_0554,acct_0286,Opportunity 0554,owner_03,Owner 03,Proposal,Best Case,68100,22700,50,2026-10-12,2026-12-22,2026-11-07,2026-12-15,Outbound,Collaboration,Renewal,On track,Review opp_0554 next action,,,,2026-Q4
+opp_0555,acct_0456,Opportunity 0555,owner_01,Owner 01,Proposal,Best Case,14600,14600,50,2026-11-02,2026-12-29,2026-11-20,2026-12-22,Outbound,Analytics,New Product,On track,Review opp_0555 next action,,,,2026-Q4
+opp_0556,acct_0586,Opportunity 0556,owner_01,Owner 01,Proposal,Best Case,85800,42900,55,2026-09-04,2026-12-09,2026-11-22,2026-12-02,Partner,Analytics,Expansion,On track,Review opp_0556 next action,,,,2026-Q4
+opp_0557,acct_0496,Opportunity 0557,owner_01,Owner 01,Validation,Pipeline,35400,35400,30,2026-09-26,2026-12-09,2026-10-28,2026-12-02,Referral,Automation,Expansion,Watch,Review opp_0557 next action,,,,2026-Q4
+opp_0558,acct_0758,Opportunity 0558,owner_03,Owner 03,Validation,Pipeline,97200,32400,35,2026-08-26,2026-11-25,2026-09-13,2026-11-18,Referral,Analytics,Expansion,On track,Review opp_0558 next action,,,,2026-Q4
+opp_0559,acct_0939,Opportunity 0559,owner_08,Owner 08,Negotiation,Best Case,405200,202600,75,2026-11-10,2026-12-09,2026-11-17,2026-12-02,Outbound,Analytics,New Product,On track,Review opp_0559 next action,,,,2026-Q4
+opp_0560,acct_0431,Opportunity 0560,owner_05,Owner 05,Validation,Pipeline,23400,23400,30,2026-11-06,2026-12-14,2026-11-18,2026-12-07,Inbound,Automation,Renewal,On track,Review opp_0560 next action,,,,2026-Q4
+opp_0561,acct_0235,Opportunity 0561,owner_06,Owner 06,Proposal,Pipeline,202200,67400,60,2026-10-15,2026-11-25,2026-11-23,2026-11-18,Partner,Core Platform,New Product,At risk,Review opp_0561 next action,,,,2026-Q4
+opp_0562,acct_0858,Opportunity 0562,owner_02,Owner 02,Negotiation,Commit,50400,25200,75,2026-08-19,2026-12-02,,2026-11-25,Partner,Automation,New Product,On track,Review opp_0562 next action,,,,2026-Q4
+opp_0563,acct_0900,Opportunity 0563,owner_05,Owner 05,Proposal,Best Case,21800,21800,60,2026-11-12,2026-12-21,2026-11-21,2026-12-14,Referral,Automation,Expansion,On track,Review opp_0563 next action,,,,2026-Q4
+opp_0564,acct_0099,Opportunity 0564,owner_06,Owner 06,Proposal,Commit,133200,44400,60,2026-10-06,2026-12-05,2026-11-20,2026-11-28,Referral,Core Platform,Expansion,Watch,Review opp_0564 next action,,,,2026-Q4
+opp_0565,acct_0796,Opportunity 0565,owner_01,Owner 01,Proposal,Pipeline,1470600,490200,55,2026-09-07,2026-12-17,2026-10-30,2026-12-10,Referral,Collaboration,Renewal,Watch,Review opp_0565 next action,,,,2026-Q4
+opp_0566,acct_0434,Opportunity 0566,owner_02,Owner 02,Discovery,Pipeline,67000,33500,10,2026-09-15,2026-11-24,2026-09-15,2026-11-17,Outbound,Automation,Expansion,On track,Review opp_0566 next action,,,,2026-Q4
+opp_0567,acct_0137,Opportunity 0567,owner_03,Owner 03,Proposal,Pipeline,885900,295300,50,2026-09-06,2026-12-02,2026-11-13,2026-11-25,Partner,Analytics,Renewal,At risk,Review opp_0567 next action,,,,2026-Q4
+opp_0568,acct_0141,Opportunity 0568,owner_07,Owner 07,Negotiation,Commit,232000,116000,75,2026-10-26,2026-12-04,2026-11-18,2026-11-27,Event,Collaboration,New Product,At risk,Review opp_0568 next action,,,,2026-Q4
+opp_0569,acct_0327,Opportunity 0569,owner_07,Owner 07,Proposal,Best Case,25000,12500,50,2026-10-11,2026-12-10,2026-10-31,2026-12-03,Event,Analytics,Expansion,On track,Review opp_0569 next action,,,,2026-Q4
+opp_0570,acct_0924,Opportunity 0570,owner_03,Owner 03,Proposal,Pipeline,205300,205300,55,2026-10-27,2026-12-26,2026-11-14,2026-12-19,Outbound,Automation,New Product,On track,Review opp_0570 next action,,,,2026-Q4
+opp_0571,acct_0114,Opportunity 0571,owner_07,Owner 07,Negotiation,Commit,640200,320100,70,2026-10-11,2026-12-27,2026-11-14,2026-12-20,Event,Automation,New Product,Watch,Review opp_0571 next action,,,,2026-Q4
+opp_0572,acct_0429,Opportunity 0572,owner_01,Owner 01,Discovery,Pipeline,1008900,336300,10,2026-10-30,2026-12-21,2026-11-06,2026-12-14,Outbound,Core Platform,New Product,On track,Review opp_0572 next action,,,,2026-Q4
+opp_0573,acct_0178,Opportunity 0573,owner_05,Owner 05,Negotiation,Commit,46600,23300,70,2026-09-02,2026-12-10,2026-10-03,2026-12-03,Event,Automation,Renewal,At risk,Review opp_0573 next action,,,,2026-Q4
+opp_0574,acct_0505,Opportunity 0574,owner_01,Owner 01,Proposal,Best Case,323400,323400,55,2026-09-04,2026-11-28,2026-10-06,2026-11-21,Partner,Analytics,Renewal,On track,Review opp_0574 next action,,,,2026-Q4
+opp_0575,acct_0814,Opportunity 0575,owner_08,Owner 08,Proposal,Commit,213600,71200,55,2026-11-07,2026-12-23,2026-11-22,2026-12-16,Outbound,Analytics,New Product,At risk,Review opp_0575 next action,,,,2026-Q4
+opp_0576,acct_0864,Opportunity 0576,owner_03,Owner 03,Proposal,Pipeline,80600,40300,60,2026-09-06,2026-12-14,2026-10-22,2026-12-07,Inbound,Automation,Renewal,Watch,Review opp_0576 next action,,,,2026-Q4
+opp_0577,acct_0602,Opportunity 0577,owner_06,Owner 06,Discovery,Pipeline,62800,31400,10,2026-11-17,2026-12-30,2026-11-23,2026-12-23,Partner,Collaboration,Expansion,At risk,Review opp_0577 next action,,,,2026-Q4
+opp_0578,acct_0453,Opportunity 0578,owner_03,Owner 03,Proposal,Best Case,38100,38100,55,2026-09-14,2026-12-16,2026-10-31,2026-12-09,Event,Core Platform,New Product,Watch,Review opp_0578 next action,,,,2026-Q4
+opp_0579,acct_0697,Opportunity 0579,owner_01,Owner 01,Validation,Pipeline,232800,77600,35,2026-11-04,2026-12-30,2026-11-07,2026-12-23,Outbound,Collaboration,Renewal,On track,Review opp_0579 next action,,,,2026-Q4
+opp_0580,acct_0225,Opportunity 0580,owner_04,Owner 04,Proposal,Best Case,985500,328500,50,2026-10-06,2026-11-24,2026-11-14,2026-11-17,Referral,Automation,New Product,On track,Review opp_0580 next action,,,,2026-Q4
+opp_0581,acct_0513,Opportunity 0581,owner_05,Owner 05,Discovery,Pipeline,50400,50400,10,2026-10-08,2026-12-14,2026-11-18,2026-12-07,Partner,Analytics,New Product,On track,Review opp_0581 next action,,,,2026-Q4
+opp_0582,acct_0893,Opportunity 0582,owner_04,Owner 04,Proposal,Best Case,93600,31200,50,2026-10-16,2026-12-30,2026-11-21,2026-12-23,Outbound,Collaboration,Expansion,At risk,Review opp_0582 next action,,,,2026-Q4
+opp_0583,acct_0401,Opportunity 0583,owner_04,Owner 04,Discovery,Pipeline,160500,53500,10,2026-11-16,2026-12-18,2026-11-18,2026-12-11,Partner,Collaboration,New Product,On track,Review opp_0583 next action,,,,2026-Q4
+opp_0584,acct_0276,Opportunity 0584,owner_03,Owner 03,Validation,Pipeline,85500,28500,35,2026-10-02,2026-12-05,2026-11-23,2026-11-28,Inbound,Automation,Renewal,On track,Review opp_0584 next action,,,,2026-Q4
+opp_0585,acct_0276,Opportunity 0585,owner_03,Owner 03,Validation,Pipeline,163800,54600,35,2026-09-24,2026-12-07,2026-11-07,2026-11-30,Inbound,Collaboration,New Product,Watch,Review opp_0585 next action,,,,2026-Q4
+opp_0586,acct_0565,Opportunity 0586,owner_06,Owner 06,Proposal,Best Case,70500,70500,60,2026-11-08,2026-11-28,2026-11-19,2026-11-21,Partner,Analytics,Renewal,At risk,Review opp_0586 next action,,,,2026-Q4
+opp_0587,acct_0055,Opportunity 0587,owner_01,Owner 01,Proposal,Best Case,46800,15600,55,2026-11-13,2026-12-17,2026-11-23,2026-12-10,Event,Analytics,Renewal,At risk,Review opp_0587 next action,,,,2026-Q4
+opp_0588,acct_1008,Opportunity 0588,owner_05,Owner 05,Proposal,Best Case,62300,62300,50,2026-09-26,2026-12-31,2026-11-16,2026-12-24,Referral,Automation,New Product,At risk,Review opp_0588 next action,,,,2026-Q4
+opp_0589,acct_0211,Opportunity 0589,owner_02,Owner 02,Negotiation,Best Case,300600,150300,80,2026-11-19,2026-12-13,2026-11-23,2026-12-06,Event,Core Platform,New Product,On track,Review opp_0589 next action,,,,2026-Q4
+opp_0590,acct_0443,Opportunity 0590,owner_02,Owner 02,Negotiation,Best Case,224400,74800,75,2026-09-26,2026-12-27,2026-11-07,2026-12-20,Event,Core Platform,Renewal,On track,Review opp_0590 next action,,,,2026-Q4
+opp_0591,acct_0535,Opportunity 0591,owner_05,Owner 05,Discovery,Pipeline,201300,67100,10,2026-10-14,2026-12-17,2026-11-17,2026-12-10,Partner,Analytics,New Product,On track,Review opp_0591 next action,,,,2026-Q4
+opp_0592,acct_0471,Opportunity 0592,owner_04,Owner 04,Negotiation,Commit,731200,365600,75,2026-11-13,2026-12-04,2026-11-19,2026-11-27,Outbound,Core Platform,Expansion,On track,Review opp_0592 next action,,,,2026-Q4
+opp_0593,acct_0428,Opportunity 0593,owner_03,Owner 03,Proposal,Commit,35900,35900,55,2026-09-30,2026-12-25,2026-11-20,2026-12-18,Outbound,Analytics,Expansion,On track,Review opp_0593 next action,,,,2026-Q4
+opp_0594,acct_0116,Opportunity 0594,owner_05,Owner 05,Negotiation,Commit,67800,33900,80,2026-09-10,2026-12-12,2026-09-30,2026-12-05,Referral,Core Platform,Renewal,On track,Review opp_0594 next action,,,,2026-Q4
+opp_0595,acct_0500,Opportunity 0595,owner_03,Owner 03,Negotiation,Commit,230700,76900,75,2026-10-30,2026-12-21,,2026-12-14,Partner,Core Platform,New Product,Watch,Review opp_0595 next action,,,,2026-Q4
+opp_0596,acct_0653,Opportunity 0596,owner_07,Owner 07,Discovery,Pipeline,41500,41500,15,2026-11-17,2026-12-26,2026-11-22,2026-12-19,Outbound,Analytics,Renewal,At risk,Review opp_0596 next action,,,,2026-Q4
+opp_0597,acct_0773,Opportunity 0597,owner_06,Owner 06,Negotiation,Commit,37800,12600,75,2026-09-01,2026-11-24,2026-11-23,2026-11-17,Partner,Core Platform,Renewal,On track,Review opp_0597 next action,,,,2026-Q4
+opp_0598,acct_0627,Opportunity 0598,owner_08,Owner 08,Proposal,Pipeline,32500,32500,60,2026-11-11,2026-12-27,2026-11-23,2026-12-20,Outbound,Analytics,Expansion,On track,Review opp_0598 next action,,,,2026-Q4
+opp_0599,acct_0638,Opportunity 0599,owner_07,Owner 07,Proposal,Best Case,806700,268900,60,2026-09-25,2026-12-07,2026-11-19,2026-11-30,Event,Automation,New Product,At risk,Review opp_0599 next action,,,,2026-Q4
+opp_0600,acct_0976,Opportunity 0600,owner_06,Owner 06,Discovery,Pipeline,92400,46200,20,2026-11-03,2026-12-22,2026-11-15,2026-12-15,Event,Automation,Expansion,At risk,Review opp_0600 next action,,,,2026-Q4

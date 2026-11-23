@@ -117,15 +117,17 @@ def main():
     check("VOICE-AND-TONE.md has zero em-dashes", "—" not in vt_raw)
 
     vc_raw = read("skills/self-maintenance/voice-curator/SKILL.md")
-    vc_ex_raw = read("skills/self-maintenance/voice-curator/references/voice-examples.md")
     check("voice-curator references VOICE-AND-TONE.md and Claim Compressor",
           "docs/VOICE-AND-TONE.md" in vc_raw and "Claim Compressor" in vc_raw)
+    check("voice-curator links the canonical voice examples",
+          "../../onboarding/meet-vera/examples/voice-examples.md" in vc_raw)
+    vc_ex_raw = read("skills/onboarding/meet-vera/examples/voice-examples.md")
     check("voice-examples covers all 5 registers with zero em-dashes",
           all(h in vc_ex_raw for h in [
               "## 1. Social, banter, and team belonging",
               "## 2. Executive & analytical readout",
-              "## 3. Multi-item parallel dispatch",
-              "## 4. New capability or integration live",
+              "## 3. Multi-task parallel dispatch",
+              "## 4. New capability / integration live",
               "## 5. Serious register",
           ]) and "—" not in vc_ex_raw)
 

@@ -1,0 +1,2367 @@
+stage_history_id,opportunity_id,account_id,stage,sequence,entered_at,exited_at,owner_id
+hist_000001,opp_0001,acct_0006,Discovery,1,2026-08-02,2026-08-13,owner_02
+hist_000002,opp_0001,acct_0006,Validation,2,2026-08-13,2026-08-24,owner_02
+hist_000003,opp_0001,acct_0006,Proposal,3,2026-08-24,2026-09-04,owner_02
+hist_000004,opp_0001,acct_0006,Negotiation,4,2026-09-04,2026-09-15,owner_02
+hist_000005,opp_0001,acct_0006,Closed Won,5,2026-09-15,2026-09-26,owner_02
+hist_000006,opp_0002,acct_0018,Discovery,1,2026-07-15,2026-07-28,owner_07
+hist_000007,opp_0002,acct_0018,Validation,2,2026-07-28,2026-08-10,owner_07
+hist_000008,opp_0002,acct_0018,Proposal,3,2026-08-10,2026-08-22,owner_07
+hist_000009,opp_0002,acct_0018,Negotiation,4,2026-08-22,2026-09-04,owner_07
+hist_000010,opp_0002,acct_0018,Closed Won,5,2026-09-04,2026-09-17,owner_07
+hist_000011,opp_0003,acct_0025,Discovery,1,2026-08-21,2026-08-27,owner_06
+hist_000012,opp_0003,acct_0025,Validation,2,2026-08-27,2026-09-03,owner_06
+hist_000013,opp_0003,acct_0025,Proposal,3,2026-09-03,2026-09-09,owner_06
+hist_000014,opp_0003,acct_0025,Negotiation,4,2026-09-09,2026-09-16,owner_06
+hist_000015,opp_0003,acct_0025,Closed Won,5,2026-09-16,2026-09-22,owner_06
+hist_000016,opp_0004,acct_0037,Discovery,1,2026-07-15,2026-07-24,owner_07
+hist_000017,opp_0004,acct_0037,Validation,2,2026-07-24,2026-08-03,owner_07
+hist_000018,opp_0004,acct_0037,Proposal,3,2026-08-03,2026-08-12,owner_07
+hist_000019,opp_0004,acct_0037,Negotiation,4,2026-08-12,2026-08-22,owner_07
+hist_000020,opp_0004,acct_0037,Closed Won,5,2026-08-22,2026-08-31,owner_07
+hist_000021,opp_0005,acct_0038,Discovery,1,2026-03-29,2026-04-19,owner_05
+hist_000022,opp_0005,acct_0038,Validation,2,2026-04-19,2026-05-10,owner_05
+hist_000023,opp_0005,acct_0038,Proposal,3,2026-05-10,2026-05-31,owner_05
+hist_000024,opp_0005,acct_0038,Negotiation,4,2026-05-31,2026-06-21,owner_05
+hist_000025,opp_0005,acct_0038,Closed Won,5,2026-06-21,2026-07-12,owner_05
+hist_000026,opp_0006,acct_0040,Discovery,1,2026-08-23,2026-08-27,owner_02
+hist_000027,opp_0006,acct_0040,Validation,2,2026-08-27,2026-09-01,owner_02
+hist_000028,opp_0006,acct_0040,Proposal,3,2026-09-01,2026-09-05,owner_02
+hist_000029,opp_0006,acct_0040,Negotiation,4,2026-09-05,2026-09-10,owner_02
+hist_000030,opp_0006,acct_0040,Closed Won,5,2026-09-10,2026-09-14,owner_02
+hist_000031,opp_0007,acct_0044,Discovery,1,2026-05-24,2026-06-06,owner_05
+hist_000032,opp_0007,acct_0044,Validation,2,2026-06-06,2026-06-19,owner_05
+hist_000033,opp_0007,acct_0044,Proposal,3,2026-06-19,2026-07-01,owner_05
+hist_000034,opp_0007,acct_0044,Negotiation,4,2026-07-01,2026-07-14,owner_05
+hist_000035,opp_0007,acct_0044,Closed Won,5,2026-07-14,2026-07-27,owner_05
+hist_000036,opp_0008,acct_0046,Discovery,1,2026-06-22,2026-07-03,owner_03
+hist_000037,opp_0008,acct_0046,Validation,2,2026-07-03,2026-07-15,owner_03
+hist_000038,opp_0008,acct_0046,Proposal,3,2026-07-15,2026-07-26,owner_03
+hist_000039,opp_0008,acct_0046,Negotiation,4,2026-07-26,2026-08-07,owner_03
+hist_000040,opp_0008,acct_0046,Closed Won,5,2026-08-07,2026-08-18,owner_03
+hist_000041,opp_0009,acct_0047,Discovery,1,2026-05-26,2026-06-16,owner_04
+hist_000042,opp_0009,acct_0047,Validation,2,2026-06-16,2026-07-06,owner_04
+hist_000043,opp_0009,acct_0047,Proposal,3,2026-07-06,2026-07-27,owner_04
+hist_000044,opp_0009,acct_0047,Negotiation,4,2026-07-27,2026-08-16,owner_04
+hist_000045,opp_0009,acct_0047,Closed Won,5,2026-08-16,2026-09-06,owner_04
+hist_000046,opp_0010,acct_0048,Discovery,1,2026-06-12,2026-06-27,owner_07
+hist_000047,opp_0010,acct_0048,Validation,2,2026-06-27,2026-07-12,owner_07
+hist_000048,opp_0010,acct_0048,Proposal,3,2026-07-12,2026-07-27,owner_07
+hist_000049,opp_0010,acct_0048,Negotiation,4,2026-07-27,2026-08-11,owner_07
+hist_000050,opp_0010,acct_0048,Closed Won,5,2026-08-11,2026-08-26,owner_07
+hist_000051,opp_0011,acct_0050,Discovery,1,2026-06-18,2026-06-24,owner_06
+hist_000052,opp_0011,acct_0050,Validation,2,2026-06-24,2026-06-30,owner_06
+hist_000053,opp_0011,acct_0050,Proposal,3,2026-06-30,2026-07-06,owner_06
+hist_000054,opp_0011,acct_0050,Negotiation,4,2026-07-06,2026-07-12,owner_06
+hist_000055,opp_0011,acct_0050,Closed Won,5,2026-07-12,2026-07-18,owner_06
+hist_000056,opp_0012,acct_0051,Discovery,1,2026-05-18,2026-05-29,owner_07
+hist_000057,opp_0012,acct_0051,Validation,2,2026-05-29,2026-06-09,owner_07
+hist_000058,opp_0012,acct_0051,Proposal,3,2026-06-09,2026-06-20,owner_07
+hist_000059,opp_0012,acct_0051,Negotiation,4,2026-06-20,2026-07-01,owner_07
+hist_000060,opp_0012,acct_0051,Closed Won,5,2026-07-01,2026-07-12,owner_07
+hist_000061,opp_0013,acct_0052,Discovery,1,2026-08-12,2026-08-20,owner_06
+hist_000062,opp_0013,acct_0052,Validation,2,2026-08-20,2026-08-29,owner_06
+hist_000063,opp_0013,acct_0052,Proposal,3,2026-08-29,2026-09-06,owner_06
+hist_000064,opp_0013,acct_0052,Negotiation,4,2026-09-06,2026-09-15,owner_06
+hist_000065,opp_0013,acct_0052,Closed Won,5,2026-09-15,2026-09-23,owner_06
+hist_000066,opp_0014,acct_0054,Discovery,1,2026-07-01,2026-07-19,owner_01
+hist_000067,opp_0014,acct_0054,Validation,2,2026-07-19,2026-08-06,owner_01
+hist_000068,opp_0014,acct_0054,Proposal,3,2026-08-06,2026-08-25,owner_01
+hist_000069,opp_0014,acct_0054,Negotiation,4,2026-08-25,2026-09-12,owner_01
+hist_000070,opp_0014,acct_0054,Closed Won,5,2026-09-12,2026-09-30,owner_01
+hist_000071,opp_0015,acct_0055,Discovery,1,2026-07-03,2026-07-09,owner_01
+hist_000072,opp_0015,acct_0055,Validation,2,2026-07-09,2026-07-15,owner_01
+hist_000073,opp_0015,acct_0055,Proposal,3,2026-07-15,2026-07-20,owner_01
+hist_000074,opp_0015,acct_0055,Negotiation,4,2026-07-20,2026-07-26,owner_01
+hist_000075,opp_0015,acct_0055,Closed Won,5,2026-07-26,2026-08-01,owner_01
+hist_000076,opp_0016,acct_0056,Discovery,1,2026-07-19,2026-07-28,owner_01
+hist_000077,opp_0016,acct_0056,Validation,2,2026-07-28,2026-08-06,owner_01
+hist_000078,opp_0016,acct_0056,Proposal,3,2026-08-06,2026-08-15,owner_01
+hist_000079,opp_0016,acct_0056,Negotiation,4,2026-08-15,2026-08-24,owner_01
+hist_000080,opp_0016,acct_0056,Closed Won,5,2026-08-24,2026-09-02,owner_01
+hist_000081,opp_0017,acct_0059,Discovery,1,2026-04-04,2026-04-22,owner_05
+hist_000082,opp_0017,acct_0059,Validation,2,2026-04-22,2026-05-10,owner_05
+hist_000083,opp_0017,acct_0059,Proposal,3,2026-05-10,2026-05-27,owner_05
+hist_000084,opp_0017,acct_0059,Negotiation,4,2026-05-27,2026-06-14,owner_05
+hist_000085,opp_0017,acct_0059,Closed Won,5,2026-06-14,2026-07-02,owner_05
+hist_000086,opp_0018,acct_0061,Discovery,1,2026-05-04,2026-05-24,owner_07
+hist_000087,opp_0018,acct_0061,Validation,2,2026-05-24,2026-06-13,owner_07
+hist_000088,opp_0018,acct_0061,Proposal,3,2026-06-13,2026-07-03,owner_07
+hist_000089,opp_0018,acct_0061,Negotiation,4,2026-07-03,2026-07-23,owner_07
+hist_000090,opp_0018,acct_0061,Closed Won,5,2026-07-23,2026-08-12,owner_07
+hist_000091,opp_0019,acct_0063,Discovery,1,2026-06-27,2026-07-12,owner_03
+hist_000092,opp_0019,acct_0063,Validation,2,2026-07-12,2026-07-28,owner_03
+hist_000093,opp_0019,acct_0063,Proposal,3,2026-07-28,2026-08-12,owner_03
+hist_000094,opp_0019,acct_0063,Negotiation,4,2026-08-12,2026-08-28,owner_03
+hist_000095,opp_0019,acct_0063,Closed Won,5,2026-08-28,2026-09-12,owner_03
+hist_000096,opp_0020,acct_0065,Discovery,1,2026-07-11,2026-07-27,owner_05
+hist_000097,opp_0020,acct_0065,Validation,2,2026-07-27,2026-08-12,owner_05
+hist_000098,opp_0020,acct_0065,Proposal,3,2026-08-12,2026-08-27,owner_05
+hist_000099,opp_0020,acct_0065,Negotiation,4,2026-08-27,2026-09-12,owner_05
+hist_000100,opp_0020,acct_0065,Closed Won,5,2026-09-12,2026-09-28,owner_05
+hist_000101,opp_0021,acct_0069,Discovery,1,2026-06-03,2026-06-21,owner_02
+hist_000102,opp_0021,acct_0069,Validation,2,2026-06-21,2026-07-09,owner_02
+hist_000103,opp_0021,acct_0069,Proposal,3,2026-07-09,2026-07-28,owner_02
+hist_000104,opp_0021,acct_0069,Negotiation,4,2026-07-28,2026-08-15,owner_02
+hist_000105,opp_0021,acct_0069,Closed Won,5,2026-08-15,2026-09-02,owner_02
+hist_000106,opp_0022,acct_0095,Discovery,1,2026-07-21,2026-08-01,owner_07
+hist_000107,opp_0022,acct_0095,Validation,2,2026-08-01,2026-08-12,owner_07
+hist_000108,opp_0022,acct_0095,Proposal,3,2026-08-12,2026-08-22,owner_07
+hist_000109,opp_0022,acct_0095,Negotiation,4,2026-08-22,2026-09-02,owner_07
+hist_000110,opp_0022,acct_0095,Closed Won,5,2026-09-02,2026-09-13,owner_07
+hist_000111,opp_0023,acct_0096,Discovery,1,2026-06-17,2026-07-08,owner_02
+hist_000112,opp_0023,acct_0096,Validation,2,2026-07-08,2026-07-29,owner_02
+hist_000113,opp_0023,acct_0096,Proposal,3,2026-07-29,2026-08-18,owner_02
+hist_000114,opp_0023,acct_0096,Negotiation,4,2026-08-18,2026-09-08,owner_02
+hist_000115,opp_0023,acct_0096,Closed Won,5,2026-09-08,2026-09-29,owner_02
+hist_000116,opp_0024,acct_0097,Discovery,1,2026-05-08,2026-05-28,owner_06
+hist_000117,opp_0024,acct_0097,Validation,2,2026-05-28,2026-06-17,owner_06
+hist_000118,opp_0024,acct_0097,Proposal,3,2026-06-17,2026-07-08,owner_06
+hist_000119,opp_0024,acct_0097,Negotiation,4,2026-07-08,2026-07-28,owner_06
+hist_000120,opp_0024,acct_0097,Closed Won,5,2026-07-28,2026-08-17,owner_06
+hist_000121,opp_0025,acct_0098,Discovery,1,2026-07-31,2026-08-11,owner_05
+hist_000122,opp_0025,acct_0098,Validation,2,2026-08-11,2026-08-21,owner_05
+hist_000123,opp_0025,acct_0098,Proposal,3,2026-08-21,2026-09-01,owner_05
+hist_000124,opp_0025,acct_0098,Negotiation,4,2026-09-01,2026-09-11,owner_05
+hist_000125,opp_0025,acct_0098,Closed Won,5,2026-09-11,2026-09-22,owner_05
+hist_000126,opp_0026,acct_0115,Discovery,1,2026-06-21,2026-06-28,owner_03
+hist_000127,opp_0026,acct_0115,Validation,2,2026-06-28,2026-07-04,owner_03
+hist_000128,opp_0026,acct_0115,Proposal,3,2026-07-04,2026-07-11,owner_03
+hist_000129,opp_0026,acct_0115,Negotiation,4,2026-07-11,2026-07-17,owner_03
+hist_000130,opp_0026,acct_0115,Closed Won,5,2026-07-17,2026-07-24,owner_03
+hist_000131,opp_0027,acct_0118,Discovery,1,2026-06-04,2026-06-11,owner_04
+hist_000132,opp_0027,acct_0118,Validation,2,2026-06-11,2026-06-18,owner_04
+hist_000133,opp_0027,acct_0118,Proposal,3,2026-06-18,2026-06-25,owner_04
+hist_000134,opp_0027,acct_0118,Negotiation,4,2026-06-25,2026-07-02,owner_04
+hist_000135,opp_0027,acct_0118,Closed Won,5,2026-07-02,2026-07-09,owner_04
+hist_000136,opp_0028,acct_0119,Discovery,1,2026-05-17,2026-05-29,owner_08
+hist_000137,opp_0028,acct_0119,Validation,2,2026-05-29,2026-06-10,owner_08
+hist_000138,opp_0028,acct_0119,Proposal,3,2026-06-10,2026-06-23,owner_08
+hist_000139,opp_0028,acct_0119,Negotiation,4,2026-06-23,2026-07-05,owner_08
+hist_000140,opp_0028,acct_0119,Closed Won,5,2026-07-05,2026-07-17,owner_08
+hist_000141,opp_0029,acct_0120,Discovery,1,2026-05-02,2026-05-23,owner_07
+hist_000142,opp_0029,acct_0120,Validation,2,2026-05-23,2026-06-12,owner_07
+hist_000143,opp_0029,acct_0120,Proposal,3,2026-06-12,2026-07-03,owner_07
+hist_000144,opp_0029,acct_0120,Negotiation,4,2026-07-03,2026-07-23,owner_07
+hist_000145,opp_0029,acct_0120,Closed Won,5,2026-07-23,2026-08-13,owner_07
+hist_000146,opp_0030,acct_0121,Discovery,1,2026-07-04,2026-07-20,owner_01
+hist_000147,opp_0030,acct_0121,Validation,2,2026-07-20,2026-08-05,owner_01
+hist_000148,opp_0030,acct_0121,Proposal,3,2026-08-05,2026-08-21,owner_01
+hist_000149,opp_0030,acct_0121,Negotiation,4,2026-08-21,2026-09-06,owner_01
+hist_000150,opp_0030,acct_0121,Closed Won,5,2026-09-06,2026-09-22,owner_01
+hist_000151,opp_0031,acct_0123,Discovery,1,2026-05-06,2026-05-22,owner_06
+hist_000152,opp_0031,acct_0123,Validation,2,2026-05-22,2026-06-07,owner_06
+hist_000153,opp_0031,acct_0123,Proposal,3,2026-06-07,2026-06-24,owner_06
+hist_000154,opp_0031,acct_0123,Negotiation,4,2026-06-24,2026-07-10,owner_06
+hist_000155,opp_0031,acct_0123,Closed Won,5,2026-07-10,2026-07-26,owner_06
+hist_000156,opp_0032,acct_0125,Discovery,1,2026-06-05,2026-06-24,owner_01
+hist_000157,opp_0032,acct_0125,Validation,2,2026-06-24,2026-07-13,owner_01
+hist_000158,opp_0032,acct_0125,Proposal,3,2026-07-13,2026-08-01,owner_01
+hist_000159,opp_0032,acct_0125,Negotiation,4,2026-08-01,2026-08-20,owner_01
+hist_000160,opp_0032,acct_0125,Closed Won,5,2026-08-20,2026-09-08,owner_01
+hist_000161,opp_0033,acct_0131,Discovery,1,2026-06-09,2026-06-25,owner_03
+hist_000162,opp_0033,acct_0131,Validation,2,2026-06-25,2026-07-11,owner_03
+hist_000163,opp_0033,acct_0131,Proposal,3,2026-07-11,2026-07-28,owner_03
+hist_000164,opp_0033,acct_0131,Negotiation,4,2026-07-28,2026-08-13,owner_03
+hist_000165,opp_0033,acct_0131,Closed Won,5,2026-08-13,2026-08-29,owner_03
+hist_000166,opp_0034,acct_0132,Discovery,1,2026-07-20,2026-07-27,owner_01
+hist_000167,opp_0034,acct_0132,Validation,2,2026-07-27,2026-08-03,owner_01
+hist_000168,opp_0034,acct_0132,Proposal,3,2026-08-03,2026-08-10,owner_01
+hist_000169,opp_0034,acct_0132,Negotiation,4,2026-08-10,2026-08-17,owner_01
+hist_000170,opp_0034,acct_0132,Closed Won,5,2026-08-17,2026-08-24,owner_01
+hist_000171,opp_0035,acct_0140,Discovery,1,2026-06-01,2026-06-13,owner_02
+hist_000172,opp_0035,acct_0140,Validation,2,2026-06-13,2026-06-24,owner_02
+hist_000173,opp_0035,acct_0140,Proposal,3,2026-06-24,2026-07-06,owner_02
+hist_000174,opp_0035,acct_0140,Negotiation,4,2026-07-06,2026-07-17,owner_02
+hist_000175,opp_0035,acct_0140,Closed Won,5,2026-07-17,2026-07-29,owner_02
+hist_000176,opp_0036,acct_0145,Discovery,1,2026-05-10,2026-05-26,owner_01
+hist_000177,opp_0036,acct_0145,Validation,2,2026-05-26,2026-06-12,owner_01
+hist_000178,opp_0036,acct_0145,Proposal,3,2026-06-12,2026-06-28,owner_01
+hist_000179,opp_0036,acct_0145,Negotiation,4,2026-06-28,2026-07-15,owner_01
+hist_000180,opp_0036,acct_0145,Closed Won,5,2026-07-15,2026-07-31,owner_01
+hist_000181,opp_0037,acct_0150,Discovery,1,2026-06-15,2026-07-01,owner_03
+hist_000182,opp_0037,acct_0150,Validation,2,2026-07-01,2026-07-17,owner_03
+hist_000183,opp_0037,acct_0150,Proposal,3,2026-07-17,2026-08-03,owner_03
+hist_000184,opp_0037,acct_0150,Negotiation,4,2026-08-03,2026-08-19,owner_03
+hist_000185,opp_0037,acct_0150,Closed Won,5,2026-08-19,2026-09-04,owner_03
+hist_000186,opp_0038,acct_0156,Discovery,1,2026-05-21,2026-05-30,owner_03
+hist_000187,opp_0038,acct_0156,Validation,2,2026-05-30,2026-06-09,owner_03
+hist_000188,opp_0038,acct_0156,Proposal,3,2026-06-09,2026-06-18,owner_03
+hist_000189,opp_0038,acct_0156,Negotiation,4,2026-06-18,2026-06-28,owner_03
+hist_000190,opp_0038,acct_0156,Closed Won,5,2026-06-28,2026-07-07,owner_03
+hist_000191,opp_0039,acct_0157,Discovery,1,2026-07-06,2026-07-21,owner_06
+hist_000192,opp_0039,acct_0157,Validation,2,2026-07-21,2026-08-04,owner_06
+hist_000193,opp_0039,acct_0157,Proposal,3,2026-08-04,2026-08-19,owner_06
+hist_000194,opp_0039,acct_0157,Negotiation,4,2026-08-19,2026-09-02,owner_06
+hist_000195,opp_0039,acct_0157,Closed Won,5,2026-09-02,2026-09-17,owner_06
+hist_000196,opp_0040,acct_0158,Discovery,1,2026-06-06,2026-06-14,owner_06
+hist_000197,opp_0040,acct_0158,Validation,2,2026-06-14,2026-06-22,owner_06
+hist_000198,opp_0040,acct_0158,Proposal,3,2026-06-22,2026-06-30,owner_06
+hist_000199,opp_0040,acct_0158,Negotiation,4,2026-06-30,2026-07-08,owner_06
+hist_000200,opp_0040,acct_0158,Closed Won,5,2026-07-08,2026-07-16,owner_06
+hist_000201,opp_0041,acct_0162,Discovery,1,2026-05-16,2026-06-04,owner_06
+hist_000202,opp_0041,acct_0162,Validation,2,2026-06-04,2026-06-23,owner_06
+hist_000203,opp_0041,acct_0162,Proposal,3,2026-06-23,2026-07-12,owner_06
+hist_000204,opp_0041,acct_0162,Negotiation,4,2026-07-12,2026-07-31,owner_06
+hist_000205,opp_0041,acct_0162,Closed Won,5,2026-07-31,2026-08-19,owner_06
+hist_000206,opp_0042,acct_0163,Discovery,1,2026-06-21,2026-07-04,owner_04
+hist_000207,opp_0042,acct_0163,Validation,2,2026-07-04,2026-07-18,owner_04
+hist_000208,opp_0042,acct_0163,Proposal,3,2026-07-18,2026-07-31,owner_04
+hist_000209,opp_0042,acct_0163,Negotiation,4,2026-07-31,2026-08-14,owner_04
+hist_000210,opp_0042,acct_0163,Closed Won,5,2026-08-14,2026-08-27,owner_04
+hist_000211,opp_0043,acct_0164,Discovery,1,2026-05-16,2026-06-03,owner_04
+hist_000212,opp_0043,acct_0164,Validation,2,2026-06-03,2026-06-21,owner_04
+hist_000213,opp_0043,acct_0164,Proposal,3,2026-06-21,2026-07-10,owner_04
+hist_000214,opp_0043,acct_0164,Negotiation,4,2026-07-10,2026-07-28,owner_04
+hist_000215,opp_0043,acct_0164,Closed Won,5,2026-07-28,2026-08-15,owner_04
+hist_000216,opp_0044,acct_0168,Discovery,1,2026-07-12,2026-07-25,owner_05
+hist_000217,opp_0044,acct_0168,Validation,2,2026-07-25,2026-08-08,owner_05
+hist_000218,opp_0044,acct_0168,Proposal,3,2026-08-08,2026-08-21,owner_05
+hist_000219,opp_0044,acct_0168,Negotiation,4,2026-08-21,2026-09-04,owner_05
+hist_000220,opp_0044,acct_0168,Closed Won,5,2026-09-04,2026-09-17,owner_05
+hist_000221,opp_0045,acct_0170,Discovery,1,2026-06-10,2026-06-21,owner_05
+hist_000222,opp_0045,acct_0170,Validation,2,2026-06-21,2026-07-03,owner_05
+hist_000223,opp_0045,acct_0170,Proposal,3,2026-07-03,2026-07-14,owner_05
+hist_000224,opp_0045,acct_0170,Negotiation,4,2026-07-14,2026-07-26,owner_05
+hist_000225,opp_0045,acct_0170,Closed Won,5,2026-07-26,2026-08-06,owner_05
+hist_000226,opp_0046,acct_0187,Discovery,1,2026-06-14,2026-07-01,owner_07
+hist_000227,opp_0046,acct_0187,Validation,2,2026-07-01,2026-07-17,owner_07
+hist_000228,opp_0046,acct_0187,Proposal,3,2026-07-17,2026-08-03,owner_07
+hist_000229,opp_0046,acct_0187,Negotiation,4,2026-08-03,2026-08-19,owner_07
+hist_000230,opp_0046,acct_0187,Closed Won,5,2026-08-19,2026-09-05,owner_07
+hist_000231,opp_0047,acct_0192,Discovery,1,2026-06-08,2026-06-27,owner_03
+hist_000232,opp_0047,acct_0192,Validation,2,2026-06-27,2026-07-17,owner_03
+hist_000233,opp_0047,acct_0192,Proposal,3,2026-07-17,2026-08-05,owner_03
+hist_000234,opp_0047,acct_0192,Negotiation,4,2026-08-05,2026-08-25,owner_03
+hist_000235,opp_0047,acct_0192,Closed Won,5,2026-08-25,2026-09-13,owner_03
+hist_000236,opp_0048,acct_0199,Discovery,1,2026-08-31,2026-09-06,owner_03
+hist_000237,opp_0048,acct_0199,Validation,2,2026-09-06,2026-09-12,owner_03
+hist_000238,opp_0048,acct_0199,Proposal,3,2026-09-12,2026-09-18,owner_03
+hist_000239,opp_0048,acct_0199,Negotiation,4,2026-09-18,2026-09-24,owner_03
+hist_000240,opp_0048,acct_0199,Closed Won,5,2026-09-24,2026-09-30,owner_03
+hist_000241,opp_0049,acct_0205,Discovery,1,2026-06-17,2026-06-25,owner_02
+hist_000242,opp_0049,acct_0205,Validation,2,2026-06-25,2026-07-04,owner_02
+hist_000243,opp_0049,acct_0205,Proposal,3,2026-07-04,2026-07-12,owner_02
+hist_000244,opp_0049,acct_0205,Negotiation,4,2026-07-12,2026-07-21,owner_02
+hist_000245,opp_0049,acct_0205,Closed Won,5,2026-07-21,2026-07-29,owner_02
+hist_000246,opp_0050,acct_0208,Discovery,1,2026-06-02,2026-06-13,owner_01
+hist_000247,opp_0050,acct_0208,Validation,2,2026-06-13,2026-06-25,owner_01
+hist_000248,opp_0050,acct_0208,Proposal,3,2026-06-25,2026-07-06,owner_01
+hist_000249,opp_0050,acct_0208,Negotiation,4,2026-07-06,2026-07-18,owner_01
+hist_000250,opp_0050,acct_0208,Closed Won,5,2026-07-18,2026-07-29,owner_01
+hist_000251,opp_0051,acct_0215,Discovery,1,2026-05-22,2026-05-31,owner_06
+hist_000252,opp_0051,acct_0215,Validation,2,2026-05-31,2026-06-09,owner_06
+hist_000253,opp_0051,acct_0215,Proposal,3,2026-06-09,2026-06-17,owner_06
+hist_000254,opp_0051,acct_0215,Negotiation,4,2026-06-17,2026-06-26,owner_06
+hist_000255,opp_0051,acct_0215,Closed Won,5,2026-06-26,2026-07-05,owner_06
+hist_000256,opp_0052,acct_0217,Discovery,1,2026-06-06,2026-06-20,owner_07
+hist_000257,opp_0052,acct_0217,Validation,2,2026-06-20,2026-07-04,owner_07
+hist_000258,opp_0052,acct_0217,Proposal,3,2026-07-04,2026-07-19,owner_07
+hist_000259,opp_0052,acct_0217,Negotiation,4,2026-07-19,2026-08-02,owner_07
+hist_000260,opp_0052,acct_0217,Closed Won,5,2026-08-02,2026-08-16,owner_07
+hist_000261,opp_0053,acct_0219,Discovery,1,2026-05-30,2026-06-06,owner_08
+hist_000262,opp_0053,acct_0219,Validation,2,2026-06-06,2026-06-13,owner_08
+hist_000263,opp_0053,acct_0219,Proposal,3,2026-06-13,2026-06-21,owner_08
+hist_000264,opp_0053,acct_0219,Negotiation,4,2026-06-21,2026-06-28,owner_08
+hist_000265,opp_0053,acct_0219,Closed Won,5,2026-06-28,2026-07-05,owner_08
+hist_000266,opp_0054,acct_0224,Discovery,1,2026-05-27,2026-06-04,owner_03
+hist_000267,opp_0054,acct_0224,Validation,2,2026-06-04,2026-06-12,owner_03
+hist_000268,opp_0054,acct_0224,Proposal,3,2026-06-12,2026-06-21,owner_03
+hist_000269,opp_0054,acct_0224,Negotiation,4,2026-06-21,2026-06-29,owner_03
+hist_000270,opp_0054,acct_0224,Closed Won,5,2026-06-29,2026-07-07,owner_03
+hist_000271,opp_0055,acct_0229,Discovery,1,2026-05-15,2026-05-29,owner_06
+hist_000272,opp_0055,acct_0229,Validation,2,2026-05-29,2026-06-11,owner_06
+hist_000273,opp_0055,acct_0229,Proposal,3,2026-06-11,2026-06-25,owner_06
+hist_000274,opp_0055,acct_0229,Negotiation,4,2026-06-25,2026-07-08,owner_06
+hist_000275,opp_0055,acct_0229,Closed Won,5,2026-07-08,2026-07-22,owner_06
+hist_000276,opp_0056,acct_0231,Discovery,1,2026-08-13,2026-08-19,owner_01
+hist_000277,opp_0056,acct_0231,Validation,2,2026-08-19,2026-08-24,owner_01
+hist_000278,opp_0056,acct_0231,Proposal,3,2026-08-24,2026-08-30,owner_01
+hist_000279,opp_0056,acct_0231,Negotiation,4,2026-08-30,2026-09-04,owner_01
+hist_000280,opp_0056,acct_0231,Closed Won,5,2026-09-04,2026-09-10,owner_01
+hist_000281,opp_0057,acct_0236,Discovery,1,2026-06-13,2026-07-03,owner_02
+hist_000282,opp_0057,acct_0236,Validation,2,2026-07-03,2026-07-23,owner_02
+hist_000283,opp_0057,acct_0236,Proposal,3,2026-07-23,2026-08-12,owner_02
+hist_000284,opp_0057,acct_0236,Negotiation,4,2026-08-12,2026-09-01,owner_02
+hist_000285,opp_0057,acct_0236,Closed Won,5,2026-09-01,2026-09-21,owner_02
+hist_000286,opp_0058,acct_0239,Discovery,1,2026-06-11,2026-07-01,owner_05
+hist_000287,opp_0058,acct_0239,Validation,2,2026-07-01,2026-07-22,owner_05
+hist_000288,opp_0058,acct_0239,Proposal,3,2026-07-22,2026-08-11,owner_05
+hist_000289,opp_0058,acct_0239,Negotiation,4,2026-08-11,2026-09-01,owner_05
+hist_000290,opp_0058,acct_0239,Closed Won,5,2026-09-01,2026-09-21,owner_05
+hist_000291,opp_0059,acct_0241,Discovery,1,2026-05-25,2026-06-07,owner_04
+hist_000292,opp_0059,acct_0241,Validation,2,2026-06-07,2026-06-20,owner_04
+hist_000293,opp_0059,acct_0241,Proposal,3,2026-06-20,2026-07-02,owner_04
+hist_000294,opp_0059,acct_0241,Negotiation,4,2026-07-02,2026-07-15,owner_04
+hist_000295,opp_0059,acct_0241,Closed Won,5,2026-07-15,2026-07-28,owner_04
+hist_000296,opp_0060,acct_0253,Discovery,1,2026-06-30,2026-07-09,owner_06
+hist_000297,opp_0060,acct_0253,Validation,2,2026-07-09,2026-07-17,owner_06
+hist_000298,opp_0060,acct_0253,Proposal,3,2026-07-17,2026-07-26,owner_06
+hist_000299,opp_0060,acct_0253,Negotiation,4,2026-07-26,2026-08-03,owner_06
+hist_000300,opp_0060,acct_0253,Closed Won,5,2026-08-03,2026-08-12,owner_06
+hist_000301,opp_0061,acct_0254,Discovery,1,2026-05-01,2026-05-17,owner_07
+hist_000302,opp_0061,acct_0254,Validation,2,2026-05-17,2026-06-03,owner_07
+hist_000303,opp_0061,acct_0254,Proposal,3,2026-06-03,2026-06-19,owner_07
+hist_000304,opp_0061,acct_0254,Negotiation,4,2026-06-19,2026-07-06,owner_07
+hist_000305,opp_0061,acct_0254,Closed Won,5,2026-07-06,2026-07-22,owner_07
+hist_000306,opp_0062,acct_0255,Discovery,1,2026-07-20,2026-08-02,owner_06
+hist_000307,opp_0062,acct_0255,Validation,2,2026-08-02,2026-08-14,owner_06
+hist_000308,opp_0062,acct_0255,Proposal,3,2026-08-14,2026-08-27,owner_06
+hist_000309,opp_0062,acct_0255,Negotiation,4,2026-08-27,2026-09-08,owner_06
+hist_000310,opp_0062,acct_0255,Closed Won,5,2026-09-08,2026-09-21,owner_06
+hist_000311,opp_0063,acct_0261,Discovery,1,2026-07-23,2026-07-29,owner_01
+hist_000312,opp_0063,acct_0261,Validation,2,2026-07-29,2026-08-04,owner_01
+hist_000313,opp_0063,acct_0261,Proposal,3,2026-08-04,2026-08-09,owner_01
+hist_000314,opp_0063,acct_0261,Negotiation,4,2026-08-09,2026-08-15,owner_01
+hist_000315,opp_0063,acct_0261,Closed Won,5,2026-08-15,2026-08-21,owner_01
+hist_000316,opp_0064,acct_0264,Discovery,1,2026-07-26,2026-08-03,owner_08
+hist_000317,opp_0064,acct_0264,Validation,2,2026-08-03,2026-08-12,owner_08
+hist_000318,opp_0064,acct_0264,Proposal,3,2026-08-12,2026-08-20,owner_08
+hist_000319,opp_0064,acct_0264,Negotiation,4,2026-08-20,2026-08-29,owner_08
+hist_000320,opp_0064,acct_0264,Closed Won,5,2026-08-29,2026-09-06,owner_08
+hist_000321,opp_0065,acct_0268,Discovery,1,2026-07-24,2026-08-06,owner_04
+hist_000322,opp_0065,acct_0268,Validation,2,2026-08-06,2026-08-19,owner_04
+hist_000323,opp_0065,acct_0268,Proposal,3,2026-08-19,2026-09-01,owner_04
+hist_000324,opp_0065,acct_0268,Negotiation,4,2026-09-01,2026-09-14,owner_04
+hist_000325,opp_0065,acct_0268,Closed Won,5,2026-09-14,2026-09-27,owner_04
+hist_000326,opp_0066,acct_0271,Discovery,1,2026-06-28,2026-07-04,owner_06
+hist_000327,opp_0066,acct_0271,Validation,2,2026-07-04,2026-07-11,owner_06
+hist_000328,opp_0066,acct_0271,Proposal,3,2026-07-11,2026-07-17,owner_06
+hist_000329,opp_0066,acct_0271,Negotiation,4,2026-07-17,2026-07-24,owner_06
+hist_000330,opp_0066,acct_0271,Closed Won,5,2026-07-24,2026-07-30,owner_06
+hist_000331,opp_0067,acct_0278,Discovery,1,2026-08-14,2026-08-19,owner_03
+hist_000332,opp_0067,acct_0278,Validation,2,2026-08-19,2026-08-24,owner_03
+hist_000333,opp_0067,acct_0278,Proposal,3,2026-08-24,2026-08-28,owner_03
+hist_000334,opp_0067,acct_0278,Negotiation,4,2026-08-28,2026-09-02,owner_03
+hist_000335,opp_0067,acct_0278,Closed Won,5,2026-09-02,2026-09-07,owner_03
+hist_000336,opp_0068,acct_0286,Discovery,1,2026-07-31,2026-08-10,owner_03
+hist_000337,opp_0068,acct_0286,Validation,2,2026-08-10,2026-08-20,owner_03
+hist_000338,opp_0068,acct_0286,Proposal,3,2026-08-20,2026-08-30,owner_03
+hist_000339,opp_0068,acct_0286,Negotiation,4,2026-08-30,2026-09-09,owner_03
+hist_000340,opp_0068,acct_0286,Closed Won,5,2026-09-09,2026-09-19,owner_03
+hist_000341,opp_0069,acct_0288,Discovery,1,2026-06-26,2026-07-11,owner_01
+hist_000342,opp_0069,acct_0288,Validation,2,2026-07-11,2026-07-26,owner_01
+hist_000343,opp_0069,acct_0288,Proposal,3,2026-07-26,2026-08-11,owner_01
+hist_000344,opp_0069,acct_0288,Negotiation,4,2026-08-11,2026-08-26,owner_01
+hist_000345,opp_0069,acct_0288,Closed Won,5,2026-08-26,2026-09-10,owner_01
+hist_000346,opp_0070,acct_0297,Discovery,1,2026-05-16,2026-05-31,owner_05
+hist_000347,opp_0070,acct_0297,Validation,2,2026-05-31,2026-06-16,owner_05
+hist_000348,opp_0070,acct_0297,Proposal,3,2026-06-16,2026-07-01,owner_05
+hist_000349,opp_0070,acct_0297,Negotiation,4,2026-07-01,2026-07-17,owner_05
+hist_000350,opp_0070,acct_0297,Closed Won,5,2026-07-17,2026-08-01,owner_05
+hist_000351,opp_0071,acct_0300,Discovery,1,2026-06-01,2026-06-15,owner_05
+hist_000352,opp_0071,acct_0300,Validation,2,2026-06-15,2026-06-28,owner_05
+hist_000353,opp_0071,acct_0300,Proposal,3,2026-06-28,2026-07-12,owner_05
+hist_000354,opp_0071,acct_0300,Negotiation,4,2026-07-12,2026-07-25,owner_05
+hist_000355,opp_0071,acct_0300,Closed Won,5,2026-07-25,2026-08-08,owner_05
+hist_000356,opp_0072,acct_0301,Discovery,1,2026-06-04,2026-06-21,owner_08
+hist_000357,opp_0072,acct_0301,Validation,2,2026-06-21,2026-07-08,owner_08
+hist_000358,opp_0072,acct_0301,Proposal,3,2026-07-08,2026-07-24,owner_08
+hist_000359,opp_0072,acct_0301,Negotiation,4,2026-07-24,2026-08-10,owner_08
+hist_000360,opp_0072,acct_0301,Closed Won,5,2026-08-10,2026-08-27,owner_08
+hist_000361,opp_0073,acct_0302,Discovery,1,2026-07-10,2026-07-22,owner_03
+hist_000362,opp_0073,acct_0302,Validation,2,2026-07-22,2026-08-04,owner_03
+hist_000363,opp_0073,acct_0302,Proposal,3,2026-08-04,2026-08-16,owner_03
+hist_000364,opp_0073,acct_0302,Negotiation,4,2026-08-16,2026-08-29,owner_03
+hist_000365,opp_0073,acct_0302,Closed Won,5,2026-08-29,2026-09-10,owner_03
+hist_000366,opp_0074,acct_0305,Discovery,1,2026-05-22,2026-06-05,owner_02
+hist_000367,opp_0074,acct_0305,Validation,2,2026-06-05,2026-06-19,owner_02
+hist_000368,opp_0074,acct_0305,Proposal,3,2026-06-19,2026-07-02,owner_02
+hist_000369,opp_0074,acct_0305,Negotiation,4,2026-07-02,2026-07-16,owner_02
+hist_000370,opp_0074,acct_0305,Closed Won,5,2026-07-16,2026-07-30,owner_02
+hist_000371,opp_0075,acct_0307,Discovery,1,2026-06-14,2026-06-24,owner_03
+hist_000372,opp_0075,acct_0307,Validation,2,2026-06-24,2026-07-04,owner_03
+hist_000373,opp_0075,acct_0307,Proposal,3,2026-07-04,2026-07-13,owner_03
+hist_000374,opp_0075,acct_0307,Negotiation,4,2026-07-13,2026-07-23,owner_03
+hist_000375,opp_0075,acct_0307,Closed Won,5,2026-07-23,2026-08-02,owner_03
+hist_000376,opp_0076,acct_0322,Discovery,1,2026-06-03,2026-06-19,owner_01
+hist_000377,opp_0076,acct_0322,Validation,2,2026-06-19,2026-07-06,owner_01
+hist_000378,opp_0076,acct_0322,Proposal,3,2026-07-06,2026-07-22,owner_01
+hist_000379,opp_0076,acct_0322,Negotiation,4,2026-07-22,2026-08-08,owner_01
+hist_000380,opp_0076,acct_0322,Closed Won,5,2026-08-08,2026-08-24,owner_01
+hist_000381,opp_0077,acct_0324,Discovery,1,2026-05-29,2026-06-16,owner_03
+hist_000382,opp_0077,acct_0324,Validation,2,2026-06-16,2026-07-03,owner_03
+hist_000383,opp_0077,acct_0324,Proposal,3,2026-07-03,2026-07-21,owner_03
+hist_000384,opp_0077,acct_0324,Negotiation,4,2026-07-21,2026-08-07,owner_03
+hist_000385,opp_0077,acct_0324,Closed Won,5,2026-08-07,2026-08-25,owner_03
+hist_000386,opp_0078,acct_0325,Discovery,1,2026-08-07,2026-08-17,owner_05
+hist_000387,opp_0078,acct_0325,Validation,2,2026-08-17,2026-08-27,owner_05
+hist_000388,opp_0078,acct_0325,Proposal,3,2026-08-27,2026-09-06,owner_05
+hist_000389,opp_0078,acct_0325,Negotiation,4,2026-09-06,2026-09-16,owner_05
+hist_000390,opp_0078,acct_0325,Closed Won,5,2026-09-16,2026-09-26,owner_05
+hist_000391,opp_0079,acct_0329,Discovery,1,2026-03-30,2026-04-19,owner_07
+hist_000392,opp_0079,acct_0329,Validation,2,2026-04-19,2026-05-09,owner_07
+hist_000393,opp_0079,acct_0329,Proposal,3,2026-05-09,2026-05-29,owner_07
+hist_000394,opp_0079,acct_0329,Negotiation,4,2026-05-29,2026-06-18,owner_07
+hist_000395,opp_0079,acct_0329,Closed Won,5,2026-06-18,2026-07-08,owner_07
+hist_000396,opp_0080,acct_0346,Discovery,1,2026-05-14,2026-05-26,owner_08
+hist_000397,opp_0080,acct_0346,Validation,2,2026-05-26,2026-06-07,owner_08
+hist_000398,opp_0080,acct_0346,Proposal,3,2026-06-07,2026-06-19,owner_08
+hist_000399,opp_0080,acct_0346,Negotiation,4,2026-06-19,2026-07-01,owner_08
+hist_000400,opp_0080,acct_0346,Closed Won,5,2026-07-01,2026-07-13,owner_08
+hist_000401,opp_0081,acct_0357,Discovery,1,2026-06-19,2026-06-29,owner_03
+hist_000402,opp_0081,acct_0357,Validation,2,2026-06-29,2026-07-09,owner_03
+hist_000403,opp_0081,acct_0357,Proposal,3,2026-07-09,2026-07-20,owner_03
+hist_000404,opp_0081,acct_0357,Negotiation,4,2026-07-20,2026-07-30,owner_03
+hist_000405,opp_0081,acct_0357,Closed Won,5,2026-07-30,2026-08-09,owner_03
+hist_000406,opp_0082,acct_0362,Discovery,1,2026-04-30,2026-05-13,owner_07
+hist_000407,opp_0082,acct_0362,Validation,2,2026-05-13,2026-05-26,owner_07
+hist_000408,opp_0082,acct_0362,Proposal,3,2026-05-26,2026-06-08,owner_07
+hist_000409,opp_0082,acct_0362,Negotiation,4,2026-06-08,2026-06-21,owner_07
+hist_000410,opp_0082,acct_0362,Closed Won,5,2026-06-21,2026-07-04,owner_07
+hist_000411,opp_0083,acct_0364,Discovery,1,2026-06-16,2026-06-21,owner_08
+hist_000412,opp_0083,acct_0364,Validation,2,2026-06-21,2026-06-26,owner_08
+hist_000413,opp_0083,acct_0364,Proposal,3,2026-06-26,2026-06-30,owner_08
+hist_000414,opp_0083,acct_0364,Negotiation,4,2026-06-30,2026-07-05,owner_08
+hist_000415,opp_0083,acct_0364,Closed Won,5,2026-07-05,2026-07-10,owner_08
+hist_000416,opp_0084,acct_0365,Discovery,1,2026-07-11,2026-07-23,owner_03
+hist_000417,opp_0084,acct_0365,Validation,2,2026-07-23,2026-08-03,owner_03
+hist_000418,opp_0084,acct_0365,Proposal,3,2026-08-03,2026-08-15,owner_03
+hist_000419,opp_0084,acct_0365,Negotiation,4,2026-08-15,2026-08-26,owner_03
+hist_000420,opp_0084,acct_0365,Closed Won,5,2026-08-26,2026-09-07,owner_03
+hist_000421,opp_0085,acct_0373,Discovery,1,2026-08-23,2026-08-27,owner_04
+hist_000422,opp_0085,acct_0373,Validation,2,2026-08-27,2026-09-01,owner_04
+hist_000423,opp_0085,acct_0373,Proposal,3,2026-09-01,2026-09-05,owner_04
+hist_000424,opp_0085,acct_0373,Negotiation,4,2026-09-05,2026-09-10,owner_04
+hist_000425,opp_0085,acct_0373,Closed Won,5,2026-09-10,2026-09-14,owner_04
+hist_000426,opp_0086,acct_0377,Discovery,1,2026-08-18,2026-08-24,owner_01
+hist_000427,opp_0086,acct_0377,Validation,2,2026-08-24,2026-08-30,owner_01
+hist_000428,opp_0086,acct_0377,Proposal,3,2026-08-30,2026-09-06,owner_01
+hist_000429,opp_0086,acct_0377,Negotiation,4,2026-09-06,2026-09-12,owner_01
+hist_000430,opp_0086,acct_0377,Closed Won,5,2026-09-12,2026-09-18,owner_01
+hist_000431,opp_0087,acct_0387,Discovery,1,2026-05-06,2026-05-25,owner_01
+hist_000432,opp_0087,acct_0387,Validation,2,2026-05-25,2026-06-13,owner_01
+hist_000433,opp_0087,acct_0387,Proposal,3,2026-06-13,2026-07-02,owner_01
+hist_000434,opp_0087,acct_0387,Negotiation,4,2026-07-02,2026-07-21,owner_01
+hist_000435,opp_0087,acct_0387,Closed Won,5,2026-07-21,2026-08-09,owner_01
+hist_000436,opp_0088,acct_0389,Discovery,1,2026-06-23,2026-07-03,owner_08
+hist_000437,opp_0088,acct_0389,Validation,2,2026-07-03,2026-07-13,owner_08
+hist_000438,opp_0088,acct_0389,Proposal,3,2026-07-13,2026-07-22,owner_08
+hist_000439,opp_0088,acct_0389,Negotiation,4,2026-07-22,2026-08-01,owner_08
+hist_000440,opp_0088,acct_0389,Closed Won,5,2026-08-01,2026-08-11,owner_08
+hist_000441,opp_0089,acct_0397,Discovery,1,2026-07-23,2026-08-04,owner_01
+hist_000442,opp_0089,acct_0397,Validation,2,2026-08-04,2026-08-16,owner_01
+hist_000443,opp_0089,acct_0397,Proposal,3,2026-08-16,2026-08-28,owner_01
+hist_000444,opp_0089,acct_0397,Negotiation,4,2026-08-28,2026-09-09,owner_01
+hist_000445,opp_0089,acct_0397,Closed Won,5,2026-09-09,2026-09-21,owner_01
+hist_000446,opp_0090,acct_0398,Discovery,1,2026-05-23,2026-06-05,owner_03
+hist_000447,opp_0090,acct_0398,Validation,2,2026-06-05,2026-06-19,owner_03
+hist_000448,opp_0090,acct_0398,Proposal,3,2026-06-19,2026-07-02,owner_03
+hist_000449,opp_0090,acct_0398,Negotiation,4,2026-07-02,2026-07-16,owner_03
+hist_000450,opp_0090,acct_0398,Closed Won,5,2026-07-16,2026-07-29,owner_03
+hist_000451,opp_0091,acct_0405,Discovery,1,2026-07-16,2026-07-21,owner_03
+hist_000452,opp_0091,acct_0405,Validation,2,2026-07-21,2026-07-27,owner_03
+hist_000453,opp_0091,acct_0405,Proposal,3,2026-07-27,2026-08-01,owner_03
+hist_000454,opp_0091,acct_0405,Negotiation,4,2026-08-01,2026-08-07,owner_03
+hist_000455,opp_0091,acct_0405,Closed Won,5,2026-08-07,2026-08-12,owner_03
+hist_000456,opp_0092,acct_0408,Discovery,1,2026-05-24,2026-06-08,owner_06
+hist_000457,opp_0092,acct_0408,Validation,2,2026-06-08,2026-06-23,owner_06
+hist_000458,opp_0092,acct_0408,Proposal,3,2026-06-23,2026-07-08,owner_06
+hist_000459,opp_0092,acct_0408,Negotiation,4,2026-07-08,2026-07-23,owner_06
+hist_000460,opp_0092,acct_0408,Closed Won,5,2026-07-23,2026-08-07,owner_06
+hist_000461,opp_0093,acct_0411,Discovery,1,2026-05-21,2026-06-07,owner_05
+hist_000462,opp_0093,acct_0411,Validation,2,2026-06-07,2026-06-24,owner_05
+hist_000463,opp_0093,acct_0411,Proposal,3,2026-06-24,2026-07-12,owner_05
+hist_000464,opp_0093,acct_0411,Negotiation,4,2026-07-12,2026-07-29,owner_05
+hist_000465,opp_0093,acct_0411,Closed Won,5,2026-07-29,2026-08-15,owner_05
+hist_000466,opp_0094,acct_0413,Discovery,1,2026-06-27,2026-07-15,owner_03
+hist_000467,opp_0094,acct_0413,Validation,2,2026-07-15,2026-08-02,owner_03
+hist_000468,opp_0094,acct_0413,Proposal,3,2026-08-02,2026-08-21,owner_03
+hist_000469,opp_0094,acct_0413,Negotiation,4,2026-08-21,2026-09-08,owner_03
+hist_000470,opp_0094,acct_0413,Closed Won,5,2026-09-08,2026-09-26,owner_03
+hist_000471,opp_0095,acct_0417,Discovery,1,2026-05-25,2026-06-13,owner_03
+hist_000472,opp_0095,acct_0417,Validation,2,2026-06-13,2026-07-02,owner_03
+hist_000473,opp_0095,acct_0417,Proposal,3,2026-07-02,2026-07-22,owner_03
+hist_000474,opp_0095,acct_0417,Negotiation,4,2026-07-22,2026-08-10,owner_03
+hist_000475,opp_0095,acct_0417,Closed Won,5,2026-08-10,2026-08-29,owner_03
+hist_000476,opp_0096,acct_0419,Discovery,1,2026-06-15,2026-07-02,owner_04
+hist_000477,opp_0096,acct_0419,Validation,2,2026-07-02,2026-07-20,owner_04
+hist_000478,opp_0096,acct_0419,Proposal,3,2026-07-20,2026-08-06,owner_04
+hist_000479,opp_0096,acct_0419,Negotiation,4,2026-08-06,2026-08-24,owner_04
+hist_000480,opp_0096,acct_0419,Closed Won,5,2026-08-24,2026-09-10,owner_04
+hist_000481,opp_0097,acct_0420,Discovery,1,2026-06-14,2026-06-28,owner_04
+hist_000482,opp_0097,acct_0420,Validation,2,2026-06-28,2026-07-12,owner_04
+hist_000483,opp_0097,acct_0420,Proposal,3,2026-07-12,2026-07-26,owner_04
+hist_000484,opp_0097,acct_0420,Negotiation,4,2026-07-26,2026-08-09,owner_04
+hist_000485,opp_0097,acct_0420,Closed Won,5,2026-08-09,2026-08-23,owner_04
+hist_000486,opp_0098,acct_0424,Discovery,1,2026-07-04,2026-07-13,owner_01
+hist_000487,opp_0098,acct_0424,Validation,2,2026-07-13,2026-07-22,owner_01
+hist_000488,opp_0098,acct_0424,Proposal,3,2026-07-22,2026-08-01,owner_01
+hist_000489,opp_0098,acct_0424,Negotiation,4,2026-08-01,2026-08-10,owner_01
+hist_000490,opp_0098,acct_0424,Closed Won,5,2026-08-10,2026-08-19,owner_01
+hist_000491,opp_0099,acct_0425,Discovery,1,2026-08-26,2026-09-02,owner_02
+hist_000492,opp_0099,acct_0425,Validation,2,2026-09-02,2026-09-09,owner_02
+hist_000493,opp_0099,acct_0425,Proposal,3,2026-09-09,2026-09-15,owner_02
+hist_000494,opp_0099,acct_0425,Negotiation,4,2026-09-15,2026-09-22,owner_02
+hist_000495,opp_0099,acct_0425,Closed Won,5,2026-09-22,2026-09-29,owner_02
+hist_000496,opp_0100,acct_0431,Discovery,1,2026-05-09,2026-05-22,owner_05
+hist_000497,opp_0100,acct_0431,Validation,2,2026-05-22,2026-06-05,owner_05
+hist_000498,opp_0100,acct_0431,Proposal,3,2026-06-05,2026-06-18,owner_05
+hist_000499,opp_0100,acct_0431,Negotiation,4,2026-06-18,2026-07-02,owner_05
+hist_000500,opp_0100,acct_0431,Closed Won,5,2026-07-02,2026-07-15,owner_05
+hist_000501,opp_0101,acct_0439,Discovery,1,2026-06-22,2026-06-29,owner_07
+hist_000502,opp_0101,acct_0439,Validation,2,2026-06-29,2026-07-07,owner_07
+hist_000503,opp_0101,acct_0439,Proposal,3,2026-07-07,2026-07-14,owner_07
+hist_000504,opp_0101,acct_0439,Negotiation,4,2026-07-14,2026-07-22,owner_07
+hist_000505,opp_0101,acct_0439,Closed Won,5,2026-07-22,2026-07-29,owner_07
+hist_000506,opp_0102,acct_0443,Discovery,1,2026-08-05,2026-08-15,owner_02
+hist_000507,opp_0102,acct_0443,Validation,2,2026-08-15,2026-08-25,owner_02
+hist_000508,opp_0102,acct_0443,Proposal,3,2026-08-25,2026-09-04,owner_02
+hist_000509,opp_0102,acct_0443,Negotiation,4,2026-09-04,2026-09-14,owner_02
+hist_000510,opp_0102,acct_0443,Closed Won,5,2026-09-14,2026-09-24,owner_02
+hist_000511,opp_0103,acct_0455,Discovery,1,2026-07-28,2026-08-01,owner_06
+hist_000512,opp_0103,acct_0455,Validation,2,2026-08-01,2026-08-05,owner_06
+hist_000513,opp_0103,acct_0455,Proposal,3,2026-08-05,2026-08-09,owner_06
+hist_000514,opp_0103,acct_0455,Negotiation,4,2026-08-09,2026-08-13,owner_06
+hist_000515,opp_0103,acct_0455,Closed Won,5,2026-08-13,2026-08-17,owner_06
+hist_000516,opp_0104,acct_0460,Discovery,1,2026-08-08,2026-08-17,owner_07
+hist_000517,opp_0104,acct_0460,Validation,2,2026-08-17,2026-08-26,owner_07
+hist_000518,opp_0104,acct_0460,Proposal,3,2026-08-26,2026-09-05,owner_07
+hist_000519,opp_0104,acct_0460,Negotiation,4,2026-09-05,2026-09-14,owner_07
+hist_000520,opp_0104,acct_0460,Closed Won,5,2026-09-14,2026-09-23,owner_07
+hist_000521,opp_0105,acct_0461,Discovery,1,2026-08-10,2026-08-19,owner_05
+hist_000522,opp_0105,acct_0461,Validation,2,2026-08-19,2026-08-28,owner_05
+hist_000523,opp_0105,acct_0461,Proposal,3,2026-08-28,2026-09-05,owner_05
+hist_000524,opp_0105,acct_0461,Negotiation,4,2026-09-05,2026-09-14,owner_05
+hist_000525,opp_0105,acct_0461,Closed Won,5,2026-09-14,2026-09-23,owner_05
+hist_000526,opp_0106,acct_0464,Discovery,1,2026-06-23,2026-07-11,owner_05
+hist_000527,opp_0106,acct_0464,Validation,2,2026-07-11,2026-07-29,owner_05
+hist_000528,opp_0106,acct_0464,Proposal,3,2026-07-29,2026-08-16,owner_05
+hist_000529,opp_0106,acct_0464,Negotiation,4,2026-08-16,2026-09-03,owner_05
+hist_000530,opp_0106,acct_0464,Closed Won,5,2026-09-03,2026-09-21,owner_05
+hist_000531,opp_0107,acct_0483,Discovery,1,2026-06-18,2026-06-26,owner_03
+hist_000532,opp_0107,acct_0483,Validation,2,2026-06-26,2026-07-04,owner_03
+hist_000533,opp_0107,acct_0483,Proposal,3,2026-07-04,2026-07-11,owner_03
+hist_000534,opp_0107,acct_0483,Negotiation,4,2026-07-11,2026-07-19,owner_03
+hist_000535,opp_0107,acct_0483,Closed Won,5,2026-07-19,2026-07-27,owner_03
+hist_000536,opp_0108,acct_0486,Discovery,1,2026-06-20,2026-06-27,owner_07
+hist_000537,opp_0108,acct_0486,Validation,2,2026-06-27,2026-07-05,owner_07
+hist_000538,opp_0108,acct_0486,Proposal,3,2026-07-05,2026-07-12,owner_07
+hist_000539,opp_0108,acct_0486,Negotiation,4,2026-07-12,2026-07-20,owner_07
+hist_000540,opp_0108,acct_0486,Closed Won,5,2026-07-20,2026-07-27,owner_07
+hist_000541,opp_0109,acct_0488,Discovery,1,2026-08-10,2026-08-14,owner_04
+hist_000542,opp_0109,acct_0488,Validation,2,2026-08-14,2026-08-19,owner_04
+hist_000543,opp_0109,acct_0488,Proposal,3,2026-08-19,2026-08-23,owner_04
+hist_000544,opp_0109,acct_0488,Negotiation,4,2026-08-23,2026-08-28,owner_04
+hist_000545,opp_0109,acct_0488,Closed Won,5,2026-08-28,2026-09-01,owner_04
+hist_000546,opp_0110,acct_0490,Discovery,1,2026-05-01,2026-05-18,owner_04
+hist_000547,opp_0110,acct_0490,Validation,2,2026-05-18,2026-06-04,owner_04
+hist_000548,opp_0110,acct_0490,Proposal,3,2026-06-04,2026-06-22,owner_04
+hist_000549,opp_0110,acct_0490,Negotiation,4,2026-06-22,2026-07-09,owner_04
+hist_000550,opp_0110,acct_0490,Closed Won,5,2026-07-09,2026-07-26,owner_04
+hist_000551,opp_0111,acct_0495,Discovery,1,2026-08-05,2026-08-13,owner_04
+hist_000552,opp_0111,acct_0495,Validation,2,2026-08-13,2026-08-20,owner_04
+hist_000553,opp_0111,acct_0495,Proposal,3,2026-08-20,2026-08-28,owner_04
+hist_000554,opp_0111,acct_0495,Negotiation,4,2026-08-28,2026-09-04,owner_04
+hist_000555,opp_0111,acct_0495,Closed Won,5,2026-09-04,2026-09-12,owner_04
+hist_000556,opp_0112,acct_0497,Discovery,1,2026-06-04,2026-06-18,owner_04
+hist_000557,opp_0112,acct_0497,Validation,2,2026-06-18,2026-07-02,owner_04
+hist_000558,opp_0112,acct_0497,Proposal,3,2026-07-02,2026-07-15,owner_04
+hist_000559,opp_0112,acct_0497,Negotiation,4,2026-07-15,2026-07-29,owner_04
+hist_000560,opp_0112,acct_0497,Closed Won,5,2026-07-29,2026-08-12,owner_04
+hist_000561,opp_0113,acct_0498,Discovery,1,2026-08-09,2026-08-14,owner_02
+hist_000562,opp_0113,acct_0498,Validation,2,2026-08-14,2026-08-19,owner_02
+hist_000563,opp_0113,acct_0498,Proposal,3,2026-08-19,2026-08-25,owner_02
+hist_000564,opp_0113,acct_0498,Negotiation,4,2026-08-25,2026-08-30,owner_02
+hist_000565,opp_0113,acct_0498,Closed Won,5,2026-08-30,2026-09-04,owner_02
+hist_000566,opp_0114,acct_0500,Discovery,1,2026-07-02,2026-07-12,owner_03
+hist_000567,opp_0114,acct_0500,Validation,2,2026-07-12,2026-07-22,owner_03
+hist_000568,opp_0114,acct_0500,Proposal,3,2026-07-22,2026-08-02,owner_03
+hist_000569,opp_0114,acct_0500,Negotiation,4,2026-08-02,2026-08-12,owner_03
+hist_000570,opp_0114,acct_0500,Closed Won,5,2026-08-12,2026-08-22,owner_03
+hist_000571,opp_0115,acct_0501,Discovery,1,2026-06-16,2026-06-21,owner_03
+hist_000572,opp_0115,acct_0501,Validation,2,2026-06-21,2026-06-27,owner_03
+hist_000573,opp_0115,acct_0501,Proposal,3,2026-06-27,2026-07-02,owner_03
+hist_000574,opp_0115,acct_0501,Negotiation,4,2026-07-02,2026-07-08,owner_03
+hist_000575,opp_0115,acct_0501,Closed Won,5,2026-07-08,2026-07-13,owner_03
+hist_000576,opp_0116,acct_0503,Discovery,1,2026-07-04,2026-07-19,owner_04
+hist_000577,opp_0116,acct_0503,Validation,2,2026-07-19,2026-08-03,owner_04
+hist_000578,opp_0116,acct_0503,Proposal,3,2026-08-03,2026-08-17,owner_04
+hist_000579,opp_0116,acct_0503,Negotiation,4,2026-08-17,2026-09-01,owner_04
+hist_000580,opp_0116,acct_0503,Closed Won,5,2026-09-01,2026-09-16,owner_04
+hist_000581,opp_0117,acct_0506,Discovery,1,2026-08-29,2026-09-04,owner_08
+hist_000582,opp_0117,acct_0506,Validation,2,2026-09-04,2026-09-10,owner_08
+hist_000583,opp_0117,acct_0506,Proposal,3,2026-09-10,2026-09-16,owner_08
+hist_000584,opp_0117,acct_0506,Negotiation,4,2026-09-16,2026-09-22,owner_08
+hist_000585,opp_0117,acct_0506,Closed Won,5,2026-09-22,2026-09-28,owner_08
+hist_000586,opp_0118,acct_0507,Discovery,1,2026-04-22,2026-05-08,owner_06
+hist_000587,opp_0118,acct_0507,Validation,2,2026-05-08,2026-05-25,owner_06
+hist_000588,opp_0118,acct_0507,Proposal,3,2026-05-25,2026-06-10,owner_06
+hist_000589,opp_0118,acct_0507,Negotiation,4,2026-06-10,2026-06-27,owner_06
+hist_000590,opp_0118,acct_0507,Closed Won,5,2026-06-27,2026-07-13,owner_06
+hist_000591,opp_0119,acct_0510,Discovery,1,2026-04-14,2026-05-05,owner_01
+hist_000592,opp_0119,acct_0510,Validation,2,2026-05-05,2026-05-26,owner_01
+hist_000593,opp_0119,acct_0510,Proposal,3,2026-05-26,2026-06-15,owner_01
+hist_000594,opp_0119,acct_0510,Negotiation,4,2026-06-15,2026-07-06,owner_01
+hist_000595,opp_0119,acct_0510,Closed Won,5,2026-07-06,2026-07-27,owner_01
+hist_000596,opp_0120,acct_0512,Discovery,1,2026-05-25,2026-06-08,owner_06
+hist_000597,opp_0120,acct_0512,Validation,2,2026-06-08,2026-06-22,owner_06
+hist_000598,opp_0120,acct_0512,Proposal,3,2026-06-22,2026-07-07,owner_06
+hist_000599,opp_0120,acct_0512,Negotiation,4,2026-07-07,2026-07-21,owner_06
+hist_000600,opp_0120,acct_0512,Closed Won,5,2026-07-21,2026-08-04,owner_06
+hist_000601,opp_0121,acct_0519,Discovery,1,2026-08-05,2026-08-14,owner_01
+hist_000602,opp_0121,acct_0519,Validation,2,2026-08-14,2026-08-23,owner_01
+hist_000603,opp_0121,acct_0519,Proposal,3,2026-08-23,2026-09-02,owner_01
+hist_000604,opp_0121,acct_0519,Negotiation,4,2026-09-02,2026-09-11,owner_01
+hist_000605,opp_0121,acct_0519,Closed Won,5,2026-09-11,2026-09-20,owner_01
+hist_000606,opp_0122,acct_0525,Discovery,1,2026-05-11,2026-05-22,owner_05
+hist_000607,opp_0122,acct_0525,Validation,2,2026-05-22,2026-06-03,owner_05
+hist_000608,opp_0122,acct_0525,Proposal,3,2026-06-03,2026-06-14,owner_05
+hist_000609,opp_0122,acct_0525,Negotiation,4,2026-06-14,2026-06-26,owner_05
+hist_000610,opp_0122,acct_0525,Closed Won,5,2026-06-26,2026-07-07,owner_05
+hist_000611,opp_0123,acct_0529,Discovery,1,2026-06-06,2026-06-19,owner_05
+hist_000612,opp_0123,acct_0529,Validation,2,2026-06-19,2026-07-03,owner_05
+hist_000613,opp_0123,acct_0529,Proposal,3,2026-07-03,2026-07-16,owner_05
+hist_000614,opp_0123,acct_0529,Negotiation,4,2026-07-16,2026-07-30,owner_05
+hist_000615,opp_0123,acct_0529,Closed Won,5,2026-07-30,2026-08-12,owner_05
+hist_000616,opp_0124,acct_0532,Discovery,1,2026-07-03,2026-07-20,owner_06
+hist_000617,opp_0124,acct_0532,Validation,2,2026-07-20,2026-08-06,owner_06
+hist_000618,opp_0124,acct_0532,Proposal,3,2026-08-06,2026-08-24,owner_06
+hist_000619,opp_0124,acct_0532,Negotiation,4,2026-08-24,2026-09-10,owner_06
+hist_000620,opp_0124,acct_0532,Closed Won,5,2026-09-10,2026-09-27,owner_06
+hist_000621,opp_0125,acct_0534,Discovery,1,2026-05-11,2026-05-30,owner_01
+hist_000622,opp_0125,acct_0534,Validation,2,2026-05-30,2026-06-18,owner_01
+hist_000623,opp_0125,acct_0534,Proposal,3,2026-06-18,2026-07-06,owner_01
+hist_000624,opp_0125,acct_0534,Negotiation,4,2026-07-06,2026-07-25,owner_01
+hist_000625,opp_0125,acct_0534,Closed Won,5,2026-07-25,2026-08-13,owner_01
+hist_000626,opp_0126,acct_0536,Discovery,1,2026-06-13,2026-06-23,owner_01
+hist_000627,opp_0126,acct_0536,Validation,2,2026-06-23,2026-07-03,owner_01
+hist_000628,opp_0126,acct_0536,Proposal,3,2026-07-03,2026-07-14,owner_01
+hist_000629,opp_0126,acct_0536,Negotiation,4,2026-07-14,2026-07-24,owner_01
+hist_000630,opp_0126,acct_0536,Closed Won,5,2026-07-24,2026-08-03,owner_01
+hist_000631,opp_0127,acct_0538,Discovery,1,2026-06-13,2026-06-25,owner_04
+hist_000632,opp_0127,acct_0538,Validation,2,2026-06-25,2026-07-07,owner_04
+hist_000633,opp_0127,acct_0538,Proposal,3,2026-07-07,2026-07-20,owner_04
+hist_000634,opp_0127,acct_0538,Negotiation,4,2026-07-20,2026-08-01,owner_04
+hist_000635,opp_0127,acct_0538,Closed Won,5,2026-08-01,2026-08-13,owner_04
+hist_000636,opp_0128,acct_0549,Discovery,1,2026-05-11,2026-05-24,owner_06
+hist_000637,opp_0128,acct_0549,Validation,2,2026-05-24,2026-06-05,owner_06
+hist_000638,opp_0128,acct_0549,Proposal,3,2026-06-05,2026-06-18,owner_06
+hist_000639,opp_0128,acct_0549,Negotiation,4,2026-06-18,2026-06-30,owner_06
+hist_000640,opp_0128,acct_0549,Closed Won,5,2026-06-30,2026-07-13,owner_06
+hist_000641,opp_0129,acct_0562,Discovery,1,2026-07-10,2026-07-25,owner_08
+hist_000642,opp_0129,acct_0562,Validation,2,2026-07-25,2026-08-09,owner_08
+hist_000643,opp_0129,acct_0562,Proposal,3,2026-08-09,2026-08-24,owner_08
+hist_000644,opp_0129,acct_0562,Negotiation,4,2026-08-24,2026-09-08,owner_08
+hist_000645,opp_0129,acct_0562,Closed Won,5,2026-09-08,2026-09-23,owner_08
+hist_000646,opp_0130,acct_0565,Discovery,1,2026-07-11,2026-07-15,owner_06
+hist_000647,opp_0130,acct_0565,Validation,2,2026-07-15,2026-07-20,owner_06
+hist_000648,opp_0130,acct_0565,Proposal,3,2026-07-20,2026-07-24,owner_06
+hist_000649,opp_0130,acct_0565,Negotiation,4,2026-07-24,2026-07-29,owner_06
+hist_000650,opp_0130,acct_0565,Closed Won,5,2026-07-29,2026-08-02,owner_06
+hist_000651,opp_0131,acct_0570,Discovery,1,2026-07-07,2026-07-12,owner_01
+hist_000652,opp_0131,acct_0570,Validation,2,2026-07-12,2026-07-16,owner_01
+hist_000653,opp_0131,acct_0570,Proposal,3,2026-07-16,2026-07-21,owner_01
+hist_000654,opp_0131,acct_0570,Negotiation,4,2026-07-21,2026-07-25,owner_01
+hist_000655,opp_0131,acct_0570,Closed Won,5,2026-07-25,2026-07-30,owner_01
+hist_000656,opp_0132,acct_0572,Discovery,1,2026-05-09,2026-05-24,owner_04
+hist_000657,opp_0132,acct_0572,Validation,2,2026-05-24,2026-06-07,owner_04
+hist_000658,opp_0132,acct_0572,Proposal,3,2026-06-07,2026-06-22,owner_04
+hist_000659,opp_0132,acct_0572,Negotiation,4,2026-06-22,2026-07-06,owner_04
+hist_000660,opp_0132,acct_0572,Closed Won,5,2026-07-06,2026-07-21,owner_04
+hist_000661,opp_0133,acct_0577,Discovery,1,2026-05-17,2026-05-31,owner_03
+hist_000662,opp_0133,acct_0577,Validation,2,2026-05-31,2026-06-15,owner_03
+hist_000663,opp_0133,acct_0577,Proposal,3,2026-06-15,2026-06-29,owner_03
+hist_000664,opp_0133,acct_0577,Negotiation,4,2026-06-29,2026-07-14,owner_03
+hist_000665,opp_0133,acct_0577,Closed Won,5,2026-07-14,2026-07-28,owner_03
+hist_000666,opp_0134,acct_0583,Discovery,1,2026-05-13,2026-06-01,owner_04
+hist_000667,opp_0134,acct_0583,Validation,2,2026-06-01,2026-06-20,owner_04
+hist_000668,opp_0134,acct_0583,Proposal,3,2026-06-20,2026-07-10,owner_04
+hist_000669,opp_0134,acct_0583,Negotiation,4,2026-07-10,2026-07-29,owner_04
+hist_000670,opp_0134,acct_0583,Closed Won,5,2026-07-29,2026-08-17,owner_04
+hist_000671,opp_0135,acct_0584,Discovery,1,2026-07-19,2026-07-29,owner_08
+hist_000672,opp_0135,acct_0584,Validation,2,2026-07-29,2026-08-08,owner_08
+hist_000673,opp_0135,acct_0584,Proposal,3,2026-08-08,2026-08-19,owner_08
+hist_000674,opp_0135,acct_0584,Negotiation,4,2026-08-19,2026-08-29,owner_08
+hist_000675,opp_0135,acct_0584,Closed Won,5,2026-08-29,2026-09-08,owner_08
+hist_000676,opp_0136,acct_0585,Discovery,1,2026-07-16,2026-07-20,owner_04
+hist_000677,opp_0136,acct_0585,Validation,2,2026-07-20,2026-07-24,owner_04
+hist_000678,opp_0136,acct_0585,Proposal,3,2026-07-24,2026-07-29,owner_04
+hist_000679,opp_0136,acct_0585,Negotiation,4,2026-07-29,2026-08-02,owner_04
+hist_000680,opp_0136,acct_0585,Closed Won,5,2026-08-02,2026-08-06,owner_04
+hist_000681,opp_0137,acct_0595,Discovery,1,2026-07-12,2026-07-19,owner_03
+hist_000682,opp_0137,acct_0595,Validation,2,2026-07-19,2026-07-26,owner_03
+hist_000683,opp_0137,acct_0595,Proposal,3,2026-07-26,2026-08-01,owner_03
+hist_000684,opp_0137,acct_0595,Negotiation,4,2026-08-01,2026-08-08,owner_03
+hist_000685,opp_0137,acct_0595,Closed Won,5,2026-08-08,2026-08-15,owner_03
+hist_000686,opp_0138,acct_0598,Discovery,1,2026-09-02,2026-09-07,owner_03
+hist_000687,opp_0138,acct_0598,Validation,2,2026-09-07,2026-09-11,owner_03
+hist_000688,opp_0138,acct_0598,Proposal,3,2026-09-11,2026-09-16,owner_03
+hist_000689,opp_0138,acct_0598,Negotiation,4,2026-09-16,2026-09-20,owner_03
+hist_000690,opp_0138,acct_0598,Closed Won,5,2026-09-20,2026-09-25,owner_03
+hist_000691,opp_0139,acct_0602,Discovery,1,2026-06-24,2026-07-10,owner_06
+hist_000692,opp_0139,acct_0602,Validation,2,2026-07-10,2026-07-26,owner_06
+hist_000693,opp_0139,acct_0602,Proposal,3,2026-07-26,2026-08-10,owner_06
+hist_000694,opp_0139,acct_0602,Negotiation,4,2026-08-10,2026-08-26,owner_06
+hist_000695,opp_0139,acct_0602,Closed Won,5,2026-08-26,2026-09-11,owner_06
+hist_000696,opp_0140,acct_0603,Discovery,1,2026-07-03,2026-07-19,owner_04
+hist_000697,opp_0140,acct_0603,Validation,2,2026-07-19,2026-08-05,owner_04
+hist_000698,opp_0140,acct_0603,Proposal,3,2026-08-05,2026-08-21,owner_04
+hist_000699,opp_0140,acct_0603,Negotiation,4,2026-08-21,2026-09-07,owner_04
+hist_000700,opp_0140,acct_0603,Closed Won,5,2026-09-07,2026-09-23,owner_04
+hist_000701,opp_0141,acct_0604,Discovery,1,2026-05-23,2026-06-07,owner_03
+hist_000702,opp_0141,acct_0604,Validation,2,2026-06-07,2026-06-21,owner_03
+hist_000703,opp_0141,acct_0604,Proposal,3,2026-06-21,2026-07-06,owner_03
+hist_000704,opp_0141,acct_0604,Negotiation,4,2026-07-06,2026-07-20,owner_03
+hist_000705,opp_0141,acct_0604,Closed Won,5,2026-07-20,2026-08-04,owner_03
+hist_000706,opp_0142,acct_0606,Discovery,1,2026-07-12,2026-07-26,owner_01
+hist_000707,opp_0142,acct_0606,Validation,2,2026-07-26,2026-08-09,owner_01
+hist_000708,opp_0142,acct_0606,Proposal,3,2026-08-09,2026-08-24,owner_01
+hist_000709,opp_0142,acct_0606,Negotiation,4,2026-08-24,2026-09-07,owner_01
+hist_000710,opp_0142,acct_0606,Closed Won,5,2026-09-07,2026-09-21,owner_01
+hist_000711,opp_0143,acct_0609,Discovery,1,2026-07-20,2026-07-24,owner_02
+hist_000712,opp_0143,acct_0609,Validation,2,2026-07-24,2026-07-28,owner_02
+hist_000713,opp_0143,acct_0609,Proposal,3,2026-07-28,2026-08-01,owner_02
+hist_000714,opp_0143,acct_0609,Negotiation,4,2026-08-01,2026-08-05,owner_02
+hist_000715,opp_0143,acct_0609,Closed Won,5,2026-08-05,2026-08-09,owner_02
+hist_000716,opp_0144,acct_0614,Discovery,1,2026-03-29,2026-04-19,owner_04
+hist_000717,opp_0144,acct_0614,Validation,2,2026-04-19,2026-05-10,owner_04
+hist_000718,opp_0144,acct_0614,Proposal,3,2026-05-10,2026-05-31,owner_04
+hist_000719,opp_0144,acct_0614,Negotiation,4,2026-05-31,2026-06-21,owner_04
+hist_000720,opp_0144,acct_0614,Closed Won,5,2026-06-21,2026-07-12,owner_04
+hist_000721,opp_0145,acct_0617,Discovery,1,2026-05-07,2026-05-21,owner_08
+hist_000722,opp_0145,acct_0617,Validation,2,2026-05-21,2026-06-03,owner_08
+hist_000723,opp_0145,acct_0617,Proposal,3,2026-06-03,2026-06-17,owner_08
+hist_000724,opp_0145,acct_0617,Negotiation,4,2026-06-17,2026-06-30,owner_08
+hist_000725,opp_0145,acct_0617,Closed Won,5,2026-06-30,2026-07-14,owner_08
+hist_000726,opp_0146,acct_0622,Discovery,1,2026-04-12,2026-04-28,owner_05
+hist_000727,opp_0146,acct_0622,Validation,2,2026-04-28,2026-05-15,owner_05
+hist_000728,opp_0146,acct_0622,Proposal,3,2026-05-15,2026-05-31,owner_05
+hist_000729,opp_0146,acct_0622,Negotiation,4,2026-05-31,2026-06-17,owner_05
+hist_000730,opp_0146,acct_0622,Closed Won,5,2026-06-17,2026-07-03,owner_05
+hist_000731,opp_0147,acct_0625,Discovery,1,2026-08-08,2026-08-14,owner_02
+hist_000732,opp_0147,acct_0625,Validation,2,2026-08-14,2026-08-19,owner_02
+hist_000733,opp_0147,acct_0625,Proposal,3,2026-08-19,2026-08-25,owner_02
+hist_000734,opp_0147,acct_0625,Negotiation,4,2026-08-25,2026-08-30,owner_02
+hist_000735,opp_0147,acct_0625,Closed Won,5,2026-08-30,2026-09-05,owner_02
+hist_000736,opp_0148,acct_0626,Discovery,1,2026-04-25,2026-05-15,owner_08
+hist_000737,opp_0148,acct_0626,Validation,2,2026-05-15,2026-06-04,owner_08
+hist_000738,opp_0148,acct_0626,Proposal,3,2026-06-04,2026-06-23,owner_08
+hist_000739,opp_0148,acct_0626,Negotiation,4,2026-06-23,2026-07-13,owner_08
+hist_000740,opp_0148,acct_0626,Closed Won,5,2026-07-13,2026-08-02,owner_08
+hist_000741,opp_0149,acct_0632,Discovery,1,2026-07-22,2026-07-27,owner_02
+hist_000742,opp_0149,acct_0632,Validation,2,2026-07-27,2026-08-02,owner_02
+hist_000743,opp_0149,acct_0632,Proposal,3,2026-08-02,2026-08-07,owner_02
+hist_000744,opp_0149,acct_0632,Negotiation,4,2026-08-07,2026-08-13,owner_02
+hist_000745,opp_0149,acct_0632,Closed Won,5,2026-08-13,2026-08-18,owner_02
+hist_000746,opp_0150,acct_0639,Discovery,1,2026-07-08,2026-07-25,owner_08
+hist_000747,opp_0150,acct_0639,Validation,2,2026-07-25,2026-08-10,owner_08
+hist_000748,opp_0150,acct_0639,Proposal,3,2026-08-10,2026-08-27,owner_08
+hist_000749,opp_0150,acct_0639,Negotiation,4,2026-08-27,2026-09-12,owner_08
+hist_000750,opp_0150,acct_0639,Closed Won,5,2026-09-12,2026-09-29,owner_08
+hist_000751,opp_0151,acct_0641,Discovery,1,2026-07-22,2026-08-03,owner_02
+hist_000752,opp_0151,acct_0641,Validation,2,2026-08-03,2026-08-15,owner_02
+hist_000753,opp_0151,acct_0641,Proposal,3,2026-08-15,2026-08-27,owner_02
+hist_000754,opp_0151,acct_0641,Negotiation,4,2026-08-27,2026-09-08,owner_02
+hist_000755,opp_0151,acct_0641,Closed Won,5,2026-09-08,2026-09-20,owner_02
+hist_000756,opp_0152,acct_0645,Discovery,1,2026-05-29,2026-06-19,owner_05
+hist_000757,opp_0152,acct_0645,Validation,2,2026-06-19,2026-07-09,owner_05
+hist_000758,opp_0152,acct_0645,Proposal,3,2026-07-09,2026-07-30,owner_05
+hist_000759,opp_0152,acct_0645,Negotiation,4,2026-07-30,2026-08-19,owner_05
+hist_000760,opp_0152,acct_0645,Closed Won,5,2026-08-19,2026-09-09,owner_05
+hist_000761,opp_0153,acct_0660,Discovery,1,2026-06-03,2026-06-21,owner_01
+hist_000762,opp_0153,acct_0660,Validation,2,2026-06-21,2026-07-10,owner_01
+hist_000763,opp_0153,acct_0660,Proposal,3,2026-07-10,2026-07-28,owner_01
+hist_000764,opp_0153,acct_0660,Negotiation,4,2026-07-28,2026-08-16,owner_01
+hist_000765,opp_0153,acct_0660,Closed Won,5,2026-08-16,2026-09-03,owner_01
+hist_000766,opp_0154,acct_0664,Discovery,1,2026-07-12,2026-07-20,owner_01
+hist_000767,opp_0154,acct_0664,Validation,2,2026-07-20,2026-07-28,owner_01
+hist_000768,opp_0154,acct_0664,Proposal,3,2026-07-28,2026-08-04,owner_01
+hist_000769,opp_0154,acct_0664,Negotiation,4,2026-08-04,2026-08-12,owner_01
+hist_000770,opp_0154,acct_0664,Closed Won,5,2026-08-12,2026-08-20,owner_01
+hist_000771,opp_0155,acct_0669,Discovery,1,2026-05-23,2026-06-10,owner_01
+hist_000772,opp_0155,acct_0669,Validation,2,2026-06-10,2026-06-29,owner_01
+hist_000773,opp_0155,acct_0669,Proposal,3,2026-06-29,2026-07-17,owner_01
+hist_000774,opp_0155,acct_0669,Negotiation,4,2026-07-17,2026-08-05,owner_01
+hist_000775,opp_0155,acct_0669,Closed Won,5,2026-08-05,2026-08-23,owner_01
+hist_000776,opp_0156,acct_0679,Discovery,1,2026-05-06,2026-05-23,owner_03
+hist_000777,opp_0156,acct_0679,Validation,2,2026-05-23,2026-06-08,owner_03
+hist_000778,opp_0156,acct_0679,Proposal,3,2026-06-08,2026-06-25,owner_03
+hist_000779,opp_0156,acct_0679,Negotiation,4,2026-06-25,2026-07-11,owner_03
+hist_000780,opp_0156,acct_0679,Closed Won,5,2026-07-11,2026-07-28,owner_03
+hist_000781,opp_0157,acct_0688,Discovery,1,2026-05-09,2026-05-27,owner_04
+hist_000782,opp_0157,acct_0688,Validation,2,2026-05-27,2026-06-14,owner_04
+hist_000783,opp_0157,acct_0688,Proposal,3,2026-06-14,2026-07-01,owner_04
+hist_000784,opp_0157,acct_0688,Negotiation,4,2026-07-01,2026-07-19,owner_04
+hist_000785,opp_0157,acct_0688,Closed Won,5,2026-07-19,2026-08-06,owner_04
+hist_000786,opp_0158,acct_0695,Discovery,1,2026-07-14,2026-07-19,owner_02
+hist_000787,opp_0158,acct_0695,Validation,2,2026-07-19,2026-07-23,owner_02
+hist_000788,opp_0158,acct_0695,Proposal,3,2026-07-23,2026-07-28,owner_02
+hist_000789,opp_0158,acct_0695,Negotiation,4,2026-07-28,2026-08-01,owner_02
+hist_000790,opp_0158,acct_0695,Closed Won,5,2026-08-01,2026-08-06,owner_02
+hist_000791,opp_0159,acct_0711,Discovery,1,2026-06-19,2026-07-07,owner_04
+hist_000792,opp_0159,acct_0711,Validation,2,2026-07-07,2026-07-25,owner_04
+hist_000793,opp_0159,acct_0711,Proposal,3,2026-07-25,2026-08-11,owner_04
+hist_000794,opp_0159,acct_0711,Negotiation,4,2026-08-11,2026-08-29,owner_04
+hist_000795,opp_0159,acct_0711,Closed Won,5,2026-08-29,2026-09-16,owner_04
+hist_000796,opp_0160,acct_0717,Discovery,1,2026-07-04,2026-07-12,owner_01
+hist_000797,opp_0160,acct_0717,Validation,2,2026-07-12,2026-07-21,owner_01
+hist_000798,opp_0160,acct_0717,Proposal,3,2026-07-21,2026-07-29,owner_01
+hist_000799,opp_0160,acct_0717,Negotiation,4,2026-07-29,2026-08-07,owner_01
+hist_000800,opp_0160,acct_0717,Closed Won,5,2026-08-07,2026-08-15,owner_01
+hist_000801,opp_0161,acct_0722,Discovery,1,2026-05-15,2026-05-28,owner_07
+hist_000802,opp_0161,acct_0722,Validation,2,2026-05-28,2026-06-11,owner_07
+hist_000803,opp_0161,acct_0722,Proposal,3,2026-06-11,2026-06-24,owner_07
+hist_000804,opp_0161,acct_0722,Negotiation,4,2026-06-24,2026-07-08,owner_07
+hist_000805,opp_0161,acct_0722,Closed Won,5,2026-07-08,2026-07-21,owner_07
+hist_000806,opp_0162,acct_0723,Discovery,1,2026-04-25,2026-05-14,owner_06
+hist_000807,opp_0162,acct_0723,Validation,2,2026-05-14,2026-06-02,owner_06
+hist_000808,opp_0162,acct_0723,Proposal,3,2026-06-02,2026-06-20,owner_06
+hist_000809,opp_0162,acct_0723,Negotiation,4,2026-06-20,2026-07-09,owner_06
+hist_000810,opp_0162,acct_0723,Closed Won,5,2026-07-09,2026-07-28,owner_06
+hist_000811,opp_0163,acct_0726,Discovery,1,2026-08-02,2026-08-12,owner_02
+hist_000812,opp_0163,acct_0726,Validation,2,2026-08-12,2026-08-22,owner_02
+hist_000813,opp_0163,acct_0726,Proposal,3,2026-08-22,2026-09-02,owner_02
+hist_000814,opp_0163,acct_0726,Negotiation,4,2026-09-02,2026-09-12,owner_02
+hist_000815,opp_0163,acct_0726,Closed Won,5,2026-09-12,2026-09-22,owner_02
+hist_000816,opp_0164,acct_0727,Discovery,1,2026-05-10,2026-05-29,owner_01
+hist_000817,opp_0164,acct_0727,Validation,2,2026-05-29,2026-06-18,owner_01
+hist_000818,opp_0164,acct_0727,Proposal,3,2026-06-18,2026-07-07,owner_01
+hist_000819,opp_0164,acct_0727,Negotiation,4,2026-07-07,2026-07-27,owner_01
+hist_000820,opp_0164,acct_0727,Closed Won,5,2026-07-27,2026-08-15,owner_01
+hist_000821,opp_0165,acct_0729,Discovery,1,2026-08-26,2026-09-01,owner_05
+hist_000822,opp_0165,acct_0729,Validation,2,2026-09-01,2026-09-07,owner_05
+hist_000823,opp_0165,acct_0729,Proposal,3,2026-09-07,2026-09-14,owner_05
+hist_000824,opp_0165,acct_0729,Negotiation,4,2026-09-14,2026-09-20,owner_05
+hist_000825,opp_0165,acct_0729,Closed Won,5,2026-09-20,2026-09-26,owner_05
+hist_000826,opp_0166,acct_0735,Discovery,1,2026-05-01,2026-05-13,owner_08
+hist_000827,opp_0166,acct_0735,Validation,2,2026-05-13,2026-05-25,owner_08
+hist_000828,opp_0166,acct_0735,Proposal,3,2026-05-25,2026-06-07,owner_08
+hist_000829,opp_0166,acct_0735,Negotiation,4,2026-06-07,2026-06-19,owner_08
+hist_000830,opp_0166,acct_0735,Closed Won,5,2026-06-19,2026-07-01,owner_08
+hist_000831,opp_0167,acct_0743,Discovery,1,2026-06-13,2026-06-19,owner_02
+hist_000832,opp_0167,acct_0743,Validation,2,2026-06-19,2026-06-25,owner_02
+hist_000833,opp_0167,acct_0743,Proposal,3,2026-06-25,2026-07-01,owner_02
+hist_000834,opp_0167,acct_0743,Negotiation,4,2026-07-01,2026-07-07,owner_02
+hist_000835,opp_0167,acct_0743,Closed Won,5,2026-07-07,2026-07-13,owner_02
+hist_000836,opp_0168,acct_0745,Discovery,1,2026-06-01,2026-06-20,owner_02
+hist_000837,opp_0168,acct_0745,Validation,2,2026-06-20,2026-07-09,owner_02
+hist_000838,opp_0168,acct_0745,Proposal,3,2026-07-09,2026-07-27,owner_02
+hist_000839,opp_0168,acct_0745,Negotiation,4,2026-07-27,2026-08-15,owner_02
+hist_000840,opp_0168,acct_0745,Closed Won,5,2026-08-15,2026-09-03,owner_02
+hist_000841,opp_0169,acct_0751,Discovery,1,2026-05-04,2026-05-24,owner_07
+hist_000842,opp_0169,acct_0751,Validation,2,2026-05-24,2026-06-13,owner_07
+hist_000843,opp_0169,acct_0751,Proposal,3,2026-06-13,2026-07-03,owner_07
+hist_000844,opp_0169,acct_0751,Negotiation,4,2026-07-03,2026-07-23,owner_07
+hist_000845,opp_0169,acct_0751,Closed Won,5,2026-07-23,2026-08-12,owner_07
+hist_000846,opp_0170,acct_0755,Discovery,1,2026-05-23,2026-06-11,owner_01
+hist_000847,opp_0170,acct_0755,Validation,2,2026-06-11,2026-06-29,owner_01
+hist_000848,opp_0170,acct_0755,Proposal,3,2026-06-29,2026-07-18,owner_01
+hist_000849,opp_0170,acct_0755,Negotiation,4,2026-07-18,2026-08-05,owner_01
+hist_000850,opp_0170,acct_0755,Closed Won,5,2026-08-05,2026-08-24,owner_01
+hist_000851,opp_0171,acct_0756,Discovery,1,2026-06-22,2026-07-01,owner_03
+hist_000852,opp_0171,acct_0756,Validation,2,2026-07-01,2026-07-10,owner_03
+hist_000853,opp_0171,acct_0756,Proposal,3,2026-07-10,2026-07-18,owner_03
+hist_000854,opp_0171,acct_0756,Negotiation,4,2026-07-18,2026-07-27,owner_03
+hist_000855,opp_0171,acct_0756,Closed Won,5,2026-07-27,2026-08-05,owner_03
+hist_000856,opp_0172,acct_0768,Discovery,1,2026-05-03,2026-05-22,owner_07
+hist_000857,opp_0172,acct_0768,Validation,2,2026-05-22,2026-06-10,owner_07
+hist_000858,opp_0172,acct_0768,Proposal,3,2026-06-10,2026-06-30,owner_07
+hist_000859,opp_0172,acct_0768,Negotiation,4,2026-06-30,2026-07-19,owner_07
+hist_000860,opp_0172,acct_0768,Closed Won,5,2026-07-19,2026-08-07,owner_07
+hist_000861,opp_0173,acct_0774,Discovery,1,2026-06-18,2026-06-22,owner_06
+hist_000862,opp_0173,acct_0774,Validation,2,2026-06-22,2026-06-27,owner_06
+hist_000863,opp_0173,acct_0774,Proposal,3,2026-06-27,2026-07-01,owner_06
+hist_000864,opp_0173,acct_0774,Negotiation,4,2026-07-01,2026-07-06,owner_06
+hist_000865,opp_0173,acct_0774,Closed Won,5,2026-07-06,2026-07-10,owner_06
+hist_000866,opp_0174,acct_0776,Discovery,1,2026-08-15,2026-08-21,owner_02
+hist_000867,opp_0174,acct_0776,Validation,2,2026-08-21,2026-08-27,owner_02
+hist_000868,opp_0174,acct_0776,Proposal,3,2026-08-27,2026-09-03,owner_02
+hist_000869,opp_0174,acct_0776,Negotiation,4,2026-09-03,2026-09-09,owner_02
+hist_000870,opp_0174,acct_0776,Closed Won,5,2026-09-09,2026-09-15,owner_02
+hist_000871,opp_0175,acct_0777,Discovery,1,2026-03-21,2026-04-11,owner_01
+hist_000872,opp_0175,acct_0777,Validation,2,2026-04-11,2026-05-02,owner_01
+hist_000873,opp_0175,acct_0777,Proposal,3,2026-05-02,2026-05-23,owner_01
+hist_000874,opp_0175,acct_0777,Negotiation,4,2026-05-23,2026-06-13,owner_01
+hist_000875,opp_0175,acct_0777,Closed Won,5,2026-06-13,2026-07-04,owner_01
+hist_000876,opp_0176,acct_0778,Discovery,1,2026-08-13,2026-08-21,owner_01
+hist_000877,opp_0176,acct_0778,Validation,2,2026-08-21,2026-08-29,owner_01
+hist_000878,opp_0176,acct_0778,Proposal,3,2026-08-29,2026-09-05,owner_01
+hist_000879,opp_0176,acct_0778,Negotiation,4,2026-09-05,2026-09-13,owner_01
+hist_000880,opp_0176,acct_0778,Closed Won,5,2026-09-13,2026-09-21,owner_01
+hist_000881,opp_0177,acct_0780,Discovery,1,2026-07-14,2026-07-25,owner_05
+hist_000882,opp_0177,acct_0780,Validation,2,2026-07-25,2026-08-05,owner_05
+hist_000883,opp_0177,acct_0780,Proposal,3,2026-08-05,2026-08-17,owner_05
+hist_000884,opp_0177,acct_0780,Negotiation,4,2026-08-17,2026-08-28,owner_05
+hist_000885,opp_0177,acct_0780,Closed Won,5,2026-08-28,2026-09-08,owner_05
+hist_000886,opp_0178,acct_0781,Discovery,1,2026-07-28,2026-08-01,owner_04
+hist_000887,opp_0178,acct_0781,Validation,2,2026-08-01,2026-08-05,owner_04
+hist_000888,opp_0178,acct_0781,Proposal,3,2026-08-05,2026-08-10,owner_04
+hist_000889,opp_0178,acct_0781,Negotiation,4,2026-08-10,2026-08-14,owner_04
+hist_000890,opp_0178,acct_0781,Closed Won,5,2026-08-14,2026-08-18,owner_04
+hist_000891,opp_0179,acct_0782,Discovery,1,2026-06-02,2026-06-17,owner_04
+hist_000892,opp_0179,acct_0782,Validation,2,2026-06-17,2026-07-02,owner_04
+hist_000893,opp_0179,acct_0782,Proposal,3,2026-07-02,2026-07-18,owner_04
+hist_000894,opp_0179,acct_0782,Negotiation,4,2026-07-18,2026-08-02,owner_04
+hist_000895,opp_0179,acct_0782,Closed Won,5,2026-08-02,2026-08-17,owner_04
+hist_000896,opp_0180,acct_0789,Discovery,1,2026-06-09,2026-06-16,owner_06
+hist_000897,opp_0180,acct_0789,Validation,2,2026-06-16,2026-06-23,owner_06
+hist_000898,opp_0180,acct_0789,Proposal,3,2026-06-23,2026-07-01,owner_06
+hist_000899,opp_0180,acct_0789,Negotiation,4,2026-07-01,2026-07-08,owner_06
+hist_000900,opp_0180,acct_0789,Closed Won,5,2026-07-08,2026-07-15,owner_06
+hist_000901,opp_0181,acct_0798,Discovery,1,2026-07-30,2026-08-09,owner_01
+hist_000902,opp_0181,acct_0798,Validation,2,2026-08-09,2026-08-19,owner_01
+hist_000903,opp_0181,acct_0798,Proposal,3,2026-08-19,2026-08-29,owner_01
+hist_000904,opp_0181,acct_0798,Negotiation,4,2026-08-29,2026-09-08,owner_01
+hist_000905,opp_0181,acct_0798,Closed Won,5,2026-09-08,2026-09-18,owner_01
+hist_000906,opp_0182,acct_0804,Discovery,1,2026-06-09,2026-06-26,owner_05
+hist_000907,opp_0182,acct_0804,Validation,2,2026-06-26,2026-07-12,owner_05
+hist_000908,opp_0182,acct_0804,Proposal,3,2026-07-12,2026-07-29,owner_05
+hist_000909,opp_0182,acct_0804,Negotiation,4,2026-07-29,2026-08-14,owner_05
+hist_000910,opp_0182,acct_0804,Closed Won,5,2026-08-14,2026-08-31,owner_05
+hist_000911,opp_0183,acct_0811,Discovery,1,2026-05-12,2026-05-30,owner_02
+hist_000912,opp_0183,acct_0811,Validation,2,2026-05-30,2026-06-18,owner_02
+hist_000913,opp_0183,acct_0811,Proposal,3,2026-06-18,2026-07-06,owner_02
+hist_000914,opp_0183,acct_0811,Negotiation,4,2026-07-06,2026-07-25,owner_02
+hist_000915,opp_0183,acct_0811,Closed Won,5,2026-07-25,2026-08-12,owner_02
+hist_000916,opp_0184,acct_0818,Discovery,1,2026-06-05,2026-06-11,owner_03
+hist_000917,opp_0184,acct_0818,Validation,2,2026-06-11,2026-06-18,owner_03
+hist_000918,opp_0184,acct_0818,Proposal,3,2026-06-18,2026-06-24,owner_03
+hist_000919,opp_0184,acct_0818,Negotiation,4,2026-06-24,2026-07-01,owner_03
+hist_000920,opp_0184,acct_0818,Closed Won,5,2026-07-01,2026-07-07,owner_03
+hist_000921,opp_0185,acct_0820,Discovery,1,2026-05-17,2026-05-28,owner_02
+hist_000922,opp_0185,acct_0820,Validation,2,2026-05-28,2026-06-08,owner_02
+hist_000923,opp_0185,acct_0820,Proposal,3,2026-06-08,2026-06-20,owner_02
+hist_000924,opp_0185,acct_0820,Negotiation,4,2026-06-20,2026-07-01,owner_02
+hist_000925,opp_0185,acct_0820,Closed Won,5,2026-07-01,2026-07-12,owner_02
+hist_000926,opp_0186,acct_0831,Discovery,1,2026-07-19,2026-07-23,owner_05
+hist_000927,opp_0186,acct_0831,Validation,2,2026-07-23,2026-07-28,owner_05
+hist_000928,opp_0186,acct_0831,Proposal,3,2026-07-28,2026-08-01,owner_05
+hist_000929,opp_0186,acct_0831,Negotiation,4,2026-08-01,2026-08-06,owner_05
+hist_000930,opp_0186,acct_0831,Closed Won,5,2026-08-06,2026-08-10,owner_05
+hist_000931,opp_0187,acct_0840,Discovery,1,2026-08-06,2026-08-12,owner_08
+hist_000932,opp_0187,acct_0840,Validation,2,2026-08-12,2026-08-18,owner_08
+hist_000933,opp_0187,acct_0840,Proposal,3,2026-08-18,2026-08-25,owner_08
+hist_000934,opp_0187,acct_0840,Negotiation,4,2026-08-25,2026-08-31,owner_08
+hist_000935,opp_0187,acct_0840,Closed Won,5,2026-08-31,2026-09-06,owner_08
+hist_000936,opp_0188,acct_0844,Discovery,1,2026-07-05,2026-07-10,owner_05
+hist_000937,opp_0188,acct_0844,Validation,2,2026-07-10,2026-07-14,owner_05
+hist_000938,opp_0188,acct_0844,Proposal,3,2026-07-14,2026-07-19,owner_05
+hist_000939,opp_0188,acct_0844,Negotiation,4,2026-07-19,2026-07-23,owner_05
+hist_000940,opp_0188,acct_0844,Closed Won,5,2026-07-23,2026-07-28,owner_05
+hist_000941,opp_0189,acct_0845,Discovery,1,2026-06-24,2026-06-29,owner_03
+hist_000942,opp_0189,acct_0845,Validation,2,2026-06-29,2026-07-03,owner_03
+hist_000943,opp_0189,acct_0845,Proposal,3,2026-07-03,2026-07-08,owner_03
+hist_000944,opp_0189,acct_0845,Negotiation,4,2026-07-08,2026-07-12,owner_03
+hist_000945,opp_0189,acct_0845,Closed Won,5,2026-07-12,2026-07-17,owner_03
+hist_000946,opp_0190,acct_0851,Discovery,1,2026-06-08,2026-06-21,owner_05
+hist_000947,opp_0190,acct_0851,Validation,2,2026-06-21,2026-07-05,owner_05
+hist_000948,opp_0190,acct_0851,Proposal,3,2026-07-05,2026-07-18,owner_05
+hist_000949,opp_0190,acct_0851,Negotiation,4,2026-07-18,2026-08-01,owner_05
+hist_000950,opp_0190,acct_0851,Closed Won,5,2026-08-01,2026-08-14,owner_05
+hist_000951,opp_0191,acct_0852,Discovery,1,2026-07-07,2026-07-19,owner_04
+hist_000952,opp_0191,acct_0852,Validation,2,2026-07-19,2026-07-31,owner_04
+hist_000953,opp_0191,acct_0852,Proposal,3,2026-07-31,2026-08-12,owner_04
+hist_000954,opp_0191,acct_0852,Negotiation,4,2026-08-12,2026-08-24,owner_04
+hist_000955,opp_0191,acct_0852,Closed Won,5,2026-08-24,2026-09-05,owner_04
+hist_000956,opp_0192,acct_0859,Discovery,1,2026-09-03,2026-09-08,owner_08
+hist_000957,opp_0192,acct_0859,Validation,2,2026-09-08,2026-09-13,owner_08
+hist_000958,opp_0192,acct_0859,Proposal,3,2026-09-13,2026-09-19,owner_08
+hist_000959,opp_0192,acct_0859,Negotiation,4,2026-09-19,2026-09-24,owner_08
+hist_000960,opp_0192,acct_0859,Closed Won,5,2026-09-24,2026-09-29,owner_08
+hist_000961,opp_0193,acct_0862,Discovery,1,2026-05-04,2026-05-23,owner_08
+hist_000962,opp_0193,acct_0862,Validation,2,2026-05-23,2026-06-12,owner_08
+hist_000963,opp_0193,acct_0862,Proposal,3,2026-06-12,2026-07-01,owner_08
+hist_000964,opp_0193,acct_0862,Negotiation,4,2026-07-01,2026-07-21,owner_08
+hist_000965,opp_0193,acct_0862,Closed Won,5,2026-07-21,2026-08-09,owner_08
+hist_000966,opp_0194,acct_0871,Discovery,1,2026-06-22,2026-07-04,owner_04
+hist_000967,opp_0194,acct_0871,Validation,2,2026-07-04,2026-07-15,owner_04
+hist_000968,opp_0194,acct_0871,Proposal,3,2026-07-15,2026-07-27,owner_04
+hist_000969,opp_0194,acct_0871,Negotiation,4,2026-07-27,2026-08-07,owner_04
+hist_000970,opp_0194,acct_0871,Closed Won,5,2026-08-07,2026-08-19,owner_04
+hist_000971,opp_0195,acct_0876,Discovery,1,2026-05-24,2026-06-01,owner_07
+hist_000972,opp_0195,acct_0876,Validation,2,2026-06-01,2026-06-09,owner_07
+hist_000973,opp_0195,acct_0876,Proposal,3,2026-06-09,2026-06-18,owner_07
+hist_000974,opp_0195,acct_0876,Negotiation,4,2026-06-18,2026-06-26,owner_07
+hist_000975,opp_0195,acct_0876,Closed Won,5,2026-06-26,2026-07-04,owner_07
+hist_000976,opp_0196,acct_0878,Discovery,1,2026-04-01,2026-04-21,owner_03
+hist_000977,opp_0196,acct_0878,Validation,2,2026-04-21,2026-05-11,owner_03
+hist_000978,opp_0196,acct_0878,Proposal,3,2026-05-11,2026-06-01,owner_03
+hist_000979,opp_0196,acct_0878,Negotiation,4,2026-06-01,2026-06-21,owner_03
+hist_000980,opp_0196,acct_0878,Closed Won,5,2026-06-21,2026-07-11,owner_03
+hist_000981,opp_0197,acct_0880,Discovery,1,2026-07-21,2026-07-29,owner_01
+hist_000982,opp_0197,acct_0880,Validation,2,2026-07-29,2026-08-06,owner_01
+hist_000983,opp_0197,acct_0880,Proposal,3,2026-08-06,2026-08-13,owner_01
+hist_000984,opp_0197,acct_0880,Negotiation,4,2026-08-13,2026-08-21,owner_01
+hist_000985,opp_0197,acct_0880,Closed Won,5,2026-08-21,2026-08-29,owner_01
+hist_000986,opp_0198,acct_0894,Discovery,1,2026-04-27,2026-05-10,owner_07
+hist_000987,opp_0198,acct_0894,Validation,2,2026-05-10,2026-05-23,owner_07
+hist_000988,opp_0198,acct_0894,Proposal,3,2026-05-23,2026-06-05,owner_07
+hist_000989,opp_0198,acct_0894,Negotiation,4,2026-06-05,2026-06-18,owner_07
+hist_000990,opp_0198,acct_0894,Closed Won,5,2026-06-18,2026-07-01,owner_07
+hist_000991,opp_0199,acct_0905,Discovery,1,2026-06-09,2026-06-14,owner_07
+hist_000992,opp_0199,acct_0905,Validation,2,2026-06-14,2026-06-19,owner_07
+hist_000993,opp_0199,acct_0905,Proposal,3,2026-06-19,2026-06-23,owner_07
+hist_000994,opp_0199,acct_0905,Negotiation,4,2026-06-23,2026-06-28,owner_07
+hist_000995,opp_0199,acct_0905,Closed Won,5,2026-06-28,2026-07-03,owner_07
+hist_000996,opp_0200,acct_0910,Discovery,1,2026-06-29,2026-07-08,owner_05
+hist_000997,opp_0200,acct_0910,Validation,2,2026-07-08,2026-07-18,owner_05
+hist_000998,opp_0200,acct_0910,Proposal,3,2026-07-18,2026-07-27,owner_05
+hist_000999,opp_0200,acct_0910,Negotiation,4,2026-07-27,2026-08-06,owner_05
+hist_001000,opp_0200,acct_0910,Closed Won,5,2026-08-06,2026-08-15,owner_05
+hist_001001,opp_0201,acct_0913,Discovery,1,2026-05-23,2026-06-01,owner_08
+hist_001002,opp_0201,acct_0913,Validation,2,2026-06-01,2026-06-10,owner_08
+hist_001003,opp_0201,acct_0913,Proposal,3,2026-06-10,2026-06-19,owner_08
+hist_001004,opp_0201,acct_0913,Negotiation,4,2026-06-19,2026-06-28,owner_08
+hist_001005,opp_0201,acct_0913,Closed Won,5,2026-06-28,2026-07-07,owner_08
+hist_001006,opp_0202,acct_0916,Discovery,1,2026-06-04,2026-06-22,owner_04
+hist_001007,opp_0202,acct_0916,Validation,2,2026-06-22,2026-07-10,owner_04
+hist_001008,opp_0202,acct_0916,Proposal,3,2026-07-10,2026-07-29,owner_04
+hist_001009,opp_0202,acct_0916,Negotiation,4,2026-07-29,2026-08-16,owner_04
+hist_001010,opp_0202,acct_0916,Closed Won,5,2026-08-16,2026-09-03,owner_04
+hist_001011,opp_0203,acct_0933,Discovery,1,2026-04-19,2026-05-07,owner_05
+hist_001012,opp_0203,acct_0933,Validation,2,2026-05-07,2026-05-26,owner_05
+hist_001013,opp_0203,acct_0933,Proposal,3,2026-05-26,2026-06-13,owner_05
+hist_001014,opp_0203,acct_0933,Negotiation,4,2026-06-13,2026-07-02,owner_05
+hist_001015,opp_0203,acct_0933,Closed Won,5,2026-07-02,2026-07-20,owner_05
+hist_001016,opp_0204,acct_0940,Discovery,1,2026-06-30,2026-07-09,owner_07
+hist_001017,opp_0204,acct_0940,Validation,2,2026-07-09,2026-07-18,owner_07
+hist_001018,opp_0204,acct_0940,Proposal,3,2026-07-18,2026-07-28,owner_07
+hist_001019,opp_0204,acct_0940,Negotiation,4,2026-07-28,2026-08-06,owner_07
+hist_001020,opp_0204,acct_0940,Closed Won,5,2026-08-06,2026-08-15,owner_07
+hist_001021,opp_0205,acct_0945,Discovery,1,2026-05-26,2026-06-10,owner_02
+hist_001022,opp_0205,acct_0945,Validation,2,2026-06-10,2026-06-25,owner_02
+hist_001023,opp_0205,acct_0945,Proposal,3,2026-06-25,2026-07-09,owner_02
+hist_001024,opp_0205,acct_0945,Negotiation,4,2026-07-09,2026-07-24,owner_02
+hist_001025,opp_0205,acct_0945,Closed Won,5,2026-07-24,2026-08-08,owner_02
+hist_001026,opp_0206,acct_0946,Discovery,1,2026-05-09,2026-05-26,owner_05
+hist_001027,opp_0206,acct_0946,Validation,2,2026-05-26,2026-06-12,owner_05
+hist_001028,opp_0206,acct_0946,Proposal,3,2026-06-12,2026-06-29,owner_05
+hist_001029,opp_0206,acct_0946,Negotiation,4,2026-06-29,2026-07-16,owner_05
+hist_001030,opp_0206,acct_0946,Closed Won,5,2026-07-16,2026-08-02,owner_05
+hist_001031,opp_0207,acct_0947,Discovery,1,2026-05-19,2026-05-29,owner_03
+hist_001032,opp_0207,acct_0947,Validation,2,2026-05-29,2026-06-09,owner_03
+hist_001033,opp_0207,acct_0947,Proposal,3,2026-06-09,2026-06-19,owner_03
+hist_001034,opp_0207,acct_0947,Negotiation,4,2026-06-19,2026-06-30,owner_03
+hist_001035,opp_0207,acct_0947,Closed Won,5,2026-06-30,2026-07-10,owner_03
+hist_001036,opp_0208,acct_0953,Discovery,1,2026-07-26,2026-08-06,owner_01
+hist_001037,opp_0208,acct_0953,Validation,2,2026-08-06,2026-08-17,owner_01
+hist_001038,opp_0208,acct_0953,Proposal,3,2026-08-17,2026-08-29,owner_01
+hist_001039,opp_0208,acct_0953,Negotiation,4,2026-08-29,2026-09-09,owner_01
+hist_001040,opp_0208,acct_0953,Closed Won,5,2026-09-09,2026-09-20,owner_01
+hist_001041,opp_0209,acct_0955,Discovery,1,2026-06-20,2026-07-03,owner_06
+hist_001042,opp_0209,acct_0955,Validation,2,2026-07-03,2026-07-15,owner_06
+hist_001043,opp_0209,acct_0955,Proposal,3,2026-07-15,2026-07-28,owner_06
+hist_001044,opp_0209,acct_0955,Negotiation,4,2026-07-28,2026-08-09,owner_06
+hist_001045,opp_0209,acct_0955,Closed Won,5,2026-08-09,2026-08-22,owner_06
+hist_001046,opp_0210,acct_0958,Discovery,1,2026-06-02,2026-06-11,owner_04
+hist_001047,opp_0210,acct_0958,Validation,2,2026-06-11,2026-06-20,owner_04
+hist_001048,opp_0210,acct_0958,Proposal,3,2026-06-20,2026-06-29,owner_04
+hist_001049,opp_0210,acct_0958,Negotiation,4,2026-06-29,2026-07-08,owner_04
+hist_001050,opp_0210,acct_0958,Closed Won,5,2026-07-08,2026-07-17,owner_04
+hist_001051,opp_0211,acct_0960,Discovery,1,2026-05-03,2026-05-20,owner_04
+hist_001052,opp_0211,acct_0960,Validation,2,2026-05-20,2026-06-06,owner_04
+hist_001053,opp_0211,acct_0960,Proposal,3,2026-06-06,2026-06-23,owner_04
+hist_001054,opp_0211,acct_0960,Negotiation,4,2026-06-23,2026-07-10,owner_04
+hist_001055,opp_0211,acct_0960,Closed Won,5,2026-07-10,2026-07-27,owner_04
+hist_001056,opp_0212,acct_0966,Discovery,1,2026-07-16,2026-07-22,owner_02
+hist_001057,opp_0212,acct_0966,Validation,2,2026-07-22,2026-07-28,owner_02
+hist_001058,opp_0212,acct_0966,Proposal,3,2026-07-28,2026-08-02,owner_02
+hist_001059,opp_0212,acct_0966,Negotiation,4,2026-08-02,2026-08-08,owner_02
+hist_001060,opp_0212,acct_0966,Closed Won,5,2026-08-08,2026-08-14,owner_02
+hist_001061,opp_0213,acct_0967,Discovery,1,2026-06-15,2026-06-21,owner_01
+hist_001062,opp_0213,acct_0967,Validation,2,2026-06-21,2026-06-27,owner_01
+hist_001063,opp_0213,acct_0967,Proposal,3,2026-06-27,2026-07-04,owner_01
+hist_001064,opp_0213,acct_0967,Negotiation,4,2026-07-04,2026-07-10,owner_01
+hist_001065,opp_0213,acct_0967,Closed Won,5,2026-07-10,2026-07-16,owner_01
+hist_001066,opp_0214,acct_0972,Discovery,1,2026-04-23,2026-05-12,owner_01
+hist_001067,opp_0214,acct_0972,Validation,2,2026-05-12,2026-06-01,owner_01
+hist_001068,opp_0214,acct_0972,Proposal,3,2026-06-01,2026-06-20,owner_01
+hist_001069,opp_0214,acct_0972,Negotiation,4,2026-06-20,2026-07-10,owner_01
+hist_001070,opp_0214,acct_0972,Closed Won,5,2026-07-10,2026-07-29,owner_01
+hist_001071,opp_0215,acct_0976,Discovery,1,2026-09-07,2026-09-11,owner_06
+hist_001072,opp_0215,acct_0976,Validation,2,2026-09-11,2026-09-15,owner_06
+hist_001073,opp_0215,acct_0976,Proposal,3,2026-09-15,2026-09-19,owner_06
+hist_001074,opp_0215,acct_0976,Negotiation,4,2026-09-19,2026-09-23,owner_06
+hist_001075,opp_0215,acct_0976,Closed Won,5,2026-09-23,2026-09-27,owner_06
+hist_001076,opp_0216,acct_0978,Discovery,1,2026-07-01,2026-07-12,owner_05
+hist_001077,opp_0216,acct_0978,Validation,2,2026-07-12,2026-07-23,owner_05
+hist_001078,opp_0216,acct_0978,Proposal,3,2026-07-23,2026-08-03,owner_05
+hist_001079,opp_0216,acct_0978,Negotiation,4,2026-08-03,2026-08-14,owner_05
+hist_001080,opp_0216,acct_0978,Closed Won,5,2026-08-14,2026-08-25,owner_05
+hist_001081,opp_0217,acct_0980,Discovery,1,2026-07-16,2026-07-24,owner_02
+hist_001082,opp_0217,acct_0980,Validation,2,2026-07-24,2026-08-01,owner_02
+hist_001083,opp_0217,acct_0980,Proposal,3,2026-08-01,2026-08-08,owner_02
+hist_001084,opp_0217,acct_0980,Negotiation,4,2026-08-08,2026-08-16,owner_02
+hist_001085,opp_0217,acct_0980,Closed Won,5,2026-08-16,2026-08-24,owner_02
+hist_001086,opp_0218,acct_0987,Discovery,1,2026-07-16,2026-07-20,owner_02
+hist_001087,opp_0218,acct_0987,Validation,2,2026-07-20,2026-07-24,owner_02
+hist_001088,opp_0218,acct_0987,Proposal,3,2026-07-24,2026-07-28,owner_02
+hist_001089,opp_0218,acct_0987,Negotiation,4,2026-07-28,2026-08-01,owner_02
+hist_001090,opp_0218,acct_0987,Closed Won,5,2026-08-01,2026-08-05,owner_02
+hist_001091,opp_0219,acct_0991,Discovery,1,2026-05-18,2026-06-06,owner_06
+hist_001092,opp_0219,acct_0991,Validation,2,2026-06-06,2026-06-25,owner_06
+hist_001093,opp_0219,acct_0991,Proposal,3,2026-06-25,2026-07-13,owner_06
+hist_001094,opp_0219,acct_0991,Negotiation,4,2026-07-13,2026-08-01,owner_06
+hist_001095,opp_0219,acct_0991,Closed Won,5,2026-08-01,2026-08-20,owner_06
+hist_001096,opp_0220,acct_0992,Discovery,1,2026-05-22,2026-06-08,owner_01
+hist_001097,opp_0220,acct_0992,Validation,2,2026-06-08,2026-06-24,owner_01
+hist_001098,opp_0220,acct_0992,Proposal,3,2026-06-24,2026-07-11,owner_01
+hist_001099,opp_0220,acct_0992,Negotiation,4,2026-07-11,2026-07-27,owner_01
+hist_001100,opp_0220,acct_0992,Closed Won,5,2026-07-27,2026-08-13,owner_01
+hist_001101,opp_0221,acct_0993,Discovery,1,2026-07-27,2026-08-01,owner_04
+hist_001102,opp_0221,acct_0993,Validation,2,2026-08-01,2026-08-07,owner_04
+hist_001103,opp_0221,acct_0993,Proposal,3,2026-08-07,2026-08-12,owner_04
+hist_001104,opp_0221,acct_0993,Negotiation,4,2026-08-12,2026-08-18,owner_04
+hist_001105,opp_0221,acct_0993,Closed Won,5,2026-08-18,2026-08-23,owner_04
+hist_001106,opp_0222,acct_0996,Discovery,1,2026-06-07,2026-06-21,owner_05
+hist_001107,opp_0222,acct_0996,Validation,2,2026-06-21,2026-07-05,owner_05
+hist_001108,opp_0222,acct_0996,Proposal,3,2026-07-05,2026-07-20,owner_05
+hist_001109,opp_0222,acct_0996,Negotiation,4,2026-07-20,2026-08-03,owner_05
+hist_001110,opp_0222,acct_0996,Closed Won,5,2026-08-03,2026-08-17,owner_05
+hist_001111,opp_0223,acct_1009,Discovery,1,2026-06-15,2026-06-20,owner_02
+hist_001112,opp_0223,acct_1009,Validation,2,2026-06-20,2026-06-25,owner_02
+hist_001113,opp_0223,acct_1009,Proposal,3,2026-06-25,2026-07-01,owner_02
+hist_001114,opp_0223,acct_1009,Negotiation,4,2026-07-01,2026-07-06,owner_02
+hist_001115,opp_0223,acct_1009,Closed Won,5,2026-07-06,2026-07-11,owner_02
+hist_001116,opp_0224,acct_1020,Discovery,1,2026-07-18,2026-07-27,owner_01
+hist_001117,opp_0224,acct_1020,Validation,2,2026-07-27,2026-08-06,owner_01
+hist_001118,opp_0224,acct_1020,Proposal,3,2026-08-06,2026-08-15,owner_01
+hist_001119,opp_0224,acct_1020,Negotiation,4,2026-08-15,2026-08-25,owner_01
+hist_001120,opp_0224,acct_1020,Closed Won,5,2026-08-25,2026-09-03,owner_01
+hist_001121,opp_0225,acct_1023,Discovery,1,2026-07-28,2026-08-04,owner_04
+hist_001122,opp_0225,acct_1023,Validation,2,2026-08-04,2026-08-12,owner_04
+hist_001123,opp_0225,acct_1023,Proposal,3,2026-08-12,2026-08-19,owner_04
+hist_001124,opp_0225,acct_1023,Negotiation,4,2026-08-19,2026-08-27,owner_04
+hist_001125,opp_0225,acct_1023,Closed Won,5,2026-08-27,2026-09-03,owner_04
+hist_001126,opp_0226,acct_1025,Discovery,1,2026-06-04,2026-06-14,owner_02
+hist_001127,opp_0226,acct_1025,Validation,2,2026-06-14,2026-06-24,owner_02
+hist_001128,opp_0226,acct_1025,Proposal,3,2026-06-24,2026-07-05,owner_02
+hist_001129,opp_0226,acct_1025,Negotiation,4,2026-07-05,2026-07-15,owner_02
+hist_001130,opp_0226,acct_1025,Closed Won,5,2026-07-15,2026-07-25,owner_02
+hist_001131,opp_0227,acct_1035,Discovery,1,2026-08-20,2026-08-28,owner_01
+hist_001132,opp_0227,acct_1035,Validation,2,2026-08-28,2026-09-05,owner_01
+hist_001133,opp_0227,acct_1035,Proposal,3,2026-09-05,2026-09-13,owner_01
+hist_001134,opp_0227,acct_1035,Negotiation,4,2026-09-13,2026-09-21,owner_01
+hist_001135,opp_0227,acct_1035,Closed Won,5,2026-09-21,2026-09-29,owner_01
+hist_001136,opp_0228,acct_1045,Discovery,1,2026-05-19,2026-06-05,owner_01
+hist_001137,opp_0228,acct_1045,Validation,2,2026-06-05,2026-06-23,owner_01
+hist_001138,opp_0228,acct_1045,Proposal,3,2026-06-23,2026-07-10,owner_01
+hist_001139,opp_0228,acct_1045,Negotiation,4,2026-07-10,2026-07-28,owner_01
+hist_001140,opp_0228,acct_1045,Closed Won,5,2026-07-28,2026-08-14,owner_01
+hist_001141,opp_0229,acct_1046,Discovery,1,2026-05-26,2026-06-05,owner_05
+hist_001142,opp_0229,acct_1046,Validation,2,2026-06-05,2026-06-15,owner_05
+hist_001143,opp_0229,acct_1046,Proposal,3,2026-06-15,2026-06-25,owner_05
+hist_001144,opp_0229,acct_1046,Negotiation,4,2026-06-25,2026-07-05,owner_05
+hist_001145,opp_0229,acct_1046,Closed Won,5,2026-07-05,2026-07-15,owner_05
+hist_001146,opp_0230,acct_1050,Discovery,1,2026-05-30,2026-06-06,owner_04
+hist_001147,opp_0230,acct_1050,Validation,2,2026-06-06,2026-06-14,owner_04
+hist_001148,opp_0230,acct_1050,Proposal,3,2026-06-14,2026-06-21,owner_04
+hist_001149,opp_0230,acct_1050,Negotiation,4,2026-06-21,2026-06-29,owner_04
+hist_001150,opp_0230,acct_1050,Closed Won,5,2026-06-29,2026-07-06,owner_04
+hist_001151,opp_0231,acct_0648,Discovery,1,2026-05-07,2026-06-16,owner_01
+hist_001152,opp_0231,acct_0648,Closed Lost,2,2026-06-16,2026-07-26,owner_01
+hist_001153,opp_0232,acct_0649,Discovery,1,2026-05-27,2026-06-29,owner_03
+hist_001154,opp_0232,acct_0649,Validation,2,2026-06-29,2026-08-02,owner_03
+hist_001155,opp_0232,acct_0649,Closed Lost,3,2026-08-02,2026-09-04,owner_03
+hist_001156,opp_0233,acct_0120,Discovery,1,2026-05-01,2026-05-24,owner_07
+hist_001157,opp_0233,acct_0120,Validation,2,2026-05-24,2026-06-17,owner_07
+hist_001158,opp_0233,acct_0120,Closed Lost,3,2026-06-17,2026-07-10,owner_07
+hist_001159,opp_0234,acct_0180,Discovery,1,2026-04-06,2026-05-10,owner_07
+hist_001160,opp_0234,acct_0180,Validation,2,2026-05-10,2026-06-14,owner_07
+hist_001161,opp_0234,acct_0180,Closed Lost,3,2026-06-14,2026-07-18,owner_07
+hist_001162,opp_0235,acct_0707,Discovery,1,2026-07-12,2026-07-29,owner_04
+hist_001163,opp_0235,acct_0707,Validation,2,2026-07-29,2026-08-15,owner_04
+hist_001164,opp_0235,acct_0707,Proposal,3,2026-08-15,2026-09-02,owner_04
+hist_001165,opp_0235,acct_0707,Closed Lost,4,2026-09-02,2026-09-19,owner_04
+hist_001166,opp_0236,acct_0300,Discovery,1,2026-07-01,2026-07-31,owner_05
+hist_001167,opp_0236,acct_0300,Closed Lost,2,2026-07-31,2026-08-30,owner_05
+hist_001168,opp_0237,acct_0970,Discovery,1,2026-07-19,2026-08-14,owner_08
+hist_001169,opp_0237,acct_0970,Closed Lost,2,2026-08-14,2026-09-10,owner_08
+hist_001170,opp_0238,acct_1033,Discovery,1,2026-05-26,2026-06-16,owner_06
+hist_001171,opp_0238,acct_1033,Validation,2,2026-06-16,2026-07-07,owner_06
+hist_001172,opp_0238,acct_1033,Proposal,3,2026-07-07,2026-07-28,owner_06
+hist_001173,opp_0238,acct_1033,Closed Lost,4,2026-07-28,2026-08-18,owner_06
+hist_001174,opp_0239,acct_0600,Discovery,1,2026-07-18,2026-07-26,owner_04
+hist_001175,opp_0239,acct_0600,Validation,2,2026-07-26,2026-08-03,owner_04
+hist_001176,opp_0239,acct_0600,Proposal,3,2026-08-03,2026-08-10,owner_04
+hist_001177,opp_0239,acct_0600,Closed Lost,4,2026-08-10,2026-08-18,owner_04
+hist_001178,opp_0240,acct_1010,Discovery,1,2026-07-15,2026-08-03,owner_05
+hist_001179,opp_0240,acct_1010,Closed Lost,2,2026-08-03,2026-08-22,owner_05
+hist_001180,opp_0241,acct_0227,Discovery,1,2026-03-25,2026-04-20,owner_07
+hist_001181,opp_0241,acct_0227,Validation,2,2026-04-20,2026-05-16,owner_07
+hist_001182,opp_0241,acct_0227,Proposal,3,2026-05-16,2026-06-12,owner_07
+hist_001183,opp_0241,acct_0227,Closed Lost,4,2026-06-12,2026-07-08,owner_07
+hist_001184,opp_0242,acct_1011,Discovery,1,2026-05-11,2026-05-22,owner_02
+hist_001185,opp_0242,acct_1011,Validation,2,2026-05-22,2026-06-03,owner_02
+hist_001186,opp_0242,acct_1011,Proposal,3,2026-06-03,2026-06-14,owner_02
+hist_001187,opp_0242,acct_1011,Negotiation,4,2026-06-14,2026-06-26,owner_02
+hist_001188,opp_0242,acct_1011,Closed Lost,5,2026-06-26,2026-07-07,owner_02
+hist_001189,opp_0243,acct_0974,Discovery,1,2026-07-03,2026-07-18,owner_01
+hist_001190,opp_0243,acct_0974,Validation,2,2026-07-18,2026-08-02,owner_01
+hist_001191,opp_0243,acct_0974,Proposal,3,2026-08-02,2026-08-17,owner_01
+hist_001192,opp_0243,acct_0974,Negotiation,4,2026-08-17,2026-09-01,owner_01
+hist_001193,opp_0243,acct_0974,Closed Lost,5,2026-09-01,2026-09-16,owner_01
+hist_001194,opp_0244,acct_0513,Discovery,1,2026-07-02,2026-07-24,owner_05
+hist_001195,opp_0244,acct_0513,Closed Lost,2,2026-07-24,2026-08-14,owner_05
+hist_001196,opp_0245,acct_0780,Discovery,1,2026-06-27,2026-07-11,owner_05
+hist_001197,opp_0245,acct_0780,Validation,2,2026-07-11,2026-07-25,owner_05
+hist_001198,opp_0245,acct_0780,Proposal,3,2026-07-25,2026-08-09,owner_05
+hist_001199,opp_0245,acct_0780,Negotiation,4,2026-08-09,2026-08-23,owner_05
+hist_001200,opp_0245,acct_0780,Closed Lost,5,2026-08-23,2026-09-06,owner_05
+hist_001201,opp_0246,acct_0114,Discovery,1,2026-04-29,2026-05-31,owner_07
+hist_001202,opp_0246,acct_0114,Closed Lost,2,2026-05-31,2026-07-02,owner_07
+hist_001203,opp_0247,acct_0574,Discovery,1,2026-05-06,2026-05-21,owner_01
+hist_001204,opp_0247,acct_0574,Validation,2,2026-05-21,2026-06-05,owner_01
+hist_001205,opp_0247,acct_0574,Proposal,3,2026-06-05,2026-06-20,owner_01
+hist_001206,opp_0247,acct_0574,Closed Lost,4,2026-06-20,2026-07-05,owner_01
+hist_001207,opp_0248,acct_0274,Discovery,1,2026-06-14,2026-06-30,owner_06
+hist_001208,opp_0248,acct_0274,Closed Lost,2,2026-06-30,2026-07-15,owner_06
+hist_001209,opp_0249,acct_0603,Discovery,1,2026-06-16,2026-06-24,owner_04
+hist_001210,opp_0249,acct_0603,Validation,2,2026-06-24,2026-07-02,owner_04
+hist_001211,opp_0249,acct_0603,Proposal,3,2026-07-02,2026-07-10,owner_04
+hist_001212,opp_0249,acct_0603,Closed Lost,4,2026-07-10,2026-07-18,owner_04
+hist_001213,opp_0250,acct_0338,Discovery,1,2026-06-21,2026-07-21,owner_02
+hist_001214,opp_0250,acct_0338,Validation,2,2026-07-21,2026-08-20,owner_02
+hist_001215,opp_0250,acct_0338,Closed Lost,3,2026-08-20,2026-09-19,owner_02
+hist_001216,opp_0251,acct_0421,Discovery,1,2026-07-05,2026-07-16,owner_05
+hist_001217,opp_0251,acct_0421,Validation,2,2026-07-16,2026-07-28,owner_05
+hist_001218,opp_0251,acct_0421,Proposal,3,2026-07-28,2026-08-08,owner_05
+hist_001219,opp_0251,acct_0421,Negotiation,4,2026-08-08,2026-08-20,owner_05
+hist_001220,opp_0251,acct_0421,Closed Lost,5,2026-08-20,2026-08-31,owner_05
+hist_001221,opp_0252,acct_0896,Discovery,1,2026-08-09,2026-08-14,owner_05
+hist_001222,opp_0252,acct_0896,Validation,2,2026-08-14,2026-08-19,owner_05
+hist_001223,opp_0252,acct_0896,Proposal,3,2026-08-19,2026-08-24,owner_05
+hist_001224,opp_0252,acct_0896,Closed Lost,4,2026-08-24,2026-08-29,owner_05
+hist_001225,opp_0253,acct_0185,Discovery,1,2026-05-27,2026-06-29,owner_06
+hist_001226,opp_0253,acct_0185,Validation,2,2026-06-29,2026-08-01,owner_06
+hist_001227,opp_0253,acct_0185,Closed Lost,3,2026-08-01,2026-09-03,owner_06
+hist_001228,opp_0254,acct_0534,Discovery,1,2026-08-20,2026-09-03,owner_01
+hist_001229,opp_0254,acct_0534,Closed Lost,2,2026-09-03,2026-09-16,owner_01
+hist_001230,opp_0255,acct_0347,Discovery,1,2026-07-01,2026-07-23,owner_02
+hist_001231,opp_0255,acct_0347,Validation,2,2026-07-23,2026-08-15,owner_02
+hist_001232,opp_0255,acct_0347,Closed Lost,3,2026-08-15,2026-09-06,owner_02
+hist_001233,opp_0256,acct_0652,Discovery,1,2026-06-06,2026-06-19,owner_07
+hist_001234,opp_0256,acct_0652,Validation,2,2026-06-19,2026-07-02,owner_07
+hist_001235,opp_0256,acct_0652,Proposal,3,2026-07-02,2026-07-14,owner_07
+hist_001236,opp_0256,acct_0652,Closed Lost,4,2026-07-14,2026-07-27,owner_07
+hist_001237,opp_0257,acct_0375,Discovery,1,2026-05-15,2026-06-18,owner_04
+hist_001238,opp_0257,acct_0375,Validation,2,2026-06-18,2026-07-23,owner_04
+hist_001239,opp_0257,acct_0375,Closed Lost,3,2026-07-23,2026-08-26,owner_04
+hist_001240,opp_0258,acct_0985,Discovery,1,2026-04-05,2026-04-25,owner_06
+hist_001241,opp_0258,acct_0985,Validation,2,2026-04-25,2026-05-15,owner_06
+hist_001242,opp_0258,acct_0985,Proposal,3,2026-05-15,2026-06-04,owner_06
+hist_001243,opp_0258,acct_0985,Negotiation,4,2026-06-04,2026-06-24,owner_06
+hist_001244,opp_0258,acct_0985,Closed Lost,5,2026-06-24,2026-07-14,owner_06
+hist_001245,opp_0259,acct_0933,Discovery,1,2026-06-13,2026-06-27,owner_05
+hist_001246,opp_0259,acct_0933,Validation,2,2026-06-27,2026-07-11,owner_05
+hist_001247,opp_0259,acct_0933,Proposal,3,2026-07-11,2026-07-25,owner_05
+hist_001248,opp_0259,acct_0933,Closed Lost,4,2026-07-25,2026-08-08,owner_05
+hist_001249,opp_0260,acct_0847,Discovery,1,2026-06-12,2026-07-01,owner_02
+hist_001250,opp_0260,acct_0847,Validation,2,2026-07-01,2026-07-21,owner_02
+hist_001251,opp_0260,acct_0847,Closed Lost,3,2026-07-21,2026-08-09,owner_02
+hist_001252,opp_0261,acct_0035,Discovery,1,2026-09-05,2026-09-13,owner_08
+hist_001253,opp_0261,acct_0035,Validation,2,2026-09-13,2026-09-22,owner_08
+hist_001254,opp_0261,acct_0035,Closed Lost,3,2026-09-22,2026-09-30,owner_08
+hist_001255,opp_0262,acct_1042,Discovery,1,2026-07-05,2026-07-26,owner_08
+hist_001256,opp_0262,acct_1042,Validation,2,2026-07-26,2026-08-17,owner_08
+hist_001257,opp_0262,acct_1042,Closed Lost,3,2026-08-17,2026-09-07,owner_08
+hist_001258,opp_0263,acct_0383,Discovery,1,2026-07-13,2026-07-26,owner_08
+hist_001259,opp_0263,acct_0383,Validation,2,2026-07-26,2026-08-08,owner_08
+hist_001260,opp_0263,acct_0383,Proposal,3,2026-08-08,2026-08-21,owner_08
+hist_001261,opp_0263,acct_0383,Closed Lost,4,2026-08-21,2026-09-03,owner_08
+hist_001262,opp_0264,acct_0013,Discovery,1,2026-04-08,2026-05-13,owner_02
+hist_001263,opp_0264,acct_0013,Validation,2,2026-05-13,2026-06-16,owner_02
+hist_001264,opp_0264,acct_0013,Closed Lost,3,2026-06-16,2026-07-21,owner_02
+hist_001265,opp_0265,acct_0428,Discovery,1,2026-09-09,2026-09-16,owner_03
+hist_001266,opp_0265,acct_0428,Validation,2,2026-09-16,2026-09-23,owner_03
+hist_001267,opp_0265,acct_0428,Closed Lost,3,2026-09-23,2026-09-30,owner_03
+hist_001268,opp_0266,acct_0413,Discovery,1,2026-06-03,2026-06-28,owner_03
+hist_001269,opp_0266,acct_0413,Validation,2,2026-06-28,2026-07-23,owner_03
+hist_001270,opp_0266,acct_0413,Proposal,3,2026-07-23,2026-08-16,owner_03
+hist_001271,opp_0266,acct_0413,Closed Lost,4,2026-08-16,2026-09-10,owner_03
+hist_001272,opp_0267,acct_0537,Discovery,1,2026-05-09,2026-06-07,owner_04
+hist_001273,opp_0267,acct_0537,Closed Lost,2,2026-06-07,2026-07-06,owner_04
+hist_001274,opp_0268,acct_0981,Discovery,1,2026-07-29,2026-08-10,owner_08
+hist_001275,opp_0268,acct_0981,Validation,2,2026-08-10,2026-08-22,owner_08
+hist_001276,opp_0268,acct_0981,Proposal,3,2026-08-22,2026-09-02,owner_08
+hist_001277,opp_0268,acct_0981,Closed Lost,4,2026-09-02,2026-09-14,owner_08
+hist_001278,opp_0269,acct_0461,Discovery,1,2026-07-28,2026-08-16,owner_05
+hist_001279,opp_0269,acct_0461,Closed Lost,2,2026-08-16,2026-09-04,owner_05
+hist_001280,opp_0270,acct_0418,Discovery,1,2026-07-11,2026-07-22,owner_08
+hist_001281,opp_0270,acct_0418,Validation,2,2026-07-22,2026-08-01,owner_08
+hist_001282,opp_0270,acct_0418,Proposal,3,2026-08-01,2026-08-12,owner_08
+hist_001283,opp_0270,acct_0418,Negotiation,4,2026-08-12,2026-08-22,owner_08
+hist_001284,opp_0270,acct_0418,Closed Lost,5,2026-08-22,2026-09-02,owner_08
+hist_001285,opp_0271,acct_0078,Discovery,1,2026-08-21,2026-08-31,owner_07
+hist_001286,opp_0271,acct_0078,Validation,2,2026-08-31,2026-09-10,owner_07
+hist_001287,opp_0271,acct_0078,Proposal,3,2026-09-10,2026-09-20,owner_07
+hist_001288,opp_0271,acct_0078,Closed Lost,4,2026-09-20,2026-09-30,owner_07
+hist_001289,opp_0272,acct_0642,Discovery,1,2026-07-03,2026-07-28,owner_08
+hist_001290,opp_0272,acct_0642,Validation,2,2026-07-28,2026-08-21,owner_08
+hist_001291,opp_0272,acct_0642,Closed Lost,3,2026-08-21,2026-09-15,owner_08
+hist_001292,opp_0273,acct_0169,Discovery,1,2026-05-20,2026-05-28,owner_03
+hist_001293,opp_0273,acct_0169,Validation,2,2026-05-28,2026-06-06,owner_03
+hist_001294,opp_0273,acct_0169,Proposal,3,2026-06-06,2026-06-14,owner_03
+hist_001295,opp_0273,acct_0169,Negotiation,4,2026-06-14,2026-06-23,owner_03
+hist_001296,opp_0273,acct_0169,Closed Lost,5,2026-06-23,2026-07-01,owner_03
+hist_001297,opp_0274,acct_0235,Discovery,1,2026-05-16,2026-06-13,owner_06
+hist_001298,opp_0274,acct_0235,Validation,2,2026-06-13,2026-07-11,owner_06
+hist_001299,opp_0274,acct_0235,Closed Lost,3,2026-07-11,2026-08-08,owner_06
+hist_001300,opp_0275,acct_0589,Discovery,1,2026-06-19,2026-07-12,owner_01
+hist_001301,opp_0275,acct_0589,Validation,2,2026-07-12,2026-08-03,owner_01
+hist_001302,opp_0275,acct_0589,Closed Lost,3,2026-08-03,2026-08-26,owner_01
+hist_001303,opp_0276,acct_0237,Discovery,1,2026-04-11,2026-05-12,owner_05
+hist_001304,opp_0276,acct_0237,Validation,2,2026-05-12,2026-06-13,owner_05
+hist_001305,opp_0276,acct_0237,Closed Lost,3,2026-06-13,2026-07-14,owner_05
+hist_001306,opp_0277,acct_1005,Discovery,1,2026-07-24,2026-08-10,owner_06
+hist_001307,opp_0277,acct_1005,Validation,2,2026-08-10,2026-08-27,owner_06
+hist_001308,opp_0277,acct_1005,Proposal,3,2026-08-27,2026-09-12,owner_06
+hist_001309,opp_0277,acct_1005,Closed Lost,4,2026-09-12,2026-09-29,owner_06
+hist_001310,opp_0278,acct_0593,Discovery,1,2026-07-07,2026-07-28,owner_05
+hist_001311,opp_0278,acct_0593,Validation,2,2026-07-28,2026-08-18,owner_05
+hist_001312,opp_0278,acct_0593,Proposal,3,2026-08-18,2026-09-07,owner_05
+hist_001313,opp_0278,acct_0593,Closed Lost,4,2026-09-07,2026-09-28,owner_05
+hist_001314,opp_0279,acct_0502,Discovery,1,2026-06-20,2026-07-30,owner_01
+hist_001315,opp_0279,acct_0502,Closed Lost,2,2026-07-30,2026-09-08,owner_01
+hist_001316,opp_0280,acct_0979,Discovery,1,2026-07-04,2026-07-20,owner_06
+hist_001317,opp_0280,acct_0979,Closed Lost,2,2026-07-20,2026-08-06,owner_06
+hist_001318,opp_0281,acct_0066,Discovery,1,2026-05-08,2026-05-30,owner_02
+hist_001319,opp_0281,acct_0066,Validation,2,2026-05-30,2026-06-21,owner_02
+hist_001320,opp_0281,acct_0066,Proposal,3,2026-06-21,2026-07-14,owner_02
+hist_001321,opp_0281,acct_0066,Closed Lost,4,2026-07-14,2026-08-05,owner_02
+hist_001322,opp_0282,acct_0822,Discovery,1,2026-05-26,2026-06-11,owner_06
+hist_001323,opp_0282,acct_0822,Validation,2,2026-06-11,2026-06-27,owner_06
+hist_001324,opp_0282,acct_0822,Closed Lost,3,2026-06-27,2026-07-13,owner_06
+hist_001325,opp_0283,acct_0349,Discovery,1,2026-06-23,2026-06-29,owner_06
+hist_001326,opp_0283,acct_0349,Validation,2,2026-06-29,2026-07-05,owner_06
+hist_001327,opp_0283,acct_0349,Proposal,3,2026-07-05,2026-07-12,owner_06
+hist_001328,opp_0283,acct_0349,Closed Lost,4,2026-07-12,2026-07-18,owner_06
+hist_001329,opp_0284,acct_0215,Discovery,1,2026-08-04,2026-08-13,owner_06
+hist_001330,opp_0284,acct_0215,Validation,2,2026-08-13,2026-08-22,owner_06
+hist_001331,opp_0284,acct_0215,Proposal,3,2026-08-22,2026-08-31,owner_06
+hist_001332,opp_0284,acct_0215,Closed Lost,4,2026-08-31,2026-09-09,owner_06
+hist_001333,opp_0285,acct_0341,Discovery,1,2026-04-16,2026-05-14,owner_06
+hist_001334,opp_0285,acct_0341,Validation,2,2026-05-14,2026-06-11,owner_06
+hist_001335,opp_0285,acct_0341,Closed Lost,3,2026-06-11,2026-07-09,owner_06
+hist_001336,opp_0286,acct_0155,Discovery,1,2026-06-08,2026-06-26,owner_05
+hist_001337,opp_0286,acct_0155,Validation,2,2026-06-26,2026-07-14,owner_05
+hist_001338,opp_0286,acct_0155,Proposal,3,2026-07-14,2026-08-02,owner_05
+hist_001339,opp_0286,acct_0155,Negotiation,4,2026-08-02,2026-08-20,owner_05
+hist_001340,opp_0286,acct_0155,Closed Lost,5,2026-08-20,2026-09-07,owner_05
+hist_001341,opp_0287,acct_0426,Discovery,1,2026-06-16,2026-07-07,owner_07
+hist_001342,opp_0287,acct_0426,Validation,2,2026-07-07,2026-07-27,owner_07
+hist_001343,opp_0287,acct_0426,Closed Lost,3,2026-07-27,2026-08-17,owner_07
+hist_001344,opp_0288,acct_0461,Discovery,1,2026-06-03,2026-06-17,owner_05
+hist_001345,opp_0288,acct_0461,Validation,2,2026-06-17,2026-07-01,owner_05
+hist_001346,opp_0288,acct_0461,Proposal,3,2026-07-01,2026-07-16,owner_05
+hist_001347,opp_0288,acct_0461,Negotiation,4,2026-07-16,2026-07-30,owner_05
+hist_001348,opp_0288,acct_0461,Closed Lost,5,2026-07-30,2026-08-13,owner_05
+hist_001349,opp_0289,acct_0827,Discovery,1,2026-08-02,2026-08-11,owner_07
+hist_001350,opp_0289,acct_0827,Validation,2,2026-08-11,2026-08-20,owner_07
+hist_001351,opp_0289,acct_0827,Proposal,3,2026-08-20,2026-08-28,owner_07
+hist_001352,opp_0289,acct_0827,Closed Lost,4,2026-08-28,2026-09-06,owner_07
+hist_001353,opp_0290,acct_0211,Discovery,1,2026-06-16,2026-07-18,owner_02
+hist_001354,opp_0290,acct_0211,Closed Lost,2,2026-07-18,2026-08-20,owner_02
+hist_001355,opp_0291,acct_0995,Discovery,1,2026-05-21,2026-06-02,owner_01
+hist_001356,opp_0291,acct_0995,Validation,2,2026-06-02,2026-06-14,owner_01
+hist_001357,opp_0291,acct_0995,Proposal,3,2026-06-14,2026-06-25,owner_01
+hist_001358,opp_0291,acct_0995,Negotiation,4,2026-06-25,2026-07-07,owner_01
+hist_001359,opp_0291,acct_0995,Closed Lost,5,2026-07-07,2026-07-19,owner_01
+hist_001360,opp_0292,acct_0429,Discovery,1,2026-06-03,2026-06-15,owner_01
+hist_001361,opp_0292,acct_0429,Validation,2,2026-06-15,2026-06-26,owner_01
+hist_001362,opp_0292,acct_0429,Closed Lost,3,2026-06-26,2026-07-08,owner_01
+hist_001363,opp_0293,acct_0145,Discovery,1,2026-06-01,2026-06-19,owner_01
+hist_001364,opp_0293,acct_0145,Validation,2,2026-06-19,2026-07-06,owner_01
+hist_001365,opp_0293,acct_0145,Closed Lost,3,2026-07-06,2026-07-24,owner_01
+hist_001366,opp_0294,acct_0194,Discovery,1,2026-06-05,2026-06-17,owner_04
+hist_001367,opp_0294,acct_0194,Validation,2,2026-06-17,2026-06-29,owner_04
+hist_001368,opp_0294,acct_0194,Closed Lost,3,2026-06-29,2026-07-11,owner_04
+hist_001369,opp_0295,acct_0766,Discovery,1,2026-07-02,2026-07-14,owner_07
+hist_001370,opp_0295,acct_0766,Validation,2,2026-07-14,2026-07-27,owner_07
+hist_001371,opp_0295,acct_0766,Closed Lost,3,2026-07-27,2026-08-08,owner_07
+hist_001372,opp_0296,acct_0010,Discovery,1,2026-06-22,2026-07-14,owner_06
+hist_001373,opp_0296,acct_0010,Validation,2,2026-07-14,2026-08-05,owner_06
+hist_001374,opp_0296,acct_0010,Proposal,3,2026-08-05,2026-08-26,owner_06
+hist_001375,opp_0296,acct_0010,Closed Lost,4,2026-08-26,2026-09-17,owner_06
+hist_001376,opp_0297,acct_0890,Discovery,1,2026-06-16,2026-07-16,owner_04
+hist_001377,opp_0297,acct_0890,Validation,2,2026-07-16,2026-08-14,owner_04
+hist_001378,opp_0297,acct_0890,Closed Lost,3,2026-08-14,2026-09-13,owner_04
+hist_001379,opp_0298,acct_0440,Discovery,1,2026-07-23,2026-08-05,owner_06
+hist_001380,opp_0298,acct_0440,Validation,2,2026-08-05,2026-08-18,owner_06
+hist_001381,opp_0298,acct_0440,Proposal,3,2026-08-18,2026-08-31,owner_06
+hist_001382,opp_0298,acct_0440,Negotiation,4,2026-08-31,2026-09-13,owner_06
+hist_001383,opp_0298,acct_0440,Closed Lost,5,2026-09-13,2026-09-26,owner_06
+hist_001384,opp_0299,acct_0014,Discovery,1,2026-04-22,2026-05-16,owner_06
+hist_001385,opp_0299,acct_0014,Validation,2,2026-05-16,2026-06-08,owner_06
+hist_001386,opp_0299,acct_0014,Proposal,3,2026-06-08,2026-07-01,owner_06
+hist_001387,opp_0299,acct_0014,Closed Lost,4,2026-07-01,2026-07-25,owner_06
+hist_001388,opp_0300,acct_0652,Discovery,1,2026-06-13,2026-06-28,owner_07
+hist_001389,opp_0300,acct_0652,Validation,2,2026-06-28,2026-07-13,owner_07
+hist_001390,opp_0300,acct_0652,Proposal,3,2026-07-13,2026-07-27,owner_07
+hist_001391,opp_0300,acct_0652,Negotiation,4,2026-07-27,2026-08-11,owner_07
+hist_001392,opp_0300,acct_0652,Closed Lost,5,2026-08-11,2026-08-26,owner_07
+hist_001393,opp_0301,acct_0322,Discovery,1,2026-06-26,2026-07-10,owner_01
+hist_001394,opp_0301,acct_0322,Validation,2,2026-07-10,2026-07-24,owner_01
+hist_001395,opp_0301,acct_0322,Proposal,3,2026-07-24,2026-08-08,owner_01
+hist_001396,opp_0301,acct_0322,Closed Lost,4,2026-08-08,2026-08-22,owner_01
+hist_001397,opp_0302,acct_0170,Discovery,1,2026-05-19,2026-06-01,owner_05
+hist_001398,opp_0302,acct_0170,Validation,2,2026-06-01,2026-06-15,owner_05
+hist_001399,opp_0302,acct_0170,Proposal,3,2026-06-15,2026-06-28,owner_05
+hist_001400,opp_0302,acct_0170,Negotiation,4,2026-06-28,2026-07-12,owner_05
+hist_001401,opp_0302,acct_0170,Closed Lost,5,2026-07-12,2026-07-25,owner_05
+hist_001402,opp_0303,acct_0821,Discovery,1,2026-05-26,2026-07-03,owner_02
+hist_001403,opp_0303,acct_0821,Closed Lost,2,2026-07-03,2026-08-09,owner_02
+hist_001404,opp_0304,acct_0851,Discovery,1,2026-07-03,2026-07-25,owner_05
+hist_001405,opp_0304,acct_0851,Validation,2,2026-07-25,2026-08-17,owner_05
+hist_001406,opp_0304,acct_0851,Closed Lost,3,2026-08-17,2026-09-08,owner_05
+hist_001407,opp_0305,acct_0147,Discovery,1,2026-04-23,2026-06-06,owner_08
+hist_001408,opp_0305,acct_0147,Closed Lost,2,2026-06-06,2026-07-19,owner_08
+hist_001409,opp_0306,acct_0972,Discovery,1,2026-05-31,2026-06-22,owner_01
+hist_001410,opp_0306,acct_0972,Closed Lost,2,2026-06-22,2026-07-14,owner_01
+hist_001411,opp_0307,acct_0181,Discovery,1,2026-04-06,2026-05-05,owner_02
+hist_001412,opp_0307,acct_0181,Validation,2,2026-05-05,2026-06-02,owner_02
+hist_001413,opp_0307,acct_0181,Closed Lost,3,2026-06-02,2026-07-01,owner_02
+hist_001414,opp_0308,acct_0445,Discovery,1,2026-05-25,2026-06-25,owner_02
+hist_001415,opp_0308,acct_0445,Validation,2,2026-06-25,2026-07-27,owner_02
+hist_001416,opp_0308,acct_0445,Closed Lost,3,2026-07-27,2026-08-27,owner_02
+hist_001417,opp_0309,acct_0301,Discovery,1,2026-05-12,2026-06-07,owner_08
+hist_001418,opp_0309,acct_0301,Validation,2,2026-06-07,2026-07-04,owner_08
+hist_001419,opp_0309,acct_0301,Closed Lost,3,2026-07-04,2026-07-30,owner_08
+hist_001420,opp_0310,acct_0679,Discovery,1,2026-07-25,2026-08-12,owner_03
+hist_001421,opp_0310,acct_0679,Validation,2,2026-08-12,2026-08-30,owner_03
+hist_001422,opp_0310,acct_0679,Closed Lost,3,2026-08-30,2026-09-17,owner_03
+hist_001423,opp_0311,acct_0399,Discovery,1,2026-08-19,2026-09-05,owner_04
+hist_001424,opp_0311,acct_0399,Validation,2,2026-09-05,2026-09-23,owner_04
+hist_001425,opp_0311,acct_0399,Proposal,3,2026-09-23,2026-10-10,owner_04
+hist_001426,opp_0311,acct_0399,Negotiation,4,2026-10-10,2026-10-28,owner_04
+hist_001427,opp_0311,acct_0399,Closed Won,5,2026-10-28,2026-11-14,owner_04
+hist_001428,opp_0312,acct_0986,Discovery,1,2026-09-25,2026-10-06,owner_06
+hist_001429,opp_0312,acct_0986,Validation,2,2026-10-06,2026-10-17,owner_06
+hist_001430,opp_0312,acct_0986,Proposal,3,2026-10-17,2026-10-29,owner_06
+hist_001431,opp_0312,acct_0986,Negotiation,4,2026-10-29,2026-11-09,owner_06
+hist_001432,opp_0312,acct_0986,Closed Won,5,2026-11-09,2026-11-20,owner_06
+hist_001433,opp_0313,acct_0855,Discovery,1,2026-09-14,2026-09-21,owner_04
+hist_001434,opp_0313,acct_0855,Validation,2,2026-09-21,2026-09-28,owner_04
+hist_001435,opp_0313,acct_0855,Proposal,3,2026-09-28,2026-10-04,owner_04
+hist_001436,opp_0313,acct_0855,Negotiation,4,2026-10-04,2026-10-11,owner_04
+hist_001437,opp_0313,acct_0855,Closed Won,5,2026-10-11,2026-10-18,owner_04
+hist_001438,opp_0314,acct_0594,Discovery,1,2026-07-18,2026-08-02,owner_05
+hist_001439,opp_0314,acct_0594,Validation,2,2026-08-02,2026-08-17,owner_05
+hist_001440,opp_0314,acct_0594,Proposal,3,2026-08-17,2026-09-01,owner_05
+hist_001441,opp_0314,acct_0594,Negotiation,4,2026-09-01,2026-09-16,owner_05
+hist_001442,opp_0314,acct_0594,Closed Won,5,2026-09-16,2026-10-01,owner_05
+hist_001443,opp_0315,acct_0683,Discovery,1,2026-07-31,2026-08-16,owner_04
+hist_001444,opp_0315,acct_0683,Validation,2,2026-08-16,2026-09-01,owner_04
+hist_001445,opp_0315,acct_0683,Proposal,3,2026-09-01,2026-09-17,owner_04
+hist_001446,opp_0315,acct_0683,Negotiation,4,2026-09-17,2026-10-03,owner_04
+hist_001447,opp_0315,acct_0683,Closed Won,5,2026-10-03,2026-10-19,owner_04
+hist_001448,opp_0316,acct_0304,Discovery,1,2026-07-30,2026-08-19,owner_05
+hist_001449,opp_0316,acct_0304,Validation,2,2026-08-19,2026-09-07,owner_05
+hist_001450,opp_0316,acct_0304,Proposal,3,2026-09-07,2026-09-27,owner_05
+hist_001451,opp_0316,acct_0304,Negotiation,4,2026-09-27,2026-10-16,owner_05
+hist_001452,opp_0316,acct_0304,Closed Won,5,2026-10-16,2026-11-05,owner_05
+hist_001453,opp_0317,acct_0793,Discovery,1,2026-08-24,2026-09-10,owner_04
+hist_001454,opp_0317,acct_0793,Validation,2,2026-09-10,2026-09-26,owner_04
+hist_001455,opp_0317,acct_0793,Proposal,3,2026-09-26,2026-10-13,owner_04
+hist_001456,opp_0317,acct_0793,Negotiation,4,2026-10-13,2026-10-29,owner_04
+hist_001457,opp_0317,acct_0793,Closed Won,5,2026-10-29,2026-11-15,owner_04
+hist_001458,opp_0318,acct_0907,Discovery,1,2026-08-30,2026-09-12,owner_08
+hist_001459,opp_0318,acct_0907,Validation,2,2026-09-12,2026-09-25,owner_08
+hist_001460,opp_0318,acct_0907,Proposal,3,2026-09-25,2026-10-09,owner_08
+hist_001461,opp_0318,acct_0907,Negotiation,4,2026-10-09,2026-10-22,owner_08
+hist_001462,opp_0318,acct_0907,Closed Won,5,2026-10-22,2026-11-04,owner_08
+hist_001463,opp_0319,acct_0509,Discovery,1,2026-10-16,2026-10-22,owner_06
+hist_001464,opp_0319,acct_0509,Validation,2,2026-10-22,2026-10-28,owner_06
+hist_001465,opp_0319,acct_0509,Proposal,3,2026-10-28,2026-11-03,owner_06
+hist_001466,opp_0319,acct_0509,Negotiation,4,2026-11-03,2026-11-09,owner_06
+hist_001467,opp_0319,acct_0509,Closed Won,5,2026-11-09,2026-11-15,owner_06
+hist_001468,opp_0320,acct_0252,Discovery,1,2026-09-26,2026-10-07,owner_01
+hist_001469,opp_0320,acct_0252,Validation,2,2026-10-07,2026-10-18,owner_01
+hist_001470,opp_0320,acct_0252,Proposal,3,2026-10-18,2026-10-29,owner_01
+hist_001471,opp_0320,acct_0252,Negotiation,4,2026-10-29,2026-11-09,owner_01
+hist_001472,opp_0320,acct_0252,Closed Won,5,2026-11-09,2026-11-20,owner_01
+hist_001473,opp_0321,acct_0511,Discovery,1,2026-08-04,2026-08-19,owner_02
+hist_001474,opp_0321,acct_0511,Validation,2,2026-08-19,2026-09-03,owner_02
+hist_001475,opp_0321,acct_0511,Proposal,3,2026-09-03,2026-09-17,owner_02
+hist_001476,opp_0321,acct_0511,Negotiation,4,2026-09-17,2026-10-02,owner_02
+hist_001477,opp_0321,acct_0511,Closed Won,5,2026-10-02,2026-10-17,owner_02
+hist_001478,opp_0322,acct_0609,Discovery,1,2026-07-04,2026-07-22,owner_02
+hist_001479,opp_0322,acct_0609,Validation,2,2026-07-22,2026-08-09,owner_02
+hist_001480,opp_0322,acct_0609,Proposal,3,2026-08-09,2026-08-28,owner_02
+hist_001481,opp_0322,acct_0609,Negotiation,4,2026-08-28,2026-09-15,owner_02
+hist_001482,opp_0322,acct_0609,Closed Won,5,2026-09-15,2026-10-03,owner_02
+hist_001483,opp_0323,acct_0009,Discovery,1,2026-07-23,2026-08-08,owner_01
+hist_001484,opp_0323,acct_0009,Validation,2,2026-08-08,2026-08-24,owner_01
+hist_001485,opp_0323,acct_0009,Proposal,3,2026-08-24,2026-09-09,owner_01
+hist_001486,opp_0323,acct_0009,Negotiation,4,2026-09-09,2026-09-25,owner_01
+hist_001487,opp_0323,acct_0009,Closed Won,5,2026-09-25,2026-10-11,owner_01
+hist_001488,opp_0324,acct_0371,Discovery,1,2026-08-02,2026-08-17,owner_07
+hist_001489,opp_0324,acct_0371,Validation,2,2026-08-17,2026-09-01,owner_07
+hist_001490,opp_0324,acct_0371,Proposal,3,2026-09-01,2026-09-17,owner_07
+hist_001491,opp_0324,acct_0371,Negotiation,4,2026-09-17,2026-10-02,owner_07
+hist_001492,opp_0324,acct_0371,Closed Won,5,2026-10-02,2026-10-17,owner_07
+hist_001493,opp_0325,acct_0480,Discovery,1,2026-09-20,2026-10-01,owner_04
+hist_001494,opp_0325,acct_0480,Validation,2,2026-10-01,2026-10-13,owner_04
+hist_001495,opp_0325,acct_0480,Proposal,3,2026-10-13,2026-10-24,owner_04
+hist_001496,opp_0325,acct_0480,Negotiation,4,2026-10-24,2026-11-05,owner_04
+hist_001497,opp_0325,acct_0480,Closed Won,5,2026-11-05,2026-11-16,owner_04
+hist_001498,opp_0326,acct_0358,Discovery,1,2026-10-21,2026-10-25,owner_06
+hist_001499,opp_0326,acct_0358,Validation,2,2026-10-25,2026-10-30,owner_06
+hist_001500,opp_0326,acct_0358,Proposal,3,2026-10-30,2026-11-03,owner_06
+hist_001501,opp_0326,acct_0358,Negotiation,4,2026-11-03,2026-11-08,owner_06
+hist_001502,opp_0326,acct_0358,Closed Won,5,2026-11-08,2026-11-12,owner_06
+hist_001503,opp_0327,acct_0504,Discovery,1,2026-08-22,2026-09-07,owner_07
+hist_001504,opp_0327,acct_0504,Validation,2,2026-09-07,2026-09-24,owner_07
+hist_001505,opp_0327,acct_0504,Proposal,3,2026-09-24,2026-10-10,owner_07
+hist_001506,opp_0327,acct_0504,Negotiation,4,2026-10-10,2026-10-27,owner_07
+hist_001507,opp_0327,acct_0504,Closed Won,5,2026-10-27,2026-11-12,owner_07
+hist_001508,opp_0328,acct_0700,Discovery,1,2026-09-01,2026-09-10,owner_02
+hist_001509,opp_0328,acct_0700,Validation,2,2026-09-10,2026-09-19,owner_02
+hist_001510,opp_0328,acct_0700,Proposal,3,2026-09-19,2026-09-27,owner_02
+hist_001511,opp_0328,acct_0700,Negotiation,4,2026-09-27,2026-10-06,owner_02
+hist_001512,opp_0328,acct_0700,Closed Won,5,2026-10-06,2026-10-15,owner_02
+hist_001513,opp_0329,acct_0937,Discovery,1,2026-08-29,2026-09-10,owner_05
+hist_001514,opp_0329,acct_0937,Validation,2,2026-09-10,2026-09-22,owner_05
+hist_001515,opp_0329,acct_0937,Proposal,3,2026-09-22,2026-10-03,owner_05
+hist_001516,opp_0329,acct_0937,Negotiation,4,2026-10-03,2026-10-15,owner_05
+hist_001517,opp_0329,acct_0937,Closed Won,5,2026-10-15,2026-10-27,owner_05
+hist_001518,opp_0330,acct_0534,Discovery,1,2026-08-21,2026-09-08,owner_01
+hist_001519,opp_0330,acct_0534,Validation,2,2026-09-08,2026-09-26,owner_01
+hist_001520,opp_0330,acct_0534,Proposal,3,2026-09-26,2026-10-15,owner_01
+hist_001521,opp_0330,acct_0534,Negotiation,4,2026-10-15,2026-11-02,owner_01
+hist_001522,opp_0330,acct_0534,Closed Won,5,2026-11-02,2026-11-20,owner_01
+hist_001523,opp_0331,acct_0686,Discovery,1,2026-07-20,2026-08-09,owner_05
+hist_001524,opp_0331,acct_0686,Validation,2,2026-08-09,2026-08-30,owner_05
+hist_001525,opp_0331,acct_0686,Proposal,3,2026-08-30,2026-09-19,owner_05
+hist_001526,opp_0331,acct_0686,Negotiation,4,2026-09-19,2026-10-10,owner_05
+hist_001527,opp_0331,acct_0686,Closed Won,5,2026-10-10,2026-10-30,owner_05
+hist_001528,opp_0332,acct_0011,Discovery,1,2026-08-22,2026-09-06,owner_02
+hist_001529,opp_0332,acct_0011,Validation,2,2026-09-06,2026-09-20,owner_02
+hist_001530,opp_0332,acct_0011,Proposal,3,2026-09-20,2026-10-05,owner_02
+hist_001531,opp_0332,acct_0011,Negotiation,4,2026-10-05,2026-10-19,owner_02
+hist_001532,opp_0332,acct_0011,Closed Won,5,2026-10-19,2026-11-03,owner_02
+hist_001533,opp_0333,acct_0404,Discovery,1,2026-08-09,2026-08-25,owner_05
+hist_001534,opp_0333,acct_0404,Validation,2,2026-08-25,2026-09-10,owner_05
+hist_001535,opp_0333,acct_0404,Proposal,3,2026-09-10,2026-09-25,owner_05
+hist_001536,opp_0333,acct_0404,Negotiation,4,2026-09-25,2026-10-11,owner_05
+hist_001537,opp_0333,acct_0404,Closed Won,5,2026-10-11,2026-10-27,owner_05
+hist_001538,opp_0334,acct_0786,Discovery,1,2026-07-06,2026-07-24,owner_06
+hist_001539,opp_0334,acct_0786,Validation,2,2026-07-24,2026-08-10,owner_06
+hist_001540,opp_0334,acct_0786,Proposal,3,2026-08-10,2026-08-28,owner_06
+hist_001541,opp_0334,acct_0786,Negotiation,4,2026-08-28,2026-09-14,owner_06
+hist_001542,opp_0334,acct_0786,Closed Won,5,2026-09-14,2026-10-02,owner_06
+hist_001543,opp_0335,acct_0981,Discovery,1,2026-09-02,2026-09-08,owner_08
+hist_001544,opp_0335,acct_0981,Validation,2,2026-09-08,2026-09-14,owner_08
+hist_001545,opp_0335,acct_0981,Proposal,3,2026-09-14,2026-09-21,owner_08
+hist_001546,opp_0335,acct_0981,Negotiation,4,2026-09-21,2026-09-27,owner_08
+hist_001547,opp_0335,acct_0981,Closed Won,5,2026-09-27,2026-10-03,owner_08
+hist_001548,opp_0336,acct_0745,Discovery,1,2026-09-02,2026-09-14,owner_02
+hist_001549,opp_0336,acct_0745,Validation,2,2026-09-14,2026-09-26,owner_02
+hist_001550,opp_0336,acct_0745,Proposal,3,2026-09-26,2026-10-07,owner_02
+hist_001551,opp_0336,acct_0745,Negotiation,4,2026-10-07,2026-10-19,owner_02
+hist_001552,opp_0336,acct_0745,Closed Won,5,2026-10-19,2026-10-31,owner_02
+hist_001553,opp_0337,acct_0725,Discovery,1,2026-07-04,2026-07-22,owner_04
+hist_001554,opp_0337,acct_0725,Validation,2,2026-07-22,2026-08-09,owner_04
+hist_001555,opp_0337,acct_0725,Proposal,3,2026-08-09,2026-08-27,owner_04
+hist_001556,opp_0337,acct_0725,Negotiation,4,2026-08-27,2026-09-14,owner_04
+hist_001557,opp_0337,acct_0725,Closed Won,5,2026-09-14,2026-10-02,owner_04
+hist_001558,opp_0338,acct_0948,Discovery,1,2026-08-06,2026-08-18,owner_01
+hist_001559,opp_0338,acct_0948,Validation,2,2026-08-18,2026-08-31,owner_01
+hist_001560,opp_0338,acct_0948,Proposal,3,2026-08-31,2026-09-12,owner_01
+hist_001561,opp_0338,acct_0948,Negotiation,4,2026-09-12,2026-09-25,owner_01
+hist_001562,opp_0338,acct_0948,Closed Won,5,2026-09-25,2026-10-07,owner_01
+hist_001563,opp_0339,acct_0096,Discovery,1,2026-08-09,2026-08-26,owner_02
+hist_001564,opp_0339,acct_0096,Validation,2,2026-08-26,2026-09-12,owner_02
+hist_001565,opp_0339,acct_0096,Proposal,3,2026-09-12,2026-09-29,owner_02
+hist_001566,opp_0339,acct_0096,Negotiation,4,2026-09-29,2026-10-16,owner_02
+hist_001567,opp_0339,acct_0096,Closed Won,5,2026-10-16,2026-11-02,owner_02
+hist_001568,opp_0340,acct_0350,Discovery,1,2026-08-14,2026-08-30,owner_05
+hist_001569,opp_0340,acct_0350,Validation,2,2026-08-30,2026-09-15,owner_05
+hist_001570,opp_0340,acct_0350,Proposal,3,2026-09-15,2026-09-30,owner_05
+hist_001571,opp_0340,acct_0350,Negotiation,4,2026-09-30,2026-10-16,owner_05
+hist_001572,opp_0340,acct_0350,Closed Won,5,2026-10-16,2026-11-01,owner_05
+hist_001573,opp_0341,acct_1042,Discovery,1,2026-08-17,2026-09-12,owner_08
+hist_001574,opp_0341,acct_1042,Validation,2,2026-09-12,2026-10-08,owner_08
+hist_001575,opp_0341,acct_1042,Closed Lost,3,2026-10-08,2026-11-03,owner_08
+hist_001576,opp_0342,acct_0855,Discovery,1,2026-06-26,2026-07-22,owner_04
+hist_001577,opp_0342,acct_0855,Validation,2,2026-07-22,2026-08-17,owner_04
+hist_001578,opp_0342,acct_0855,Proposal,3,2026-08-17,2026-09-12,owner_04
+hist_001579,opp_0342,acct_0855,Closed Lost,4,2026-09-12,2026-10-08,owner_04
+hist_001580,opp_0343,acct_0753,Discovery,1,2026-08-15,2026-08-26,owner_08
+hist_001581,opp_0343,acct_0753,Validation,2,2026-08-26,2026-09-07,owner_08
+hist_001582,opp_0343,acct_0753,Proposal,3,2026-09-07,2026-09-18,owner_08
+hist_001583,opp_0343,acct_0753,Negotiation,4,2026-09-18,2026-09-30,owner_08
+hist_001584,opp_0343,acct_0753,Closed Lost,5,2026-09-30,2026-10-11,owner_08
+hist_001585,opp_0344,acct_0258,Discovery,1,2026-09-25,2026-10-10,owner_07
+hist_001586,opp_0344,acct_0258,Validation,2,2026-10-10,2026-10-26,owner_07
+hist_001587,opp_0344,acct_0258,Closed Lost,3,2026-10-26,2026-11-10,owner_07
+hist_001588,opp_0345,acct_0278,Discovery,1,2026-08-06,2026-08-25,owner_03
+hist_001589,opp_0345,acct_0278,Validation,2,2026-08-25,2026-09-14,owner_03
+hist_001590,opp_0345,acct_0278,Proposal,3,2026-09-14,2026-10-03,owner_03
+hist_001591,opp_0345,acct_0278,Negotiation,4,2026-10-03,2026-10-23,owner_03
+hist_001592,opp_0345,acct_0278,Closed Lost,5,2026-10-23,2026-11-11,owner_03
+hist_001593,opp_0346,acct_0378,Discovery,1,2026-07-26,2026-08-15,owner_03
+hist_001594,opp_0346,acct_0378,Validation,2,2026-08-15,2026-09-03,owner_03
+hist_001595,opp_0346,acct_0378,Proposal,3,2026-09-03,2026-09-22,owner_03
+hist_001596,opp_0346,acct_0378,Closed Lost,4,2026-09-22,2026-10-12,owner_03
+hist_001597,opp_0347,acct_0764,Discovery,1,2026-07-12,2026-08-07,owner_06
+hist_001598,opp_0347,acct_0764,Validation,2,2026-08-07,2026-09-01,owner_06
+hist_001599,opp_0347,acct_0764,Proposal,3,2026-09-01,2026-09-26,owner_06
+hist_001600,opp_0347,acct_0764,Closed Lost,4,2026-09-26,2026-10-22,owner_06
+hist_001601,opp_0348,acct_0511,Discovery,1,2026-09-16,2026-10-04,owner_02
+hist_001602,opp_0348,acct_0511,Validation,2,2026-10-04,2026-10-21,owner_02
+hist_001603,opp_0348,acct_0511,Closed Lost,3,2026-10-21,2026-11-08,owner_02
+hist_001604,opp_0349,acct_0604,Discovery,1,2026-10-11,2026-10-24,owner_03
+hist_001605,opp_0349,acct_0604,Closed Lost,2,2026-10-24,2026-11-06,owner_03
+hist_001606,opp_0350,acct_0772,Discovery,1,2026-08-07,2026-08-31,owner_08
+hist_001607,opp_0350,acct_0772,Validation,2,2026-08-31,2026-09-23,owner_08
+hist_001608,opp_0350,acct_0772,Closed Lost,3,2026-09-23,2026-10-17,owner_08
+hist_001609,opp_0351,acct_0253,Discovery,1,2026-08-31,2026-09-13,owner_06
+hist_001610,opp_0351,acct_0253,Validation,2,2026-09-13,2026-09-26,owner_06
+hist_001611,opp_0351,acct_0253,Closed Lost,3,2026-09-26,2026-10-09,owner_06
+hist_001612,opp_0352,acct_0446,Discovery,1,2026-10-04,2026-10-12,owner_08
+hist_001613,opp_0352,acct_0446,Validation,2,2026-10-12,2026-10-20,owner_08
+hist_001614,opp_0352,acct_0446,Proposal,3,2026-10-20,2026-10-27,owner_08
+hist_001615,opp_0352,acct_0446,Closed Lost,4,2026-10-27,2026-11-04,owner_08
+hist_001616,opp_0353,acct_0129,Discovery,1,2026-08-20,2026-09-03,owner_05
+hist_001617,opp_0353,acct_0129,Validation,2,2026-09-03,2026-09-17,owner_05
+hist_001618,opp_0353,acct_0129,Proposal,3,2026-09-17,2026-10-02,owner_05
+hist_001619,opp_0353,acct_0129,Closed Lost,4,2026-10-02,2026-10-16,owner_05
+hist_001620,opp_0354,acct_0145,Discovery,1,2026-07-22,2026-09-09,owner_01
+hist_001621,opp_0354,acct_0145,Closed Lost,2,2026-09-09,2026-10-28,owner_01
+hist_001622,opp_0355,acct_0465,Discovery,1,2026-09-10,2026-09-28,owner_06
+hist_001623,opp_0355,acct_0465,Validation,2,2026-09-28,2026-10-15,owner_06
+hist_001624,opp_0355,acct_0465,Proposal,3,2026-10-15,2026-11-01,owner_06
+hist_001625,opp_0355,acct_0465,Closed Lost,4,2026-11-01,2026-11-19,owner_06
+hist_001626,opp_0356,acct_0355,Discovery,1,2026-07-18,2026-08-08,owner_04
+hist_001627,opp_0356,acct_0355,Validation,2,2026-08-08,2026-08-29,owner_04
+hist_001628,opp_0356,acct_0355,Proposal,3,2026-08-29,2026-09-19,owner_04
+hist_001629,opp_0356,acct_0355,Negotiation,4,2026-09-19,2026-10-10,owner_04
+hist_001630,opp_0356,acct_0355,Closed Lost,5,2026-10-10,2026-10-31,owner_04
+hist_001631,opp_0357,acct_0880,Discovery,1,2026-07-20,2026-09-06,owner_01
+hist_001632,opp_0357,acct_0880,Closed Lost,2,2026-09-06,2026-10-25,owner_01
+hist_001633,opp_0358,acct_0692,Discovery,1,2026-08-05,2026-08-20,owner_04
+hist_001634,opp_0358,acct_0692,Validation,2,2026-08-20,2026-09-04,owner_04
+hist_001635,opp_0358,acct_0692,Proposal,3,2026-09-04,2026-09-18,owner_04
+hist_001636,opp_0358,acct_0692,Closed Lost,4,2026-09-18,2026-10-03,owner_04
+hist_001637,opp_0359,acct_0080,Discovery,1,2026-10-17,2026-10-25,owner_08
+hist_001638,opp_0359,acct_0080,Validation,2,2026-10-25,2026-11-03,owner_08
+hist_001639,opp_0359,acct_0080,Closed Lost,3,2026-11-03,2026-11-11,owner_08
+hist_001640,opp_0360,acct_0238,Discovery,1,2026-09-28,2026-10-08,owner_02
+hist_001641,opp_0360,acct_0238,Validation,2,2026-10-08,2026-10-18,owner_02
+hist_001642,opp_0360,acct_0238,Proposal,3,2026-10-18,2026-10-27,owner_02
+hist_001643,opp_0360,acct_0238,Closed Lost,4,2026-10-27,2026-11-06,owner_02
+hist_001644,opp_0361,acct_0357,Discovery,1,2026-09-01,2026-09-14,owner_03
+hist_001645,opp_0361,acct_0357,Validation,2,2026-09-14,2026-09-26,owner_03
+hist_001646,opp_0361,acct_0357,Proposal,3,2026-09-26,2026-10-09,owner_03
+hist_001647,opp_0361,acct_0357,Negotiation,4,2026-10-09,2026-10-21,owner_03
+hist_001648,opp_0361,acct_0357,Closed Lost,5,2026-10-21,2026-11-03,owner_03
+hist_001649,opp_0362,acct_0161,Discovery,1,2026-08-07,2026-09-07,owner_01
+hist_001650,opp_0362,acct_0161,Validation,2,2026-09-07,2026-10-09,owner_01
+hist_001651,opp_0362,acct_0161,Closed Lost,3,2026-10-09,2026-11-09,owner_01
+hist_001652,opp_0363,acct_0225,Discovery,1,2026-09-26,2026-10-07,owner_04
+hist_001653,opp_0363,acct_0225,Validation,2,2026-10-07,2026-10-19,owner_04
+hist_001654,opp_0363,acct_0225,Closed Lost,3,2026-10-19,2026-10-30,owner_04
+hist_001655,opp_0364,acct_0781,Discovery,1,2026-08-20,2026-09-05,owner_04
+hist_001656,opp_0364,acct_0781,Validation,2,2026-09-05,2026-09-21,owner_04
+hist_001657,opp_0364,acct_0781,Proposal,3,2026-09-21,2026-10-08,owner_04
+hist_001658,opp_0364,acct_0781,Closed Lost,4,2026-10-08,2026-10-24,owner_04
+hist_001659,opp_0365,acct_0773,Discovery,1,2026-08-25,2026-09-14,owner_06
+hist_001660,opp_0365,acct_0773,Validation,2,2026-09-14,2026-10-04,owner_06
+hist_001661,opp_0365,acct_0773,Proposal,3,2026-10-04,2026-10-24,owner_06
+hist_001662,opp_0365,acct_0773,Closed Lost,4,2026-10-24,2026-11-13,owner_06
+hist_001663,opp_0366,acct_0541,Discovery,1,2026-09-07,2026-09-23,owner_01
+hist_001664,opp_0366,acct_0541,Closed Lost,2,2026-09-23,2026-10-08,owner_01
+hist_001665,opp_0367,acct_0523,Discovery,1,2026-09-15,2026-09-25,owner_02
+hist_001666,opp_0367,acct_0523,Validation,2,2026-09-25,2026-10-05,owner_02
+hist_001667,opp_0367,acct_0523,Proposal,3,2026-10-05,2026-10-16,owner_02
+hist_001668,opp_0367,acct_0523,Negotiation,4,2026-10-16,2026-10-26,owner_02
+hist_001669,opp_0367,acct_0523,Closed Lost,5,2026-10-26,2026-11-05,owner_02
+hist_001670,opp_0368,acct_0792,Discovery,1,2026-10-21,2026-10-27,owner_03
+hist_001671,opp_0368,acct_0792,Validation,2,2026-10-27,2026-11-02,owner_03
+hist_001672,opp_0368,acct_0792,Proposal,3,2026-11-02,2026-11-07,owner_03
+hist_001673,opp_0368,acct_0792,Closed Lost,4,2026-11-07,2026-11-13,owner_03
+hist_001674,opp_0369,acct_0287,Discovery,1,2026-08-15,2026-08-31,owner_03
+hist_001675,opp_0369,acct_0287,Validation,2,2026-08-31,2026-09-16,owner_03
+hist_001676,opp_0369,acct_0287,Proposal,3,2026-09-16,2026-10-02,owner_03
+hist_001677,opp_0369,acct_0287,Negotiation,4,2026-10-02,2026-10-18,owner_03
+hist_001678,opp_0369,acct_0287,Closed Lost,5,2026-10-18,2026-11-03,owner_03
+hist_001679,opp_0370,acct_0470,Discovery,1,2026-09-22,2026-10-03,owner_02
+hist_001680,opp_0370,acct_0470,Validation,2,2026-10-03,2026-10-14,owner_02
+hist_001681,opp_0370,acct_0470,Proposal,3,2026-10-14,2026-10-25,owner_02
+hist_001682,opp_0370,acct_0470,Negotiation,4,2026-10-25,2026-11-05,owner_02
+hist_001683,opp_0370,acct_0470,Closed Lost,5,2026-11-05,2026-11-16,owner_02
+hist_001684,opp_0371,acct_0304,Discovery,1,2026-09-24,2026-10-14,owner_05
+hist_001685,opp_0371,acct_0304,Closed Lost,2,2026-10-14,2026-11-02,owner_05
+hist_001686,opp_0372,acct_0175,Discovery,1,2026-10-07,2026-10-15,owner_03
+hist_001687,opp_0372,acct_0175,Validation,2,2026-10-15,2026-10-23,owner_03
+hist_001688,opp_0372,acct_0175,Closed Lost,3,2026-10-23,2026-10-31,owner_03
+hist_001689,opp_0373,acct_0662,Discovery,1,2026-10-12,2026-10-17,owner_03
+hist_001690,opp_0373,acct_0662,Validation,2,2026-10-17,2026-10-23,owner_03
+hist_001691,opp_0373,acct_0662,Proposal,3,2026-10-23,2026-10-28,owner_03
+hist_001692,opp_0373,acct_0662,Negotiation,4,2026-10-28,2026-11-03,owner_03
+hist_001693,opp_0373,acct_0662,Closed Lost,5,2026-11-03,2026-11-08,owner_03
+hist_001694,opp_0374,acct_0463,Discovery,1,2026-09-26,2026-10-09,owner_08
+hist_001695,opp_0374,acct_0463,Validation,2,2026-10-09,2026-10-22,owner_08
+hist_001696,opp_0374,acct_0463,Closed Lost,3,2026-10-22,2026-11-04,owner_08
+hist_001697,opp_0375,acct_0206,Discovery,1,2026-07-29,2026-09-02,owner_03
+hist_001698,opp_0375,acct_0206,Validation,2,2026-09-02,2026-10-07,owner_03
+hist_001699,opp_0375,acct_0206,Closed Lost,3,2026-10-07,2026-11-11,owner_03
+hist_001700,opp_0376,acct_0385,Discovery,1,2026-07-30,2026-08-21,owner_07
+hist_001701,opp_0376,acct_0385,Validation,2,2026-08-21,2026-09-11,owner_07
+hist_001702,opp_0376,acct_0385,Proposal,3,2026-09-11,2026-10-02,owner_07
+hist_001703,opp_0376,acct_0385,Closed Lost,4,2026-10-02,2026-10-24,owner_07
+hist_001704,opp_0377,acct_0782,Discovery,1,2026-09-14,2026-09-29,owner_04
+hist_001705,opp_0377,acct_0782,Validation,2,2026-09-29,2026-10-14,owner_04
+hist_001706,opp_0377,acct_0782,Proposal,3,2026-10-14,2026-10-28,owner_04
+hist_001707,opp_0377,acct_0782,Closed Lost,4,2026-10-28,2026-11-12,owner_04
+hist_001708,opp_0378,acct_0359,Discovery,1,2026-09-05,2026-09-29,owner_03
+hist_001709,opp_0378,acct_0359,Closed Lost,2,2026-09-29,2026-10-24,owner_03
+hist_001710,opp_0379,acct_0653,Discovery,1,2026-07-16,2026-08-13,owner_07
+hist_001711,opp_0379,acct_0653,Validation,2,2026-08-13,2026-09-10,owner_07
+hist_001712,opp_0379,acct_0653,Closed Lost,3,2026-09-10,2026-10-08,owner_07
+hist_001713,opp_0380,acct_0705,Discovery,1,2026-08-19,2026-09-14,owner_04
+hist_001714,opp_0380,acct_0705,Validation,2,2026-09-14,2026-10-11,owner_04
+hist_001715,opp_0380,acct_0705,Closed Lost,3,2026-10-11,2026-11-06,owner_04
+hist_001716,opp_0381,acct_0052,Discovery,1,2026-09-05,2026-09-12,owner_06
+hist_001717,opp_0381,acct_0052,Validation,2,2026-09-12,2026-09-19,owner_06
+hist_001718,opp_0381,acct_0052,Proposal,3,2026-09-19,2026-09-27,owner_06
+hist_001719,opp_0381,acct_0052,Negotiation,4,2026-09-27,2026-10-04,owner_06
+hist_001720,opp_0381,acct_0052,Closed Lost,5,2026-10-04,2026-10-11,owner_06
+hist_001721,opp_0382,acct_0351,Discovery,1,2026-10-26,2026-11-06,owner_07
+hist_001722,opp_0382,acct_0351,Closed Lost,2,2026-11-06,2026-11-17,owner_07
+hist_001723,opp_0383,acct_0349,Discovery,1,2026-07-13,2026-08-09,owner_06
+hist_001724,opp_0383,acct_0349,Validation,2,2026-08-09,2026-09-05,owner_06
+hist_001725,opp_0383,acct_0349,Closed Lost,3,2026-09-05,2026-10-02,owner_06
+hist_001726,opp_0384,acct_0099,Discovery,1,2026-07-27,2026-08-31,owner_06
+hist_001727,opp_0384,acct_0099,Validation,2,2026-08-31,2026-10-05,owner_06
+hist_001728,opp_0384,acct_0099,Closed Lost,3,2026-10-05,2026-11-09,owner_06
+hist_001729,opp_0385,acct_0578,Discovery,1,2026-07-04,2026-08-06,owner_07
+hist_001730,opp_0385,acct_0578,Validation,2,2026-08-06,2026-09-07,owner_07
+hist_001731,opp_0385,acct_0578,Closed Lost,3,2026-09-07,2026-10-10,owner_07
+hist_001732,opp_0386,acct_0107,Discovery,1,2026-08-17,2026-08-30,owner_08
+hist_001733,opp_0386,acct_0107,Validation,2,2026-08-30,2026-09-12,owner_08
+hist_001734,opp_0386,acct_0107,Proposal,3,2026-09-12,2026-09-24,owner_08
+hist_001735,opp_0386,acct_0107,Negotiation,4,2026-09-24,2026-10-07,owner_08
+hist_001736,opp_0386,acct_0107,Closed Lost,5,2026-10-07,2026-10-20,owner_08
+hist_001737,opp_0387,acct_0573,Discovery,1,2026-08-21,2026-09-10,owner_05
+hist_001738,opp_0387,acct_0573,Validation,2,2026-09-10,2026-09-30,owner_05
+hist_001739,opp_0387,acct_0573,Closed Lost,3,2026-09-30,2026-10-20,owner_05
+hist_001740,opp_0388,acct_0954,Discovery,1,2026-08-10,2026-08-31,owner_05
+hist_001741,opp_0388,acct_0954,Validation,2,2026-08-31,2026-09-21,owner_05
+hist_001742,opp_0388,acct_0954,Proposal,3,2026-09-21,2026-10-11,owner_05
+hist_001743,opp_0388,acct_0954,Closed Lost,4,2026-10-11,2026-11-01,owner_05
+hist_001744,opp_0389,acct_0111,Discovery,1,2026-08-08,2026-08-20,owner_02
+hist_001745,opp_0389,acct_0111,Validation,2,2026-08-20,2026-08-31,owner_02
+hist_001746,opp_0389,acct_0111,Proposal,3,2026-08-31,2026-09-12,owner_02
+hist_001747,opp_0389,acct_0111,Negotiation,4,2026-09-12,2026-09-23,owner_02
+hist_001748,opp_0389,acct_0111,Closed Lost,5,2026-09-23,2026-10-05,owner_02
+hist_001749,opp_0390,acct_0332,Discovery,1,2026-08-23,2026-09-09,owner_01
+hist_001750,opp_0390,acct_0332,Validation,2,2026-09-09,2026-09-27,owner_01
+hist_001751,opp_0390,acct_0332,Closed Lost,3,2026-09-27,2026-10-14,owner_01
+hist_001752,opp_0391,acct_0758,Discovery,1,2026-10-14,2026-10-20,owner_03
+hist_001753,opp_0391,acct_0758,Validation,2,2026-10-20,2026-10-26,owner_03
+hist_001754,opp_0391,acct_0758,Proposal,3,2026-10-26,2026-11-01,owner_03
+hist_001755,opp_0391,acct_0758,Closed Lost,4,2026-11-01,2026-11-07,owner_03
+hist_001756,opp_0392,acct_0998,Discovery,1,2026-09-07,2026-09-24,owner_01
+hist_001757,opp_0392,acct_0998,Validation,2,2026-09-24,2026-10-11,owner_01
+hist_001758,opp_0392,acct_0998,Closed Lost,3,2026-10-11,2026-10-28,owner_01
+hist_001759,opp_0393,acct_1038,Discovery,1,2026-07-28,2026-08-27,owner_01
+hist_001760,opp_0393,acct_1038,Validation,2,2026-08-27,2026-09-26,owner_01
+hist_001761,opp_0393,acct_1038,Closed Lost,3,2026-09-26,2026-10-26,owner_01
+hist_001762,opp_0394,acct_0220,Discovery,1,2026-08-18,2026-08-31,owner_05
+hist_001763,opp_0394,acct_0220,Validation,2,2026-08-31,2026-09-13,owner_05
+hist_001764,opp_0394,acct_0220,Proposal,3,2026-09-13,2026-09-25,owner_05
+hist_001765,opp_0394,acct_0220,Negotiation,4,2026-09-25,2026-10-08,owner_05
+hist_001766,opp_0394,acct_0220,Closed Lost,5,2026-10-08,2026-10-21,owner_05
+hist_001767,opp_0395,acct_0500,Discovery,1,2026-08-03,2026-08-27,owner_03
+hist_001768,opp_0395,acct_0500,Validation,2,2026-08-27,2026-09-20,owner_03
+hist_001769,opp_0395,acct_0500,Closed Lost,3,2026-09-20,2026-10-14,owner_03
+hist_001770,opp_0396,acct_0880,Discovery,1,2026-07-23,2026-09-03,owner_01
+hist_001771,opp_0396,acct_0880,Closed Lost,2,2026-09-03,2026-10-16,owner_01
+hist_001772,opp_0397,acct_0516,Discovery,1,2026-09-11,2026-09-27,owner_08
+hist_001773,opp_0397,acct_0516,Validation,2,2026-09-27,2026-10-13,owner_08
+hist_001774,opp_0397,acct_0516,Closed Lost,3,2026-10-13,2026-10-29,owner_08
+hist_001775,opp_0398,acct_0756,Discovery,1,2026-08-27,2026-09-12,owner_03
+hist_001776,opp_0398,acct_0756,Validation,2,2026-09-12,2026-09-28,owner_03
+hist_001777,opp_0398,acct_0756,Proposal,3,2026-09-28,2026-10-13,owner_03
+hist_001778,opp_0398,acct_0756,Negotiation,4,2026-10-13,2026-10-29,owner_03
+hist_001779,opp_0398,acct_0756,Closed Lost,5,2026-10-29,2026-11-14,owner_03
+hist_001780,opp_0399,acct_0378,Discovery,1,2026-07-27,2026-08-16,owner_03
+hist_001781,opp_0399,acct_0378,Validation,2,2026-08-16,2026-09-04,owner_03
+hist_001782,opp_0399,acct_0378,Proposal,3,2026-09-04,2026-09-24,owner_03
+hist_001783,opp_0399,acct_0378,Negotiation,4,2026-09-24,2026-10-13,owner_03
+hist_001784,opp_0399,acct_0378,Closed Lost,5,2026-10-13,2026-11-02,owner_03
+hist_001785,opp_0400,acct_0278,Discovery,1,2026-08-14,2026-09-14,owner_03
+hist_001786,opp_0400,acct_0278,Validation,2,2026-09-14,2026-10-15,owner_03
+hist_001787,opp_0400,acct_0278,Closed Lost,3,2026-10-15,2026-11-15,owner_03
+hist_001788,opp_0401,acct_0987,Discovery,1,2026-11-10,2026-11-13,owner_02
+hist_001789,opp_0401,acct_0987,Validation,2,2026-11-13,2026-11-16,owner_02
+hist_001790,opp_0401,acct_0987,Proposal,3,2026-11-16,2026-11-20,owner_02
+hist_001791,opp_0401,acct_0987,Negotiation,4,2026-11-20,,owner_02
+hist_001792,opp_0402,acct_0496,Discovery,1,2026-10-07,2026-10-31,owner_01
+hist_001793,opp_0402,acct_0496,Validation,2,2026-10-31,,owner_01
+hist_001794,opp_0403,acct_0790,Discovery,1,2026-11-13,2026-11-16,owner_01
+hist_001795,opp_0403,acct_0790,Validation,2,2026-11-16,2026-11-20,owner_01
+hist_001796,opp_0403,acct_0790,Proposal,3,2026-11-20,,owner_01
+hist_001797,opp_0404,acct_0416,Discovery,1,2026-09-22,2026-10-23,owner_08
+hist_001798,opp_0404,acct_0416,Validation,2,2026-10-23,,owner_08
+hist_001799,opp_0405,acct_0194,Discovery,1,2026-11-06,2026-11-10,owner_04
+hist_001800,opp_0405,acct_0194,Validation,2,2026-11-10,2026-11-14,owner_04
+hist_001801,opp_0405,acct_0194,Proposal,3,2026-11-14,2026-11-19,owner_04
+hist_001802,opp_0405,acct_0194,Negotiation,4,2026-11-19,,owner_04
+hist_001803,opp_0406,acct_0212,Discovery,1,2026-10-11,2026-10-22,owner_08
+hist_001804,opp_0406,acct_0212,Validation,2,2026-10-22,2026-11-02,owner_08
+hist_001805,opp_0406,acct_0212,Proposal,3,2026-11-02,2026-11-12,owner_08
+hist_001806,opp_0406,acct_0212,Negotiation,4,2026-11-12,,owner_08
+hist_001807,opp_0407,acct_0280,Discovery,1,2026-09-09,2026-10-17,owner_02
+hist_001808,opp_0407,acct_0280,Validation,2,2026-10-17,,owner_02
+hist_001809,opp_0408,acct_0536,Discovery,1,2026-11-02,2026-11-07,owner_01
+hist_001810,opp_0408,acct_0536,Validation,2,2026-11-07,2026-11-12,owner_01
+hist_001811,opp_0408,acct_0536,Proposal,3,2026-11-12,2026-11-18,owner_01
+hist_001812,opp_0408,acct_0536,Negotiation,4,2026-11-18,,owner_01
+hist_001813,opp_0409,acct_0206,Discovery,1,2026-10-28,2026-11-06,owner_03
+hist_001814,opp_0409,acct_0206,Validation,2,2026-11-06,2026-11-14,owner_03
+hist_001815,opp_0409,acct_0206,Proposal,3,2026-11-14,,owner_03
+hist_001816,opp_0410,acct_0378,Discovery,1,2026-09-14,2026-10-07,owner_03
+hist_001817,opp_0410,acct_0378,Validation,2,2026-10-07,2026-10-31,owner_03
+hist_001818,opp_0410,acct_0378,Proposal,3,2026-10-31,,owner_03
+hist_001819,opp_0411,acct_0758,Discovery,1,2026-09-08,2026-10-03,owner_03
+hist_001820,opp_0411,acct_0758,Validation,2,2026-10-03,2026-10-29,owner_03
+hist_001821,opp_0411,acct_0758,Proposal,3,2026-10-29,,owner_03
+hist_001822,opp_0412,acct_0508,Discovery,1,2026-11-21,2026-11-22,owner_07
+hist_001823,opp_0412,acct_0508,Validation,2,2026-11-22,2026-11-22,owner_07
+hist_001824,opp_0412,acct_0508,Proposal,3,2026-11-22,,owner_07
+hist_001825,opp_0413,acct_0662,Discovery,1,2026-10-20,2026-10-28,owner_03
+hist_001826,opp_0413,acct_0662,Validation,2,2026-10-28,2026-11-06,owner_03
+hist_001827,opp_0413,acct_0662,Proposal,3,2026-11-06,2026-11-15,owner_03
+hist_001828,opp_0413,acct_0662,Negotiation,4,2026-11-15,,owner_03
+hist_001829,opp_0414,acct_0837,Discovery,1,2026-10-19,2026-10-28,owner_04
+hist_001830,opp_0414,acct_0837,Validation,2,2026-10-28,2026-11-06,owner_04
+hist_001831,opp_0414,acct_0837,Proposal,3,2026-11-06,2026-11-14,owner_04
+hist_001832,opp_0414,acct_0837,Negotiation,4,2026-11-14,,owner_04
+hist_001833,opp_0415,acct_0920,Discovery,1,2026-09-26,2026-10-10,owner_04
+hist_001834,opp_0415,acct_0920,Validation,2,2026-10-10,2026-10-25,owner_04
+hist_001835,opp_0415,acct_0920,Proposal,3,2026-10-25,2026-11-09,owner_04
+hist_001836,opp_0415,acct_0920,Negotiation,4,2026-11-09,,owner_04
+hist_001837,opp_0416,acct_0354,Discovery,1,2026-11-15,,owner_05
+hist_001838,opp_0417,acct_0027,Discovery,1,2026-11-22,2026-11-22,owner_05
+hist_001839,opp_0417,acct_0027,Validation,2,2026-11-22,2026-11-22,owner_05
+hist_001840,opp_0417,acct_0027,Proposal,3,2026-11-22,2026-11-23,owner_05
+hist_001841,opp_0417,acct_0027,Negotiation,4,2026-11-23,,owner_05
+hist_001842,opp_0418,acct_0833,Discovery,1,2026-08-26,2026-09-25,owner_08
+hist_001843,opp_0418,acct_0833,Validation,2,2026-09-25,2026-10-24,owner_08
+hist_001844,opp_0418,acct_0833,Proposal,3,2026-10-24,,owner_08
+hist_001845,opp_0419,acct_0574,Discovery,1,2026-11-04,2026-11-09,owner_01
+hist_001846,opp_0419,acct_0574,Validation,2,2026-11-09,2026-11-14,owner_01
+hist_001847,opp_0419,acct_0574,Proposal,3,2026-11-14,2026-11-18,owner_01
+hist_001848,opp_0419,acct_0574,Negotiation,4,2026-11-18,,owner_01
+hist_001849,opp_0420,acct_0392,Discovery,1,2026-10-08,2026-10-23,owner_06
+hist_001850,opp_0420,acct_0392,Validation,2,2026-10-23,2026-11-08,owner_06
+hist_001851,opp_0420,acct_0392,Proposal,3,2026-11-08,,owner_06
+hist_001852,opp_0421,acct_0085,Discovery,1,2026-09-13,2026-10-01,owner_07
+hist_001853,opp_0421,acct_0085,Validation,2,2026-10-01,2026-10-19,owner_07
+hist_001854,opp_0421,acct_0085,Proposal,3,2026-10-19,2026-11-05,owner_07
+hist_001855,opp_0421,acct_0085,Negotiation,4,2026-11-05,,owner_07
+hist_001856,opp_0422,acct_0283,Discovery,1,2026-10-20,2026-11-06,owner_01
+hist_001857,opp_0422,acct_0283,Validation,2,2026-11-06,,owner_01
+hist_001858,opp_0423,acct_0871,Discovery,1,2026-10-09,2026-10-20,owner_04
+hist_001859,opp_0423,acct_0871,Validation,2,2026-10-20,2026-10-31,owner_04
+hist_001860,opp_0423,acct_0871,Proposal,3,2026-10-31,2026-11-12,owner_04
+hist_001861,opp_0423,acct_0871,Negotiation,4,2026-11-12,,owner_04
+hist_001862,opp_0424,acct_0725,Discovery,1,2026-10-30,2026-11-05,owner_04
+hist_001863,opp_0424,acct_0725,Validation,2,2026-11-05,2026-11-11,owner_04
+hist_001864,opp_0424,acct_0725,Proposal,3,2026-11-11,2026-11-17,owner_04
+hist_001865,opp_0424,acct_0725,Negotiation,4,2026-11-17,,owner_04
+hist_001866,opp_0425,acct_0474,Discovery,1,2026-10-02,2026-10-15,owner_06
+hist_001867,opp_0425,acct_0474,Validation,2,2026-10-15,2026-10-28,owner_06
+hist_001868,opp_0425,acct_0474,Proposal,3,2026-10-28,2026-11-10,owner_06
+hist_001869,opp_0425,acct_0474,Negotiation,4,2026-11-10,,owner_06
+hist_001870,opp_0426,acct_0461,Discovery,1,2026-10-19,2026-10-31,owner_05
+hist_001871,opp_0426,acct_0461,Validation,2,2026-10-31,2026-11-11,owner_05
+hist_001872,opp_0426,acct_0461,Proposal,3,2026-11-11,,owner_05
+hist_001873,opp_0427,acct_0625,Discovery,1,2026-09-24,2026-10-24,owner_02
+hist_001874,opp_0427,acct_0625,Validation,2,2026-10-24,,owner_02
+hist_001875,opp_0428,acct_0814,Discovery,1,2026-10-18,2026-10-30,owner_08
+hist_001876,opp_0428,acct_0814,Validation,2,2026-10-30,2026-11-11,owner_08
+hist_001877,opp_0428,acct_0814,Proposal,3,2026-11-11,,owner_08
+hist_001878,opp_0429,acct_0609,Discovery,1,2026-09-15,2026-10-19,owner_02
+hist_001879,opp_0429,acct_0609,Validation,2,2026-10-19,,owner_02
+hist_001880,opp_0430,acct_0489,Discovery,1,2026-11-10,2026-11-16,owner_08
+hist_001881,opp_0430,acct_0489,Validation,2,2026-11-16,,owner_08
+hist_001882,opp_0431,acct_0785,Discovery,1,2026-11-02,2026-11-07,owner_08
+hist_001883,opp_0431,acct_0785,Validation,2,2026-11-07,2026-11-12,owner_08
+hist_001884,opp_0431,acct_0785,Proposal,3,2026-11-12,2026-11-18,owner_08
+hist_001885,opp_0431,acct_0785,Negotiation,4,2026-11-18,,owner_08
+hist_001886,opp_0432,acct_0242,Discovery,1,2026-10-31,2026-11-08,owner_08
+hist_001887,opp_0432,acct_0242,Validation,2,2026-11-08,2026-11-15,owner_08
+hist_001888,opp_0432,acct_0242,Proposal,3,2026-11-15,,owner_08
+hist_001889,opp_0433,acct_0581,Discovery,1,2026-10-22,2026-10-30,owner_05
+hist_001890,opp_0433,acct_0581,Validation,2,2026-10-30,2026-11-07,owner_05
+hist_001891,opp_0433,acct_0581,Proposal,3,2026-11-07,2026-11-15,owner_05
+hist_001892,opp_0433,acct_0581,Negotiation,4,2026-11-15,,owner_05
+hist_001893,opp_0434,acct_0057,Discovery,1,2026-09-11,2026-09-29,owner_07
+hist_001894,opp_0434,acct_0057,Validation,2,2026-09-29,2026-10-17,owner_07
+hist_001895,opp_0434,acct_0057,Proposal,3,2026-10-17,2026-11-05,owner_07
+hist_001896,opp_0434,acct_0057,Negotiation,4,2026-11-05,,owner_07
+hist_001897,opp_0435,acct_0055,Discovery,1,2026-09-25,2026-10-10,owner_01
+hist_001898,opp_0435,acct_0055,Validation,2,2026-10-10,2026-10-25,owner_01
+hist_001899,opp_0435,acct_0055,Proposal,3,2026-10-25,2026-11-08,owner_01
+hist_001900,opp_0435,acct_0055,Negotiation,4,2026-11-08,,owner_01
+hist_001901,opp_0436,acct_0100,Discovery,1,2026-10-02,,owner_02
+hist_001902,opp_0437,acct_0500,Discovery,1,2026-10-16,2026-10-26,owner_03
+hist_001903,opp_0437,acct_0500,Validation,2,2026-10-26,2026-11-04,owner_03
+hist_001904,opp_0437,acct_0500,Proposal,3,2026-11-04,2026-11-13,owner_03
+hist_001905,opp_0437,acct_0500,Negotiation,4,2026-11-13,,owner_03
+hist_001906,opp_0438,acct_0478,Discovery,1,2026-10-14,2026-10-24,owner_07
+hist_001907,opp_0438,acct_0478,Validation,2,2026-10-24,2026-11-03,owner_07
+hist_001908,opp_0438,acct_0478,Proposal,3,2026-11-03,2026-11-13,owner_07
+hist_001909,opp_0438,acct_0478,Negotiation,4,2026-11-13,,owner_07
+hist_001910,opp_0439,acct_1006,Discovery,1,2026-09-24,2026-10-24,owner_07
+hist_001911,opp_0439,acct_1006,Validation,2,2026-10-24,,owner_07
+hist_001912,opp_0440,acct_0199,Discovery,1,2026-10-29,2026-11-04,owner_03
+hist_001913,opp_0440,acct_0199,Validation,2,2026-11-04,2026-11-10,owner_03
+hist_001914,opp_0440,acct_0199,Proposal,3,2026-11-10,2026-11-17,owner_03
+hist_001915,opp_0440,acct_0199,Negotiation,4,2026-11-17,,owner_03
+hist_001916,opp_0441,acct_0324,Discovery,1,2026-10-08,,owner_03
+hist_001917,opp_0442,acct_0472,Discovery,1,2026-11-18,2026-11-20,owner_06
+hist_001918,opp_0442,acct_0472,Validation,2,2026-11-20,2026-11-21,owner_06
+hist_001919,opp_0442,acct_0472,Proposal,3,2026-11-21,,owner_06
+hist_001920,opp_0443,acct_0816,Discovery,1,2026-09-01,2026-09-29,owner_07
+hist_001921,opp_0443,acct_0816,Validation,2,2026-09-29,2026-10-26,owner_07
+hist_001922,opp_0443,acct_0816,Proposal,3,2026-10-26,,owner_07
+hist_001923,opp_0444,acct_0524,Discovery,1,2026-09-20,2026-10-06,owner_01
+hist_001924,opp_0444,acct_0524,Validation,2,2026-10-06,2026-10-22,owner_01
+hist_001925,opp_0444,acct_0524,Proposal,3,2026-10-22,2026-11-07,owner_01
+hist_001926,opp_0444,acct_0524,Negotiation,4,2026-11-07,,owner_01
+hist_001927,opp_0445,acct_0047,Discovery,1,2026-09-04,2026-10-14,owner_04
+hist_001928,opp_0445,acct_0047,Validation,2,2026-10-14,,owner_04
+hist_001929,opp_0446,acct_0502,Discovery,1,2026-09-11,2026-10-05,owner_01
+hist_001930,opp_0446,acct_0502,Validation,2,2026-10-05,2026-10-30,owner_01
+hist_001931,opp_0446,acct_0502,Proposal,3,2026-10-30,,owner_01
+hist_001932,opp_0447,acct_0319,Discovery,1,2026-09-18,2026-10-04,owner_05
+hist_001933,opp_0447,acct_0319,Validation,2,2026-10-04,2026-10-21,owner_05
+hist_001934,opp_0447,acct_0319,Proposal,3,2026-10-21,2026-11-07,owner_05
+hist_001935,opp_0447,acct_0319,Negotiation,4,2026-11-07,,owner_05
+hist_001936,opp_0448,acct_0127,Discovery,1,2026-10-04,,owner_01
+hist_001937,opp_0449,acct_0719,Discovery,1,2026-11-05,2026-11-09,owner_08
+hist_001938,opp_0449,acct_0719,Validation,2,2026-11-09,2026-11-14,owner_08
+hist_001939,opp_0449,acct_0719,Proposal,3,2026-11-14,2026-11-19,owner_08
+hist_001940,opp_0449,acct_0719,Negotiation,4,2026-11-19,,owner_08
+hist_001941,opp_0450,acct_0790,Discovery,1,2026-10-31,2026-11-06,owner_01
+hist_001942,opp_0450,acct_0790,Validation,2,2026-11-06,2026-11-12,owner_01
+hist_001943,opp_0450,acct_0790,Proposal,3,2026-11-12,2026-11-17,owner_01
+hist_001944,opp_0450,acct_0790,Negotiation,4,2026-11-17,,owner_01
+hist_001945,opp_0451,acct_0957,Discovery,1,2026-09-24,2026-10-09,owner_05
+hist_001946,opp_0451,acct_0957,Validation,2,2026-10-09,2026-10-24,owner_05
+hist_001947,opp_0451,acct_0957,Proposal,3,2026-10-24,2026-11-08,owner_05
+hist_001948,opp_0451,acct_0957,Negotiation,4,2026-11-08,,owner_05
+hist_001949,opp_0452,acct_0804,Discovery,1,2026-10-19,,owner_05
+hist_001950,opp_0453,acct_0690,Discovery,1,2026-11-13,2026-11-16,owner_05
+hist_001951,opp_0453,acct_0690,Validation,2,2026-11-16,2026-11-20,owner_05
+hist_001952,opp_0453,acct_0690,Proposal,3,2026-11-20,,owner_05
+hist_001953,opp_0454,acct_0718,Discovery,1,2026-09-30,2026-10-18,owner_07
+hist_001954,opp_0454,acct_0718,Validation,2,2026-10-18,2026-11-05,owner_07
+hist_001955,opp_0454,acct_0718,Proposal,3,2026-11-05,,owner_07
+hist_001956,opp_0455,acct_0192,Discovery,1,2026-10-04,2026-10-21,owner_03
+hist_001957,opp_0455,acct_0192,Validation,2,2026-10-21,2026-11-06,owner_03
+hist_001958,opp_0455,acct_0192,Proposal,3,2026-11-06,,owner_03
+hist_001959,opp_0456,acct_0844,Discovery,1,2026-11-07,2026-11-12,owner_05
+hist_001960,opp_0456,acct_0844,Validation,2,2026-11-12,2026-11-18,owner_05
+hist_001961,opp_0456,acct_0844,Proposal,3,2026-11-18,,owner_05
+hist_001962,opp_0457,acct_0482,Discovery,1,2026-11-03,2026-11-08,owner_03
+hist_001963,opp_0457,acct_0482,Validation,2,2026-11-08,2026-11-13,owner_03
+hist_001964,opp_0457,acct_0482,Proposal,3,2026-11-13,2026-11-18,owner_03
+hist_001965,opp_0457,acct_0482,Negotiation,4,2026-11-18,,owner_03
+hist_001966,opp_0458,acct_0043,Discovery,1,2026-08-21,2026-09-14,owner_07
+hist_001967,opp_0458,acct_0043,Validation,2,2026-09-14,2026-10-07,owner_07
+hist_001968,opp_0458,acct_0043,Proposal,3,2026-10-07,2026-10-30,owner_07
+hist_001969,opp_0458,acct_0043,Negotiation,4,2026-10-30,,owner_07
+hist_001970,opp_0459,acct_0105,Discovery,1,2026-10-31,2026-11-08,owner_06
+hist_001971,opp_0459,acct_0105,Validation,2,2026-11-08,2026-11-15,owner_06
+hist_001972,opp_0459,acct_0105,Proposal,3,2026-11-15,,owner_06
+hist_001973,opp_0460,acct_0904,Discovery,1,2026-09-01,,owner_07
+hist_001974,opp_0461,acct_0859,Discovery,1,2026-11-05,2026-11-09,owner_08
+hist_001975,opp_0461,acct_0859,Validation,2,2026-11-09,2026-11-14,owner_08
+hist_001976,opp_0461,acct_0859,Proposal,3,2026-11-14,2026-11-19,owner_08
+hist_001977,opp_0461,acct_0859,Negotiation,4,2026-11-19,,owner_08
+hist_001978,opp_0462,acct_0909,Discovery,1,2026-11-23,2026-11-23,owner_05
+hist_001979,opp_0462,acct_0909,Validation,2,2026-11-23,2026-11-23,owner_05
+hist_001980,opp_0462,acct_0909,Proposal,3,2026-11-23,2026-11-24,owner_05
+hist_001981,opp_0462,acct_0909,Negotiation,4,2026-11-24,,owner_05
+hist_001982,opp_0463,acct_0483,Discovery,1,2026-08-31,2026-09-28,owner_03
+hist_001983,opp_0463,acct_0483,Validation,2,2026-09-28,2026-10-26,owner_03
+hist_001984,opp_0463,acct_0483,Proposal,3,2026-10-26,,owner_03
+hist_001985,opp_0464,acct_0939,Discovery,1,2026-11-05,2026-11-11,owner_08
+hist_001986,opp_0464,acct_0939,Validation,2,2026-11-11,2026-11-17,owner_08
+hist_001987,opp_0464,acct_0939,Proposal,3,2026-11-17,,owner_08
+hist_001988,opp_0465,acct_0564,Discovery,1,2026-09-13,2026-10-01,owner_04
+hist_001989,opp_0465,acct_0564,Validation,2,2026-10-01,2026-10-19,owner_04
+hist_001990,opp_0465,acct_0564,Proposal,3,2026-10-19,2026-11-05,owner_04
+hist_001991,opp_0465,acct_0564,Negotiation,4,2026-11-05,,owner_04
+hist_001992,opp_0466,acct_0889,Discovery,1,2026-10-03,,owner_04
+hist_001993,opp_0467,acct_0613,Discovery,1,2026-11-10,2026-11-16,owner_06
+hist_001994,opp_0467,acct_0613,Validation,2,2026-11-16,,owner_06
+hist_001995,opp_0468,acct_0686,Discovery,1,2026-09-22,2026-10-13,owner_05
+hist_001996,opp_0468,acct_0686,Validation,2,2026-10-13,2026-11-02,owner_05
+hist_001997,opp_0468,acct_0686,Proposal,3,2026-11-02,,owner_05
+hist_001998,opp_0469,acct_0884,Discovery,1,2026-09-15,2026-10-02,owner_07
+hist_001999,opp_0469,acct_0884,Validation,2,2026-10-02,2026-10-19,owner_07
+hist_002000,opp_0469,acct_0884,Proposal,3,2026-10-19,2026-11-06,owner_07
+hist_002001,opp_0469,acct_0884,Negotiation,4,2026-11-06,,owner_07
+hist_002002,opp_0470,acct_0916,Discovery,1,2026-09-04,2026-10-14,owner_04
+hist_002003,opp_0470,acct_0916,Validation,2,2026-10-14,,owner_04
+hist_002004,opp_0471,acct_0884,Discovery,1,2026-09-20,2026-10-06,owner_07
+hist_002005,opp_0471,acct_0884,Validation,2,2026-10-06,2026-10-22,owner_07
+hist_002006,opp_0471,acct_0884,Proposal,3,2026-10-22,2026-11-07,owner_07
+hist_002007,opp_0471,acct_0884,Negotiation,4,2026-11-07,,owner_07
+hist_002008,opp_0472,acct_0691,Discovery,1,2026-10-30,2026-11-05,owner_06
+hist_002009,opp_0472,acct_0691,Validation,2,2026-11-05,2026-11-11,owner_06
+hist_002010,opp_0472,acct_0691,Proposal,3,2026-11-11,2026-11-17,owner_06
+hist_002011,opp_0472,acct_0691,Negotiation,4,2026-11-17,,owner_06
+hist_002012,opp_0473,acct_0401,Discovery,1,2026-10-10,2026-10-25,owner_04
+hist_002013,opp_0473,acct_0401,Validation,2,2026-10-25,2026-11-08,owner_04
+hist_002014,opp_0473,acct_0401,Proposal,3,2026-11-08,,owner_04
+hist_002015,opp_0474,acct_0558,Discovery,1,2026-10-24,2026-11-01,owner_05
+hist_002016,opp_0474,acct_0558,Validation,2,2026-11-01,2026-11-08,owner_05
+hist_002017,opp_0474,acct_0558,Proposal,3,2026-11-08,2026-11-15,owner_05
+hist_002018,opp_0474,acct_0558,Negotiation,4,2026-11-15,,owner_05
+hist_002019,opp_0475,acct_0223,Discovery,1,2026-09-16,2026-10-09,owner_06
+hist_002020,opp_0475,acct_0223,Validation,2,2026-10-09,2026-10-31,owner_06
+hist_002021,opp_0475,acct_0223,Proposal,3,2026-10-31,,owner_06
+hist_002022,opp_0476,acct_0823,Discovery,1,2026-10-19,2026-10-31,owner_07
+hist_002023,opp_0476,acct_0823,Validation,2,2026-10-31,2026-11-11,owner_07
+hist_002024,opp_0476,acct_0823,Proposal,3,2026-11-11,,owner_07
+hist_002025,opp_0477,acct_0617,Discovery,1,2026-11-01,,owner_08
+hist_002026,opp_0478,acct_0524,Discovery,1,2026-10-30,2026-11-11,owner_01
+hist_002027,opp_0478,acct_0524,Validation,2,2026-11-11,,owner_01
+hist_002028,opp_0479,acct_0520,Discovery,1,2026-10-15,2026-10-25,owner_03
+hist_002029,opp_0479,acct_0520,Validation,2,2026-10-25,2026-11-04,owner_03
+hist_002030,opp_0479,acct_0520,Proposal,3,2026-11-04,2026-11-13,owner_03
+hist_002031,opp_0479,acct_0520,Negotiation,4,2026-11-13,,owner_03
+hist_002032,opp_0480,acct_0875,Discovery,1,2026-09-19,2026-10-21,owner_05
+hist_002033,opp_0480,acct_0875,Validation,2,2026-10-21,,owner_05
+hist_002034,opp_0481,acct_0324,Discovery,1,2026-10-27,2026-11-05,owner_03
+hist_002035,opp_0481,acct_0324,Validation,2,2026-11-05,2026-11-14,owner_03
+hist_002036,opp_0481,acct_0324,Proposal,3,2026-11-14,,owner_03
+hist_002037,opp_0482,acct_0006,Discovery,1,2026-09-14,2026-10-07,owner_02
+hist_002038,opp_0482,acct_0006,Validation,2,2026-10-07,2026-10-31,owner_02
+hist_002039,opp_0482,acct_0006,Proposal,3,2026-10-31,,owner_02
+hist_002040,opp_0483,acct_0185,Discovery,1,2026-10-04,,owner_06
+hist_002041,opp_0484,acct_0561,Discovery,1,2026-10-15,2026-10-25,owner_08
+hist_002042,opp_0484,acct_0561,Validation,2,2026-10-25,2026-11-04,owner_08
+hist_002043,opp_0484,acct_0561,Proposal,3,2026-11-04,2026-11-13,owner_08
+hist_002044,opp_0484,acct_0561,Negotiation,4,2026-11-13,,owner_08
+hist_002045,opp_0485,acct_0181,Discovery,1,2026-10-20,2026-11-06,owner_02
+hist_002046,opp_0485,acct_0181,Validation,2,2026-11-06,,owner_02
+hist_002047,opp_0486,acct_0412,Discovery,1,2026-09-13,2026-10-01,owner_05
+hist_002048,opp_0486,acct_0412,Validation,2,2026-10-01,2026-10-19,owner_05
+hist_002049,opp_0486,acct_0412,Proposal,3,2026-10-19,2026-11-05,owner_05
+hist_002050,opp_0486,acct_0412,Negotiation,4,2026-11-05,,owner_05
+hist_002051,opp_0487,acct_0791,Discovery,1,2026-09-01,,owner_03
+hist_002052,opp_0488,acct_0756,Discovery,1,2026-11-04,2026-11-10,owner_03
+hist_002053,opp_0488,acct_0756,Validation,2,2026-11-10,2026-11-17,owner_03
+hist_002054,opp_0488,acct_0756,Proposal,3,2026-11-17,,owner_03
+hist_002055,opp_0489,acct_0387,Discovery,1,2026-10-27,2026-11-03,owner_01
+hist_002056,opp_0489,acct_0387,Validation,2,2026-11-03,2026-11-10,owner_01
+hist_002057,opp_0489,acct_0387,Proposal,3,2026-11-10,2026-11-16,owner_01
+hist_002058,opp_0489,acct_0387,Negotiation,4,2026-11-16,,owner_01
+hist_002059,opp_0490,acct_0065,Discovery,1,2026-11-02,2026-11-09,owner_05
+hist_002060,opp_0490,acct_0065,Validation,2,2026-11-09,2026-11-16,owner_05
+hist_002061,opp_0490,acct_0065,Proposal,3,2026-11-16,,owner_05
+hist_002062,opp_0491,acct_0095,Discovery,1,2026-09-03,2026-09-23,owner_07
+hist_002063,opp_0491,acct_0095,Validation,2,2026-09-23,2026-10-13,owner_07
+hist_002064,opp_0491,acct_0095,Proposal,3,2026-10-13,2026-11-03,owner_07
+hist_002065,opp_0491,acct_0095,Negotiation,4,2026-11-03,,owner_07
+hist_002066,opp_0492,acct_1039,Discovery,1,2026-11-02,,owner_04
+hist_002067,opp_0493,acct_0167,Discovery,1,2026-10-21,2026-11-06,owner_06
+hist_002068,opp_0493,acct_0167,Validation,2,2026-11-06,,owner_06
+hist_002069,opp_0494,acct_0858,Discovery,1,2026-10-07,2026-10-19,owner_02
+hist_002070,opp_0494,acct_0858,Validation,2,2026-10-19,2026-10-31,owner_02
+hist_002071,opp_0494,acct_0858,Proposal,3,2026-10-31,2026-11-11,owner_02
+hist_002072,opp_0494,acct_0858,Negotiation,4,2026-11-11,,owner_02
+hist_002073,opp_0495,acct_0057,Discovery,1,2026-08-29,2026-09-27,owner_07
+hist_002074,opp_0495,acct_0057,Validation,2,2026-09-27,2026-10-25,owner_07
+hist_002075,opp_0495,acct_0057,Proposal,3,2026-10-25,,owner_07
+hist_002076,opp_0496,acct_1019,Discovery,1,2026-09-28,2026-10-17,owner_04
+hist_002077,opp_0496,acct_1019,Validation,2,2026-10-17,2026-11-04,owner_04
+hist_002078,opp_0496,acct_1019,Proposal,3,2026-11-04,,owner_04
+hist_002079,opp_0497,acct_0264,Discovery,1,2026-09-19,2026-10-11,owner_08
+hist_002080,opp_0497,acct_0264,Validation,2,2026-10-11,2026-11-01,owner_08
+hist_002081,opp_0497,acct_0264,Proposal,3,2026-11-01,,owner_08
+hist_002082,opp_0498,acct_0423,Discovery,1,2026-10-18,2026-10-27,owner_01
+hist_002083,opp_0498,acct_0423,Validation,2,2026-10-27,2026-11-05,owner_01
+hist_002084,opp_0498,acct_0423,Proposal,3,2026-11-05,2026-11-14,owner_01
+hist_002085,opp_0498,acct_0423,Negotiation,4,2026-11-14,,owner_01
+hist_002086,opp_0499,acct_0619,Discovery,1,2026-10-04,2026-10-29,owner_08
+hist_002087,opp_0499,acct_0619,Validation,2,2026-10-29,,owner_08
+hist_002088,opp_0500,acct_0622,Discovery,1,2026-11-03,2026-11-13,owner_05
+hist_002089,opp_0500,acct_0622,Validation,2,2026-11-13,,owner_05
+hist_002090,opp_0501,acct_1049,Discovery,1,2026-09-19,,owner_04
+hist_002091,opp_0502,acct_0317,Discovery,1,2026-10-26,2026-11-02,owner_03
+hist_002092,opp_0502,acct_0317,Validation,2,2026-11-02,2026-11-09,owner_03
+hist_002093,opp_0502,acct_0317,Proposal,3,2026-11-09,2026-11-16,owner_03
+hist_002094,opp_0502,acct_0317,Negotiation,4,2026-11-16,,owner_03
+hist_002095,opp_0503,acct_0251,Discovery,1,2026-09-23,2026-10-23,owner_04
+hist_002096,opp_0503,acct_0251,Validation,2,2026-10-23,,owner_04
+hist_002097,opp_0504,acct_0948,Discovery,1,2026-10-09,2026-10-31,owner_01
+hist_002098,opp_0504,acct_0948,Validation,2,2026-10-31,,owner_01
+hist_002099,opp_0505,acct_0312,Discovery,1,2026-10-15,2026-11-04,owner_06
+hist_002100,opp_0505,acct_0312,Validation,2,2026-11-04,,owner_06
+hist_002101,opp_0506,acct_0978,Discovery,1,2026-10-14,2026-10-27,owner_05
+hist_002102,opp_0506,acct_0978,Validation,2,2026-10-27,2026-11-10,owner_05
+hist_002103,opp_0506,acct_0978,Proposal,3,2026-11-10,,owner_05
+hist_002104,opp_0507,acct_0410,Discovery,1,2026-11-23,2026-11-23,owner_03
+hist_002105,opp_0507,acct_0410,Validation,2,2026-11-23,2026-11-24,owner_03
+hist_002106,opp_0507,acct_0410,Proposal,3,2026-11-24,,owner_03
+hist_002107,opp_0508,acct_1047,Discovery,1,2026-10-10,2026-10-25,owner_08
+hist_002108,opp_0508,acct_1047,Validation,2,2026-10-25,2026-11-08,owner_08
+hist_002109,opp_0508,acct_1047,Proposal,3,2026-11-08,,owner_08
+hist_002110,opp_0509,acct_0486,Discovery,1,2026-09-30,2026-10-27,owner_07
+hist_002111,opp_0509,acct_0486,Validation,2,2026-10-27,,owner_07
+hist_002112,opp_0510,acct_0140,Discovery,1,2026-10-23,2026-11-02,owner_02
+hist_002113,opp_0510,acct_0140,Validation,2,2026-11-02,2026-11-13,owner_02
+hist_002114,opp_0510,acct_0140,Proposal,3,2026-11-13,,owner_02
+hist_002115,opp_0511,acct_0911,Discovery,1,2026-09-02,2026-09-22,owner_08
+hist_002116,opp_0511,acct_0911,Validation,2,2026-09-22,2026-10-13,owner_08
+hist_002117,opp_0511,acct_0911,Proposal,3,2026-10-13,2026-11-03,owner_08
+hist_002118,opp_0511,acct_0911,Negotiation,4,2026-11-03,,owner_08
+hist_002119,opp_0512,acct_0723,Discovery,1,2026-11-14,2026-11-17,owner_06
+hist_002120,opp_0512,acct_0723,Validation,2,2026-11-17,2026-11-20,owner_06
+hist_002121,opp_0512,acct_0723,Proposal,3,2026-11-20,,owner_06
+hist_002122,opp_0513,acct_1017,Discovery,1,2026-09-03,2026-09-30,owner_04
+hist_002123,opp_0513,acct_1017,Validation,2,2026-09-30,2026-10-27,owner_04
+hist_002124,opp_0513,acct_1017,Proposal,3,2026-10-27,,owner_04
+hist_002125,opp_0514,acct_0596,Discovery,1,2026-10-06,2026-10-18,owner_07
+hist_002126,opp_0514,acct_0596,Validation,2,2026-10-18,2026-10-30,owner_07
+hist_002127,opp_0514,acct_0596,Proposal,3,2026-10-30,2026-11-11,owner_07
+hist_002128,opp_0514,acct_0596,Negotiation,4,2026-11-11,,owner_07
+hist_002129,opp_0515,acct_0574,Discovery,1,2026-11-08,2026-11-13,owner_01
+hist_002130,opp_0515,acct_0574,Validation,2,2026-11-13,2026-11-18,owner_01
+hist_002131,opp_0515,acct_0574,Proposal,3,2026-11-18,,owner_01
+hist_002132,opp_0516,acct_1020,Discovery,1,2026-09-04,2026-09-24,owner_01
+hist_002133,opp_0516,acct_1020,Validation,2,2026-09-24,2026-10-14,owner_01
+hist_002134,opp_0516,acct_1020,Proposal,3,2026-10-14,2026-11-03,owner_01
+hist_002135,opp_0516,acct_1020,Negotiation,4,2026-11-03,,owner_01
+hist_002136,opp_0517,acct_0005,Discovery,1,2026-08-28,2026-10-11,owner_07
+hist_002137,opp_0517,acct_0005,Validation,2,2026-10-11,,owner_07
+hist_002138,opp_0518,acct_0738,Discovery,1,2026-09-12,2026-09-30,owner_01
+hist_002139,opp_0518,acct_0738,Validation,2,2026-09-30,2026-10-18,owner_01
+hist_002140,opp_0518,acct_0738,Proposal,3,2026-10-18,2026-11-05,owner_01
+hist_002141,opp_0518,acct_0738,Negotiation,4,2026-11-05,,owner_01
+hist_002142,opp_0519,acct_0080,Discovery,1,2026-09-15,2026-10-08,owner_08
+hist_002143,opp_0519,acct_0080,Validation,2,2026-10-08,2026-10-31,owner_08
+hist_002144,opp_0519,acct_0080,Proposal,3,2026-10-31,,owner_08
+hist_002145,opp_0520,acct_0617,Discovery,1,2026-08-28,2026-09-26,owner_08
+hist_002146,opp_0520,acct_0617,Validation,2,2026-09-26,2026-10-25,owner_08
+hist_002147,opp_0520,acct_0617,Proposal,3,2026-10-25,,owner_08
+hist_002148,opp_0521,acct_0973,Discovery,1,2026-10-26,2026-11-04,owner_02
+hist_002149,opp_0521,acct_0973,Validation,2,2026-11-04,2026-11-14,owner_02
+hist_002150,opp_0521,acct_0973,Proposal,3,2026-11-14,,owner_02
+hist_002151,opp_0522,acct_0815,Discovery,1,2026-09-07,2026-10-15,owner_06
+hist_002152,opp_0522,acct_0815,Validation,2,2026-10-15,,owner_06
+hist_002153,opp_0523,acct_0440,Discovery,1,2026-10-03,2026-10-20,owner_06
+hist_002154,opp_0523,acct_0440,Validation,2,2026-10-20,2026-11-06,owner_06
+hist_002155,opp_0523,acct_0440,Proposal,3,2026-11-06,,owner_06
+hist_002156,opp_0524,acct_0405,Discovery,1,2026-10-31,2026-11-08,owner_03
+hist_002157,opp_0524,acct_0405,Validation,2,2026-11-08,2026-11-15,owner_03
+hist_002158,opp_0524,acct_0405,Proposal,3,2026-11-15,,owner_03
+hist_002159,opp_0525,acct_0776,Discovery,1,2026-08-26,2026-09-25,owner_02
+hist_002160,opp_0525,acct_0776,Validation,2,2026-09-25,2026-10-24,owner_02
+hist_002161,opp_0525,acct_0776,Proposal,3,2026-10-24,,owner_02
+hist_002162,opp_0526,acct_0137,Discovery,1,2026-08-27,2026-09-18,owner_03
+hist_002163,opp_0526,acct_0137,Validation,2,2026-09-18,2026-10-10,owner_03
+hist_002164,opp_0526,acct_0137,Proposal,3,2026-10-10,2026-11-01,owner_03
+hist_002165,opp_0526,acct_0137,Negotiation,4,2026-11-01,,owner_03
+hist_002166,opp_0527,acct_0822,Discovery,1,2026-08-27,2026-10-10,owner_06
+hist_002167,opp_0527,acct_0822,Validation,2,2026-10-10,,owner_06
+hist_002168,opp_0528,acct_0648,Discovery,1,2026-11-03,2026-11-08,owner_01
+hist_002169,opp_0528,acct_0648,Validation,2,2026-11-08,2026-11-13,owner_01
+hist_002170,opp_0528,acct_0648,Proposal,3,2026-11-13,2026-11-18,owner_01
+hist_002171,opp_0528,acct_0648,Negotiation,4,2026-11-18,,owner_01
+hist_002172,opp_0529,acct_0607,Discovery,1,2026-09-01,,owner_02
+hist_002173,opp_0530,acct_0818,Discovery,1,2026-10-19,2026-10-31,owner_03
+hist_002174,opp_0530,acct_0818,Validation,2,2026-10-31,2026-11-11,owner_03
+hist_002175,opp_0530,acct_0818,Proposal,3,2026-11-11,,owner_03
+hist_002176,opp_0531,acct_0855,Discovery,1,2026-09-07,2026-09-26,owner_04
+hist_002177,opp_0531,acct_0855,Validation,2,2026-09-26,2026-10-15,owner_04
+hist_002178,opp_0531,acct_0855,Proposal,3,2026-10-15,2026-11-04,owner_04
+hist_002179,opp_0531,acct_0855,Negotiation,4,2026-11-04,,owner_04
+hist_002180,opp_0532,acct_0698,Discovery,1,2026-10-24,,owner_04
+hist_002181,opp_0533,acct_1015,Discovery,1,2026-10-10,2026-10-21,owner_06
+hist_002182,opp_0533,acct_1015,Validation,2,2026-10-21,2026-11-01,owner_06
+hist_002183,opp_0533,acct_1015,Proposal,3,2026-11-01,2026-11-12,owner_06
+hist_002184,opp_0533,acct_1015,Negotiation,4,2026-11-12,,owner_06
+hist_002185,opp_0534,acct_0050,Discovery,1,2026-10-01,2026-10-27,owner_06
+hist_002186,opp_0534,acct_0050,Validation,2,2026-10-27,,owner_06
+hist_002187,opp_0535,acct_0170,Discovery,1,2026-08-26,,owner_05
+hist_002188,opp_0536,acct_0236,Discovery,1,2026-08-27,2026-10-10,owner_02
+hist_002189,opp_0536,acct_0236,Validation,2,2026-10-10,,owner_02
+hist_002190,opp_0537,acct_0546,Discovery,1,2026-09-06,2026-10-15,owner_03
+hist_002191,opp_0537,acct_0546,Validation,2,2026-10-15,,owner_03
+hist_002192,opp_0538,acct_0546,Discovery,1,2026-09-10,2026-10-05,owner_03
+hist_002193,opp_0538,acct_0546,Validation,2,2026-10-05,2026-10-29,owner_03
+hist_002194,opp_0538,acct_0546,Proposal,3,2026-10-29,,owner_03
+hist_002195,opp_0539,acct_0053,Discovery,1,2026-11-02,2026-11-12,owner_08
+hist_002196,opp_0539,acct_0053,Validation,2,2026-11-12,,owner_08
+hist_002197,opp_0540,acct_0646,Discovery,1,2026-09-22,2026-10-13,owner_01
+hist_002198,opp_0540,acct_0646,Validation,2,2026-10-13,2026-11-02,owner_01
+hist_002199,opp_0540,acct_0646,Proposal,3,2026-11-02,,owner_01
+hist_002200,opp_0541,acct_0044,Discovery,1,2026-10-16,2026-10-29,owner_05
+hist_002201,opp_0541,acct_0044,Validation,2,2026-10-29,2026-11-10,owner_05
+hist_002202,opp_0541,acct_0044,Proposal,3,2026-11-10,,owner_05
+hist_002203,opp_0542,acct_0323,Discovery,1,2026-09-05,2026-10-15,owner_07
+hist_002204,opp_0542,acct_0323,Validation,2,2026-10-15,,owner_07
+hist_002205,opp_0543,acct_0488,Discovery,1,2026-10-30,,owner_04
+hist_002206,opp_0544,acct_0699,Discovery,1,2026-11-18,2026-11-20,owner_03
+hist_002207,opp_0544,acct_0699,Validation,2,2026-11-20,2026-11-21,owner_03
+hist_002208,opp_0544,acct_0699,Proposal,3,2026-11-21,,owner_03
+hist_002209,opp_0545,acct_0702,Discovery,1,2026-09-10,,owner_04
+hist_002210,opp_0546,acct_0234,Discovery,1,2026-10-01,2026-10-14,owner_02
+hist_002211,opp_0546,acct_0234,Validation,2,2026-10-14,2026-10-27,owner_02
+hist_002212,opp_0546,acct_0234,Proposal,3,2026-10-27,2026-11-10,owner_02
+hist_002213,opp_0546,acct_0234,Negotiation,4,2026-11-10,,owner_02
+hist_002214,opp_0547,acct_1036,Discovery,1,2026-08-27,2026-09-25,owner_05
+hist_002215,opp_0547,acct_1036,Validation,2,2026-09-25,2026-10-25,owner_05
+hist_002216,opp_0547,acct_1036,Proposal,3,2026-10-25,,owner_05
+hist_002217,opp_0548,acct_0557,Discovery,1,2026-10-27,2026-11-05,owner_07
+hist_002218,opp_0548,acct_0557,Validation,2,2026-11-05,2026-11-14,owner_07
+hist_002219,opp_0548,acct_0557,Proposal,3,2026-11-14,,owner_07
+hist_002220,opp_0549,acct_0310,Discovery,1,2026-09-12,2026-09-30,owner_01
+hist_002221,opp_0549,acct_0310,Validation,2,2026-09-30,2026-10-18,owner_01
+hist_002222,opp_0549,acct_0310,Proposal,3,2026-10-18,2026-11-05,owner_01
+hist_002223,opp_0549,acct_0310,Negotiation,4,2026-11-05,,owner_01
+hist_002224,opp_0550,acct_0068,Discovery,1,2026-09-15,2026-10-02,owner_06
+hist_002225,opp_0550,acct_0068,Validation,2,2026-10-02,2026-10-19,owner_06
+hist_002226,opp_0550,acct_0068,Proposal,3,2026-10-19,2026-11-06,owner_06
+hist_002227,opp_0550,acct_0068,Negotiation,4,2026-11-06,,owner_06
+hist_002228,opp_0551,acct_0833,Discovery,1,2026-10-14,2026-10-24,owner_08
+hist_002229,opp_0551,acct_0833,Validation,2,2026-10-24,2026-11-03,owner_08
+hist_002230,opp_0551,acct_0833,Proposal,3,2026-11-03,2026-11-13,owner_08
+hist_002231,opp_0551,acct_0833,Negotiation,4,2026-11-13,,owner_08
+hist_002232,opp_0552,acct_0056,Discovery,1,2026-10-24,2026-11-08,owner_01
+hist_002233,opp_0552,acct_0056,Validation,2,2026-11-08,,owner_01
+hist_002234,opp_0553,acct_0448,Discovery,1,2026-10-27,2026-11-05,owner_02
+hist_002235,opp_0553,acct_0448,Validation,2,2026-11-05,2026-11-14,owner_02
+hist_002236,opp_0553,acct_0448,Proposal,3,2026-11-14,,owner_02
+hist_002237,opp_0554,acct_0286,Discovery,1,2026-10-12,2026-10-26,owner_03
+hist_002238,opp_0554,acct_0286,Validation,2,2026-10-26,2026-11-09,owner_03
+hist_002239,opp_0554,acct_0286,Proposal,3,2026-11-09,,owner_03
+hist_002240,opp_0555,acct_0456,Discovery,1,2026-11-02,2026-11-09,owner_01
+hist_002241,opp_0555,acct_0456,Validation,2,2026-11-09,2026-11-16,owner_01
+hist_002242,opp_0555,acct_0456,Proposal,3,2026-11-16,,owner_01
+hist_002243,opp_0556,acct_0586,Discovery,1,2026-09-04,2026-10-01,owner_01
+hist_002244,opp_0556,acct_0586,Validation,2,2026-10-01,2026-10-27,owner_01
+hist_002245,opp_0556,acct_0586,Proposal,3,2026-10-27,,owner_01
+hist_002246,opp_0557,acct_0496,Discovery,1,2026-09-26,2026-10-25,owner_01
+hist_002247,opp_0557,acct_0496,Validation,2,2026-10-25,,owner_01
+hist_002248,opp_0558,acct_0758,Discovery,1,2026-08-26,2026-10-09,owner_03
+hist_002249,opp_0558,acct_0758,Validation,2,2026-10-09,,owner_03
+hist_002250,opp_0559,acct_0939,Discovery,1,2026-11-10,2026-11-13,owner_08
+hist_002251,opp_0559,acct_0939,Validation,2,2026-11-13,2026-11-16,owner_08
+hist_002252,opp_0559,acct_0939,Proposal,3,2026-11-16,2026-11-20,owner_08
+hist_002253,opp_0559,acct_0939,Negotiation,4,2026-11-20,,owner_08
+hist_002254,opp_0560,acct_0431,Discovery,1,2026-11-06,2026-11-14,owner_05
+hist_002255,opp_0560,acct_0431,Validation,2,2026-11-14,,owner_05
+hist_002256,opp_0561,acct_0235,Discovery,1,2026-10-15,2026-10-28,owner_06
+hist_002257,opp_0561,acct_0235,Validation,2,2026-10-28,2026-11-10,owner_06
+hist_002258,opp_0561,acct_0235,Proposal,3,2026-11-10,,owner_06
+hist_002259,opp_0562,acct_0858,Discovery,1,2026-08-19,2026-09-12,owner_02
+hist_002260,opp_0562,acct_0858,Validation,2,2026-09-12,2026-10-06,owner_02
+hist_002261,opp_0562,acct_0858,Proposal,3,2026-10-06,2026-10-30,owner_02
+hist_002262,opp_0562,acct_0858,Negotiation,4,2026-10-30,,owner_02
+hist_002263,opp_0563,acct_0900,Discovery,1,2026-11-12,2026-11-16,owner_05
+hist_002264,opp_0563,acct_0900,Validation,2,2026-11-16,2026-11-19,owner_05
+hist_002265,opp_0563,acct_0900,Proposal,3,2026-11-19,,owner_05
+hist_002266,opp_0564,acct_0099,Discovery,1,2026-10-06,2026-10-22,owner_06
+hist_002267,opp_0564,acct_0099,Validation,2,2026-10-22,2026-11-07,owner_06
+hist_002268,opp_0564,acct_0099,Proposal,3,2026-11-07,,owner_06
+hist_002269,opp_0565,acct_0796,Discovery,1,2026-09-07,2026-10-03,owner_01
+hist_002270,opp_0565,acct_0796,Validation,2,2026-10-03,2026-10-28,owner_01
+hist_002271,opp_0565,acct_0796,Proposal,3,2026-10-28,,owner_01
+hist_002272,opp_0566,acct_0434,Discovery,1,2026-09-15,,owner_02
+hist_002273,opp_0567,acct_0137,Discovery,1,2026-09-06,2026-10-02,owner_03
+hist_002274,opp_0567,acct_0137,Validation,2,2026-10-02,2026-10-28,owner_03
+hist_002275,opp_0567,acct_0137,Proposal,3,2026-10-28,,owner_03
+hist_002276,opp_0568,acct_0141,Discovery,1,2026-10-26,2026-11-02,owner_07
+hist_002277,opp_0568,acct_0141,Validation,2,2026-11-02,2026-11-09,owner_07
+hist_002278,opp_0568,acct_0141,Proposal,3,2026-11-09,2026-11-16,owner_07
+hist_002279,opp_0568,acct_0141,Negotiation,4,2026-11-16,,owner_07
+hist_002280,opp_0569,acct_0327,Discovery,1,2026-10-11,2026-10-25,owner_07
+hist_002281,opp_0569,acct_0327,Validation,2,2026-10-25,2026-11-09,owner_07
+hist_002282,opp_0569,acct_0327,Proposal,3,2026-11-09,,owner_07
+hist_002283,opp_0570,acct_0924,Discovery,1,2026-10-27,2026-11-05,owner_03
+hist_002284,opp_0570,acct_0924,Validation,2,2026-11-05,2026-11-14,owner_03
+hist_002285,opp_0570,acct_0924,Proposal,3,2026-11-14,,owner_03
+hist_002286,opp_0571,acct_0114,Discovery,1,2026-10-11,2026-10-22,owner_07
+hist_002287,opp_0571,acct_0114,Validation,2,2026-10-22,2026-11-02,owner_07
+hist_002288,opp_0571,acct_0114,Proposal,3,2026-11-02,2026-11-12,owner_07
+hist_002289,opp_0571,acct_0114,Negotiation,4,2026-11-12,,owner_07
+hist_002290,opp_0572,acct_0429,Discovery,1,2026-10-30,,owner_01
+hist_002291,opp_0573,acct_0178,Discovery,1,2026-09-02,2026-09-22,owner_05
+hist_002292,opp_0573,acct_0178,Validation,2,2026-09-22,2026-10-13,owner_05
+hist_002293,opp_0573,acct_0178,Proposal,3,2026-10-13,2026-11-03,owner_05
+hist_002294,opp_0573,acct_0178,Negotiation,4,2026-11-03,,owner_05
+hist_002295,opp_0574,acct_0505,Discovery,1,2026-09-04,2026-10-01,owner_01
+hist_002296,opp_0574,acct_0505,Validation,2,2026-10-01,2026-10-27,owner_01
+hist_002297,opp_0574,acct_0505,Proposal,3,2026-10-27,,owner_01
+hist_002298,opp_0575,acct_0814,Discovery,1,2026-11-07,2026-11-12,owner_08
+hist_002299,opp_0575,acct_0814,Validation,2,2026-11-12,2026-11-18,owner_08
+hist_002300,opp_0575,acct_0814,Proposal,3,2026-11-18,,owner_08
+hist_002301,opp_0576,acct_0864,Discovery,1,2026-09-06,2026-10-02,owner_03
+hist_002302,opp_0576,acct_0864,Validation,2,2026-10-02,2026-10-28,owner_03
+hist_002303,opp_0576,acct_0864,Proposal,3,2026-10-28,,owner_03
+hist_002304,opp_0577,acct_0602,Discovery,1,2026-11-17,,owner_06
+hist_002305,opp_0578,acct_0453,Discovery,1,2026-09-14,2026-10-07,owner_03
+hist_002306,opp_0578,acct_0453,Validation,2,2026-10-07,2026-10-31,owner_03
+hist_002307,opp_0578,acct_0453,Proposal,3,2026-10-31,,owner_03
+hist_002308,opp_0579,acct_0697,Discovery,1,2026-11-04,2026-11-14,owner_01
+hist_002309,opp_0579,acct_0697,Validation,2,2026-11-14,,owner_01
+hist_002310,opp_0580,acct_0225,Discovery,1,2026-10-06,2026-10-22,owner_04
+hist_002311,opp_0580,acct_0225,Validation,2,2026-10-22,2026-11-07,owner_04
+hist_002312,opp_0580,acct_0225,Proposal,3,2026-11-07,,owner_04
+hist_002313,opp_0581,acct_0513,Discovery,1,2026-10-08,,owner_05
+hist_002314,opp_0582,acct_0893,Discovery,1,2026-10-16,2026-10-29,owner_04
+hist_002315,opp_0582,acct_0893,Validation,2,2026-10-29,2026-11-10,owner_04
+hist_002316,opp_0582,acct_0893,Proposal,3,2026-11-10,,owner_04
+hist_002317,opp_0583,acct_0401,Discovery,1,2026-11-16,,owner_04
+hist_002318,opp_0584,acct_0276,Discovery,1,2026-10-02,2026-10-28,owner_03
+hist_002319,opp_0584,acct_0276,Validation,2,2026-10-28,,owner_03
+hist_002320,opp_0585,acct_0276,Discovery,1,2026-09-24,2026-10-24,owner_03
+hist_002321,opp_0585,acct_0276,Validation,2,2026-10-24,,owner_03
+hist_002322,opp_0586,acct_0565,Discovery,1,2026-11-08,2026-11-13,owner_06
+hist_002323,opp_0586,acct_0565,Validation,2,2026-11-13,2026-11-18,owner_06
+hist_002324,opp_0586,acct_0565,Proposal,3,2026-11-18,,owner_06
+hist_002325,opp_0587,acct_0055,Discovery,1,2026-11-13,2026-11-16,owner_01
+hist_002326,opp_0587,acct_0055,Validation,2,2026-11-16,2026-11-20,owner_01
+hist_002327,opp_0587,acct_0055,Proposal,3,2026-11-20,,owner_01
+hist_002328,opp_0588,acct_1008,Discovery,1,2026-09-26,2026-10-15,owner_05
+hist_002329,opp_0588,acct_1008,Validation,2,2026-10-15,2026-11-04,owner_05
+hist_002330,opp_0588,acct_1008,Proposal,3,2026-11-04,,owner_05
+hist_002331,opp_0589,acct_0211,Discovery,1,2026-11-19,2026-11-20,owner_02
+hist_002332,opp_0589,acct_0211,Validation,2,2026-11-20,2026-11-21,owner_02
+hist_002333,opp_0589,acct_0211,Proposal,3,2026-11-21,2026-11-22,owner_02
+hist_002334,opp_0589,acct_0211,Negotiation,4,2026-11-22,,owner_02
+hist_002335,opp_0590,acct_0443,Discovery,1,2026-09-26,2026-10-10,owner_02
+hist_002336,opp_0590,acct_0443,Validation,2,2026-10-10,2026-10-25,owner_02
+hist_002337,opp_0590,acct_0443,Proposal,3,2026-10-25,2026-11-09,owner_02
+hist_002338,opp_0590,acct_0443,Negotiation,4,2026-11-09,,owner_02
+hist_002339,opp_0591,acct_0535,Discovery,1,2026-10-14,,owner_05
+hist_002340,opp_0592,acct_0471,Discovery,1,2026-11-13,2026-11-15,owner_04
+hist_002341,opp_0592,acct_0471,Validation,2,2026-11-15,2026-11-18,owner_04
+hist_002342,opp_0592,acct_0471,Proposal,3,2026-11-18,2026-11-21,owner_04
+hist_002343,opp_0592,acct_0471,Negotiation,4,2026-11-21,,owner_04
+hist_002344,opp_0593,acct_0428,Discovery,1,2026-09-30,2026-10-18,owner_03
+hist_002345,opp_0593,acct_0428,Validation,2,2026-10-18,2026-11-05,owner_03
+hist_002346,opp_0593,acct_0428,Proposal,3,2026-11-05,,owner_03
+hist_002347,opp_0594,acct_0116,Discovery,1,2026-09-10,2026-09-28,owner_05
+hist_002348,opp_0594,acct_0116,Validation,2,2026-09-28,2026-10-17,owner_05
+hist_002349,opp_0594,acct_0116,Proposal,3,2026-10-17,2026-11-05,owner_05
+hist_002350,opp_0594,acct_0116,Negotiation,4,2026-11-05,,owner_05
+hist_002351,opp_0595,acct_0500,Discovery,1,2026-10-30,2026-11-05,owner_03
+hist_002352,opp_0595,acct_0500,Validation,2,2026-11-05,2026-11-11,owner_03
+hist_002353,opp_0595,acct_0500,Proposal,3,2026-11-11,2026-11-17,owner_03
+hist_002354,opp_0595,acct_0500,Negotiation,4,2026-11-17,,owner_03
+hist_002355,opp_0596,acct_0653,Discovery,1,2026-11-17,,owner_07
+hist_002356,opp_0597,acct_0773,Discovery,1,2026-09-01,2026-09-22,owner_06
+hist_002357,opp_0597,acct_0773,Validation,2,2026-09-22,2026-10-13,owner_06
+hist_002358,opp_0597,acct_0773,Proposal,3,2026-10-13,2026-11-02,owner_06
+hist_002359,opp_0597,acct_0773,Negotiation,4,2026-11-02,,owner_06
+hist_002360,opp_0598,acct_0627,Discovery,1,2026-11-11,2026-11-15,owner_08
+hist_002361,opp_0598,acct_0627,Validation,2,2026-11-15,2026-11-19,owner_08
+hist_002362,opp_0598,acct_0627,Proposal,3,2026-11-19,,owner_08
+hist_002363,opp_0599,acct_0638,Discovery,1,2026-09-25,2026-10-15,owner_07
+hist_002364,opp_0599,acct_0638,Validation,2,2026-10-15,2026-11-03,owner_07
+hist_002365,opp_0599,acct_0638,Proposal,3,2026-11-03,,owner_07
+hist_002366,opp_0600,acct_0976,Discovery,1,2026-11-03,,owner_06

@@ -1,19 +1,19 @@
-VERA BRIEFING - NORTHWIND - MON NOV 2 (mock)
+VERA BRIEFING - NORTHWIND - Q4 2026 (SYNTHETIC / ANONYMIZED)
 
-THE LINE: Pipeline +$412k, two enterprise slips to Dec. Quarter makeable via mid-market.
+THE LINE: 200 open deals, $17.72M expected ARR. Commit view $7.01M; Best Case $12.85M.
 
 MOVED
-+ $412k new pipeline (14 deals). Acme Health $86k biggest. Inbound 41%.
-+ $187k closed-won, mid-market. Cycle 24 days (-4 vs Q3).
-- 2 slips, $240k, procurement timing. Dec 12 / Dec 18.
++ Q4 closed won: $2.53M.
++ Open: 60 Commit, 60 Best Case, 80 Pipeline.
++ Q3 ARR: $92.26M across 1,000 ending active customers.
 
 NEEDS YOU
-! Halewood $95k - quiet 9 days. Send a direct note.
-! Bloomfield 28% ask - over 20% guardrail. Counter 18% + prepay.
+! 43 at-risk and 48 watch open deals.
+! Q3 NRR 96.4%; expansion covered 48.2% of losses.
 
 NEXT
-> Thu forecast call: $1.42M commit vs $1.65M target.
-> 2/7 onboarding customers behind. CS handling.
+> Review tour/pipeline-analysis.html.
+> Inspect all 1,050 ARR rows in mock-arr-rollforward.xlsx.
 
-CRM live 7:00am ET. Reply to dig.
-VALIDATED BY VERA - NOV 2 - ARITHMETIC + CLAIMS CHECKED
+SOURCE: INCLUDED SYNTHETIC CRM FIXTURES - NO LIVE CRM PULL
+VALIDATED BY VERA - NOV 23, 2026 - ARITHMETIC + CLAIMS CHECKED

@@ -1,0 +1,1051 @@
+account_id,account_alias,lifecycle_status,segment,industry,region,country,owner_id,owner_alias,plan_tier,billing_frequency,currency,account_created_date,customer_since_date,health_score,last_activity_date,acquisition_source,movement_category
+acct_0001,Account 0001,Active,Enterprise,Healthcare,Europe,Germany,owner_06,Owner 06,Scale,Monthly,USD,2024-10-11,2024-10-11,95,2026-11-07,Outbound,Flat
+acct_0002,Account 0002,Active,Enterprise,Logistics,APAC,Australia,owner_05,Owner 05,Growth,Annual,USD,2023-10-03,2023-10-03,52,2026-11-14,Event,Flat
+acct_0003,Account 0003,Active,Enterprise,Healthcare,APAC,Australia,owner_01,Owner 01,Growth,Monthly,USD,2025-06-22,2025-06-22,98,2026-11-22,Referral,Flat
+acct_0004,Account 0004,Active,SMB,Education,APAC,Australia,owner_05,Owner 05,Growth,Monthly,USD,2022-07-01,2022-07-01,36,2026-11-17,Referral,Flat
+acct_0005,Account 0005,Active,SMB,Education,North America,Canada,owner_07,Owner 07,Enterprise,Monthly,USD,2024-04-26,2024-04-26,39,2026-11-11,Referral,Flat
+acct_0006,Account 0006,Active,Mid-Market,Logistics,North America,United States,owner_02,Owner 02,Enterprise,Annual,USD,2022-09-24,2022-09-24,91,2026-11-09,Partner,Expansion
+acct_0007,Account 0007,Active,Mid-Market,Manufacturing,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2023-08-03,2023-08-03,83,2026-11-13,Partner,Flat
+acct_0008,Account 0008,Churned,Enterprise,Financial Services,Europe,United Kingdom,owner_05,Owner 05,Enterprise,Monthly,USD,2023-10-21,2023-10-21,29,2026-10-18,Referral,Churn
+acct_0009,Account 0009,Active,SMB,Healthcare,APAC,Australia,owner_01,Owner 01,Enterprise,Monthly,USD,2022-05-06,2022-05-06,61,2026-11-22,Outbound,Flat
+acct_0010,Account 0010,Active,Mid-Market,Financial Services,Europe,United Kingdom,owner_06,Owner 06,Starter,Annual,USD,2024-02-09,2024-02-09,60,2026-10-05,Referral,Flat
+acct_0011,Account 0011,Active,SMB,Software,APAC,Australia,owner_02,Owner 02,Scale,Annual,USD,2024-11-01,2024-11-01,88,2026-10-21,Outbound,Flat
+acct_0012,Account 0012,Active,Mid-Market,Professional Services,APAC,Australia,owner_04,Owner 04,Growth,Annual,USD,2024-09-17,2024-09-17,63,2026-11-21,Inbound,Flat
+acct_0013,Account 0013,Active,SMB,Education,North America,United States,owner_02,Owner 02,Growth,Annual,USD,2025-11-10,2025-11-10,59,2026-10-04,Partner,Flat
+acct_0014,Account 0014,Active,SMB,Professional Services,Europe,Germany,owner_06,Owner 06,Scale,Monthly,USD,2022-04-22,2022-04-22,74,2026-11-01,Inbound,Flat
+acct_0015,Account 0015,Active,Mid-Market,Financial Services,North America,Canada,owner_04,Owner 04,Growth,Annual,USD,2023-11-12,2023-11-12,44,2026-10-20,Partner,Flat
+acct_0016,Account 0016,Active,Mid-Market,Financial Services,APAC,Australia,owner_04,Owner 04,Starter,Annual,USD,2026-01-04,2026-01-04,77,2026-11-22,Event,Contraction
+acct_0017,Account 0017,Active,Mid-Market,Software,Europe,Germany,owner_01,Owner 01,Starter,Monthly,USD,2024-05-13,2024-05-13,82,2026-11-02,Referral,Flat
+acct_0018,Account 0018,Active,SMB,Logistics,Europe,United Kingdom,owner_07,Owner 07,Growth,Annual,USD,2023-07-23,2026-09-17,79,2026-10-29,Outbound,New
+acct_0019,Account 0019,Active,SMB,Healthcare,Europe,United Kingdom,owner_03,Owner 03,Scale,Monthly,USD,2026-04-04,2026-04-04,42,2026-10-09,Inbound,Flat
+acct_0020,Account 0020,Active,Enterprise,Healthcare,Europe,Germany,owner_06,Owner 06,Growth,Annual,USD,2025-06-06,2025-06-06,77,2026-11-22,Partner,Flat
+acct_0021,Account 0021,Active,Mid-Market,Education,APAC,Australia,owner_03,Owner 03,Enterprise,Monthly,USD,2024-02-25,2024-02-25,77,2026-10-18,Referral,Flat
+acct_0022,Account 0022,Active,SMB,Healthcare,North America,United States,owner_02,Owner 02,Starter,Annual,USD,2023-04-29,2023-04-29,83,2026-11-23,Outbound,Flat
+acct_0023,Account 0023,Active,Enterprise,Manufacturing,APAC,Australia,owner_06,Owner 06,Enterprise,Annual,USD,2023-03-16,2023-03-16,50,2026-11-02,Event,Flat
+acct_0024,Account 0024,Active,Mid-Market,Software,North America,United States,owner_07,Owner 07,Enterprise,Monthly,USD,2026-06-20,2026-06-20,60,2026-11-07,Referral,Flat
+acct_0025,Account 0025,Active,Mid-Market,Retail,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2022-04-17,2026-09-22,92,2026-11-22,Inbound,New
+acct_0026,Account 0026,Active,Enterprise,Financial Services,Europe,Germany,owner_07,Owner 07,Growth,Monthly,USD,2026-06-30,2026-06-30,75,2026-11-04,Referral,Flat
+acct_0027,Account 0027,Active,SMB,Financial Services,APAC,Australia,owner_05,Owner 05,Growth,Monthly,USD,2022-12-03,2022-12-03,82,2026-10-26,Outbound,Flat
+acct_0028,Account 0028,Active,Enterprise,Healthcare,Europe,United Kingdom,owner_01,Owner 01,Starter,Monthly,USD,2022-06-29,2022-06-29,37,2026-10-11,Referral,Contraction
+acct_0029,Account 0029,Active,SMB,Education,APAC,Australia,owner_07,Owner 07,Growth,Annual,USD,2025-11-13,2025-11-13,55,2026-11-23,Referral,Flat
+acct_0030,Account 0030,Active,Enterprise,Retail,APAC,Australia,owner_05,Owner 05,Scale,Annual,USD,2022-10-06,2022-10-06,45,2026-11-22,Event,Contraction
+acct_0031,Account 0031,Active,SMB,Healthcare,North America,Canada,owner_05,Owner 05,Growth,Annual,USD,2023-08-01,2023-08-01,63,2026-11-02,Outbound,Flat
+acct_0032,Account 0032,Active,Mid-Market,Retail,North America,Canada,owner_01,Owner 01,Growth,Monthly,USD,2023-05-21,2023-05-21,51,2026-11-01,Referral,Flat
+acct_0033,Account 0033,Active,Mid-Market,Professional Services,North America,Canada,owner_08,Owner 08,Scale,Annual,USD,2025-11-15,2025-11-15,97,2026-11-20,Outbound,Flat
+acct_0034,Account 0034,Active,SMB,Professional Services,Europe,Germany,owner_06,Owner 06,Scale,Monthly,USD,2025-08-18,2025-08-18,79,2026-10-07,Referral,Flat
+acct_0035,Account 0035,Active,SMB,Logistics,Europe,Germany,owner_08,Owner 08,Growth,Annual,USD,2025-01-08,2025-01-08,71,2026-10-24,Referral,Contraction
+acct_0036,Account 0036,Active,Mid-Market,Professional Services,Europe,Germany,owner_08,Owner 08,Growth,Annual,USD,2022-05-26,2022-05-26,72,2026-10-08,Event,Flat
+acct_0037,Account 0037,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_07,Owner 07,Scale,Annual,USD,2026-01-11,2026-01-11,44,2026-10-16,Outbound,Expansion
+acct_0038,Account 0038,Active,Enterprise,Software,Europe,Germany,owner_05,Owner 05,Scale,Monthly,USD,2024-10-16,2024-10-16,57,2026-11-10,Referral,Expansion
+acct_0039,Account 0039,Churned,Mid-Market,Logistics,North America,United States,owner_01,Owner 01,Enterprise,Annual,USD,2024-04-04,2024-04-04,11,2026-10-26,Partner,Churn
+acct_0040,Account 0040,Active,SMB,Financial Services,Europe,Germany,owner_02,Owner 02,Growth,Annual,USD,2025-08-18,2026-09-14,63,2026-10-13,Outbound,New
+acct_0041,Account 0041,Active,Mid-Market,Manufacturing,North America,United States,owner_06,Owner 06,Starter,Monthly,USD,2026-03-26,2026-03-26,85,2026-10-19,Event,Flat
+acct_0042,Account 0042,Active,Enterprise,Healthcare,APAC,Australia,owner_07,Owner 07,Starter,Annual,USD,2022-02-18,2022-02-18,38,2026-11-17,Event,Flat
+acct_0043,Account 0043,Active,SMB,Education,North America,United States,owner_07,Owner 07,Starter,Monthly,USD,2025-12-05,2025-12-05,86,2026-11-02,Referral,Flat
+acct_0044,Account 0044,Active,Enterprise,Manufacturing,Europe,United Kingdom,owner_05,Owner 05,Enterprise,Monthly,USD,2023-11-23,2023-11-23,85,2026-11-18,Referral,Expansion
+acct_0045,Account 0045,Active,Enterprise,Software,North America,Canada,owner_06,Owner 06,Growth,Annual,USD,2026-03-08,2026-03-08,74,2026-11-23,Partner,Flat
+acct_0046,Account 0046,Active,SMB,Education,Europe,United Kingdom,owner_03,Owner 03,Scale,Monthly,USD,2024-11-06,2026-08-18,67,2026-11-07,Outbound,New
+acct_0047,Account 0047,Active,SMB,Professional Services,Europe,United Kingdom,owner_04,Owner 04,Enterprise,Monthly,USD,2025-09-02,2025-09-02,48,2026-10-14,Referral,Expansion
+acct_0048,Account 0048,Active,SMB,Software,Europe,Germany,owner_07,Owner 07,Enterprise,Annual,USD,2023-01-14,2023-01-14,57,2026-10-21,Outbound,Expansion
+acct_0049,Account 0049,Active,SMB,Software,Europe,Germany,owner_08,Owner 08,Scale,Annual,USD,2023-01-18,2023-01-18,73,2026-10-03,Event,Flat
+acct_0050,Account 0050,Active,SMB,Education,Europe,United Kingdom,owner_06,Owner 06,Scale,Monthly,USD,2025-09-14,2026-07-18,38,2026-10-06,Inbound,New
+acct_0051,Account 0051,Active,Mid-Market,Financial Services,North America,United States,owner_07,Owner 07,Starter,Annual,USD,2022-11-06,2026-07-12,85,2026-11-17,Referral,New
+acct_0052,Account 0052,Active,Mid-Market,Education,Europe,United Kingdom,owner_06,Owner 06,Scale,Annual,USD,2023-02-13,2026-09-23,62,2026-11-09,Inbound,New
+acct_0053,Account 0053,Active,Mid-Market,Financial Services,APAC,Australia,owner_08,Owner 08,Growth,Annual,USD,2024-05-14,2024-05-14,52,2026-10-14,Inbound,Flat
+acct_0054,Account 0054,Active,Enterprise,Logistics,North America,Canada,owner_01,Owner 01,Growth,Monthly,USD,2024-07-18,2024-07-18,48,2026-11-01,Event,Expansion
+acct_0055,Account 0055,Active,SMB,Education,North America,Canada,owner_01,Owner 01,Scale,Annual,USD,2024-02-07,2024-02-07,58,2026-10-31,Event,Expansion
+acct_0056,Account 0056,Active,SMB,Software,North America,Canada,owner_01,Owner 01,Scale,Monthly,USD,2023-06-25,2023-06-25,79,2026-10-19,Inbound,Expansion
+acct_0057,Account 0057,Active,SMB,Manufacturing,Europe,Germany,owner_07,Owner 07,Enterprise,Annual,USD,2022-11-05,2022-11-05,98,2026-11-19,Partner,Flat
+acct_0058,Account 0058,Active,Mid-Market,Logistics,North America,United States,owner_05,Owner 05,Growth,Monthly,USD,2023-02-03,2023-02-03,42,2026-10-08,Outbound,Flat
+acct_0059,Account 0059,Active,Enterprise,Logistics,North America,United States,owner_05,Owner 05,Scale,Monthly,USD,2023-02-20,2023-02-20,41,2026-10-05,Event,Expansion
+acct_0060,Account 0060,Active,SMB,Retail,North America,United States,owner_06,Owner 06,Growth,Monthly,USD,2024-01-21,2024-01-21,63,2026-11-13,Referral,Flat
+acct_0061,Account 0061,Active,Enterprise,Financial Services,Europe,United Kingdom,owner_07,Owner 07,Scale,Annual,USD,2025-11-04,2025-11-04,39,2026-11-11,Partner,Expansion
+acct_0062,Account 0062,Active,SMB,Healthcare,North America,Canada,owner_05,Owner 05,Starter,Monthly,USD,2022-10-11,2022-10-11,72,2026-10-10,Referral,Flat
+acct_0063,Account 0063,Active,Mid-Market,Software,Europe,Germany,owner_03,Owner 03,Growth,Annual,USD,2025-12-18,2025-12-18,68,2026-10-31,Referral,Expansion
+acct_0064,Account 0064,Active,Enterprise,Retail,APAC,Australia,owner_02,Owner 02,Starter,Monthly,USD,2023-02-09,2023-02-09,93,2026-11-19,Inbound,Flat
+acct_0065,Account 0065,Active,SMB,Manufacturing,APAC,Australia,owner_05,Owner 05,Growth,Annual,USD,2022-08-28,2026-09-28,52,2026-11-14,Inbound,New
+acct_0066,Account 0066,Active,Mid-Market,Retail,North America,Canada,owner_02,Owner 02,Starter,Monthly,USD,2024-01-17,2024-01-17,98,2026-11-19,Inbound,Flat
+acct_0067,Account 0067,Active,Mid-Market,Financial Services,North America,United States,owner_08,Owner 08,Enterprise,Annual,USD,2025-10-31,2025-10-31,64,2026-10-27,Referral,Flat
+acct_0068,Account 0068,Active,SMB,Retail,North America,Canada,owner_06,Owner 06,Starter,Annual,USD,2025-05-11,2025-05-11,36,2026-10-23,Referral,Flat
+acct_0069,Account 0069,Active,Mid-Market,Manufacturing,Europe,Germany,owner_02,Owner 02,Enterprise,Monthly,USD,2024-09-02,2024-09-02,95,2026-10-22,Event,Expansion
+acct_0070,Account 0070,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_02,Owner 02,Growth,Monthly,USD,2024-08-12,2024-08-12,37,2026-10-30,Referral,Contraction
+acct_0071,Account 0071,Active,Enterprise,Logistics,APAC,Australia,owner_08,Owner 08,Starter,Monthly,USD,2023-03-06,2023-03-06,70,2026-11-04,Event,Contraction
+acct_0072,Account 0072,Active,Enterprise,Retail,North America,Canada,owner_07,Owner 07,Starter,Monthly,USD,2024-11-24,2024-11-24,77,2026-11-19,Outbound,Contraction
+acct_0073,Account 0073,Churned,Mid-Market,Manufacturing,Europe,Germany,owner_04,Owner 04,Enterprise,Annual,USD,2022-10-04,2022-10-04,33,2026-10-31,Inbound,Churn
+acct_0074,Account 0074,Active,Mid-Market,Education,Europe,Germany,owner_08,Owner 08,Growth,Annual,USD,2026-03-03,2026-03-03,66,2026-11-08,Partner,Flat
+acct_0075,Account 0075,Active,Mid-Market,Financial Services,APAC,Australia,owner_06,Owner 06,Starter,Monthly,USD,2025-09-14,2025-09-14,73,2026-10-20,Outbound,Flat
+acct_0076,Account 0076,Active,Mid-Market,Retail,North America,Canada,owner_04,Owner 04,Growth,Annual,USD,2022-06-17,2022-06-17,64,2026-10-29,Partner,Flat
+acct_0077,Account 0077,Active,Enterprise,Software,Europe,United Kingdom,owner_04,Owner 04,Scale,Annual,USD,2023-01-01,2023-01-01,91,2026-11-18,Inbound,Flat
+acct_0078,Account 0078,Active,SMB,Professional Services,North America,United States,owner_07,Owner 07,Scale,Monthly,USD,2024-03-20,2024-03-20,58,2026-11-19,Inbound,Flat
+acct_0079,Account 0079,Active,SMB,Retail,North America,Canada,owner_05,Owner 05,Scale,Monthly,USD,2024-09-17,2024-09-17,73,2026-10-18,Partner,Flat
+acct_0080,Account 0080,Active,Enterprise,Software,Europe,United Kingdom,owner_08,Owner 08,Growth,Annual,USD,2023-01-02,2023-01-02,97,2026-10-22,Event,Flat
+acct_0081,Account 0081,Active,SMB,Logistics,North America,Canada,owner_06,Owner 06,Scale,Monthly,USD,2024-05-17,2024-05-17,37,2026-10-17,Referral,Flat
+acct_0082,Account 0082,Active,Mid-Market,Financial Services,North America,Canada,owner_01,Owner 01,Scale,Annual,USD,2023-12-30,2023-12-30,48,2026-11-17,Event,Flat
+acct_0083,Account 0083,Active,SMB,Manufacturing,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2023-10-18,2023-10-18,60,2026-11-16,Referral,Flat
+acct_0084,Account 0084,Active,SMB,Software,North America,Canada,owner_03,Owner 03,Scale,Annual,USD,2023-07-16,2023-07-16,72,2026-10-30,Outbound,Flat
+acct_0085,Account 0085,Active,Mid-Market,Retail,North America,United States,owner_07,Owner 07,Starter,Annual,USD,2023-01-26,2023-01-26,42,2026-10-08,Outbound,Flat
+acct_0086,Account 0086,Active,SMB,Education,APAC,Australia,owner_03,Owner 03,Starter,Monthly,USD,2022-03-03,2022-03-03,72,2026-11-03,Outbound,Contraction
+acct_0087,Account 0087,Active,Mid-Market,Professional Services,North America,United States,owner_02,Owner 02,Starter,Monthly,USD,2025-02-25,2025-02-25,96,2026-10-14,Referral,Flat
+acct_0088,Account 0088,Active,SMB,Professional Services,Europe,United Kingdom,owner_07,Owner 07,Growth,Monthly,USD,2022-10-03,2022-10-03,87,2026-11-18,Partner,Flat
+acct_0089,Account 0089,Active,Enterprise,Healthcare,Europe,Germany,owner_07,Owner 07,Scale,Annual,USD,2023-04-27,2023-04-27,41,2026-11-14,Event,Flat
+acct_0090,Account 0090,Churned,Mid-Market,Logistics,Europe,Germany,owner_08,Owner 08,Enterprise,Annual,USD,2024-08-11,2024-08-11,33,2026-10-14,Inbound,Churn
+acct_0091,Account 0091,Active,SMB,Professional Services,North America,Canada,owner_02,Owner 02,Growth,Annual,USD,2025-05-05,2025-05-05,71,2026-10-23,Inbound,Flat
+acct_0092,Account 0092,Active,SMB,Software,Europe,United Kingdom,owner_04,Owner 04,Starter,Annual,USD,2024-12-30,2024-12-30,55,2026-11-13,Outbound,Contraction
+acct_0093,Account 0093,Active,Mid-Market,Software,APAC,Australia,owner_06,Owner 06,Starter,Monthly,USD,2023-04-24,2023-04-24,49,2026-11-20,Partner,Contraction
+acct_0094,Account 0094,Active,Mid-Market,Logistics,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2025-10-18,2025-10-18,67,2026-11-23,Inbound,Flat
+acct_0095,Account 0095,Active,SMB,Professional Services,Europe,United Kingdom,owner_07,Owner 07,Starter,Annual,USD,2026-04-29,2026-09-13,43,2026-10-05,Outbound,New
+acct_0096,Account 0096,Active,SMB,Education,APAC,Australia,owner_02,Owner 02,Enterprise,Monthly,USD,2025-01-30,2025-01-30,40,2026-10-14,Inbound,Expansion
+acct_0097,Account 0097,Active,SMB,Manufacturing,North America,Canada,owner_06,Owner 06,Growth,Monthly,USD,2023-03-13,2026-08-17,54,2026-11-17,Outbound,New
+acct_0098,Account 0098,Active,Enterprise,Healthcare,North America,United States,owner_05,Owner 05,Growth,Annual,USD,2023-02-08,2026-09-22,49,2026-11-10,Event,New
+acct_0099,Account 0099,Active,SMB,Software,APAC,Australia,owner_06,Owner 06,Growth,Monthly,USD,2026-01-05,2026-01-05,87,2026-10-04,Referral,Contraction
+acct_0100,Account 0100,Active,Mid-Market,Financial Services,North America,Canada,owner_02,Owner 02,Starter,Monthly,USD,2023-07-17,2023-07-17,97,2026-11-03,Referral,Flat
+acct_0101,Account 0101,Churned,SMB,Manufacturing,North America,Canada,owner_06,Owner 06,Growth,Annual,USD,2026-03-26,2026-03-26,33,2026-10-15,Referral,Churn
+acct_0102,Account 0102,Active,Enterprise,Professional Services,North America,Canada,owner_03,Owner 03,Growth,Annual,USD,2024-07-18,2024-07-18,39,2026-10-07,Event,Flat
+acct_0103,Account 0103,Active,Enterprise,Retail,North America,Canada,owner_02,Owner 02,Starter,Monthly,USD,2025-05-16,2025-05-16,45,2026-11-21,Outbound,Flat
+acct_0104,Account 0104,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_04,Owner 04,Scale,Annual,USD,2026-06-25,2026-06-25,97,2026-10-29,Outbound,Contraction
+acct_0105,Account 0105,Active,Mid-Market,Retail,North America,United States,owner_06,Owner 06,Starter,Monthly,USD,2024-11-05,2024-11-05,40,2026-10-02,Outbound,Flat
+acct_0106,Account 0106,Churned,SMB,Professional Services,Europe,Germany,owner_04,Owner 04,Starter,Annual,USD,2025-09-30,2025-09-30,21,2026-10-24,Inbound,Churn
+acct_0107,Account 0107,Active,SMB,Healthcare,North America,United States,owner_08,Owner 08,Starter,Annual,USD,2025-08-05,2025-08-05,59,2026-10-20,Event,Flat
+acct_0108,Account 0108,Active,SMB,Logistics,North America,Canada,owner_04,Owner 04,Enterprise,Monthly,USD,2024-06-15,2024-06-15,65,2026-10-03,Partner,Flat
+acct_0109,Account 0109,Active,Mid-Market,Logistics,North America,United States,owner_05,Owner 05,Scale,Monthly,USD,2025-07-26,2025-07-26,51,2026-11-03,Inbound,Flat
+acct_0110,Account 0110,Active,SMB,Manufacturing,APAC,Australia,owner_02,Owner 02,Scale,Monthly,USD,2026-06-27,2026-06-27,67,2026-11-23,Inbound,Flat
+acct_0111,Account 0111,Active,Mid-Market,Logistics,North America,United States,owner_02,Owner 02,Growth,Annual,USD,2022-11-16,2022-11-16,41,2026-10-05,Outbound,Flat
+acct_0112,Account 0112,Active,SMB,Logistics,North America,Canada,owner_02,Owner 02,Starter,Annual,USD,2026-04-06,2026-04-06,57,2026-11-11,Inbound,Flat
+acct_0113,Account 0113,Active,SMB,Software,Europe,Germany,owner_02,Owner 02,Growth,Annual,USD,2022-03-19,2022-03-19,51,2026-11-16,Event,Flat
+acct_0114,Account 0114,Active,Enterprise,Education,Europe,United Kingdom,owner_07,Owner 07,Starter,Monthly,USD,2024-06-02,2024-06-02,63,2026-10-29,Event,Flat
+acct_0115,Account 0115,Active,SMB,Retail,APAC,Australia,owner_03,Owner 03,Enterprise,Monthly,USD,2022-09-24,2022-09-24,53,2026-10-13,Outbound,Expansion
+acct_0116,Account 0116,Active,SMB,Retail,Europe,United Kingdom,owner_05,Owner 05,Growth,Monthly,USD,2025-12-06,2025-12-06,67,2026-10-16,Referral,Flat
+acct_0117,Account 0117,Churned,SMB,Software,APAC,Australia,owner_08,Owner 08,Growth,Annual,USD,2023-11-11,2023-11-11,41,2026-10-07,Referral,Churn
+acct_0118,Account 0118,Active,Enterprise,Retail,North America,Canada,owner_04,Owner 04,Enterprise,Monthly,USD,2022-01-10,2022-01-10,61,2026-10-27,Event,Expansion
+acct_0119,Account 0119,Active,Enterprise,Professional Services,North America,United States,owner_08,Owner 08,Scale,Monthly,USD,2025-09-28,2025-09-28,93,2026-10-11,Event,Expansion
+acct_0120,Account 0120,Active,SMB,Education,North America,United States,owner_07,Owner 07,Enterprise,Annual,USD,2024-10-13,2024-10-13,51,2026-10-30,Referral,Expansion
+acct_0121,Account 0121,Active,Mid-Market,Professional Services,North America,Canada,owner_01,Owner 01,Growth,Annual,USD,2023-05-06,2023-05-06,54,2026-10-08,Inbound,Expansion
+acct_0122,Account 0122,Active,SMB,Education,Europe,Germany,owner_07,Owner 07,Scale,Annual,USD,2024-02-20,2024-02-20,53,2026-10-24,Outbound,Flat
+acct_0123,Account 0123,Active,Mid-Market,Logistics,North America,Canada,owner_06,Owner 06,Enterprise,Monthly,USD,2024-06-22,2024-06-22,45,2026-10-29,Referral,Expansion
+acct_0124,Account 0124,Active,SMB,Retail,Europe,Germany,owner_07,Owner 07,Starter,Annual,USD,2024-05-09,2024-05-09,90,2026-10-08,Partner,Contraction
+acct_0125,Account 0125,Active,Enterprise,Financial Services,Europe,United Kingdom,owner_01,Owner 01,Scale,Monthly,USD,2025-08-30,2026-09-08,92,2026-11-19,Referral,New
+acct_0126,Account 0126,Active,SMB,Manufacturing,North America,United States,owner_07,Owner 07,Starter,Monthly,USD,2023-08-16,2023-08-16,86,2026-10-17,Referral,Contraction
+acct_0127,Account 0127,Active,Mid-Market,Education,North America,Canada,owner_01,Owner 01,Starter,Monthly,USD,2022-03-07,2022-03-07,89,2026-10-16,Partner,Flat
+acct_0128,Account 0128,Active,Enterprise,Manufacturing,Europe,United Kingdom,owner_06,Owner 06,Starter,Annual,USD,2025-05-30,2025-05-30,88,2026-10-30,Outbound,Flat
+acct_0129,Account 0129,Active,SMB,Retail,APAC,Australia,owner_05,Owner 05,Scale,Monthly,USD,2024-12-24,2024-12-24,67,2026-10-23,Partner,Flat
+acct_0130,Account 0130,Active,SMB,Financial Services,North America,United States,owner_02,Owner 02,Starter,Monthly,USD,2024-11-28,2024-11-28,80,2026-11-20,Outbound,Flat
+acct_0131,Account 0131,Active,Mid-Market,Education,North America,Canada,owner_03,Owner 03,Scale,Monthly,USD,2026-05-31,2026-05-31,37,2026-10-29,Event,Expansion
+acct_0132,Account 0132,Active,Mid-Market,Financial Services,North America,United States,owner_01,Owner 01,Growth,Annual,USD,2023-02-16,2026-08-24,61,2026-11-21,Referral,New
+acct_0133,Account 0133,Active,Enterprise,Education,APAC,Australia,owner_01,Owner 01,Growth,Annual,USD,2023-03-04,2023-03-04,37,2026-11-15,Event,Flat
+acct_0134,Account 0134,Active,SMB,Logistics,Europe,United Kingdom,owner_01,Owner 01,Scale,Monthly,USD,2023-06-27,2023-06-27,83,2026-11-20,Partner,Flat
+acct_0135,Account 0135,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_04,Owner 04,Scale,Annual,USD,2023-03-09,2023-03-09,97,2026-11-05,Outbound,Flat
+acct_0136,Account 0136,Active,Mid-Market,Healthcare,North America,Canada,owner_02,Owner 02,Starter,Monthly,USD,2022-11-29,2022-11-29,85,2026-11-13,Partner,Flat
+acct_0137,Account 0137,Active,Enterprise,Retail,North America,Canada,owner_03,Owner 03,Scale,Monthly,USD,2024-11-01,2024-11-01,73,2026-10-06,Partner,Contraction
+acct_0138,Account 0138,Active,Mid-Market,Professional Services,APAC,Australia,owner_07,Owner 07,Starter,Annual,USD,2023-12-09,2023-12-09,87,2026-10-25,Event,Flat
+acct_0139,Account 0139,Churned,SMB,Logistics,North America,Canada,owner_04,Owner 04,Enterprise,Monthly,USD,2022-02-07,2022-02-07,25,2026-10-11,Outbound,Churn
+acct_0140,Account 0140,Active,SMB,Software,Europe,United Kingdom,owner_02,Owner 02,Starter,Annual,USD,2023-02-12,2026-07-29,54,2026-10-14,Referral,New
+acct_0141,Account 0141,Active,Mid-Market,Software,North America,United States,owner_07,Owner 07,Growth,Monthly,USD,2025-10-01,2025-10-01,59,2026-10-30,Event,Flat
+acct_0142,Account 0142,Active,Enterprise,Professional Services,North America,United States,owner_08,Owner 08,Starter,Annual,USD,2024-07-01,2024-07-01,82,2026-10-14,Event,Contraction
+acct_0143,Account 0143,Active,Mid-Market,Financial Services,North America,United States,owner_03,Owner 03,Scale,Annual,USD,2025-07-09,2025-07-09,56,2026-10-14,Partner,Flat
+acct_0144,Account 0144,Active,SMB,Healthcare,North America,Canada,owner_08,Owner 08,Starter,Annual,USD,2025-09-29,2025-09-29,87,2026-10-03,Referral,Contraction
+acct_0145,Account 0145,Active,SMB,Financial Services,North America,United States,owner_01,Owner 01,Enterprise,Annual,USD,2022-03-20,2022-03-20,54,2026-11-15,Event,Expansion
+acct_0146,Account 0146,Active,Mid-Market,Financial Services,North America,Canada,owner_01,Owner 01,Growth,Monthly,USD,2022-12-22,2022-12-22,85,2026-11-15,Partner,Flat
+acct_0147,Account 0147,Active,SMB,Professional Services,North America,United States,owner_08,Owner 08,Starter,Monthly,USD,2022-07-08,2022-07-08,57,2026-11-09,Outbound,Contraction
+acct_0148,Account 0148,Active,SMB,Education,North America,United States,owner_06,Owner 06,Growth,Monthly,USD,2025-06-30,2025-06-30,39,2026-11-13,Partner,Flat
+acct_0149,Account 0149,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_01,Owner 01,Growth,Monthly,USD,2025-01-05,2025-01-05,55,2026-10-02,Outbound,Flat
+acct_0150,Account 0150,Active,SMB,Healthcare,Europe,United Kingdom,owner_03,Owner 03,Scale,Monthly,USD,2023-07-18,2023-07-18,37,2026-11-09,Inbound,Expansion
+acct_0151,Account 0151,Churned,Mid-Market,Professional Services,Europe,United Kingdom,owner_08,Owner 08,Growth,Monthly,USD,2024-11-07,2024-11-07,41,2026-10-31,Outbound,Churn
+acct_0152,Account 0152,Active,Enterprise,Financial Services,APAC,Australia,owner_04,Owner 04,Enterprise,Annual,USD,2023-05-24,2023-05-24,80,2026-10-11,Partner,Flat
+acct_0153,Account 0153,Active,Enterprise,Logistics,APAC,Australia,owner_03,Owner 03,Enterprise,Annual,USD,2025-03-05,2025-03-05,80,2026-10-20,Inbound,Flat
+acct_0154,Account 0154,Active,Enterprise,Education,APAC,Australia,owner_08,Owner 08,Growth,Monthly,USD,2022-12-25,2022-12-25,41,2026-10-13,Referral,Flat
+acct_0155,Account 0155,Active,SMB,Education,North America,Canada,owner_05,Owner 05,Growth,Annual,USD,2024-03-09,2024-03-09,53,2026-11-03,Inbound,Flat
+acct_0156,Account 0156,Active,Enterprise,Healthcare,Europe,Germany,owner_03,Owner 03,Scale,Annual,USD,2024-01-28,2024-01-28,52,2026-10-23,Outbound,Expansion
+acct_0157,Account 0157,Active,Enterprise,Professional Services,APAC,Australia,owner_06,Owner 06,Enterprise,Annual,USD,2025-09-28,2025-09-28,80,2026-11-02,Partner,Expansion
+acct_0158,Account 0158,Active,Enterprise,Logistics,Europe,Germany,owner_06,Owner 06,Enterprise,Monthly,USD,2022-12-25,2022-12-25,77,2026-10-04,Referral,Expansion
+acct_0159,Account 0159,Active,Mid-Market,Professional Services,APAC,Australia,owner_07,Owner 07,Scale,Annual,USD,2025-06-08,2025-06-08,49,2026-10-24,Partner,Flat
+acct_0160,Account 0160,Active,Mid-Market,Manufacturing,North America,United States,owner_01,Owner 01,Scale,Annual,USD,2026-04-12,2026-04-12,60,2026-10-19,Referral,Flat
+acct_0161,Account 0161,Active,SMB,Professional Services,North America,United States,owner_01,Owner 01,Enterprise,Annual,USD,2026-06-25,2026-06-25,68,2026-11-02,Partner,Flat
+acct_0162,Account 0162,Active,SMB,Professional Services,North America,Canada,owner_06,Owner 06,Scale,Monthly,USD,2026-02-27,2026-02-27,77,2026-11-08,Partner,Expansion
+acct_0163,Account 0163,Active,Mid-Market,Retail,Europe,United Kingdom,owner_04,Owner 04,Scale,Annual,USD,2023-07-22,2023-07-22,44,2026-10-04,Event,Expansion
+acct_0164,Account 0164,Active,SMB,Logistics,Europe,United Kingdom,owner_04,Owner 04,Scale,Monthly,USD,2025-06-29,2025-06-29,72,2026-10-18,Event,Expansion
+acct_0165,Account 0165,Active,Enterprise,Professional Services,Europe,Germany,owner_03,Owner 03,Growth,Monthly,USD,2025-11-22,2025-11-22,38,2026-10-04,Inbound,Flat
+acct_0166,Account 0166,Active,Mid-Market,Professional Services,APAC,Australia,owner_05,Owner 05,Starter,Monthly,USD,2022-10-22,2022-10-22,76,2026-10-09,Outbound,Flat
+acct_0167,Account 0167,Active,Mid-Market,Retail,APAC,Australia,owner_06,Owner 06,Starter,Monthly,USD,2023-11-16,2023-11-16,63,2026-10-18,Event,Flat
+acct_0168,Account 0168,Active,Mid-Market,Education,North America,United States,owner_05,Owner 05,Scale,Annual,USD,2023-03-04,2023-03-04,89,2026-10-04,Referral,Expansion
+acct_0169,Account 0169,Active,Mid-Market,Financial Services,APAC,Australia,owner_03,Owner 03,Growth,Annual,USD,2024-09-03,2024-09-03,68,2026-10-19,Referral,Flat
+acct_0170,Account 0170,Active,Mid-Market,Education,North America,United States,owner_05,Owner 05,Starter,Annual,USD,2024-06-05,2026-08-06,42,2026-11-22,Event,New
+acct_0171,Account 0171,Active,Mid-Market,Professional Services,North America,United States,owner_08,Owner 08,Growth,Monthly,USD,2022-08-17,2022-08-17,67,2026-10-02,Referral,Flat
+acct_0172,Account 0172,Active,Enterprise,Retail,APAC,Australia,owner_03,Owner 03,Enterprise,Annual,USD,2022-10-13,2022-10-13,45,2026-10-26,Referral,Flat
+acct_0173,Account 0173,Churned,SMB,Healthcare,Europe,United Kingdom,owner_01,Owner 01,Starter,Annual,USD,2024-12-04,2024-12-04,20,2026-11-09,Inbound,Churn
+acct_0174,Account 0174,Active,SMB,Logistics,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2024-07-14,2024-07-14,60,2026-10-21,Inbound,Flat
+acct_0175,Account 0175,Active,SMB,Logistics,Europe,Germany,owner_03,Owner 03,Starter,Monthly,USD,2024-06-25,2024-06-25,74,2026-10-20,Inbound,Flat
+acct_0176,Account 0176,Active,SMB,Education,Europe,Germany,owner_03,Owner 03,Starter,Annual,USD,2024-12-23,2024-12-23,47,2026-10-16,Outbound,Flat
+acct_0177,Account 0177,Active,SMB,Manufacturing,Europe,Germany,owner_04,Owner 04,Growth,Monthly,USD,2024-01-22,2024-01-22,48,2026-10-12,Referral,Flat
+acct_0178,Account 0178,Active,SMB,Professional Services,APAC,Australia,owner_05,Owner 05,Scale,Annual,USD,2025-05-08,2025-05-08,57,2026-10-02,Event,Flat
+acct_0179,Account 0179,Active,Enterprise,Professional Services,North America,United States,owner_02,Owner 02,Starter,Monthly,USD,2024-06-03,2024-06-03,81,2026-11-15,Outbound,Flat
+acct_0180,Account 0180,Active,Mid-Market,Logistics,Europe,Germany,owner_07,Owner 07,Scale,Annual,USD,2024-07-14,2024-07-14,62,2026-11-22,Outbound,Flat
+acct_0181,Account 0181,Active,Enterprise,Healthcare,APAC,Australia,owner_02,Owner 02,Scale,Monthly,USD,2022-06-22,2022-06-22,63,2026-10-04,Outbound,Flat
+acct_0182,Account 0182,Active,SMB,Professional Services,Europe,United Kingdom,owner_02,Owner 02,Starter,Annual,USD,2022-12-08,2022-12-08,66,2026-10-14,Referral,Flat
+acct_0183,Account 0183,Active,Enterprise,Education,Europe,United Kingdom,owner_03,Owner 03,Scale,Monthly,USD,2024-01-06,2024-01-06,78,2026-11-18,Inbound,Flat
+acct_0184,Account 0184,Active,Enterprise,Retail,Europe,United Kingdom,owner_05,Owner 05,Scale,Monthly,USD,2023-03-11,2023-03-11,79,2026-11-05,Inbound,Flat
+acct_0185,Account 0185,Active,Mid-Market,Logistics,APAC,Australia,owner_06,Owner 06,Scale,Annual,USD,2024-08-25,2024-08-25,48,2026-11-20,Partner,Flat
+acct_0186,Account 0186,Active,SMB,Education,North America,United States,owner_08,Owner 08,Enterprise,Monthly,USD,2023-09-24,2023-09-24,93,2026-11-18,Referral,Flat
+acct_0187,Account 0187,Active,Enterprise,Professional Services,APAC,Australia,owner_07,Owner 07,Starter,Annual,USD,2022-10-25,2026-09-05,93,2026-10-24,Partner,New
+acct_0188,Account 0188,Active,Mid-Market,Manufacturing,North America,Canada,owner_04,Owner 04,Growth,Monthly,USD,2024-04-02,2024-04-02,76,2026-11-08,Outbound,Flat
+acct_0189,Account 0189,Active,Enterprise,Logistics,North America,Canada,owner_07,Owner 07,Scale,Annual,USD,2025-10-11,2025-10-11,78,2026-10-06,Partner,Flat
+acct_0190,Account 0190,Active,Mid-Market,Retail,Europe,Germany,owner_05,Owner 05,Starter,Annual,USD,2023-01-28,2023-01-28,83,2026-10-05,Outbound,Contraction
+acct_0191,Account 0191,Active,SMB,Education,North America,United States,owner_07,Owner 07,Enterprise,Monthly,USD,2026-06-15,2026-06-15,93,2026-11-20,Event,Flat
+acct_0192,Account 0192,Active,SMB,Education,APAC,Australia,owner_03,Owner 03,Enterprise,Monthly,USD,2023-12-22,2023-12-22,36,2026-10-31,Inbound,Expansion
+acct_0193,Account 0193,Active,Enterprise,Logistics,APAC,Australia,owner_01,Owner 01,Starter,Monthly,USD,2026-03-16,2026-03-16,92,2026-10-17,Inbound,Flat
+acct_0194,Account 0194,Active,SMB,Software,Europe,United Kingdom,owner_04,Owner 04,Starter,Monthly,USD,2025-03-21,2025-03-21,60,2026-11-06,Inbound,Flat
+acct_0195,Account 0195,Active,Mid-Market,Logistics,APAC,Australia,owner_07,Owner 07,Growth,Annual,USD,2023-07-30,2023-07-30,96,2026-10-05,Referral,Contraction
+acct_0196,Account 0196,Active,SMB,Healthcare,Europe,Germany,owner_03,Owner 03,Starter,Annual,USD,2026-04-21,2026-04-21,38,2026-10-03,Outbound,Contraction
+acct_0197,Account 0197,Churned,Enterprise,Professional Services,North America,United States,owner_05,Owner 05,Enterprise,Monthly,USD,2022-11-23,2022-11-23,30,2026-11-15,Outbound,Churn
+acct_0198,Account 0198,Active,Enterprise,Education,APAC,Australia,owner_03,Owner 03,Starter,Monthly,USD,2022-01-11,2022-01-11,51,2026-10-04,Inbound,Flat
+acct_0199,Account 0199,Active,Enterprise,Healthcare,North America,Canada,owner_03,Owner 03,Growth,Annual,USD,2026-01-22,2026-01-22,81,2026-10-26,Event,Expansion
+acct_0200,Account 0200,Active,Mid-Market,Education,APAC,Australia,owner_04,Owner 04,Growth,Annual,USD,2023-04-24,2023-04-24,71,2026-10-04,Outbound,Flat
+acct_0201,Account 0201,Churned,Mid-Market,Manufacturing,North America,Canada,owner_04,Owner 04,Starter,Monthly,USD,2023-06-03,2023-06-03,37,2026-11-23,Event,Churn
+acct_0202,Account 0202,Active,SMB,Logistics,Europe,United Kingdom,owner_05,Owner 05,Growth,Annual,USD,2023-01-01,2023-01-01,64,2026-11-07,Inbound,Flat
+acct_0203,Account 0203,Active,Mid-Market,Software,Europe,United Kingdom,owner_08,Owner 08,Starter,Monthly,USD,2026-06-16,2026-06-16,73,2026-10-13,Referral,Flat
+acct_0204,Account 0204,Active,SMB,Financial Services,North America,United States,owner_06,Owner 06,Growth,Monthly,USD,2025-06-11,2025-06-11,92,2026-11-14,Referral,Flat
+acct_0205,Account 0205,Active,SMB,Software,North America,United States,owner_02,Owner 02,Scale,Annual,USD,2023-03-13,2023-03-13,94,2026-11-12,Partner,Expansion
+acct_0206,Account 0206,Active,Mid-Market,Financial Services,Europe,Germany,owner_03,Owner 03,Enterprise,Monthly,USD,2024-01-24,2024-01-24,63,2026-11-04,Event,Flat
+acct_0207,Account 0207,Churned,Mid-Market,Healthcare,APAC,Australia,owner_01,Owner 01,Starter,Annual,USD,2022-08-17,2022-08-17,26,2026-10-06,Partner,Churn
+acct_0208,Account 0208,Active,SMB,Professional Services,APAC,Australia,owner_01,Owner 01,Scale,Monthly,USD,2022-10-02,2022-10-02,94,2026-11-03,Event,Expansion
+acct_0209,Account 0209,Active,Enterprise,Manufacturing,North America,United States,owner_08,Owner 08,Starter,Monthly,USD,2022-11-02,2022-11-02,86,2026-11-14,Partner,Flat
+acct_0210,Account 0210,Active,SMB,Professional Services,North America,Canada,owner_04,Owner 04,Scale,Monthly,USD,2023-12-19,2023-12-19,94,2026-11-08,Referral,Flat
+acct_0211,Account 0211,Active,Mid-Market,Financial Services,North America,United States,owner_02,Owner 02,Scale,Monthly,USD,2023-10-03,2023-10-03,96,2026-10-30,Event,Flat
+acct_0212,Account 0212,Active,SMB,Financial Services,Europe,United Kingdom,owner_08,Owner 08,Enterprise,Monthly,USD,2023-02-15,2023-02-15,57,2026-10-25,Inbound,Flat
+acct_0213,Account 0213,Active,Enterprise,Retail,APAC,Australia,owner_06,Owner 06,Starter,Annual,USD,2026-06-13,2026-06-13,81,2026-11-18,Event,Flat
+acct_0214,Account 0214,Active,Mid-Market,Manufacturing,Europe,Germany,owner_04,Owner 04,Starter,Annual,USD,2022-07-08,2022-07-08,65,2026-10-17,Referral,Contraction
+acct_0215,Account 0215,Active,Mid-Market,Financial Services,Europe,United Kingdom,owner_06,Owner 06,Enterprise,Monthly,USD,2022-12-17,2022-12-17,61,2026-10-19,Outbound,Expansion
+acct_0216,Account 0216,Active,Enterprise,Financial Services,North America,United States,owner_01,Owner 01,Enterprise,Annual,USD,2025-11-13,2025-11-13,55,2026-11-18,Event,Flat
+acct_0217,Account 0217,Active,Mid-Market,Financial Services,North America,United States,owner_07,Owner 07,Scale,Annual,USD,2024-09-18,2026-08-16,87,2026-10-15,Event,New
+acct_0218,Account 0218,Active,SMB,Healthcare,Europe,Germany,owner_07,Owner 07,Scale,Monthly,USD,2024-01-28,2024-01-28,96,2026-10-16,Referral,Flat
+acct_0219,Account 0219,Active,Mid-Market,Retail,Europe,United Kingdom,owner_08,Owner 08,Growth,Monthly,USD,2025-04-22,2025-04-22,81,2026-11-17,Referral,Expansion
+acct_0220,Account 0220,Active,SMB,Financial Services,Europe,Germany,owner_05,Owner 05,Growth,Monthly,USD,2025-12-15,2025-12-15,59,2026-11-04,Partner,Flat
+acct_0221,Account 0221,Active,SMB,Software,North America,Canada,owner_06,Owner 06,Scale,Monthly,USD,2022-06-22,2022-06-22,95,2026-10-02,Inbound,Flat
+acct_0222,Account 0222,Active,Enterprise,Education,North America,Canada,owner_07,Owner 07,Growth,Annual,USD,2024-06-05,2024-06-05,92,2026-10-21,Inbound,Flat
+acct_0223,Account 0223,Active,Mid-Market,Software,North America,Canada,owner_06,Owner 06,Enterprise,Monthly,USD,2023-10-21,2023-10-21,38,2026-10-01,Outbound,Flat
+acct_0224,Account 0224,Active,SMB,Healthcare,North America,Canada,owner_03,Owner 03,Growth,Annual,USD,2023-04-12,2023-04-12,41,2026-10-18,Inbound,Expansion
+acct_0225,Account 0225,Active,Enterprise,Retail,North America,Canada,owner_04,Owner 04,Growth,Annual,USD,2023-06-10,2023-06-10,82,2026-11-12,Referral,Flat
+acct_0226,Account 0226,Active,Enterprise,Manufacturing,APAC,Australia,owner_04,Owner 04,Starter,Monthly,USD,2022-02-26,2022-02-26,87,2026-11-09,Inbound,Flat
+acct_0227,Account 0227,Active,Mid-Market,Education,APAC,Australia,owner_07,Owner 07,Growth,Monthly,USD,2025-11-07,2025-11-07,83,2026-10-08,Referral,Contraction
+acct_0228,Account 0228,Active,SMB,Financial Services,APAC,Australia,owner_06,Owner 06,Growth,Monthly,USD,2022-09-10,2022-09-10,66,2026-10-18,Partner,Flat
+acct_0229,Account 0229,Active,Enterprise,Education,North America,United States,owner_06,Owner 06,Growth,Monthly,USD,2024-08-03,2026-07-22,53,2026-11-04,Outbound,New
+acct_0230,Account 0230,Active,Mid-Market,Logistics,North America,Canada,owner_02,Owner 02,Starter,Annual,USD,2024-12-23,2024-12-23,81,2026-10-02,Event,Contraction
+acct_0231,Account 0231,Active,Enterprise,Healthcare,APAC,Australia,owner_01,Owner 01,Growth,Annual,USD,2024-06-11,2024-06-11,47,2026-10-18,Event,Expansion
+acct_0232,Account 0232,Active,SMB,Healthcare,Europe,Germany,owner_04,Owner 04,Growth,Monthly,USD,2025-12-10,2025-12-10,59,2026-10-04,Outbound,Flat
+acct_0233,Account 0233,Active,Enterprise,Financial Services,Europe,United Kingdom,owner_08,Owner 08,Scale,Monthly,USD,2025-05-05,2025-05-05,93,2026-10-09,Event,Flat
+acct_0234,Account 0234,Active,SMB,Education,North America,Canada,owner_02,Owner 02,Scale,Monthly,USD,2024-04-06,2024-04-06,67,2026-10-31,Outbound,Flat
+acct_0235,Account 0235,Active,Mid-Market,Software,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2023-10-05,2023-10-05,36,2026-11-02,Partner,Flat
+acct_0236,Account 0236,Active,Mid-Market,Manufacturing,Europe,Germany,owner_02,Owner 02,Starter,Monthly,USD,2025-11-16,2026-09-21,47,2026-10-17,Outbound,New
+acct_0237,Account 0237,Active,Mid-Market,Professional Services,North America,Canada,owner_05,Owner 05,Enterprise,Monthly,USD,2022-07-03,2022-07-03,87,2026-11-14,Event,Flat
+acct_0238,Account 0238,Active,Mid-Market,Education,APAC,Australia,owner_02,Owner 02,Growth,Annual,USD,2024-08-31,2024-08-31,52,2026-10-25,Partner,Flat
+acct_0239,Account 0239,Active,SMB,Retail,North America,United States,owner_05,Owner 05,Scale,Monthly,USD,2024-07-08,2024-07-08,70,2026-10-05,Event,Expansion
+acct_0240,Account 0240,Active,SMB,Education,North America,United States,owner_06,Owner 06,Starter,Annual,USD,2025-03-25,2025-03-25,61,2026-10-21,Event,Contraction
+acct_0241,Account 0241,Active,SMB,Software,Europe,United Kingdom,owner_04,Owner 04,Growth,Annual,USD,2025-12-16,2025-12-16,63,2026-11-07,Referral,Expansion
+acct_0242,Account 0242,Active,SMB,Retail,APAC,Australia,owner_08,Owner 08,Enterprise,Monthly,USD,2023-09-30,2023-09-30,89,2026-10-20,Partner,Flat
+acct_0243,Account 0243,Active,Enterprise,Education,North America,Canada,owner_04,Owner 04,Scale,Annual,USD,2026-04-11,2026-04-11,79,2026-11-07,Partner,Flat
+acct_0244,Account 0244,Active,SMB,Financial Services,North America,Canada,owner_05,Owner 05,Scale,Annual,USD,2022-09-20,2022-09-20,94,2026-10-08,Partner,Flat
+acct_0245,Account 0245,Active,SMB,Software,North America,Canada,owner_04,Owner 04,Growth,Monthly,USD,2024-06-13,2024-06-13,52,2026-11-09,Event,Flat
+acct_0246,Account 0246,Active,Mid-Market,Manufacturing,Europe,Germany,owner_05,Owner 05,Growth,Annual,USD,2023-01-22,2023-01-22,44,2026-10-31,Partner,Flat
+acct_0247,Account 0247,Churned,SMB,Healthcare,APAC,Australia,owner_05,Owner 05,Enterprise,Monthly,USD,2025-11-10,2025-11-10,20,2026-11-07,Referral,Churn
+acct_0248,Account 0248,Active,SMB,Education,North America,United States,owner_07,Owner 07,Starter,Monthly,USD,2024-09-02,2024-09-02,41,2026-11-16,Inbound,Flat
+acct_0249,Account 0249,Active,SMB,Retail,North America,Canada,owner_08,Owner 08,Growth,Monthly,USD,2022-08-29,2022-08-29,68,2026-10-01,Referral,Flat
+acct_0250,Account 0250,Churned,SMB,Software,Europe,United Kingdom,owner_08,Owner 08,Starter,Monthly,USD,2025-04-25,2025-04-25,27,2026-11-08,Referral,Churn
+acct_0251,Account 0251,Active,SMB,Retail,North America,Canada,owner_04,Owner 04,Growth,Annual,USD,2022-04-26,2022-04-26,76,2026-11-20,Inbound,Flat
+acct_0252,Account 0252,Active,Mid-Market,Software,Europe,Germany,owner_01,Owner 01,Starter,Annual,USD,2023-10-14,2023-10-14,98,2026-10-24,Partner,Flat
+acct_0253,Account 0253,Active,SMB,Education,Europe,Germany,owner_06,Owner 06,Scale,Annual,USD,2023-08-21,2023-08-21,38,2026-10-30,Referral,Expansion
+acct_0254,Account 0254,Active,SMB,Education,North America,Canada,owner_07,Owner 07,Growth,Annual,USD,2023-11-23,2026-07-22,88,2026-11-15,Event,New
+acct_0255,Account 0255,Active,SMB,Professional Services,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2025-03-06,2025-03-06,56,2026-10-27,Outbound,Expansion
+acct_0256,Account 0256,Active,SMB,Manufacturing,North America,United States,owner_02,Owner 02,Growth,Annual,USD,2025-12-13,2025-12-13,61,2026-11-02,Inbound,Flat
+acct_0257,Account 0257,Churned,SMB,Retail,Europe,United Kingdom,owner_05,Owner 05,Scale,Annual,USD,2023-06-11,2023-06-11,44,2026-11-07,Partner,Churn
+acct_0258,Account 0258,Active,SMB,Professional Services,North America,United States,owner_07,Owner 07,Starter,Annual,USD,2023-03-11,2023-03-11,78,2026-10-28,Partner,Flat
+acct_0259,Account 0259,Active,Mid-Market,Financial Services,North America,United States,owner_08,Owner 08,Scale,Annual,USD,2022-06-26,2022-06-26,77,2026-10-28,Event,Flat
+acct_0260,Account 0260,Active,Mid-Market,Retail,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2022-01-31,2022-01-31,35,2026-10-13,Referral,Flat
+acct_0261,Account 0261,Active,Mid-Market,Software,Europe,Germany,owner_01,Owner 01,Growth,Monthly,USD,2023-08-29,2026-08-21,76,2026-11-09,Event,New
+acct_0262,Account 0262,Active,SMB,Manufacturing,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2023-08-30,2023-08-30,89,2026-10-30,Inbound,Flat
+acct_0263,Account 0263,Active,Enterprise,Manufacturing,North America,United States,owner_02,Owner 02,Starter,Monthly,USD,2026-06-08,2026-06-08,80,2026-10-31,Event,Flat
+acct_0264,Account 0264,Active,Mid-Market,Manufacturing,North America,United States,owner_08,Owner 08,Starter,Monthly,USD,2024-04-12,2026-09-06,94,2026-10-26,Partner,New
+acct_0265,Account 0265,Active,SMB,Logistics,North America,Canada,owner_06,Owner 06,Growth,Monthly,USD,2025-12-28,2025-12-28,46,2026-10-01,Outbound,Flat
+acct_0266,Account 0266,Active,Mid-Market,Education,North America,Canada,owner_05,Owner 05,Growth,Monthly,USD,2022-04-12,2022-04-12,74,2026-11-02,Inbound,Flat
+acct_0267,Account 0267,Active,Enterprise,Manufacturing,Europe,United Kingdom,owner_01,Owner 01,Growth,Monthly,USD,2023-01-01,2023-01-01,67,2026-10-04,Outbound,Flat
+acct_0268,Account 0268,Active,SMB,Financial Services,Europe,Germany,owner_04,Owner 04,Enterprise,Monthly,USD,2022-12-14,2022-12-14,80,2026-10-10,Outbound,Expansion
+acct_0269,Account 0269,Active,Enterprise,Manufacturing,APAC,Australia,owner_07,Owner 07,Growth,Annual,USD,2022-05-22,2022-05-22,73,2026-10-16,Referral,Flat
+acct_0270,Account 0270,Active,Mid-Market,Logistics,Europe,Germany,owner_05,Owner 05,Growth,Monthly,USD,2025-05-25,2025-05-25,44,2026-11-10,Referral,Flat
+acct_0271,Account 0271,Active,SMB,Healthcare,Europe,Germany,owner_06,Owner 06,Scale,Monthly,USD,2023-11-10,2023-11-10,47,2026-10-15,Outbound,Expansion
+acct_0272,Account 0272,Active,SMB,Software,APAC,Australia,owner_08,Owner 08,Starter,Annual,USD,2022-10-25,2022-10-25,87,2026-10-12,Partner,Contraction
+acct_0273,Account 0273,Active,Enterprise,Financial Services,Europe,United Kingdom,owner_03,Owner 03,Starter,Annual,USD,2026-04-29,2026-04-29,79,2026-11-15,Inbound,Contraction
+acct_0274,Account 0274,Active,SMB,Software,North America,United States,owner_06,Owner 06,Starter,Annual,USD,2023-02-07,2023-02-07,73,2026-11-15,Partner,Flat
+acct_0275,Account 0275,Active,Mid-Market,Manufacturing,North America,Canada,owner_03,Owner 03,Scale,Annual,USD,2026-02-24,2026-02-24,52,2026-10-24,Inbound,Flat
+acct_0276,Account 0276,Active,SMB,Healthcare,North America,Canada,owner_03,Owner 03,Growth,Annual,USD,2022-06-12,2022-06-12,55,2026-10-28,Inbound,Flat
+acct_0277,Account 0277,Active,Mid-Market,Software,Europe,United Kingdom,owner_08,Owner 08,Growth,Monthly,USD,2022-01-27,2022-01-27,43,2026-10-22,Outbound,Flat
+acct_0278,Account 0278,Active,SMB,Financial Services,Europe,United Kingdom,owner_03,Owner 03,Enterprise,Annual,USD,2025-12-06,2025-12-06,93,2026-10-23,Outbound,Expansion
+acct_0279,Account 0279,Active,SMB,Healthcare,North America,Canada,owner_08,Owner 08,Scale,Annual,USD,2023-11-19,2023-11-19,62,2026-11-06,Referral,Flat
+acct_0280,Account 0280,Active,Enterprise,Financial Services,North America,Canada,owner_02,Owner 02,Scale,Monthly,USD,2024-09-02,2024-09-02,95,2026-11-15,Event,Flat
+acct_0281,Account 0281,Active,Mid-Market,Manufacturing,Europe,Germany,owner_03,Owner 03,Growth,Monthly,USD,2022-08-14,2022-08-14,65,2026-11-13,Inbound,Flat
+acct_0282,Account 0282,Churned,Mid-Market,Financial Services,Europe,United Kingdom,owner_03,Owner 03,Growth,Annual,USD,2023-01-09,2023-01-09,16,2026-10-18,Partner,Churn
+acct_0283,Account 0283,Active,SMB,Professional Services,North America,United States,owner_01,Owner 01,Growth,Annual,USD,2024-09-29,2024-09-29,61,2026-10-09,Partner,Flat
+acct_0284,Account 0284,Active,SMB,Retail,North America,Canada,owner_01,Owner 01,Starter,Monthly,USD,2024-06-16,2024-06-16,72,2026-11-07,Inbound,Flat
+acct_0285,Account 0285,Active,Enterprise,Logistics,North America,Canada,owner_01,Owner 01,Scale,Annual,USD,2023-02-23,2023-02-23,73,2026-11-15,Referral,Flat
+acct_0286,Account 0286,Active,SMB,Retail,Europe,Germany,owner_03,Owner 03,Scale,Annual,USD,2024-11-24,2024-11-24,65,2026-10-09,Outbound,Expansion
+acct_0287,Account 0287,Active,SMB,Logistics,North America,Canada,owner_03,Owner 03,Starter,Monthly,USD,2022-10-10,2022-10-10,47,2026-11-13,Partner,Flat
+acct_0288,Account 0288,Active,SMB,Professional Services,Europe,United Kingdom,owner_01,Owner 01,Starter,Annual,USD,2025-08-30,2026-09-10,93,2026-11-17,Outbound,New
+acct_0289,Account 0289,Active,Mid-Market,Retail,Europe,United Kingdom,owner_06,Owner 06,Scale,Annual,USD,2024-10-17,2024-10-17,45,2026-11-22,Outbound,Contraction
+acct_0290,Account 0290,Active,SMB,Logistics,Europe,United Kingdom,owner_05,Owner 05,Scale,Annual,USD,2025-07-19,2025-07-19,75,2026-10-12,Event,Flat
+acct_0291,Account 0291,Active,Enterprise,Manufacturing,North America,United States,owner_03,Owner 03,Growth,Monthly,USD,2022-01-18,2022-01-18,83,2026-10-01,Partner,Flat
+acct_0292,Account 0292,Active,Mid-Market,Healthcare,Europe,Germany,owner_03,Owner 03,Starter,Annual,USD,2025-04-07,2025-04-07,88,2026-10-25,Outbound,Contraction
+acct_0293,Account 0293,Active,SMB,Financial Services,Europe,Germany,owner_06,Owner 06,Scale,Monthly,USD,2025-07-23,2025-07-23,96,2026-10-01,Referral,Flat
+acct_0294,Account 0294,Active,Mid-Market,Software,APAC,Australia,owner_01,Owner 01,Growth,Monthly,USD,2022-08-06,2022-08-06,45,2026-10-09,Inbound,Flat
+acct_0295,Account 0295,Active,Enterprise,Retail,APAC,Australia,owner_06,Owner 06,Scale,Monthly,USD,2024-02-09,2024-02-09,39,2026-10-05,Partner,Flat
+acct_0296,Account 0296,Active,SMB,Logistics,Europe,United Kingdom,owner_06,Owner 06,Starter,Monthly,USD,2023-07-16,2023-07-16,77,2026-10-02,Inbound,Flat
+acct_0297,Account 0297,Active,Mid-Market,Software,North America,United States,owner_05,Owner 05,Enterprise,Annual,USD,2025-02-06,2025-02-06,97,2026-10-20,Outbound,Expansion
+acct_0298,Account 0298,Active,SMB,Professional Services,Europe,United Kingdom,owner_01,Owner 01,Starter,Monthly,USD,2023-08-15,2023-08-15,61,2026-10-02,Outbound,Flat
+acct_0299,Account 0299,Active,Enterprise,Education,Europe,Germany,owner_01,Owner 01,Growth,Monthly,USD,2024-03-30,2024-03-30,92,2026-10-07,Event,Flat
+acct_0300,Account 0300,Active,SMB,Financial Services,North America,United States,owner_05,Owner 05,Scale,Annual,USD,2024-12-12,2026-08-08,38,2026-10-30,Event,New
+acct_0301,Account 0301,Active,SMB,Education,North America,United States,owner_08,Owner 08,Scale,Annual,USD,2023-12-25,2023-12-25,91,2026-11-08,Outbound,Expansion
+acct_0302,Account 0302,Active,Enterprise,Healthcare,North America,Canada,owner_03,Owner 03,Growth,Monthly,USD,2022-06-14,2026-09-10,59,2026-10-01,Event,New
+acct_0303,Account 0303,Active,SMB,Software,APAC,Australia,owner_07,Owner 07,Starter,Annual,USD,2024-01-02,2024-01-02,95,2026-11-19,Inbound,Flat
+acct_0304,Account 0304,Active,Mid-Market,Professional Services,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2022-12-24,2022-12-24,96,2026-10-20,Outbound,Flat
+acct_0305,Account 0305,Active,Mid-Market,Software,North America,Canada,owner_02,Owner 02,Growth,Monthly,USD,2024-06-07,2026-07-30,38,2026-11-20,Inbound,New
+acct_0306,Account 0306,Active,SMB,Logistics,North America,Canada,owner_04,Owner 04,Starter,Annual,USD,2026-03-09,2026-03-09,80,2026-11-20,Event,Flat
+acct_0307,Account 0307,Active,SMB,Education,Europe,United Kingdom,owner_03,Owner 03,Growth,Annual,USD,2023-01-17,2023-01-17,75,2026-10-10,Partner,Expansion
+acct_0308,Account 0308,Active,Mid-Market,Financial Services,North America,Canada,owner_04,Owner 04,Scale,Annual,USD,2022-12-19,2022-12-19,39,2026-10-08,Referral,Flat
+acct_0309,Account 0309,Active,SMB,Retail,North America,Canada,owner_02,Owner 02,Growth,Annual,USD,2023-01-17,2023-01-17,68,2026-11-13,Event,Flat
+acct_0310,Account 0310,Active,SMB,Professional Services,North America,United States,owner_01,Owner 01,Scale,Monthly,USD,2025-10-27,2025-10-27,43,2026-11-10,Outbound,Flat
+acct_0311,Account 0311,Active,Mid-Market,Software,APAC,Australia,owner_05,Owner 05,Growth,Annual,USD,2025-11-26,2025-11-26,60,2026-11-08,Outbound,Contraction
+acct_0312,Account 0312,Active,SMB,Retail,Europe,United Kingdom,owner_06,Owner 06,Growth,Annual,USD,2022-03-24,2022-03-24,63,2026-10-21,Outbound,Flat
+acct_0313,Account 0313,Active,SMB,Professional Services,North America,United States,owner_08,Owner 08,Growth,Annual,USD,2025-09-14,2025-09-14,52,2026-10-29,Referral,Flat
+acct_0314,Account 0314,Active,SMB,Professional Services,Europe,Germany,owner_08,Owner 08,Starter,Monthly,USD,2024-11-30,2024-11-30,72,2026-10-03,Inbound,Flat
+acct_0315,Account 0315,Active,Mid-Market,Manufacturing,APAC,Australia,owner_04,Owner 04,Starter,Annual,USD,2023-10-24,2023-10-24,54,2026-11-03,Inbound,Flat
+acct_0316,Account 0316,Active,Enterprise,Logistics,North America,Canada,owner_02,Owner 02,Scale,Annual,USD,2025-06-30,2025-06-30,44,2026-10-23,Outbound,Flat
+acct_0317,Account 0317,Active,Mid-Market,Manufacturing,Europe,United Kingdom,owner_03,Owner 03,Scale,Annual,USD,2024-11-09,2024-11-09,94,2026-10-08,Inbound,Flat
+acct_0318,Account 0318,Active,Mid-Market,Healthcare,North America,United States,owner_01,Owner 01,Growth,Annual,USD,2026-04-27,2026-04-27,97,2026-10-30,Inbound,Flat
+acct_0319,Account 0319,Active,SMB,Healthcare,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2023-04-26,2023-04-26,43,2026-11-04,Event,Flat
+acct_0320,Account 0320,Active,SMB,Manufacturing,North America,Canada,owner_03,Owner 03,Enterprise,Monthly,USD,2026-01-28,2026-01-28,91,2026-11-11,Outbound,Flat
+acct_0321,Account 0321,Active,SMB,Retail,APAC,Australia,owner_02,Owner 02,Scale,Monthly,USD,2025-01-24,2025-01-24,85,2026-10-27,Partner,Flat
+acct_0322,Account 0322,Active,Mid-Market,Financial Services,Europe,United Kingdom,owner_01,Owner 01,Growth,Monthly,USD,2026-06-08,2026-08-24,81,2026-10-07,Referral,New
+acct_0323,Account 0323,Active,Enterprise,Software,APAC,Australia,owner_07,Owner 07,Starter,Annual,USD,2023-05-29,2023-05-29,98,2026-10-17,Inbound,Flat
+acct_0324,Account 0324,Active,Enterprise,Software,North America,Canada,owner_03,Owner 03,Starter,Annual,USD,2022-07-04,2026-08-25,47,2026-10-02,Referral,New
+acct_0325,Account 0325,Active,SMB,Education,North America,United States,owner_05,Owner 05,Growth,Annual,USD,2023-08-23,2026-09-26,90,2026-10-05,Outbound,New
+acct_0326,Account 0326,Active,SMB,Financial Services,North America,United States,owner_04,Owner 04,Growth,Annual,USD,2023-12-03,2023-12-03,81,2026-11-15,Inbound,Flat
+acct_0327,Account 0327,Active,SMB,Education,APAC,Australia,owner_07,Owner 07,Enterprise,Annual,USD,2022-02-17,2022-02-17,94,2026-10-28,Event,Flat
+acct_0328,Account 0328,Active,Mid-Market,Software,North America,United States,owner_04,Owner 04,Starter,Annual,USD,2024-01-28,2024-01-28,60,2026-10-14,Referral,Flat
+acct_0329,Account 0329,Active,SMB,Professional Services,Europe,United Kingdom,owner_07,Owner 07,Starter,Annual,USD,2022-03-17,2026-07-08,59,2026-11-05,Inbound,New
+acct_0330,Account 0330,Churned,Mid-Market,Financial Services,Europe,Germany,owner_01,Owner 01,Scale,Monthly,USD,2025-08-21,2025-08-21,27,2026-10-17,Referral,Churn
+acct_0331,Account 0331,Active,Mid-Market,Retail,North America,Canada,owner_05,Owner 05,Enterprise,Annual,USD,2022-10-02,2022-10-02,48,2026-10-29,Inbound,Flat
+acct_0332,Account 0332,Active,Mid-Market,Software,Europe,United Kingdom,owner_01,Owner 01,Growth,Monthly,USD,2024-12-25,2024-12-25,69,2026-10-10,Inbound,Flat
+acct_0333,Account 0333,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_05,Owner 05,Starter,Annual,USD,2025-03-06,2025-03-06,95,2026-11-08,Outbound,Contraction
+acct_0334,Account 0334,Active,Mid-Market,Education,North America,United States,owner_01,Owner 01,Enterprise,Annual,USD,2024-02-11,2024-02-11,39,2026-11-08,Outbound,Flat
+acct_0335,Account 0335,Active,SMB,Manufacturing,Europe,United Kingdom,owner_05,Owner 05,Scale,Annual,USD,2025-11-13,2025-11-13,39,2026-10-26,Event,Flat
+acct_0336,Account 0336,Active,Mid-Market,Manufacturing,APAC,Australia,owner_04,Owner 04,Growth,Monthly,USD,2022-03-13,2022-03-13,95,2026-11-08,Referral,Flat
+acct_0337,Account 0337,Active,SMB,Education,North America,United States,owner_04,Owner 04,Enterprise,Monthly,USD,2024-05-24,2024-05-24,69,2026-10-09,Referral,Flat
+acct_0338,Account 0338,Active,SMB,Software,North America,United States,owner_02,Owner 02,Starter,Monthly,USD,2025-07-27,2025-07-27,46,2026-11-19,Outbound,Contraction
+acct_0339,Account 0339,Active,Enterprise,Logistics,APAC,Australia,owner_01,Owner 01,Scale,Monthly,USD,2025-10-23,2025-10-23,58,2026-11-22,Partner,Flat
+acct_0340,Account 0340,Active,SMB,Education,North America,United States,owner_05,Owner 05,Enterprise,Monthly,USD,2023-01-04,2023-01-04,79,2026-11-03,Inbound,Flat
+acct_0341,Account 0341,Active,SMB,Software,North America,Canada,owner_06,Owner 06,Starter,Annual,USD,2025-04-21,2025-04-21,92,2026-11-17,Event,Flat
+acct_0342,Account 0342,Active,SMB,Retail,Europe,United Kingdom,owner_04,Owner 04,Growth,Annual,USD,2026-05-07,2026-05-07,49,2026-10-07,Event,Flat
+acct_0343,Account 0343,Active,Mid-Market,Healthcare,North America,United States,owner_05,Owner 05,Scale,Annual,USD,2023-05-27,2023-05-27,93,2026-11-09,Referral,Flat
+acct_0344,Account 0344,Active,Enterprise,Financial Services,APAC,Australia,owner_03,Owner 03,Growth,Annual,USD,2024-12-07,2024-12-07,40,2026-10-10,Inbound,Flat
+acct_0345,Account 0345,Active,Enterprise,Financial Services,North America,United States,owner_01,Owner 01,Scale,Annual,USD,2022-02-23,2022-02-23,94,2026-10-26,Event,Flat
+acct_0346,Account 0346,Active,Mid-Market,Logistics,Europe,Germany,owner_08,Owner 08,Growth,Annual,USD,2025-11-02,2025-11-02,57,2026-10-15,Partner,Expansion
+acct_0347,Account 0347,Active,SMB,Manufacturing,Europe,Germany,owner_02,Owner 02,Starter,Monthly,USD,2022-11-09,2022-11-09,43,2026-10-17,Partner,Contraction
+acct_0348,Account 0348,Active,SMB,Financial Services,Europe,United Kingdom,owner_02,Owner 02,Starter,Annual,USD,2025-10-03,2025-10-03,68,2026-11-16,Event,Flat
+acct_0349,Account 0349,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2022-02-22,2022-02-22,64,2026-10-30,Outbound,Flat
+acct_0350,Account 0350,Active,Mid-Market,Education,Europe,United Kingdom,owner_05,Owner 05,Starter,Annual,USD,2025-10-03,2025-10-03,61,2026-11-06,Event,Flat
+acct_0351,Account 0351,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_07,Owner 07,Growth,Monthly,USD,2024-08-22,2024-08-22,40,2026-11-16,Partner,Flat
+acct_0352,Account 0352,Active,Enterprise,Professional Services,Europe,Germany,owner_01,Owner 01,Starter,Annual,USD,2022-10-17,2022-10-17,91,2026-11-17,Event,Flat
+acct_0353,Account 0353,Active,Enterprise,Logistics,North America,United States,owner_01,Owner 01,Growth,Monthly,USD,2024-03-24,2024-03-24,87,2026-11-04,Referral,Contraction
+acct_0354,Account 0354,Active,Mid-Market,Manufacturing,Europe,United Kingdom,owner_05,Owner 05,Starter,Annual,USD,2022-03-09,2022-03-09,35,2026-10-26,Event,Contraction
+acct_0355,Account 0355,Active,SMB,Professional Services,Europe,Germany,owner_04,Owner 04,Scale,Monthly,USD,2024-11-14,2024-11-14,90,2026-11-08,Event,Flat
+acct_0356,Account 0356,Active,Mid-Market,Education,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2022-08-25,2022-08-25,51,2026-11-19,Inbound,Flat
+acct_0357,Account 0357,Active,SMB,Professional Services,North America,United States,owner_03,Owner 03,Scale,Annual,USD,2023-12-11,2023-12-11,80,2026-10-07,Referral,Expansion
+acct_0358,Account 0358,Active,Mid-Market,Manufacturing,Europe,United Kingdom,owner_06,Owner 06,Scale,Monthly,USD,2024-11-06,2024-11-06,64,2026-11-05,Referral,Contraction
+acct_0359,Account 0359,Active,SMB,Education,North America,Canada,owner_03,Owner 03,Growth,Monthly,USD,2024-03-22,2024-03-22,94,2026-10-21,Inbound,Flat
+acct_0360,Account 0360,Active,Enterprise,Software,APAC,Australia,owner_03,Owner 03,Starter,Monthly,USD,2024-12-30,2024-12-30,74,2026-11-02,Referral,Flat
+acct_0361,Account 0361,Active,SMB,Logistics,North America,United States,owner_07,Owner 07,Scale,Monthly,USD,2022-07-27,2022-07-27,90,2026-11-10,Inbound,Flat
+acct_0362,Account 0362,Active,Enterprise,Logistics,North America,United States,owner_07,Owner 07,Starter,Monthly,USD,2022-04-01,2026-07-04,93,2026-11-11,Inbound,New
+acct_0363,Account 0363,Active,Enterprise,Education,North America,United States,owner_04,Owner 04,Starter,Annual,USD,2026-06-16,2026-06-16,75,2026-11-03,Outbound,Flat
+acct_0364,Account 0364,Active,SMB,Retail,APAC,Australia,owner_08,Owner 08,Enterprise,Monthly,USD,2023-05-25,2023-05-25,87,2026-10-06,Outbound,Expansion
+acct_0365,Account 0365,Active,Enterprise,Healthcare,North America,United States,owner_03,Owner 03,Enterprise,Monthly,USD,2024-08-22,2024-08-22,64,2026-10-21,Outbound,Expansion
+acct_0366,Account 0366,Active,SMB,Logistics,Europe,Germany,owner_07,Owner 07,Growth,Monthly,USD,2022-04-25,2022-04-25,62,2026-10-03,Referral,Contraction
+acct_0367,Account 0367,Active,SMB,Software,North America,Canada,owner_04,Owner 04,Growth,Monthly,USD,2025-08-18,2025-08-18,82,2026-10-04,Referral,Flat
+acct_0368,Account 0368,Active,Mid-Market,Healthcare,APAC,Australia,owner_04,Owner 04,Starter,Annual,USD,2025-05-25,2025-05-25,45,2026-11-09,Outbound,Flat
+acct_0369,Account 0369,Active,SMB,Manufacturing,Europe,United Kingdom,owner_07,Owner 07,Growth,Monthly,USD,2024-11-25,2024-11-25,71,2026-10-07,Event,Flat
+acct_0370,Account 0370,Active,Enterprise,Software,Europe,Germany,owner_04,Owner 04,Starter,Monthly,USD,2022-04-10,2022-04-10,40,2026-11-03,Partner,Flat
+acct_0371,Account 0371,Active,SMB,Retail,APAC,Australia,owner_07,Owner 07,Growth,Annual,USD,2022-10-04,2022-10-04,61,2026-10-13,Partner,Flat
+acct_0372,Account 0372,Active,Mid-Market,Retail,APAC,Australia,owner_05,Owner 05,Scale,Monthly,USD,2026-02-09,2026-02-09,50,2026-10-02,Event,Flat
+acct_0373,Account 0373,Active,Enterprise,Healthcare,Europe,United Kingdom,owner_04,Owner 04,Scale,Annual,USD,2024-12-26,2024-12-26,83,2026-11-03,Referral,Expansion
+acct_0374,Account 0374,Churned,Mid-Market,Professional Services,North America,United States,owner_05,Owner 05,Growth,Annual,USD,2026-03-03,2026-03-03,33,2026-10-07,Referral,Churn
+acct_0375,Account 0375,Active,Mid-Market,Healthcare,APAC,Australia,owner_04,Owner 04,Starter,Monthly,USD,2026-05-20,2026-05-20,83,2026-11-11,Referral,Contraction
+acct_0376,Account 0376,Active,SMB,Education,APAC,Australia,owner_03,Owner 03,Starter,Annual,USD,2023-09-24,2023-09-24,68,2026-11-10,Inbound,Flat
+acct_0377,Account 0377,Active,SMB,Logistics,APAC,Australia,owner_01,Owner 01,Enterprise,Annual,USD,2025-11-21,2025-11-21,37,2026-11-05,Outbound,Expansion
+acct_0378,Account 0378,Active,SMB,Retail,North America,United States,owner_03,Owner 03,Scale,Annual,USD,2025-06-13,2025-06-13,89,2026-10-14,Referral,Flat
+acct_0379,Account 0379,Active,Enterprise,Retail,APAC,Australia,owner_01,Owner 01,Starter,Monthly,USD,2022-02-07,2022-02-07,95,2026-11-10,Outbound,Flat
+acct_0380,Account 0380,Churned,Mid-Market,Manufacturing,APAC,Australia,owner_02,Owner 02,Enterprise,Monthly,USD,2023-10-09,2023-10-09,26,2026-11-13,Outbound,Churn
+acct_0381,Account 0381,Churned,Enterprise,Education,Europe,United Kingdom,owner_03,Owner 03,Scale,Monthly,USD,2022-03-20,2022-03-20,40,2026-10-26,Partner,Churn
+acct_0382,Account 0382,Active,Mid-Market,Software,APAC,Australia,owner_06,Owner 06,Enterprise,Annual,USD,2023-11-13,2023-11-13,56,2026-10-16,Inbound,Flat
+acct_0383,Account 0383,Active,Enterprise,Financial Services,Europe,Germany,owner_08,Owner 08,Scale,Monthly,USD,2022-10-28,2022-10-28,69,2026-10-06,Partner,Flat
+acct_0384,Account 0384,Active,SMB,Professional Services,North America,Canada,owner_06,Owner 06,Scale,Annual,USD,2024-06-18,2024-06-18,79,2026-10-09,Event,Flat
+acct_0385,Account 0385,Active,SMB,Logistics,Europe,United Kingdom,owner_07,Owner 07,Growth,Annual,USD,2024-04-09,2024-04-09,98,2026-10-11,Outbound,Contraction
+acct_0386,Account 0386,Active,SMB,Software,APAC,Australia,owner_02,Owner 02,Growth,Annual,USD,2024-06-21,2024-06-21,38,2026-10-05,Partner,Flat
+acct_0387,Account 0387,Active,Mid-Market,Education,Europe,United Kingdom,owner_01,Owner 01,Scale,Monthly,USD,2023-01-04,2023-01-04,46,2026-10-30,Referral,Expansion
+acct_0388,Account 0388,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_02,Owner 02,Scale,Monthly,USD,2022-03-13,2022-03-13,58,2026-10-11,Event,Flat
+acct_0389,Account 0389,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_08,Owner 08,Scale,Annual,USD,2026-06-08,2026-08-11,85,2026-10-15,Referral,New
+acct_0390,Account 0390,Active,Enterprise,Healthcare,APAC,Australia,owner_04,Owner 04,Starter,Monthly,USD,2025-07-23,2025-07-23,72,2026-11-04,Partner,Contraction
+acct_0391,Account 0391,Active,Mid-Market,Professional Services,North America,Canada,owner_07,Owner 07,Growth,Monthly,USD,2026-02-02,2026-02-02,76,2026-11-23,Outbound,Flat
+acct_0392,Account 0392,Active,SMB,Retail,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2024-10-27,2024-10-27,72,2026-10-15,Inbound,Flat
+acct_0393,Account 0393,Active,SMB,Healthcare,North America,Canada,owner_07,Owner 07,Growth,Monthly,USD,2023-07-25,2023-07-25,79,2026-10-18,Partner,Flat
+acct_0394,Account 0394,Active,Mid-Market,Education,North America,United States,owner_04,Owner 04,Growth,Monthly,USD,2026-04-13,2026-04-13,78,2026-10-10,Inbound,Flat
+acct_0395,Account 0395,Active,Mid-Market,Manufacturing,North America,Canada,owner_02,Owner 02,Starter,Monthly,USD,2023-08-13,2023-08-13,69,2026-11-02,Partner,Flat
+acct_0396,Account 0396,Active,Enterprise,Logistics,Europe,United Kingdom,owner_08,Owner 08,Growth,Annual,USD,2024-04-03,2024-04-03,60,2026-11-17,Referral,Flat
+acct_0397,Account 0397,Active,Mid-Market,Financial Services,APAC,Australia,owner_01,Owner 01,Scale,Monthly,USD,2024-09-03,2026-09-21,52,2026-10-13,Outbound,New
+acct_0398,Account 0398,Active,Enterprise,Professional Services,Europe,United Kingdom,owner_03,Owner 03,Growth,Annual,USD,2022-06-14,2026-07-29,94,2026-10-12,Inbound,New
+acct_0399,Account 0399,Active,SMB,Software,North America,Canada,owner_04,Owner 04,Growth,Monthly,USD,2025-07-22,2025-07-22,94,2026-11-12,Outbound,Flat
+acct_0400,Account 0400,Active,SMB,Manufacturing,Europe,Germany,owner_03,Owner 03,Growth,Monthly,USD,2024-05-14,2024-05-14,81,2026-10-15,Event,Flat
+acct_0401,Account 0401,Active,Mid-Market,Logistics,North America,Canada,owner_04,Owner 04,Starter,Annual,USD,2024-02-16,2024-02-16,71,2026-10-17,Partner,Contraction
+acct_0402,Account 0402,Active,Mid-Market,Education,North America,United States,owner_05,Owner 05,Growth,Annual,USD,2023-05-05,2023-05-05,45,2026-10-11,Event,Flat
+acct_0403,Account 0403,Churned,SMB,Financial Services,North America,United States,owner_08,Owner 08,Starter,Annual,USD,2023-06-09,2023-06-09,44,2026-11-05,Referral,Churn
+acct_0404,Account 0404,Active,SMB,Retail,APAC,Australia,owner_05,Owner 05,Growth,Monthly,USD,2023-12-29,2023-12-29,42,2026-10-10,Event,Flat
+acct_0405,Account 0405,Active,SMB,Manufacturing,APAC,Australia,owner_03,Owner 03,Enterprise,Annual,USD,2024-09-25,2024-09-25,95,2026-11-13,Partner,Expansion
+acct_0406,Account 0406,Active,SMB,Software,North America,United States,owner_06,Owner 06,Growth,Annual,USD,2024-10-02,2024-10-02,92,2026-11-15,Referral,Flat
+acct_0407,Account 0407,Active,SMB,Healthcare,North America,Canada,owner_02,Owner 02,Scale,Monthly,USD,2022-03-07,2022-03-07,70,2026-11-04,Event,Flat
+acct_0408,Account 0408,Active,Mid-Market,Manufacturing,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2022-09-06,2022-09-06,90,2026-10-06,Partner,Expansion
+acct_0409,Account 0409,Active,SMB,Manufacturing,North America,United States,owner_02,Owner 02,Scale,Annual,USD,2023-10-10,2023-10-10,53,2026-11-17,Referral,Flat
+acct_0410,Account 0410,Active,SMB,Logistics,Europe,Germany,owner_03,Owner 03,Starter,Annual,USD,2026-03-15,2026-03-15,45,2026-10-30,Outbound,Flat
+acct_0411,Account 0411,Active,SMB,Manufacturing,APAC,Australia,owner_05,Owner 05,Starter,Monthly,USD,2024-12-04,2026-08-15,76,2026-11-03,Partner,New
+acct_0412,Account 0412,Active,Mid-Market,Healthcare,Europe,Germany,owner_05,Owner 05,Scale,Monthly,USD,2024-12-19,2024-12-19,63,2026-10-01,Referral,Flat
+acct_0413,Account 0413,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_03,Owner 03,Enterprise,Annual,USD,2026-04-20,2026-04-20,51,2026-10-27,Referral,Expansion
+acct_0414,Account 0414,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_01,Owner 01,Growth,Monthly,USD,2022-10-30,2022-10-30,67,2026-10-02,Outbound,Flat
+acct_0415,Account 0415,Active,Mid-Market,Retail,Europe,United Kingdom,owner_05,Owner 05,Growth,Monthly,USD,2023-02-21,2023-02-21,84,2026-10-08,Inbound,Flat
+acct_0416,Account 0416,Active,SMB,Retail,Europe,United Kingdom,owner_08,Owner 08,Growth,Annual,USD,2024-06-12,2024-06-12,72,2026-10-10,Outbound,Flat
+acct_0417,Account 0417,Active,Enterprise,Financial Services,North America,United States,owner_03,Owner 03,Starter,Monthly,USD,2025-09-22,2026-08-29,42,2026-10-30,Inbound,New
+acct_0418,Account 0418,Active,SMB,Professional Services,North America,Canada,owner_08,Owner 08,Growth,Monthly,USD,2022-10-25,2022-10-25,70,2026-10-20,Partner,Flat
+acct_0419,Account 0419,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_04,Owner 04,Growth,Monthly,USD,2025-12-29,2025-12-29,46,2026-10-03,Event,Expansion
+acct_0420,Account 0420,Active,Mid-Market,Software,APAC,Australia,owner_04,Owner 04,Enterprise,Monthly,USD,2022-09-16,2026-08-23,37,2026-10-21,Inbound,New
+acct_0421,Account 0421,Active,Enterprise,Financial Services,North America,Canada,owner_05,Owner 05,Scale,Annual,USD,2023-01-08,2023-01-08,38,2026-10-15,Referral,Flat
+acct_0422,Account 0422,Active,SMB,Education,North America,Canada,owner_07,Owner 07,Scale,Annual,USD,2023-10-26,2023-10-26,59,2026-10-04,Outbound,Contraction
+acct_0423,Account 0423,Active,Enterprise,Healthcare,North America,United States,owner_01,Owner 01,Enterprise,Annual,USD,2023-08-06,2023-08-06,61,2026-11-13,Event,Flat
+acct_0424,Account 0424,Active,Mid-Market,Professional Services,Europe,Germany,owner_01,Owner 01,Enterprise,Annual,USD,2024-02-13,2024-02-13,90,2026-11-16,Inbound,Expansion
+acct_0425,Account 0425,Active,Mid-Market,Financial Services,North America,Canada,owner_02,Owner 02,Growth,Annual,USD,2026-01-30,2026-01-30,53,2026-10-10,Partner,Expansion
+acct_0426,Account 0426,Active,SMB,Financial Services,Europe,United Kingdom,owner_07,Owner 07,Starter,Monthly,USD,2024-02-04,2024-02-04,91,2026-11-14,Event,Flat
+acct_0427,Account 0427,Active,Mid-Market,Logistics,Europe,Germany,owner_07,Owner 07,Growth,Annual,USD,2022-03-18,2022-03-18,38,2026-11-15,Event,Flat
+acct_0428,Account 0428,Active,SMB,Financial Services,Europe,United Kingdom,owner_03,Owner 03,Enterprise,Annual,USD,2022-03-04,2022-03-04,35,2026-10-09,Outbound,Flat
+acct_0429,Account 0429,Active,Enterprise,Professional Services,Europe,Germany,owner_01,Owner 01,Scale,Annual,USD,2022-08-22,2022-08-22,69,2026-11-01,Outbound,Flat
+acct_0430,Account 0430,Active,SMB,Retail,North America,United States,owner_03,Owner 03,Growth,Monthly,USD,2022-02-16,2022-02-16,76,2026-10-10,Partner,Flat
+acct_0431,Account 0431,Active,SMB,Software,North America,United States,owner_05,Owner 05,Enterprise,Annual,USD,2025-11-03,2025-11-03,74,2026-11-01,Inbound,Expansion
+acct_0432,Account 0432,Active,SMB,Financial Services,APAC,Australia,owner_04,Owner 04,Growth,Annual,USD,2024-08-25,2024-08-25,96,2026-10-19,Inbound,Flat
+acct_0433,Account 0433,Active,SMB,Logistics,North America,Canada,owner_07,Owner 07,Starter,Annual,USD,2025-02-17,2025-02-17,56,2026-10-27,Outbound,Flat
+acct_0434,Account 0434,Active,SMB,Financial Services,North America,Canada,owner_02,Owner 02,Starter,Annual,USD,2024-02-06,2024-02-06,67,2026-10-14,Outbound,Contraction
+acct_0435,Account 0435,Active,Mid-Market,Healthcare,North America,Canada,owner_01,Owner 01,Starter,Annual,USD,2023-08-25,2023-08-25,40,2026-11-02,Referral,Flat
+acct_0436,Account 0436,Active,Mid-Market,Financial Services,APAC,Australia,owner_07,Owner 07,Scale,Annual,USD,2024-06-18,2024-06-18,57,2026-10-16,Inbound,Flat
+acct_0437,Account 0437,Active,Mid-Market,Software,Europe,United Kingdom,owner_08,Owner 08,Starter,Annual,USD,2022-12-01,2022-12-01,67,2026-10-24,Event,Flat
+acct_0438,Account 0438,Churned,SMB,Education,Europe,United Kingdom,owner_07,Owner 07,Scale,Annual,USD,2022-12-07,2022-12-07,24,2026-11-22,Inbound,Churn
+acct_0439,Account 0439,Active,Enterprise,Healthcare,Europe,United Kingdom,owner_07,Owner 07,Growth,Annual,USD,2022-01-27,2022-01-27,98,2026-11-16,Outbound,Expansion
+acct_0440,Account 0440,Active,Mid-Market,Software,Europe,United Kingdom,owner_06,Owner 06,Starter,Annual,USD,2022-01-20,2022-01-20,46,2026-10-31,Referral,Contraction
+acct_0441,Account 0441,Active,SMB,Education,Europe,United Kingdom,owner_01,Owner 01,Growth,Annual,USD,2022-08-12,2022-08-12,62,2026-10-28,Inbound,Flat
+acct_0442,Account 0442,Active,SMB,Manufacturing,Europe,United Kingdom,owner_06,Owner 06,Scale,Monthly,USD,2025-09-07,2025-09-07,67,2026-10-27,Outbound,Flat
+acct_0443,Account 0443,Active,Mid-Market,Financial Services,APAC,Australia,owner_02,Owner 02,Growth,Monthly,USD,2025-03-07,2026-09-24,52,2026-11-07,Event,New
+acct_0444,Account 0444,Active,SMB,Professional Services,APAC,Australia,owner_02,Owner 02,Scale,Monthly,USD,2024-06-01,2024-06-01,89,2026-11-19,Partner,Flat
+acct_0445,Account 0445,Active,Mid-Market,Professional Services,North America,Canada,owner_02,Owner 02,Scale,Annual,USD,2022-09-24,2022-09-24,49,2026-11-06,Partner,Flat
+acct_0446,Account 0446,Active,Mid-Market,Professional Services,North America,Canada,owner_08,Owner 08,Starter,Annual,USD,2023-04-02,2023-04-02,81,2026-10-11,Inbound,Flat
+acct_0447,Account 0447,Active,SMB,Education,Europe,United Kingdom,owner_01,Owner 01,Growth,Monthly,USD,2025-06-01,2025-06-01,84,2026-11-18,Outbound,Flat
+acct_0448,Account 0448,Active,Mid-Market,Software,Europe,United Kingdom,owner_02,Owner 02,Growth,Annual,USD,2023-02-23,2023-02-23,95,2026-10-11,Event,Flat
+acct_0449,Account 0449,Active,Enterprise,Professional Services,Europe,Germany,owner_07,Owner 07,Growth,Monthly,USD,2025-04-22,2025-04-22,36,2026-10-30,Inbound,Flat
+acct_0450,Account 0450,Churned,Mid-Market,Software,Europe,Germany,owner_06,Owner 06,Growth,Annual,USD,2023-12-13,2023-12-13,28,2026-10-05,Event,Churn
+acct_0451,Account 0451,Active,SMB,Education,Europe,Germany,owner_05,Owner 05,Starter,Monthly,USD,2024-08-29,2024-08-29,51,2026-10-18,Partner,Flat
+acct_0452,Account 0452,Active,Mid-Market,Education,North America,Canada,owner_08,Owner 08,Starter,Annual,USD,2025-01-12,2025-01-12,77,2026-10-17,Referral,Flat
+acct_0453,Account 0453,Active,SMB,Professional Services,APAC,Australia,owner_03,Owner 03,Scale,Monthly,USD,2022-08-02,2022-08-02,81,2026-10-16,Event,Flat
+acct_0454,Account 0454,Active,Mid-Market,Financial Services,North America,United States,owner_04,Owner 04,Scale,Annual,USD,2025-09-20,2025-09-20,61,2026-11-23,Referral,Flat
+acct_0455,Account 0455,Active,Mid-Market,Software,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2024-02-14,2024-02-14,71,2026-10-12,Partner,Expansion
+acct_0456,Account 0456,Active,SMB,Financial Services,Europe,Germany,owner_01,Owner 01,Growth,Annual,USD,2024-08-01,2024-08-01,65,2026-10-23,Outbound,Flat
+acct_0457,Account 0457,Active,SMB,Financial Services,North America,Canada,owner_04,Owner 04,Scale,Monthly,USD,2023-05-02,2023-05-02,65,2026-10-04,Partner,Flat
+acct_0458,Account 0458,Active,Mid-Market,Healthcare,North America,Canada,owner_02,Owner 02,Growth,Monthly,USD,2022-12-26,2022-12-26,67,2026-10-27,Event,Flat
+acct_0459,Account 0459,Active,SMB,Education,North America,United States,owner_06,Owner 06,Growth,Monthly,USD,2024-11-26,2024-11-26,66,2026-10-14,Outbound,Flat
+acct_0460,Account 0460,Active,SMB,Professional Services,APAC,Australia,owner_07,Owner 07,Growth,Monthly,USD,2023-04-21,2023-04-21,64,2026-10-14,Inbound,Expansion
+acct_0461,Account 0461,Active,Mid-Market,Professional Services,Europe,United Kingdom,owner_05,Owner 05,Enterprise,Monthly,USD,2025-01-19,2025-01-19,46,2026-10-25,Partner,Expansion
+acct_0462,Account 0462,Active,SMB,Healthcare,Europe,United Kingdom,owner_05,Owner 05,Starter,Monthly,USD,2022-12-01,2022-12-01,63,2026-11-22,Inbound,Contraction
+acct_0463,Account 0463,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_08,Owner 08,Growth,Monthly,USD,2026-03-27,2026-03-27,93,2026-10-03,Event,Flat
+acct_0464,Account 0464,Active,Enterprise,Healthcare,APAC,Australia,owner_05,Owner 05,Scale,Annual,USD,2024-11-20,2024-11-20,37,2026-10-02,Inbound,Expansion
+acct_0465,Account 0465,Active,SMB,Retail,North America,Canada,owner_06,Owner 06,Growth,Annual,USD,2023-10-19,2023-10-19,55,2026-11-10,Partner,Contraction
+acct_0466,Account 0466,Active,Mid-Market,Manufacturing,North America,Canada,owner_05,Owner 05,Scale,Annual,USD,2025-11-23,2025-11-23,55,2026-10-29,Inbound,Flat
+acct_0467,Account 0467,Active,Enterprise,Software,APAC,Australia,owner_08,Owner 08,Growth,Monthly,USD,2025-12-27,2025-12-27,93,2026-11-20,Inbound,Flat
+acct_0468,Account 0468,Active,Enterprise,Financial Services,APAC,Australia,owner_04,Owner 04,Growth,Monthly,USD,2022-01-09,2022-01-09,64,2026-10-16,Outbound,Flat
+acct_0469,Account 0469,Active,Mid-Market,Logistics,APAC,Australia,owner_01,Owner 01,Growth,Monthly,USD,2024-03-08,2024-03-08,46,2026-11-05,Referral,Flat
+acct_0470,Account 0470,Active,Mid-Market,Software,Europe,Germany,owner_02,Owner 02,Scale,Monthly,USD,2026-02-18,2026-02-18,35,2026-11-06,Partner,Flat
+acct_0471,Account 0471,Active,Enterprise,Education,North America,United States,owner_04,Owner 04,Growth,Annual,USD,2025-04-14,2025-04-14,57,2026-11-03,Outbound,Flat
+acct_0472,Account 0472,Active,Mid-Market,Healthcare,North America,Canada,owner_06,Owner 06,Growth,Monthly,USD,2026-01-14,2026-01-14,77,2026-10-17,Referral,Contraction
+acct_0473,Account 0473,Active,Enterprise,Financial Services,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2022-02-01,2022-02-01,86,2026-10-29,Outbound,Flat
+acct_0474,Account 0474,Active,Mid-Market,Manufacturing,North America,Canada,owner_06,Owner 06,Starter,Annual,USD,2023-11-04,2023-11-04,62,2026-11-20,Event,Flat
+acct_0475,Account 0475,Active,SMB,Financial Services,Europe,Germany,owner_04,Owner 04,Scale,Annual,USD,2022-03-08,2022-03-08,73,2026-10-21,Outbound,Flat
+acct_0476,Account 0476,Active,Mid-Market,Professional Services,North America,United States,owner_04,Owner 04,Starter,Monthly,USD,2023-07-27,2023-07-27,44,2026-11-19,Outbound,Flat
+acct_0477,Account 0477,Churned,SMB,Financial Services,Europe,United Kingdom,owner_02,Owner 02,Scale,Annual,USD,2025-05-21,2025-05-21,40,2026-10-11,Event,Churn
+acct_0478,Account 0478,Active,Mid-Market,Manufacturing,North America,Canada,owner_07,Owner 07,Growth,Annual,USD,2023-10-08,2023-10-08,87,2026-11-20,Outbound,Flat
+acct_0479,Account 0479,Active,Enterprise,Education,North America,Canada,owner_06,Owner 06,Growth,Monthly,USD,2023-05-07,2023-05-07,91,2026-11-08,Referral,Contraction
+acct_0480,Account 0480,Active,Mid-Market,Healthcare,APAC,Australia,owner_04,Owner 04,Starter,Annual,USD,2024-02-02,2024-02-02,70,2026-11-16,Event,Flat
+acct_0481,Account 0481,Active,SMB,Financial Services,North America,Canada,owner_03,Owner 03,Growth,Annual,USD,2025-08-26,2025-08-26,61,2026-11-18,Referral,Contraction
+acct_0482,Account 0482,Active,SMB,Financial Services,Europe,Germany,owner_03,Owner 03,Starter,Annual,USD,2023-01-15,2023-01-15,40,2026-11-16,Inbound,Flat
+acct_0483,Account 0483,Active,SMB,Manufacturing,Europe,United Kingdom,owner_03,Owner 03,Scale,Annual,USD,2022-10-07,2022-10-07,88,2026-11-09,Event,Expansion
+acct_0484,Account 0484,Active,SMB,Healthcare,Europe,United Kingdom,owner_08,Owner 08,Starter,Monthly,USD,2024-02-05,2024-02-05,68,2026-10-31,Referral,Flat
+acct_0485,Account 0485,Active,SMB,Logistics,Europe,United Kingdom,owner_03,Owner 03,Starter,Annual,USD,2022-02-20,2022-02-20,62,2026-11-18,Inbound,Contraction
+acct_0486,Account 0486,Active,SMB,Financial Services,Europe,United Kingdom,owner_07,Owner 07,Growth,Monthly,USD,2023-02-11,2023-02-11,44,2026-11-13,Referral,Expansion
+acct_0487,Account 0487,Active,SMB,Financial Services,APAC,Australia,owner_03,Owner 03,Starter,Monthly,USD,2024-04-15,2024-04-15,38,2026-10-06,Referral,Flat
+acct_0488,Account 0488,Active,Enterprise,Manufacturing,North America,United States,owner_04,Owner 04,Growth,Monthly,USD,2024-06-18,2024-06-18,78,2026-10-26,Partner,Expansion
+acct_0489,Account 0489,Active,SMB,Logistics,North America,United States,owner_08,Owner 08,Enterprise,Annual,USD,2025-12-25,2025-12-25,35,2026-11-20,Inbound,Flat
+acct_0490,Account 0490,Active,SMB,Professional Services,APAC,Australia,owner_04,Owner 04,Scale,Annual,USD,2025-01-05,2026-07-26,50,2026-11-22,Partner,New
+acct_0491,Account 0491,Active,Mid-Market,Financial Services,APAC,Australia,owner_06,Owner 06,Scale,Annual,USD,2026-03-21,2026-03-21,54,2026-10-20,Partner,Flat
+acct_0492,Account 0492,Active,Mid-Market,Manufacturing,North America,United States,owner_08,Owner 08,Starter,Monthly,USD,2023-05-14,2023-05-14,68,2026-10-06,Outbound,Contraction
+acct_0493,Account 0493,Active,Enterprise,Professional Services,APAC,Australia,owner_01,Owner 01,Starter,Annual,USD,2022-11-23,2022-11-23,43,2026-10-16,Outbound,Flat
+acct_0494,Account 0494,Active,SMB,Manufacturing,North America,Canada,owner_08,Owner 08,Growth,Monthly,USD,2022-11-17,2022-11-17,61,2026-10-22,Referral,Flat
+acct_0495,Account 0495,Active,Mid-Market,Software,Europe,Germany,owner_04,Owner 04,Scale,Monthly,USD,2024-06-26,2024-06-26,43,2026-11-11,Partner,Expansion
+acct_0496,Account 0496,Active,SMB,Education,North America,Canada,owner_01,Owner 01,Starter,Monthly,USD,2025-02-13,2025-02-13,74,2026-10-19,Referral,Flat
+acct_0497,Account 0497,Active,SMB,Healthcare,North America,United States,owner_04,Owner 04,Enterprise,Monthly,USD,2024-03-27,2024-03-27,98,2026-10-18,Event,Expansion
+acct_0498,Account 0498,Active,SMB,Financial Services,APAC,Australia,owner_02,Owner 02,Growth,Annual,USD,2022-04-09,2026-09-04,52,2026-11-14,Referral,New
+acct_0499,Account 0499,Active,Mid-Market,Education,North America,Canada,owner_07,Owner 07,Growth,Monthly,USD,2022-07-24,2022-07-24,66,2026-10-28,Inbound,Flat
+acct_0500,Account 0500,Active,Mid-Market,Manufacturing,North America,United States,owner_03,Owner 03,Scale,Monthly,USD,2026-03-19,2026-03-19,93,2026-10-15,Partner,Expansion
+acct_0501,Account 0501,Active,SMB,Software,Europe,Germany,owner_03,Owner 03,Scale,Monthly,USD,2026-04-26,2026-07-13,57,2026-10-08,Outbound,New
+acct_0502,Account 0502,Active,SMB,Professional Services,Europe,United Kingdom,owner_01,Owner 01,Growth,Annual,USD,2024-04-16,2024-04-16,36,2026-11-07,Event,Flat
+acct_0503,Account 0503,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_04,Owner 04,Scale,Monthly,USD,2026-02-06,2026-02-06,64,2026-10-16,Inbound,Expansion
+acct_0504,Account 0504,Active,Mid-Market,Professional Services,North America,United States,owner_07,Owner 07,Growth,Monthly,USD,2024-01-08,2024-01-08,39,2026-10-11,Outbound,Flat
+acct_0505,Account 0505,Active,Enterprise,Retail,North America,Canada,owner_01,Owner 01,Scale,Annual,USD,2025-06-02,2025-06-02,93,2026-11-10,Partner,Contraction
+acct_0506,Account 0506,Active,SMB,Manufacturing,Europe,United Kingdom,owner_08,Owner 08,Scale,Annual,USD,2026-01-14,2026-09-28,54,2026-10-08,Referral,New
+acct_0507,Account 0507,Active,Mid-Market,Financial Services,North America,United States,owner_06,Owner 06,Enterprise,Annual,USD,2024-04-28,2024-04-28,63,2026-10-01,Event,Expansion
+acct_0508,Account 0508,Active,Mid-Market,Education,Europe,Germany,owner_07,Owner 07,Starter,Annual,USD,2025-12-08,2025-12-08,55,2026-10-28,Inbound,Flat
+acct_0509,Account 0509,Active,SMB,Education,North America,United States,owner_06,Owner 06,Scale,Monthly,USD,2025-01-21,2025-01-21,47,2026-10-22,Event,Flat
+acct_0510,Account 0510,Active,SMB,Professional Services,Europe,United Kingdom,owner_01,Owner 01,Scale,Annual,USD,2022-04-15,2022-04-15,42,2026-10-04,Event,Expansion
+acct_0511,Account 0511,Active,SMB,Professional Services,Europe,Germany,owner_02,Owner 02,Starter,Monthly,USD,2023-07-01,2023-07-01,85,2026-11-17,Partner,Flat
+acct_0512,Account 0512,Active,SMB,Professional Services,APAC,Australia,owner_06,Owner 06,Enterprise,Monthly,USD,2025-12-20,2026-08-04,39,2026-10-09,Outbound,New
+acct_0513,Account 0513,Active,Mid-Market,Manufacturing,Europe,Germany,owner_05,Owner 05,Starter,Annual,USD,2023-08-07,2023-08-07,35,2026-11-04,Partner,Flat
+acct_0514,Account 0514,Churned,Mid-Market,Healthcare,North America,United States,owner_02,Owner 02,Growth,Monthly,USD,2023-05-24,2023-05-24,15,2026-11-11,Inbound,Churn
+acct_0515,Account 0515,Active,Mid-Market,Software,APAC,Australia,owner_01,Owner 01,Growth,Monthly,USD,2022-10-26,2022-10-26,75,2026-10-18,Event,Flat
+acct_0516,Account 0516,Active,Mid-Market,Financial Services,North America,Canada,owner_08,Owner 08,Scale,Annual,USD,2023-09-07,2023-09-07,57,2026-10-19,Referral,Flat
+acct_0517,Account 0517,Active,Mid-Market,Retail,APAC,Australia,owner_04,Owner 04,Scale,Annual,USD,2025-04-13,2025-04-13,89,2026-10-20,Event,Flat
+acct_0518,Account 0518,Active,Mid-Market,Logistics,Europe,Germany,owner_04,Owner 04,Growth,Monthly,USD,2022-06-20,2022-06-20,87,2026-11-16,Outbound,Contraction
+acct_0519,Account 0519,Active,SMB,Retail,Europe,United Kingdom,owner_01,Owner 01,Enterprise,Monthly,USD,2024-04-30,2024-04-30,67,2026-10-10,Partner,Expansion
+acct_0520,Account 0520,Active,Mid-Market,Financial Services,North America,Canada,owner_03,Owner 03,Growth,Annual,USD,2023-08-12,2023-08-12,49,2026-10-22,Event,Flat
+acct_0521,Account 0521,Active,SMB,Logistics,APAC,Australia,owner_04,Owner 04,Scale,Monthly,USD,2024-07-15,2024-07-15,46,2026-10-11,Event,Flat
+acct_0522,Account 0522,Active,SMB,Education,APAC,Australia,owner_03,Owner 03,Growth,Monthly,USD,2022-06-15,2022-06-15,69,2026-11-02,Event,Flat
+acct_0523,Account 0523,Active,SMB,Financial Services,Europe,Germany,owner_02,Owner 02,Scale,Annual,USD,2022-11-24,2022-11-24,57,2026-10-10,Event,Flat
+acct_0524,Account 0524,Active,SMB,Software,North America,United States,owner_01,Owner 01,Starter,Annual,USD,2025-01-23,2025-01-23,65,2026-10-05,Partner,Flat
+acct_0525,Account 0525,Active,Enterprise,Manufacturing,North America,United States,owner_05,Owner 05,Scale,Annual,USD,2026-01-05,2026-01-05,60,2026-11-08,Partner,Expansion
+acct_0526,Account 0526,Active,Mid-Market,Manufacturing,APAC,Australia,owner_01,Owner 01,Growth,Annual,USD,2026-01-08,2026-01-08,52,2026-10-14,Referral,Flat
+acct_0527,Account 0527,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_06,Owner 06,Growth,Annual,USD,2025-02-14,2025-02-14,60,2026-10-23,Referral,Flat
+acct_0528,Account 0528,Active,SMB,Financial Services,Europe,Germany,owner_01,Owner 01,Starter,Annual,USD,2022-06-14,2022-06-14,83,2026-11-09,Event,Flat
+acct_0529,Account 0529,Active,Enterprise,Retail,Europe,United Kingdom,owner_05,Owner 05,Growth,Monthly,USD,2025-06-07,2025-06-07,65,2026-10-16,Event,Expansion
+acct_0530,Account 0530,Active,Enterprise,Education,APAC,Australia,owner_04,Owner 04,Starter,Annual,USD,2026-06-23,2026-06-23,37,2026-10-24,Referral,Contraction
+acct_0531,Account 0531,Active,SMB,Education,Europe,United Kingdom,owner_04,Owner 04,Starter,Annual,USD,2023-03-02,2023-03-02,51,2026-10-23,Inbound,Flat
+acct_0532,Account 0532,Active,SMB,Software,APAC,Australia,owner_06,Owner 06,Scale,Annual,USD,2024-03-10,2026-09-27,64,2026-10-12,Event,New
+acct_0533,Account 0533,Active,SMB,Retail,North America,United States,owner_03,Owner 03,Starter,Annual,USD,2025-04-23,2025-04-23,79,2026-10-03,Referral,Flat
+acct_0534,Account 0534,Active,SMB,Healthcare,Europe,United Kingdom,owner_01,Owner 01,Scale,Annual,USD,2022-11-29,2022-11-29,78,2026-11-15,Partner,Expansion
+acct_0535,Account 0535,Active,Mid-Market,Manufacturing,APAC,Australia,owner_05,Owner 05,Enterprise,Annual,USD,2023-05-07,2023-05-07,67,2026-11-02,Partner,Flat
+acct_0536,Account 0536,Active,Enterprise,Software,APAC,Australia,owner_01,Owner 01,Enterprise,Annual,USD,2026-03-07,2026-03-07,50,2026-11-07,Inbound,Expansion
+acct_0537,Account 0537,Active,SMB,Software,Europe,Germany,owner_04,Owner 04,Scale,Monthly,USD,2023-09-02,2023-09-02,40,2026-10-31,Outbound,Flat
+acct_0538,Account 0538,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_04,Owner 04,Scale,Annual,USD,2025-04-08,2025-04-08,37,2026-10-09,Referral,Expansion
+acct_0539,Account 0539,Active,SMB,Logistics,APAC,Australia,owner_01,Owner 01,Growth,Monthly,USD,2023-01-20,2023-01-20,77,2026-11-16,Referral,Flat
+acct_0540,Account 0540,Active,Enterprise,Financial Services,APAC,Australia,owner_08,Owner 08,Growth,Annual,USD,2023-06-07,2023-06-07,52,2026-10-13,Event,Flat
+acct_0541,Account 0541,Active,Enterprise,Manufacturing,Europe,Germany,owner_01,Owner 01,Scale,Annual,USD,2023-10-08,2023-10-08,88,2026-10-14,Referral,Flat
+acct_0542,Account 0542,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_08,Owner 08,Starter,Monthly,USD,2024-10-30,2024-10-30,56,2026-10-05,Inbound,Flat
+acct_0543,Account 0543,Churned,Mid-Market,Financial Services,North America,United States,owner_04,Owner 04,Growth,Annual,USD,2023-10-14,2023-10-14,24,2026-11-15,Inbound,Churn
+acct_0544,Account 0544,Active,Enterprise,Education,Europe,Germany,owner_01,Owner 01,Growth,Monthly,USD,2024-05-30,2024-05-30,57,2026-10-22,Event,Flat
+acct_0545,Account 0545,Active,SMB,Logistics,North America,Canada,owner_07,Owner 07,Growth,Monthly,USD,2024-04-02,2024-04-02,66,2026-10-29,Referral,Flat
+acct_0546,Account 0546,Active,Enterprise,Healthcare,North America,Canada,owner_03,Owner 03,Enterprise,Monthly,USD,2024-06-03,2024-06-03,70,2026-10-03,Outbound,Flat
+acct_0547,Account 0547,Active,Mid-Market,Software,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2024-11-08,2024-11-08,70,2026-10-08,Referral,Flat
+acct_0548,Account 0548,Churned,Enterprise,Professional Services,North America,United States,owner_05,Owner 05,Growth,Annual,USD,2026-06-18,2026-06-18,19,2026-11-08,Inbound,Churn
+acct_0549,Account 0549,Active,SMB,Healthcare,Europe,Germany,owner_06,Owner 06,Starter,Annual,USD,2025-05-21,2026-07-13,67,2026-11-01,Referral,New
+acct_0550,Account 0550,Active,SMB,Financial Services,Europe,United Kingdom,owner_01,Owner 01,Growth,Annual,USD,2025-12-08,2025-12-08,51,2026-10-18,Outbound,Flat
+acct_0551,Account 0551,Active,SMB,Financial Services,Europe,United Kingdom,owner_04,Owner 04,Scale,Monthly,USD,2022-11-21,2022-11-21,70,2026-10-13,Inbound,Flat
+acct_0552,Account 0552,Active,SMB,Professional Services,Europe,Germany,owner_05,Owner 05,Scale,Monthly,USD,2025-08-19,2025-08-19,84,2026-11-03,Event,Flat
+acct_0553,Account 0553,Active,SMB,Healthcare,North America,Canada,owner_07,Owner 07,Scale,Monthly,USD,2024-02-29,2024-02-29,38,2026-10-20,Inbound,Flat
+acct_0554,Account 0554,Active,SMB,Professional Services,North America,United States,owner_01,Owner 01,Enterprise,Monthly,USD,2022-01-03,2022-01-03,53,2026-11-23,Partner,Flat
+acct_0555,Account 0555,Active,Enterprise,Manufacturing,North America,Canada,owner_02,Owner 02,Scale,Monthly,USD,2024-01-05,2024-01-05,47,2026-10-04,Referral,Flat
+acct_0556,Account 0556,Active,SMB,Financial Services,APAC,Australia,owner_02,Owner 02,Growth,Annual,USD,2025-08-04,2025-08-04,78,2026-10-15,Inbound,Contraction
+acct_0557,Account 0557,Active,SMB,Healthcare,Europe,Germany,owner_07,Owner 07,Enterprise,Annual,USD,2022-12-29,2022-12-29,74,2026-10-02,Outbound,Flat
+acct_0558,Account 0558,Active,Mid-Market,Education,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2023-12-10,2023-12-10,51,2026-10-14,Referral,Flat
+acct_0559,Account 0559,Active,Enterprise,Software,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2025-02-13,2025-02-13,64,2026-11-16,Outbound,Flat
+acct_0560,Account 0560,Active,Enterprise,Logistics,North America,United States,owner_08,Owner 08,Starter,Annual,USD,2024-09-06,2024-09-06,69,2026-10-23,Inbound,Contraction
+acct_0561,Account 0561,Active,SMB,Financial Services,North America,United States,owner_08,Owner 08,Scale,Annual,USD,2025-04-28,2025-04-28,64,2026-10-08,Outbound,Flat
+acct_0562,Account 0562,Active,SMB,Professional Services,Europe,United Kingdom,owner_08,Owner 08,Growth,Annual,USD,2025-08-09,2025-08-09,73,2026-10-09,Outbound,Expansion
+acct_0563,Account 0563,Active,Mid-Market,Retail,North America,Canada,owner_06,Owner 06,Enterprise,Annual,USD,2024-10-10,2024-10-10,40,2026-11-09,Event,Flat
+acct_0564,Account 0564,Active,Mid-Market,Professional Services,North America,United States,owner_04,Owner 04,Starter,Monthly,USD,2025-09-23,2025-09-23,86,2026-10-01,Inbound,Contraction
+acct_0565,Account 0565,Active,Mid-Market,Software,North America,Canada,owner_06,Owner 06,Scale,Annual,USD,2022-04-21,2022-04-21,57,2026-10-03,Partner,Expansion
+acct_0566,Account 0566,Active,SMB,Logistics,Europe,Germany,owner_07,Owner 07,Starter,Monthly,USD,2024-10-03,2024-10-03,59,2026-11-16,Inbound,Flat
+acct_0567,Account 0567,Active,Mid-Market,Manufacturing,APAC,Australia,owner_03,Owner 03,Growth,Monthly,USD,2025-02-20,2025-02-20,50,2026-11-13,Referral,Flat
+acct_0568,Account 0568,Active,SMB,Financial Services,APAC,Australia,owner_08,Owner 08,Starter,Annual,USD,2024-03-08,2024-03-08,52,2026-10-27,Referral,Flat
+acct_0569,Account 0569,Active,Mid-Market,Professional Services,Europe,United Kingdom,owner_08,Owner 08,Starter,Monthly,USD,2026-05-27,2026-05-27,77,2026-11-05,Outbound,Flat
+acct_0570,Account 0570,Active,SMB,Manufacturing,North America,Canada,owner_01,Owner 01,Growth,Annual,USD,2025-07-31,2025-07-31,70,2026-10-04,Outbound,Expansion
+acct_0571,Account 0571,Active,SMB,Retail,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2022-02-17,2022-02-17,62,2026-10-30,Referral,Contraction
+acct_0572,Account 0572,Active,Mid-Market,Financial Services,North America,United States,owner_04,Owner 04,Scale,Annual,USD,2025-05-29,2026-07-21,72,2026-11-21,Event,New
+acct_0573,Account 0573,Active,SMB,Software,North America,Canada,owner_05,Owner 05,Starter,Annual,USD,2026-04-20,2026-04-20,72,2026-11-19,Partner,Flat
+acct_0574,Account 0574,Active,Enterprise,Software,Europe,United Kingdom,owner_01,Owner 01,Growth,Annual,USD,2025-07-28,2025-07-28,68,2026-10-30,Referral,Flat
+acct_0575,Account 0575,Active,Enterprise,Logistics,North America,United States,owner_03,Owner 03,Starter,Monthly,USD,2025-11-21,2025-11-21,95,2026-10-10,Outbound,Flat
+acct_0576,Account 0576,Active,SMB,Healthcare,North America,United States,owner_03,Owner 03,Growth,Annual,USD,2026-05-23,2026-05-23,60,2026-10-14,Referral,Flat
+acct_0577,Account 0577,Active,SMB,Retail,North America,United States,owner_03,Owner 03,Enterprise,Monthly,USD,2022-07-21,2026-07-28,96,2026-10-28,Event,New
+acct_0578,Account 0578,Active,Enterprise,Professional Services,Europe,United Kingdom,owner_07,Owner 07,Growth,Annual,USD,2024-05-28,2024-05-28,50,2026-11-19,Event,Flat
+acct_0579,Account 0579,Active,SMB,Professional Services,North America,United States,owner_06,Owner 06,Enterprise,Monthly,USD,2023-04-10,2023-04-10,36,2026-11-09,Inbound,Flat
+acct_0580,Account 0580,Active,Enterprise,Education,North America,United States,owner_04,Owner 04,Starter,Monthly,USD,2024-11-30,2024-11-30,56,2026-10-24,Outbound,Contraction
+acct_0581,Account 0581,Active,Mid-Market,Logistics,North America,Canada,owner_05,Owner 05,Scale,Monthly,USD,2025-07-31,2025-07-31,79,2026-10-14,Partner,Flat
+acct_0582,Account 0582,Active,Enterprise,Financial Services,Europe,Germany,owner_05,Owner 05,Growth,Annual,USD,2024-11-16,2024-11-16,90,2026-11-08,Event,Flat
+acct_0583,Account 0583,Active,SMB,Manufacturing,APAC,Australia,owner_04,Owner 04,Growth,Monthly,USD,2025-08-13,2026-08-17,43,2026-11-14,Referral,New
+acct_0584,Account 0584,Active,Enterprise,Healthcare,North America,United States,owner_08,Owner 08,Scale,Annual,USD,2023-08-12,2023-08-12,40,2026-10-14,Referral,Expansion
+acct_0585,Account 0585,Active,Enterprise,Healthcare,Europe,United Kingdom,owner_04,Owner 04,Starter,Monthly,USD,2023-03-14,2026-08-06,81,2026-10-07,Referral,New
+acct_0586,Account 0586,Active,SMB,Education,APAC,Australia,owner_01,Owner 01,Starter,Annual,USD,2023-11-03,2023-11-03,44,2026-11-13,Partner,Flat
+acct_0587,Account 0587,Active,SMB,Professional Services,Europe,Germany,owner_05,Owner 05,Growth,Annual,USD,2024-01-21,2024-01-21,41,2026-11-11,Partner,Flat
+acct_0588,Account 0588,Active,SMB,Logistics,Europe,Germany,owner_05,Owner 05,Enterprise,Annual,USD,2023-09-19,2023-09-19,57,2026-10-04,Event,Flat
+acct_0589,Account 0589,Active,Enterprise,Logistics,Europe,United Kingdom,owner_01,Owner 01,Enterprise,Annual,USD,2026-03-10,2026-03-10,80,2026-11-11,Event,Flat
+acct_0590,Account 0590,Active,Mid-Market,Logistics,Europe,Germany,owner_07,Owner 07,Scale,Annual,USD,2024-08-28,2024-08-28,76,2026-11-08,Partner,Flat
+acct_0591,Account 0591,Active,SMB,Healthcare,North America,Canada,owner_01,Owner 01,Starter,Monthly,USD,2022-02-05,2022-02-05,97,2026-11-11,Referral,Flat
+acct_0592,Account 0592,Active,Mid-Market,Professional Services,North America,United States,owner_03,Owner 03,Growth,Annual,USD,2026-05-06,2026-05-06,82,2026-11-20,Referral,Flat
+acct_0593,Account 0593,Active,SMB,Manufacturing,Europe,United Kingdom,owner_05,Owner 05,Starter,Monthly,USD,2024-02-08,2024-02-08,35,2026-10-19,Event,Flat
+acct_0594,Account 0594,Active,SMB,Financial Services,Europe,United Kingdom,owner_05,Owner 05,Growth,Monthly,USD,2023-12-12,2023-12-12,84,2026-10-14,Partner,Flat
+acct_0595,Account 0595,Active,SMB,Logistics,Europe,Germany,owner_03,Owner 03,Enterprise,Monthly,USD,2024-02-21,2024-02-21,81,2026-11-01,Event,Expansion
+acct_0596,Account 0596,Active,SMB,Retail,North America,United States,owner_07,Owner 07,Starter,Monthly,USD,2023-12-25,2023-12-25,89,2026-10-28,Outbound,Contraction
+acct_0597,Account 0597,Active,Enterprise,Retail,APAC,Australia,owner_03,Owner 03,Growth,Monthly,USD,2025-04-04,2025-04-04,48,2026-10-22,Referral,Flat
+acct_0598,Account 0598,Active,SMB,Retail,APAC,Australia,owner_03,Owner 03,Growth,Annual,USD,2025-07-24,2025-07-24,95,2026-11-03,Referral,Expansion
+acct_0599,Account 0599,Churned,SMB,Software,North America,Canada,owner_02,Owner 02,Growth,Monthly,USD,2024-06-18,2024-06-18,23,2026-10-21,Partner,Churn
+acct_0600,Account 0600,Active,SMB,Manufacturing,Europe,Germany,owner_04,Owner 04,Starter,Annual,USD,2025-10-25,2025-10-25,47,2026-10-20,Outbound,Flat
+acct_0601,Account 0601,Active,Mid-Market,Healthcare,North America,United States,owner_07,Owner 07,Growth,Monthly,USD,2022-11-06,2022-11-06,77,2026-11-13,Inbound,Flat
+acct_0602,Account 0602,Active,SMB,Financial Services,Europe,United Kingdom,owner_06,Owner 06,Starter,Annual,USD,2024-08-01,2026-09-11,75,2026-11-13,Partner,New
+acct_0603,Account 0603,Active,Mid-Market,Manufacturing,APAC,Australia,owner_04,Owner 04,Enterprise,Annual,USD,2023-08-14,2026-09-23,63,2026-11-07,Outbound,New
+acct_0604,Account 0604,Active,SMB,Retail,APAC,Australia,owner_03,Owner 03,Starter,Monthly,USD,2023-10-22,2026-08-04,98,2026-11-05,Partner,New
+acct_0605,Account 0605,Active,Mid-Market,Education,Europe,Germany,owner_01,Owner 01,Starter,Annual,USD,2025-09-23,2025-09-23,82,2026-10-30,Outbound,Contraction
+acct_0606,Account 0606,Active,SMB,Manufacturing,Europe,United Kingdom,owner_01,Owner 01,Scale,Monthly,USD,2022-08-09,2022-08-09,41,2026-11-21,Event,Expansion
+acct_0607,Account 0607,Active,SMB,Professional Services,Europe,Germany,owner_02,Owner 02,Growth,Annual,USD,2025-09-14,2025-09-14,62,2026-10-02,Partner,Flat
+acct_0608,Account 0608,Active,SMB,Education,Europe,United Kingdom,owner_04,Owner 04,Growth,Annual,USD,2022-06-12,2022-06-12,62,2026-10-06,Inbound,Flat
+acct_0609,Account 0609,Active,Mid-Market,Education,APAC,Australia,owner_02,Owner 02,Scale,Monthly,USD,2023-09-29,2023-09-29,53,2026-10-21,Inbound,Expansion
+acct_0610,Account 0610,Active,Mid-Market,Financial Services,North America,United States,owner_05,Owner 05,Growth,Monthly,USD,2022-09-12,2022-09-12,59,2026-10-08,Referral,Flat
+acct_0611,Account 0611,Active,Mid-Market,Logistics,Europe,Germany,owner_04,Owner 04,Starter,Monthly,USD,2025-08-12,2025-08-12,59,2026-10-23,Outbound,Flat
+acct_0612,Account 0612,Active,Mid-Market,Software,Europe,United Kingdom,owner_07,Owner 07,Growth,Annual,USD,2022-11-09,2022-11-09,91,2026-11-04,Outbound,Flat
+acct_0613,Account 0613,Active,Enterprise,Healthcare,Europe,Germany,owner_06,Owner 06,Scale,Monthly,USD,2023-01-27,2023-01-27,53,2026-11-14,Event,Flat
+acct_0614,Account 0614,Active,Mid-Market,Financial Services,APAC,Australia,owner_04,Owner 04,Growth,Monthly,USD,2022-04-02,2022-04-02,80,2026-10-03,Outbound,Expansion
+acct_0615,Account 0615,Active,SMB,Retail,APAC,Australia,owner_08,Owner 08,Starter,Annual,USD,2026-05-07,2026-05-07,95,2026-10-10,Inbound,Flat
+acct_0616,Account 0616,Active,Enterprise,Education,Europe,United Kingdom,owner_05,Owner 05,Growth,Monthly,USD,2023-10-16,2023-10-16,75,2026-10-02,Outbound,Flat
+acct_0617,Account 0617,Active,Mid-Market,Financial Services,North America,Canada,owner_08,Owner 08,Enterprise,Monthly,USD,2024-08-30,2024-08-30,85,2026-10-01,Partner,Expansion
+acct_0618,Account 0618,Active,SMB,Professional Services,North America,United States,owner_03,Owner 03,Enterprise,Monthly,USD,2022-04-26,2022-04-26,66,2026-10-30,Event,Flat
+acct_0619,Account 0619,Active,SMB,Financial Services,Europe,United Kingdom,owner_08,Owner 08,Starter,Monthly,USD,2023-06-25,2023-06-25,84,2026-11-10,Partner,Flat
+acct_0620,Account 0620,Active,Mid-Market,Retail,North America,United States,owner_03,Owner 03,Growth,Monthly,USD,2022-04-29,2022-04-29,84,2026-10-29,Partner,Flat
+acct_0621,Account 0621,Active,Mid-Market,Education,Europe,Germany,owner_04,Owner 04,Growth,Annual,USD,2024-05-07,2024-05-07,51,2026-10-28,Referral,Flat
+acct_0622,Account 0622,Active,SMB,Logistics,APAC,Australia,owner_05,Owner 05,Growth,Monthly,USD,2024-02-09,2026-07-03,43,2026-10-27,Referral,New
+acct_0623,Account 0623,Active,SMB,Education,APAC,Australia,owner_05,Owner 05,Starter,Monthly,USD,2023-04-22,2023-04-22,39,2026-11-13,Outbound,Flat
+acct_0624,Account 0624,Active,Enterprise,Education,APAC,Australia,owner_05,Owner 05,Starter,Monthly,USD,2024-06-18,2024-06-18,61,2026-11-02,Referral,Flat
+acct_0625,Account 0625,Active,Mid-Market,Software,North America,Canada,owner_02,Owner 02,Starter,Monthly,USD,2023-01-26,2026-09-05,49,2026-10-27,Partner,New
+acct_0626,Account 0626,Active,Mid-Market,Education,Europe,Germany,owner_08,Owner 08,Growth,Annual,USD,2024-01-15,2024-01-15,36,2026-11-10,Event,Expansion
+acct_0627,Account 0627,Active,SMB,Software,APAC,Australia,owner_08,Owner 08,Enterprise,Annual,USD,2025-10-06,2025-10-06,89,2026-11-17,Outbound,Flat
+acct_0628,Account 0628,Active,SMB,Software,North America,United States,owner_03,Owner 03,Scale,Annual,USD,2024-09-28,2024-09-28,66,2026-10-07,Referral,Flat
+acct_0629,Account 0629,Active,Mid-Market,Financial Services,North America,United States,owner_04,Owner 04,Scale,Monthly,USD,2024-10-10,2024-10-10,39,2026-10-17,Referral,Flat
+acct_0630,Account 0630,Active,SMB,Education,APAC,Australia,owner_07,Owner 07,Starter,Monthly,USD,2026-03-01,2026-03-01,80,2026-10-02,Partner,Contraction
+acct_0631,Account 0631,Active,Mid-Market,Retail,North America,United States,owner_07,Owner 07,Scale,Annual,USD,2025-08-17,2025-08-17,64,2026-11-19,Event,Flat
+acct_0632,Account 0632,Active,Enterprise,Logistics,Europe,United Kingdom,owner_02,Owner 02,Scale,Annual,USD,2023-04-02,2023-04-02,42,2026-11-03,Event,Expansion
+acct_0633,Account 0633,Active,Mid-Market,Professional Services,North America,United States,owner_07,Owner 07,Starter,Monthly,USD,2022-04-08,2022-04-08,42,2026-10-28,Referral,Contraction
+acct_0634,Account 0634,Active,Mid-Market,Manufacturing,North America,Canada,owner_03,Owner 03,Growth,Monthly,USD,2022-06-11,2022-06-11,62,2026-10-25,Referral,Flat
+acct_0635,Account 0635,Active,SMB,Logistics,North America,Canada,owner_02,Owner 02,Scale,Monthly,USD,2022-08-20,2022-08-20,51,2026-10-06,Inbound,Flat
+acct_0636,Account 0636,Active,SMB,Logistics,APAC,Australia,owner_05,Owner 05,Starter,Monthly,USD,2023-03-31,2023-03-31,58,2026-10-28,Referral,Flat
+acct_0637,Account 0637,Active,Mid-Market,Financial Services,North America,Canada,owner_02,Owner 02,Starter,Annual,USD,2025-07-22,2025-07-22,85,2026-11-19,Outbound,Flat
+acct_0638,Account 0638,Active,Enterprise,Logistics,North America,United States,owner_07,Owner 07,Growth,Annual,USD,2022-02-20,2022-02-20,49,2026-11-20,Event,Flat
+acct_0639,Account 0639,Active,Mid-Market,Manufacturing,APAC,Australia,owner_08,Owner 08,Growth,Annual,USD,2026-01-14,2026-09-29,56,2026-10-23,Partner,New
+acct_0640,Account 0640,Active,SMB,Manufacturing,North America,United States,owner_03,Owner 03,Enterprise,Monthly,USD,2023-02-17,2023-02-17,76,2026-10-22,Inbound,Flat
+acct_0641,Account 0641,Active,Mid-Market,Healthcare,North America,Canada,owner_02,Owner 02,Growth,Monthly,USD,2026-05-28,2026-09-20,35,2026-10-22,Outbound,New
+acct_0642,Account 0642,Active,Enterprise,Education,APAC,Australia,owner_08,Owner 08,Scale,Monthly,USD,2022-10-10,2022-10-10,76,2026-11-16,Event,Flat
+acct_0643,Account 0643,Active,SMB,Manufacturing,North America,United States,owner_03,Owner 03,Starter,Monthly,USD,2024-01-30,2024-01-30,52,2026-10-31,Inbound,Flat
+acct_0644,Account 0644,Active,SMB,Manufacturing,Europe,Germany,owner_01,Owner 01,Growth,Annual,USD,2023-11-25,2023-11-25,44,2026-10-04,Partner,Flat
+acct_0645,Account 0645,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_05,Owner 05,Growth,Annual,USD,2025-02-11,2026-09-09,52,2026-10-07,Inbound,New
+acct_0646,Account 0646,Active,Mid-Market,Manufacturing,Europe,Germany,owner_01,Owner 01,Scale,Annual,USD,2023-07-09,2023-07-09,56,2026-10-08,Inbound,Flat
+acct_0647,Account 0647,Active,SMB,Logistics,North America,Canada,owner_03,Owner 03,Scale,Monthly,USD,2025-12-06,2025-12-06,39,2026-10-20,Inbound,Flat
+acct_0648,Account 0648,Active,SMB,Financial Services,APAC,Australia,owner_01,Owner 01,Starter,Annual,USD,2023-08-24,2023-08-24,37,2026-10-05,Outbound,Flat
+acct_0649,Account 0649,Active,SMB,Professional Services,Europe,United Kingdom,owner_03,Owner 03,Starter,Annual,USD,2024-03-07,2024-03-07,39,2026-10-17,Event,Flat
+acct_0650,Account 0650,Active,Mid-Market,Professional Services,Europe,United Kingdom,owner_07,Owner 07,Enterprise,Monthly,USD,2024-09-29,2024-09-29,42,2026-10-12,Event,Flat
+acct_0651,Account 0651,Active,SMB,Logistics,Europe,United Kingdom,owner_01,Owner 01,Scale,Monthly,USD,2024-08-19,2024-08-19,97,2026-10-28,Event,Flat
+acct_0652,Account 0652,Active,SMB,Financial Services,North America,Canada,owner_07,Owner 07,Scale,Annual,USD,2022-09-29,2022-09-29,36,2026-10-21,Referral,Flat
+acct_0653,Account 0653,Active,SMB,Retail,North America,Canada,owner_07,Owner 07,Starter,Annual,USD,2025-10-22,2025-10-22,97,2026-10-06,Outbound,Flat
+acct_0654,Account 0654,Active,SMB,Financial Services,North America,Canada,owner_08,Owner 08,Growth,Monthly,USD,2024-04-05,2024-04-05,45,2026-10-25,Event,Flat
+acct_0655,Account 0655,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_03,Owner 03,Enterprise,Annual,USD,2026-06-04,2026-06-04,89,2026-11-21,Inbound,Flat
+acct_0656,Account 0656,Active,Enterprise,Healthcare,Europe,United Kingdom,owner_05,Owner 05,Scale,Monthly,USD,2025-05-14,2025-05-14,53,2026-10-08,Partner,Flat
+acct_0657,Account 0657,Active,Mid-Market,Financial Services,North America,United States,owner_08,Owner 08,Growth,Annual,USD,2023-01-13,2023-01-13,60,2026-11-12,Outbound,Flat
+acct_0658,Account 0658,Active,Enterprise,Manufacturing,APAC,Australia,owner_07,Owner 07,Starter,Annual,USD,2022-02-17,2022-02-17,60,2026-10-19,Event,Flat
+acct_0659,Account 0659,Active,Mid-Market,Logistics,North America,Canada,owner_06,Owner 06,Growth,Annual,USD,2022-10-06,2022-10-06,50,2026-10-24,Referral,Flat
+acct_0660,Account 0660,Active,SMB,Healthcare,APAC,Australia,owner_01,Owner 01,Scale,Monthly,USD,2023-03-28,2023-03-28,78,2026-11-23,Partner,Expansion
+acct_0661,Account 0661,Active,Enterprise,Financial Services,Europe,Germany,owner_03,Owner 03,Starter,Monthly,USD,2025-11-03,2025-11-03,38,2026-10-25,Outbound,Contraction
+acct_0662,Account 0662,Active,Mid-Market,Education,North America,Canada,owner_03,Owner 03,Growth,Monthly,USD,2025-07-22,2025-07-22,75,2026-10-12,Partner,Contraction
+acct_0663,Account 0663,Active,Enterprise,Education,North America,Canada,owner_06,Owner 06,Starter,Monthly,USD,2022-08-29,2022-08-29,36,2026-10-30,Partner,Flat
+acct_0664,Account 0664,Active,Mid-Market,Retail,Europe,United Kingdom,owner_01,Owner 01,Enterprise,Annual,USD,2026-05-05,2026-08-20,55,2026-11-11,Event,New
+acct_0665,Account 0665,Active,SMB,Logistics,Europe,Germany,owner_06,Owner 06,Starter,Monthly,USD,2026-03-20,2026-03-20,83,2026-10-15,Inbound,Flat
+acct_0666,Account 0666,Active,SMB,Education,North America,United States,owner_07,Owner 07,Scale,Annual,USD,2022-12-20,2022-12-20,45,2026-11-06,Outbound,Flat
+acct_0667,Account 0667,Churned,Mid-Market,Retail,Europe,United Kingdom,owner_07,Owner 07,Growth,Monthly,USD,2025-04-28,2025-04-28,25,2026-10-03,Event,Churn
+acct_0668,Account 0668,Active,SMB,Healthcare,Europe,United Kingdom,owner_08,Owner 08,Growth,Monthly,USD,2025-02-23,2025-02-23,70,2026-10-17,Referral,Contraction
+acct_0669,Account 0669,Active,Enterprise,Logistics,North America,United States,owner_01,Owner 01,Enterprise,Annual,USD,2025-06-18,2025-06-18,58,2026-10-13,Inbound,Expansion
+acct_0670,Account 0670,Active,Mid-Market,Education,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2022-04-23,2022-04-23,48,2026-11-13,Partner,Flat
+acct_0671,Account 0671,Active,SMB,Retail,APAC,Australia,owner_07,Owner 07,Scale,Annual,USD,2024-08-16,2024-08-16,48,2026-10-31,Event,Flat
+acct_0672,Account 0672,Active,Enterprise,Healthcare,APAC,Australia,owner_04,Owner 04,Starter,Annual,USD,2025-08-18,2025-08-18,52,2026-11-21,Referral,Flat
+acct_0673,Account 0673,Active,Mid-Market,Professional Services,APAC,Australia,owner_01,Owner 01,Growth,Annual,USD,2023-03-30,2023-03-30,60,2026-11-13,Inbound,Contraction
+acct_0674,Account 0674,Active,Mid-Market,Education,North America,United States,owner_07,Owner 07,Scale,Annual,USD,2025-09-26,2025-09-26,87,2026-11-08,Inbound,Flat
+acct_0675,Account 0675,Active,Enterprise,Healthcare,North America,Canada,owner_05,Owner 05,Growth,Monthly,USD,2022-01-13,2022-01-13,94,2026-10-26,Partner,Contraction
+acct_0676,Account 0676,Active,Enterprise,Manufacturing,APAC,Australia,owner_08,Owner 08,Scale,Annual,USD,2024-12-06,2024-12-06,52,2026-10-15,Event,Flat
+acct_0677,Account 0677,Churned,Mid-Market,Manufacturing,Europe,Germany,owner_03,Owner 03,Scale,Annual,USD,2025-03-20,2025-03-20,17,2026-10-06,Event,Churn
+acct_0678,Account 0678,Active,SMB,Education,Europe,Germany,owner_03,Owner 03,Scale,Monthly,USD,2025-09-04,2025-09-04,95,2026-11-07,Partner,Contraction
+acct_0679,Account 0679,Active,SMB,Financial Services,Europe,United Kingdom,owner_03,Owner 03,Growth,Monthly,USD,2024-11-15,2026-07-28,51,2026-11-04,Outbound,New
+acct_0680,Account 0680,Active,Mid-Market,Healthcare,APAC,Australia,owner_01,Owner 01,Starter,Annual,USD,2025-03-21,2025-03-21,50,2026-10-22,Partner,Contraction
+acct_0681,Account 0681,Active,Mid-Market,Financial Services,APAC,Australia,owner_03,Owner 03,Starter,Monthly,USD,2024-02-24,2024-02-24,39,2026-10-24,Inbound,Contraction
+acct_0682,Account 0682,Active,Mid-Market,Healthcare,North America,Canada,owner_06,Owner 06,Growth,Monthly,USD,2025-09-27,2025-09-27,57,2026-11-16,Referral,Flat
+acct_0683,Account 0683,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_04,Owner 04,Starter,Annual,USD,2022-02-08,2022-02-08,91,2026-10-16,Partner,Flat
+acct_0684,Account 0684,Active,SMB,Software,Europe,United Kingdom,owner_07,Owner 07,Starter,Annual,USD,2025-01-19,2025-01-19,49,2026-10-05,Event,Flat
+acct_0685,Account 0685,Active,Mid-Market,Education,APAC,Australia,owner_05,Owner 05,Growth,Annual,USD,2023-05-23,2023-05-23,79,2026-11-05,Partner,Flat
+acct_0686,Account 0686,Active,SMB,Retail,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2025-01-04,2025-01-04,43,2026-11-01,Outbound,Contraction
+acct_0687,Account 0687,Active,Enterprise,Software,Europe,United Kingdom,owner_08,Owner 08,Growth,Monthly,USD,2023-11-17,2023-11-17,68,2026-10-04,Inbound,Flat
+acct_0688,Account 0688,Active,SMB,Healthcare,North America,United States,owner_04,Owner 04,Growth,Annual,USD,2025-04-13,2025-04-13,87,2026-11-17,Outbound,Expansion
+acct_0689,Account 0689,Active,SMB,Logistics,North America,United States,owner_03,Owner 03,Starter,Annual,USD,2024-06-13,2024-06-13,74,2026-10-02,Inbound,Contraction
+acct_0690,Account 0690,Active,SMB,Financial Services,APAC,Australia,owner_05,Owner 05,Scale,Monthly,USD,2025-01-20,2025-01-20,80,2026-10-07,Referral,Flat
+acct_0691,Account 0691,Active,SMB,Logistics,Europe,United Kingdom,owner_06,Owner 06,Starter,Annual,USD,2024-02-15,2024-02-15,78,2026-10-19,Outbound,Flat
+acct_0692,Account 0692,Active,SMB,Healthcare,Europe,United Kingdom,owner_04,Owner 04,Scale,Annual,USD,2023-01-24,2023-01-24,79,2026-10-10,Inbound,Flat
+acct_0693,Account 0693,Active,SMB,Logistics,North America,Canada,owner_08,Owner 08,Enterprise,Annual,USD,2023-05-11,2023-05-11,81,2026-11-23,Partner,Flat
+acct_0694,Account 0694,Active,Enterprise,Manufacturing,North America,United States,owner_01,Owner 01,Starter,Monthly,USD,2023-04-04,2023-04-04,69,2026-11-15,Outbound,Flat
+acct_0695,Account 0695,Active,SMB,Manufacturing,APAC,Australia,owner_02,Owner 02,Scale,Annual,USD,2023-01-07,2023-01-07,51,2026-10-04,Inbound,Expansion
+acct_0696,Account 0696,Active,Enterprise,Financial Services,Europe,United Kingdom,owner_04,Owner 04,Starter,Monthly,USD,2023-12-24,2023-12-24,53,2026-11-07,Outbound,Flat
+acct_0697,Account 0697,Active,Mid-Market,Software,APAC,Australia,owner_01,Owner 01,Starter,Monthly,USD,2023-04-28,2023-04-28,64,2026-11-03,Outbound,Contraction
+acct_0698,Account 0698,Active,SMB,Manufacturing,APAC,Australia,owner_04,Owner 04,Growth,Annual,USD,2025-09-15,2025-09-15,71,2026-10-13,Outbound,Flat
+acct_0699,Account 0699,Active,SMB,Professional Services,North America,United States,owner_03,Owner 03,Growth,Annual,USD,2026-06-17,2026-06-17,49,2026-10-08,Outbound,Flat
+acct_0700,Account 0700,Active,Mid-Market,Manufacturing,Europe,Germany,owner_02,Owner 02,Growth,Annual,USD,2022-10-23,2022-10-23,86,2026-11-11,Referral,Flat
+acct_0701,Account 0701,Active,SMB,Manufacturing,APAC,Australia,owner_01,Owner 01,Starter,Annual,USD,2023-12-15,2023-12-15,61,2026-10-01,Inbound,Flat
+acct_0702,Account 0702,Active,SMB,Logistics,APAC,Australia,owner_04,Owner 04,Starter,Annual,USD,2026-04-30,2026-04-30,53,2026-11-20,Outbound,Flat
+acct_0703,Account 0703,Active,Mid-Market,Financial Services,Europe,Germany,owner_05,Owner 05,Starter,Annual,USD,2025-11-17,2025-11-17,61,2026-11-04,Inbound,Flat
+acct_0704,Account 0704,Active,Enterprise,Professional Services,APAC,Australia,owner_01,Owner 01,Scale,Annual,USD,2023-12-22,2023-12-22,68,2026-10-02,Outbound,Flat
+acct_0705,Account 0705,Active,Mid-Market,Education,Europe,United Kingdom,owner_04,Owner 04,Growth,Monthly,USD,2023-03-01,2023-03-01,38,2026-11-23,Partner,Flat
+acct_0706,Account 0706,Active,SMB,Logistics,Europe,United Kingdom,owner_07,Owner 07,Enterprise,Monthly,USD,2024-02-06,2024-02-06,53,2026-10-02,Partner,Flat
+acct_0707,Account 0707,Active,Enterprise,Professional Services,North America,Canada,owner_04,Owner 04,Starter,Monthly,USD,2025-09-08,2025-09-08,37,2026-10-30,Inbound,Flat
+acct_0708,Account 0708,Active,SMB,Logistics,North America,United States,owner_02,Owner 02,Starter,Annual,USD,2022-12-02,2022-12-02,57,2026-10-02,Event,Flat
+acct_0709,Account 0709,Active,SMB,Logistics,Europe,United Kingdom,owner_04,Owner 04,Starter,Annual,USD,2023-05-25,2023-05-25,80,2026-10-05,Inbound,Flat
+acct_0710,Account 0710,Active,SMB,Retail,APAC,Australia,owner_06,Owner 06,Enterprise,Annual,USD,2023-01-03,2023-01-03,89,2026-10-11,Referral,Flat
+acct_0711,Account 0711,Active,SMB,Retail,North America,United States,owner_04,Owner 04,Scale,Annual,USD,2025-12-23,2025-12-23,76,2026-11-14,Event,Expansion
+acct_0712,Account 0712,Active,Mid-Market,Retail,APAC,Australia,owner_02,Owner 02,Starter,Annual,USD,2022-09-10,2022-09-10,77,2026-11-13,Event,Flat
+acct_0713,Account 0713,Active,SMB,Logistics,Europe,Germany,owner_04,Owner 04,Scale,Annual,USD,2023-01-15,2023-01-15,91,2026-10-04,Outbound,Flat
+acct_0714,Account 0714,Active,Mid-Market,Financial Services,North America,Canada,owner_03,Owner 03,Enterprise,Monthly,USD,2022-04-03,2022-04-03,80,2026-10-15,Outbound,Flat
+acct_0715,Account 0715,Active,SMB,Software,North America,United States,owner_08,Owner 08,Growth,Monthly,USD,2025-11-08,2025-11-08,77,2026-11-09,Outbound,Flat
+acct_0716,Account 0716,Active,Mid-Market,Retail,Europe,Germany,owner_05,Owner 05,Scale,Annual,USD,2024-11-14,2024-11-14,37,2026-11-02,Inbound,Flat
+acct_0717,Account 0717,Active,SMB,Retail,Europe,United Kingdom,owner_01,Owner 01,Enterprise,Monthly,USD,2026-02-06,2026-08-15,64,2026-10-12,Referral,New
+acct_0718,Account 0718,Active,Mid-Market,Financial Services,North America,United States,owner_07,Owner 07,Growth,Monthly,USD,2024-07-15,2024-07-15,71,2026-10-13,Event,Contraction
+acct_0719,Account 0719,Active,Mid-Market,Education,APAC,Australia,owner_08,Owner 08,Growth,Annual,USD,2023-08-26,2023-08-26,56,2026-11-04,Inbound,Flat
+acct_0720,Account 0720,Active,SMB,Manufacturing,Europe,Germany,owner_08,Owner 08,Enterprise,Annual,USD,2024-07-24,2024-07-24,41,2026-11-10,Referral,Flat
+acct_0721,Account 0721,Active,Mid-Market,Education,North America,Canada,owner_01,Owner 01,Starter,Annual,USD,2026-04-13,2026-04-13,50,2026-10-15,Event,Contraction
+acct_0722,Account 0722,Active,SMB,Manufacturing,North America,Canada,owner_07,Owner 07,Scale,Monthly,USD,2024-11-01,2024-11-01,87,2026-11-05,Referral,Expansion
+acct_0723,Account 0723,Active,Mid-Market,Professional Services,North America,Canada,owner_06,Owner 06,Enterprise,Monthly,USD,2023-02-12,2023-02-12,37,2026-11-14,Event,Expansion
+acct_0724,Account 0724,Active,SMB,Healthcare,North America,Canada,owner_01,Owner 01,Scale,Annual,USD,2023-02-22,2023-02-22,58,2026-10-19,Outbound,Flat
+acct_0725,Account 0725,Active,SMB,Professional Services,APAC,Australia,owner_04,Owner 04,Growth,Monthly,USD,2026-06-27,2026-06-27,56,2026-11-06,Referral,Flat
+acct_0726,Account 0726,Active,SMB,Healthcare,North America,Canada,owner_02,Owner 02,Scale,Monthly,USD,2023-07-29,2023-07-29,52,2026-11-23,Partner,Expansion
+acct_0727,Account 0727,Active,Mid-Market,Retail,North America,Canada,owner_01,Owner 01,Scale,Monthly,USD,2023-08-13,2023-08-13,87,2026-10-13,Event,Expansion
+acct_0728,Account 0728,Active,Mid-Market,Professional Services,Europe,United Kingdom,owner_01,Owner 01,Growth,Monthly,USD,2025-11-26,2025-11-26,86,2026-10-11,Event,Flat
+acct_0729,Account 0729,Active,SMB,Professional Services,Europe,Germany,owner_05,Owner 05,Enterprise,Annual,USD,2024-02-10,2024-02-10,49,2026-11-08,Partner,Expansion
+acct_0730,Account 0730,Churned,Mid-Market,Manufacturing,North America,Canada,owner_07,Owner 07,Growth,Annual,USD,2022-02-13,2022-02-13,19,2026-11-13,Event,Churn
+acct_0731,Account 0731,Active,Mid-Market,Education,North America,Canada,owner_05,Owner 05,Enterprise,Monthly,USD,2022-08-17,2022-08-17,83,2026-10-15,Outbound,Flat
+acct_0732,Account 0732,Active,SMB,Logistics,Europe,Germany,owner_05,Owner 05,Scale,Monthly,USD,2022-08-14,2022-08-14,88,2026-10-15,Event,Flat
+acct_0733,Account 0733,Active,Enterprise,Healthcare,APAC,Australia,owner_03,Owner 03,Growth,Annual,USD,2023-05-08,2023-05-08,58,2026-10-15,Event,Flat
+acct_0734,Account 0734,Active,SMB,Professional Services,North America,United States,owner_04,Owner 04,Starter,Monthly,USD,2025-09-21,2025-09-21,59,2026-11-21,Outbound,Flat
+acct_0735,Account 0735,Active,SMB,Software,Europe,Germany,owner_08,Owner 08,Growth,Annual,USD,2024-09-12,2026-07-01,54,2026-10-24,Partner,New
+acct_0736,Account 0736,Active,SMB,Logistics,APAC,Australia,owner_08,Owner 08,Starter,Annual,USD,2025-11-24,2025-11-24,89,2026-11-17,Partner,Flat
+acct_0737,Account 0737,Active,Mid-Market,Retail,Europe,Germany,owner_04,Owner 04,Starter,Monthly,USD,2025-07-12,2025-07-12,61,2026-10-30,Referral,Contraction
+acct_0738,Account 0738,Active,Mid-Market,Software,APAC,Australia,owner_01,Owner 01,Scale,Annual,USD,2023-03-27,2023-03-27,45,2026-11-14,Partner,Flat
+acct_0739,Account 0739,Active,SMB,Logistics,APAC,Australia,owner_06,Owner 06,Growth,Annual,USD,2026-05-20,2026-05-20,73,2026-11-22,Outbound,Flat
+acct_0740,Account 0740,Active,Enterprise,Healthcare,North America,United States,owner_03,Owner 03,Growth,Monthly,USD,2023-02-16,2023-02-16,85,2026-10-20,Referral,Flat
+acct_0741,Account 0741,Active,Mid-Market,Manufacturing,Europe,Germany,owner_03,Owner 03,Enterprise,Annual,USD,2025-11-28,2025-11-28,70,2026-10-27,Referral,Flat
+acct_0742,Account 0742,Churned,SMB,Education,North America,Canada,owner_01,Owner 01,Growth,Monthly,USD,2022-04-02,2022-04-02,39,2026-10-17,Outbound,Churn
+acct_0743,Account 0743,Active,Enterprise,Software,Europe,United Kingdom,owner_02,Owner 02,Growth,Annual,USD,2023-12-07,2023-12-07,45,2026-10-06,Outbound,Expansion
+acct_0744,Account 0744,Active,SMB,Retail,APAC,Australia,owner_06,Owner 06,Growth,Monthly,USD,2026-05-31,2026-05-31,43,2026-11-19,Partner,Flat
+acct_0745,Account 0745,Active,SMB,Logistics,North America,United States,owner_02,Owner 02,Enterprise,Monthly,USD,2025-08-19,2025-08-19,41,2026-11-19,Outbound,Expansion
+acct_0746,Account 0746,Churned,Mid-Market,Retail,North America,United States,owner_03,Owner 03,Scale,Monthly,USD,2022-09-10,2022-09-10,27,2026-11-21,Event,Churn
+acct_0747,Account 0747,Active,Mid-Market,Financial Services,APAC,Australia,owner_01,Owner 01,Growth,Annual,USD,2023-10-10,2023-10-10,56,2026-10-27,Inbound,Flat
+acct_0748,Account 0748,Active,Enterprise,Manufacturing,Europe,United Kingdom,owner_05,Owner 05,Starter,Annual,USD,2025-09-27,2025-09-27,64,2026-10-10,Event,Flat
+acct_0749,Account 0749,Active,Mid-Market,Financial Services,APAC,Australia,owner_05,Owner 05,Enterprise,Annual,USD,2025-11-06,2025-11-06,93,2026-11-03,Inbound,Flat
+acct_0750,Account 0750,Active,Mid-Market,Education,Europe,Germany,owner_08,Owner 08,Scale,Monthly,USD,2025-12-26,2025-12-26,78,2026-11-16,Event,Flat
+acct_0751,Account 0751,Active,Mid-Market,Manufacturing,Europe,United Kingdom,owner_07,Owner 07,Growth,Monthly,USD,2024-08-02,2026-08-12,88,2026-11-14,Partner,New
+acct_0752,Account 0752,Active,SMB,Professional Services,Europe,United Kingdom,owner_04,Owner 04,Starter,Monthly,USD,2024-12-08,2024-12-08,84,2026-11-22,Partner,Flat
+acct_0753,Account 0753,Active,Mid-Market,Software,APAC,Australia,owner_08,Owner 08,Starter,Monthly,USD,2024-10-16,2024-10-16,44,2026-10-12,Outbound,Flat
+acct_0754,Account 0754,Active,Enterprise,Education,North America,Canada,owner_02,Owner 02,Starter,Monthly,USD,2025-06-30,2025-06-30,40,2026-11-17,Partner,Contraction
+acct_0755,Account 0755,Active,Mid-Market,Software,Europe,Germany,owner_01,Owner 01,Growth,Monthly,USD,2024-02-01,2026-08-24,82,2026-10-20,Inbound,New
+acct_0756,Account 0756,Active,SMB,Software,Europe,United Kingdom,owner_03,Owner 03,Scale,Monthly,USD,2026-02-22,2026-02-22,41,2026-10-21,Partner,Expansion
+acct_0757,Account 0757,Active,Mid-Market,Education,Europe,United Kingdom,owner_01,Owner 01,Growth,Annual,USD,2025-04-01,2025-04-01,91,2026-10-29,Referral,Flat
+acct_0758,Account 0758,Active,SMB,Education,Europe,United Kingdom,owner_03,Owner 03,Scale,Monthly,USD,2025-01-07,2025-01-07,39,2026-10-21,Referral,Flat
+acct_0759,Account 0759,Active,Enterprise,Logistics,North America,Canada,owner_07,Owner 07,Enterprise,Annual,USD,2025-01-14,2025-01-14,96,2026-10-18,Outbound,Flat
+acct_0760,Account 0760,Churned,SMB,Manufacturing,North America,Canada,owner_07,Owner 07,Scale,Monthly,USD,2024-03-18,2024-03-18,45,2026-10-09,Inbound,Churn
+acct_0761,Account 0761,Active,Mid-Market,Education,North America,Canada,owner_06,Owner 06,Starter,Monthly,USD,2025-03-18,2025-03-18,77,2026-10-05,Event,Flat
+acct_0762,Account 0762,Active,Mid-Market,Professional Services,Europe,Germany,owner_08,Owner 08,Scale,Monthly,USD,2023-04-07,2023-04-07,58,2026-10-18,Referral,Flat
+acct_0763,Account 0763,Active,SMB,Financial Services,Europe,Germany,owner_04,Owner 04,Growth,Monthly,USD,2026-05-03,2026-05-03,48,2026-10-24,Partner,Flat
+acct_0764,Account 0764,Active,SMB,Manufacturing,North America,Canada,owner_06,Owner 06,Starter,Monthly,USD,2023-06-15,2023-06-15,91,2026-10-14,Partner,Contraction
+acct_0765,Account 0765,Active,SMB,Software,APAC,Australia,owner_05,Owner 05,Starter,Monthly,USD,2023-07-29,2023-07-29,77,2026-10-14,Partner,Contraction
+acct_0766,Account 0766,Active,SMB,Software,North America,United States,owner_07,Owner 07,Scale,Annual,USD,2024-06-28,2024-06-28,76,2026-10-30,Event,Flat
+acct_0767,Account 0767,Active,Enterprise,Retail,Europe,United Kingdom,owner_08,Owner 08,Enterprise,Monthly,USD,2024-05-10,2024-05-10,36,2026-10-02,Event,Flat
+acct_0768,Account 0768,Active,Enterprise,Financial Services,APAC,Australia,owner_07,Owner 07,Scale,Monthly,USD,2026-04-22,2026-04-22,86,2026-11-15,Outbound,Expansion
+acct_0769,Account 0769,Active,Mid-Market,Professional Services,Europe,Germany,owner_07,Owner 07,Enterprise,Monthly,USD,2026-01-24,2026-01-24,94,2026-10-08,Outbound,Flat
+acct_0770,Account 0770,Churned,SMB,Professional Services,North America,United States,owner_06,Owner 06,Scale,Annual,USD,2023-03-28,2023-03-28,29,2026-10-12,Inbound,Churn
+acct_0771,Account 0771,Active,SMB,Professional Services,Europe,Germany,owner_02,Owner 02,Starter,Monthly,USD,2022-08-07,2022-08-07,90,2026-11-07,Event,Contraction
+acct_0772,Account 0772,Active,SMB,Logistics,Europe,Germany,owner_08,Owner 08,Growth,Annual,USD,2024-12-30,2024-12-30,76,2026-10-01,Event,Flat
+acct_0773,Account 0773,Active,SMB,Professional Services,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2024-05-07,2024-05-07,53,2026-11-17,Partner,Contraction
+acct_0774,Account 0774,Active,Mid-Market,Retail,APAC,Australia,owner_06,Owner 06,Enterprise,Monthly,USD,2024-10-12,2024-10-12,76,2026-11-16,Inbound,Expansion
+acct_0775,Account 0775,Active,Mid-Market,Manufacturing,North America,Canada,owner_02,Owner 02,Enterprise,Annual,USD,2024-04-25,2024-04-25,77,2026-11-04,Event,Flat
+acct_0776,Account 0776,Active,SMB,Professional Services,Europe,Germany,owner_02,Owner 02,Enterprise,Annual,USD,2025-02-28,2025-02-28,52,2026-10-09,Inbound,Expansion
+acct_0777,Account 0777,Active,Enterprise,Healthcare,APAC,Australia,owner_01,Owner 01,Scale,Annual,USD,2024-12-20,2026-07-04,67,2026-10-16,Partner,New
+acct_0778,Account 0778,Active,SMB,Retail,North America,United States,owner_01,Owner 01,Enterprise,Monthly,USD,2023-04-25,2023-04-25,95,2026-10-23,Referral,Expansion
+acct_0779,Account 0779,Active,SMB,Healthcare,APAC,Australia,owner_03,Owner 03,Growth,Annual,USD,2024-12-27,2024-12-27,85,2026-11-21,Referral,Contraction
+acct_0780,Account 0780,Active,SMB,Software,North America,United States,owner_05,Owner 05,Scale,Annual,USD,2023-12-26,2023-12-26,51,2026-11-23,Referral,Expansion
+acct_0781,Account 0781,Active,Mid-Market,Software,APAC,Australia,owner_04,Owner 04,Growth,Annual,USD,2025-02-11,2026-08-18,64,2026-11-17,Inbound,New
+acct_0782,Account 0782,Active,Mid-Market,Manufacturing,North America,United States,owner_04,Owner 04,Scale,Annual,USD,2024-02-07,2024-02-07,87,2026-10-13,Inbound,Expansion
+acct_0783,Account 0783,Active,SMB,Financial Services,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2023-04-21,2023-04-21,50,2026-10-11,Outbound,Contraction
+acct_0784,Account 0784,Active,Mid-Market,Education,North America,Canada,owner_03,Owner 03,Growth,Annual,USD,2023-01-12,2023-01-12,69,2026-10-25,Event,Flat
+acct_0785,Account 0785,Active,SMB,Healthcare,North America,Canada,owner_08,Owner 08,Scale,Annual,USD,2026-06-06,2026-06-06,44,2026-10-07,Event,Flat
+acct_0786,Account 0786,Active,Mid-Market,Healthcare,APAC,Australia,owner_06,Owner 06,Growth,Monthly,USD,2024-06-17,2024-06-17,75,2026-10-02,Outbound,Flat
+acct_0787,Account 0787,Active,Mid-Market,Education,Europe,Germany,owner_07,Owner 07,Enterprise,Annual,USD,2026-05-09,2026-05-09,87,2026-10-01,Event,Flat
+acct_0788,Account 0788,Active,Enterprise,Retail,North America,Canada,owner_02,Owner 02,Scale,Monthly,USD,2023-02-24,2023-02-24,85,2026-11-15,Event,Flat
+acct_0789,Account 0789,Active,Enterprise,Retail,North America,United States,owner_06,Owner 06,Growth,Monthly,USD,2025-01-21,2025-01-21,50,2026-11-23,Partner,Expansion
+acct_0790,Account 0790,Active,Mid-Market,Professional Services,Europe,Germany,owner_01,Owner 01,Scale,Annual,USD,2025-04-05,2025-04-05,51,2026-11-11,Inbound,Flat
+acct_0791,Account 0791,Active,Mid-Market,Financial Services,Europe,United Kingdom,owner_03,Owner 03,Growth,Monthly,USD,2024-01-28,2024-01-28,96,2026-10-05,Partner,Flat
+acct_0792,Account 0792,Active,SMB,Education,Europe,Germany,owner_03,Owner 03,Starter,Monthly,USD,2026-01-27,2026-01-27,38,2026-10-23,Event,Flat
+acct_0793,Account 0793,Active,Mid-Market,Logistics,North America,United States,owner_04,Owner 04,Growth,Monthly,USD,2024-08-05,2024-08-05,35,2026-11-04,Outbound,Flat
+acct_0794,Account 0794,Active,SMB,Financial Services,North America,Canada,owner_05,Owner 05,Growth,Annual,USD,2022-08-07,2022-08-07,83,2026-10-18,Event,Flat
+acct_0795,Account 0795,Churned,Mid-Market,Retail,North America,United States,owner_06,Owner 06,Growth,Monthly,USD,2026-01-10,2026-01-10,14,2026-10-27,Inbound,Churn
+acct_0796,Account 0796,Active,Enterprise,Retail,Europe,United Kingdom,owner_01,Owner 01,Starter,Annual,USD,2023-11-10,2023-11-10,59,2026-11-11,Referral,Contraction
+acct_0797,Account 0797,Active,Mid-Market,Healthcare,APAC,Australia,owner_06,Owner 06,Scale,Monthly,USD,2026-02-24,2026-02-24,48,2026-11-02,Outbound,Flat
+acct_0798,Account 0798,Active,Enterprise,Education,North America,United States,owner_01,Owner 01,Growth,Monthly,USD,2025-02-15,2025-02-15,95,2026-10-23,Inbound,Expansion
+acct_0799,Account 0799,Churned,SMB,Manufacturing,North America,United States,owner_06,Owner 06,Scale,Monthly,USD,2025-04-02,2025-04-02,23,2026-10-06,Referral,Churn
+acct_0800,Account 0800,Active,Mid-Market,Professional Services,APAC,Australia,owner_01,Owner 01,Growth,Monthly,USD,2022-12-01,2022-12-01,61,2026-10-05,Inbound,Flat
+acct_0801,Account 0801,Active,Mid-Market,Professional Services,North America,United States,owner_08,Owner 08,Scale,Monthly,USD,2024-01-14,2024-01-14,79,2026-10-18,Inbound,Flat
+acct_0802,Account 0802,Active,SMB,Education,APAC,Australia,owner_08,Owner 08,Scale,Monthly,USD,2023-03-24,2023-03-24,48,2026-10-11,Outbound,Flat
+acct_0803,Account 0803,Active,SMB,Logistics,APAC,Australia,owner_04,Owner 04,Scale,Monthly,USD,2025-06-25,2025-06-25,51,2026-11-17,Referral,Flat
+acct_0804,Account 0804,Active,SMB,Professional Services,Europe,United Kingdom,owner_05,Owner 05,Scale,Monthly,USD,2025-12-31,2026-08-31,93,2026-11-15,Outbound,New
+acct_0805,Account 0805,Active,SMB,Healthcare,North America,Canada,owner_02,Owner 02,Starter,Annual,USD,2022-09-15,2022-09-15,72,2026-10-12,Referral,Contraction
+acct_0806,Account 0806,Active,SMB,Manufacturing,North America,Canada,owner_02,Owner 02,Growth,Annual,USD,2023-10-29,2023-10-29,51,2026-10-14,Inbound,Flat
+acct_0807,Account 0807,Active,SMB,Software,Europe,United Kingdom,owner_08,Owner 08,Growth,Annual,USD,2022-01-26,2022-01-26,93,2026-11-12,Inbound,Flat
+acct_0808,Account 0808,Active,SMB,Logistics,Europe,United Kingdom,owner_08,Owner 08,Starter,Annual,USD,2024-02-14,2024-02-14,79,2026-11-15,Referral,Flat
+acct_0809,Account 0809,Active,Mid-Market,Software,Europe,United Kingdom,owner_02,Owner 02,Starter,Annual,USD,2023-11-02,2023-11-02,54,2026-11-09,Partner,Flat
+acct_0810,Account 0810,Active,SMB,Education,APAC,Australia,owner_04,Owner 04,Starter,Monthly,USD,2023-09-01,2023-09-01,81,2026-11-14,Referral,Flat
+acct_0811,Account 0811,Active,Mid-Market,Retail,North America,Canada,owner_02,Owner 02,Enterprise,Monthly,USD,2022-11-10,2022-11-10,84,2026-11-21,Event,Expansion
+acct_0812,Account 0812,Churned,SMB,Professional Services,North America,United States,owner_04,Owner 04,Growth,Annual,USD,2024-10-31,2024-10-31,37,2026-11-17,Partner,Churn
+acct_0813,Account 0813,Active,SMB,Financial Services,North America,United States,owner_05,Owner 05,Growth,Monthly,USD,2025-08-18,2025-08-18,66,2026-10-27,Outbound,Flat
+acct_0814,Account 0814,Active,Mid-Market,Software,APAC,Australia,owner_08,Owner 08,Enterprise,Monthly,USD,2023-10-15,2023-10-15,97,2026-10-11,Outbound,Flat
+acct_0815,Account 0815,Active,SMB,Education,Europe,United Kingdom,owner_06,Owner 06,Starter,Annual,USD,2025-06-10,2025-06-10,90,2026-10-12,Referral,Flat
+acct_0816,Account 0816,Active,SMB,Financial Services,North America,United States,owner_07,Owner 07,Scale,Monthly,USD,2022-12-27,2022-12-27,85,2026-11-20,Outbound,Flat
+acct_0817,Account 0817,Active,SMB,Financial Services,North America,United States,owner_04,Owner 04,Scale,Annual,USD,2026-04-16,2026-04-16,38,2026-10-11,Outbound,Flat
+acct_0818,Account 0818,Active,Enterprise,Healthcare,APAC,Australia,owner_03,Owner 03,Scale,Annual,USD,2024-01-23,2026-07-07,87,2026-11-19,Inbound,New
+acct_0819,Account 0819,Active,Mid-Market,Logistics,North America,Canada,owner_04,Owner 04,Growth,Monthly,USD,2025-06-10,2025-06-10,93,2026-10-10,Inbound,Flat
+acct_0820,Account 0820,Active,Mid-Market,Healthcare,North America,United States,owner_02,Owner 02,Growth,Monthly,USD,2026-06-04,2026-06-04,41,2026-11-05,Referral,Expansion
+acct_0821,Account 0821,Active,Mid-Market,Logistics,North America,Canada,owner_02,Owner 02,Growth,Annual,USD,2026-05-08,2026-05-08,72,2026-10-18,Inbound,Flat
+acct_0822,Account 0822,Active,SMB,Financial Services,Europe,Germany,owner_06,Owner 06,Scale,Monthly,USD,2024-10-12,2024-10-12,83,2026-11-17,Inbound,Flat
+acct_0823,Account 0823,Active,Mid-Market,Healthcare,Europe,Germany,owner_07,Owner 07,Scale,Annual,USD,2026-04-28,2026-04-28,50,2026-10-10,Referral,Flat
+acct_0824,Account 0824,Churned,Mid-Market,Software,North America,Canada,owner_03,Owner 03,Scale,Annual,USD,2022-08-31,2022-08-31,25,2026-10-26,Inbound,Churn
+acct_0825,Account 0825,Active,SMB,Logistics,North America,United States,owner_07,Owner 07,Scale,Annual,USD,2023-06-18,2023-06-18,52,2026-10-08,Outbound,Flat
+acct_0826,Account 0826,Active,SMB,Education,Europe,Germany,owner_07,Owner 07,Starter,Monthly,USD,2025-12-26,2025-12-26,55,2026-10-20,Event,Flat
+acct_0827,Account 0827,Active,Enterprise,Healthcare,APAC,Australia,owner_07,Owner 07,Scale,Monthly,USD,2024-12-03,2024-12-03,65,2026-10-05,Event,Flat
+acct_0828,Account 0828,Active,Mid-Market,Professional Services,North America,United States,owner_01,Owner 01,Scale,Monthly,USD,2026-01-22,2026-01-22,85,2026-11-17,Event,Flat
+acct_0829,Account 0829,Churned,SMB,Logistics,North America,United States,owner_07,Owner 07,Growth,Monthly,USD,2024-03-19,2024-03-19,42,2026-10-04,Outbound,Churn
+acct_0830,Account 0830,Active,SMB,Education,North America,Canada,owner_05,Owner 05,Enterprise,Monthly,USD,2022-02-24,2022-02-24,70,2026-11-19,Referral,Flat
+acct_0831,Account 0831,Active,SMB,Manufacturing,Europe,Germany,owner_05,Owner 05,Growth,Monthly,USD,2025-01-31,2025-01-31,54,2026-10-31,Outbound,Expansion
+acct_0832,Account 0832,Active,Enterprise,Financial Services,North America,Canada,owner_03,Owner 03,Scale,Monthly,USD,2022-10-01,2022-10-01,49,2026-11-09,Partner,Flat
+acct_0833,Account 0833,Active,Mid-Market,Financial Services,Europe,United Kingdom,owner_08,Owner 08,Scale,Monthly,USD,2022-04-30,2022-04-30,68,2026-11-13,Outbound,Flat
+acct_0834,Account 0834,Active,Enterprise,Financial Services,North America,Canada,owner_06,Owner 06,Growth,Annual,USD,2026-01-04,2026-01-04,61,2026-10-14,Outbound,Flat
+acct_0835,Account 0835,Active,SMB,Education,Europe,United Kingdom,owner_08,Owner 08,Growth,Monthly,USD,2026-03-31,2026-03-31,36,2026-10-02,Outbound,Flat
+acct_0836,Account 0836,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_05,Owner 05,Enterprise,Annual,USD,2024-12-19,2024-12-19,63,2026-10-30,Partner,Flat
+acct_0837,Account 0837,Active,Mid-Market,Professional Services,North America,Canada,owner_04,Owner 04,Growth,Monthly,USD,2022-01-30,2022-01-30,66,2026-10-20,Inbound,Flat
+acct_0838,Account 0838,Active,Enterprise,Professional Services,Europe,Germany,owner_03,Owner 03,Enterprise,Monthly,USD,2022-09-27,2022-09-27,38,2026-11-14,Partner,Flat
+acct_0839,Account 0839,Active,Enterprise,Manufacturing,Europe,United Kingdom,owner_07,Owner 07,Starter,Monthly,USD,2023-09-05,2023-09-05,54,2026-11-07,Referral,Contraction
+acct_0840,Account 0840,Active,Enterprise,Healthcare,North America,United States,owner_08,Owner 08,Growth,Monthly,USD,2026-03-07,2026-03-07,90,2026-11-17,Referral,Expansion
+acct_0841,Account 0841,Active,SMB,Manufacturing,Europe,United Kingdom,owner_07,Owner 07,Starter,Annual,USD,2024-06-04,2024-06-04,69,2026-11-18,Inbound,Flat
+acct_0842,Account 0842,Active,Enterprise,Education,Europe,United Kingdom,owner_01,Owner 01,Starter,Monthly,USD,2024-09-09,2024-09-09,52,2026-10-14,Outbound,Flat
+acct_0843,Account 0843,Active,Enterprise,Education,Europe,Germany,owner_02,Owner 02,Scale,Monthly,USD,2022-08-22,2022-08-22,66,2026-10-24,Referral,Flat
+acct_0844,Account 0844,Active,Enterprise,Education,Europe,United Kingdom,owner_05,Owner 05,Scale,Annual,USD,2023-12-13,2023-12-13,52,2026-10-25,Outbound,Expansion
+acct_0845,Account 0845,Active,SMB,Healthcare,North America,United States,owner_03,Owner 03,Enterprise,Annual,USD,2025-02-20,2025-02-20,71,2026-10-03,Partner,Expansion
+acct_0846,Account 0846,Active,SMB,Financial Services,North America,Canada,owner_08,Owner 08,Starter,Annual,USD,2023-12-20,2023-12-20,64,2026-10-23,Inbound,Flat
+acct_0847,Account 0847,Active,SMB,Professional Services,Europe,Germany,owner_02,Owner 02,Growth,Monthly,USD,2025-09-14,2025-09-14,83,2026-10-27,Partner,Flat
+acct_0848,Account 0848,Active,SMB,Professional Services,North America,Canada,owner_03,Owner 03,Growth,Monthly,USD,2024-12-15,2024-12-15,64,2026-11-23,Event,Flat
+acct_0849,Account 0849,Active,SMB,Manufacturing,North America,United States,owner_01,Owner 01,Starter,Annual,USD,2022-12-02,2022-12-02,55,2026-10-12,Referral,Flat
+acct_0850,Account 0850,Active,Mid-Market,Retail,North America,United States,owner_07,Owner 07,Growth,Annual,USD,2025-12-02,2025-12-02,69,2026-10-19,Event,Flat
+acct_0851,Account 0851,Active,Enterprise,Education,Europe,Germany,owner_05,Owner 05,Enterprise,Monthly,USD,2026-06-29,2026-06-29,36,2026-10-11,Outbound,Expansion
+acct_0852,Account 0852,Active,SMB,Retail,North America,Canada,owner_04,Owner 04,Growth,Monthly,USD,2026-06-30,2026-06-30,54,2026-11-09,Partner,Expansion
+acct_0853,Account 0853,Active,Enterprise,Professional Services,APAC,Australia,owner_06,Owner 06,Starter,Monthly,USD,2022-06-05,2022-06-05,70,2026-11-11,Event,Flat
+acct_0854,Account 0854,Churned,SMB,Software,APAC,Australia,owner_05,Owner 05,Growth,Monthly,USD,2026-03-13,2026-03-13,43,2026-10-08,Event,Churn
+acct_0855,Account 0855,Active,Mid-Market,Healthcare,APAC,Australia,owner_04,Owner 04,Scale,Annual,USD,2023-07-31,2023-07-31,72,2026-10-07,Event,Flat
+acct_0856,Account 0856,Churned,SMB,Retail,Europe,Germany,owner_07,Owner 07,Starter,Annual,USD,2026-05-10,2026-05-10,44,2026-11-07,Inbound,Churn
+acct_0857,Account 0857,Active,Mid-Market,Retail,Europe,United Kingdom,owner_02,Owner 02,Growth,Monthly,USD,2023-02-14,2023-02-14,40,2026-10-13,Inbound,Flat
+acct_0858,Account 0858,Active,SMB,Healthcare,APAC,Australia,owner_02,Owner 02,Scale,Monthly,USD,2024-03-29,2024-03-29,96,2026-10-06,Partner,Flat
+acct_0859,Account 0859,Active,SMB,Manufacturing,North America,Canada,owner_08,Owner 08,Enterprise,Annual,USD,2022-07-20,2022-07-20,44,2026-10-27,Inbound,Expansion
+acct_0860,Account 0860,Active,Mid-Market,Retail,Europe,United Kingdom,owner_02,Owner 02,Starter,Annual,USD,2023-11-29,2023-11-29,64,2026-11-12,Partner,Flat
+acct_0861,Account 0861,Active,Mid-Market,Education,Europe,United Kingdom,owner_02,Owner 02,Growth,Monthly,USD,2022-05-28,2022-05-28,62,2026-10-20,Inbound,Flat
+acct_0862,Account 0862,Active,Mid-Market,Retail,North America,United States,owner_08,Owner 08,Scale,Annual,USD,2025-08-15,2025-08-15,72,2026-11-17,Event,Expansion
+acct_0863,Account 0863,Active,SMB,Logistics,Europe,Germany,owner_01,Owner 01,Scale,Monthly,USD,2022-07-10,2022-07-10,77,2026-10-20,Inbound,Flat
+acct_0864,Account 0864,Active,SMB,Retail,North America,Canada,owner_03,Owner 03,Scale,Monthly,USD,2026-03-17,2026-03-17,92,2026-11-19,Inbound,Flat
+acct_0865,Account 0865,Active,Mid-Market,Manufacturing,APAC,Australia,owner_07,Owner 07,Starter,Monthly,USD,2023-11-05,2023-11-05,94,2026-10-20,Event,Flat
+acct_0866,Account 0866,Active,SMB,Financial Services,North America,Canada,owner_02,Owner 02,Scale,Annual,USD,2024-03-01,2024-03-01,36,2026-10-30,Inbound,Flat
+acct_0867,Account 0867,Active,SMB,Healthcare,North America,United States,owner_02,Owner 02,Growth,Annual,USD,2022-06-06,2022-06-06,85,2026-10-03,Event,Flat
+acct_0868,Account 0868,Active,Mid-Market,Software,North America,United States,owner_03,Owner 03,Growth,Monthly,USD,2026-03-18,2026-03-18,58,2026-11-10,Partner,Flat
+acct_0869,Account 0869,Active,SMB,Professional Services,North America,Canada,owner_06,Owner 06,Growth,Monthly,USD,2023-05-13,2023-05-13,37,2026-10-25,Event,Flat
+acct_0870,Account 0870,Active,Mid-Market,Professional Services,North America,Canada,owner_03,Owner 03,Starter,Monthly,USD,2023-04-25,2023-04-25,87,2026-10-12,Outbound,Flat
+acct_0871,Account 0871,Active,Mid-Market,Logistics,North America,United States,owner_04,Owner 04,Scale,Annual,USD,2026-01-27,2026-08-19,61,2026-11-04,Partner,New
+acct_0872,Account 0872,Active,SMB,Professional Services,Europe,United Kingdom,owner_05,Owner 05,Starter,Monthly,USD,2024-04-24,2024-04-24,40,2026-10-10,Inbound,Flat
+acct_0873,Account 0873,Active,Mid-Market,Education,North America,United States,owner_02,Owner 02,Growth,Annual,USD,2024-12-25,2024-12-25,73,2026-11-01,Event,Flat
+acct_0874,Account 0874,Active,Enterprise,Manufacturing,North America,Canada,owner_01,Owner 01,Growth,Annual,USD,2022-09-06,2022-09-06,92,2026-10-26,Partner,Flat
+acct_0875,Account 0875,Active,Mid-Market,Financial Services,Europe,Germany,owner_05,Owner 05,Enterprise,Monthly,USD,2024-12-18,2024-12-18,78,2026-11-10,Event,Flat
+acct_0876,Account 0876,Active,Mid-Market,Retail,Europe,Germany,owner_07,Owner 07,Growth,Monthly,USD,2025-01-19,2025-01-19,98,2026-10-18,Event,Expansion
+acct_0877,Account 0877,Active,Enterprise,Retail,North America,United States,owner_08,Owner 08,Growth,Annual,USD,2023-07-29,2023-07-29,96,2026-11-01,Inbound,Flat
+acct_0878,Account 0878,Active,SMB,Professional Services,APAC,Australia,owner_03,Owner 03,Starter,Annual,USD,2024-04-09,2026-07-11,38,2026-10-12,Event,New
+acct_0879,Account 0879,Active,Mid-Market,Education,Europe,United Kingdom,owner_06,Owner 06,Growth,Monthly,USD,2026-02-04,2026-02-04,86,2026-10-04,Event,Flat
+acct_0880,Account 0880,Active,SMB,Logistics,Europe,United Kingdom,owner_01,Owner 01,Starter,Annual,USD,2024-10-06,2026-08-29,57,2026-11-13,Referral,New
+acct_0881,Account 0881,Active,Mid-Market,Software,Europe,Germany,owner_07,Owner 07,Starter,Annual,USD,2022-04-13,2022-04-13,74,2026-11-09,Partner,Flat
+acct_0882,Account 0882,Active,Mid-Market,Professional Services,North America,Canada,owner_04,Owner 04,Scale,Annual,USD,2024-10-22,2024-10-22,68,2026-10-11,Outbound,Flat
+acct_0883,Account 0883,Active,SMB,Software,North America,United States,owner_01,Owner 01,Starter,Annual,USD,2022-01-24,2022-01-24,88,2026-10-19,Outbound,Flat
+acct_0884,Account 0884,Active,SMB,Financial Services,North America,Canada,owner_07,Owner 07,Scale,Annual,USD,2025-03-30,2025-03-30,82,2026-11-20,Outbound,Flat
+acct_0885,Account 0885,Active,SMB,Financial Services,Europe,Germany,owner_06,Owner 06,Starter,Monthly,USD,2024-05-17,2024-05-17,70,2026-11-02,Inbound,Flat
+acct_0886,Account 0886,Active,Mid-Market,Education,Europe,Germany,owner_07,Owner 07,Growth,Monthly,USD,2026-03-29,2026-03-29,43,2026-11-09,Event,Contraction
+acct_0887,Account 0887,Active,SMB,Logistics,APAC,Australia,owner_04,Owner 04,Enterprise,Monthly,USD,2024-11-24,2024-11-24,74,2026-11-23,Inbound,Flat
+acct_0888,Account 0888,Active,Mid-Market,Software,Europe,United Kingdom,owner_03,Owner 03,Growth,Monthly,USD,2024-01-03,2024-01-03,86,2026-10-07,Referral,Flat
+acct_0889,Account 0889,Active,Mid-Market,Logistics,North America,United States,owner_04,Owner 04,Scale,Monthly,USD,2022-03-29,2022-03-29,51,2026-11-19,Event,Flat
+acct_0890,Account 0890,Active,SMB,Education,APAC,Australia,owner_04,Owner 04,Growth,Annual,USD,2022-08-03,2022-08-03,50,2026-10-09,Inbound,Flat
+acct_0891,Account 0891,Active,SMB,Financial Services,Europe,Germany,owner_06,Owner 06,Scale,Annual,USD,2024-06-01,2024-06-01,46,2026-10-22,Event,Flat
+acct_0892,Account 0892,Active,Mid-Market,Education,Europe,Germany,owner_05,Owner 05,Enterprise,Monthly,USD,2025-01-25,2025-01-25,69,2026-10-25,Referral,Flat
+acct_0893,Account 0893,Active,SMB,Education,North America,United States,owner_04,Owner 04,Growth,Annual,USD,2022-07-23,2022-07-23,93,2026-11-08,Outbound,Flat
+acct_0894,Account 0894,Active,Mid-Market,Professional Services,North America,Canada,owner_07,Owner 07,Scale,Monthly,USD,2023-07-09,2023-07-09,55,2026-10-14,Outbound,Expansion
+acct_0895,Account 0895,Active,Enterprise,Professional Services,North America,Canada,owner_08,Owner 08,Scale,Monthly,USD,2025-10-05,2025-10-05,72,2026-10-22,Outbound,Flat
+acct_0896,Account 0896,Active,Enterprise,Professional Services,North America,Canada,owner_05,Owner 05,Growth,Monthly,USD,2022-05-12,2022-05-12,71,2026-10-18,Inbound,Flat
+acct_0897,Account 0897,Active,SMB,Financial Services,North America,United States,owner_07,Owner 07,Starter,Monthly,USD,2024-01-31,2024-01-31,86,2026-10-08,Referral,Contraction
+acct_0898,Account 0898,Active,Mid-Market,Education,North America,United States,owner_04,Owner 04,Starter,Monthly,USD,2023-09-27,2023-09-27,45,2026-10-28,Inbound,Flat
+acct_0899,Account 0899,Active,SMB,Healthcare,North America,Canada,owner_02,Owner 02,Starter,Annual,USD,2024-08-30,2024-08-30,35,2026-10-05,Outbound,Flat
+acct_0900,Account 0900,Active,SMB,Software,North America,United States,owner_05,Owner 05,Starter,Annual,USD,2022-08-28,2022-08-28,52,2026-10-20,Referral,Contraction
+acct_0901,Account 0901,Active,SMB,Professional Services,Europe,United Kingdom,owner_08,Owner 08,Enterprise,Annual,USD,2025-10-26,2025-10-26,97,2026-11-11,Partner,Flat
+acct_0902,Account 0902,Active,Mid-Market,Financial Services,Europe,United Kingdom,owner_02,Owner 02,Growth,Monthly,USD,2026-05-17,2026-05-17,55,2026-10-11,Partner,Flat
+acct_0903,Account 0903,Active,SMB,Retail,Europe,Germany,owner_02,Owner 02,Scale,Monthly,USD,2022-03-28,2022-03-28,64,2026-11-03,Referral,Flat
+acct_0904,Account 0904,Active,SMB,Professional Services,North America,United States,owner_07,Owner 07,Growth,Monthly,USD,2024-04-26,2024-04-26,49,2026-10-15,Inbound,Flat
+acct_0905,Account 0905,Active,SMB,Manufacturing,Europe,Germany,owner_07,Owner 07,Enterprise,Monthly,USD,2023-05-02,2023-05-02,88,2026-10-29,Event,Expansion
+acct_0906,Account 0906,Active,SMB,Retail,Europe,United Kingdom,owner_06,Owner 06,Starter,Annual,USD,2023-08-11,2023-08-11,41,2026-10-29,Outbound,Flat
+acct_0907,Account 0907,Active,SMB,Professional Services,Europe,United Kingdom,owner_08,Owner 08,Scale,Annual,USD,2022-03-06,2022-03-06,76,2026-10-20,Outbound,Flat
+acct_0908,Account 0908,Active,Enterprise,Logistics,Europe,Germany,owner_07,Owner 07,Growth,Monthly,USD,2023-10-10,2023-10-10,73,2026-10-17,Inbound,Flat
+acct_0909,Account 0909,Active,Mid-Market,Software,Europe,Germany,owner_05,Owner 05,Starter,Monthly,USD,2022-11-27,2022-11-27,69,2026-10-08,Partner,Flat
+acct_0910,Account 0910,Active,SMB,Software,Europe,Germany,owner_05,Owner 05,Enterprise,Monthly,USD,2025-01-13,2025-01-13,69,2026-11-07,Outbound,Expansion
+acct_0911,Account 0911,Active,Mid-Market,Professional Services,APAC,Australia,owner_08,Owner 08,Starter,Annual,USD,2025-11-24,2025-11-24,97,2026-10-16,Event,Flat
+acct_0912,Account 0912,Active,SMB,Logistics,North America,United States,owner_05,Owner 05,Growth,Monthly,USD,2022-09-29,2022-09-29,77,2026-10-16,Partner,Flat
+acct_0913,Account 0913,Active,SMB,Financial Services,Europe,United Kingdom,owner_08,Owner 08,Scale,Monthly,USD,2023-09-04,2026-07-07,68,2026-10-23,Event,New
+acct_0914,Account 0914,Active,Enterprise,Logistics,North America,United States,owner_06,Owner 06,Growth,Annual,USD,2025-06-14,2025-06-14,93,2026-10-31,Partner,Flat
+acct_0915,Account 0915,Active,SMB,Software,Europe,United Kingdom,owner_04,Owner 04,Scale,Annual,USD,2025-07-21,2025-07-21,80,2026-10-04,Referral,Flat
+acct_0916,Account 0916,Active,Mid-Market,Logistics,Europe,Germany,owner_04,Owner 04,Scale,Annual,USD,2024-06-09,2026-09-03,65,2026-11-07,Referral,New
+acct_0917,Account 0917,Active,SMB,Education,North America,United States,owner_05,Owner 05,Scale,Annual,USD,2025-09-17,2025-09-17,52,2026-10-17,Partner,Flat
+acct_0918,Account 0918,Active,SMB,Professional Services,Europe,United Kingdom,owner_02,Owner 02,Enterprise,Monthly,USD,2022-10-24,2022-10-24,72,2026-10-11,Inbound,Flat
+acct_0919,Account 0919,Active,Mid-Market,Manufacturing,North America,United States,owner_03,Owner 03,Scale,Annual,USD,2025-04-11,2025-04-11,45,2026-10-21,Partner,Flat
+acct_0920,Account 0920,Active,Mid-Market,Education,North America,Canada,owner_04,Owner 04,Scale,Monthly,USD,2024-06-21,2024-06-21,81,2026-11-08,Outbound,Flat
+acct_0921,Account 0921,Active,SMB,Education,Europe,Germany,owner_03,Owner 03,Growth,Monthly,USD,2023-10-02,2023-10-02,97,2026-10-11,Outbound,Flat
+acct_0922,Account 0922,Active,SMB,Professional Services,APAC,Australia,owner_05,Owner 05,Starter,Annual,USD,2025-09-10,2025-09-10,63,2026-11-18,Inbound,Flat
+acct_0923,Account 0923,Active,Mid-Market,Professional Services,North America,United States,owner_04,Owner 04,Enterprise,Annual,USD,2022-11-06,2022-11-06,72,2026-11-04,Inbound,Flat
+acct_0924,Account 0924,Active,Enterprise,Financial Services,APAC,Australia,owner_03,Owner 03,Starter,Monthly,USD,2026-06-17,2026-06-17,87,2026-10-27,Outbound,Contraction
+acct_0925,Account 0925,Churned,Enterprise,Education,Europe,Germany,owner_08,Owner 08,Scale,Annual,USD,2024-05-20,2024-05-20,38,2026-10-09,Event,Churn
+acct_0926,Account 0926,Active,Mid-Market,Financial Services,North America,United States,owner_04,Owner 04,Starter,Monthly,USD,2022-08-08,2022-08-08,88,2026-11-11,Outbound,Flat
+acct_0927,Account 0927,Active,SMB,Logistics,North America,United States,owner_07,Owner 07,Growth,Annual,USD,2026-05-03,2026-05-03,36,2026-11-11,Inbound,Flat
+acct_0928,Account 0928,Active,SMB,Professional Services,North America,United States,owner_08,Owner 08,Scale,Annual,USD,2022-12-15,2022-12-15,36,2026-10-06,Event,Flat
+acct_0929,Account 0929,Active,Enterprise,Software,APAC,Australia,owner_03,Owner 03,Scale,Monthly,USD,2025-12-29,2025-12-29,42,2026-11-11,Outbound,Flat
+acct_0930,Account 0930,Active,Mid-Market,Logistics,APAC,Australia,owner_07,Owner 07,Starter,Monthly,USD,2023-06-05,2023-06-05,40,2026-10-22,Partner,Flat
+acct_0931,Account 0931,Churned,Enterprise,Software,North America,Canada,owner_02,Owner 02,Starter,Annual,USD,2025-01-16,2025-01-16,10,2026-11-17,Event,Churn
+acct_0932,Account 0932,Active,SMB,Retail,North America,Canada,owner_04,Owner 04,Growth,Annual,USD,2024-01-17,2024-01-17,47,2026-10-25,Event,Flat
+acct_0933,Account 0933,Active,SMB,Manufacturing,North America,Canada,owner_05,Owner 05,Scale,Annual,USD,2023-05-04,2023-05-04,95,2026-10-01,Referral,Expansion
+acct_0934,Account 0934,Active,SMB,Software,Europe,Germany,owner_08,Owner 08,Scale,Monthly,USD,2022-05-19,2022-05-19,68,2026-11-12,Outbound,Flat
+acct_0935,Account 0935,Active,SMB,Logistics,Europe,Germany,owner_03,Owner 03,Growth,Annual,USD,2022-03-04,2022-03-04,43,2026-11-02,Outbound,Flat
+acct_0936,Account 0936,Active,SMB,Professional Services,Europe,United Kingdom,owner_05,Owner 05,Scale,Annual,USD,2022-03-19,2022-03-19,78,2026-11-04,Referral,Flat
+acct_0937,Account 0937,Active,SMB,Retail,North America,Canada,owner_05,Owner 05,Enterprise,Monthly,USD,2023-06-21,2023-06-21,44,2026-11-17,Inbound,Flat
+acct_0938,Account 0938,Active,Mid-Market,Logistics,APAC,Australia,owner_03,Owner 03,Growth,Monthly,USD,2025-07-09,2025-07-09,83,2026-11-07,Partner,Flat
+acct_0939,Account 0939,Active,Enterprise,Retail,Europe,United Kingdom,owner_08,Owner 08,Starter,Annual,USD,2022-02-18,2022-02-18,68,2026-10-24,Outbound,Flat
+acct_0940,Account 0940,Active,Mid-Market,Professional Services,Europe,United Kingdom,owner_07,Owner 07,Growth,Annual,USD,2024-12-11,2026-08-15,85,2026-11-07,Event,New
+acct_0941,Account 0941,Active,Mid-Market,Retail,North America,Canada,owner_04,Owner 04,Starter,Monthly,USD,2022-08-28,2022-08-28,64,2026-11-10,Referral,Contraction
+acct_0942,Account 0942,Churned,SMB,Manufacturing,Europe,United Kingdom,owner_02,Owner 02,Growth,Monthly,USD,2023-11-19,2023-11-19,11,2026-11-11,Partner,Churn
+acct_0943,Account 0943,Active,SMB,Education,Europe,Germany,owner_03,Owner 03,Growth,Annual,USD,2023-03-22,2023-03-22,72,2026-10-03,Event,Flat
+acct_0944,Account 0944,Active,SMB,Retail,North America,Canada,owner_02,Owner 02,Growth,Monthly,USD,2022-12-20,2022-12-20,78,2026-10-22,Inbound,Flat
+acct_0945,Account 0945,Active,Mid-Market,Education,Europe,United Kingdom,owner_02,Owner 02,Growth,Monthly,USD,2023-01-24,2026-08-08,97,2026-10-26,Outbound,New
+acct_0946,Account 0946,Active,SMB,Logistics,North America,Canada,owner_05,Owner 05,Growth,Annual,USD,2023-11-25,2023-11-25,84,2026-11-20,Event,Expansion
+acct_0947,Account 0947,Active,SMB,Financial Services,Europe,Germany,owner_03,Owner 03,Scale,Annual,USD,2023-07-31,2023-07-31,56,2026-10-17,Outbound,Expansion
+acct_0948,Account 0948,Active,Mid-Market,Logistics,North America,United States,owner_01,Owner 01,Growth,Annual,USD,2024-03-16,2024-03-16,49,2026-11-20,Outbound,Flat
+acct_0949,Account 0949,Active,Mid-Market,Software,North America,Canada,owner_08,Owner 08,Growth,Annual,USD,2025-10-05,2025-10-05,66,2026-11-04,Outbound,Flat
+acct_0950,Account 0950,Active,Mid-Market,Healthcare,North America,United States,owner_06,Owner 06,Starter,Monthly,USD,2023-02-14,2023-02-14,67,2026-10-18,Referral,Flat
+acct_0951,Account 0951,Active,SMB,Financial Services,Europe,Germany,owner_01,Owner 01,Starter,Monthly,USD,2025-09-26,2025-09-26,84,2026-11-08,Partner,Flat
+acct_0952,Account 0952,Active,Mid-Market,Professional Services,APAC,Australia,owner_02,Owner 02,Growth,Monthly,USD,2022-12-14,2022-12-14,46,2026-11-23,Outbound,Flat
+acct_0953,Account 0953,Active,SMB,Financial Services,APAC,Australia,owner_01,Owner 01,Enterprise,Monthly,USD,2022-01-07,2022-01-07,79,2026-10-23,Referral,Expansion
+acct_0954,Account 0954,Active,SMB,Financial Services,Europe,United Kingdom,owner_05,Owner 05,Starter,Annual,USD,2025-12-10,2025-12-10,44,2026-11-01,Outbound,Flat
+acct_0955,Account 0955,Active,Mid-Market,Professional Services,Europe,Germany,owner_06,Owner 06,Enterprise,Monthly,USD,2024-12-11,2026-08-22,69,2026-11-08,Partner,New
+acct_0956,Account 0956,Active,SMB,Education,Europe,Germany,owner_05,Owner 05,Growth,Monthly,USD,2024-12-02,2024-12-02,65,2026-10-12,Event,Flat
+acct_0957,Account 0957,Active,SMB,Healthcare,Europe,Germany,owner_05,Owner 05,Starter,Monthly,USD,2026-03-13,2026-03-13,51,2026-10-04,Event,Contraction
+acct_0958,Account 0958,Active,Mid-Market,Software,North America,Canada,owner_04,Owner 04,Growth,Annual,USD,2022-03-09,2026-07-17,45,2026-11-21,Inbound,New
+acct_0959,Account 0959,Active,Enterprise,Logistics,North America,United States,owner_01,Owner 01,Growth,Monthly,USD,2025-09-16,2025-09-16,35,2026-10-02,Event,Flat
+acct_0960,Account 0960,Active,SMB,Healthcare,Europe,United Kingdom,owner_04,Owner 04,Starter,Monthly,USD,2024-03-26,2026-07-27,36,2026-11-19,Outbound,New
+acct_0961,Account 0961,Active,Mid-Market,Software,APAC,Australia,owner_08,Owner 08,Scale,Monthly,USD,2023-11-26,2023-11-26,45,2026-11-09,Referral,Flat
+acct_0962,Account 0962,Active,Mid-Market,Professional Services,North America,United States,owner_03,Owner 03,Growth,Annual,USD,2022-09-13,2022-09-13,36,2026-10-06,Inbound,Contraction
+acct_0963,Account 0963,Active,SMB,Professional Services,North America,United States,owner_07,Owner 07,Enterprise,Annual,USD,2023-09-10,2023-09-10,52,2026-10-13,Referral,Flat
+acct_0964,Account 0964,Active,Mid-Market,Professional Services,North America,Canada,owner_02,Owner 02,Starter,Annual,USD,2022-04-25,2022-04-25,75,2026-11-20,Event,Contraction
+acct_0965,Account 0965,Active,Mid-Market,Professional Services,North America,Canada,owner_06,Owner 06,Growth,Annual,USD,2023-08-12,2023-08-12,97,2026-10-19,Partner,Flat
+acct_0966,Account 0966,Active,Mid-Market,Healthcare,North America,Canada,owner_02,Owner 02,Growth,Annual,USD,2024-09-14,2024-09-14,40,2026-10-05,Inbound,Expansion
+acct_0967,Account 0967,Active,SMB,Healthcare,Europe,Germany,owner_01,Owner 01,Enterprise,Monthly,USD,2025-07-17,2025-07-17,84,2026-10-08,Outbound,Expansion
+acct_0968,Account 0968,Active,SMB,Manufacturing,Europe,United Kingdom,owner_07,Owner 07,Scale,Monthly,USD,2025-01-06,2025-01-06,56,2026-11-09,Inbound,Flat
+acct_0969,Account 0969,Active,Mid-Market,Professional Services,Europe,United Kingdom,owner_02,Owner 02,Starter,Monthly,USD,2023-02-24,2023-02-24,55,2026-10-19,Partner,Flat
+acct_0970,Account 0970,Active,SMB,Software,APAC,Australia,owner_08,Owner 08,Growth,Monthly,USD,2024-09-29,2024-09-29,96,2026-11-04,Outbound,Flat
+acct_0971,Account 0971,Churned,Mid-Market,Manufacturing,Europe,Germany,owner_01,Owner 01,Growth,Annual,USD,2026-04-15,2026-04-15,40,2026-11-01,Partner,Churn
+acct_0972,Account 0972,Active,SMB,Professional Services,Europe,Germany,owner_01,Owner 01,Growth,Monthly,USD,2023-03-02,2023-03-02,54,2026-11-15,Inbound,Expansion
+acct_0973,Account 0973,Active,Mid-Market,Education,North America,Canada,owner_02,Owner 02,Growth,Annual,USD,2022-07-22,2022-07-22,53,2026-10-14,Referral,Flat
+acct_0974,Account 0974,Active,Enterprise,Healthcare,North America,United States,owner_01,Owner 01,Scale,Annual,USD,2022-03-23,2022-03-23,60,2026-11-17,Event,Flat
+acct_0975,Account 0975,Active,Mid-Market,Retail,Europe,Germany,owner_06,Owner 06,Starter,Annual,USD,2026-04-15,2026-04-15,83,2026-10-19,Referral,Flat
+acct_0976,Account 0976,Active,SMB,Software,North America,Canada,owner_06,Owner 06,Scale,Monthly,USD,2024-05-08,2024-05-08,65,2026-11-21,Event,Expansion
+acct_0977,Account 0977,Active,Mid-Market,Healthcare,APAC,Australia,owner_04,Owner 04,Starter,Monthly,USD,2022-08-23,2022-08-23,95,2026-10-29,Event,Flat
+acct_0978,Account 0978,Active,SMB,Professional Services,APAC,Australia,owner_05,Owner 05,Scale,Annual,USD,2024-08-31,2024-08-31,70,2026-10-18,Event,Expansion
+acct_0979,Account 0979,Active,Mid-Market,Education,North America,Canada,owner_06,Owner 06,Growth,Annual,USD,2023-02-14,2023-02-14,78,2026-11-17,Event,Flat
+acct_0980,Account 0980,Active,Mid-Market,Software,Europe,Germany,owner_02,Owner 02,Enterprise,Monthly,USD,2023-01-28,2023-01-28,72,2026-10-03,Partner,Expansion
+acct_0981,Account 0981,Active,Enterprise,Education,North America,United States,owner_08,Owner 08,Enterprise,Annual,USD,2023-06-05,2023-06-05,39,2026-10-22,Partner,Flat
+acct_0982,Account 0982,Churned,Mid-Market,Software,Europe,United Kingdom,owner_07,Owner 07,Scale,Monthly,USD,2026-06-14,2026-06-14,35,2026-10-28,Outbound,Churn
+acct_0983,Account 0983,Active,Mid-Market,Software,Europe,Germany,owner_02,Owner 02,Growth,Monthly,USD,2022-02-06,2022-02-06,59,2026-10-06,Outbound,Flat
+acct_0984,Account 0984,Active,SMB,Healthcare,North America,United States,owner_04,Owner 04,Starter,Annual,USD,2023-10-07,2023-10-07,96,2026-10-21,Event,Flat
+acct_0985,Account 0985,Active,SMB,Education,North America,Canada,owner_06,Owner 06,Starter,Monthly,USD,2026-02-01,2026-02-01,66,2026-11-02,Event,Contraction
+acct_0986,Account 0986,Active,Enterprise,Financial Services,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2022-05-02,2022-05-02,85,2026-11-05,Referral,Flat
+acct_0987,Account 0987,Active,Enterprise,Software,Europe,United Kingdom,owner_02,Owner 02,Scale,Monthly,USD,2022-05-31,2026-08-05,86,2026-11-13,Outbound,New
+acct_0988,Account 0988,Active,Mid-Market,Financial Services,North America,United States,owner_06,Owner 06,Starter,Monthly,USD,2022-08-03,2022-08-03,93,2026-11-05,Event,Flat
+acct_0989,Account 0989,Active,SMB,Software,Europe,United Kingdom,owner_07,Owner 07,Growth,Annual,USD,2023-07-28,2023-07-28,49,2026-11-21,Outbound,Flat
+acct_0990,Account 0990,Active,Mid-Market,Education,Europe,United Kingdom,owner_07,Owner 07,Scale,Monthly,USD,2025-05-02,2025-05-02,96,2026-10-12,Outbound,Flat
+acct_0991,Account 0991,Active,Mid-Market,Software,North America,Canada,owner_06,Owner 06,Scale,Monthly,USD,2024-04-23,2024-04-23,56,2026-10-10,Event,Expansion
+acct_0992,Account 0992,Active,SMB,Financial Services,North America,United States,owner_01,Owner 01,Growth,Annual,USD,2022-10-22,2022-10-22,69,2026-10-21,Event,Expansion
+acct_0993,Account 0993,Active,SMB,Logistics,Europe,United Kingdom,owner_04,Owner 04,Growth,Monthly,USD,2024-02-05,2024-02-05,35,2026-10-19,Referral,Expansion
+acct_0994,Account 0994,Active,SMB,Manufacturing,North America,United States,owner_04,Owner 04,Growth,Monthly,USD,2025-08-11,2025-08-11,59,2026-11-15,Referral,Flat
+acct_0995,Account 0995,Active,Mid-Market,Education,North America,United States,owner_01,Owner 01,Scale,Monthly,USD,2022-03-08,2022-03-08,81,2026-11-04,Partner,Flat
+acct_0996,Account 0996,Active,SMB,Manufacturing,North America,United States,owner_05,Owner 05,Scale,Annual,USD,2022-12-04,2022-12-04,61,2026-10-22,Inbound,Expansion
+acct_0997,Account 0997,Active,SMB,Professional Services,APAC,Australia,owner_02,Owner 02,Scale,Annual,USD,2025-05-05,2025-05-05,97,2026-10-07,Partner,Flat
+acct_0998,Account 0998,Active,SMB,Education,APAC,Australia,owner_01,Owner 01,Growth,Monthly,USD,2025-10-09,2025-10-09,63,2026-10-31,Inbound,Flat
+acct_0999,Account 0999,Active,Mid-Market,Manufacturing,Europe,Germany,owner_05,Owner 05,Enterprise,Annual,USD,2025-02-18,2025-02-18,59,2026-10-25,Outbound,Flat
+acct_1000,Account 1000,Active,Mid-Market,Software,Europe,United Kingdom,owner_05,Owner 05,Scale,Annual,USD,2024-02-01,2024-02-01,84,2026-11-03,Inbound,Flat
+acct_1001,Account 1001,Active,SMB,Professional Services,North America,United States,owner_01,Owner 01,Growth,Monthly,USD,2023-11-30,2023-11-30,71,2026-11-11,Event,Flat
+acct_1002,Account 1002,Active,Mid-Market,Education,APAC,Australia,owner_02,Owner 02,Starter,Annual,USD,2025-10-13,2025-10-13,70,2026-10-18,Event,Flat
+acct_1003,Account 1003,Active,Mid-Market,Manufacturing,North America,United States,owner_02,Owner 02,Starter,Monthly,USD,2025-09-10,2025-09-10,49,2026-10-21,Event,Flat
+acct_1004,Account 1004,Active,Enterprise,Retail,North America,Canada,owner_01,Owner 01,Growth,Annual,USD,2026-05-05,2026-05-05,37,2026-10-08,Event,Flat
+acct_1005,Account 1005,Active,Enterprise,Logistics,Europe,Germany,owner_06,Owner 06,Growth,Monthly,USD,2025-10-25,2025-10-25,93,2026-10-04,Inbound,Contraction
+acct_1006,Account 1006,Active,SMB,Professional Services,APAC,Australia,owner_07,Owner 07,Growth,Annual,USD,2022-09-17,2022-09-17,78,2026-10-31,Outbound,Flat
+acct_1007,Account 1007,Active,Mid-Market,Software,North America,United States,owner_05,Owner 05,Growth,Monthly,USD,2022-04-25,2022-04-25,69,2026-10-16,Outbound,Flat
+acct_1008,Account 1008,Active,Mid-Market,Healthcare,Europe,Germany,owner_05,Owner 05,Starter,Monthly,USD,2024-12-16,2024-12-16,56,2026-11-15,Referral,Flat
+acct_1009,Account 1009,Active,Mid-Market,Healthcare,Europe,United Kingdom,owner_02,Owner 02,Scale,Annual,USD,2025-02-27,2025-02-27,42,2026-11-20,Inbound,Expansion
+acct_1010,Account 1010,Active,SMB,Education,Europe,United Kingdom,owner_05,Owner 05,Growth,Monthly,USD,2025-03-18,2025-03-18,74,2026-10-15,Event,Flat
+acct_1011,Account 1011,Active,Mid-Market,Healthcare,North America,Canada,owner_02,Owner 02,Scale,Monthly,USD,2024-09-14,2024-09-14,43,2026-10-11,Event,Flat
+acct_1012,Account 1012,Active,SMB,Healthcare,APAC,Australia,owner_02,Owner 02,Starter,Monthly,USD,2025-08-24,2025-08-24,74,2026-10-29,Inbound,Contraction
+acct_1013,Account 1013,Active,SMB,Financial Services,Europe,Germany,owner_06,Owner 06,Enterprise,Annual,USD,2026-03-26,2026-03-26,72,2026-11-16,Outbound,Flat
+acct_1014,Account 1014,Active,SMB,Manufacturing,North America,Canada,owner_08,Owner 08,Enterprise,Monthly,USD,2024-04-16,2024-04-16,63,2026-10-14,Inbound,Flat
+acct_1015,Account 1015,Active,Mid-Market,Logistics,North America,United States,owner_06,Owner 06,Starter,Monthly,USD,2026-02-24,2026-02-24,90,2026-10-15,Outbound,Contraction
+acct_1016,Account 1016,Active,Enterprise,Financial Services,North America,Canada,owner_05,Owner 05,Scale,Annual,USD,2023-03-10,2023-03-10,74,2026-11-15,Inbound,Flat
+acct_1017,Account 1017,Active,Mid-Market,Software,APAC,Australia,owner_04,Owner 04,Growth,Monthly,USD,2026-05-02,2026-05-02,70,2026-10-01,Inbound,Flat
+acct_1018,Account 1018,Active,SMB,Logistics,Europe,United Kingdom,owner_01,Owner 01,Enterprise,Annual,USD,2024-10-12,2024-10-12,67,2026-11-22,Outbound,Flat
+acct_1019,Account 1019,Active,Mid-Market,Software,North America,United States,owner_04,Owner 04,Growth,Monthly,USD,2022-02-18,2022-02-18,72,2026-10-07,Partner,Flat
+acct_1020,Account 1020,Active,SMB,Professional Services,Europe,Germany,owner_01,Owner 01,Scale,Annual,USD,2025-08-26,2025-08-26,87,2026-11-07,Referral,Expansion
+acct_1021,Account 1021,Active,SMB,Education,Europe,Germany,owner_02,Owner 02,Scale,Monthly,USD,2022-11-29,2022-11-29,40,2026-10-22,Outbound,Flat
+acct_1022,Account 1022,Active,SMB,Logistics,Europe,United Kingdom,owner_01,Owner 01,Scale,Annual,USD,2025-03-01,2025-03-01,69,2026-11-04,Inbound,Flat
+acct_1023,Account 1023,Active,Mid-Market,Manufacturing,Europe,United Kingdom,owner_04,Owner 04,Scale,Monthly,USD,2024-01-20,2024-01-20,97,2026-11-07,Referral,Expansion
+acct_1024,Account 1024,Active,Mid-Market,Professional Services,Europe,United Kingdom,owner_02,Owner 02,Enterprise,Annual,USD,2023-04-27,2023-04-27,58,2026-11-12,Referral,Flat
+acct_1025,Account 1025,Active,SMB,Retail,Europe,Germany,owner_02,Owner 02,Scale,Annual,USD,2026-06-30,2026-07-25,72,2026-10-05,Partner,New
+acct_1026,Account 1026,Active,Mid-Market,Healthcare,North America,United States,owner_02,Owner 02,Starter,Monthly,USD,2024-02-19,2024-02-19,84,2026-10-04,Referral,Flat
+acct_1027,Account 1027,Active,Mid-Market,Manufacturing,Europe,Germany,owner_06,Owner 06,Growth,Annual,USD,2024-01-03,2024-01-03,45,2026-10-22,Event,Flat
+acct_1028,Account 1028,Churned,Mid-Market,Professional Services,North America,Canada,owner_03,Owner 03,Growth,Annual,USD,2023-11-05,2023-11-05,14,2026-11-08,Partner,Churn
+acct_1029,Account 1029,Active,SMB,Financial Services,APAC,Australia,owner_05,Owner 05,Growth,Annual,USD,2026-05-07,2026-05-07,67,2026-10-23,Partner,Flat
+acct_1030,Account 1030,Active,SMB,Software,Europe,United Kingdom,owner_04,Owner 04,Starter,Annual,USD,2025-09-12,2025-09-12,92,2026-11-22,Event,Flat
+acct_1031,Account 1031,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_04,Owner 04,Growth,Annual,USD,2023-05-08,2023-05-08,38,2026-10-24,Outbound,Flat
+acct_1032,Account 1032,Active,SMB,Financial Services,Europe,United Kingdom,owner_02,Owner 02,Growth,Monthly,USD,2024-03-14,2024-03-14,97,2026-10-13,Referral,Flat
+acct_1033,Account 1033,Active,Mid-Market,Logistics,Europe,United Kingdom,owner_06,Owner 06,Scale,Monthly,USD,2022-06-24,2022-06-24,97,2026-11-02,Event,Flat
+acct_1034,Account 1034,Churned,SMB,Education,North America,Canada,owner_01,Owner 01,Growth,Annual,USD,2024-01-26,2024-01-26,42,2026-11-09,Outbound,Churn
+acct_1035,Account 1035,Active,Mid-Market,Financial Services,North America,Canada,owner_01,Owner 01,Enterprise,Monthly,USD,2025-12-23,2025-12-23,48,2026-10-13,Inbound,Expansion
+acct_1036,Account 1036,Active,Mid-Market,Financial Services,North America,United States,owner_05,Owner 05,Starter,Annual,USD,2022-08-26,2022-08-26,48,2026-11-13,Partner,Flat
+acct_1037,Account 1037,Active,SMB,Manufacturing,Europe,Germany,owner_04,Owner 04,Starter,Annual,USD,2023-03-03,2023-03-03,37,2026-11-12,Outbound,Flat
+acct_1038,Account 1038,Active,Mid-Market,Professional Services,APAC,Australia,owner_01,Owner 01,Starter,Annual,USD,2022-02-11,2022-02-11,84,2026-11-04,Event,Flat
+acct_1039,Account 1039,Active,SMB,Professional Services,APAC,Australia,owner_04,Owner 04,Starter,Annual,USD,2022-04-02,2022-04-02,36,2026-10-21,Outbound,Flat
+acct_1040,Account 1040,Active,SMB,Software,Europe,United Kingdom,owner_02,Owner 02,Starter,Monthly,USD,2025-07-16,2025-07-16,55,2026-10-24,Partner,Contraction
+acct_1041,Account 1041,Active,SMB,Financial Services,APAC,Australia,owner_03,Owner 03,Growth,Annual,USD,2023-07-03,2023-07-03,93,2026-10-14,Event,Flat
+acct_1042,Account 1042,Active,Mid-Market,Logistics,Europe,Germany,owner_08,Owner 08,Starter,Annual,USD,2023-05-14,2023-05-14,85,2026-10-05,Inbound,Flat
+acct_1043,Account 1043,Active,Mid-Market,Logistics,North America,United States,owner_05,Owner 05,Enterprise,Annual,USD,2024-08-30,2024-08-30,65,2026-10-09,Event,Flat
+acct_1044,Account 1044,Active,Enterprise,Education,APAC,Australia,owner_05,Owner 05,Growth,Annual,USD,2022-08-17,2022-08-17,69,2026-11-13,Inbound,Flat
+acct_1045,Account 1045,Active,Mid-Market,Education,North America,United States,owner_01,Owner 01,Scale,Monthly,USD,2022-04-22,2022-04-22,54,2026-11-18,Referral,Expansion
+acct_1046,Account 1046,Active,SMB,Manufacturing,North America,Canada,owner_05,Owner 05,Scale,Monthly,USD,2023-03-09,2023-03-09,83,2026-11-11,Referral,Expansion
+acct_1047,Account 1047,Active,SMB,Manufacturing,Europe,United Kingdom,owner_08,Owner 08,Growth,Annual,USD,2024-07-26,2024-07-26,43,2026-11-18,Outbound,Flat
+acct_1048,Account 1048,Active,SMB,Logistics,North America,Canada,owner_05,Owner 05,Starter,Annual,USD,2023-05-08,2023-05-08,49,2026-11-16,Inbound,Flat
+acct_1049,Account 1049,Active,SMB,Software,Europe,Germany,owner_04,Owner 04,Starter,Monthly,USD,2023-06-05,2023-06-05,41,2026-11-21,Partner,Flat
+acct_1050,Account 1050,Active,SMB,Manufacturing,North America,United States,owner_04,Owner 04,Growth,Monthly,USD,2026-04-29,2026-07-06,53,2026-10-24,Partner,New

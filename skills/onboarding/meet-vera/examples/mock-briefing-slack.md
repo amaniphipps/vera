@@ -1,19 +1,18 @@
-*Monday briefing - Northwind, week of Nov 2* _(mock)_
+*Q4 pipeline briefing - Northwind, week of Nov 23* _(synthetic / anonymized)_
 
-Pipeline's up *$412k*. Two whales slipped. Quarter still makeable - it now runs through mid-market velocity.
+200 open deals carry *$17.72M* expected ARR. Commit view is *$7.01M*; Best Case reaches *$12.85M*. Full-pipeline ceiling: $20.24M, not a weighted forecast.
 
 *What moved*
-• *+$412k* new pipeline (14 deals). Biggest: Acme Health $86k. Inbound at 41% - webinars pulling.
-• *$187k* closed-won, all mid-market. Cycle time 24 days, 4 faster than Q3 median.
-• *2 slips, $240k* - procurement timing, not competition. New dates Dec 12 + Dec 18. :eyes:
+• *$2.53M* Q4 closed-won expected ARR.
+• *60 Commit / 60 Best Case / 80 Pipeline* deals, all mutually exclusive.
+• Q3 ARR ended at *$92.26M* across *1,000 active customers*; NRR *96.4%*.
 
 *Needs you*
-• *Halewood $95k* quiet 9 days. Direct note from you > sequences. :warning:
-• *Bloomfield* wants 28% off 2yr. Guardrail 20%. Recommend 18% + annual prepay.
+• Review *43 at-risk* and *48 watch* open deals.
+• Largest open: Opportunity 0401 *$0.57M*, Best Case, closes 2026-12-17.
+• Expansion covered *48.2%* of Q3 contraction and churn. Retention work stays on the plan.
 
 *Next*
-• Forecast call Thu: *$1.42M commit vs $1.65M target*. Gap = the two slips.
-• 2 of 7 onboarding customers behind on activation. CS on it, no ask.
+• Open `tour/pipeline-analysis.html` for deal slices and `mock-arr-rollforward.xlsx` for all 1,050 ARR rows.
 
-_Live from CRM, 7:00am ET. Thread me if anything looks off._
-:white_check_mark: Validated by Vera · Nov 2 · arithmetic + claims checked
+_Generated from included synthetic CRM fixtures · Nov 23, 2026 · arithmetic + claims checked_
