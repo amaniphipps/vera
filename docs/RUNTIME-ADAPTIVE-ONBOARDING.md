@@ -1,7 +1,7 @@
 # Runtime-adaptive onboarding — repo update plan
 
-**Target repo:** `github.com/amaniphipps/vera` (branch `main`, baseline
-`9b82412`) · **Status:** implementation plan, rev 2 · **Date:** 2026-11-22
+**Target repo:** `github.com/amaniphipps/vera` (feature branch based on
+`origin/main` `9f82949`) · **Status:** implementation plan, rev 3 · **Date:** 2026-11-22
 
 ## Objective
 
@@ -23,9 +23,16 @@ implementation order, tests, and the merge path.
 - `deploy/runtimes/{hermes,opencode,generic}.yaml` — per-runtime satisfaction
   profiles (detection markers, runtime root, skill-discovery mechanism,
   scheduler, memory options, MCP config shape).
-- `skills/onboarding/meet-vera/` — Step 0 diagnosis inserted; step 3
-  rewired through the active runtime profile; close-out re-check recorded
-  in the working profile. New `references/diagnose.md`.
+- `skills/onboarding/meet-vera/` — Step 0 diagnosis inserted; hello asks the
+  person's name and remembers it with confirmation; step 3 rewired through
+  the active runtime profile; close-out re-check recorded in the working
+  profile. New `references/diagnose.md`.
+- `skills/self-maintenance/memory-curator/` + `memory/stores.example.yaml` —
+  multi-store recall/write routing, profile curation, provenance, correction,
+  and forgetting across enabled stores.
+- `skills/capability-acquisition/build-it/` — capability questions trigger a
+  reverse-engineering and implementation workflow with plan approval,
+  checkpoints, tested artifacts, and quarantined skill drafts.
 - `setup/setup.sh` — `--runtime hermes|opencode|generic` (default:
   auto-detect, ask when ambiguous). OpenCode path writes `opencode.jsonc`
   skills array + `OPENCODE.md` path mapping + seeds runtime dirs. Generic
@@ -120,11 +127,16 @@ Key differences the profiles encode:
   profile → recommendation with the choice explicit ("You're on OpenCode;
   core set intact, tools are the gap. Hermes is the full-capability path if
   you want nightly vetting and Slack — or we stay here. Your call.")
-- **Steps 1–2** content unchanged; tour paths resolve through the profile.
+- **Step 1** opens "What should I call you?", waits, and never infers a name
+  from account/machine metadata. The working profile records the answer;
+  durable name memory requires read-back confirmation.
+- **Step 2** tour paths resolve through the profile.
 - **Step 3** reads the profile's `mcp` block for config shape and commands
   (OpenCode: `opencode mcp add`; Hermes: config.yaml; generic: helper
   scripts). Permission question and study flow unchanged.
-- **Step 4** memory options filtered by the profile's `memory` list.
+- **Step 4** memory options filtered by the profile's `memory` list, with
+  multiple enabled stores and one confirmed default write store recorded in
+  `memory/stores.yaml`.
 - **Close-out:** re-run the capability report; record runtime, choices, and
   degraded capabilities with reasons in the working profile.
 
@@ -204,8 +216,10 @@ Three PRs, each independently shippable and reviewable:
 - **PR 1 — Contract + doctor.** `core-capabilities.yaml`, runtime
   profiles, doctor rewrite, tests 1/5/6/7. Onboarding still
   Hermes-default; diagnosis works read-only via doctor.
-- **PR 2 — Onboarding + setup.** meet-vera Step 0, `diagnose.md`, setup.sh
-  `--runtime`, tests 2/3/4.
+- **PR 2 — Onboarding + setup + personal memory + build-it.** meet-vera
+  Step 0 and confirmed name capture, `diagnose.md`, setup.sh `--runtime`,
+  memory-curator and multi-store registry, build-it workflow, tests 2/3/4
+  plus skill/registry acceptance tests.
 - **PR 3 — Lint + docs.** vetter portability lint, persona line,
   README/DEPLOYMENT, `CHANGELOG.md` entry.
 

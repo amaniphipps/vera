@@ -1,0 +1,8 @@
+# memory-curator org slots - copy to org.yaml and fill in.
+registry_path: "memory/stores.yaml"
+working_profile_path: "memory/profile.md"
+durable_path: "memory/durable/"
+knowledge_graph_path: "knowledge/graph/"
+require_readback: true
+read_all_enabled_stores: true
+default_write_store: "local-files"

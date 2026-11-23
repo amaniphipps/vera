@@ -155,6 +155,16 @@ def probe(cap_id, root, repo, profile):
         return "info", "none detected (connect during onboarding, or defer explicitly)"
 
     # Enhanced capabilities: availability comes from the profile, never a FAIL.
+    if cap_id == "plan-review":
+        import shutil as _shutil
+        binpath = _shutil.which("plannotator")
+        if binpath:
+            return "info", f"plannotator on PATH ({binpath})"
+        for candidate in (os.path.join(repo, ".tools", "plannotator", "plannotator"),
+                          os.path.join(root, ".tools", "plannotator", "plannotator")):
+            if os.path.isfile(candidate) and os.access(candidate, os.X_OK):
+                return "info", f"repo-local plannotator ({candidate})"
+        return "info", "not installed (setup.sh --with-plannotator)"
     if support == "native":
         if cap_id == "nightly-vetting":
             return "info", "schedule via hermes cron (cron/nightly-skill-vetter.sh)"

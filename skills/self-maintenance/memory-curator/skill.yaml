@@ -1,0 +1,11 @@
+name: memory-curator
+version: 0.1.0
+tier: hardened
+scope: write-external        # optional remote stores; each write is explicit and guardrail-gated
+requires: []
+secret_policy: helper-mediated
+env_layer: org.yaml
+provenance:
+  origin: authored
+  runs_clean: 0
+  last_drift: null

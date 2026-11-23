@@ -1,0 +1,21 @@
+# Benchmark sources — declared evidence for model guidance, not a leaderboard.
+version: "0.1.0"
+sources:
+  - id: revenuebench
+    url: https://therevenuebench.com/results
+    scope: RevOps task quality, latency, coverage, modality metadata
+    refresh: per-onboarding-and-on-request
+    permitted_uses: [domain-quality, latency, modality-metadata]
+    rules:
+      - compare only full-coverage rows as ranked; label partial runs partial
+      - record Last refreshed date; never hardcode rankings into skills
+      - do not treat modality labels as proof of non-text task quality
+  - id: openrouter-catalog
+    url: https://openrouter.ai/api/v1/models
+    scope: current IDs, availability, pricing, context, modalities, parameters
+    refresh: per-onboarding-and-on-request
+    permitted_uses: [availability, pricing, context, modalities, routing]
+    rules:
+      - verify account/runtime access and required input/output modalities
+      - record fetch timestamp; on failure, degrade honestly, never invent
+operators_may_add: true     # other public benchmarks allowed; same provenance rules

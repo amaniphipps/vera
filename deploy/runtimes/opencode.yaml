@@ -25,7 +25,8 @@ persona: personas/vera.md
 
 scheduler: none                    # nightly vetting runs on demand; optional launchd recipe
 
-memory: [working-profile, local-files]
+memory-selection: multiple
+memory: [working-profile, local-files, obsidian, mcp-memory]
 
 mcp:
   config: opencode.jsonc
@@ -47,6 +48,7 @@ capabilities:
   rea-observation: optional        # REA MCP can be configured via opencode mcp add
   model-router: unavailable        # no router hook; single configured model
   usage-bar: unavailable           # Hermes-specific skill
+  plan-review: optional            # standalone binary at .tools/plannotator or PATH; headless supported
 
 notes: Tested against OpenCode V2 (2026-11). Nightly vetting is on-demand here;
   Slack and usage-bar are declared unavailable, not silently skipped.

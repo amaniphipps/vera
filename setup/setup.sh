@@ -12,6 +12,8 @@
 # Flags:
 #   --profile local|docker   how to run Hermes (default: local)
 #   --platform cli|slack     first platform to wire (default: cli)
+#   --runtime hermes|opencode|generic  target runtime (default: auto-detect, ask if ambiguous)
+#   --with-plannotator       install standalone plannotator binary for plan review (verified by SHA256)
 #   --non-interactive        read all answers from env vars (see .env.example)
 #   --update                 refresh Vera's skills into an existing install
 #   --with-rea               also set up the optional REA capability (needs node)
@@ -24,14 +26,18 @@ PLATFORM="${VERA_PLATFORM:-cli}"
 NONINTERACTIVE=0
 UPDATE=0
 WITH_REA=0
+RUNTIME="${VERA_RUNTIME:-auto}"
+WITH_PLANNOTATOR=0
 while [ $# -gt 0 ]; do
   case "$1" in
     --profile) PROFILE="$2"; shift 2 ;;
     --platform) PLATFORM="$2"; shift 2 ;;
+    --runtime) RUNTIME="$2"; shift 2 ;;
+    --with-plannotator) WITH_PLANNOTATOR=1; shift ;;
     --non-interactive) NONINTERACTIVE=1; shift ;;
     --update) UPDATE=1; shift ;;
     --with-rea) WITH_REA=1; shift ;;
-    -h|--help) grep '^#' "$0" | head -20; exit 0 ;;
+    -h|--help) grep '^#' "$0" | head -25; exit 0 ;;
     *) echo "unknown flag: $1" >&2; exit 2 ;;
   esac
 done
@@ -201,6 +207,40 @@ case "$PLATFORM" in
 esac
 ask VERA_SERVE_ONLY_DOMAIN "  Restrict Vera to one email domain? (blank = everyone)" ""
 [ -n "${VERA_SERVE_ONLY_DOMAIN:-}" ] && printf 'VERA_SERVE_ONLY_DOMAIN=%s\n' "$VERA_SERVE_ONLY_DOMAIN" >> "$ENVF"
+
+# ── 5b. Runtime selection + optional plan review ────────────────────
+say "Runtime selection: $RUNTIME"
+case "$RUNTIME" in
+  auto)
+    if command -v hermes >/dev/null && [ -f "$REPO_ROOT/opencode.jsonc" -o -f "$REPO_ROOT/../opencode.jsonc" ]; then
+      warn "both Hermes and OpenCode detected - onboarding will ask which to use (never guesses)"
+    elif command -v opencode >/dev/null || [ -f "$REPO_ROOT/opencode.jsonc" -o -f "$REPO_ROOT/../opencode.jsonc" ]; then
+      say "  OpenCode markers present - use the OpenCode path in docs (opencode.jsonc skills array + OPENCODE.md)"
+    fi ;;
+  hermes|opencode|generic) ok "target runtime: $RUNTIME" ;;
+  *) die "unknown runtime: $RUNTIME (hermes|opencode|generic|auto)" ;;
+esac
+if [ "$WITH_PLANNOTATOR" = 1 ]; then
+  say "  Installing standalone plannotator binary (SHA256-verified, no Node/Bun required)…"
+  PLANNOTATOR_VERSION="${PLANNOTATOR_VERSION:-v0.29.2}"
+  mkdir -p "$REPO_ROOT/.tools/plannotator"
+  BASE="https://github.com/backnotprop/plannotator/releases/download/$PLANNOTATOR_VERSION"
+  case "$(uname -s)-$(uname -m)" in
+    Darwin-arm64) ASSET="plannotator-darwin-arm64.gz" ;;
+    Darwin-x86_64) ASSET="plannotator-darwin-x64.gz" ;;
+    Linux-x86_64) ASSET="plannotator-linux-x64.gz" ;;
+    Linux-aarch64|Linux-arm64) ASSET="plannotator-linux-arm64.gz" ;;
+    *) die "unsupported platform for --with-plannotator (install manually)" ;;
+  esac
+  ( cd "$REPO_ROOT/.tools/plannotator" \
+    && curl -fsSL "$BASE/$ASSET" -o plannotator.gz \
+    && curl -fsSL "$BASE/$ASSET.sha256" -o plannotator.sha256 \
+    && gunzip -kf plannotator.gz && chmod +x plannotator ) \
+    || die "plannotator install failed"
+  ok "plannotator installed at .tools/plannotator/plannotator (loopback-only, sharing/AI disabled by default)"
+else
+  say "  Skipping plannotator install (opt-in via --with-plannotator; Build It falls back to inline review with consent)"
+fi
 
 # ── 6. Visible success ───────────────────────────────────────────────
 say "6/6  First run - Vera says hello"

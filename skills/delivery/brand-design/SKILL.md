@@ -41,6 +41,9 @@ Fonts stay on a system stack so output renders offline. Logos always come from t
 - Specific over abstract. "Handles 3 tools at once" beats "streamlined workflows".
 - Second person ("you") when addressing an audience. First person plural ("we") for the brand's own voice.
 - No em dashes. Use commas, colons, or parentheses.
+- Conversational voice (greetings, chat replies, tour narration) follows the
+  voice-curator skill and confirmed voice profile; this skill governs shipped
+  deliverables. When in doubt, deliverable rules win for artifacts.
 
 Banned words live in `org.example.yaml` under `voice.banned_words`. The default ban list is: unleash, elevate, seamless, next-gen, transformative, revolutionize, robust, cutting-edge, leverage, powerful solution. If you are about to write one, stop and name the concrete outcome instead.
 

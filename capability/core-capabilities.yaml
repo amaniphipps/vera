@@ -88,3 +88,10 @@ capabilities:
     needs: [openrouter]
     verify: OPENROUTER_API_KEY present and vera-bar skill installed (Hermes only).
     degraded: "Usage bar unavailable on this runtime."
+
+  - id: plan-review
+    tier: enhanced
+    summary: Material plans can be reviewed in Plannotator before build.
+    needs: [plannotator-cli]
+    verify: plannotator binary present (PATH or repo-local .tools/plannotator).
+    degraded: "No Plannotator; plan review falls back to inline review with explicit user consent."

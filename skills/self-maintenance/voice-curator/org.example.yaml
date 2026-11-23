@@ -1,0 +1,6 @@
+# voice-curator org slots - copy to org.yaml and fill in.
+voice_profile_path: "memory/voice-profile.yaml"
+default_tone: "warm-direct"
+default_emoji: "occasional"
+require_readback: true
+coordinate_with_brand: true

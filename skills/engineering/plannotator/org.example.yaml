@@ -1,0 +1,8 @@
+# plannotator org slots - copy to org.yaml and fill in.
+binary_path: ".tools/plannotator/plannotator"   # fallback when not on PATH
+browser_mode: "auto"          # auto | headless (PLANNOTATOR_BROWSER=none) | desktop
+share_default: "disabled"     # never enable public sharing silently
+ai_review_default: "disabled"
+timeout_seconds: 600
+require_for_build_it: false   # true = stop before implementation until review works
+result_dir: "plannotator/"    # runtime-local decision JSON, git-ignored

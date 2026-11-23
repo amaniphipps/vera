@@ -1,0 +1,45 @@
+# Vera memory-store registry — copy to memory/stores.yaml and enable what you use.
+# Any number of stores may be enabled. Paths are local; credentials are named
+# environment variables, never values. The working profile is always on.
+version: "0.1.0"
+default_write_store: local-files
+
+recall:
+  read_all_enabled: true
+  require_provenance: true
+  on_conflict: ask       # never silently pick a winner between stores
+
+stores:
+  - id: local-files
+    type: local-files
+    enabled: true
+    read: true
+    write: true
+    root: memory/
+    roles: [working-profile, durable, knowledge-graph]
+
+  - id: obsidian
+    type: obsidian
+    enabled: false
+    read: true
+    write: false         # opt in deliberately; writes stay inside the vault path
+    vault_path: ""       # e.g. ~/Documents/VeraMemory
+    roles: [durable, notes]
+
+  - id: hindsight
+    type: hindsight
+    enabled: false
+    read: true
+    write: false
+    credential_env: HINDSIGHT_API_KEY
+    bank_id: vera
+    roles: [durable, semantic-recall]
+
+  - id: supabase
+    type: supabase
+    enabled: false
+    read: true
+    write: false
+    credential_env: SUPABASE_SERVICE_ROLE_KEY
+    url_env: SUPABASE_URL
+    roles: [durable, records]

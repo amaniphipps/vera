@@ -13,6 +13,10 @@ policy/guardrails.yaml
 .test-venv/
 
 # Runtime output — each deployment builds its own
+memory/profile.md
+memory/stores.yaml
+memory/durable/*
+!memory/durable/.gitkeep
 skills-live/*
 !skills-live/.gitkeep
 knowledge/graph/entities/*/*

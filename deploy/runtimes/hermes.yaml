@@ -18,6 +18,7 @@ skill-discovery:
 
 scheduler: hermes-cron             # cron/*.sh recipes run natively via hermes cron
 
+memory-selection: multiple
 memory: [working-profile, supabase, hindsight, obsidian, local-files]
 
 mcp:
@@ -39,5 +40,6 @@ capabilities:
   rea-observation: optional        # capability/mcp.rea.json
   model-router: optional           # decisions/interface.yaml must be wired by operator
   usage-bar: optional              # needs OpenRouter key
+  plan-review: optional            # standalone plannotator binary; setup.sh --with-plannotator
 
 notes: Full capability set. Tested against Hermes Agent (NousResearch) local profile.

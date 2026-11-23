@@ -14,7 +14,8 @@ skill-discovery:
 
 scheduler: none
 
-memory: [working-profile, local-files]
+memory-selection: multiple
+memory: [working-profile, local-files, obsidian, connector-provided]
 
 mcp:
   config: null                     # harness-specific; helper scripts are the fallback
@@ -34,6 +35,7 @@ capabilities:
   rea-observation: unavailable
   model-router: unavailable
   usage-bar: unavailable
+  plan-review: manual              # user-supplied binary; inline fallback with consent
 
 notes: Honest minimum. Enhanced capabilities are listed as unavailable with reasons;
   nothing is faked. Skills are plain markdown and portable by design.

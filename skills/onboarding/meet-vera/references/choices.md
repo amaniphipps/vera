@@ -2,9 +2,13 @@
 
 ## Memory (step 4)
 
-Present the options plainly. They are quick defaults, not a fence - the user
-may bring something else entirely. There is no wrong answer, and they can
-switch later - the working profile survives any switch.
+Present the options plainly and allow any combination. The working profile
+is always on; durable stores are additive, not mutually exclusive. They are
+quick defaults, not a fence - the user may bring something else entirely.
+There is no wrong answer, and they can add or remove stores later - the
+working profile survives every switch. Record enabled stores and one default
+write store in `memory/stores.yaml`; recall reads every enabled store,
+retains provenance, and surfaces conflicts for the user to resolve.
 
 | Option | What it is | Good for |
 |---|---|---|

@@ -1,0 +1,6 @@
+# build-it org slots - copy to org.yaml and fill in.
+smallest_vertical_slice: true
+require_plan_approval: true
+require_scope_change_approval: true
+plan_review_tool: "plannotator"   # optional; use "none" for inline review only
+learned_skill_root: "skills-live/"

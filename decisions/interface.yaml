@@ -32,6 +32,7 @@ routing:
   score:                # rank candidates against priority and sources
     by: priority
     inputs: [benchmark_sources, budget_hint]
+    benchmark_sources_file: decisions/benchmark-sources.yaml
   recommend:            # pick the top scorer, list the rest
     top: 1
     alternatives: 2

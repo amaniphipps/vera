@@ -63,10 +63,10 @@ def main():
     contract = yaml.safe_load(open(os.path.join(REPO, "capability", "core-capabilities.yaml")))
     caps = contract["capabilities"]
     ids = [c["id"] for c in caps]
-    check("contract: 12 capabilities", len(caps) == 12, f"got {len(caps)}")
-    check("contract: 7 core, 5 enhanced",
+    check("contract: 13 capabilities", len(caps) == 13, f"got {len(caps)}")
+    check("contract: 7 core, 6 enhanced",
           sum(c["tier"] == "core" for c in caps) == 7 and
-          sum(c["tier"] == "enhanced" for c in caps) == 5)
+          sum(c["tier"] == "enhanced" for c in caps) == 6)
     check("contract: every capability has verify + degraded",
           all(c.get("verify") and c.get("degraded") for c in caps))
     for rt in ("hermes", "opencode", "generic"):
