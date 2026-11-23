@@ -39,8 +39,15 @@ First public shape. Everything is new.
   uses the runtime's native memory-write or skill-create tools - they skip
   the review trail.
 
-### Community skills (28, new bucket)
-- `skills/community/`: 28 skills adapted from swan-gtm/gtm-skills (MIT),
+### Community skills (32 skills)
+- Added 4 production document skills from `anthropics/skills` (Apache-2.0):
+  `docx` (Word creation, editing, and analysis), `xlsx` (Excel models with recalc.py
+  formula verification), `pdf` (forms, extraction, generation, and split/merge),
+  and `pptx` (PowerPoint presentation deck generation with slide text extraction).
+- Manifests added conforming to Vera's `skill.schema.yaml`, credited in
+  `skills/community/ATTRIBUTION.md`.
+- `skills/delivery/documents` updated to cross-reference these community skills.
+- 28 skills adapted from swan-gtm/gtm-skills (MIT),
   selected by real skills.sh install rank, deduplicated against Vera's
   authored skills, and reshaped to her format: Vera frontmatter, skill.yaml
   manifests, org.example.yaml slots, vendor-neutral language, and her Output

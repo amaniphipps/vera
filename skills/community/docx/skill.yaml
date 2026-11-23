@@ -1,0 +1,8 @@
+name: docx
+version: 1.0.0
+tier: hardened
+scope: read-only
+requires: []
+secret_policy: never-touch
+env_layer: org.yaml
+provenance: {origin: community-import, runs_clean: 1, last_drift: null, source_repo: "github.com/anthropics/skills", source_author: "Anthropic", source_license: "Apache-2.0"}

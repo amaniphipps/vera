@@ -18,6 +18,7 @@ rubrics, thresholds, and benchmarks - with tool references generalized.
 | `competitive-intelligence-radar` | Sabahudin Murtić | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `cs-operations` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `demand-lifecycle` | Ivan Falco | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
+| `docx` | Anthropic | [github.com/anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 |
 | `event-radar` | Ido Goldberg | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `expansion-revenue-architect` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `gtm-data-architecture` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
@@ -26,8 +27,10 @@ rubrics, thresholds, and benchmarks - with tool references generalized.
 | `lead-routing` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `multi-thread-deals` | Ido Goldberg | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `operating-cadence-designer` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
+| `pdf` | Anthropic | [github.com/anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 |
 | `pipeline-review` | Ido Goldberg | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `pipeline-visibility` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
+| `pptx` | Anthropic | [github.com/anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 |
 | `pricing-monetisation-ops` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `research` | Ido Goldberg | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `revops-diagnostic` | Rutger Katz | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
@@ -36,6 +39,9 @@ rubrics, thresholds, and benchmarks - with tool references generalized.
 | `sales-playbook-foundations` | Kevin "KD" Dorsey | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `signal-interpreter` | Din Arbel | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
 | `signal-sourcer` | Alex Vacca | [github.com/swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) | MIT |
+| `xlsx` | Anthropic | [github.com/anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 |
 
-Source repository: [swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) (MIT).
+Source repositories:
+- [swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) (MIT)
+- [anthropics/skills](https://github.com/anthropics/skills) (Apache-2.0)
 If you are an author and want a skill adjusted or removed, open an issue.

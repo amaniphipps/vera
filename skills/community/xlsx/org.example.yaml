@@ -1,0 +1,4 @@
+# xlsx skill: org-specific slots
+templates_dir: ""
+house_font: Arial
+number_format_currency: "$#,##0"

@@ -11,9 +11,10 @@ Create, edit, and verify Word, Excel, and PDF deliverables. This skill teaches w
 
 | Need | Format | Read |
 |---|---|---|
-| Prose, reports, memos, letters, tracked changes | Word (.docx) | references/docx.md |
-| Tabular data, formulas, models | Excel (.xlsx) | references/xlsx.md |
-| Fixed layout for distribution, forms, signatures | PDF | references/pdf.md |
+| Prose, reports, memos, letters, tracked changes | Word (.docx) | references/docx.md or `skills/community/docx` |
+| Tabular data, formulas, models | Excel (.xlsx) | references/xlsx.md or `skills/community/xlsx` |
+| Fixed layout for distribution, forms, signatures | PDF | references/pdf.md or `skills/community/pdf` |
+| Slide decks, presentations, pitches | PowerPoint (.pptx) | `skills/community/pptx` |
 
 Rules of thumb:
 

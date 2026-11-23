@@ -5,7 +5,7 @@ Vera's format. They ship at `tier: draft`: reviewed at import, marked
 community-import in their manifests, and promoted through the normal tiers
 (candidate, hardened) only after they prove themselves in use.
 
-## Current source
+## Current sources
 
 - **[swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills)** (MIT) -
   open GTM skills from practitioner authors, ranked by real install counts.
@@ -13,6 +13,9 @@ community-import in their manifests, and promoted through the normal tiers
   signals, planning), deduplicated against her authored skills, converted to
   vendor-neutral language, and given Vera output contracts. Full per-skill
   credit: [ATTRIBUTION.md](ATTRIBUTION.md).
+- **[anthropics/skills](https://github.com/anthropics/skills)** (Apache-2.0) -
+  production document creation and editing skills for Word (`docx`), Excel (`xlsx`),
+  PDF (`pdf`), and PowerPoint (`pptx`) with schema validators and recalc engines.
 
 ## The rules for anything in this bucket
 
