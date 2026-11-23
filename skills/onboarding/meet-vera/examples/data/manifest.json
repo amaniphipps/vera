@@ -1,0 +1,124 @@
+{
+  "activation": {
+    "activated": 1320,
+    "activation_rate": 0.55,
+    "cohorts": {
+      "2026-W40": {
+        "activated": 374,
+        "retained_w2": 241,
+        "signups": 612
+      },
+      "2026-W41": {
+        "activated": 331,
+        "retained_w2": 204,
+        "signups": 598
+      },
+      "2026-W42": {
+        "activated": 318,
+        "retained_w2": 181,
+        "signups": 604
+      },
+      "2026-W43": {
+        "activated": 297,
+        "retained_w2": 166,
+        "signups": 586
+      }
+    },
+    "overall_retention": 0.33,
+    "retained_w2": 792,
+    "retention_of_activated": 0.6,
+    "signups": 2400
+  },
+  "anonymized": true,
+  "arr": {
+    "churn_arr": 4495500,
+    "contraction_arr": 1620500,
+    "ending_active_customers": 1000,
+    "ending_arr": 92264600,
+    "expansion_arr": 2944900,
+    "grr": 0.930472,
+    "movement_counts": {
+      "Churn": 50,
+      "Contraction": 100,
+      "Expansion": 150,
+      "Flat": 670,
+      "New": 80
+    },
+    "net_arr_added": 4299800,
+    "new_arr": 7470900,
+    "nrr": 0.96395,
+    "starting_active_customers": 970,
+    "starting_arr": 87964800
+  },
+  "currency": "USD",
+  "dataset": "Northwind synthetic CRM and ARR",
+  "generated_on": "2026-11-23",
+  "periods": {
+    "arr_rollforward": "2026-Q3",
+    "pipeline_forecast": "2026-Q4"
+  },
+  "pipeline": {
+    "best_case_view": 12846600,
+    "closed_deals": 400,
+    "closed_lost": 140,
+    "closed_win_rate": 0.65,
+    "closed_won": 260,
+    "commit_view": 7014500,
+    "full_pipeline_view": 20241600,
+    "open_by_forecast": {
+      "Best Case": 60,
+      "Commit": 60,
+      "Pipeline": 80
+    },
+    "open_by_stage": {
+      "Discovery": 25,
+      "Negotiation": 65,
+      "Proposal": 74,
+      "Validation": 36
+    },
+    "open_deals": 200,
+    "open_expected_arr_by_forecast": {
+      "Best Case": 5832100,
+      "Commit": 4488700,
+      "Pipeline": 7395000
+    },
+    "open_expected_arr_total": 17715800,
+    "q4_closed_won_arr": 2525800
+  },
+  "seed": 20261123,
+  "source_sha256": {
+    "activation-users.csv": "4d89e0c2e38c1b504d3f99d0fd898352bdf49834fff833031450041023d9ca46",
+    "arr-rollforward.csv": "39ea1932e7e202b8e4ae8a267bdfd90e0690bae917dbc0e6b905a4f198966c5d",
+    "crm-accounts.csv": "f503ba2b39e908af86e30ecaf0748e8a07a47dcf78e861997e0a1a2476ff1924",
+    "crm-activities.csv": "d268589f61c5ba45bdc9e7ae357d7890979da7749050e39a608ad7ee2d645ed3",
+    "crm-contacts.csv": "591f71193b53a6a9e2e94283ae097568f87a5e5718e77a5534fff78863802f7e",
+    "crm-opportunities.csv": "5f92fe6dbb48aa589b9493ab6b8d128b93afc2a6c6de69c00d6044fec4d8638f",
+    "crm-stage-history.csv": "26ffdedcfeece41bd4ab0a8526731a0ca6413676607e41410fa3f7f35d5297c5",
+    "mock-pipeline.csv": "de0e5a0781271f0950a0d08e990748c3f9dfaf8b575968ad5ebd1a6243c56e4b",
+    "pdf-invoice.csv": "8aa38173ff57cdf37b2cf459e99789b4abb50e86bd98d96691897a5ec1e23898",
+    "pdf-quarterly-sales.csv": "76fddd220ec0db8b42dfb9b2f3ef733c81395d66d622ab727b5d03a4491ae2ed",
+    "quota-targets.csv": "87be2aff3c722b23fa5f690a89f0d73f5e5038a958f330e50ab978e085af4342"
+  },
+  "synthetic": true,
+  "tables": {
+    "activation-users.csv": 2400,
+    "arr-rollforward.csv": 1050,
+    "crm-accounts.csv": 1050,
+    "crm-activities.csv": 3000,
+    "crm-contacts.csv": 2100,
+    "crm-opportunities.csv": 600,
+    "crm-stage-history.csv": 2366,
+    "pdf-invoice.csv": 2,
+    "pdf-quarterly-sales.csv": 2,
+    "quota-targets.csv": 8
+  },
+  "total_linked_records": 12578,
+  "validation": {
+    "anonymized_email_domain_only": true,
+    "arr_rows_reconcile": true,
+    "q3_crm_arr_reconciles": true,
+    "unique_primary_keys": true,
+    "zero_orphaned_foreign_keys": true
+  },
+  "version": "1.0.0"
+}

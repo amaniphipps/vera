@@ -2,6 +2,8 @@
 
 This document contains advanced PDF processing features, detailed examples, and additional libraries not covered in the main skill instructions.
 
+For the populated synthetic walkthrough, use the canonical [PDF examples guide](../../onboarding/meet-vera/examples/pdf-examples.md). Its source fixtures are [pdf-invoice.csv](../../onboarding/meet-vera/examples/data/pdf-invoice.csv) and [pdf-quarterly-sales.csv](../../onboarding/meet-vera/examples/data/pdf-quarterly-sales.csv). The CSV-reading snippets below run from the repository root and use those fixtures instead of duplicating fictional rows here.
+
 ## pypdfium2 Library (Apache/BSD License)
 
 ### Overview
@@ -80,7 +82,9 @@ async function manipulatePDF() {
 
 #### Create Complex PDFs from Scratch
 ```javascript
+// Run from the repository root with pdf-lib and csv-parse installed in an isolated JS project.
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
+import { parse } from 'csv-parse/sync';
 import fs from 'fs';
 
 async function createPDF() {
@@ -95,7 +99,7 @@ async function createPDF() {
     const { width, height } = page.getSize();
 
     // Add text with styling
-    page.drawText('Invoice #12345', {
+    page.drawText('Invoice', {
         x: 50,
         y: height - 50,
         size: 18,
@@ -112,12 +116,11 @@ async function createPDF() {
         color: rgb(0.9, 0.9, 0.9)
     });
 
-    // Add table-like content
-    const items = [
-        ['Item', 'Qty', 'Price', 'Total'],
-        ['Widget', '2', '$50', '$100'],
-        ['Gadget', '1', '$75', '$75']
-    ];
+    // Read the canonical synthetic fixture, including its header row.
+    const items = parse(
+        fs.readFileSync('skills/onboarding/meet-vera/examples/data/pdf-invoice.csv', 'utf8'),
+        { skip_empty_lines: true }
+    );
 
     let yPos = height - 150;
     items.forEach(row => {
@@ -387,16 +390,17 @@ with pdfplumber.open("complex_table.pdf") as pdf:
 
 #### Create Professional Reports with Tables
 ```python
+import csv
+from pathlib import Path
+
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib import colors
 
-# Sample data
-data = [
-    ['Product', 'Q1', 'Q2', 'Q3', 'Q4'],
-    ['Widgets', '120', '135', '142', '158'],
-    ['Gadgets', '85', '92', '98', '105']
-]
+# Run from the repository root; keep the canonical header row in the table.
+csv_path = Path("skills/onboarding/meet-vera/examples/data/pdf-quarterly-sales.csv")
+with csv_path.open(newline="", encoding="utf-8") as source:
+    data = list(csv.reader(source))
 
 # Create PDF with table
 doc = SimpleDocTemplate("report.pdf")

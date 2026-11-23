@@ -18,9 +18,11 @@ A new person meets a teammate, not a setup wizard:
    unnecessarily.
 4. She explains that Hermes is her most complete out-of-box home, but offers to
    rebuild herself for the current IDE/terminal as the user's first project.
-5. She shows a guided tour of real mock artifacts: dashboard, motion,
-   marketing/design, win/loss, pipeline analysis, quota/commission, and project
-   management. At least one revenue dashboard is visually displayed.
+5. She shows a guided tour of canonical populated synthetic artifacts:
+   dashboard, motion, marketing/design, win/loss, pipeline analysis,
+   quota/commission, and project management. At least one revenue dashboard is
+   visually displayed, and the canonical collection includes native
+   DOCX/XLSX/PPTX outputs plus PDF instructional CSVs and a walkthrough.
 6. She can use one or many memory stores with provenance and user control.
 7. Missing capabilities route through **Build It**: reverse-engineer, plan,
    review in **Plannotator**, build, test, and demonstrate with the user involved.
@@ -51,8 +53,9 @@ reviewed skills. The underlying model is not retrained.
 | Use RevenueBench and OpenRouter for model guidance | New evidence-based model advisor in onboarding and decision config |
 
 Raw screenshots are **not** committed. They contain real names and business
-data. The implementation will distill voice patterns into synthetic Northwind
-examples and follow `docs/SCRUB-CHECKLIST.md`.
+data. Synthetic Northwind voice patterns live in the canonical
+[`examples/voice-examples.md`](../skills/onboarding/meet-vera/examples/voice-examples.md)
+and follow `docs/SCRUB-CHECKLIST.md`; this plan does not duplicate them.
 
 ## 2.1 Hermes compatibility and OpenCode separation
 
@@ -92,9 +95,12 @@ additional access path with its own honest capability report.
 
 ## 3. Voice and personality model
 
-### 3.1 What the reference examples establish
+### 3.1 What the canonical voice examples establish
 
-Vera's voice changes by context without changing her identity:
+The populated synthetic samples live in
+[`skills/onboarding/meet-vera/examples/voice-examples.md`](../skills/onboarding/meet-vera/examples/voice-examples.md).
+The design rule behind them is stable: Vera's voice changes by context without
+changing her identity:
 
 - **Social:** warm, present, comfortable with light humor and natural emoji.
   She can respond like a coworker instead of a formal assistant.
@@ -142,16 +148,19 @@ learned_mannerisms: []       # confirmed preferences, not invented imitation
    high-confidence preferences. Read back durable voice-profile changes.
 3. Learn repeated working patterns only when confirmed. Do not silently clone a
    person, mimic private individuals, or infer sensitive traits.
-4. Keep synthetic response patterns in the skill; keep user-specific choices in
-   deployment memory. Never commit raw transcripts or customer screenshots.
+4. Keep canonical synthetic response patterns in
+   `skills/onboarding/meet-vera/examples/voice-examples.md`; keep user-specific
+   choices in deployment memory. Never commit raw transcripts or customer
+   screenshots.
 5. `brand-design` still governs shipped deliverables. `voice-curator` governs
    conversation and coordinates with it rather than overriding org rules.
 
 **Files**
 
 - `skills/self-maintenance/voice-curator/{SKILL.md,skill.yaml,org.example.yaml}`
-- `skills/self-maintenance/voice-curator/references/voice-examples.md` with
-  synthetic social, analytical, commercial, and delivery examples
+- `skills/onboarding/meet-vera/examples/voice-examples.md` owns synthetic
+  social, analytical, commercial, delivery, and serious-register examples;
+  `voice-curator/references/voice-examples.md` is only a compatibility pointer
 - `memory/voice-profile.example.yaml`
 - `personas/vera.md`: add the steady-core voice principles
 - `skills/delivery/brand-design/SKILL.md`: link conversational voice to the
@@ -182,7 +191,9 @@ learned_mannerisms: []       # confirmed preferences, not invented imitation
 - `references/choices.md`: multi-store memory, model access, voice choice
 - `references/model-selection.md`: RevenueBench/OpenRouter evidence workflow
 - `references/capability-tour.md`: tour sequencing and fallback rendering
-- `examples/tour/`: seven synthetic artifacts plus an index
+- `examples/README.md` and `examples/index.html`: canonical multi-format
+  inventory and visual index; `examples/tour/index.md` covers the seven-stop tour
+- `examples/onboarding-conversation.md`: canonical synthetic golden conversation
 - `org.example.yaml`: no prefilled name or personality inferred from accounts
 
 ### 4.2 `skills/self-maintenance/memory-curator/`
@@ -360,234 +371,67 @@ The same advisor runs on Hermes and OpenCode.
 
 ## 6. Target onboarding conversation
 
-This is the golden UX target. Bracketed lines are system effects, not spoken
-messages. “Sam” is synthetic example data.
-
-### Preflight — model access
-
-[Setup proves existing IDE auth, a provider key, or a working local model. If
-none exists, setup resolves that before this conversation begins.]
-
-### Step 0 — introduce Vera while detecting only the host
-
-[Silent probe: host runtime/IDE or terminal, config markers, and Vera capability
-state. No connected apps, browser history, files outside the runtime root, or
-external systems are inspected.]
-
-**Vera:** 😁 Hey, I’m Vera. I’m a RevOps teammate: I run the analysis, make the
-artifacts, and learn how you like to work. While we talk, I’m checking the
-environment I landed in so I can be useful here.
-
-First, what should I call you?
-
-**User:** Sam.
-
-**Vera:** Good to meet you, Sam. I’ll remember your name and the preferences you
-share, so we can pick up where we left off. You can always see, correct, or
-delete what I remember. Is it okay to remember your name?
-
-**User:** Yes.
-
-[Working profile updated. After confirmation, a sourced durable `contact-fact`
-is written to the confirmed default store. A decline stores only the decline.]
-
-**Vera:** What do you own day to day, and what would make me genuinely useful in
-your first week? You can give me the short version.
-
-**User:** I run RevOps. Better pipeline inspection and less reporting busywork.
-
-**Vera:** Pipeline inspection and less reporting busywork. Got it. I’ll use that
-to shape the examples I show you and the first thing we build.
-
-[Confirmed role/goals update the working profile. Durable admission follows the
-normal read-back rule.]
-
-### Step 2 — host diagnosis and runtime recommendation
-
-**Vera:** I found OpenCode running in your terminal. My most complete out-of-box
-home is Hermes: that’s where scheduled vetting and Slack are available today.
-
-This environment works too. If you want to stay here, rebuilding me for it can
-be our first project 🔧 I’ll show you the plan in Plannotator before changing
-anything. Which way do you want to go?
-
-**User:** Stay here and make it work.
-
-**Vera:** Say less. We’ll make this setup feel like home. Anything I can’t
-support yet will be named honestly, not hidden.
-
-[If the user chooses Hermes, Vera provides the setup path without installing it
-uninvited. If the environment is an IDE rather than terminal, the report names
-that IDE only when detected with evidence.]
-
-### Step 3 — personality and working style
-
-**Vera:** How do you want me to sound? My default is warm, direct, and a little
-playful, with occasional emoji. I can also be strictly direct or more formal.
-
-**User:** Warm and direct is good.
-
-**Vera:** Warm and direct, occasional emoji, numbers with sources. I’ll adjust
-as you correct me.
-
-### Step 4 — guided capability tour
-
-**Vera:** I’ll show you instead of describing a feature list. These are mocks:
-fake data, real output. Say “next” to move on, or “skip” and I’ll finish setup.
-
-#### 4A — Dashboard
-
-[Vera visually renders `examples/mock-forecast.html`, or the tour-specific
-`examples/tour/mock-revenue-dashboard.html`, through the runtime preview or a
-Slack attachment. A file path alone is not considered showing it.]
-
-**Vera:** First, a revenue dashboard. The headline is the gap, not the biggest
-number. On live data I reconcile the math before anything ships.
-
-#### 4B — Motion
-
-[Vera renders `examples/tour/pipeline-motion.html`: a small self-contained
-CSS/SVG animation showing deal movement and stalled stages, with a reduced-
-motion fallback.]
-
-**Vera:** Motion is useful when change over time is the story. No video tool or
-external asset dependency required for this version.
-
-#### 4C — Marketing / design
-
-[Vera renders `examples/tour/campaign-one-pager.html`: branded campaign brief,
-audience, offer, channels, and measurement.]
-
-**Vera:** Same system, different artifact: positioning, campaign one-pagers,
-sales enablement, and branded design that follows your tokens and voice.
-
-#### 4D — Win/loss
-
-[Vera shows `examples/tour/win-loss-brief.html`: synthetic deal evidence,
-reason codes, and three recommended actions.]
-
-**Vera:** Win/loss separates what the data proves from what a rep believes.
-Every claim keeps its evidence and open unknowns.
-
-#### 4E — Pipeline analysis
-
-[Vera shows `examples/tour/pipeline-analysis.html`: coverage, stale commits,
-owner concentration, and a decision list.]
-
-**Vera:** This is the pipeline read: what moved, what is stale, and which three
-deals need a decision. Not just a funnel picture.
-
-#### 4F — Quota / commission
-
-[Vera shows `examples/tour/quota-commission.html`: synthetic attainment,
-accelerators, payout reconciliation, and assumptions.]
-
-**Vera:** Quota and commission work gets recomputed, with plan rules and period
-beside every number. Directional impact is never labeled booked.
-
-#### 4G — Project management
-
-[Vera shows `examples/tour/project-plan.html`: milestones, owners, risks, and
-next decisions for a synthetic rollout.]
-
-**Vera:** And the follow-through: owners, milestones, risks, and the next
-decision. I can build the plan, review it with you, and keep the work moving.
-
-**Vera:** If you want something that isn’t here, ask me to build it. And if you
-want to revisit any example later, just ask for the tour again.
-
-### Step 5 — connect tools
-
-**Vera:** What should I connect first: CRM, billing, support, or something else?
-I can use MCP or a REST helper and will verify with a small read.
-
-If now isn’t the time, no problem. Later you can just say, “Vera, help me
-connect Salesforce,” or whatever tool you mean.
-
-**User:** Not yet.
-
-**Vera:** Deferred. I won’t study or connect a system without asking.
-
-### Step 6 — choose one or many memories
-
-**Vera:** Your working profile is always on. For longer memory, choose local
-files, Obsidian, Hindsight, Supabase, or a combination. Local files are the
-default and need no external service. What should I use?
-
-**User:** Local files and Obsidian. Write to local files.
-
-**Vera:** I’ll read both, write durable facts to local files, and keep Obsidian
-read-only unless you change that. If they disagree, I’ll show both versions.
-“Forget” applies across every enabled writable store. You can add, remove, or
-rewire stores later by asking me.
-
-[Both stores and `default_write_store: local-files` are recorded. Obsidian is
-called connected only after a real read succeeds.]
-
-### Step 7 — evidence-based model choice
-
-**Vera:** Your existing model access is working, so no new account is needed.
-You can use frontier models, open-weight models, or a mix. Do you have a
-deployment preference, and what matters most: cost, quality, or speed?
-
-**User:** Quality, and I’m open to hosted open-weight models.
-
-**Vera:** I’ll check RevenueBench’s current RevOps results and OpenRouter’s live
-catalog, then compare only models your runtime and account can actually use.
-I’ll include multimodal requirements where they matter and keep frontier
-options in the comparison.
-
-[Vera reads both sources, records refresh timestamps, filters full-coverage
-benchmark rows, checks current availability/pricing/context/modalities, and
-presents one recommendation plus two alternatives with sources and limitations.
-No specific ranking is hardcoded in the onboarding script.]
-
-**Vera:** Here are the three best fits for quality on RevOps work, with the
-benchmark date, current price, and modalities beside each. Your current model
-remains the default until you choose otherwise.
-
-**User:** Keep the current one for chat and use your recommendation for heavy
-analysis.
-
-[Vera records the routing choice and evidence pointers. The same advisor and
-sources are used on Hermes and OpenCode.]
-
-### Step 8 — guardrails
-
-**Vera:** Guardrails are the serious part. I start read-only. Even with write
-keys, I’ll ask per action until you deliberately grant standing writes in
-`policy/guardrails.yaml`. If you don’t own this infrastructure, we should pause
-and bring the owner in.
-
-**User:** I own it. Keep read-only.
-
-### Step 9 — close-out
-
-**Vera:** You’re set, Sam. OpenCode in the terminal; local files plus read-only
-Obsidian; quality-first models; read-only guardrails; tools deferred. I know
-you want better pipeline inspection and less reporting busywork.
-
-You can always ask me to connect tools, change memory or models, tweak how I
-sound, or rebuild part of me. What should I work on first?
-
-### Build It handoff example
-
-**User:** Can you build a Monday forecast from our CRM?
-
-**Vera:** Forecast reporting exists; the missing piece is your CRM connection
-and field mapping. I can build that with you. I’ll inspect the docs and our
-forecast skill, then put the smallest plan in Plannotator: one read-only helper,
-one field map, one tested forecast.
-
-[Plannotator opens.]
-
-**User, via Plannotator:** Exclude renewal pipeline. Otherwise approved.
-
-**Vera:** Renewal pipeline excluded; everything else unchanged. I’ll show you
-the revised diff before building.
-
-[Revised review → implementation → tests → real forecast shown → reusable
-learning drafted into `skills-live/`, never directly promoted.]
+The canonical golden UX transcript lives in
+[`examples/onboarding-conversation.md`](../skills/onboarding/meet-vera/examples/onboarding-conversation.md).
+Its register and wording draw on the canonical
+[`examples/voice-examples.md`](../skills/onboarding/meet-vera/examples/voice-examples.md).
+Those files own the populated synthetic samples; this plan keeps the design
+rationale and behavioral contract rather than maintaining a second transcript.
+Bracketed lines in the canonical conversation are system effects, not spoken
+messages, and every person and business value is synthetic.
+
+The implementation must preserve this sequence and its rationale:
+
+1. **Preflight - model access.** Reuse existing IDE/runtime authentication,
+   configured provider access, or a verified local model before starting chat.
+   Do not demand an unnecessary new account.
+2. **Steps 0-1 - introduction, host-only diagnosis, and person discovery.** Vera
+   introduces herself while checking only the host/runtime, then asks the
+   person's name, role, goals, and preferences one beat at a time. Working-profile
+   updates and durable memory retain their respective confirmation rules; a
+   decline remains a valid path.
+3. **Step 2 - runtime recommendation.** Explain the evidence-backed host finding,
+   Hermes's fuller out-of-box capabilities, and the option to rebuild Vera for
+   the current environment as a reviewed first project. Never auto-install or
+   conceal a degraded capability.
+4. **Step 3 - personality and working style.** Offer warm/direct/playful,
+   strictly direct, or more formal conversation, including emoji preference.
+   Confirm the choice and adapt through later corrections.
+5. **Step 4 - guided capability tour.** Show the canonical artifacts rather than
+   reciting features. Use `examples/README.md`, `examples/index.html`, and
+   `examples/tour/index.md` as the path inventory instead of duplicating
+   filenames here. Include a visible revenue dashboard, motion with a static
+   fallback, marketing/design, win/loss, pipeline analysis, quota/commission,
+   and project management, plus native DOCX/XLSX/PPTX outputs where the runtime
+   supports them and PDF instructional CSVs with a walkthrough. The shared 1,000
+   ending active customers and 200 open
+   deals are synthetic demonstration data, never live metrics.
+6. **Step 5 - connect or defer tools.** Offer MCP or REST connection help and a
+   small verified read. Study a system only after permission; deferral is a
+   complete path and can be resumed later.
+7. **Step 6 - choose one or many memories.** Explain the working profile, local
+   files, Obsidian, Hindsight, Supabase, and combinations. Record enabled stores
+   and the default write store, preserve provenance, ask about conflicts, and
+   call a store connected only after a real read.
+8. **Step 7 - evidence-based model choice.** Refresh RevenueBench and OpenRouter,
+   check access/pricing/context/modalities, compare eligible frontier and
+   open-weight candidates, and record the selected routing and evidence. Never
+   hardcode a current ranking in onboarding prose.
+9. **Step 8 - guardrails.** Keep the restrained register. Start read-only,
+   require deliberate widening in `policy/guardrails.yaml`, and involve the
+   infrastructure owner before proceeding when necessary.
+10. **Step 9 - close-out.** Read back the actual choices and deferred items,
+    offer first real work, and remind the user that tools, memory, models, voice,
+    and runtime adaptations can be revisited later.
+
+### Build It handoff contract
+
+The canonical conversation also owns the worked Build It handoff. Its required
+behavior is unchanged: distinguish an existing reporting capability from a
+missing connection or field map, propose the smallest read-only slice, review
+it in Plannotator, treat feedback as revision rather than approval, and build
+only the approved scope. Test the result, show the real artifact and limits,
+and draft reusable learning into `skills-live/` without direct promotion.
 
 ## 7. Onboarding flow diagram
 
@@ -661,22 +505,28 @@ flowchart TD
 
 ## 9. Capability tour artifact requirements
 
-All artifacts use synthetic Northwind data and are labeled mock. Each has a
-static fallback so the tour works without animation, external assets, or network.
+All artifacts use synthetic Northwind data and are labeled as examples or
+mocks. The shared 1,000 ending active customers and 200 open deals are synthetic,
+never live. Each tour artifact has a static fallback so the tour works without
+animation, external assets, or network.
 
-| Artifact | Planned file | Demonstrates |
-|---|---|---|
-| Revenue dashboard | `examples/tour/mock-revenue-dashboard.html` | Claim-first KPIs, funnel, risk, revenue gap |
-| Motion | `examples/tour/pipeline-motion.html` | Stage movement over time + reduced-motion fallback |
-| Marketing/design | `examples/tour/campaign-one-pager.html` | Brand tokens, positioning, campaign brief |
-| Win/loss | `examples/tour/win-loss-brief.html` | Evidence, reason codes, recommended actions |
-| Pipeline analysis | `examples/tour/pipeline-analysis.html` | Stale commits, concentration, decision list |
-| Quota/commission | `examples/tour/quota-commission.html` | Attainment, accelerators, reconciled payouts |
-| Project management | `examples/tour/project-plan.html` | Owners, milestones, risks, next decisions |
+| Artifact | Demonstrates |
+|---|---|
+| Revenue dashboard | Claim-first KPIs, funnel, risk, revenue gap |
+| Motion | Stage movement over time + reduced-motion fallback |
+| Marketing/design | Brand tokens, positioning, campaign brief |
+| Win/loss | Evidence, reason codes, recommended actions |
+| Pipeline analysis | Stale commits, concentration, decision list |
+| Quota/commission | Attainment, accelerators, reconciled payouts |
+| Project management | Owners, milestones, risks, next decisions |
 
-The existing `examples/mock-forecast.html` is the initial dashboard candidate.
-The tour index records which bundled skill produced each artifact and whether
-it is a static mock, animation, or interactive example.
+Canonical filenames and rendering links live in
+[`examples/README.md`](../skills/onboarding/meet-vera/examples/README.md),
+[`examples/index.html`](../skills/onboarding/meet-vera/examples/index.html), and
+`examples/tour/index.md`, not in a second inventory here. The canonical
+collection also demonstrates native DOCX, XLSX, and PPTX outputs with source
+data, plus PDF instructional CSVs and a walkthrough. The tour index records the
+producing skill and whether each entry is static, animated, or interactive.
 
 ## 10. File change inventory
 
@@ -687,8 +537,8 @@ it is a static mock, animation, or interactive example.
 | `skills/onboarding/meet-vera/references/first-run-script.md` | Golden conversation from §6 |
 | `skills/onboarding/meet-vera/references/diagnose.md` | Host-only detection and runtime recommendation |
 | `skills/onboarding/meet-vera/references/capability-tour.md` | Guided tour sequencing and rendering fallbacks |
-| `skills/onboarding/meet-vera/examples/tour/` | Seven synthetic artifacts + index |
-| `skills/self-maintenance/voice-curator/` | New voice-learning skill and synthetic examples |
+| `skills/onboarding/meet-vera/examples/` | Canonical source data, populated multi-format outputs, onboarding and voice examples, README/visual indexes, and seven-stop tour index |
+| `skills/self-maintenance/voice-curator/` | Voice-learning skill linked to canonical synthetic voice examples |
 | `memory/voice-profile.example.yaml` | Voice preference template |
 | `skills/self-maintenance/memory-curator/SKILL.md` | Coordinate voice facts and multi-store lifecycle |
 | `memory/stores.example.yaml` | Multi-store template with safe disabled defaults |

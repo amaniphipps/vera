@@ -1,0 +1,9 @@
+owner_id,owner_alias,period,quota_usd,tier1_threshold,tier1_rate,tier2_threshold,tier2_rate,tier3_rate,currency
+owner_01,Owner 01,2026-Q4,550000,0.8,0.08,1.0,0.12,0.18,USD
+owner_02,Owner 02,2026-Q4,600000,0.8,0.08,1.0,0.12,0.18,USD
+owner_03,Owner 03,2026-Q4,650000,0.8,0.08,1.0,0.12,0.18,USD
+owner_04,Owner 04,2026-Q4,700000,0.8,0.08,1.0,0.12,0.18,USD
+owner_05,Owner 05,2026-Q4,750000,0.8,0.08,1.0,0.12,0.18,USD
+owner_06,Owner 06,2026-Q4,800000,0.8,0.08,1.0,0.12,0.18,USD
+owner_07,Owner 07,2026-Q4,850000,0.8,0.08,1.0,0.12,0.18,USD
+owner_08,Owner 08,2026-Q4,900000,0.8,0.08,1.0,0.12,0.18,USD

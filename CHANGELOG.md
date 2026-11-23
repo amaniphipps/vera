@@ -100,10 +100,15 @@ First public shape. Everything is new.
 - daily-briefing, nightly-skill-vetter, weekly-recap specs (hermes cron)
 
 ### Brand
-- Light Vera theme (violet accent on warm paper) across report templates and
-  mock outputs; vera-mark + vera-buddy logo assets
+- Public-main Vera tokens across report templates and examples: blue `#3559D6`
+  and teal `#0F8A75` accents, `#1B1F27` ink, cool `#F4F5F7` paper, and
+  `#14182E` dark surfaces, with system font stacks; vera-mark + vera-buddy logo
+  assets
 
 ### Examples
-- 10 mock outputs under skills/onboarding/meet-vera/examples/: chat briefing,
-  HTML forecast, ARR roll-forward (md + waterfall HTML), CSV, Excel workbook,
-  slide format, briefing as email/Slack/plain-text
+- Canonical rich multi-format collection under
+  `skills/onboarding/meet-vera/examples/`: populated synthetic outputs, source
+  data, a visual index, onboarding and voice examples, native DOCX/XLSX/PPTX
+  outputs, and PDF instructional CSVs with a walkthrough. Neutral HTML
+  generation skeletons remain separate in
+  `skills/delivery/vera-reporting/templates/`.

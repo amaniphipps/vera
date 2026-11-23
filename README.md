@@ -30,6 +30,7 @@ hermes
 
 - **Onboards herself.** She says hello, then walks you through connecting tools, memory, and models - in order, at your pace.
 - **Works from day 1.** 45 preset skills: briefings, ARR roll-forwards, forecasts, pipeline reads, cited company profiles, documents, reports, code review - plus 28 community skills from top practitioner authors (forecasting, deal intelligence, signals, planning), selected by real install rank and reshaped to her standards. See [skills/community/](skills/community/).
+- **Shows the craft.** Browse the [canonical synthetic examples](skills/onboarding/meet-vera/examples/README.md) and [visual example index](skills/onboarding/meet-vera/examples/index.html) for populated reports, source data, native DOCX/XLSX/PPTX outputs, and PDF instructional examples.
 - **Learns your systems.** Point her at a connected app and - with your approval - she maps its endpoints, auth, and data shapes, then drafts a skill for it. Drafts sit in `skills-live/` quarantine until you promote them.
 - **Keeps herself tidy.** A nightly vetting pass reviews what she learned. Nothing graduates into her shipped skills without your yes.
 

@@ -38,9 +38,9 @@ Inline everything that the page needs to render. A report that references an ext
 
 Theme values come from the org slots in `org.example.yaml`, applied as CSS variables on `:root`. The template reads `--accent`, `--ink`, `--paper`, `--line`, and the semantic colors (`--good`, `--warn`, `--risk`). Org fonts go into `--font-display`, `--font-ui`, and `--font-mono`. Change org.yaml, not the template.
 
-## Templates
+## Templates and canonical examples
 
-Three report shells live in `templates/`. Copy the one that matches the ask, then replace the data and takeaways.
+Three neutral HTML skeletons live in `templates/`. Copy the one that matches the ask, then replace every `{{TOKEN}}` with run-specific content. Numeric width tokens take numbers without units; display-value tokens take the formatted value. Add or remove repeated cards and rows as the data requires, and leave no token or empty demo row in the delivered report.
 
 | Ask | Template |
 |---|---|
@@ -48,8 +48,10 @@ Three report shells live in `templates/`. Copy the one that matches the ask, the
 | Forecast, where will we land | templates/forecast.html |
 | Funnel, where do we drop off | templates/funnel.html |
 
+The skeletons provide layout and inline CSS only. They are not populated examples and must not be shipped with their tokens intact. For canonical populated synthetic reports and their source data, use the [onboarding examples collection](../../onboarding/meet-vera/examples/) and its [example guide](../../onboarding/meet-vera/examples/README.md). Keep generated live reports separate from those synthetic tour artifacts.
+
 ## Output
 
 - One `.html` file, ready to forward as-is.
-- No watermarks, no draft states, no leftover demo copy.
-- Default width 1320px, wrapped in the `.report-page` container.
+- No watermarks, no draft states, no leftover demo copy or unreplaced template tokens.
+- Default width 1320px, wrapped in the `.page` container.

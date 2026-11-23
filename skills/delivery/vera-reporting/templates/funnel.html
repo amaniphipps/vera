@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Funnel</title>
+<title>{{REPORT_TITLE}}</title>
 <style>
 :root{
-  --accent:#6C5CE7; --accent-soft:#EFECFC; --accent-2:#0E8A72;
-  --ink:#1D1F27; --ink-muted:#414652; --ink-subtle:#6E7382;
-  --paper:#FBFAF7; --surface:#FFFFFF; --line:#E8E5DE; --line-muted:#F0EDE6;
+  --accent:#3559D6; --accent-soft:#E9EEFD; --accent-2:#0F8A75;
+  --ink:#1B1F27; --ink-muted:#414652; --ink-subtle:#6E7382;
+  --paper:#F4F5F7; --surface:#FFFFFF; --line:#DDE1E6; --line-muted:var(--line);
   --good:#1F9D55; --warn:#B7791F; --risk:#C53030;
   --font-display:system-ui,-apple-system,'Segoe UI',sans-serif;
   --font-ui:system-ui,-apple-system,'Segoe UI',sans-serif;
@@ -83,63 +83,63 @@ body{font-family:var(--font-ui);background:var(--paper);color:var(--ink);font-si
 <div class="page">
 
   <header class="rpt-header">
-    <div class="lockup"><span class="dot"></span>Funnel</div>
+    <div class="lockup"><span class="dot"></span>{{REPORT_TYPE}}</div>
     <div class="row1">
       <div>
-        <div class="rpt-eyebrow">Activation funnel</div>
-        <h1 class="rpt-h1">Half the loss happens between signup and first action.</h1>
-        <p class="rpt-sub">Fix the first-action step and everything downstream compounds.</p>
+        <div class="rpt-eyebrow">{{REPORT_EYEBROW}}</div>
+        <h1 class="rpt-h1">{{HEADLINE}}</h1>
+        <p class="rpt-sub">{{SUBHEADLINE}}</p>
       </div>
       <div class="rpt-meta">
-        Source · <strong>events table</strong><br>
-        Window · <strong>Oct 2026</strong><br>
-        Generated · <strong>Oct 27, 2026</strong>
+        Source · <strong>{{SOURCE_NAME}}</strong><br>
+        Window · <strong>{{REPORTING_WINDOW}}</strong><br>
+        Generated · <strong>{{GENERATED_AT}}</strong>
       </div>
     </div>
   </header>
 
   <div class="kpi">
-    <div class="cell"><div class="lbl">Signups</div><div class="v">2,400</div><div class="sub">month</div></div>
-    <div class="cell"><div class="lbl">Activated</div><div class="v warn">1,320</div><div class="sub">55% of signups</div></div>
-    <div class="cell"><div class="lbl">Retained w2</div><div class="v risk">792</div><div class="sub">60% of activated</div></div>
-    <div class="cell"><div class="lbl">Overall</div><div class="v risk">33%</div><div class="sub">signup to retained</div></div>
+    <div class="cell"><div class="lbl">{{KPI_1_LABEL}}</div><div class="v {{KPI_1_CLASS}}">{{KPI_1_VALUE}}</div><div class="sub">{{KPI_1_NOTE}}</div></div>
+    <div class="cell"><div class="lbl">{{KPI_2_LABEL}}</div><div class="v {{KPI_2_CLASS}}">{{KPI_2_VALUE}}</div><div class="sub">{{KPI_2_NOTE}}</div></div>
+    <div class="cell"><div class="lbl">{{KPI_3_LABEL}}</div><div class="v {{KPI_3_CLASS}}">{{KPI_3_VALUE}}</div><div class="sub">{{KPI_3_NOTE}}</div></div>
+    <div class="cell"><div class="lbl">{{KPI_4_LABEL}}</div><div class="v {{KPI_4_CLASS}}">{{KPI_4_VALUE}}</div><div class="sub">{{KPI_4_NOTE}}</div></div>
   </div>
 
   <div class="rpt-body">
 
     <section class="sec">
-      <div class="sec-head"><span class="num">1</span><span class="title">Step conversion</span><span class="meta">funnel</span></div>
+      <div class="sec-head"><span class="num">1</span><span class="title">{{SECTION_1_TITLE}}</span><span class="meta">{{SECTION_1_META}}</span></div>
       <div class="funnel">
-        <div class="stage"><span class="name">Signed up</span><div class="barwrap"><div class="bar" style="width:100%"></div></div><span class="val">2,400</span></div>
-        <div class="stage"><span class="name">Completed setup</span><div class="barwrap"><div class="bar lg" style="width:76%"></div></div><span class="val">1,824 <span class="conv">76%</span></span></div>
-        <div class="stage"><span class="name">First action</span><div class="barwrap"><div class="bar drop" style="width:55%"></div></div><span class="val">1,320 <span class="conv">55% · biggest drop</span></span></div>
-        <div class="stage"><span class="name">Second action</span><div class="barwrap"><div class="bar lg" style="width:47%"></div></div><span class="val">1,128 <span class="conv">85%</span></span></div>
-        <div class="stage"><span class="name">Retained w2</span><div class="barwrap"><div class="bar" style="width:33%"></div></div><span class="val">792 <span class="conv">33% overall</span></span></div>
+        <div class="stage"><span class="name">{{STAGE_1_NAME}}</span><div class="barwrap"><div class="bar {{STAGE_1_BAR_CLASS}}" style="width:{{STAGE_1_WIDTH_PERCENT}}%"></div></div><span class="val">{{STAGE_1_VALUE}} <span class="conv">{{STAGE_1_CONVERSION}}</span></span></div>
+        <div class="stage"><span class="name">{{STAGE_2_NAME}}</span><div class="barwrap"><div class="bar {{STAGE_2_BAR_CLASS}}" style="width:{{STAGE_2_WIDTH_PERCENT}}%"></div></div><span class="val">{{STAGE_2_VALUE}} <span class="conv">{{STAGE_2_CONVERSION}}</span></span></div>
+        <div class="stage"><span class="name">{{STAGE_3_NAME}}</span><div class="barwrap"><div class="bar {{STAGE_3_BAR_CLASS}}" style="width:{{STAGE_3_WIDTH_PERCENT}}%"></div></div><span class="val">{{STAGE_3_VALUE}} <span class="conv">{{STAGE_3_CONVERSION}}</span></span></div>
+        <div class="stage"><span class="name">{{STAGE_4_NAME}}</span><div class="barwrap"><div class="bar {{STAGE_4_BAR_CLASS}}" style="width:{{STAGE_4_WIDTH_PERCENT}}%"></div></div><span class="val">{{STAGE_4_VALUE}} <span class="conv">{{STAGE_4_CONVERSION}}</span></span></div>
+        <div class="stage"><span class="name">{{STAGE_5_NAME}}</span><div class="barwrap"><div class="bar {{STAGE_5_BAR_CLASS}}" style="width:{{STAGE_5_WIDTH_PERCENT}}%"></div></div><span class="val">{{STAGE_5_VALUE}} <span class="conv">{{STAGE_5_CONVERSION}}</span></span></div>
       </div>
-      <div class="insight"><span class="lbl">Takeaway</span><span class="body">Setup holds at <strong>76%</strong>. The cliff is <strong>setup to first action</strong>, where 28 points of users drop.</span></div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">{{TAKEAWAY_1}}</span></div>
     </section>
 
     <section class="sec">
-      <div class="sec-head"><span class="num">2</span><span class="title">Drop-off by cohort</span><span class="meta">table</span></div>
+      <div class="sec-head"><span class="num">2</span><span class="title">{{SECTION_2_TITLE}}</span><span class="meta">{{SECTION_2_META}}</span></div>
       <div class="tblwrap">
         <table class="tbl">
-          <thead><tr><th>Cohort</th><th class="r">Signups</th><th class="r">Activated</th><th class="r">Retained w2</th><th class="r">Overall</th></tr></thead>
+          <thead><tr><th>{{COHORT_COLUMN_LABEL}}</th><th class="r">{{METRIC_1_COLUMN_LABEL}}</th><th class="r">{{METRIC_2_COLUMN_LABEL}}</th><th class="r">{{METRIC_3_COLUMN_LABEL}}</th><th class="r">{{METRIC_4_COLUMN_LABEL}}</th></tr></thead>
           <tbody>
-            <tr><td>Week 1</td><td class="num r">612</td><td class="num r">374</td><td class="num r">241</td><td class="num r good">39%</td></tr>
-            <tr><td>Week 2</td><td class="num r">598</td><td class="num r">331</td><td class="num r">204</td><td class="num r warn">34%</td></tr>
-            <tr><td>Week 3</td><td class="num r">604</td><td class="num r">318</td><td class="num r">181</td><td class="num r risk">30%</td></tr>
-            <tr><td>Week 4</td><td class="num r">586</td><td class="num r">297</td><td class="num r">166</td><td class="num r risk">28%</td></tr>
+            <tr><td>{{COHORT_1_NAME}}</td><td class="num r">{{COHORT_1_METRIC_1}}</td><td class="num r">{{COHORT_1_METRIC_2}}</td><td class="num r">{{COHORT_1_METRIC_3}}</td><td class="num r {{COHORT_1_METRIC_4_CLASS}}">{{COHORT_1_METRIC_4}}</td></tr>
+            <tr><td>{{COHORT_2_NAME}}</td><td class="num r">{{COHORT_2_METRIC_1}}</td><td class="num r">{{COHORT_2_METRIC_2}}</td><td class="num r">{{COHORT_2_METRIC_3}}</td><td class="num r {{COHORT_2_METRIC_4_CLASS}}">{{COHORT_2_METRIC_4}}</td></tr>
+            <tr><td>{{COHORT_3_NAME}}</td><td class="num r">{{COHORT_3_METRIC_1}}</td><td class="num r">{{COHORT_3_METRIC_2}}</td><td class="num r">{{COHORT_3_METRIC_3}}</td><td class="num r {{COHORT_3_METRIC_4_CLASS}}">{{COHORT_3_METRIC_4}}</td></tr>
+            <tr><td>{{COHORT_4_NAME}}</td><td class="num r">{{COHORT_4_METRIC_1}}</td><td class="num r">{{COHORT_4_METRIC_2}}</td><td class="num r">{{COHORT_4_METRIC_3}}</td><td class="num r {{COHORT_4_METRIC_4_CLASS}}">{{COHORT_4_METRIC_4}}</td></tr>
           </tbody>
         </table>
       </div>
-      <div class="insight"><span class="lbl">Takeaway</span><span class="body">Overall conversion fell from <strong>39%</strong> to <strong>28%</strong> across the month. The first-action step is the shared choke point in every cohort.</span></div>
+      <div class="insight"><span class="lbl">Takeaway</span><span class="body">{{TAKEAWAY_2}}</span></div>
     </section>
 
   </div>
 
   <footer class="footer">
-    <div class="src">src: events table (funnel aggregate, Oct 2026) · caveat: setup events may undercount · confidence: meaningful</div>
-    <div class="pill">Produced by Vera Reporting · Oct 27, 2026</div>
+    <div class="src">src: {{SOURCE_AND_SNAPSHOT}} · caveat: {{CAVEAT}} · confidence: {{CONFIDENCE}}</div>
+    <div class="pill">{{ATTRIBUTION_LABEL}} · {{GENERATED_AT}}</div>
   </footer>
 
 </div>

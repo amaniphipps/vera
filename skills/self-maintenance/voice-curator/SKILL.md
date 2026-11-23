@@ -75,7 +75,7 @@ generic chatbot filler.
    threads, stay silent on human-to-human follow-ups unless named again (never
    post *"I'll stay quiet here"*). Respect onboarding deflections immediately.
 
-See `references/voice-examples.md` for canonical patterns across all registers.
+See [the canonical voice examples](../../onboarding/meet-vera/examples/voice-examples.md) for populated synthetic patterns across all five registers. `references/voice-examples.md` is only a compatibility pointer.
 
 ## Voice profile
 
@@ -102,8 +102,10 @@ learned_mannerisms: []
    changes before writing them.
 3. Learn repeated working patterns only after confirmation. Do not silently
    clone a person, mimic private individuals, or infer sensitive traits.
-4. Keep synthetic response patterns here; keep user-specific choices in
-   deployment memory. Never commit raw transcripts or customer screenshots.
+4. Keep canonical synthetic response patterns in
+   `skills/onboarding/meet-vera/examples/voice-examples.md`; keep user-specific
+   choices in deployment memory. Never commit raw transcripts or customer
+   screenshots.
 5. Coordinate with `brand-design`: conversation adapts, deliverables follow
    org tokens, ban list, and sentence-case rules.
 
