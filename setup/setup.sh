@@ -17,6 +17,9 @@
 #   --non-interactive        read all answers from env vars (see .env.example)
 #   --update                 refresh Vera's skills into an existing install
 #   --with-rea               also set up the optional REA capability (needs node)
+#   --with-plannotator       also install standalone plannotator binary
+#   --with-graphify          also install Graphify CLI/MCP (uv + isolated Python 3.12)
+#   --runtime <name>         hermes | opencode | generic | auto (default: auto)
 
 set -euo pipefail
 
@@ -26,6 +29,7 @@ PLATFORM="${VERA_PLATFORM:-cli}"
 NONINTERACTIVE=0
 UPDATE=0
 WITH_REA=0
+WITH_GRAPHIFY=0
 RUNTIME="${VERA_RUNTIME:-auto}"
 WITH_PLANNOTATOR=0
 while [ $# -gt 0 ]; do
@@ -34,6 +38,7 @@ while [ $# -gt 0 ]; do
     --platform) PLATFORM="$2"; shift 2 ;;
     --runtime) RUNTIME="$2"; shift 2 ;;
     --with-plannotator) WITH_PLANNOTATOR=1; shift ;;
+    --with-graphify) WITH_GRAPHIFY=1; shift ;;
     --non-interactive) NONINTERACTIVE=1; shift ;;
     --update) UPDATE=1; shift ;;
     --with-rea) WITH_REA=1; shift ;;
@@ -240,6 +245,14 @@ if [ "$WITH_PLANNOTATOR" = 1 ]; then
   ok "plannotator installed at .tools/plannotator/plannotator (loopback-only, sharing/AI disabled by default)"
 else
   say "  Skipping plannotator install (opt-in via --with-plannotator; Build It falls back to inline review with consent)"
+fi
+if [ "$WITH_GRAPHIFY" = 1 ]; then
+  TARGET_RT="$RUNTIME"
+  [ "$TARGET_RT" = "auto" ] && TARGET_RT="hermes"
+  "$REPO_ROOT/setup/install_graphify.sh" --runtime "$TARGET_RT" --repo "$REPO_ROOT" --hermes-home "$HERMES_HOME" \
+    || warn "graphify install did not complete (retry via ./setup/install_graphify.sh)"
+else
+  say "  Skipping Graphify install (opt-in via --with-graphify or provisioned on demand during system study)"
 fi
 
 # ── 6. Visible success ───────────────────────────────────────────────

@@ -35,12 +35,17 @@ Before touching anything, write down what the study must answer:
 ### 2. Gather evidence
 Use the cheapest honest source first, escalate only as needed:
 1. Official docs and OpenAPI specs, when they exist.
-2. Small, safe live reads against the connected tool (list one record, describe
+2. **Graphify structural scout** when the connected system includes a repo, SDK, dbt/SQL warehouse models, CSV packs, or multi-file specs/playbooks (>5 files):
+   - If `graphify` / `graphify-mcp` is not yet configured and the user wants Vera to map this corpus, explain in one line what will be installed (`uv` + isolated Python 3.12 + `graphifyy[mcp]`, leaving system Python untouched) and on confirmation run `setup/install_graphify.sh --runtime <runtime>`.
+   - Default to `--code-only` (`GRAPHIFY_BACKEND=none`) for local tree-sitter AST extraction. Ask explicit approval (`graphify-semantic-pass`) before sending private docs, PDFs, or images to an LLM backend.
+   - Query `god_nodes`, `get_community`, `query_graph`, and `shortest_path` instead of grepping raw files. Spot-check `EXTRACTED` file/line citations before treating them as `confirmed`; keep `INFERRED` / `AMBIGUOUS` edges marked `inferred` / `unknown`.
+   - Skip Graphify for single-endpoint SaaS APIs with no code or multi-doc corpus.
+3. Small, safe live reads against the connected tool (list one record, describe
    one object). Read-only always.
-3. Runtime observation with the REA MCP when the surface is a web app with no
+4. Runtime observation with the REA MCP when the surface is a web app with no
    usable docs: browser scenario capture and network-capture inspection. REA
    output is evidence, not truth - record its stated limitations.
-4. Static analysis (the analyze-an-app skill) only when the target is a
+5. Static analysis (the analyze-an-app skill) only when the target is a
    JS/Electron app with no documented API.
 
 Respect every rate limit. Batch nothing aggressive. A study is a guest visit,
@@ -60,8 +65,11 @@ a tactical map of the system, not just a spec sheet:
 - **Instance structure** - core objects with field shapes, base endpoints
   (references, not secrets), auth model class, known limitations.
 Every claim carries its evidence - follow the evidence-trail format. Facts
-come from verified reads only, never from chat assertions alone. When you
-report back, regurgitate the map in plain language: "here's who uses this,
+come from verified reads only, never from chat assertions alone. When Graphify
+is available, refresh its index over `knowledge/graph/` (into
+`knowledge/graph/.graphify-out/`, gitignored) so the new system connects to
+existing glossary, business, and system records for cross-system queries. When
+you report back, regurgitate the map in plain language: "here's who uses this,
 here's what for, here's how your instance is put together."
 
 ### 4. Draft the skill

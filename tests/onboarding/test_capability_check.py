@@ -63,10 +63,10 @@ def main():
     contract = yaml.safe_load(open(os.path.join(REPO, "capability", "core-capabilities.yaml")))
     caps = contract["capabilities"]
     ids = [c["id"] for c in caps]
-    check("contract: 13 capabilities", len(caps) == 13, f"got {len(caps)}")
-    check("contract: 7 core, 6 enhanced",
+    check("contract: 14 capabilities", len(caps) == 14, f"got {len(caps)}")
+    check("contract: 7 core, 7 enhanced",
           sum(c["tier"] == "core" for c in caps) == 7 and
-          sum(c["tier"] == "enhanced" for c in caps) == 6)
+          sum(c["tier"] == "enhanced" for c in caps) == 7)
     check("contract: every capability has verify + degraded",
           all(c.get("verify") and c.get("degraded") for c in caps))
     for rt in ("hermes", "opencode", "generic"):
@@ -222,6 +222,46 @@ def main():
         check("doctor generic on repo fixture: runs and reports",
               "Capabilities" in p.stdout and "Secret hygiene" in p.stdout,
               p.stdout[-300:] + p.stderr[-300:])
+
+    # 12. Graphify capability probe: PASS when graphify-mcp + opencode.jsonc wired, INFO when absent.
+    with tempfile.TemporaryDirectory() as tmp:
+        seed_runtime_dirs(tmp)
+        for tree in ["capability", "deploy"]:
+            shutil.copytree(os.path.join(REPO, tree), os.path.join(tmp, tree))
+        bin_dir = os.path.join(tmp, "bin")
+        os.makedirs(bin_dir)
+        mock_mcp = os.path.join(bin_dir, "graphify-mcp")
+        with open(mock_mcp, "w") as f:
+            f.write("#!/bin/sh\nexit 0\n")
+        os.chmod(mock_mcp, 0o755)
+        with open(os.path.join(tmp, "opencode.jsonc"), "w") as f:
+            json.dump({
+                "skills": [f"./vera/skills/{b}" for b in
+                           ["onboarding", "capability-acquisition", "analysis",
+                            "delivery", "engineering", "self-maintenance", "community"]],
+                "mcp": {"servers": {"graphify": {"type": "local", "command": [mock_mcp]}}},
+            }, f)
+        code, data, err = run_check(
+            tmp, runtime="opencode", runtime_root=tmp,
+            extra_env={"OPENROUTER_API_KEY": "test-fixture-key",
+                       "PATH": bin_dir + os.pathsep + os.environ.get("PATH", "")},
+        )
+        rows = {r["id"]: r for r in data.get("capabilities", [])}
+        check("graphify-indexing: PASSes when graphify-mcp + opencode.jsonc wired",
+              rows.get("graphify-indexing", {}).get("status") == "pass",
+              json.dumps(rows.get("graphify-indexing", {})) + err[:200])
+
+    # 13. Graphify installer dry-run + capability-acquisition docs check.
+    installer = os.path.join(REPO, "setup", "install_graphify.sh")
+    p = subprocess.run(["bash", installer, "--runtime", "opencode", "--repo", REPO, "--dry-run"],
+                       capture_output=True, text=True)
+    check("install_graphify.sh --dry-run exits 0", p.returncode == 0, p.stderr[:200])
+    learn_md = open(os.path.join(REPO, "skills", "capability-acquisition", "learn-a-system", "SKILL.md")).read()
+    ev_md = open(os.path.join(REPO, "skills", "capability-acquisition", "evidence-trail", "SKILL.md")).read()
+    check("learn-a-system integrates Graphify + knowledge/graph/ refresh",
+          "Graphify" in learn_md and "knowledge/graph/.graphify-out/" in learn_md)
+    check("evidence-trail maps EXTRACTED/INFERRED/AMBIGUOUS",
+          "EXTRACTED" in ev_md and "INFERRED" in ev_md and "AMBIGUOUS" in ev_md)
 
     print(f"\n{PASSED} passed, {len(FAILED)} failed")
     return 1 if FAILED else 0

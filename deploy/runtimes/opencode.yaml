@@ -49,6 +49,7 @@ capabilities:
   model-router: unavailable        # no router hook; single configured model
   usage-bar: unavailable           # Hermes-specific skill
   plan-review: optional            # standalone binary at .tools/plannotator or PATH; headless supported
+  graphify-indexing: optional      # graphify-mcp via opencode.jsonc mcp.servers; setup/install_graphify.sh
 
 notes: Tested against OpenCode V2 (2026-11). Nightly vetting is on-demand here;
   Slack and usage-bar are declared unavailable, not silently skipped.

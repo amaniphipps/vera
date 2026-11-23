@@ -14,9 +14,14 @@ COPY skills ./skills
 COPY personas ./personas
 COPY policy ./policy
 COPY knowledge ./knowledge
+COPY capability ./capability
 COPY setup ./setup
 COPY docs ./docs
 COPY .env.example ./.env.example
+
+ENV PATH="/root/.local/bin:${PATH}"
+RUN curl -LsSf https://astral.sh/uv/install.sh | sh \
+ && uv tool install --python 3.12 "graphifyy[mcp]" || true
 
 ENV HERMES_HOME=/opt/data
 

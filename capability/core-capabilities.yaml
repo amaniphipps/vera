@@ -95,3 +95,10 @@ capabilities:
     needs: [plannotator-cli]
     verify: plannotator binary present (PATH or repo-local .tools/plannotator).
     degraded: "No Plannotator; plan review falls back to inline review with explicit user consent."
+
+  - id: graphify-indexing
+    tier: enhanced
+    summary: Graphify CLI/MCP builds and queries knowledge graphs over codebases, SQL/CSV schemas, and knowledge/graph/.
+    needs: [mcp:graphify]
+    verify: graphify-mcp or graphify CLI installed (isolated Python 3.12 via uv) and wired into runtime MCP config.
+    degraded: "No Graphify yet; Vera can provision it on demand (setup/install_graphify.sh) or use docs, OpenAPI, live reads, and REA."

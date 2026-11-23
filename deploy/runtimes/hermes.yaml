@@ -41,5 +41,6 @@ capabilities:
   model-router: optional           # decisions/interface.yaml must be wired by operator
   usage-bar: optional              # needs OpenRouter key
   plan-review: optional            # standalone plannotator binary; setup.sh --with-plannotator
+  graphify-indexing: optional      # capability/mcp.graphify.json; setup/install_graphify.sh
 
 notes: Full capability set. Tested against Hermes Agent (NousResearch) local profile.

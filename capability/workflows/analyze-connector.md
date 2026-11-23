@@ -18,7 +18,23 @@ Before any inspection, answer the permission question and get a yes:
 No approval, no analysis. Record the approval (who, when, scope) with the rest
 of the evidence trail.
 
-## 2. Observe the runtime
+## 2. Gather structural & runtime evidence
+
+### 2a. Structural graph scout (Graphify — when system has code, schemas, or multi-file docs)
+
+Where the connected system exposes a repo, SDK, dbt/SQL warehouse models, CSV
+specs, or multi-file Markdown/PDF documentation:
+
+- If `graphify` / `graphify-mcp` is missing and the user approves setup, run
+  `setup/install_graphify.sh --runtime <runtime>` (isolated `uv` + Python 3.12).
+- Run `--code-only` first (`GRAPHIFY_BACKEND=none`) into
+  `knowledge/graph/evidence/<slug>/graphify-out/` so AST extraction stays local.
+  Ask explicit approval (`graphify-semantic-pass`) before sending private docs
+  to an LLM backend.
+- Query `god_nodes`, `query_graph`, and `shortest_path`, then spot-check cited
+  `source_file:source_location` lines before promoting `EXTRACTED` claims.
+
+### 2b. Observe the runtime (REA — when system is a SaaS web/Electron app)
 
 Where the system has a browser, web, or Electron surface, use REA's runtime
 tools to watch behavior: page traffic, endpoints called, data shapes that move.
@@ -28,7 +44,7 @@ tool.
 Capture evidence as you go. Every observation gets a tool, target, timestamp or
 ID, and a confidence level. Follow the evidence-trail standard.
 
-## 3. Write the ontology
+## 3. Write & index the ontology
 
 Record what you learned into a YAML file:
 
@@ -43,6 +59,10 @@ Use the system's slug (lowercase, hyphens). Include at least:
 - evidence: IDs or timestamps backing each claim.
 - unknowns: what was not observed or not established.
 - status: unreviewed.
+
+When Graphify is enabled, refresh the graph index over `knowledge/graph/`
+(`knowledge/graph/.graphify-out/`) so the new system connects to existing
+glossary, business, and system records.
 
 ## 4. Draft the skill
 

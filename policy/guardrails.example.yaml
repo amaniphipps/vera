@@ -24,4 +24,4 @@ sql:
   allowed_statements: [SELECT, SHOW, DESCRIBE, EXPLAIN]
 
 approvals:
-  require_for: [write-external, secret-adjacent-command, rea-analysis]
+  require_for: [write-external, secret-adjacent-command, rea-analysis, graphify-semantic-pass]

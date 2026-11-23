@@ -35,3 +35,10 @@ node_modules/
 # Project-local Hermes runtime and secrets
 .hermes/
 .local-home/
+
+# Graphify generated indexes (rebuildable from source + knowledge/graph/)
+graphify-out/
+knowledge/graph/.graphify-out/
+.graphify_labels.json
+.graphify_labels.json.sig
+.graphify_root

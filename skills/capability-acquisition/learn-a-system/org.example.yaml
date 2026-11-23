@@ -9,6 +9,8 @@ skills_live_path: "skills-live/"
 study:
   max_live_reads: 20        # cap on live API reads per study; a study is a guest visit
   use_rea: true             # false = docs-and-reads only, no runtime observation
+  use_graphify: true        # false = skip Graphify AST/doc graph scouting & index refresh
+  graphify_code_only_default: true  # keep true so AST runs 100% locally unless semantic doc pass is approved
   require_approval: true    # keep true; the permission question is not optional
 
 # Systems already studied (slugs), so Vera offers to refresh rather than redo.

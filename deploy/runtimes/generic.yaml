@@ -36,6 +36,7 @@ capabilities:
   model-router: unavailable
   usage-bar: unavailable
   plan-review: manual              # user-supplied binary; inline fallback with consent
+  graphify-indexing: manual        # user-supplied CLI/MCP via setup/install_graphify.sh
 
 notes: Honest minimum. Enhanced capabilities are listed as unavailable with reasons;
   nothing is faked. Skills are plain markdown and portable by design.

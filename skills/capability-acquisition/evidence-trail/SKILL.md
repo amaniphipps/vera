@@ -24,6 +24,13 @@ If you cannot tie a claim to evidence, it is an assumption. Say so, or drop it.
 - inferred: a reasonable read of the evidence, not directly observed.
 - unknown: not established. Stated as a gap, never guessed.
 
+### Mapping Graphify edges
+
+When evidence comes from Graphify (`graph.json` or `graphify-mcp`):
+- `EXTRACTED` (AST / explicit import or SQL FK): treat as `inferred` until you spot-check the cited `source_file:source_location`, then `confirmed`.
+- `INFERRED`: always `inferred`; include its `confidence_score` and `source_file`.
+- `AMBIGUOUS`: `unknown`; list under `Residual unknowns` for human confirmation.
+
 ## Search boundary
 
 Every answer states what it looked at and what it did not. A bounded negative search is a finding, not a failure. "Not found in these files" is honest. "Does not exist" is not, unless you searched everything.

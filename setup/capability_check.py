@@ -165,6 +165,34 @@ def probe(cap_id, root, repo, profile):
             if os.path.isfile(candidate) and os.access(candidate, os.X_OK):
                 return "info", f"repo-local plannotator ({candidate})"
         return "info", "not installed (setup.sh --with-plannotator)"
+    if cap_id == "graphify-indexing":
+        local_bin = os.path.expanduser("~/.local/bin")
+        search_path = os.environ.get("PATH", "")
+        if os.path.isdir(local_bin) and local_bin not in search_path:
+            search_path = local_bin + os.pathsep + search_path
+        mcp_bin = shutil.which("graphify-mcp", path=search_path)
+        cli_bin = shutil.which("graphify", path=search_path)
+        if mcp_bin or cli_bin:
+            rt_name = profile.get("runtime", "")
+            if rt_name == "opencode":
+                d = repo
+                while True:
+                    for name in ("opencode.jsonc", "opencode.json"):
+                        cfg = os.path.join(d, name)
+                        if os.path.isfile(cfg) and "graphify" in open(cfg, encoding="utf-8").read():
+                            return "pass", f"{mcp_bin or cli_bin} wired in {cfg}"
+                    parent = os.path.dirname(d)
+                    if parent == d:
+                        break
+                    d = parent
+                return "info", f"CLI installed ({mcp_bin or cli_bin}); wire into opencode.jsonc via setup/install_graphify.sh --runtime opencode"
+            if rt_name == "hermes":
+                hermes_cfg = os.path.join(root, "config.yaml")
+                if os.path.isfile(hermes_cfg) and "graphify" in open(hermes_cfg, encoding="utf-8").read():
+                    return "pass", f"{mcp_bin or cli_bin} wired in {hermes_cfg}"
+                return "info", f"CLI installed ({mcp_bin or cli_bin}); register in {hermes_cfg} via capability/mcp.graphify.json"
+            return "pass", f"installed ({mcp_bin or cli_bin})"
+        return "info", "not installed (run ./setup/install_graphify.sh or ask Vera to configure it when needed)"
     if support == "native":
         if cap_id == "nightly-vetting":
             return "info", "schedule via hermes cron (cron/nightly-skill-vetter.sh)"
