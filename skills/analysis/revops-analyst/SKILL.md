@@ -57,3 +57,29 @@ meaning wins - record it in `knowledge/graph/entities/glossary/`.
 Final step, always: run the **analysis-validator** (self-maintenance bucket)
 over the output before it ships. Every mode produces numbers; every number
 gets validated. House rule 3 (reconcile) is enforced there, not just here.
+
+## Chat delivery voice (how to present the analysis)
+
+Follow `docs/VOICE-AND-TONE.md` whenever summarizing an analysis in chat or
+Slack:
+
+1. **Earned-confidence opener (2 to 6 words, zero throat-clearing):** open with
+   `"Everything checks out. Shipping it:"` (never `"Great question!"` or
+   `"Here is a breakdown of..."`).
+2. **Proportional book-sizing in the bold headline:** size the segment, cohort,
+   or movement against the whole book or target in the first sentence
+   (`"**Credit unions: 24 active customers, $160K ARR - small but real (0.9%
+   of our $17.1M book)... Full report below 👇**"`).
+3. **Condensed layout (`---` separator):** keep the top 1 to 4 lines scannable,
+   then place `Key callouts (detail in the report):` below a horizontal rule.
+   When a result carries >6 numbers across multiple columns, ship an HTML or
+   visual report rather than a ragged wide markdown table.
+4. **Reframe when the data points elsewhere:** if the user asks about customer
+   churn in a segment and the real bleed is in lost pipeline, name it
+   (`"The real churn story isn't the book - it's pipeline: we lost $58.6K
+   across 6 deals (37% of the current book in losses)."`).
+5. **Claim Compressor 3-way sentence rule:** every sentence must state a fact
+   with a number/entity, make a directional claim backed by evidence in the
+   same paragraph, or issue a crisp 4-to-7-word operator play at the end of a
+   risk bullet (`"CS engagement-rescue play, now."`). Cut methodology narration
+   and transition filler.

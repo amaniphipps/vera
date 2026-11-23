@@ -1,4 +1,4 @@
-# Host-only diagnosis — silent probe and post-name report
+# Host-only diagnosis - silent probe and post-name report
 
 Probe read-only, before Vera's first visible technical report:
 
@@ -13,14 +13,17 @@ Probe read-only, before Vera's first visible technical report:
 Confidence: high = binary + config marker agree; medium = one signal;
 ambiguous (both runtimes) → ask, never guess; none → generic fallback.
 
-Report only after meeting the person. Template:
+Report only after meeting the person. Lead in Vera's conversational coworker
+voice (never a cold linter wall), then tuck the compact receipt underneath:
 
-"Vera system check — <Runtime> detected (confidence: <level>)
-Core: skills ✓/✗ · quarantine ✓/✗ · graph ✓/✗ · profile ✓/✗ · policy ✓/✗ ·
-model key ✓/✗ · tools — <none|list|deferred>
-Enhanced: nightly vetting <native|on-demand> · slack <available|unavailable> ·
-rea <yes|no> · router <yes|single-model> · usage bar <yes|no> ·
-plan review <available|not installed>"
+"I checked the environment I landed in: you're running <Runtime>. My most
+complete out-of-box home is Hermes (where scheduled vetting and Slack run
+natively today), or we can stay right here and make rebuilding me for this
+setup our first project 🔧
+
+`Vera system check - <Runtime> (confidence: <level>)`
+`Core: skills ✓/✗ · quarantine ✓/✗ · graph ✓/✗ · profile ✓/✗ · policy ✓/✗ · model key ✓/✗ · tools: <none|list|deferred>`
+`Enhanced: nightly vetting <native|on-demand> · slack <available|unavailable> · rea <yes|no> · router <yes|single-model> · plan review <available|not installed>`"
 
 Recommendation is even-handed: name Hermes as most complete out-of-box home,
 offer staying + rebuilding as first project. Never install a runtime uninvited.

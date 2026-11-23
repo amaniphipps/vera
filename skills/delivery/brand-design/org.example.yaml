@@ -29,4 +29,5 @@ logos:
 # --- Voice ---
 voice:
   adjectives: ["plain", "direct", "specific"]   # three words that describe the house voice
-  banned_words: []                               # words to never write
+  banned_words: []                               # marketing/LLM words to never write (see SKILL.md defaults)
+  banned_phrases: []                             # chatbot openers/closers/hedges to never write (see docs/VOICE-AND-TONE.md)

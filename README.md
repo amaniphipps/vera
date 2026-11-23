@@ -49,6 +49,7 @@ Her guardrails live in `policy/guardrails.yaml` - what she can read, where she c
 - [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) - every way to run her
 - [docs/CONNECTING-TOOLS.md](docs/CONNECTING-TOOLS.md) - MCP servers and plain REST APIs
 - [docs/GUARDRAILS.md](docs/GUARDRAILS.md) - the policy model
+- [docs/VOICE-AND-TONE.md](docs/VOICE-AND-TONE.md) - how she talks, formats, and avoids AI slop
 
 ## License
 

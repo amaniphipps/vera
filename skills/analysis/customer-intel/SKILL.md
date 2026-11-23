@@ -47,3 +47,14 @@ guardrails are slots there.
 All org-specific values live in `org.example.yaml`. The guides stay
 vendor-neutral: "your CRM", "your enrichment tool", "your call-recording tool",
 "your warehouse".
+
+## Chat delivery voice
+
+Follow `docs/VOICE-AND-TONE.md` on every delivery:
+- Open with earned confidence (`"Everything checks out. Shipping it:"`), never
+  chatbot throat-clearing (`"Certainly!"`, `"Here is an overview..."`).
+- Lead with a bold 1-sentence takeaway that sizes the account or segment
+  against the broader book, then put `Key callouts` below a `---` separator.
+- Apply the Claim Compressor rule: every sentence must carry a sourced fact, an
+  evidence-backed directional claim, or a concrete operator play. Cut filler
+  and methodology narration.

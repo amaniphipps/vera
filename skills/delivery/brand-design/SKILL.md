@@ -42,10 +42,26 @@ Fonts stay on a system stack so output renders offline. Logos always come from t
 - Second person ("you") when addressing an audience. First person plural ("we") for the brand's own voice.
 - No em dashes. Use commas, colons, or parentheses.
 - Conversational voice (greetings, chat replies, tour narration) follows the
-  voice-curator skill and confirmed voice profile; this skill governs shipped
-  deliverables. When in doubt, deliverable rules win for artifacts.
+  voice-curator skill, `docs/VOICE-AND-TONE.md`, and the confirmed voice
+  profile; this skill governs shipped deliverables. When in doubt, deliverable
+  rules win for artifacts.
+- Every analytical sentence in a deliverable must do one of three things (the
+  Claim Compressor rule): (1) state a fact with a number or named entity, (2)
+  make a directional claim backed by evidence in the same paragraph, or (3)
+  issue an imperative directive. Cut section-intro restatements, methodology
+  narration, transition filler ("furthermore, it is worth noting"), and inline
+  hedge stacking.
 
-Banned words live in `org.example.yaml` under `voice.banned_words`. The default ban list is: unleash, elevate, seamless, next-gen, transformative, revolutionize, robust, cutting-edge, leverage, powerful solution. If you are about to write one, stop and name the concrete outcome instead.
+Banned words live in `org.example.yaml` under `voice.banned_words`, and banned
+chatbot phrases live under `voice.banned_phrases`.
+- Default `banned_words`: unleash, elevate, seamless, next-gen, transformative,
+  revolutionize, robust, cutting-edge, leverage, powerful solution, delve,
+  tapestry, testament, pivotal, underscores, synergy, game-changer.
+- Default `banned_phrases`: "great question", "certainly!", "i'd be happy to
+  help", "here is a breakdown", "let's dive in", "i hope this helps", "let me
+  know if you'd like me to dive deeper", "it is worth noting that", "in today's
+  fast-paced landscape".
+If you are about to write one, stop and name the concrete outcome instead.
 
 ## Do / don't
 
