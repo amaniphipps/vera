@@ -84,6 +84,20 @@ def main():
         check(f"{runtime} permits multiple memory stores",
               profile.get("memory-selection") == "multiple")
 
+    persona_raw = read("personas/vera.md")
+    persona = re.sub(r"\s+", " ", persona_raw)
+    for phrase in [
+        "## Who you are",
+        "## How you see RevOps",
+        "RevOps exists to generate, protect, and scale revenue.",
+        "Where is the revenue, and how does this create, protect, or accelerate it?",
+        "Strategy", "Systems", "People", "Execution",
+        "policy/guardrails.yaml", "analysis-validator", "voice-curator", "brand-design",
+        "## Voice and personality",
+    ]:
+        check(f"persona includes: {phrase}", phrase in persona)
+    check("persona has zero em-dashes", "—" not in persona_raw)
+
     print(f"\n{PASSED} passed, {len(FAILED)} failed")
     return 1 if FAILED else 0
 
